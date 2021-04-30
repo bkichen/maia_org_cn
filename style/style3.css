@@ -1,0 +1,1022 @@
+body{
+	font-family: "microsoft yahei" !important;
+	position: relative;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+/*å¤´éƒ¨*/
+.header{
+	width: 100%;
+	height: 130px;
+	overflow: hidden;
+	background: #033D87;
+}
+.headers .bij{
+	background: url(https://jgb.cnu.edu.cn/images/index_02.jpg) no-repeat right center;
+	width: 487px;
+	height: 130px;
+	position: absolute;
+	right: 0;
+}
+.logo img{
+	/* width: 100%; */
+}
+.logo{
+	width: 700px;
+	height: 64px;
+	margin-top: 30px;
+	float: left;
+}
+.shou{
+	width: 180px;
+	height: 80px;
+	margin-top: 25px;
+	position: relative;
+}
+.shous{
+	text-align: right;
+}
+.shou a{
+	color: #8F8F8F;
+	font-size: 13px;
+	text-align: right;
+}
+.shou span{
+	color: #8F8F8F;
+	margin: 0 10px;
+}
+.search{
+	width: 180px;
+	height: 31px;
+	margin-top: 25px;
+	
+	position: relative;
+	background: #fff;
+	border-radius: 25px;
+}
+.searchText{
+	box-sizing: border-box;
+	border: none;
+    outline: none;
+    font-size: 14px;
+    color: #8F8F8F;
+    background: none;
+    width: 183px;
+    height: 31px;
+    line-height: 31px;
+    border-radius: 25px;
+    padding: 0 55px 0 15px;
+}
+.searchtu{
+	position: absolute;
+	top: 6px;
+	right: 13px;
+	border: none;
+    outline: none;
+}
+
+/*å¯¼èˆª*/
+	.navs{
+		width: 100%;
+		height: 50px;
+		background:#0395E2;
+		clear: both;
+	}
+		.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	.navBar {
+		position: relative;
+		z-index: 1;
+		
+		height: 50px;
+		line-height: 35px;
+		color: white;
+		width:100%;
+		float: left;
+	}
+	
+	.nav a {
+		color: white;
+		
+	}
+	
+	.nav h3 {
+		font-size: 100%;
+		font-weight: normal;
+	}
+
+	.nav .m {
+		float: left;
+		position: relative;
+		z-index: 1;
+		height: 50px;
+		width: 171px;
+	}
+	.nav span{
+		display: block;
+		float: left;
+		margin: 7px 26px;
+	}
+	.nav .s {
+		float: left;
+		width: 3px;
+		color: #D4D4D4;
+		font-size: 15px;
+	}
+
+	.nav h3 a {
+		display: block;
+		
+		text-align: center;
+		font-size: 16px;
+		line-height: 50px;
+	}
+	
+	.nav h3 a:hover {
+		color: white;
+		background: #033D87;
+	}
+		.nav h3 a.on{
+		background: #033D87;
+		color: white;
+	}
+
+	.nav .sub {
+		display: none;
+		/*é»˜è®¤éšè—*/
+		position: absolute;
+		top: 50px;
+		z-index: 1;
+		width: 100%;
+		border-top: 0;
+	}
+
+	.nav .sub li {
+		text-align: center;
+		padding: 0 2px;
+		border-bottom: 1px solid #0079C8;
+		background: #033D87;
+		background: rgba(3,149,226, .8);
+		filter: alpha(opacity=70);
+		width: 100%;
+		height: 40px;
+		box-sizing: border-box;
+	}
+	
+	.nav .sub li a {
+		display: block;
+
+		height: 36px;
+		line-height: 36px;
+		font-size: 15px;
+		color: white;
+	}
+	
+	.nav .sub li:hover {
+		background: #0071C1;
+		text-align: center;
+	}
+	.nav .block {
+		height: 4px;
+		width: 150px;
+		background:url(https://jgb.cnu.edu.cn/images/content_03.png) no-repeat center;
+		position: absolute;
+		top: 46px;
+		overflow: hidden;
+		    z-index: 999;
+	}
+
+
+
+/*è½®æ’­*/
+.banner{
+	background: #EBEBEB;
+	width: 100%;
+}
+.focusBox {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+	
+}
+.focusBoxlist{
+	height: 250px;
+}
+.focusBox .pic {
+	position: relative;
+	z-index: 0;
+}
+body .focusBoxlist .piclist img{
+	height: 250px;
+}
+.focusBox .pic img {
+	width: 100%;
+	height: 380px;
+	display: block;
+}
+
+
+.focusBox .prev,
+.focusBox .next {
+	width: 60px;
+	height: 90px;
+	margin: -45px 0 0;
+	display: none;
+	background: url(https://jgb.cnu.edu.cn/images/bannn.png) no-repeat 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	cursor: pointer;
+	text-indent: -9999px;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+
+.focusBox .prev {
+	left: 15px;
+}
+
+.focusBox .next {
+	background-position: 0 -90px;
+	right: 15px;
+}
+
+.focusBox .prev:hover,
+.focusBox .next:hover {
+	filter: alpha(opacity=100) !important;
+	opacity: 1 !important;
+	
+}
+
+/*æ–°é—»å…¬å‘Š*/
+.news{
+	width: 100%;
+	height: 400px;
+	padding: 30px 0 50px 0;
+	box-sizing: border-box;
+}
+.news .xwbd .focus{
+	width: 820px;
+}
+.title {
+	height: 46px;
+	line-height: 46px;
+	font-size: 20px;
+	color: #033D87;
+	font-weight: 700;
+	position: relative;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 27px;
+}
+.title span{
+	padding-left: 45px;
+	box-sizing: border-box;
+    display: inline-block;
+    border-bottom: 2px solid #033D87;	
+}
+.icon-1 {
+	background: url(https://jgb.cnu.edu.cn/images/index_12.png) no-repeat left center;
+}
+.icon-2 {
+	background: url(https://jgb.cnu.edu.cn/images/index_15.png) no-repeat left center;
+}
+
+
+.title .title-more {
+	position: absolute;
+	right: 0;
+	top: 8px;
+	height: 30px;
+	line-height: 30px;
+}
+
+
+/*æ–°é—»è½®æ’­*/
+.focusBox1 {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	font: 12px/1.5 Verdana, Geneva, sans-serif;
+	text-align: left;
+	background: white;
+	float: left;
+}
+
+.focusBox1 .pic img {
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+.focusBox1 .txt-bg {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	height: 36px;
+	width: 100%;
+	background: #333;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+.focusBox1 .txt {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	height: 36px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.focusBox1 .txt li {
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	bottom: -36px;
+}
+
+.focusBox1 .txt li a {
+	display: block;
+	color: white;
+	padding: 0 0 0 10px;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.focusBox1 .num {
+	position: absolute;
+	z-index: 3;
+	bottom: 13px;
+	right: 8px;
+}
+
+.focusBox1 .num li {
+	float: left;
+	position: relative;
+	width: 8px;
+	height: 8px;
+	line-height: 15px;
+	overflow: hidden;
+	text-align: center;
+	margin-right: 8px;
+	cursor: pointer;
+	
+}
+
+.focusBox1 .num li a,
+.focusBox .num li span {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	color: white;
+	width: 8px;
+	height: 8px;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	border-radius: 50%;
+	background: white;
+}
+
+.focusBox1 .num li span {
+	z-index: 1;
+	background: black;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.focusBox1 .num li.on a,
+.focusBox .num a:hover {
+	background:#E0BB69;
+}
+
+/* æ–°é—»åˆ—è¡¨ */
+.list-new {
+	width: 390px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.list-new li {
+	height: 40px;
+
+	font-size: 15px;
+	background: url(https://jgb.cnu.edu.cn/images/index_29.png) no-repeat left 5px;
+	padding-left: 25px;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+}
+
+.list-new li .date {
+	float: right;
+	color: #999999;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+.list-new li:hover {
+	margin-left: 10px;
+}
+
+.list-new li a {
+	display: block;
+	height: 26px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.tzgg{
+	width: 345px;
+	
+}
+.tzgg li {
+	clear: both;
+	overflow: hidden;
+	box-sizing: border-box;
+	margin-bottom: 23px;
+}
+.tzgg li:hover .data{
+	background: url(https://jgb.cnu.edu.cn/images/index_26.png) no-repeat;
+}
+.tzgg li:hover .data .day{
+	color: white;
+}
+.tzgg li:hover .data .year{
+	color: #F0CEB0;
+}
+.tzgg li .data{
+	display: inline-block;
+	width: 72px;
+	height: 47px;
+	margin-right: 15px;
+	background: url(https://jgb.cnu.edu.cn/images/index_33.png) no-repeat;
+	padding: 7px 10px;
+	box-sizing: border-box;
+	float: left;
+	    margin-top: 1px;
+	cursor: pointer;
+}
+.tzgg li .data .day{
+	color: #033D87;
+	font-size: 17px;
+	line-height: 15px;
+}
+.tzgg li .data .year{
+	color:#999;
+	line-height: 25px;
+    margin-top: -5px;
+    display: inline-block;
+font-size: 12px;
+
+}
+.tzgg li{
+	width: 100%;
+	height: 60px;
+
+	border-bottom: 1px solid #E5E5E5;
+	transition: .3s all ease;
+
+}
+.tzgg li:hover{
+	margin-left: 5px;
+}
+.tzgg li .text a{
+	color: #333;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+/* æ”¿ç­–æ–‡ä»¶ */
+.zcwjs{
+	width: 100%;
+	height: 390px;
+	margin-top: 30px;
+}
+.zcwj {
+	width: 390px;
+}
+
+.zcwj .titles {
+	height: 46px;
+	line-height: 46px;
+	font-size: 20px;
+	color: #033D87;
+	font-weight: 700;
+	position: relative;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 27px;
+}
+.zcwj .titles span{
+	padding-left: 45px;
+	box-sizing: border-box;
+    display: inline-block;
+
+}
+.zcwj .hd li.on{
+	border-bottom: 2px solid #033D87;
+}
+.zcwj .title-more {
+	position: absolute;
+	right: 0;
+	top: 8px;
+	height: 30px;
+	line-height: 30px;
+}
+.icon-3 {
+	background: url(https://jgb.cnu.edu.cn/images/index_37.png) no-repeat left center;
+}
+.icon-4 {
+	background: url(https://jgb.cnu.edu.cn/images/index_40.png) no-repeat left center;
+}
+.zcwj .hd .icon-3{
+	padding-left: 35px;
+	box-sizing: border-box;
+	margin-right: 40px;
+}
+.zcwj .hd li{
+	float: left;
+	cursor: pointer;
+}
+
+
+.zcwj .list-new {
+	width: 390px;
+	height: 300px;
+	overflow: hidden;
+}
+
+.zcwj .list-new li {
+	background: url(https://jgb.cnu.edu.cn/images/index_49.png) no-repeat left 9px;
+	padding-left:18px;
+}
+
+.sdxj{
+	width: 390px;
+	margin: 0 30px 0 40px;
+}
+.sdxj li{
+	width: 100%;
+	height: 136px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #DFDFDF;
+}
+.sdxj li img{
+	width: 80px;
+	height: 115px;
+	float: left;
+	margin-right: 25px;
+}
+.sdxj li h4{
+	font-size: 15px;
+	color: #033d87;
+	font-weight: normal;
+    margin: -2px 0 18px 0;
+}
+.sdxj ul{
+	margin-top: -17px;
+}
+.sdxj li p{
+	font-size: 12px;
+	color: #777;
+	line-height: 20px;
+}
+/* å¸ˆå¾·ä¸¾æŠ¥ */
+.sdjb{
+	width: 338px;
+	height: 316px;
+	background: #EEEEEE url(https://jgb.cnu.edu.cn/images/index_42.jpg) no-repeat;
+	margin-top: 5px;
+	padding: 20px 23px;
+	box-sizing: border-box;
+}
+.sdjb .title {
+	border: none;
+	margin-bottom: 10px;
+}
+.sdjb .title span{
+	border: none;
+	padding: 0;
+}
+.sdjb .ju{
+    font-size: 14px;
+    color: #333;
+    text-indent: 2em;
+    line-height: 26px;
+	margin-bottom: 23px;
+}
+
+.sdjb p{
+	font-size: 15px;
+    color: #333;
+    line-height: 28px;
+}
+.sdjb p span{
+	color: #033D87;
+}
+
+/* å‹æƒ…é“¾æŽ¥ */
+.yqlj{
+	width: 100%;
+	height: 64px;
+	background: #EBEBEB;
+	padding: 21px 0;
+	box-sizing: border-box;
+}
+.yqlj p{
+	color: #033D87;
+	font-size: 18px;
+	padding-left: 38px;
+	box-sizing: border-box;
+	background: url(https://jgb.cnu.edu.cn/images/index_55.png) no-repeat left center;
+	float: left;
+}
+.yqlj a{
+	margin-left: 60px;
+	height: 20px;
+	display: inline-block;
+	font-size: 15px;
+	color: #333;
+	background: url(https://jgb.cnu.edu.cn/images/index_58.png) no-repeat left center;
+	padding-left: 10px;
+	box-sizing: border-box;
+	margin-top: 2px;
+}
+/* åº•éƒ¨ */
+.footer{
+	width: 100%;
+	height: 133px;
+	background: #033D87;
+}
+.foot{
+	padding: 40px 0;
+	box-sizing: border-box;
+	height: 133px;
+	background: #033D87 url(https://jgb.cnu.edu.cn/images/index_63.png) no-repeat right center;
+}
+.foot p{
+	font-size: 14px;
+	color: white;
+	line-height: 30px;
+}
+
+.main .banner .focusBox{
+	height: auto;
+}
+.main .banner .focusBox .pic img{
+	height: auto;
+}
+
+
+/*list*/
+
+/*list-left*/
+.cont_bg{
+	margin-top: 45px;
+}
+.list-left {
+    width: 250px;
+    padding-bottom: 130px;
+    border:1px solid #e4e4e4 ;
+    background: #F6F6F6 url(https://jgb.cnu.edu.cn/images/list1_03.jpg) no-repeat 1px bottom;
+	box-sizing: border-box;
+}
+
+.lanmu-name {
+    width: 225px;
+    height: 45px;
+    margin-top: 13px;
+    line-height: 45px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 37px;
+    background:url(https://jgb.cnu.edu.cn/images/list_03.png) no-repeat left bottom;
+}
+
+/*accordion*/
+
+.accordion {
+    padding: 16px 24px 54px;
+}
+
+.accordion .linke {
+    cursor: pointer;
+    display: block;
+    padding: 17px 0 16px 5px;
+    color: #444444;
+    font-size: 16px;
+    font-weight: bold;
+    border-bottom: 1px solid #dbd5d5;
+    position: relative;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.accordion .linke a {
+    color: #444444;
+    font-size: 16px;
+}
+
+.accordion li {
+    cursor: pointer;
+}
+
+.accordion li i {
+    position: absolute;
+    top:21px;
+    right: 3px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    width: 14px;
+    height: 14px;
+    background: url(https://jgb.cnu.edu.cn/images/aside_arrow.png) no-repeat center;
+}
+
+.accordion li.open .linke {
+    color: #1b3c9b;
+}
+
+.accordion li.open .linke a {
+    color: #033D87;
+}
+
+.accordion li.open i {
+    background: url(https://jgb.cnu.edu.cn/images/list_14.png) no-repeat center;
+}
+
+/*Submenu*/
+
+.submenu {
+    display: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.submenu li {
+    background: url(https://jgb.cnu.edu.cn/images/aside_li_icon.png) no-repeat 25px center;
+}
+.submenu li.on{
+    background: url(https://jgb.cnu.edu.cn/images/list_20.png) no-repeat 25px center;
+}
+.submenu li:hover{
+    background: url(https://jgb.cnu.edu.cn/images/list_20.png) no-repeat 25px center;
+}
+.submenu a {
+    display: block;
+    text-decoration: none;
+    color: #444444;
+    line-height: 30px;
+    padding-left:39px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.submenu li:hover a{
+    color: #033D87;
+    font-weight: bold;
+
+}
+
+
+/*list-right*/
+
+.list-right {
+    width: 905px;
+min-height:300px;
+}
+
+.list-right .list-title {
+    margin-top: -14px;
+    height: 44px;
+    border-bottom: 1px solid #c3c3c3;
+    line-height:44px;
+	
+}
+
+.list-right .list-title > a {
+    display: inline-block;
+    color: #033D87;
+    font-size: 20px;
+    font-weight: bold;
+    height:44px;
+    border-bottom: 2px solid #033D87;
+}
+
+.location {
+    color: #888888;
+}
+
+.location img {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+	margin-top: -3px;
+}
+
+.location a {
+    color: #888888;
+    padding: 0 5px;
+}
+
+/*list-con*/
+
+.list-con {
+    margin: 0px auto;
+    min-height: 500px;
+    padding: 14px 0 20px;
+}
+
+.list-con ul {
+    padding: 0px;
+}
+
+.list-con ul li {
+    padding: 15px 0 15px 30px;
+    line-height: 22px;
+    border-bottom: 1px solid #dcdcdc;
+    background: url(https://jgb.cnu.edu.cn/images/list_07.png) no-repeat left center;
+}
+
+.list-con ul li a {
+    color: #444444;
+    font-size: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.list-con ul li a:hover {
+    font-weight: bold;
+}
+
+.list-con ul li .date {
+    color: #999;
+    font-size: 14px;
+}
+
+.fanye {
+    padding: 30px 15px 20px;
+    text-align: center;
+
+    font-size: 13px;
+    color: #5b5b5b;
+}
+
+/*page-con*/
+
+.page-con {
+    margin: 0px auto;
+    padding: 10px 30px 0px;
+    min-height: 500px;
+    height: auto;
+    overflow: hidden;
+}
+
+.page-con .page-tit {
+    font-size: 20px;
+    color: #444444;
+    font-weight: 500;
+    text-align: center;
+    line-height: 150%;
+    padding: 20px 0 0;
+    color:#033D87;
+}
+
+.page-con .fbt {
+    font-size: 18px;
+    color: #444444;
+    text-align: center;
+    line-height: 150%;
+    padding: 14px 0 10px;
+}
+
+.page-con .page-date {
+    color: #9e9e9e;
+    text-align: center;
+    line-height: 150%;
+    padding: 0px 0 15px;
+    border-bottom: 1px solid #e3dfd5;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.page-con .zhengwen {
+    padding: 20px 0;
+    line-height: 30px;
+    font-size: 15px;
+    color: #444444;
+}
+
+.page-con .zhengwen p {
+    text-indent: 2em;
+    line-height: 30px;
+    font-size: 15px;
+    color: #444444;
+    padding: 0 0 14px 0;
+}
+
+.page-con .zhengwen img, .page-con .zhengwen p img {
+    max-width: 600px;
+    display: block;
+    margin: 10px auto;
+}
+
+.page-con .zhengwen table tr td p,
+.box-2 .zhengwen table tr td span p {
+    text-indent: 0;
+}
+
+/*ç»“æž„åŒ–å†…å®¹*/
+
+.box-2 p.indent0 {
+    text-indent: 0;
+}
+
+.box-2 p.photo {
+    text-align: center;
+}
+
+.box-2 p.photo img {
+    padding: 15px 8px;
+}
+
+/*é™„ä»¶*/
+
+.attach {
+    padding: 10px 0 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.attach .att-title {
+    color: #2649a1;
+    font-weight: bold;
+}
+
+.attach p {
+    line-height: 150%;
+    padding: 5px 0;
+}
+
+.attach p a {
+    color: #2649a1;
+}
+
+/*ä¸Šä¸€æ¡ã€ä¸‹ä¸€æ¡*/
+
+.other-title {
+    padding: 25px 0 20px;
+    border-top: 1px solid #e9e8e8;
+}
+
+.other-title a {
+    color: #444444;
+    font-size: 15px;
+    display: inline-block;
+    line-height: 30px;
+
+}
+.other-title>p {
+    color: #444444;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.other-title a:hover {
+    color: #033D87;
+}

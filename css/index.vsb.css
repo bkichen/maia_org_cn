@@ -1,0 +1,33 @@
+#hd{ margin:0px auto; position: relative;z-index: 11;}
+.fl{float:left;}
+.level2{display: none !important;}
+#nav li{float:left; padding:10px 0;width:130px;font-size:15px;text-align: center;}
+#nav li a.navitem{display:inline-block; color:#fff; height:50px;line-height:50px;padding: 0 14px;border-radius: 4px;text-decoration: none;font-weight: bold;}
+
+.navitem ul{width: 100%;top: 50px;left: 0;background: #ba000a;border-radius: 0 0 4px 4px;display: none;}
+.select_box2 {position: absolute;z-index: 1000;}
+.leixin_xz_a {position: absolute;z-index: 20;}
+.zdh {    width: 100%;top: 50px;left: 0;background: #ba000a;border-radius: 0 0 4px 4px;display: none;}
+.zdh  li{background: #ba000a;}
+.zdh  li a{display: block;width: 100%;line-height: 30px;font-size: 15px;padding: 6px 0;color: #fff;font-weight: bold;border-bottom: 1px solid #94030b;text-decoration: none;}
+.teach_topR_qh li{float:left; padding:10px 0;width:112px;font-size:15px;text-align: center; color:#fff;}
+.select_box  span{ display: inline-block;color: #fff;height: 50px;line-height: 50px;padding: 0 14px;border-radius: 4px;text-decoration: none;font-weight: bold;}
+.son_ul{width: 100%;top: 50px;left: 0;background: #ba000a;border-radius: 0 0 4px 4px;display:none ;}
+.select_box:hover .son_ul{display: block !important;}
+.son_ul  li a{display: block;width: 100%;line-height: 30px;font-size: 15px;padding: 6px 0;color: #fff;font-weight: bold;border-bottom: 1px solid #94030b;text-decoration: none;}
+#banneritem .jqthumb{width:100% !important;}
+.pic{width:300px; height:210px;border:2px solid #BC8F8F;}
+
+.wrapbanner{background: #f0f2f5;}
+.banner{z-index: 1;}
+.banner a{display: block;position: relative;}
+.banner .slick-img{display: block;overflow: hidden;position: relative;width: 100%;}
+.banner .slick-img{height: 0;padding-bottom: 71.4%;}
+/* .banner .slick-img img{position: absolute;width: auto;height: auto;min-width: calc(100% + 1px);min-height: calc(100% + 1px);top: 50%;left: 50%;-webkit-transform: translate3d(-50%,-50%,0) scale(1);transform: translate3d(-50%,-50%,0) scale(1);} */
+.banner .title{background: #fff;line-height: 58px;white-space: nowrap;padding: 0 20px;font-size: 18px;}
+
+.banner .slick-dots{bottom: 75px;}
+.banner .slick-dots li{width: 30px;height: 5px;margin: 0 8px;background: #D9D9D9;}
+.banner .slick-dots li button{display: none;}
+.banner .slick-dots li.slick-active{background: #fc114a;}
+

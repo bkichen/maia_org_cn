@@ -1,0 +1,36 @@
+
+/* CSS Document */
+
+body{ width:100%; background:#fff url(https://ydxy.cnu.edu.cn/images/bodybg.gif) repeat-x;}
+/*head*/
+.header .header_top{ width:1000px; height:133px; background:url(https://ydxy.cnu.edu.cn/images/headerbg.gif) no-repeat; margin:0 auto;}
+.header .header_top .logo{ width:508px; float:left; margin:25px 0 0 23px;}
+.logo{ width:508px; height:92px; background:url(../images/logo.png) no-repeat; display:block;}
+.headRight{ float:right; margin-right:53px;}
+.headRight span{ float:left; line-height:30px;}
+.headRight span a{ font-size:12px; color:#313333; }
+.headRight span a.h_checked{ color:#910f0f;}
+.headRight span b{ margin:0 13px;color:#313333; font-weight:normal; font-size:12px; }
+
+.header .nav{ width:1000px; margin:0 auto; height:35px; background:#313333;}
+.header .nav li{ float:left; }
+.header .nav li a{ display:block; text-align:center; line-height:35px; font-size:12px; color:#ffffff;
+width:105px; cursor:pointer; _float:left;}
+.header .nav li a:hover{background:#910f0f;}
+.header .nav li a.first_hover{ background:#910f0f;}
+.header .nav li .child_nav{ display:none; position:absolute;z-index:1000; top:168px;}
+.header .nav li .child_nav a{ display:block; color:#ffffff; font-size:12px; height:35px; line-height:35px;
+ text-align:center; background:url(../images/navbg.png) no-repeat; }
+.header .nav li .child_nav a:hover{ background:#33588a; width:105px;}
+
+
+/*footer*/
+.footer{ width:1000px; height:82px; margin:10px auto 0; background:url(../images/footbg.gif) repeat-x;
+padding-top:22px;}
+.footer2{ margin-top:0;}
+.footer p{ line-height:24px; text-align:center; color:#ffffff; font-size:12px;}
+.footer p span{ margin-left:37px; margin-right:25px;}
+.wxCode{ position: absolute; right: 10px; bottom: 8px;}
+.wxCode span{display:block;width:80px; height:80px; float:left;}
+.wxCode span#gfwx{background: url(../images/gfwx.jpg) no-repeat; margin-right:10px;}
+.wxCode span#xshwx{background: url(../images/xshwx.jpg) no-repeat;}

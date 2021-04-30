@@ -1,0 +1,426 @@
+body {
+	margin: 0px; padding: 0px; font-size: 12px; background-color: rgb(255, 255, 255);
+}
+a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 140, 86);
+}
+.header {
+	background: rgb(0, 169, 119); margin: 0px auto; width: 100%; height: 175px;
+}
+.top {
+	background: url("../images/top_04.jpg") no-repeat right top; margin: 0px auto; width: 1000px; height: 135px;
+}
+.top_nav_bg {
+	margin: 0px -500px 0px 0px; top: 28px; width: auto; height: 29px; right: 50%; position: absolute;
+}
+.top_nav {
+	margin: 0px auto; width: auto; height: 29px; text-align: right; line-height: 29px;
+}
+.top_nav a {
+	background: url("https://xlxy.cnu.edu.cn/images/top_navbg.gif") no-repeat left; padding: 0px 10px; color: rgb(255, 255, 255); display: inline-block;
+}
+.top_nav a.nobg {
+	background: none;
+}
+.top_nav a:hover {
+	color: rgb(255, 255, 255); font-weight: bold;
+}
+.logo {
+	width: 439px; height: 135px; position: relative;
+}
+.logo_link {
+	width: 439px; height: 135px; display: block;
+}
+.logo img {
+	width: 439px; height: 135px;
+}
+.search {
+	background: url("https://xlxy.cnu.edu.cn/images/search_05.jpg") no-repeat left; top: 78px; width: 192px; height: 26px; right: 50%; margin-right: -500px; position: absolute; z-index: 1000;
+}
+.search input {
+	background: none; margin: 0px; padding: 0px; border: currentColor; border-image: none; left: 0px; top: 0px; width: 150px; height: 26px; color: rgb(50, 50, 50); line-height: 26px; position: absolute;
+}
+.search input.notxt {
+	color: rgb(157, 157, 157); padding-left: 12px;
+}
+.search input.notxt1 {
+	left: 162px; width: 30px; height: 26px; position: absolute;
+}
+.nav {
+	background: url("../images/nav_09.jpg") repeat-x; width: 100%; height: 40px; line-height: 40px;
+}
+.nav ul {
+	margin: 0px auto; width: 1000px;
+}
+.nav ul li {
+	background: url("https://xlxy.cnu.edu.cn/images/nav_libg.jpg") no-repeat left;
+	padding: 0px 11px;
+	height: 39px;
+	color: rgb(1, 109, 56);
+	line-height: 39px;
+	font-size: 14px;
+	float: left;
+}
+.nav ul li:first-child {
+	background: none;
+}
+.nav ul li a {
+	color: rgb(255, 255, 255);
+}
+.nav ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+.nav ul li.on a {
+	color: rgb(255, 255, 255);
+}
+.nav ul li .subNav a:hover {
+	color: rgb(255, 255, 255);
+}
+.nav ul li .subNav {
+	background: rgb(0, 140, 86); padding: 10px; top: 39px; width: 97px;
+}
+.nav ul li.on .subNav dl dd {
+	padding: 3px 10px 3px 20px; height: auto; line-height: 20px;
+}
+.nav ul li.on .subNav dl dd {
+	color: rgb(1, 109, 56);
+}
+.nav ul li.on .subNav dl dd a {
+	padding: 0px;
+}
+.content {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 1000px; overflow: hidden;
+}
+.Banner {
+	margin: 10px auto 0px; width: 1236px; height: 385px;
+}
+.flex-control-paging li a:hover {
+	background: rgb(1, 58, 30);
+}
+.flex-control-paging li a.flex-active {
+	background: rgb(1, 58, 30);
+}
+.flexslider ul.slides li img {
+	width: 1236px; height: 385px;
+}
+.flexslider .til_slides {
+	background: url("../images/slider_10.png") repeat-x; left: 119px; width: 1000px; height: 40px; text-align: center; bottom: 0px; color: rgb(255, 255, 255); line-height: 40px; font-size: 18px; position: absolute;
+}
+.flex-control-nav {
+	display: none;
+}
+.mode01 {
+	width: 1000px; height: 301px; overflow: hidden; clear: both; margin-top: 14px;
+}
+.mode01 .lf {
+	width: 499px; height: 301px; float: left;
+}
+.mode01 .rt {
+	width: 471px; height: 301px; float: right;
+}
+.articleList .listTitle {
+	height: 41px; line-height: 41px;
+}
+.articleList h2 {
+	margin: 0px 0px 0px 10px; padding: 0px; width: auto; height: 39px; color: rgb(0, 140, 86); line-height: 39px; font-size: 16px; border-bottom-color: rgb(0, 140, 86); border-bottom-width: 3px; border-bottom-style: solid; float: left;
+}
+.articleList .listTitle a {
+	width: auto; font-size: 12px;
+}
+.articleList .listTitle .more {
+	margin: 10px 3px 0px 0px; float: right;
+}
+.articleList ul {
+	padding: 16px 14px; border: 1px solid rgb(202, 202, 202); border-image: none;
+}
+.articleList ul li {
+	margin: 0px 0px 15px; height: auto; overflow: hidden;
+}
+.articleList ul li.last {
+	margin: 0px;
+}
+.articleList ul li .date {
+	background: url("../images/date_10.png") no-repeat; width: 45px; height: 45px; float: left; display: inline-block;
+}
+.date p {
+	height: 22px; text-align: center; color: rgb(255, 255, 255); line-height: 22px; font-family: Georgia;
+}
+.date p.year {
+	font-size: 16px;
+}
+.date p.day {
+	color: rgb(0, 140, 86); font-size: 14px;
+}
+.articleList a {
+	width: 395px; line-height: 22px; float: right;
+}
+.articleList_firstImageSummary_title {
+	height: 41px; line-height: 41px;
+}
+.articleList_firstImageSummary_title h2 {
+	margin: 0px 0px 0px 10px; padding: 0px; width: auto; height: 39px; color: rgb(0, 140, 86); line-height: 39px; font-size: 16px; border-bottom-color: rgb(0, 140, 86); border-bottom-width: 3px; border-bottom-style: solid; float: left;
+}
+.articleList_firstImageSummary_title a {
+	margin: 3px 3px 0px 0px; width: auto; font-size: 12px; float: right;
+}
+.news_list {
+	background: rgb(233, 245, 240); padding: 20px 13px;
+}
+.firstArticle {
+	overflow: hidden;
+}
+.firstArticle_image {
+	width: 106px; height: 70px; float: left;
+}
+.firstArticle_content {
+	width: 320px; height: 70px; float: right;
+}
+.firstArticle_title {
+	margin: 7px 0px; font-size: 12px; font-weight: bold;
+}
+.firstArticle_summary {
+	line-height: 20px;
+}
+.articleList_firstImageSummary ul {
+	padding: 10px 0px 0px;
+}
+.articleList_firstImageSummary ul li {
+	background: url("../images/li_17.png") no-repeat left; padding: 0px 0px 0px 16px; height: 28px; line-height: 28px;
+}
+.articleList_firstImageSummary ul li a {
+	float: left;
+}
+.articleList_firstImageSummary ul li span {
+	float: right;
+}
+.mode02 {
+	margin: 9px auto 28px; width: 1000px; overflow: hidden;
+}
+.mode02 .lf {
+	width: 657px; float: left;
+}
+.mode02 .rt {
+	width: 311px; float: right;
+}
+.tab .tab_title {
+	height: 41px; line-height: 41px;
+}
+.tab h2 {
+	margin: 0px 0px 0px 10px; padding: 0px; width: auto; height: 39px; color: rgb(0, 140, 86); line-height: 39px; font-size: 16px; float: left;
+}
+.tab .tab_title a {
+	margin: 0px 3px 0px 0px; width: auto; font-size: 12px; float: right;
+}
+.tab_con {
+	padding: 5px 19px; border: 1px solid rgb(194, 207, 221); border-image: none;
+}
+.tab_con ol {
+	overflow: hidden; border-bottom-color: rgb(211, 211, 211); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.tab_con ol li {
+	margin: 0px 53px 0px 0px; padding: 0px 7px; height: 39px; line-height: 39px; float: left;
+}
+.tab_con ol li a {
+	font-size: 14px;
+}
+.tab_con ol li.current {
+	border-bottom-color: rgb(0, 140, 86); border-bottom-width: 2px; border-bottom-style: solid;
+}
+.tab_con ol li.current a {
+	font-weight: bold;
+}
+.tab_con ul {
+	margin: 10px 0px 0px;
+}
+.tab_con ul li {
+	background: url("../images/li_17.png") no-repeat 6px; padding: 0px 0px 0px 25px; height: 30px; line-height: 30px;
+}
+.tab_con ul li a {
+	float: left;
+}
+.tab_con ul li span {
+	float: right;
+}
+.link ul {
+	overflow: hidden;
+}
+.link ul li {
+	margin: 0px 0px 17px; width: 143px; height: 97px; float: left;
+}
+.link ul li.li01 {
+	background: url("../images/link01_14.jpg") no-repeat; float: left;
+}
+.link ul li.li01 a {
+	padding: 11px 0px 0px 20px; width: auto; height: auto; color: rgb(255, 255, 255); font-size: 18px; display: block;
+}
+.link ul li.li02 {
+	background: url("../images/link02_14.jpg") no-repeat; float: right;
+}
+.link ul li.li02 a {
+	padding: 11px 0px 0px 20px; width: auto; height: auto; color: rgb(255, 255, 255); font-size: 18px; display: block;
+}
+.link ul li.li03 {
+	background: url("../images/link03_14.jpg") no-repeat; float: left;
+}
+.link ul li.li03 a {
+	padding: 11px 0px 0px 20px; width: auto; height: auto; color: rgb(255, 255, 255); font-size: 18px; display: block;
+}
+.link ul li.li04 {
+	background: url("../images/link04_14.jpg") no-repeat; float: right;
+}
+.link ul li.li04 a {
+	padding: 11px 0px 0px 20px; width: auto; height: auto; color: rgb(255, 255, 255); font-size: 18px; display: block;
+}
+.link ul li a:hover {
+	font-weight: bold;
+}
+.link {
+	margin: 31px 0px 0px;
+}
+.friendLink {
+	background: rgb(0, 140, 86); height: 86px;
+}
+.friendLink .friendLink_title {
+	background: rgb(57, 173, 86); padding: 5px 10px; width: 16px; height: 76px; color: rgb(255, 255, 255); font-size: 14px; float: left;
+}
+.friendLink ul {
+	padding: 5px 0px 0px 15px; float: left;
+}
+.friendLink ul li {
+	height: 19px; color: rgb(255, 255, 255); line-height: 19px;
+}
+.friendLink ul li a {
+	color: rgb(255, 255, 255);
+}
+.footer {
+	height: 109px; color: rgb(255, 255, 255); background-color: rgb(0, 140, 86);
+}
+.copyRight {
+	margin: 0px auto; width: 1000px; text-align: center; line-height: 30px; padding-top: 20px; font-family: "΢���ź�";
+}
+.subPage {
+	margin: 0px auto; width: 1000px; min-height: 500px;
+}
+.pageBanner {
+	width: 1000px;
+}
+.Bread {
+	width: auto; height: 39px; color: rgb(0, 140, 86); line-height: 39px; font-size: 13px; margin-top: 5px; border-bottom-color: currentColor; border-bottom-width: medium; border-bottom-style: none;
+}
+.Bread a {
+	color: rgb(0, 140, 86);
+}
+.articleList2 {
+	
+}
+.articleList2 ul li {
+	background: url("../images/li_17.png") no-repeat left; padding: 0px 0px 0px 20px; height: 30px; line-height: 30px;
+}
+.articleList2 ul li a {
+	float: left;
+}
+.articleList2 ul li span {
+	float: right;
+}
+.listTitle2 {
+	background: none; padding-left: 0px;
+}
+.listTitle2 h2 {
+	padding: 0px; height: 33px; color: rgb(1, 113, 59); line-height: 33px; font-size: 16px; font-weight: bold;
+}
+.subPage .articleList2 {
+	margin: 10px 0px 20px;
+}
+.page {
+	margin: 20px 0px 30px; width: 100%; height: 30px; text-align: center; line-height: 30px; clear: both; font-size: 12px;
+}
+.page a {
+	padding: 0px 5px;
+}
+.pageList {
+	overflow: hidden; padding-bottom: 30px;
+}
+.articleTitle {
+	width: 100%; text-align: center;
+}
+.articleTitle h2 {
+	padding: 10px 0px; color: rgb(0, 140, 86); line-height: 20px; font-size: 18px;
+}
+.articleTitle h3 {
+	padding: 10px 0px; color: rgb(85, 85, 85); line-height: 20px; font-size: 14px; font-weight: bold;
+}
+.articleAuthor {
+	background: rgb(245, 245, 245); margin: 10px; height: 30px; text-align: center; color: rgb(119, 119, 119); line-height: 30px;
+}
+.article {
+	margin: 20px 10px; line-height: 32px; overflow: hidden; font-size: 15px;
+}
+.Annex {
+	padding: 0px; overflow: hidden; margin-bottom: 30px;
+}
+.Annex h3 {
+	color: rgb(0, 140, 86); line-height: 30px; padding-left: 5px; font-size: 16px;
+}
+.Annex ul li {
+	background: url("../images/li_17.png") no-repeat 10px; height: 26px; line-height: 26px; padding-left: 28px;
+}
+.Annex ul li a {
+	color: rgb(101, 100, 100); line-height: 24px; font-size: 12px;
+}
+.Annex ul li a:hover {
+	color: rgb(0, 140, 86);
+}
+.pictureList_tl2 ul {
+	width: 1020px; overflow: hidden;
+}
+.pictureList_tl2 ul li {
+	margin: 0px 24px 0px 0px; width: 180px; height: 165px; text-align: center; float: left;
+}
+.pictureList_tl2 ul li img {
+	width: 180px; height: 140px; display: block;
+}
+.pictureList_tl2 ul li p {
+	height: 20px; line-height: 20px;
+}
+.con {
+	width: 1000px; height: auto; overflow: hidden;
+}
+.con .con_left {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(227, 227, 227) rgb(227, 227, 227) currentColor; margin: 5px 0px 0px; border-image: none; width: 200px; float: left;
+}
+.con .con_left .left_title {
+	background: url("https://xlxy.cnu.edu.cn/images/cen_tbg.jpg") repeat-x; height: 39px; line-height: 39px;
+}
+.con .con_left .left_title h2 {
+	padding: 0px 0px 0px 20px;
+}
+.con .con_left .left_title h2 a {
+	color: rgb(1, 113, 59); font-family: "΢���ź�"; font-size: 16px; font-weight: bold;
+}
+.con .con_left ul li {
+	
+}
+.con .con_left ul li a {
+	padding: 10px 20px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.con .con_left ul li.current {
+	border-bottom-color: rgb(1, 113, 59); border-bottom-width: 3px; border-bottom-style: solid;
+}
+.con .con_right {
+	width: 780px; height: auto; float: right;
+}
+.pictureList ul {
+	width: 800px; overflow: hidden;
+}
+.pictureList ul li {
+	margin: 0px 20px 0px 0px; width: 180px; height: 165px; text-align: center; float: left;
+}
+.pictureList ul li img {
+	width: 180px; height: 140px; display: block;
+}
+.pictureList ul li p {
+	height: 20px; line-height: 20px;
+}

@@ -1,0 +1,141 @@
+
+/* CSS Document */
+html{}
+body{font-size:63%;/*font-family:"\5FAE\8F6F\96C5\9ED1", SimSun;*/background-color:#fffef9;color:#333;font-family:"微软雅黑",'Microsoft YaHei',SimSun,SimHei ,"STHeiti Light",STHeiti,"Lucida Grande", Tahoma,Arial, Helvetica, sans-serif;}
+html,body,address,blockquote,div,dl,form,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul,dd,dl,dt,li,tbody,td,tfoot,th,thead,tr,button,del,ins,map,object,a,abbr,acronym,b,bdo,big,br,cite,code,dfn,em,i,img,kbd,q,samp,small,span,strong,sub,sup,tt,var,legend,fieldset
+{margin:0px;padding:0px;-webkit-font-smoothing: subpixel-antialiased;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+fieldset,img{border:0;}
+img,object{max-width:100%;/*height:auto;*/width:auto\9;/* for ie8 */-ms-interpolation-mode: bicubic;}
+a{outline:none;blr:expression(this.onFocus=this.blur());text-decoration:none;color: #333;}
+a:hover{color: #008ad6;text-decoration: none;}
+input[type='button']{outline:none;border:0 none;background-color:transparent;cursor:pointer;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400;}
+/*定义清除浮动样式 方法一*/
+.clearfix:after{content:'\20';display:block;height:0;clear:both; visibility:hidden;}
+.clearfix{zoom:1;}
+/*定义清除浮动样式 方法二*/
+.clear{clear:both;}
+/*font-size */
+.f12px{font-size:1.2em;}
+.f14px{font-size:1.4em;}
+.f16px{font-size:1.6em;}
+.f18px{font-size:1.8em;}
+.f20px{font-size:2.0em;}
+.f22px{font-size:2.2em;}
+.f24px{font-size:2.4em;}
+/*float */
+.fl{float:left;}
+.fr{float:right;}
+.ct{ margin:0 auto;}
+ul,ol,li{list-style:none outside none;}
+.tc{text-align:center !important;}
+.tl{text-align:left  !important;}
+.tr{text-align:right  !important;}
+.fwn{font-weight:normal;}
+.fwb{font-weight:bold;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';content:none;}
+input,textarea,select{font-weight:inherit;}
+input,select,textarea,button {vertical-align:middle}
+.pa{position:absolute;}
+.pr{position:relative;}
+.inblock{display:inline-block;*zoom:1;*display:inline;}
+.disnone{display:none;}
+.block{ display:block;}
+.hidden{ overflow:hidden !important;}
+.none{ display:none;}
+.textoverflow{ white-space:nowrap; overflow:hidden;text-overflow: ellipsis;}
+.underline:hover{text-decoration:underline;}
+.mtc{margin:0 auto;}
+.number{ font-family:Arial;}
+.fw600{font-weight: 600;}
+.hand{cursor: pointer;}
+.distable{display: table;}
+.distr{display:table-row;}
+.distd{display:table-cell;}
+.mr35px{margin-right: 35px;}
+.ml35px{margin-left: 35px;}
+.mr10px{margin-right:10px;}
+.ml10px{margin-left:10px;}
+.mt20px{margin-top:20px;}
+.topicInfo li{transtion:all 1s ease 0s}
+.imgResponsive {width: 100%;height: 0;padding-bottom: 66.67%;overflow: hidden;display: block;}
+.imgResponsive img{width: 100%;}
+
+body{min-width: 1200px;}
+
+.Wrapheader{ width: 100%; height: 190px; margin-bottom: 11px; background: url(https://cnuk.cnu.edu.cn/images/headerbg.png) no-repeat #fffffe center top;  box-shadow:0 2px 2px #e1e1e1;}
+.header{ width: 1144px; height: auto; margin: 0 auto;}
+.logo a{ display: block; width: 136px; margin: 0 auto; }
+
+.nav{overflow: hidden;}
+.nav ul{}
+.nav ul li{ width: 20%;*width: 19.9%; margin: 40px 0 30px 0; float: left; text-align: center; }
+.nav ul li a{ display: inline-block; transition: all 0.3s ease; } 
+.nav ul li a:hover{ margin-top: -5px; }
+.nav ul li.logo{ margin-top: 27px; }
+.nav ul li i{ display: table-cell; vertical-align: middle; height: 85px; }
+.nav ul li span{ display: inline-block; *display: block; font-size: 17px; height: 25px; line-height: 25px;}
+.nav ul li a:hover span{ font-weight: bold;  }
+
+
+
+.Wrapfooter{ background: url(https://cnuk.cnu.edu.cn/images/footerbg.png) no-repeat top center; padding-top: 61px; margin-top: 20px;}
+.footer{ background: url(https://cnuk.cnu.edu.cn/images/footerbg2.jpg) no-repeat center; height: 255px;}
+.footer_max{ width: 1200px; margin: 0 auto; padding:50px 0; position: relative;overflow: hidden; }
+.footer_lf{width: 47%;float:left;overflow: hidden;text-align:right;}
+.footer_lf a{margin-right:30px;}
+.footer_lf p{ color: #fff; font-size: 14px; line-height: 30px; }
+.footer_md{width: 30%;float: left;margin: 25px 0;overflow: hidden;}
+.footer_md p{color: #deeef9;font-size: 15px;font-weight:bold;line-height: 30px;}
+.footer_rt{/* width: 16%; */float: none;text-align: left;margin: 25px 0;overflow: hidden;}
+/* .footer_rt adisplay: inline-block; text-align: left;} */
+.footer_rt img{height:100px;width:auto;}
+
+
+.blue{ position: absolute; right: 0; bottom:25px; }
+
+
+/*图片轮播*/
+/*FlexSlider默认样式*/
+.Banner{ overflow: hidden; position: relative; }
+.Banner .flexslider {position: relative; max-width: 1144px; height: auto; margin: 0 auto; }
+.Banner .flexslider ul.slides li{ list-style:none; position: relative;}
+.Banner .flexslider ul.slides li .slideImg{ display:block; margin: 0 10px; height: 580px; overflow:hidden;}
+
+.Banner .flex-viewport { max-height: 2000px; overflow: visible !important; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.Banner .loading .flex-viewport {  }
+.Banner .flexslider .slides { zoom: 1; width:100%;  padding:0;}
+.Banner .carousel li { margin-right: 5px; }
+/*icon小点*/
+.Banner .flex-control-nav {width:auto;text-align:center; display: block;clear: both;}
+.Banner .flex-control-nav li { margin:15px 5px; display: inline-block; zoom: 1; *display: inline;}
+.Banner .flex-control-paging li a {  float:left; width: 4px; height: 4px; display: block; background:none; border: #ffce4b 3px solid; border-radius: 50%;  cursor: pointer;text-indent: -9999px; }
+.Banner .flex-control-paging li a:hover,.Banner .flex-control-paging li a.flex-active {border: #005a8b 3px solid;}
+
+
+.Banner .flex-direction-nav{ display:block; }
+.Banner .flex-direction-nav li{display: inline-block;*display: inline;*zoom:1; position: static !important;}
+.Banner .flex-direction-nav a{ width:51px;height:50px;text-align: center;display: inline-block; position: absolute;z-index: 99; text-indent: -999em;cursor: pointer;overflow: hidden;
+  -webkit-transition:  all 0.5s ease; -moz-transition: all 0.5s ease; transition: all 0.5s ease;}
+.Banner .flex-direction-nav a:hover{-webkit-opacity: 0.8;-moz-opacity: 0.8;filter:alpha(opacity=80);opacity:0.8;}
+.Banner .flex-direction-nav a.flex-prev{ background:url(https://cnuk.cnu.edu.cn/images/prev.png) no-repeat center; left:-25px; top: 50%; margin-top: -25px;}
+.Banner .flex-direction-nav a.flex-next{  background:url(https://cnuk.cnu.edu.cn/images/next.png) no-repeat center; right:-25px; top: 50%; margin-top: -25px;}
+
+
+
+/*党团建设*/
+.articleList01{ width: 1200px; margin:65px auto auto auto; overflow: hidden; }
+.articleList01 ul{ }
+.articleList01 ul li { float: left; width: 25%; }
+.articleList01 ul li.li2{ margin-top: 12px; }
+.articleList01 ul li a{ display: block; margin: 8px; background: #fff; box-shadow:0px 1px 4px 1px #eaeaea; padding: 9px 5px; transition: all 0.5s ease;transform: rotate(0deg);}
+.articleList01 ul li a:hover{transform: rotate(4deg);}
+.articleList01 ul li span.artImg{ display: inline-block; width: 268px; height: 156px; border: #008ad6 3px solid; overflow: hidden; position: relative;}
+.articleList01 ul li span.artTxt{ font-size: 15px; font-weight: bold; display:inline-block;height: 48px;line-height: 24px; margin:15px; overflow: hidden;}
+.articleList01 ul li span.artImg strong{ display: inline-block; width: 44px;height: 44px; text-align: center; line-height: 44px; position: absolute; left: -7px; top:-10px; font-size: 12px; color: #666; 
+	background: url(https://cnuk.cnu.edu.cn/images/datebg.png) no-repeat; }
+.articleList01 ul li a:hover span.artImg strong{ background: #fff; border-radius: 50%; border:#008ad6 3px solid; }
+.articleList01 ul li span.artImg img{width: 268px; height: 156px;transition: all 0.3s ease; }
+.articleList01 ul li a:hover span.artImg img{ transform: scale(1.1); }

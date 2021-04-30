@@ -1,0 +1,157 @@
+
+/* CSS Document */
+body{margin:0; padding:0; font-size:12px; background-color:#fff;}
+a{text-decoration:none; color:#323232;}
+a:hover{ color:#003a8e;}
+
+/*头部*/
+.header{ width:100%; height:162px; margin:0 auto;}
+.top{width:100%; height:117px; margin:0 auto; position:relative;}
+.top_nav{ width:100px;margin:0 auto;height:29px; line-height:29px; text-align:left; position:absolute; z-index:2; margin-top:15px; left:50%; margin-left:420px;}
+.top_nav a{display:inline-block; padding:0 15px;  color:#fff; font-size:14px;}
+.top_nav a:hover{ font-weight:bolder;}
+.logo{ width:1231px;height:117px;margin:0 auto;position:relative;}
+.logo_link{width:440px;height:77px; padding-top:15px;display:block;}
+.logo img{}
+.search{width:268px; height:32px;position:absolute;right:50%; margin-right:-615px;bottom:42px;background:url(https://youshi.cnu.edu.cn/images/sea.jpg) no-repeat left center; z-index:1000; }
+.search input{position:absolute; width:220px;height:32px;line-height:32px; color:#aaa9aa; border:none; background:none; left:0px; top:0px;  padding:0px; margin:0px;}
+.search input.notxt{color:#aaa9aa; padding-left:15px;}	
+.search input.notxt1 {position:absolute;width:35px;height:32px;left:230px;}
+
+.nav{ width:1440px;height:45px; line-height:45px; background-color:#003a8e; margin:0px auto;}
+.nav ul{ width:1100px; margin:0px auto;}
+.nav ul li{float:left;color:#fff; font-size:14px; font-weight:bold;height:45px;line-height:45px; padding:0px 38px;}
+.nav ul li:first-child{ background: none;}
+.nav ul li a{color:#fff; font-size:16px; font-weight:normal;}
+.nav ul li a:hover,.nav ul li.on a{color:#fff;}
+.nav ul li .subNav{ width:100px;	padding-top: 6px; position: absolute; top:40px; left:20px; display: none; z-index: 99; background: url(https://youshi.cnu.edu.cn/images/arr1.png) 45px top no-repeat;}
+.nav ul li.on .subNav a{ color:#003a8e;}
+.nav ul li.on .subNav dl{ background-color:#f6fff3 ; padding:10px 0px;}
+.nav ul li.on .subNav dl dd{ text-align:center; padding:0px;margin:0px;}
+.nav ul li.on .subNav dl dd a{ padding:0px; margin:0px;text-align:center;}
+
+
+.content{ width:1440px; margin:0px auto; background:#fff; overflow:hidden;}
+.Banner{width:1440px; height:463px; margin:0 auto; margin-top:7px; position:relative}
+.flexslider ul.slides li img{ width:1440px; height:463px;}
+
+/*图片轮播*/
+.flexslider{ width:1440px; height:463px; overflow: hidden;}
+.flexslider img{ display: block; width:1440px; height:463px;}
+.flexslider .til_slides{ width:100%; height: 49px; position: absolute;bottom:0; left:0; line-height: 49px; background: #444; background: rgba(0,0,0,.6); color:#fff; padding-left: 15px;}
+.flex-control-nav{ bottom:15px; text-align: right; width:100px; right:100px;}
+.flex-control-paging li{ margin:0 10px 0 0;}
+.flex-control-paging li a{ height:11px; width:10px;background:#fff;text-indent:999px;}
+.flex-control-paging li a:hover,.flex-control-paging li a.flex-active{background:#d5bb0d;}
+
+.Notice .notice_tit{ float:left;}
+.Notice{ width:1340px; height:49px; line-height:49px; color:#fff; z-index:666; font-size:14px; padding-left:100px; position:absolute; bottom:0px;}
+.Notice a{ color:#fff; font-size:14px;}
+#block2{height:49px;width:1000px;font-size:14px;text-align:left; float:left} 
+#block2 ul{list-style:outside none none;height:49px;overflow:hidden;margin:0;} 
+#block2 ul li{float:left;display:inline;height:49px;width:100%;} 
+#block2 ul li a{text-decoration:none;} 
+
+.mode01{width:1231px; overflow:hidden; clear:both; height:524px; margin-top:12px; margin:0px auto;}
+.mode01 .lf{ width:299px; height:524px; margin-right:20px; float:left;overflow:hidden;}
+.mode01 .md{ width:302px; height:524px; margin-right:20px; float:left;overflow:hidden;}
+.mode01 .md2{ width:302px; height:524px; float:left;overflow:hidden;}
+.mode01 .rt{ width:260px; height:524px;float:right;overflow:hidden;}
+
+.articleList{}
+.more{ float:right}
+.more a{ color:#bcbcbc;}
+.listTitle{height:32px; margin:24px 0px 10px; line-height: 32px; overflow:hidden; background:url(https://youshi.cnu.edu.cn/images/icon1.jpg) no-repeat 2px center; padding-left:42px;} 
+.listTitle h2{font-size: 18px; color:#003a8e;height: 32px; line-height: 32px; padding:0px;}
+.listTitle2{height:32px; margin:24px 0px 10px; line-height: 32px; overflow:hidden; background:url(https://youshi.cnu.edu.cn/images/icon2.jpg) no-repeat 2px center; padding-left:42px;} 
+.listTitle2 h2{font-size: 18px; color:#003a8e;height: 32px; line-height: 32px; padding:0px;}
+.listTitle3{height:32px; margin:24px 0px 10px; line-height: 32px; overflow:hidden; background:url(https://youshi.cnu.edu.cn/images/icon3.jpg) no-repeat 2px center; padding-left:42px;} 
+.listTitle3 h2{font-size: 18px; color:#003a8e;height: 32px; line-height: 32px; padding:0px;}
+.articleList ul{ padding-left:5px;}
+.articleList ul li{ height:34px; line-height: 19px; background: url(https://youshi.cnu.edu.cn/images/list_icon1.jpg) no-repeat left 22px; border-bottom:1px solid #dfdfdf; padding:18px 0px; padding-left:17px;}
+.articleList ul li a{ font-size:14px;}
+.articleList ul li span{  font-size:13px; color:#486fa9; float:none; margin-left:10px;}
+
+.link{ margin-top:27px;}
+.link p{ height:43px; line-height:43px; margin-bottom:3px;}
+.link p a{ display:block; font-size:16px; color:#fff; padding-left:84px; background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #6d98d5; }
+.link p a.link1{ background-position: 42px 10px }
+.link p a.link2{ background-position: 42px -35px }
+.link p a.link3{ background-position: 42px -80px }
+.link p a.link4{ background-position: 42px -130px }
+.link p a.link5{ background-position: 42px -180px }
+.link p a.link6{ background-position: 42px -225px }
+.link p a.link7{ background-position: 42px -275px }
+.link p a.link1:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px 10px }
+.link p a.link2:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px -35px }
+.link p a.link3:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px -80px }
+.link p a.link4:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px -130px }
+.link p a.link5:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px -180px }
+.link p a.link6:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px -225px }
+.link p a.link7:hover{ background:url(https://youshi.cnu.edu.cn/images/link_icon.png) no-repeat #003a8e; background-position: 42px -275px }
+
+.link dl{ background:url(https://youshi.cnu.edu.cn/images/link_dlbg.jpg) repeat-x; height:135px; margin-bottom:3px; padding-top:5px;}
+.link dl dd{ margin-left:48px; line-height:32px; height:32px; background:url(https://youshi.cnu.edu.cn/images/link_icon2.jpg) no-repeat left center; padding-left:17px;}
+.link dl dd a{ font-size:14px;}
+
+/*底部开始*/
+.footer{height: 124px;background-color:#003178;color:#fff;}
+.copyRight{width:464px; margin:0 auto;text-align:left; padding-top:20px; line-height:24px; font-family:"微软雅黑";}
+.copyRight img{ float:right}
+.copyRight p{ margin-top:8px;}
+
+/*侧栏列表页*/
+.pg_content{ margin-top:14px; width:1440px; margin:0px auto;}
+.pg_banner{ width:1440px; height:273px;  margin-bottom:0px;}
+.pg_banner img{width:1440px; height:273px;}
+.bread{width:100%; height:40px; line-height:40px; font-size: 12px; text-align:right; border-bottom:1px solid #ccc; margin-bottom:10px; margin-top:5px;}
+.bread a{ padding:0 8px;}
+.bread img{ margin-right:10px;}
+.con_mian{ width:1231px; margin:0px auto}
+.t_con_mian{ width:1231px; margin:0px auto}
+.lf_list{ width:290px; float:left; overflow: hidden; }
+.lf_list h3{font-size:18px; color:#333; line-height: 50px; text-align:center; font-weight:bolder}
+.lf_list ul{border-top: 1px solid #d1d1d1; overflow: hidden;}
+.lf_list ul li{ line-height: 26px; border-bottom: 1px solid #d1d1d1; overflow: hidden; text-align:center; }
+.lf_list ul li a{ display:block; font-size: 15px; border-bottom-width: 2px;border-bottom-style:solid;border-bottom-color:transparent;_border-bottom-color:#fef3e4;font-weight: bold; text-align:center;padding:5px 0px;}
+.lf_list ul li a:hover,.lf_list ul li.focus a{color:#fff; background-color:#003a8e; display:block}
+
+.rt_list{width:875px; float:right; overflow: hidden; min-height: 480px; background-color:#ecf1f9; padding-left:30px; padding-right:20px;}
+h3.til_rtlist{ font-size: 18px; font-weight: normal; line-height: 38px; color:#333; font-weight:bolder;  padding-left:0px; margin-top:0px;}
+h3.til_rtlist2{ font-size: 18px; font-weight: normal; line-height: 30px; height:30px; color:#333; font-weight:bolder;  padding-left:0px; }
+.ul_list ul{ padding:20px 0px 20px 0px; overflow: hidden;}
+.ul_list ul li{ line-height: 36px}
+.ul_list ul li a{ font-size:14px;}
+.ul_list ul li span{ float:right; margin-right: 10px; font-family: Georgia, "Times New Roman", Times, serif; color:#888; font-size:14px;}
+
+.pages{ width:100%; margin:0 auto;height: 30px; line-height: 30px; background-color:#dee7f3;overflow: hidden; text-align: center; font-size: 12px; margin-bottom: 40px;}
+.pages a{ padding:0 10px;}
+.pages span{ padding:0 5px; color:#bc0b1b; font-weight: bold;}
+
+/*侧栏文章页*/
+.til_art h2{ font-size: 18px; line-height: 30px; color:#bc0b1b; padding:15px 10px 10px; text-align: center;}
+.til_art h4{ font-size: 15px; line-height: 30px; color:#666; text-align: center; padding:0 10px 5px;}
+.author{width:100%; margin:0 auto 0; text-align: center; font-size: 12px; line-height: 30px; border-bottom:1px solid #d2d2d2;  overflow: hidden; }
+.art_list{ padding:20px 0px 40px 0px; overflow: hidden; line-height:32px; font-size:14px;}
+.fujian{width:100%; margin:0 auto; padding-bottom: 40px; border-top:1px solid #d2d2d2; overflow: hidden;}
+.fujian h4{ font-size: 16px; color:#003a8e; line-height: 40px; padding-left: 15px; padding-top: 10px;}
+.fujian ul{ padding-left: 15px;}
+.fujian ul li{background: url(https://youshi.cnu.edu.cn/images/list_icon1.jpg) no-repeat left center; padding-left: 15px;  height:30px; line-height:30px; }
+.fujian ul li a{font-size:14px;}
+.article_t{ width:100%; overflow: hidden;}
+
+/*侧栏图片列表页*/
+.pic_list ul{ padding-left:0px; padding-top: 20px; width:1000px;}
+.pic_list ul li{ width:206px; height: 166px; float:left; margin-right:15px; padding-bottom: 25px; overflow: hidden;}
+.pic_list ul li a{ display: block; width:200px; height: 160px; line-height: 30px; text-align: center;}
+.pic_list ul li a img{ display: block; width:200px; height: 130px; border: 1px solid #fff;}
+
+
+
+/*教师列表页*/
+.teacher_list{ padding-bottom: 20px; overflow: hidden;}
+.teacher01_list{ padding:15px 0; margin:0 15px; overflow: hidden; border-top:1px solid #eadac5;}
+.teacher01_list h3{ font-size: 16px; color:#990000; line-height: 30px; background: url(https://youshi.cnu.edu.cn/images/icon08.png) no-repeat 10px center; padding-left:30px;}
+.teacher01_list ul{ width:100%; padding-left: 30px; padding-top: 10px; overflow: hidden;}
+.teacher01_list ul li{ width:100px; float:left; height: 32px; line-height: 32px; overflow: hidden;}
+

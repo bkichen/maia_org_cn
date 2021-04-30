@@ -1,0 +1,102 @@
+
+/* CSS Document */
+
+
+
+
+
+.content{ width: 100%; overflow: hidden; }
+.mode01{width: 100%; height: 421px; background:url(https://cnuk.cnu.edu.cn/images/borderbg.png) repeat-x;   margin: 35px auto 75px auto; overflow: hidden;}
+
+.articleTitle01{height: 35px; line-height: 35px; margin-bottom: 35px; text-align: center;}
+.articleTitle01 .title{ display: inline-block; width: 404px; font-size: 25px; font-weight: bold; background: url(https://cnuk.cnu.edu.cn/images/titlebg.png) no-repeat center;}
+.articleTitle01 .more{ display: inline-block; float: right; width: 55px; height: 22px; text-align: center; line-height: 22px; background:#69bdea; border-radius: 5px;margin-top: 7px;}
+.articleTitle01 .more a{ color: #fff; font-size: 12px; }
+
+
+
+
+
+
+
+.mode02{ height: 411px; overflow: hidden; }
+/*教育教学*/
+.articleList02{ width: 1200px; margin: 0 auto; overflow: hidden; }
+.articleList02 ul{ }
+.articleList02 ul li { float: left; width: 25%; }
+.articleList02 ul li.li1 a{ background: url(https://cnuk.cnu.edu.cn/images/linkbg1.png) no-repeat right 5px top; *background: url(https://cnuk.cnu.edu.cn/images/linkbg1.png) no-repeat center top; 
+	background: url(https://cnuk.cnu.edu.cn/images/linkbg1.png) no-repeat center top \9;padding-top: 45px; }
+.articleList02 ul li.li2 a{ background: url(https://cnuk.cnu.edu.cn/images/linkbg2.png) no-repeat center top; padding-top: 73px; }
+.articleList02 ul li.li3 a{ background: url(https://cnuk.cnu.edu.cn/images/linkbg3.png) no-repeat right 20px top; *background: url(https://cnuk.cnu.edu.cn/images/linkbg3.png) no-repeat right top;
+background: url(https://cnuk.cnu.edu.cn/images/linkbg3.png) no-repeat right top\9; padding-top: 48px; }
+.articleList02 ul li.li4 a{ background: url(https://cnuk.cnu.edu.cn/images/linkbg4.png) no-repeat center top; padding-top: 80px; }
+
+
+.articleList02 ul li.li2{ margin-top: 12px; }
+.articleList02 ul li a{ display: block; margin: 8px; padding: 0 5px; transition: all 0.5s ease;transform: rotate(0deg);}
+.articleList02 ul li a:hover{transform: rotate(4deg);}
+.articleList02 ul li span.artImg{ display: inline-block; width: 268px; height: 156px; border: #ffba00 3px solid; overflow: hidden; position: relative;}
+.articleList02 ul li span.artTxt{ font-size: 15px; font-weight: bold; display:inline-block;height: 48px;line-height: 24px; margin:15px 0; overflow: hidden;}
+.articleList02 ul li a:hover span.artTxt{ color: #004970; }
+.articleList02 ul li span.artImg strong{ display: inline-block; width: 44px;height: 44px; text-align: center; line-height: 44px; position: absolute; left: -4px; top:-10px; font-size: 12px; color: #666; 
+	background: url(https://cnuk.cnu.edu.cn/images/datebg.png) no-repeat; }
+.articleList02 ul li a:hover span.artImg strong{ background: #fff; border-radius: 50%; border:#ffba00 3px solid; left: -5px;}
+.articleList02 ul li span.artImg img{width: 268px; height: 156px;transition: all 0.3s ease; }
+.articleList02 ul li a:hover span.artImg img{ transform: scale(1.1); }
+
+
+
+
+/*后勤保障*/
+.mode03{width: 1200px; height:478px;  margin: 40px auto 55px auto;}
+
+.articleList03{}
+.articleList03 ul{ margin: 0 -20px; overflow: hidden; }
+.articleList03 ul li{ width:50%; float: left; }
+.articleList03 ul li > div{ background: #fff; margin:15px 20px; padding: 9px 20px 9px 5px; box-shadow: 0px 1px 4px 1px #eaeaea; overflow: hidden; }
+.articleList03 .art-Img{ display: inline-block; width: 269px;height: 148px; border: #1d8fcc 4px solid; float: left; overflow: hidden; position: relative;}
+.articleList03 .art-Img a{ display: inline-block; width: 269px; height: 148px; overflow: hidden;}
+
+.articleList03 ul li span.art-Img strong{ display: inline-block; width: 44px;height: 44px; text-align: center; line-height: 44px; position: absolute; left: -4px; top:-10px; font-size: 12px; color: #666; 
+	background: url(https://cnuk.cnu.edu.cn/images/datebg.png) no-repeat; }
+.articleList03 ul li:hover span.art-Img strong{ background: #fff; border-radius: 50%; border:#1d8fcc 3px solid; left: -5px;}
+
+
+
+.articleList03 .art-Img a img{ width: 269px; height: 148px; transition: all 0.3s ease; }
+.articleList03 .art-Img a:hover img{  transform: scale(1.1);}
+
+.articleList03 .art-Txt{ display:block; margin-left:303px; }
+.articleList03 .art-Txt a{ display: block; padding-top: 7px; margin:0 0 15px 0; height: 48px; line-height: 24px; font-size: 15px; font-weight: bold; overflow: hidden;}
+.articleList03 .art-Txt p{ display: block; height: 65px; font-size: 14px; line-height: 22px; color: #666; overflow: hidden;}
+
+
+
+/*园所概况*/
+.Wrapmode04{ height: 608px; background:url(https://cnuk.cnu.edu.cn/images/borderbg.png) repeat-x #fbf9f6; overflow: hidden; }
+.mode04{height: 608px; background: url(https://cnuk.cnu.edu.cn/images/modebg.png) no-repeat center bottom; overflow: hidden;}
+
+.articleList04{ width: 1200px; margin:55px auto; overflow: hidden; }
+.articleListText{ width: 1000px; height: 256px; margin: 0 auto; overflow: hidden; }
+.articleListText p{ font-size: 15px; line-height: 24px; color: #666; text-indent: 2em; padding-bottom: 20px; }
+
+.articleListImg{ max-width: 1920px; height: 140px; position: relative; }
+.articleListImg a{ display: inline-block;border: #008ad6 3px solid; overflow: hidden;}
+.articleListImg .img1{ width: 132px; height: 72px; position: absolute; left: 3%; top: -211px; }
+.articleListImg .img2{ width: 239px; height: 132px; position: absolute; left: 9%; }
+.articleListImg .img3{ width: 132px; height: 72px; position: absolute; left:44%; bottom: 36px;}
+.articleListImg .img4{ width: 191px; height: 105px;position: absolute; right:21.5%;}
+.articleListImg .img5{ width: 132px; height: 72px; position: absolute; right:14%; top: -273px; }
+.articleListImg a img{ transition: all 0.3s ease; }
+.articleListImg a:hover img{ transform: scale(1.1); }
+
+
+
+
+
+@media screen  and (max-width:1386px) {
+    .articleListImg .img1{ left: 1%; }
+    .articleListImg .img4{right: 12%;}
+    .articleListImg .img5{ right: 1%; }
+}
+

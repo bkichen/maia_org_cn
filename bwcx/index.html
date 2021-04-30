@@ -1,0 +1,616 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>不忘初心牢记使命专题</title><meta name="keywords" content="高校模板二十四">
+
+<link href="css/style-1135.css" rel="stylesheet">
+<script type="text/javascript" src="../js/koala.min.js"></script>
+<script type="text/javascript" src="../js/bdtxk.js"></script>
+<script type="text/javascript" src="../js/jqmain.foucs.js"></script>
+<script type="text/javascript" src="../js/placeholderie.js"></script>
+<script>
+        $(function () {
+            loadTop('top');
+        });
+
+        function loadTop(id) {
+            var topBar;
+            if (typeof (id) === 'string') {
+                topBar = $('#' + id);
+            } else {
+                topBar = $(id);
+            }
+            topBar.css('z-index', '100');
+
+            var $bg = $('<div style="background:#ba000a;opacity:0;"></div>');
+            $bg.css('position', 'absolute');
+            $bg.css('width', topBar.css('width'));
+            $bg.css('height', topBar.css('height'));
+            $bg.css('z-index', '99');
+            var isShowBackground = false;
+            $(window).on('scroll', function (event) {
+                if ($(document).scrollTop() == 0) {
+                    if (isShowBackground) {
+                        $bg.animate({
+                            opacity: 0
+                        }, 500);
+                        isShowBackground = false;
+                    }
+                    $bg.css('top', topBar.offset().top);
+                    $bg.css('left', topBar.offset().left);
+                } else {
+                    if (!isShowBackground) {
+                        $bg.animate({
+                            opacity: 1
+                        }, 500);
+                        isShowBackground = true;
+                    }
+                    $bg.css('top', topBar.offset().top);
+                    $bg.css('left', topBar.offset().left);
+                }
+                event.stopPropagation();
+            });
+            topBar.bind('mouseenter', function () {
+                if ($(document).scrollTop() == 0 && !isShowBackground) {
+                   
+                    $bg.animate({
+                        opacity: 1
+                    }, 500);
+                    isShowBackground = true;
+                    $bg.css('top', topBar.offset().top);
+                    $bg.css('left', topBar.offset().left);
+                }
+            });
+            topBar.bind('mouseleave', function () {
+                if ($(document).scrollTop() == 0 && isShowBackground) {
+                   
+                    $bg.animate({
+                        opacity: 0
+                    }, 500);
+                    isShowBackground = false;
+                }
+                $bg.css('top', topBar.offset().top);
+                $bg.css('left', topBar.offset().left);
+            });
+            $('body').append($bg);
+        }
+    
+    function timer(opj){
+        $(opj).find('ul').animate({
+            marginTop : ""  
+            },500,function(){  
+            $(this).css({marginTop : ""}).find("li:first").appendTo(this);  
+        })  
+    }
+    $(function(){ 
+        var num = $('.notice_active').find('li').length;
+        if(num > 1){
+           var time=setInterval('timer(".notice_active")',3500);
+            $('.gg_more a').mousemove(function(){
+                clearInterval(time);
+            }).mouseout(function(){
+                time = setInterval('timer(".notice_active")',3500);
+            }); 
+        }
+        
+        $(".news_ck").click(function(){
+            location.href = $(".notice_active .notice_active_ch").children(":input").val();
+        })
+    });
+    </script>
+
+
+  <!--Announced by Visual SiteBuilder 9-->
+<link rel="stylesheet" type="text/css" href="../css/_sitegray_d.css">
+<script language="javascript" src="../js/_sitegray.js"></script>
+<!-- CustomerNO:77656262657232307e78465452515742000000054553 -->
+<link rel="stylesheet" type="text/css" href="index.vsb-1135.css">
+<script type="text/javascript" src="../js/vsbscreen.min.js" id="_vsbscreen"></script>
+<script type="text/javascript" src="../js/counter.js"></script>
+<script type="text/javascript">_statistic_(1092, 25930, '', -1);var bsites_bschoolid=1092</script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+
+<div class="top" id="top">
+<!-- 网站logo图片地址请在本组件"内容配置-网站logo"处填写 -->
+
+<div class="top_l">
+<a href="javascript:;"></a>
+</div>
+
+
+
+
+<div class="top_r">
+<div class="ss"><form action="result.jsp?wbtreeid=1001" method="get" name="a214183a" onsubmit="return subsearchdataa214183a()" style="display: inline;">
+ <input type="hidden" name="bschoolid" value="1092"><input type="hidden" id="INTEXT2" name="INTEXT2" value=""><input type="hidden" name="Find" value="find"><input type="hidden" name="entrymode" value="1"><input type="hidden" name="news_search_code"><input type="hidden" name="wbtreeid" value="1001">
+
+
+       <input type="text" name="INTEXT" placeholder="请输入您的关键字">
+
+    <input type="submit" name="FindButton" value="" style="cursor: hand;width:17px;height:17px;background:url(../images/ss.png) no-repeat;">
+
+</form>
+</div>
+<script>
+function clickin(){
+    if (document.a214183a.INTEXT.value.trim() == "Search") {
+        document.a214183a.INTEXT.value = "";
+    }
+}
+function clickout() {
+    if (document.a214183a.INTEXT.value.trim() == "") {
+        document.a214183a.INTEXT.value = "Search";
+    }
+}
+String.prototype.trim　= function()       
+{              
+    var t = this.replace(/(^\s*)|(\s*$)/g, "");     
+    return t.replace(/(^　*)|(　*$)/g, "");     
+}
+function subsearchdataa214183a()
+{ 
+    if(document.a214183a.INTEXT.value.trim()=="")
+    {
+         alert("请输入查询关键字！");
+         return false;
+    }
+    if(checkDataa214183a(document.a214183a))
+    {
+       return true;  
+    }
+    return false;
+}       
+</script>
+
+    <script language="JavaScript" src="../js/engine.js"></script>
+    <script language="JavaScript" src="../js/util.js"></script>
+    <script language="JavaScript" src="../js/newssearchdwr.js"></script>
+    <script language="JavaScript" src="../js/vsb_news_search.js"></script>
+    <script language="JavaScript" src="../js/vsb_news_search_entry.js"></script>    
+    <script language="JavaScript" src="../js/language.js"></script>
+    <script language="JavaScript" src="../js/base64.js"></script>
+    <script language="JavaScript" src="../js/formfunc.js"></script>    
+    <script>    
+    news_searcha214183a = new vsb_news_search();
+    news_searcha214183a.isShowCode=false;
+    news_searcha214183a.tooltipid = 'tooltipa214183a';
+    news_searcha214183a.apptag = 'intextspana214183a';
+    news_searcha214183a.frametag = 'intextframea214183a';
+    news_search_entrya214183a = new vsb_news_search_entry();
+    news_search_entrya214183a.formname = "a214183a";
+    news_search_entrya214183a.news_search_obj = news_searcha214183a; 
+    news_search_entrya214183a.querytxtsize = 155
+    news_search_entrya214183a.yzmts ="您的查询过于频繁，请输入验证码后继续查询";
+    news_search_entrya214183a.qdstyle ="";
+    news_search_entrya214183a.qdname = "确定";
+    news_search_entrya214183a.qxstyle = "";
+    news_search_entrya214183a.qxname = "取消";
+    news_search_entrya214183a.showstr='请输入查询验证码！';    
+    function checkDataa214183a(formname)
+    {    
+        return news_search_entrya214183a.checkdata(formname);
+    }
+    </script>
+<script language="javascript" src="../js/base64.js"></script>
+<script>
+$(function(){
+    $('li').hover(
+        function(){
+        $(this).find('.ceng').stop().delay(100).slideDown(400); // 这里可以改变下拉速度，默认是 400，数字越大，速度越慢
+        },
+        function(){
+        $(this).find('.ceng').stop().delay(100).slideUp(200);   // 这里可以改变收缩速度，默认是 200，数字越大，速度越慢
+        }
+    );
+})
+</script>
+
+
+
+
+<div id="hd">    	
+<ul id="nav" style="visibility:hidden;">
+    	                 <li>
+                    <a href="javascript:;" class="navitem"> 首页</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 中央精神</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 工作动态</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 学习资料</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 先进典型</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 基地动态</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 科研成果</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 理论推荐</a>
+                </li> 
+                <li>
+                    <a href="javascript:;" class="navitem"> 相册</a>
+                </li> 
+ </ul>
+</div>    <script type="text/javascript">
+$(document).ready(function() { 
+ $('#nav li').hover(function() {
+  $('ul', this).slideDown(200);
+
+  $(this).children('a:first').addClass("hov");
+ }, function() {
+  $('ul', this).slideUp(100);
+  $(this).children('a:first').removeClass("hov");  
+ });
+});
+</script>
+
+
+                <div class="teach_topR_qh fl" id="znzwmb3_othernav_div">
+                
+                <ul class="level0">
+                   <li class="select_box fl">
+            <a href="javascript:;" class="leixin_xz_a f_r"></a>
+            <span>其他栏目</span>
+            <ul class="son_ul fl" id="znmb1_other_navul"></ul>
+        </li> 
+                </ul> 
+        </div>
+
+
+        <script type="text/javascript">
+jQuery(document).ready(function(){
+    var totalwidth = jQuery(".top").width()-jQuery(".top_l").width()-jQuery(".ss").width()-205;
+
+    var allliwidth = 0;
+    var othernavary = new Array();
+    var znmb1_other_navul = jQuery("#znmb1_other_navul")[0];
+    var MenuBar1 = jQuery("#nav");
+    var navliobjlist =  jQuery("#nav > li");
+    for(var i=0;i<navliobjlist.length;i++)
+    {
+        var liobj = navliobjlist.get(i);
+        if(liobj)
+        {
+            var jliobj = jQuery(liobj);
+            var liwidth = jliobj.width();
+            allliwidth+=liwidth;
+            if(allliwidth>=totalwidth)
+            {
+                var templiobj = jliobj[0];      
+                othernavary.push(templiobj);
+                MenuBar1[0].removeChild(jliobj[0]);
+            }
+        }
+    }
+    if(allliwidth<totalwidth)
+    {
+        jQuery("#znzwmb3_othernav_div").css("display","none");
+    }else
+    {
+    for(var i=0;i<othernavary.length;i++)
+    {
+        var tempotherli = jQuery(othernavary[i]);
+        //tempotherli.removeClass("nav_menu-item");
+        tempotherli.addClass("nav_submenu-item");
+        
+        
+        //tempotherli.find("ul").removeClass("nav_submenu");
+        tempotherli.find(" ul").addClass("level2");
+        
+        //tempotherli.find(" ul > li").removeClass("nav_submenu-item");
+        
+        znmb1_other_navul.appendChild(tempotherli[0]);
+    }}
+jQuery("#nav").css("visibility","visible");
+
+});
+
+
+</script> 
+
+
+
+
+
+</div>
+</div>
+ 
+ 
+    <div><img src="../__local/4/B6/34/AD15AD3532B226584580C45FE43_037D.jpg" width="100%"></div>
+
+ 
+
+<script language="javascript" src="../js/dynclicks.js"></script><div class="tzgg">
+    <div class="tzgg_con">
+    <div class="column">工作动态：</div>
+	<div class="notice_active">
+	<ul>
+   <li class="notice_active_ch">
+                    <a href="javascript:;" target="_blank" title="[初心·使命]校院（系）党委理论中心组赴中国人民抗日战争纪念馆参观学习">[初心·使命]校院（系）党委理论中心组赴中国人民抗日战争纪念...</a>                                   
+                    <span>2019-09-27</span>
+   </li>
+   <li class="notice_active_ch">
+                    <a href="javascript:;" target="_blank" title="[初心·使命]党委召开&quot;不忘初心、牢记使命&quot;主题教育工作会暨新学期党建和思想政治工作部署会">[初心·使命]党委召开"不忘初心、牢记使命"主题教育工作会暨新...</a>                                   
+                    <span>2019-09-25</span>
+   </li>
+   <li class="notice_active_ch">
+                    <a href="javascript:;" target="_blank" title="[初心·使命]学校“不忘初心、牢记使命”主题教育领导小组办公室召开工作会">[初心·使命]学校“不忘初心、牢记使命”主题教育领导小组办公...</a>                                   
+                    <span>2019-09-25</span>
+   </li>
+   <li class="notice_active_ch">
+                    <a href="javascript:;" target="_blank" title="[初心·使命]南航金城学院教务处_南京财经大学教务处_南京艺术学院“不忘初心、牢记使命”主题教育动员部署会举行">[初心·使命]南航金城学院教务处_南京财经大学教务处_南京艺术学院“不忘初心、牢记使命”主题教育动员...</a>                                   
+                    <span>2019-09-25</span>
+   </li>
+   <li class="notice_active_ch">
+                    <a href="javascript:;" target="_blank" title="[初心·使命]李有增副校长参加后勤专题民主生活会">[初心·使命]李有增副校长参加后勤专题民主生活会</a>                                   
+                    <span>2019-12-17</span>
+   </li>
+	</ul>   
+        </div>
+	<div class="more"><a href="javascript:;">查看更多</a></div>
+   </div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u4_7104','dynclicks_u4_7090','dynclicks_u4_7089','dynclicks_u4_7075','dynclicks_u4_7379'],[7104,7090,7089,7075,7379],"wbnews", 1393712252)</script>
+
+
+<div class="part1" id="Z612"><div class="part1_con">
+
+<div class="left" id="Z61">
+<div id="fsD1" class="focus">
+<div id="D1pic1" class="fPic">
+     <div class="fcon display">
+        <a target="_blank" href="javascript:;" title="[初心·使命]校院（系）党委理论中心组赴中国人民抗日战争纪念馆参观学习">
+	<img src="../__local/B/31/CE/BADA29564379B4AF2714FDEFD10_E673.jpg" style="opacity: 1">
+		</a>
+        <span class="shadow"><a target="_blank" href="javascript:;">[初心·使命]校院（系）党委理论中心组赴中国人民抗...</a></span>
+    </div>  
+    <div class="fcon hidden">
+        <a target="_blank" href="javascript:;" title="[初心·使命]党委召开&quot;不忘初心、牢记使命&quot;主题教育工作会暨新学期党建和思想政治工作部署会">
+	<img src="../__local/F/F3/B8/C88D9A37E3DD74F2B2205830851_4D18.jpg" style="opacity: 1">
+		</a>
+        <span class="shadow"><a target="_blank" href="javascript:;">[初心·使命]党委召开"不忘初心、牢记使命"主题教育...</a></span>
+    </div>  
+    <div class="fcon hidden">
+        <a target="_blank" href="javascript:;" title="[初心·使命]学校“不忘初心、牢记使命”主题教育领导小组办公室召开工作会">
+	<img src="../__local/1/8E/F2/95B0D71D8B3A8D2520012257961_DF70.jpg" style="opacity: 1">
+		</a>
+        <span class="shadow"><a target="_blank" href="javascript:;">[初心·使命]学校“不忘初心、牢记使命”主题教育领...</a></span>
+    </div>  
+    <div class="fcon hidden">
+        <a target="_blank" href="javascript:;" title="[初心·使命]南航金城学院教务处_南京财经大学教务处_南京艺术学院“不忘初心、牢记使命”主题教育动员部署会举行">
+	<img src="../__local/1/29/D3/1CCBF2A009DE737FF5761001550_3FBE.jpg" style="opacity: 1">
+		</a>
+        <span class="shadow"><a target="_blank" href="javascript:;">[初心·使命]南航金城学院教务处_南京财经大学教务处_南京艺术学院“不忘初心、牢记使命”主...</a></span>
+    </div>  
+</div>
+<div class="fbg">
+ <div class="D1fBt" id="D1fBt"> <a href="javascript:void(0)" hidefocus="true" target="_self" class="current"><i>1</i></a> <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>2</i></a> <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>3</i></a> <a href="javascript:void(0)" hidefocus="true" target="_self" class=""><i>4</i></a> </div>
+ </div>
+ <script type="text/javascript">
+    Qfast.add('widgets', { path: "js/terminator.min.js", type: "js", requires: ['fx'] });  
+    Qfast(false, 'widgets', function () {
+        K.tabs({
+            id: 'fsD1',   //焦点图包裹id  
+            conId: "D1pic1",  //** 大图域包裹id  
+            tabId:"D1fBt",  
+            tabTn:"a",
+            conCn: '.fcon', //** 大图域配置class       
+            auto: 1,   //自动播放 1或0
+            effect: 'fade',   //效果配置
+            eType: 'click', //** 鼠标事件
+            pageBt:true,//是否有按钮切换页码
+            bns: ['.prev', '.next'],//** 前后按钮配置class                          
+            interval: 3000  //** 停顿时间  
+        }) 
+    })  
+</script>
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u5_7104','dynclicks_u5_7090','dynclicks_u5_7089','dynclicks_u5_7075'],[7104,7090,7089,7075],"wbnews", 1393712252)</script>
+
+
+<div class="right" id="Z62">
+<div class="column">
+<div class="column_l">工作动态</div>
+<div class="column_r"><a href="javascript:;"><img src="../images/more.png"></a></div>
+</div>
+    
+        <div class="tt">
+            <div class="tt_l"><h1>27</h1>
+            <h2>2019-09</h2></div>
+            <div class="tt_r"><a href="javascript:;" target="_blank"><h1>[初心·使命]校院（系）党委理论中心组赴中国人民抗日战争纪念...</h1></a><p>        9月26日上午，为深入学习贯彻习近平新时代中国特色社会主义思想，扎实开展“不忘初心、牢记使命”主题教育，校院（系）党委理论中心组赴中...</p></div>
+        </div>
+    
+        <div class="list"><ul>
+
+                    <li><a href="javascript:;" target="_blank" title="[初心·使命]党委召开&quot;不忘初心、牢记使命&quot;主题教育工作会暨新学期党建和思想政治工作部署会">[初心·使命]党委召开"不忘初心、牢记使命"主题教育工作会暨新...</a><span>2019-09-25</span></li>
+
+        
+    
+        
+
+                    <li><a href="javascript:;" target="_blank" title="[初心·使命]学校“不忘初心、牢记使命”主题教育领导小组办公室召开工作会">[初心·使命]学校“不忘初心、牢记使命”主题教育领导小组办公...</a><span>2019-09-25</span></li>
+
+        
+    
+        
+
+                    <li><a href="javascript:;" target="_blank" title="[初心·使命]南航金城学院教务处_南京财经大学教务处_南京艺术学院“不忘初心、牢记使命”主题教育动员部署会举行">[初心·使命]南航金城学院教务处_南京财经大学教务处_南京艺术学院“不忘初心、牢记使命”主题教育动员...</a><span>2019-09-25</span></li>
+
+        
+    
+        
+
+                    <li><a href="javascript:;" target="_blank" title="[初心·使命]李有增副校长参加后勤专题民主生活会">[初心·使命]李有增副校长参加后勤专题民主生活会</a><span>2019-12-17</span></li>
+
+        
+    
+        
+
+                    <li><a href="javascript:;" target="_blank" title="[初心·使命]校党委理论中心组（扩大）学习贯彻北京市委十二届十次全会精神">[初心·使命]校党委理论中心组（扩大）学习贯彻北京市委十二届...</a><span>2019-12-17</span></li>
+
+        </ul></div>
+    
+</div>
+<script>_showDynClickBatch(['dynclicks_u6_7104','dynclicks_u6_7090','dynclicks_u6_7089','dynclicks_u6_7075','dynclicks_u6_7379','dynclicks_u6_7378'],[7104,7090,7089,7075,7379,7378],"wbnews", 1393712252)</script>
+
+</div></div>
+<script type="text/javascript">
+if(!document.getElementById("Z61")&&!document.getElementById("Z62") )
+{
+ document.getElementById("Z612").style.display = "none";
+}
+</script>
+<!--第二部分-->
+<div class="part2" id="Z6345">
+<div class="part2_con">
+
+<div class="left" id="Z63">
+<div class="column">
+<div class="column_l">中央精神</div>
+<div class="column_r"><a href="javascript:;"><img src="../images/more.png"></a></div>
+</div>
+
+<div class="list">
+<ul>
+	<li><a href="javascript:;" target="_blank" title="习近平：关于《中共中央关于坚持和完善中国特色社会主义制度 推进国家治理体系和治理能力现代化若干重大问题的决定》的说明">习近平：关于《中共中央关于坚持和完善...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="中国共产党第十九届中央委员会第四次全体会议公报">中国共产党第十九届中央委员会第四次全...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="中共中央关于坚持和完善中国特色社会主义制度 推进国家治理体系和治理能力现代化若干重大问题的决定">中共中央关于坚持和完善中国特色社会主...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="中央“不忘初心、牢记使命”主题教育领导小组对开展专项整治作出部署安排">中央“不忘初心、牢记使命”主题教育领...</a><span>10-14</span></li>
+	<li><a href="javascript:;" target="_blank" title="中央“不忘初心、牢记使命”主题教育领导小组印发《关于在“不忘初心、牢记使命”主题教育中对照党章党规找差距的工作方案》">中央“不忘初心、牢记使命”主题教育领...</a><span>10-14</span></li>
+</ul>
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u7_7313','dynclicks_u7_7312','dynclicks_u7_7311','dynclicks_u7_7186','dynclicks_u7_7184'],[7313,7312,7311,7186,7184],"wbnews", 1393712252)</script>
+
+
+
+<div class="left ml24" id="Z64">
+<div class="column">
+<div class="column_l">学习资料</div>
+<div class="column_r"><a href="javascript:;"><img src="../images/more.png"></a></div>
+</div>
+
+<div class="list">
+<ul>
+	<li><a href="javascript:;" target="_blank" title="习近平关于“不忘初心、牢记使命”重要论述">习近平关于“不忘初心、牢记使命”重要论述</a><span>10-10</span></li>
+	<li><a href="javascript:;" target="_blank" title="《习近平新时代中国特色社会主义思想学习纲要》">《习近平新时代中国特色社会主义思想学...</a><span>09-25</span></li>
+	<li><a href="javascript:;" target="_blank" title="人民日报评论部：把民主和集中有机统一起来——治理现代化的“中国智慧”⑤">人民日报评论部：把民主和集中有机统一...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="人民日报评论部：深入推进全面依法治国——治理现代化的“中国智慧”④">人民日报评论部：深入推进全面依法治国...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="人民日报评论部：以人民情怀彰显治理价值——治理现代化的“中国智慧”③">人民日报评论部：以人民情怀彰显治理价...</a><span>11-11</span></li>
+</ul>
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u8_7151','dynclicks_u8_7077','dynclicks_u8_7320','dynclicks_u8_7319','dynclicks_u8_7318'],[7151,7077,7320,7319,7318],"wbnews", 1393712252)</script>
+
+
+
+<div class="left ml24" id="Z65">
+<div class="column">
+<div class="column_l">先进典型</div>
+<div class="column_r"><a href="javascript:;"><img src="../images/more.png"></a></div>
+</div>
+
+<div class="list">
+<ul>
+	<li><a href="javascript:;" target="_blank" title="学习强国：南航金城学院教务处_南京财经大学教务处_南京艺术学院用主题教育助力精准扶贫">学习强国：南航金城学院教务处_南京财经大学教务处_南京艺术学院用主题教育助力...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="人民周刊：南航金城学院教务处_南京财经大学教务处_南京艺术学院处级以上党员领导干部扎实开展集中学习研讨">人民周刊：南航金城学院教务处_南京财经大学教务处_南京艺术学院处级以上党员领...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="学习强国：南航金城学院教务处_南京财经大学教务处_南京艺术学院青春告白祖国 致敬新中国70华诞">学习强国：南航金城学院教务处_南京财经大学教务处_南京艺术学院青春告白祖国 致...</a><span>11-11</span></li>
+	<li><a href="javascript:;" target="_blank" title="[宣讲家]南航金城学院教务处_南京财经大学教务处_南京艺术学院马克思主义学院师生集中诵读研讨习近平总书记在庆祝中华人民共和国成立70周年大会上的重要讲话精神">[宣讲家]南航金城学院教务处_南京财经大学教务处_南京艺术学院马克思主义学院师...</a><span>10-14</span></li>
+	<li><a href="javascript:;" target="_blank" title="《焦点访谈》 20191006 同心共筑中国梦">《焦点访谈》 20191006 同心共筑中国梦</a><span>10-10</span></li>
+</ul>
+</div>
+</div>
+<script>_showDynClickBatch(['dynclicks_u9_7322','dynclicks_u9_7321','dynclicks_u9_7323','dynclicks_u9_7195','dynclicks_u9_7155'],[7322,7321,7323,7195,7155],"wbnews", 1393712252)</script>
+
+
+</div>
+</div>
+
+<script type="text/javascript">
+if(!document.getElementById("Z63")&&!document.getElementById("Z64")&&!document.getElementById("Z65"))
+{
+ document.getElementById("Z6345").style.display = "none";
+}
+</script>
+<!--第三部分-->
+
+
+
+
+<!--第四部分-->
+<div class="part4" id="Z6678">
+<div class="part4_con">
+
+<script>_showDynClickBatch(['dynclicks_u11_7324'],[7324],"wbnews", 1393712252)</script>
+
+
+<script>_showDynClickBatch(['dynclicks_u12_7349'],[7349],"wbnews", 1393712252)</script>
+
+
+
+
+</div></div>
+
+<script type="text/javascript">
+if(!document.getElementById("Z66")&&!document.getElementById("Z67")&&!document.getElementById("Z68"))
+{
+ document.getElementById("Z6678").style.display = "none";
+}
+</script>
+
+<!--第四部分-->
+<div class="part2" id="Z7678">
+<div class="part2_con">
+<script>_showDynClickBatch(['dynclicks_u14_7324'],[7324],"wbnews", 1393712252)</script>
+
+
+<script>_showDynClickBatch(['dynclicks_u15_7349'],[7349],"wbnews", 1393712252)</script>
+
+
+
+<script>_showDynClickBatch(['dynclicks_u16_7350'],[7350],"wbnews", 1393712252)</script>
+
+
+
+
+
+</div></div>
+
+<script type="text/javascript">
+if(!document.getElementById("Z73")&&!document.getElementById("Z74")&&!document.getElementById("Z75"))
+{
+ document.getElementById("Z7678").style.display = "none";
+}
+</script>
+
+<!--友情链接1-->
+<script language="javascript" src="../system/resource/js/openlink.js"></script>
+<!--友情链接2-->
+
+
+<!--友情链接2-->
+<div class="foot">
+<div class="foot_con">
+<p>
+
+
+<!-- 版权内容请在本组件"内容配置-版权"处填写 -->
+<p>版权所有：南航金城学院教务处_南京财经大学教务处_南京艺术学院&nbsp;&nbsp;</p>
+</div></div>
+<script type="text/javascript" src="../js/jqmain.min.js"></script>
+<script type="text/javascript" src="../js/caiqie.js"></script>
+<script type="text/javascript" src="../js/lubotu.js"></script>
+
+
+
+</body></html>

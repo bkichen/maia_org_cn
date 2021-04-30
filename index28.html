@@ -1,0 +1,1508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院-----京疆学院</title>
+<link href="css/style21.css" type="text/css" rel="stylesheet">
+<!--
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript"></script>
+-->
+<script src="js/jquery-1.2.6.js" type="text/javascript"></script>
+<script src="cms/web/writeLog-3576.js"></script>
+<script src="js/hf.js" type="text/javascript"></script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+
+
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+<div id="wrap">
+
+ 
+<div class="header">
+<div class="banner">
+<div class="home"><a href="index1.html">学校首页</a> | <a href="javascript:;">网站地图</a> | 
+<a href="javascript:;" onclick="this.style.behavior='url(https://jjxy.cnu.edu.cn/#default)';this.setHomePage('http://www.unu.edu.cn');return(false);" style="behavior: url(https://jjxy.cnu.edu.cn/#default)">设为首页</a>
+</div>
+</div>
+<div class="nav">
+<ul>
+	     <li onmouseover="onOver('space_lable')" onmouseout="onOut('space_lable')">
+				  <a href="javascript:;" target="_self" class="nav_off">
+					  <span class="off_d">学院首页</span></a>
+
+			  			  	 			    
+			 
+			  </li>
+				<li onmouseover="onOver('cue_lable2')" onmouseout="onOut('cue_lable2')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">学院概况</span></a>
+					<div class="cue_lable2" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">学院简介</a></li>
+													<li><a href="javascript:;" target="_self">学院领导</a></li>
+													<li><a href="javascript:;" target="_self">机构设置</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable3')" onmouseout="onOut('cue_lable3')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">教学工作</span></a>
+					<div class="cue_lable3" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">教学管理</a></li>
+													<li><a href="javascript:;" target="_self">相关制度</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable4')" onmouseout="onOut('cue_lable4')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">党建工作</span></a>
+					<div class="cue_lable4" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">党总支简介</a></li>
+													<li><a href="javascript:;" target="_self">规章制度</a></li>
+													<li><a href="javascript:;" target="_self">支部生活</a></li>
+													<li><a href="javascript:;" target="_self">入党导航</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable5')" onmouseout="onOut('cue_lable5')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">学员工作</span></a>
+					<div class="cue_lable5" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">团总支工作</a></li>
+													<li><a href="javascript:;" target="_self">班级工作</a></li>
+													<li><a href="javascript:;" target="_self">社团工作</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable6')" onmouseout="onOut('cue_lable6')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">专家委员会</span></a>
+					<div class="cue_lable6" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">专家委员会简介</a></li>
+													<li><a href="javascript:;" target="_self">校内专家</a></li>
+													<li><a href="javascript:;" target="_self">校外专家</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable7')" onmouseout="onOut('cue_lable7')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">服务指南</span></a>
+					<div class="cue_lable7" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">后勤服务</a></li>
+													<li><a href="javascript:;" target="_self">班车信息</a></li>
+													<li><a href="javascript:;" target="_self">交通指南</a></li>
+													<li><a href="javascript:;" target="_self">银行指南</a></li>
+													<li><a href="javascript:;" target="_self">校园卡指南</a></li>
+													<li><a href="javascript:;" target="_self">生活小指南</a></li>
+													<li><a href="javascript:;" target="_self">下载专区</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable8')" onmouseout="onOut('cue_lable8')">
+				 				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				 				<span class=" off_d">历史资料</span></a>
+					<div class="cue_lable8" style="visibility:hidden;">
+						<ul>
+													<li><a href="javascript:;" target="_self">工作简报</a></li>
+													<li><a href="javascript:;" target="_self">视频资料</a></li>
+													<li><a href="javascript:;" target="_self">京疆学院学习报</a></li>
+												</ul>
+				  </div>
+	         </li>
+							    
+			 
+			  
+				<li onmouseover="onOver('cue_lable9')" onmouseout="onOut('cue_lable9')">
+				 				<a href="javascript:;" target="_self" class="nav_off" id="group">
+				 				<span class=" off_d">学员风采</span></a>
+					<div class="cue_lable9" style="visibility:hidden;">
+						<ul>
+												</ul>
+				  </div>
+	         </li>
+					</ul>
+</div>
+</div><div class="main">
+<div class="con01">
+<div class="news_flash">
+ <script type="text/javascript">
+										var imgUrl=new Array();
+										var imgLink=new Array();
+										var imgName=new Array();
+										var n=1;
+										
+										    																						imgUrl[n] = "";
+											imgLink[n] = "xydt/182133.htm";
+											var vTitle='我院召开2020年“新疆和田地区幼儿园园长在线培训”开班仪式';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/182117.htm";
+											var vTitle='我院召开2020年“新疆和田地区幼儿园园长在线培训”挂职幼儿园负责人在线动员会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/170568.htm";
+											var vTitle='我院邀请房山区西潞中心幼儿园园长顾兰荣为全体学员做专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/170455.htm";
+											var vTitle='我院邀请学前教育学院副教授李叶兰为全体学员做教师师德专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/170438.htm";
+											var vTitle='我院组织培训班全体学员参观庆祝中华人民共和国成立70周年大型成就展';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/170196.htm";
+											var vTitle='我院邀请长辛店第一幼儿园园长王晓红为全体学员做专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/169663.htm";
+											var vTitle='我院组织全体学员专题学习十九届四中全会精神';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/169750.htm";
+											var vTitle='我院邀请学校语言测试中心国家级普通话测试员赵晴为全体学员做普通话测试考前培训';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/169593.htm";
+											var vTitle='我院邀请我国飞航导弹武器系统总体设计专家、第一型空地导弹武器总设计师杨宝奎为学员做专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/169406.htm";
+											var vTitle='我院组织培训班全体党员进行脱贫攻坚专题学习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/169256.htm";
+											var vTitle='我院邀请学前教育学院房斐为全体学员做专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/168750.htm";
+											var vTitle='【初心·使命】我院组织培训班全体党员进行《习近平新时代中国特色社会主义思想学习纲要》专题学习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/167420.htm";
+											var vTitle='我院组织和田幼儿园园长培训班学员赴八达岭长城开展爱国主义教育实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/167077.htm";
+											var vTitle='我院举行第一次和田幼儿园园长培训班的学员挂职分享会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/166791.htm";
+											var vTitle='我院举行和田幼儿园园长培训班培训学员编辑部成立仪式';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/166785.htm";
+											var vTitle='【初心·使命】我院和田幼儿园园长培训班的学员参加挂职单位举行的微党课宣讲活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/166251.htm";
+											var vTitle='【初心·使命】我院组织和田园长培训班的学员赴中国人民抗日战争纪念馆进行爱国主义教育';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/166211.htm";
+											var vTitle='我院召开和田园长培训班培训学员与挂职幼儿园负责人见面会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/166087.htm";
+											var vTitle='【初心·使命】京疆学院组织和田园长培训班全体党员开展“不忘初心、牢记使命”主题教育';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/162880.htm";
+											var vTitle='我院组织北京中小学专家教师团队赴新疆和田地区进行送教活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/157812.htm";
+											var vTitle='我院召开新疆中小学少数民族骨干教师实训工作中期总结会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/156167.htm";
+											var vTitle='我院与学员选派单位开展公开课网络直播及在线教研活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/154963.htm";
+											var vTitle='我院召开2019年春季学期新疆中小学少数民族骨干教师教学能力提升与实践工作协调会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/151486.htm";
+											var vTitle='我院邀请教育学院特聘教授石鸥为全体学员做专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/151254.htm";
+											var vTitle='我院组织全体党员学员和班委会、编委会干部赴西柏坡开展主题教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/151493.htm";
+											var vTitle='化学系联合京疆学院举办新疆少数民族同学学业座谈会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/151387.htm";
+											var vTitle='我院部分学员赴房山区昊天学校进行跟岗实习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/150714.htm";
+											var vTitle='房山区昊天学校副校长田明——“构建德育体系，培养昊天学子”';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/150711.htm";
+											var vTitle='我院邀请杨芷英教授为2018级全体学员作心理健康专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/150695.htm";
+											var vTitle='我院邀请小学语文特级教师杨红兵进行专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/150160.htm";
+											var vTitle='我院邀请资环学院党委副书记尹刚为学员进行摄影技能培训专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/150159.htm";
+											var vTitle='校党委教师工作部部长苏寄宛——“坚持立德树人根本任务，努力争做四有好老师”';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/150156.htm";
+											var vTitle='我院组织小学语文班的部分学员前往北京景山学校远洋分校参加主题教研';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/149295.htm";
+											var vTitle='我院就学员在普通话学习过程中存在的问题举行专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/149120.htm";
+											var vTitle='我院组织和田地区参训学员观看 “同心齐向党·京和一家亲”汇报演出';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/149086.htm";
+											var vTitle='我院组织2018级全体学员参观八达岭长城';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/149085.htm";
+											var vTitle='我院组织2018级全体学员赴中国科学技术馆、奥林匹克广场进行参观学习活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147797.htm";
+											var vTitle='我院部分学员聆听了孟繁华校长的讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147635.htm";
+											var vTitle='我院邀请北京市语文特级教师赵成会为小学语文班学员进行专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147727.htm";
+											var vTitle='我院组织2018级学员在国庆节期间进行体育比赛';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147535.htm";
+											var vTitle='我院举行“祝福祖国，欢度国庆”联欢会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147531.htm";
+											var vTitle='我院组织2018级全体学员赴中国人民抗日战争纪念馆、卢沟桥开展“新时代新担当新作为”主题宣传教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147528.htm";
+											var vTitle='我院组织2018级学员进行入学体检';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147527.htm";
+											var vTitle='我院组织对2018级学员宿舍进行安全隐患大排查行动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147526.htm";
+											var vTitle='我院为2018级全体新学员开展入学教育';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147525.htm";
+											var vTitle='我院组织2018级全体学员赴国家博物馆、天安门广场进行爱国主义实践教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/147524.htm";
+											var vTitle='我院组织2018级全体学员参加普通话水平考试';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/137563.htm";
+											var vTitle='我院举行“新时代、新青年、在祖国最需要的地方绽放青春”主题学习活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/137545.htm";
+											var vTitle='京疆学院召开2018年新疆中小学少数民族骨干教师实训总结会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/137114.htm";
+											var vTitle='我院组织全体学员参加“中国少数民族汉语水平考试”';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/136935.htm";
+											var vTitle='我校教授史红来我院做“如何做一个生活美学家”专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/136934.htm";
+											var vTitle='勤学苦练 并肩同行—语言学博士苗东霞来我院做MHK专题辅导讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/136708.htm";
+											var vTitle='我院组织全体学员赴天津滨海新区开展爱国主义教育';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/136055.htm";
+											var vTitle='南航金城学院教务处_南京财经大学教务处_南京艺术学院京疆学院临时党支部与北京市房山区昊天学校党支部联合开展主题党日活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/133447.htm";
+											var vTitle='京疆学院组织新疆少数民族骨干教师培训学员党员学习两会文件精神';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/133343.htm";
+											var vTitle='我院组织开展宿舍安全隐患大排查行动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/133270.htm";
+											var vTitle='京疆学院召开2018年新疆少数民族双语骨干教师实习实训协调会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/128558.htm";
+											var vTitle='教育部民族教育发展中心工作人员同我院新疆学员座谈交流';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/128334.htm";
+											var vTitle='我院组织《基于发展学生核心素养的课堂教学》专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/127874.htm";
+											var vTitle='我院组织《构建新型师生关系，助推教师成长》专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/127665.htm";
+											var vTitle='我院举办专业班篮球比赛';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/127661.htm";
+											var vTitle='实验学校校长曾军良来我院作《教育最终为了学生》专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/126947.htm";
+											var vTitle='我院组织学员参加普通话水平测试';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/126233.htm";
+											var vTitle='我院组织临时党支部、班委会及培训信息编委会全体成员赴周恩来邓颖超纪念馆参观';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/126944.htm";
+											var vTitle='我院举办定向越野比赛';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/126232.htm";
+											var vTitle='我院组织到北京教育学院附属丰台实验学校参观学习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/126231.htm";
+											var vTitle='我院举行心理健康教育专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/125894.htm";
+											var vTitle='京疆学院组织参观香山双清别墅感受革命情怀';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/125850.htm";
+											var vTitle='我校杨芷英教授到京疆学院进行心理专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/123786.htm";
+											var vTitle='京疆学院举办体育健身比赛颁奖仪式并做MHK考试答疑';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/123386.htm";
+											var vTitle='本科教学工作审核评估专家组莅临我院视察并召开座谈会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/123785.htm";
+											var vTitle='京疆学院召开迎接本科教学工作审核评估检查动员大会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/123136.htm";
+											var vTitle='京疆学院召开“2017级新疆少数民族双语骨干教师培训学员临时党支部、班委会、培训信息编委会”成立大会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/123137.htm";
+											var vTitle='我院组织学员赴八达岭长城进行爱国主义教育实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/122400.htm";
+											var vTitle='京疆学院组织“缅怀革命先烈，践行社会主义核心价值观”主题教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/122399.htm";
+											var vTitle='京疆学院组织开展迎中秋体育健身活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/122396.htm";
+											var vTitle='京疆学院举办“欢度国庆、祝福祖国”国庆联欢晚会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/122327.htm";
+											var vTitle='我院组织开展“以史为镜，面向未来”爱国主义教育实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/122318.htm";
+											var vTitle='我院组织新疆学员开展安全教育会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/121162.htm";
+											var vTitle='京疆学院召开2017级党支部、班委会和编辑部成员动员会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/120523.htm";
+											var vTitle='我院组织召开新学员第一次党员大会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/120428.htm";
+											var vTitle='我院组织新学员进行入学体检';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2017-05/20170526093131771868.jpg";
+											imgLink[n] = "xydt/109646.htm";
+											var vTitle='京疆学院组织“观赏北京夜景，感受祖国强大”爱国主义教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2017-05/20170519135540263501.jpg";
+											imgLink[n] = "xydt/109050.htm";
+											var vTitle='北京实验学校曾军良校长为新疆双语教师做“魅力课堂的系列探索”专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2017-05/20170516160617207434.jpg";
+											imgLink[n] = "xydt/108875.htm";
+											var vTitle='京疆学院组织学员深入房山山区开展爱国主义教育和社会实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2017-05/20170519125501968912.jpg";
+											imgLink[n] = "xydt/109045.htm";
+											var vTitle='京疆学院组织全体学员参加MHK考试';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2017-04/20170422110630705825.jpg";
+											imgLink[n] = "http://www.cnu.edu.cn/jdxw/xwzh/107107.htm";
+											var vTitle='京疆学院与海淀区部分实训学校开展深入交流';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2017-04/20170407141057676632.jpg";
+											imgLink[n] = "xydt/105738.htm";
+											var vTitle='学员在海淀实验小学实训之我的初体验';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2017-04/20170407141148535710.jpg";
+											imgLink[n] = "xydt/105242.htm";
+											var vTitle='京疆学院党总支召开学员临时党支部书记述职会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2017-04/20170407141926620114.jpg";
+											imgLink[n] = "xydt/102599.htm";
+											var vTitle='京疆学院召开MHK教学工作会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/101504.htm";
+											var vTitle='我院开展京疆学院学员管理制度学习活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																																																																																																																																imgUrl[n] = "";
+											imgLink[n] = "xydt/101046.htm";
+											var vTitle='我院举办 “解读《中华人民共和国反恐怖主义法》”专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																																								imgUrl[n] = "images/content/2016-11/20161116175013459162.jpg";
+											imgLink[n] = "xydt/98818.htm";
+											var vTitle='京疆学院组织学员赴香山进行爱国主义实践教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2016-11/20161110093125681272.jpg";
+											imgLink[n] = "http://www.cnu.edu.cn/jdxw/xwzh/98524.htm";
+											var vTitle='京疆学院组织新疆双语教师冒浓雾参加全国“MHK三级考试”';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2016-11/20161109130424931425.jpg";
+											imgLink[n] = "xydt/98445.htm";
+											var vTitle='我院组织学员赴慕田峪长城进行爱国主义实践教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/97926.htm";
+											var vTitle='我院组织寝室安全隐患排查活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2016-11/20161110093637147690.jpg";
+											imgLink[n] = "http://www.cnu.edu.cn/jdxw/xwzh/92022.htm";
+											var vTitle='京疆学院举行加强党建工作 扎实推进“两学一做”学习教育暨学员临时党支部、学委会、班委会成立大会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/91435.htm";
+											var vTitle='京疆学院举行消防演练活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/91341.htm";
+											var vTitle='驻足古迹，体会历史：京疆学员八达岭长城爱国主义教育活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/91340.htm";
+											var vTitle='体悟历史，汲取力量：京疆学员爱国主义教育参观活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/91339.htm";
+											var vTitle='欢聚首师，共迎国庆：京疆学院国庆联欢会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2016-11/20161110092600081976.jpg";
+											imgLink[n] = "http://www.cnu.edu.cn/jdxw/jdxw/90352.htm";
+											var vTitle='我校举行新疆中小学少数民族“双语骨干教师”培训班开班仪式';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/87550.htm";
+											var vTitle='京疆学院举行“2016年新疆中小学少数民族双语骨干教师培训班”结业仪式  培训工作圆满结束';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																																								imgUrl[n] = "";
+											imgLink[n] = "xydt/86396.htm";
+											var vTitle='新疆籍少数民族华侨华人回国至京疆学院参观考察座谈会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/86118.htm";
+											var vTitle='京疆学院组织学员赴平西抗日战争纪念馆开展主题实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/84955.htm";
+											var vTitle='京疆学院组织“两学一做”党课学习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/84954.htm";
+											var vTitle='京疆学院组织学员参加中国少数民族汉语水平等级考试';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/84729.htm";
+											var vTitle='京疆学院学员在海淀实验小学做语文公开课展示';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/82172.htm";
+											var vTitle='院领导赴北京市海淀区的实训学校看望实训学员';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/82130.htm";
+											var vTitle='自治区教育厅教师工作处副处长海沙尔为京疆学院学员做专题讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/81823.htm";
+											var vTitle='院领导赴北京第一实验小学房山分校（良乡四小）看望实训学员';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/81631.htm";
+											var vTitle='京疆学院参加校运动会喜获教工乙组沙包掷准第一名';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/81958.htm";
+											var vTitle='京疆学院第一阶段实训工作顺利结束';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/80724.htm";
+											var vTitle='京疆学院组织“新疆中小学少数民族双语骨干教师”到海淀区、房山区中小学实训';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2016-04/20160420111017619061.jpg";
+											imgLink[n] = "xydt/80274.htm";
+											var vTitle='京疆学院赴石花洞主题实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/80005.htm";
+											var vTitle='京疆学院学员赴花园路社区参观学习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/79974.htm";
+											var vTitle='京疆学院学员海淀区实习工作部署会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/79957.htm";
+											var vTitle='京疆学院学员房山区实习工作部署会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2015-11/20151125133231790698.jpg";
+											imgLink[n] = "http://www.cnu.edu.cn/jdxw/jdxw/68145.htm";
+											var vTitle='郑萼书记徐志宏副书记到京疆学院调研培训工作并看望新疆学员';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/69032.htm";
+											var vTitle='京疆学院组织全体学员赴中国科技馆开展爱国主义教育实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2015-11/20151116143618116065.jpg";
+											imgLink[n] = "xydt/67732.htm";
+											var vTitle='京疆学院组织学员参加中国少数民族汉语水平等级考试';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/69031.htm";
+											var vTitle='京疆学院赴中国人民抗日战争纪念馆开展主题党日活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2015-11/20151116143241973709.jpg";
+											imgLink[n] = "xydt/67730.htm";
+											var vTitle='京疆学院组织学员赴房山区中小学实习';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "images/content/2015-11/20151116143757424197.jpg";
+											imgLink[n] = "xydt/67733.htm";
+											var vTitle='京疆学院召开学员临时党支部及班委会成立大会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/69033.htm";
+											var vTitle='京疆学院举办“新疆中小学少数民族双语骨干教师培训班”学员汉语背诵比赛';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/69028.htm";
+											var vTitle='京疆学院组织全体学员赴八达岭长城开展爱国主义教育实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2015-11/20151125140201920609.jpg";
+											imgLink[n] = "xydt/68409.htm";
+											var vTitle='新疆自治区教育厅厅长吐尔逊·伊不拉音一行到我校京疆学院看望培训学员';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/69027.htm";
+											var vTitle='京疆学院组织全体学员赴天安门广场开展爱国主义教育实践活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/65407.htm";
+											var vTitle='我校举行新疆中小学少数民族双语骨干教师培训班开班典礼';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/65413.htm";
+											var vTitle='徐志宏副书记到京疆学院调研指导工作';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/65400.htm";
+											var vTitle='京疆学院召开新学期教学工作会议';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2015-06/20150623142029258239.jpg";
+											imgLink[n] = "xydt/57033.htm";
+											var vTitle='京疆学院召开“新疆少数民族双语教师培训教学指导委员会”会议';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																																																																																																																																																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/21932.htm";
+											var vTitle='京疆学院召开“南水北调”（河南、湖北）对口协作地区骨干教师实习工作协调会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																																																																																																																																																																																																																																																																																																																imgUrl[n] = "";
+											imgLink[n] = "xydt/9701.htm";
+											var vTitle='京疆学院组织少数民族党员共同召开群众路线教育实践活动动员会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/9708.htm";
+											var vTitle='京疆学院召开教学研讨会和学期工作总结会';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																																																														imgUrl[n] = "";
+											imgLink[n] = "xydt/9710.htm";
+											var vTitle='京疆学院赴援疆省市调研“双语”教师培养工作';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																																																		imgUrl[n] = "";
+											imgLink[n] = "xydt/9822.htm";
+											var vTitle='学校派调研组赴新疆和田进行党员发展工作调研走访';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/9824.htm";
+											var vTitle='京疆学院特邀北京市第一幼儿园园长冯惠燕作讲座';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/9823.htm";
+											var vTitle='京疆学院特邀北京景山学校小学语文特级教师刘长明作讲座 ';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2013-10/20131029103603484469.jpg";
+											imgLink[n] = "xydt/7933.htm";
+											var vTitle='和田地委、行政公署向京疆学院致感谢信';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/9834.htm";
+											var vTitle='京疆学院组织学员参加中国少数民族汉语水平等级考试';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2013-10/20131029103213546232.jpg";
+											imgLink[n] = "xydt/7934.htm";
+											var vTitle='张春贤书记致信我校肯定新疆学员培养工作';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/7943.htm";
+											var vTitle='京疆学院组织学员开展健身大步走活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/7925.htm";
+											var vTitle='校领导与首都医科大学代表同京疆学院医学专业学员进行座谈';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "images/content/2013-10/20131029103942421564.jpg";
+											imgLink[n] = "xydt/7926.htm";
+											var vTitle='和田地区党政代表团到良乡校区看望京疆学院学员';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/7937.htm";
+											var vTitle='我院参加学校运动会并取得好成绩';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/7936.htm";
+											var vTitle='青研所京疆学院联合举办昆曲名家名作校园行活动';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/7927.htm";
+											var vTitle='校领导到京疆学院慰问MHK备考学员';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																												imgUrl[n] = "";
+											imgLink[n] = "xydt/7932.htm";
+											var vTitle='京疆学院全体学生顺利返校 全力冲刺MHK（三级）考试 ';
+											if (vTitle.length>15)
+											vTitle=vTitle.substring(0,15)+"...";
+											imgName[n] = vTitle;
+											n++;
+																																									
+												var texts = "";
+												var links = "";
+												var pics = "";
+												var count=1;
+												for(var h=1; h<n; h++) {
+												if (count>6)
+												break;
+												if ((imgUrl[h] !="") && (imgLink[h] !="") && (imgUrl[h].indexOf(".jpg") > 0)){
+													if (imgName[h].length > 20)
+													imgName[h] = imgName[h].substring(0, 20) + "...";
+													texts += imgName[h] + "|";
+													links += imgLink[h] + "|";
+													pics += imgUrl[h] + "|";
+													count++;
+													}
+												}
+												texts = texts.substring(0, texts.length-1);
+												links = links.substring(0, links.length-1);
+												pics = pics.substring(0, pics.length-1);
+												var focus_width=311	
+												var focus_height=192
+												var text_height=24
+												var swf_height = focus_height+text_height
+												document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+												
+								document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="images/focus.swf"><param name="quality" value="high"> <param name="bgcolor" value= "#d5d5d5">');				
+												document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+												
+												document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+												
+												document.write('<embed src="images/focus.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#d5d5d5" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+								</script>
+</div>
+<div class="news">
+<div class="n_title"><h1>学院动态</h1><a href="javascript:;">更多+</a></div>
+<div class="n_list">
+ <ul>
+                        <li><span>【2020-11-10】</span><a href="javascript:void(0);" title="我院召开2020年“新疆和田地区幼儿园园长在线培训”开班仪式" onclick="checkXnwk('xydt/182133.htm','xw');">            我院召开2020年“新疆和田地区幼儿园园长在线培训”开班仪式 
+     </a></li>
+                        <li><span>【2020-11-09】</span><a href="javascript:void(0);" title="我院召开2020年“新疆和田地区幼儿园园长在线培训”挂职幼儿园负责人在线动员会" onclick="checkXnwk('xydt/182117.htm','xw');">            我院召开2020年“新疆和田地区幼儿园园长在线培训”挂职幼儿园负责人在线动员会 
+     </a></li>
+                        <li><span>【2019-12-20】</span><a href="javascript:void(0);" title="我院邀请房山区西潞中心幼儿园园长顾兰荣为全体学员做专题讲座" onclick="checkXnwk('xydt/170568.htm','xw');">            我院邀请房山区西潞中心幼儿园园长顾兰荣为全体学员做专题讲座 
+     </a></li>
+                        <li><span>【2019-12-18】</span><a href="javascript:void(0);" title="我院邀请学前教育学院副教授李叶兰为全体学员做教师师德专题讲座" onclick="checkXnwk('xydt/170455.htm','xw');">            我院邀请学前教育学院副教授李叶兰为全体学员做教师师德专题讲座 
+     </a></li>
+                        <li><span>【2019-12-15】</span><a href="javascript:void(0);" title="我院组织培训班全体学员参观庆祝中华人民共和国成立70周年大型成就展" onclick="checkXnwk('xydt/170438.htm','xw');">            我院组织培训班全体学员参观庆祝中华人民共和国成立70周年大型成就展 
+     </a></li>
+                        <li><span>【2019-12-13】</span><a href="javascript:void(0);" title="我院邀请长辛店第一幼儿园园长王晓红为全体学员做专题讲座" onclick="checkXnwk('xydt/170196.htm','xw');">            我院邀请长辛店第一幼儿园园长王晓红为全体学员做专题讲座 
+     </a></li>
+                        <li><span>【2019-12-02】</span><a href="javascript:void(0);" title="我院组织全体学员专题学习十九届四中全会精神" onclick="checkXnwk('xydt/169663.htm','xw');">            我院组织全体学员专题学习十九届四中全会精神 
+     </a></li>
+                      </ul>
+</div>
+</div>
+</div>
+<div class="con02">
+<div class="con02_left">
+<div class="news_h">
+<div class="h_title"><h1>通知公告</h1><a href="javascript:;">更多+</a></div>
+<div class="h_list">
+ <ul>
+                          </ul>
+</div>
+</div>                                                              
+<div class="links" style="margin-top:0px;"><a target="_blank" href="mailto:cnu_jjxy@126.com" title="mailto:cnu_jjxy@126.com"><img src="images/xxx.jpg" width="317" height="46"></a></div>
+<div class="links">
+<div class="links_xn">
+<style type="text/css">
+
+.dropdown_xn{ width:317px; height:46px; background: url("images/zty.jpg") no-repeat; float:left; }
+.dropdown_xn dd, .dropdown_xn dt, .dropdown_xn ul { margin:0px; padding:0px;width:317px;  }
+.dropdown_xn dd { position:relative; left:108px; width:195px; z-index:9; top:36px;}
+.dropdown_xn a, .dropdown_xn a:visited { color:#816c5b; text-decoration:none; outline:none; }
+.dropdown_xn a:hover { color:#5d4617; }
+.dropdown_xn dt span {
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	position:absolute;
+	left:120px;
+	top:10px;
+	width: 185px; 
+}
+.dropdown_xn dd ul { background:#fff none repeat scroll 0 0; border:1px solid #a9a9a9 ; color:#C5C0B0; display:none; left:0px;  position:absolute; top:2px; width:auto; width:193px; list-style:none;  }
+.dropdown_xn span.value { display:none; }
+.dropdown_xn dd ul li a { padding:5px; display:block; }
+.dropdown_xn dd ul li a:hover { background-color:#f82901; color:#FFF; }
+.dropdown_xn img.flag { border:none; vertical-align:middle; margin-left:10px; }
+    </style>
+    <script type="text/javascript">
+
+        
+                $(document).ready(function() {
+            $(".dropdown_xn img.flag").addClass("flagvisibility");
+
+            $(".dropdown_xn dt span").click(function() {
+                $(".dropdown_xn dd ul").toggle();
+            });
+                        
+            $(".dropdown_xn dd ul li a").click(function() {
+                var text = $(this).html();
+               $(".dropdown dt span").html(text);
+                $(".dropdown_xn dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample_xn"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown_xn"))
+                    $(".dropdown_xn dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown_xn img.flag").toggleClass("flagvisibility");
+            });
+        });
+    </script>
+
+
+
+<dl id="sample_xn" class="dropdown_xn">
+      <dt><span>校内链接</span></dt>
+      <dd>
+    <ul>
+	               <li><a href="index1.html" target="_blank">南航金城学院教务处_南京财经大学教务处_南京艺术学院首页</a></li>
+                   <li><a href="javascript:;" target="_blank">校医院</a></li>
+                   <li><a href="javascript:;" target="_blank">数字校园中心</a></li>
+                   <li><a href="javascript:;" target="_blank">电视直播网</a></li>
+                   <li><a href="javascript:;" target="_blank">资源点播系统</a></li>
+                
+        </ul>
+  </dd>
+    </dl>
+</div>
+</div>
+<div class="links">
+<style type="text/css">
+.dropdown{ width:317px; height:46px; background: url("images/tyb.jpg") no-repeat; float:left;}
+.dropdown dd, .dropdown dt, .dropdown ul { margin:0px; padding:0px;width:317px;  }
+.dropdown dd { position:relative; left:108px; width:195px;z-index:99; top:36px;   }
+.dropdown a, .dropdown a:visited { color:#816c5b; text-decoration:none; outline:none; }
+.dropdown a:hover { color:#5d4617; }
+.dropdown dt span {
+	cursor:pointer;
+	display:block;
+	padding:5px;
+	position:absolute;
+	left:120px;
+	top:10px;
+	width: 185px; 
+}
+.dropdown dd ul { background:#fff none repeat scroll 0 0; border:1px solid #a9a9a9 ; color:#C5C0B0; display:none; left:0px;  position:absolute; top:2px; width:auto; width:193px; list-style:none;  }
+.dropdown span.value { display:none; }
+.dropdown dd ul li a { padding:5px; display:block; z-index:999999;}
+.dropdown dd ul li a:hover { background-color:#f82901; color:#FFF; }
+.dropdown img.flag { border:none; vertical-align:middle; margin-left:10px; }
+    </style>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt span").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+                        
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                 $(".dropdown dt span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+                        
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+
+
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+    </script>
+
+<dl id="sample" class="dropdown">
+      <dt><span>校外链接</span></dt>
+      <dd>
+    <ul>
+	                <li><a href="javascript:void(0);" title="新疆汉语水平考试" onclick="checkXnwk('http://www.xjmhk.cn/','$article.belongUser');">新疆汉语水平考试</a></li>
+                    <li><a href="javascript:void(0);" title="和田地区教育局" onclick="checkXnwk('http://www.htedu.gov.cn/','$article.belongUser');">和田地区教育局</a></li>
+                    <li><a href="javascript:void(0);" title="和田信息网" onclick="checkXnwk('http://www.xjht.gov.cn/','$article.belongUser');">和田信息网</a></li>
+                    <li><a href="javascript:void(0);" title="和田党建网" onclick="checkXnwk('http://ht.xjkunlun.cn/','$article.belongUser');">和田党建网</a></li>
+                    <li><a href="javascript:void(0);" title="新疆天山网" onclick="checkXnwk('http://www.tianshannet.com.cn/','$article.belongUser');">新疆天山网</a></li>
+                    
+        </ul>
+  </dd>
+    </dl>
+
+</div>
+</div>
+<div class="con02_right">
+<div class="news" style="height:210px;">
+<div class="n_title"><h1>新闻资讯</h1><a href="javascript:;">更多+</a></div>
+<div class="n_list" style="height:187px;">
+
+ 		               <div class="ns01" style="margin:0 0 10px 0;">
+						<a href="javascript:;" target="_blank"><img src="images/content/2017-05/20170510095907563968.jpg" width="115" height="65" align="left"> </a>
+			               <h1> 我院与房山区部分实训学校开展深入交流<a href="javascript:;" target="_blank">【详细】</a></h1></div>
+                        <div class="ns01" style="margin:0 0 10px 0;">
+						<a href="javascript:;" target="_blank"><img src="images/content/2017-04/20170419192346726846.jpg" width="115" height="65" align="left"> </a>
+			               <h1> 我院北京实验学校实训小组第一阶段实训总结大会在北京实验学校举行。<a href="javascript:;" target="_blank">【详细】</a></h1></div>
+                        <div class="ns01" style="margin:0 0 10px 0;">
+						 <a href="javascript:;" target="_blank"><img src="images/pic01.jpg" width="115" height="65" align="left"> </a>
+			               <h1> 2017年3月12日，京疆学院在良乡校区综合楼1119召开新学期动员大会。<a href="javascript:;" target="_blank">【详细】</a></h1></div>
+                        <div class="ns01" style="margin:0 0 10px 0;">
+						<a href="javascript:;" target="_blank"><img src="images/content/2015-11/20151125160251163734.jpg" width="115" height="65" align="left"> </a>
+			               <h1> 郑萼书记徐志宏副书记到京疆学院调研培训工作并看望新疆学员<a href="javascript:;" target="_blank">【详细】</a></h1></div>
+            </div>
+</div>
+<div class="bot" style="_margin-left:8px;">
+<div class="bot_left">
+<div class="bt_title"><h1>学员风采</h1><a href="javascript:;">更多+</a></div>
+<div class="bt_list">
+ <ul>
+                                  <li><a href="javascript:;" target="_blank">             我院参训学员张锁霞参加丰台第三幼儿... 
+     </a></li>
+                                  <li><a href="javascript:;" target="_blank">             我院参训学员胡海英参加挂职园丰台第... 
+     </a></li>
+                                  <li><a href="javascript:;" target="_blank">             我院参训学员阿力亚·迪力夏提，热伊... 
+     </a></li>
+                                  <li><a href="javascript:;" target="_blank">             我院参训学员翟羽薇参加丰台区宛平幼... 
+     </a></li>
+                                  <li><a href="javascript:;" target="_blank">             我院参训学员魏天舜参加丰台第三幼儿... 
+     </a></li>
+                            </ul>
+</div>
+</div>
+<div class="bot_left" style=" float:right;">
+<div class="bt_title02"><h1>媒体聚焦</h1><a href="javascript:;">更多+</a></div>
+<div class="bt_list">
+ <ul>
+                                <li><a href="javascript:void(0);" title="[北京青年报]京疆手拉手 共续教育情" onclick="checkXnwk('http://www.cnu.edu.cn//jdxw/mtsj/87734.htm','xw');">             [北京青年报]京疆手拉手 共续教育... 
+    </a></li>
+                                <li><a href="javascript:void(0);" title=" [中央电视台]一个特殊的援疆任务：我是家乡建设者" onclick="checkXnwk('mtjj/85412.htm','xw');">              [中央电视台]一个特殊的援疆任务... 
+    </a></li>
+                                <li><a href="javascript:void(0);" title="[中央电视台]一个特殊的援疆任务：我们的“雪妈妈”" onclick="checkXnwk('http://tv.cctv.com/2016/04/27/VIDEWx8KfJ5thxFZFunXigli160427.shtml','xw');">             [中央电视台]一个特殊的援疆任务：... 
+    </a></li>
+                                <li><a href="javascript:void(0);" title="[中央电视台]一个特殊的援疆任务：在北京上学的日子" onclick="checkXnwk('http://m.news.cntv.cn/2016/04/26/ARTIG2tkQ9CRHAaOLKSzAupl160426.shtml?from=timeline&isappinstalled=0','xw');">             [中央电视台]一个特殊的援疆任务：... 
+    </a></li>
+                                <li><a href="javascript:void(0);" title="[中央电视台]一个特殊的援疆任务：被化解的烦恼" onclick="checkXnwk('http://tv.cctv.com/2016/04/25/VIDEXMkDDJ4bN9YqzIB1H5I4160425.shtml','xw');">             [中央电视台]一个特殊的援疆任务：... 
+    </a></li>
+                            </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="footer" style="_margin-top:-20px;">版权所有：南航金城学院教务处_南京财经大学教务处_南京艺术学院京疆学院 <a href="javascript:;" style="color:#860101;">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</div></div>
+
+</body></html>

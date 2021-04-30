@@ -1,0 +1,1172 @@
+
+/* 全局CSS定义 */
+* {
+	padding:0px;
+	margin: 0px;
+}
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow-x:hidden;
+}
+body {
+	padding: 0px;
+	color: #000000;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+}
+a {
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF0000;
+}
+table {
+	margin: 0px auto;
+	border-collapse:collapse;
+}
+tr,td {
+	line-height: 24px;
+}
+ul {
+	list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:12px  
+}
+img {
+	border: 0px;
+	vertical-align: middle;
+}
+input{
+	vertical-align: middle;
+}
+.height0 {
+	font-size: 0px;
+	line-height: 0px;
+	clear: both;
+	height: 0px;
+}
+.color01 {
+	color: #419BE7;
+}
+.color02 {
+	color: #FFD68E;
+}
+.color_font18 {
+	color: #37A8FF;
+	font-size: 18px;
+}
+.top {
+	height: 151px;
+	border-top-width: 6px;
+	border-top-style: solid;
+	border-top-color: #F2F2F2;
+}
+.top_logo {
+	height: 90px;
+	width: 1158px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_03.gif);
+	background-repeat: no-repeat;
+	background-position: left 19px;
+	margin: 0 auto;
+	line-height: 38px;
+	text-align: right;
+	position:relative;
+	border-bottom:1px solid #dfdfdf;
+}
+.top_logo .login { position:absolute; right:5px; top:0px;}
+.top_menu {
+	height: 60px;
+	width: 1158px;
+	margin: 0 auto;
+}
+.menu_left {
+	width: 940px;
+	float: left;
+	height: 60px;
+}
+.menu_right {
+	width: 200px;
+	float: right;
+	height: px;
+	padding:18px 0 0 0;
+}
+.cx_input01 {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_07.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 147px;
+	padding-left: 20px;
+	border: 0px none #FFF;
+	line-height: 26px;
+}
+.cx_but01 {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_08.gif);
+	background-repeat: no-repeat;
+	height: 26px;
+	width: 32px;
+	border: 0px none #FFF;
+	background-color: #FFF;
+	line-height: 26px;
+}
+/*滚动BANNER开始*/
+.banner {
+	height: 500px;
+	position: relative;
+}
+.banner_gg {
+	height: 50px;
+	line-height: 50px;
+	background-color: #000;
+	position: absolute;
+	left:50%;
+	margin:0 0 0 -575px;
+	bottom: 0px;
+	clear: both;
+	width: 1118px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	overflow: visible;
+	z-index: 10;
+	padding:0 0 0 40px;
+	
+}
+.banner_ggall {
+	width: 1158px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	opacity:0.9;filter:alpha(opacity=90); 
+}
+.banner_ggall p {
+	color: #FFF;
+	position: relative;
+}
+.banner_ggall a {
+	color: #FFF;
+	position:relative;
+}
+.banner_ggall a:hover {
+	color: #F00;
+}
+.scroll {margin:0 auto;overflow:hidden;width:100%;height:500px;}
+.scroll_list {width:8000px;height:500px;}
+.hide {display:none;}
+.scroll_list li {float:left;width:100%;height:500px;}
+.bn1 {background:url(https://gaoshi.cnu.edu.cn/images/banner1.jpg) no-repeat center 0;}
+.bn2 {background:url(https://gaoshi.cnu.edu.cn/images/banner2.jpg) no-repeat center 0;}
+.bn3 {background:url(https://gaoshi.cnu.edu.cn/images/banner3.jpg) no-repeat center 0;}
+.bn4 {background:url(https://gaoshi.cnu.edu.cn/images/banner4.jpg) no-repeat center 0;}
+/*
+.top_scroll {position:relative;margin:-500px auto 0;width:1160px;height:500px;}
+.left_btn, .right_btn {position:absolute;width:50px;height:200px;top:50%;margin-top:-100px;}
+.left_btn {left:-20px;background:url(https://gaoshi.cnu.edu.cn/images/dir_btn.png) no-repeat 0 0;}
+.left_btn:hover {background-position:0 -200px;}
+.right_btn {right:-20px;margin-top:-100px;background:url(https://gaoshi.cnu.edu.cn/images/dir_btn.png) no-repeat right 0;}
+.right_btn:hover {background-position:right -200px;}
+*/
+
+.top_scroll {position:relative;margin:-500px auto 0;width:1160px;height:500px;}
+.left_btn, .right_btn {position:absolute;width:50px;height:200px;top:50%;margin-top:-200px;}
+.left_btn {left:-20px;background:url(https://gaoshi.cnu.edu.cn/images/dir_btn.png) no-repeat 0 0;}
+.left_btn:hover {background-position:0 -200px;}
+.right_btn {right:-20px;margin-top:-200px;background:url(https://gaoshi.cnu.edu.cn/images/dir_btn.png) no-repeat right 0;}
+.right_btn:hover {background-position:right -200px;}
+/*滚动BANNER结束*/
+.ztnav {
+	width: 1158px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-top: 15px;
+	padding-bottom: 45px;
+}
+.ztnav_left {
+	float: left;
+	width: 407px;
+	padding-top: 14px;
+}
+.ztnavblock_bt {
+	background: url(https://gaoshi.cnu.edu.cn/images/title01_03.png) no-repeat left center;
+	margin:0 0 23px 0;
+	height: 30px;
+	padding:0 0 0 34px;
+}
+
+.ztnavblock_bt01 { background:url(https://gaoshi.cnu.edu.cn/images/title02_03.png) no-repeat left center;}
+.ztnavblock_bt h1 {
+	
+	height: 30px;
+	width: 72px;
+	float:left;
+	padding:3px 0 0 0;
+	font-size: 18px;
+	color: #333333;
+	line-height: 24px;
+	text-align: center;
+}
+.ztnavblock_bt h2 {
+	height: 7px;
+	width: 33px;
+	padding: 10px 0 0 13px;
+	float:left;
+}
+.ztnavblock_bt h2 a { font-size:12px; font-family:"微软雅黑"; color:#ababab; font-weight:normal;}
+.ztnavblock_bt h2 a:hover { color:#072265;}
+.ztnavblock_btpic {
+	height: 96px;
+	padding: 4px 0;
+	position: relative;
+	background:#eeeeee;
+	border:1px solid #d2d2d2;
+}
+
+
+.ztnavblock_bt_right {   
+background: url(https://gaoshi.cnu.edu.cn/images/gs_21.gif) repeat-x left bottom;
+    height: 30px;
+    padding: 0; margin:0px;}
+.ztnavblock_bt_right h1 { background:url(https://gaoshi.cnu.edu.cn/images/gs_23.gif) repeat-x left 24px;
+    color: #2689d6;
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    line-height: 24px;
+    margin-left: 6px;
+    text-align: center;
+    width: 72px;}
+.ztnavblock_bt_right h2 { float:right; }
+
+
+.ztnavblock_btpic01 { padding:0px;}
+.ztnavblock_list ul { padding:13px 0 0 0; }
+.ztnavblock_list ul li {
+	line-height: 16px;
+	
+	height:44px;
+	line-height:44px;
+	border-bottom:1px solid #CACACA;
+}
+.ztnavblock_list ul li h1 {
+	font-size: 11px;
+	font-weight: normal;
+	color: #909090;
+	height: 32px;
+	
+	float: left;
+}
+.ztnavblock_list ul li h2 {
+	font-size: 13px;
+	font-weight: normal;
+	width:auto; height:auto; float:left; padding-left: 25px;
+}
+.ztnav_cen {
+	float: left;
+	width: 417px;
+	margin-left: 40px;
+	padding-top: 14px;
+}
+.ztnav_right {
+	float: right;
+	width: 255px;
+	padding-top:14px;
+}
+.ztnav_right_bt {
+	height: 40px;
+	margin:0 0 10px 0px;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	
+}
+
+
+.ztnav_right_bt h2 { font-size:18px; font-family:"微软雅黑"; color:#333333;  height:40px; line-height:40px; padding:0 0 0 52px; background:url(https://gaoshi.cnu.edu.cn/images/title03_03.png) no-repeat left center;}
+.ztnav_right_bt h2 a { color:#333333; }
+.ztnav_right_bt02 {
+	height: 40px;
+	line-height:40px;
+	
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #dbdbdb;
+	background:url(https://gaoshi.cnu.edu.cn/images/guowai_03.png) no-repeat 11px center;
+}
+
+
+
+
+.ztnav_right_bt02 a {
+    background-image: url("https://gaoshi.cnu.edu.cn/images/rgs_07.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: block;
+    height: 40px;
+}
+
+.ztnav_right_bt02 a:hover {
+	height: 40px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/rgs_08.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display:block;
+}
+
+
+
+
+
+.ztnav_right_bt001 { margin:0px;}
+.ztnav_right_bt001 h2 { font-size:16px; font-family:"微软雅黑"; color:#2689d6;  height:40px; line-height:40px; padding:0 0 0 52px; background:url(https://gaoshi.cnu.edu.cn/images/title03_03.png) no-repeat left center; font-weight:normal;}
+.ztnav_right_bt001 h2 a { color:#2689d6;}
+
+
+.ztnav_right_bt03 {
+	height: 54px;
+	padding-top: 10px;
+}
+.ztnav_right_bt04 {
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #2689D6;
+}
+.ztnav_right_bt04 a {
+	height: 40px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/rgs_09.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display:block;
+}
+.ztnav_right_bt04 a:hover {
+	height: 40px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/rgs_10.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	display:block;
+}
+
+.ztnav_right_bt002 { padding:0px; height:40px; line-height:40px;}
+.ztnav_right_bt002 a { background:url(https://gaoshi.cnu.edu.cn/images/rgs_07.png) no-repeat; }
+.ztnav_right_bt002 a:hover { background:url(https://gaoshi.cnu.edu.cn/images/rgs_08.png) no-repeat;}
+.ztnav_right_bt004 { padding:0px; height:40px; line-height:40px;}
+.ztnav_right_bt004 a { background:url(https://gaoshi.cnu.edu.cn/images/rgs_09.png) no-repeat; }
+.ztnav_right_bt004 a:hover { background:url(https://gaoshi.cnu.edu.cn/images/rgs_10.png) no-repeat;}
+
+
+.ztnav_right_ul {
+	background-color: #F6F6F6;
+	border-bottom:1px solid #F6F6F6;
+}
+.ztnav_right_ul01 { background-color: #f0f7fc;
+    background-image: url(https://gaoshi.cnu.edu.cn/images/rgs_11.png);
+    background-position: center top;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #2689d6;}
+
+
+
+.ztnav_right_ul ul {
+    background-color: #f0f7fc;
+    background-image: url("https://gaoshi.cnu.edu.cn/images/rgs_11.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #2689d6;
+	border-top:1px solid #2689d6;
+}
+
+.ztnav_right_ul ul li {
+	line-height: 35px;
+	height: 35px;
+	font-size: 14px;
+}
+.ztnav_right_ul ul li a {
+	color: #555555;
+	display: block;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/li_03.png);
+	background-repeat: no-repeat;
+	background-position: 25px 14px;
+	padding-left: 48px;
+}
+.ztnav_right_ul ul li a:hover {
+	color: #FFFFFF;
+	background-color: #2689D6;
+	display: block;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/rgs_04.png);
+	background-repeat: no-repeat;
+	background-position: 25px 14px;
+	padding-left: 48px;
+}
+.bot {
+	height: 146px;
+	background-color: #072265;
+}
+.bot01 {
+	height: 107px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #0DA0CB;
+}
+.bot01_kd {
+	width: 1158px;
+	height: 107px;
+	margin: 0 auto;
+	position: relative;
+}
+.fhtop {
+	height: 13px;
+	width: 41px;
+	position: absolute;
+	top: -13px;
+	right: -41px;
+}
+.bot01_kdleft {
+	float: left;
+	height: 62px;
+	width: 875px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #5B5B5B;
+	margin-top: 9px;
+	padding-top: 27px;
+}
+/* select */
+.select01{
+	position: relative;
+	float: left;
+	clear: both;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 0;
+	margin-left: 10px;
+}
+.select01 dt{
+	height: 32px;
+	display: inline-block;
+	border: 1px solid #7197F0;
+	line-height: 32px;
+	padding-left: 8px;
+	cursor: pointer;
+	width: 224px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	position: relative;
+	z-index: 99;
+	background-color: transparent;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_71.gif);
+	background-repeat: no-repeat;
+	background-position: right center;
+	font-size: 14px;
+	color: #779CE5;
+}
+.select01 dt:hover,.select dt.cur{
+	border: 1px solid #C0C0C0;
+	box-shadow: 0 0 3px #A3A3A3;
+}
+.select01 dd{
+	position: absolute;
+	left: -1px;
+	bottom: 33px;
+	border: 1px solid #072265;
+	display: none;
+	background-color: #2689D6;
+}
+.select01 dd ul{
+	padding: 2px;
+	width: 230px;
+	max-height: 250px;
+	overflow: auto;
+}
+.select01 dd ul li{
+	background-image: none;
+	padding: 0px;
+}
+.select01 dd ul li a{
+	line-height: 32px;
+	display: block;
+	padding: 0 8px;
+	color: #D5D5D5;
+}
+.select01 dd ul li a:hover{
+	background-color: #0B329B;
+}
+.bot01_kdright {
+	float: right;
+	height: 79px;
+	width: 260px;
+	margin-top: 9px;
+	color: #D5D5D5;
+	padding-top: 10px;
+}
+.bot01_kdright01 {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_67.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-size: 16px;
+	line-height: 22px;
+	color: #DED3AB;
+	height: 22px;
+	padding-left: 26px;
+}
+.bot01_kdright02 {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_73.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-size: 13px;
+	line-height: 22px;
+	height: 22px;
+	padding-left: 26px;
+}
+.bot01_kdright03 {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/gs_75.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	font-size: 12px;
+	line-height: 15px;
+	height: 30px;
+	padding-left: 26px;
+}
+.bot02 {
+	height: 35px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #394E84;
+}
+.bot02_kd {
+	width: 1158px;
+	height: 35px;
+	margin: 0 auto;
+	color: #D5D5D5;
+}
+.bot02_kd a {
+	color: #C2C2C2;
+}
+.bot02_kd a:hover {
+	color: #FFFFFF;
+}
+.bot02_kdleft {
+	line-height: 35px;
+	width: 20%;
+	text-align: left;
+	float: left;
+}
+.bot02_kdcen {
+	line-height: 35px;
+	width: 60%;
+	text-align: center;
+	float: left;
+}
+.bot02_kdright {
+	line-height: 35px;
+	width: 19%;
+	text-align: right;
+	float: right;
+}
+/*MENU开始*/
+#wrap-nav{
+	height: 60px;
+	line-height: 60px;
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#wrap-nav ul.menu li{position:relative;float:left;padding:0px;background-position:0 -40px;}
+#wrap-nav ul.menu li h3{
+	padding: 0 15px 0 0;
+	font-size: 1.2em;
+	font-weight: normal;
+}
+#wrap-nav ul.menu li h3 a.depth_1{padding:0 0 0 15px;display:inline-block;color:#000000;}
+#wrap-nav ul.menu li h3.hover a.depth_1,
+#wrap-nav ul.menu li h3.selected a.depth_1{background-position:left -80px;color:#000000;}
+#wrap-nav ul.menu li ul.children{
+	position: absolute;
+	left: 2px;
+	top: 59px;
+	z-index: 19;
+	display: none;
+	width: 423px;
+	padding-top: 13px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+	border-left-width: 4px;
+	border-left-style: solid;
+	border-left-color: #F60;
+	background-color: #FFFFFF;
+}
+#wrap-nav ul.menu li ul.children li{
+	width: 423px;
+	background: none;
+	height: 32px;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 1px;
+	padding-left: 0;
+}
+#wrap-nav ul.menu li ul.children li.nosub{width:130px;overflow:hidden;}
+#wrap-nav ul.menu li ul.children li h3{
+	font-size: 14px;
+}
+#wrap-nav ul.menu li ul.children li h3 a.depth_2{
+	width: 120px;
+	line-height: 32px;
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	color: #003;
+}
+#wrap-nav ul.menu li ul.children li h3 a.depth_2 span.icon10{margin:10px 3px 0 5px;}
+#wrap-nav ul.menu li ul.children li h3.selected{
+	background-color: #DDECF9;
+}
+#wrap-nav ul.menu li ul.children li.hover{z-index:20;}
+#wrap-nav ul.menu li ul.children li.hover h3 a.depth_2{
+	font-weight: bold;
+	background-color: #BEDAF3;
+}
+#wrap-nav ul.menu li ul.children li.hover ul{
+	border-color: #C4DDF4;
+	height: auto;
+	z-index: 20;
+	background-color: #DDECF9;
+}
+#wrap-nav ul.menu li ul.children li.hover ul li a.depth_3{color:#333;}
+#wrap-nav ul.menu li ul.children li.hover ul li a.depth_3:hover{
+	color: #113F64;
+}
+#wrap-nav ul.menu li ul.children ul{position:absolute;top:0;left:120px;padding:0 0 0 10px;width:293px;height:32px;overflow:hidden;background:#F4F8F9;border-left:2px solid #D8E2EC;}
+#wrap-nav ul.menu li ul.children ul li{width:auto;padding:0;float:left;}
+#wrap-nav ul.menu li ul.children ul li a.depth_3{margin:0 15px 0 0;line-height:32px;display:block;color:#666;white-space:nowrap;}
+#wrap-nav ul.menu li ul.children ul li a.depth_3:hover{text-decoration:underline;}
+#wrap-nav ul.menu li ul.children ul li a.selected{
+	background: none;
+	color: #076CA6;
+}
+/*MENU结束*/
+/*文字向上滚动开始*/
+#divgd01{
+	height: 50px;
+	overflow: hidden;
+}
+/*文字向上滚动结束*/
+
+/*滚动图片开始*/
+#wrapper {
+	width: 378px;
+	margin: -95px 0 0 -357px;
+	position: absolute;
+	left: 91%;
+	*left: 91%;
+	_left: 91%;
+	top: 100%;
+}
+#carousel {
+	width: 378px;
+	position: relative;
+}
+#carousel ul {
+	list-style: none;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+#carousel li {
+	font-size: 40px;
+	text-align: center;
+	display: block;
+	width: 122px;
+	height: 89px;
+	padding: 0;
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	margin-right: 2px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+	background-color: transparent;
+}
+
+#carousel li img {
+	width: 122px;
+	height: 89px;
+	
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+#carousel .prev, #carousel .next {
+	background: transparent url(https://gaoshi.cnu.edu.cn/images/carousel_control.png) no-repeat 0 0;
+	text-indent: -999px;
+	display: block;
+	overflow: hidden;
+	width: 15px;
+	height: 24px;
+	margin-left: 10px;
+	position: absolute;
+	top: 50px;
+}
+#carousel .prev {
+    background:url(https://gaoshi.cnu.edu.cn/images/arrow_left_03.png) no-repeat;
+	position:absolute;
+	left:-15px;
+	top:42px;
+	width:7px;
+	height:13px;
+	margin:0px;
+}
+		
+#carousel .next {
+	background:url(https://gaoshi.cnu.edu.cn/images/arrow_right_03.png) no-repeat;
+	position:absolute;
+	right:-13px;
+	top:42px;
+	width:7px;
+	height:13px;
+	margin:0px;
+}
+				
+#carousel .pager {
+	text-align: center;
+	margin: 0 auto;
+}
+#carousel .pager a {
+	background: transparent url(https://gaoshi.cnu.edu.cn/images/carousel_control.png) no-repeat -2px -32px;
+	text-decoration: none;
+	text-indent: -999px;
+	display: inline-block;
+	overflow: hidden;
+	width: 8px;
+	height: 8px;
+	margin: 0 5px 0 0;
+}
+#carousel .pager a.selected {
+	background: transparent url(https://gaoshi.cnu.edu.cn/images/carousel_control.png) no-repeat -12px -32px;
+	text-decoration: underline;				
+}
+/*滚动图片结束*/
+
+
+/*广告*/
+.banner01{ width:100%; height:500px; position:relative;}
+.banner01 .list{ width:100%; height:500px; overflow:hidden; position:relative; z-index:1;}
+.banner01 .list li{ width:100%; height:500px; position:absolute; left:0px; top:0px; display:none;}
+.banner01 .list li a{ width:980px; margin:0 auto; position:relative; display:block; overflow:hidden; height:500px;}
+.banner01 .list li a:hover{ text-decoration:none;}
+.banner01 .list li.bg1{
+	background-color: #0F3BCA;
+/*	background-image: url(https://gaoshi.cnu.edu.cn/images/banner1.jpg);
+*/	background-repeat: no-repeat;
+	background-position: center;
+}
+.banner01 .btn{
+	position: absolute;
+	top: 470px;
+	left: 50%;
+	margin-left: 430px;
+	z-index: 100;
+}
+.banner01 .btn li{ margin-left: 13px;  text-indent: -999em; float: left; width: 12px; height: 12px; cursor: pointer; background:url(https://gaoshi.cnu.edu.cn/images/banner_li_03.png) no-repeat; }
+.banner01 .btn li.hover{ background: url(https://gaoshi.cnu.edu.cn/images/banner_li_hover_03.png) no-repeat; }
+.banner01 .list li.bg2{
+/*	background-image: url(https://gaoshi.cnu.edu.cn/images/banner2.jpg);
+*/	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #31A9FF;
+}
+.banner01 .list li.bg3{
+/*	background-image: url(https://gaoshi.cnu.edu.cn/images/banner3.jpg);
+*/	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #5ABE04;
+}
+.banner01 .list li.bg4{
+/*	background-image: url(https://gaoshi.cnu.edu.cn/images/banner4.jpg);
+*/	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FF6709;
+}
+.banner01 .list li.bg5{
+/*	background-image: url(../images/banner5.jpg);
+*/	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FF6709;
+}
+.banner_sen01 {
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 220px;
+	position:relative;
+}
+.banner_sen01 img { position:absolute; left:50%; margin:0 0 0 -640px; top:0px;}
+.sen_left {
+	float: left;
+	width: 250px;
+	height: 370px;
+	font-family: "微软雅黑";
+	background-color: #EEE;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #B9B9B9;
+}
+.sen_left_bt {
+	line-height: 37px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_01.png);
+	background-repeat: no-repeat;
+	background-position: 10px 4px;
+	height: 37px;
+	background-color: #096CD2;
+	font-size: 16px;
+	color: #FFF;
+	padding-left: 47px;
+}
+.sen_left ul li {
+	line-height: 36px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_03.png);
+	background-repeat: no-repeat;
+	height: 36px;
+	font-size: 14px;
+	color: #0679B4;
+}
+.sen_left ul li a {
+	color: #0679B4;
+	padding-left: 42px;
+	display: block;
+}
+.sen_left ul li a:hover {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_02.png);
+	background-repeat: no-repeat;
+	color: #0679B4;
+	padding-left: 42px;
+	display: block;
+}
+.sen_left ul .sen_libg {
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_02.png);
+	background-repeat: no-repeat;
+}
+.sen_right {
+	float: right;
+	width: 885px;
+}
+.sen_right_border {
+	max-height:100%;
+	border: 1px solid #DDD;
+	padding-bottom:30px;
+}
+.sen_right_dh {
+	font-size: 14px;
+	line-height: 35px;
+	font-weight: bold;
+	color: #666;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_05.png);
+	background-repeat: no-repeat;
+	background-position: 12px 11px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DDD;
+	background-color: #F7F7F7;
+	padding-left: 34px;
+}
+.sen_right_nav {
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.sen_right_nav_bt {
+	line-height: 38px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #1FBDE5;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1A9DC8;
+}
+.sen_right_nav ul {
+	padding-top: 30px;
+	min-height:400px;
+}
+.sen_right_nav ul li {
+	line-height: 36px;
+	height: 36px;
+}
+.sen_right_nav ul li h1 {
+	font-size: 13px;
+	font-weight: normal;
+	color: #2D90ED;
+	height: 36px;
+	width: 60px;
+	float: left;
+	padding-left: 3px;
+}
+.sen_right_nav ul li h2 {
+	font-size: 13px;
+	font-weight: normal;
+}
+.sen_right_fy {
+	line-height: 25px;
+	text-align: right;
+	height: 25px;
+	padding-top: 18px;
+	padding-bottom: 25px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+}
+.fy_input01 {
+	line-height: 22px;
+	height: 22px;
+	border: 1px solid #E4E0D7;
+	vertical-align: middle;
+	width: 45px;
+	margin-right: 4px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-align: center;
+}
+.fy_input02 {
+	line-height: 22px;
+	height: 22px;
+	border: 1px solid #C0D7E3;
+	vertical-align: middle;
+	width: 45px;
+	margin-right: 4px;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	text-align: center;
+}
+.fy_but01 {
+	background-color: #FFFFFF;
+	height: 24px;
+	width: 54px;
+	border: 1px solid #E4E0D7;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 4px;
+}
+.fy_but02 {
+	background-color: #E4EEF0;
+	height: 24px;
+	border: 1px solid #C0D7E3;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 2px;
+	padding-left:6px;
+	padding-right:6px;
+}
+.fy_but03 {
+	background-color: #FFFFFF;
+	height: 24px;
+	border: 1px solid #C0D7E3;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 2px;
+	padding-left:6px;
+	padding-right:6px;
+}
+.fy_but04 {
+	background-color: #FFFFFF;
+	height: 24px;
+	border: 1px solid #C0D7E3;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 2px;
+	padding-left:6px;
+	padding-right:20px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_06.png);
+	background-repeat: no-repeat;
+	background-position: 50px center;
+}
+.fy_but05 {
+	background-color: #FFFFFF;
+	height: 24px;
+	border: 1px solid #C0D7E3;
+	font-family: "微软雅黑";
+	font-size: 12px;
+	vertical-align: middle;
+	margin-right: 2px;
+	padding-left: 20px;
+	padding-right: 6px;
+	background-image: url(https://gaoshi.cnu.edu.cn/images/sen_07.png);
+	background-repeat: no-repeat;
+	background-position: 6px center;
+}
+.sen_bot {
+	height: 90px;
+	background-color: #072265;
+}
+.sen_bot02 {
+	height: 90px;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: #0DA0CB;
+}
+.sen_bot02_kd {
+	width: 1158px;
+	height: 90px;
+	margin: 0 auto;
+	color: #D5D5D5;
+}
+.sen_bot02_kd a {
+	color: #C2C2C2;
+}
+.sen_bot02_kd a:hover {
+	color: #FFFFFF;
+}
+.sen_bot02_kdleft {
+	line-height: 90px;
+	width: 20%;
+	text-align: left;
+	float: left;
+}
+.sen_bot02_kdcen {
+margin:19px 0 0 0;
+	width: 60%;
+	text-align: center;
+	float: left;
+	font-size: 14px;
+}
+.sen_bot02_kdright {
+	line-height: 90px;
+	width: 19%;
+	text-align: right;
+	float: right;
+}
+.thr_right_border {
+	border: 1px solid #DDD;
+	padding-bottom:30px;
+}
+.thr_nav_all {
+	font-size: 14px;
+	line-height: 32px;
+	padding-top: 15px;
+}
+.thr_nav_all p {
+	text-indent: 28px;
+	padding-bottom: 6px;
+}
+.thr_nav_bt {
+	line-height: 23px;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #1FBDE5;
+	font-size: 16px;
+	font-weight: bold;
+	color: #1A9DC8;
+	padding-top: 15px;
+	text-align: center;
+}
+.thr_nav_bt h2 {
+	padding-top: 5px;
+	padding-bottom:12px;
+	text-align: center;
+	height: 20px;
+	font-weight: normal;
+	color: #1E1E1E;
+}
+.mainbody{width:100%;height:auto;clear:both;margin:0 auto;padding-left:10px;}
+
+/*---------------------search搜索列表页样式---------------------*/
+.mainbody h2{height:25px;color:#7E7E7E;line-height:25px;padding-left:28px;background:#e2e2e2 url(https://gaoshi.cnu.edu.cn/images/main10_seach_r2_c2.jpg) no-repeat 8px center;}
+.sea_box{
+	width: 95%;
+	margin: 0 auto;
+	color: #a9a9a9;
+	padding: 20px 0;
+	border-bottom: 1px solid #b2b2b2;
+}
+.sea_box em{color:#ff0000;font-style:normal;}
+.sea_box h3{height:30px;line-height:30px;font-size:14px;border-bottom:1px solid #b2b2b2;}
+.sea_box h3 span{float:right;font-size:12px;color:#3c4f5e;}
+.sea_list{
+	font-size: 12px;
+	width: 95%;
+	margin: 0 auto;
+	padding: 10px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+.sea_list h4,.sea_list h5,.sea_list p{padding-left:10px;line-height:20px;}
+.sea_list h4{font-size:14px;color:#555;background:url(https://gaoshi.cnu.edu.cn/images/main10_seach_r4_c4.jpg) no-repeat left center;line-height:30px;}
+.sea_list h5{color:#555;}
+.page{width:auto;margin:0 auto;}
+.page button{border:none;background:none;font-weight:bold;color:#8898AF;}
+.page span{color:#192D45;font-weight:bold;}
+
+/*聚合页新加样式*/
+.jhy_left{
+	width: 255px;
+	float:left;
+}
+.jhy_right{
+	width: 860px;
+	float: right;
+}
+.jhy_clear {
+	clear: both;
+	padding-bottom: 15px;
+}
+.main2_nav_block02_left {
+	float: left;
+	width: 49%;
+	padding-top: 12px;
+}
+.main2_nav_block02_right {
+	float: right;
+	width: 49%;
+	padding-top: 12px;
+}
+.main2_nav_block02ul ul li {
+	line-height: 16px;
+	padding-top: 10px;
+	height: 26px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CACACA;
+	padding-bottom: 3px;
+}
+.main2_nav_block02ul ul li h1 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #2D90ED;
+	height: 32px;
+	width: 50px;
+	float: left;
+	padding-left: 6px;
+}
+.main2_nav_block02ul ul li h2 {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+
+
+.page div a {  background-color: #e4eef0;
+    border: 1px solid #c0d7e3;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    height: 24px;
+	line-height:24px;
+    margin-right: 2px;
+    padding-left: 6px;
+    padding-right: 6px;
+    vertical-align: middle; display:inline-block; color:#000; margin:0 2px; padding:0 8px;}
+.search{width:201px; height:27px;position:absolute;right:50%; margin-right:-573px;top:112px;background:url(https://gaoshi.cnu.edu.cn/images/search.png) no-repeat left center; z-index:1000; }
+.search input{position:absolute; width:158px;height:27px;line-height:27px; color:#323232; border:none; background:none; left:0px; top:0px;  padding:0px; margin:0px;}
+.search input.notxt{color:#3f3f3c; padding-left:12px;}	
+.search input.notxt1 {position:absolute;width:28px;height:27px;left:170px;}

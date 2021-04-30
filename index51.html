@@ -1,0 +1,285 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院人事处</title>
+<link href="css/base13.css" type="text/css" rel="stylesheet">
+<link href="css/style35.css" type="text/css" rel="stylesheet">
+<!--IE6透明代码-->
+<!--[if IE 6]>
+<script src="js/pngAlaph.js"></script>
+<script>
+DD_belatedPNG.fix('.logo, img');
+</script>
+<![endif]-->
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				url1 = url1.split("").reverse().join("") ;
+				url1 = encodeURIComponent(url1) ;
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+<div class="header" style="background-image:url(images/topbanner_01.png);">
+    	
+<div class="top">
+        	<div class="logo">
+                <a href="javascript:;"><img src="images/logo_032.png" alt=""></a>
+                <img class="line_blue" src="images/line_blue_09.png" alt="">
+                <div class="rsc"><img src="images/renshichu_06.png" alt=""></div>
+           </div>
+
+           <div class="xiaoxun"><img src="images/xiaoxun_03.png" alt=""></div>
+
+            <div class="search">
+                <form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="129" type="hidden">
+                    <input class="notxt" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+            </div>
+
+
+        </div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li class="no_sub"><a href="javascript:;">首  页</a></li>
+																<li><a href="javascript:;">部门介绍</a>
+				 <div class="subNav">
+                        <dl>
+														<dd><a href="javascript:;">人事处简介</a></dd>
+														<dd><a href="javascript:;">机构设置</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">工作动态</a></li>
+																				<li><a href="javascript:;">制度文件</a>
+				 <div class="subNav">
+                        <dl>
+														<dd><a href="javascript:;">人事调配工作</a></dd>
+														<dd><a href="javascript:;">师资建设工作</a></dd>
+														<dd><a href="javascript:;">专技聘任工作</a></dd>
+														<dd><a href="javascript:;">劳动工资工作</a></dd>
+														<dd><a href="javascript:;">社会保险工作</a></dd>
+														<dd><a href="javascript:;">高层次人才工作</a></dd>
+														<dd><a href="javascript:;">博士后工作</a></dd>
+														<dd><a href="javascript:;">人事档案工作</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">服务指南</a></li>
+																<li><a href="javascript:;">师资队伍</a></li>
+																<li><a href="javascript:;">下载中心</a></li>
+																<li><a href="index1.html">学校首页</a></li>
+								              
+            </ul>
+        </div></div>
+
+<div class="Banner">
+    <div class="flexslider">
+        <ul class="slides">
+	            <li><a><img src="images/content/2017-03/20170301134016858208.png">
+                <span class="til_slides"></span>
+            </a></li>
+			            <li><a><img src="images/content/2017-03/20170301134126478324.jpg">
+                <span class="til_slides"></span>
+            </a></li>
+			            <li><a><img src="images/content/2017-03/20170301134356827564.jpg">
+                <span class="til_slides"></span>
+            </a></li>
+			            <li><a><img src="images/content/2017-11/20171124104536196244.jpg">
+                <span class="til_slides"></span>
+            </a></li>
+			        </ul>
+    </div>
+</div>
+
+<div class="content">
+    <div class="row mode01">
+        <div class="col lf">
+            <ul>
+                <li><a href="javascript:;"><img src="images/recruit_logo_23.png" alt=""><p>人才招聘</p></a></li>
+                <li><a href="javascript:;" target="_blank"><img src="images/teachers_logo_26.png" alt=""><p>师资队伍</p></a></li>
+                <li class="icon3"><a href="javascript:;"><img src="images/file_logo_30.png" alt=""><p>制度文件</p></a></li>
+                <li class="icon4"><a href="javascript:;"><img src="images/down_logo_34.png" alt=""><p>下载中心</p></a></li>
+            </ul>
+        </div>
+        <div class="col md">
+            <div class="title"><p>通知公告</p><a href="javascript:;">MORE>></a></div>
+            <ul class="list_notice">
+			                <li>
+                    <div class="data_1">
+                        <span>04月</span>
+                        <h3 style=" margin: 0 auto 0 8px;"> 28 </h3>
+                    </div>
+                    <a href="javascript:void(0);" title="关于2021年非教学科研岗位公开招聘面试的通知" onclick="checkXnwk('sylm/189886.htm','xw');">            关于2021年非教学科研岗位公开招聘面试的通知 
+    </a>
+                </li>
+								                <li class="list_1">
+                    <div class="data_1">
+                        <span>03月</span>
+                        <h3 style=" margin: 0 auto 0 8px;"> 05</h3>
+                    </div>
+                   <a href="javascript:void(0);" title="关于开展2021年度高层次留学人才回国资助试点工作的通知" onclick="checkXnwk('sylm/187333.htm','xn');">            关于开展2021年度高层次留学人才回国资助试点工作的通知 
+    </a>
+                </li>
+				                <li class="list_1">
+                    <div class="data_1">
+                        <span>01月</span>
+                        <h3 style=" margin: 0 auto 0 8px;"> 04</h3>
+                    </div>
+                   <a href="javascript:void(0);" title="关于2020年专业技术职务评议通过人员名单的公示" onclick="checkXnwk('sylm/184625.htm','xw');">            关于2020年专业技术职务评议通过人员名单的公示 
+    </a>
+                </li>
+				                <li class="list_1">
+                    <div class="data_1">
+                        <span>01月</span>
+                        <h3 style=" margin: 0 auto 0 8px;"> 04</h3>
+                    </div>
+                   <a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院拟延长退休年龄人员名单公示" onclick="checkXnwk('sylm/184612.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院拟延长退休年龄人员名单公示 
+    </a>
+                </li>
+				                <li class="list_1">
+                    <div class="data_1">
+                        <span>12月</span>
+                        <h3 style=" margin: 0 auto 0 8px;"> 04</h3>
+                    </div>
+                   <a href="javascript:void(0);" title="关于开展2020年度初聘专业技术职务工作的通知" onclick="checkXnwk('sylm/183362.htm','xw');">            关于开展2020年度初聘专业技术职务工作的通知 
+    </a>
+                </li>
+				              
+            </ul>
+        </div>
+        <div class="col rf">
+            <div class="title2"><p>服务指南</p><a href="javascript:;">MORE>></a></div>
+            <ul>
+			                <li><span>【2020-12-01】</span>  <a href="javascript:void(0);" title="2020职称评审系统申报、审核手册" onclick="checkXnwk('fwzn/167202.htm','xw');">            2020职称评审系统申报、审核... 
+    </a></li>
+				                <li><span>【2019-01-08】</span>  <a href="javascript:void(0);" title="教职工因私出境及开具在职证明办理流程" onclick="checkXnwk('fwzn/153298.htm','xw');">            教职工因私出境及开具在职证明办... 
+    </a></li>
+				                <li><span>【2019-09-02】</span>  <a href="javascript:void(0);" title="法人证书申请流程" onclick="checkXnwk('fwzn/163359.htm','xw');">            法人证书申请流程 
+    </a></li>
+				                <li><span>【2017-03-10】</span>  <a href="javascript:void(0);" title="工作及收入证明办理流程" onclick="checkXnwk('fwzn/103835.htm','xw');">            工作及收入证明办理流程 
+    </a></li>
+				                <li><span>【2019-05-30】</span>  <a href="javascript:void(0);" title="教职工为孩子办理小学入学在职证明" onclick="checkXnwk('fwzn/160863.htm','xw');">            教职工为孩子办理小学入学在职证... 
+    </a></li>
+				                <li><span>【2019-09-02】</span>  <a href="javascript:void(0);" title="《社会团体负责人备案表》盖章流程图" onclick="checkXnwk('fwzn/163360.htm','xw');">            《社会团体负责人备案表》盖章流... 
+    </a></li>
+				                <li><span>【2017-09-11】</span>  <a href="javascript:void(0);" title="去世手续办理流程" onclick="checkXnwk('fwzn/119711.htm','xw');">            去世手续办理流程 
+    </a></li>
+				                <li><span>【2017-03-01】</span>  <a href="javascript:void(0);" title="岗位聘任书流程图" onclick="checkXnwk('docs/20181023104515335271.pdf','xw');">            岗位聘任书流程图 
+    </a></li>
+				                <li><span>【2017-03-09】</span>  <a href="javascript:void(0);" title="子女统筹医疗办理流程" onclick="checkXnwk('docs/20170309165439490361.pdf','xw');">            子女统筹医疗办理流程 
+    </a></li>
+				            </ul>
+        </div>
+    </div>
+    <div class="row mode02">
+        <div class="col lf">
+            <div class="title3"><p>工作动态</p><a href="javascript:;">MORE>></a></div>
+            <div class="left">
+						<img src="images/content/2021-04/20210422164659856377.jpg" width="415" height="242" alt="">
+						</div>
+            <div class="right">
+                <ul class="title_a">
+				                    <li>
+                        <div class="sm_t">            学校召开博士后科研学术交流活动 
+    </div>
+                        <a href="javascript:void(0);" title="学校召开博士后科研学术交流活动" onclick="checkXnwk('gzdt/189505.htm','xw');"><p> 请填写文章摘要 </p></a>
+                        <a href="javascript:;"><span>【查看更多详情】</span></a>
+                        <div class="data">【2021-04-22】</div>
+                    </li>
+					                </ul>
+                <ul class="title_b">
+				                    <li class="list_s"> <a href="javascript:void(0);" title="学校召开博士后科研学术交流活动" onclick="checkXnwk('gzdt/189505.htm','xw');">            学校召开博士后科研学术交流活动 
+    </a><span class="data_2">【2021-04-22】</span></li>
+					                    <li class="list_s"> <a href="javascript:void(0);" title="北京市博士后学术交流活动在我校顺利举行" onclick="checkXnwk('gzdt/182327.htm','xw');">            北京市博士后学术交流活动在我校顺利举行 
+    </a><span class="data_2">【2020-11-17】</span></li>
+					                    <li class="list_s"> <a href="javascript:void(0);" title="市人才工作局领导来校调研座谈" onclick="checkXnwk('gzdt/176985.htm','xw');">            市人才工作局领导来校调研座谈 
+    </a><span class="data_2">【2020-07-28】</span></li>
+					                    <li class="list_s"> <a href="javascript:void(0);" title="我校5位博士后获中国博士后科学基金第67批面上资助项目" onclick="checkXnwk('gzdt/176115.htm','xw');">            我校5位博士后获中国博士后科学基金第67... 
+    </a><span class="data_2">【2020-06-29】</span></li>
+					                    <li class="list_s"> <a href="javascript:void(0);" title="我校博士后获批13项2020年北京市博士后科研活动经费资助和国际化培养资助项目" onclick="checkXnwk('gzdt/174315.htm','xw');">            我校博士后获批13项2020年北京市博士... 
+    </a><span class="data_2">【2020-05-07】</span></li>
+					                </ul>
+            </div>
+        </div>
+        <div class="col rf">
+            <div class="up">
+                    <img src="images/system_logo_55.png" alt=""><span>系统链接</span>
+            </div>
+            <ul class="icon">
+                <li class="box1"><a href="javascript:;"><img src="images/icon1_67.png" alt=""><p>人事系统</p></a></li>
+                <li class="border1"><a href="javascript:;" target="_blank"><img src="images/icon2_69.png" alt=""><p>服务系统</p></a></li>
+                <li class="border2"><a href="javascript:;" target="_blank"><img src="images/icon3_74.png" alt=""><p>OA系统</p></a></li>
+                <li class="box2"><a href="index2.html" target="_blank"><img src="images/icon4_76.png" alt=""><p>电子邮件</p></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    
+<div class="copyRight">
+        <div class="lt">
+            <ul>
+                <li class="first">Copyright &copy; 南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有 <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</li>
+                <li class="second">地址：北京市西三环北路105号　 邮编：100048</li>
+            </ul>
+        </div>
+        <div class="logo_f"><img src="images/footer_03.png" alt=""></div>
+        <ul class="rt">
+            <li class="Em">E-mail: rsc@cnu.edu.cn</li>
+            <li class="today" style="width:136px;">网站总访问量：<span> 20<script src="https://cnursc.cnu.edu.cn/gplog/log/channelVisitLog.jsp?parentID=7279"></script></span></li>
+
+        </ul>
+
+    </div>
+	<script src="https://cnursc.cnu.edu.cn/gplog/log/writeLog.jsp?siteID=129&channelID=7279"></script></div>
+
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script12.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000,
+            animationSpeed: 400,
+            touch: true
+        });
+    }); 
+</script>
+
+</body></html>

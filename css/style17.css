@@ -1,0 +1,245 @@
+
+/* CSS Document */
+body{margin:0; padding:0; font-size:14px; background-color:#fff;}
+a{text-decoration:none; color:#282828;}
+a:hover{ color:#004392;}
+
+/*头部*/
+.header{ width:100%; height:181px; margin:0 auto;}
+.top{width:100%; height:141px; margin:0 auto; background: url(https://iec.cnu.edu.cn/images/top_bg_01.png) no-repeat; }
+.top_nav_bg{width:100%;height:29px;background-color:#0d5701;}
+.logo{ width:100%;height:129px;margin:0 auto;position:relative;}
+.logo_link{width:1000px;height:129px;margin:0 auto;display:block;}
+.logo img{ width: 597px; height: 141px; }
+.search{width:207px; height:27px;position:absolute;right:50%; margin-right:-500px;top:83px;background:url(https://iec.cnu.edu.cn/images/search_03.png) no-repeat left center; z-index:1000; }
+.search input{position:absolute; width:167px;height:27px;line-height:27px; color:#323232; border:none; background:none; left:0px; top:0px;  padding:0px; margin:0px;}
+.search input.notxt{color:#7f8081; padding-left:12px;}	
+.search input.notxt1 {position:absolute;width:28px;height:27px;left:179px;}
+
+
+
+
+
+.nav{height:40px;z-index:888; background: #0395e2;}
+.nav ul { width:1000px; margin:0 auto;}
+.nav ul li{float:left; height:40px; line-height: 40px; padding:0px 21px; position:relative; list-style: none;}
+.nav ul li a{ text-align:center;font-size:15px; color: #ffffff; text-align:center;}
+.nav ul li a:hover{font-weight:bold}
+.nav ul li .subNav {line-height:38px;font-size:14px;display:none;position:absolute;left:0;top:40px;text-align:center;z-index:9999;background-color:#fff;width:auto;padding: 0px 16px;}
+.nav ul li.on { background: #03afe0;}
+.nav ul li.on a{font-weight:bold}
+.nav ul li.on .subNav { display:block; z-index: 9999; background: #0395e2;}
+.nav ul li.on .subNav dl{overflow:hidden;}
+.nav ul li.on .subNav dl dd{ line-height:18px; height:auto; margin:0 0 5px 0; text-align:center;}
+.nav ul li.on .subNav dl dd a{ font-size:14px; line-height:20px; border-top:none; text-align:center; font-weight:normal; height:auto;font-family:'Microsoft YaHei'; padding-left:0px;}
+.nav ul li.on .subNav dl dd a:hover{ font-weight:bolder; }
+
+
+
+
+
+.content{ width:1000px; margin:0px auto; background:#fff; overflow:hidden;}
+.Banner{width:482px; height:308px; margin:0 auto;}
+
+
+
+/*图片轮播*/
+.flexslider{ width:482px; height: 308px;  overflow: hidden;}
+.flexslider ul.slides li img{ width:482px; height:308px; display:block}
+.flexslider .til_slides{ width:467px; height: 29px; position: absolute;bottom:0; left:0; line-height: 29px;  background:url(https://iec.cnu.edu.cn/images/slider_03.png) repeat-x; color:#fff; padding-left: 15px;}
+.flex-control-nav{ bottom:9px; bottom: 5px\9; bottom: 5px\9\0; text-align: right;}
+.flex-control-paging li{ margin:0 10px 0 0;}
+.flex-control-paging li a{ width: 9px; height: 9px;   background:url(https://iec.cnu.edu.cn/images/banner_a_03.png) no-repeat; text-indent:999px;}
+.flex-control-paging li a:hover,.flex-control-paging li a.flex-active{ background: url(https://iec.cnu.edu.cn/images/banner_a_hover_03.png) no-repeat; color:#fff;}
+
+
+.mode01{width:1000px; overflow:hidden; clear:both; height:310px; margin-top:19px;}
+.mode01 .lf{ width:482px; height:310px;  float:left}
+.mode01 .rt{ width:490px; height:310px; float:right}
+.mode02{width:1000px; overflow:hidden; clear:both; height:268px; margin-top:19px;}
+.mode02 .lf{ width:482px; height:268px;  float:left}
+.mode02 .rt{ width:490px; height:268px; float:right}
+.mode03 { width: 1000px; height: 89px; background: #edecec; margin: 0 0 29px 0; }
+.mode03 .lf{ width:482px; height:89px;  float:left;}
+.mode03 .rt{ width:490px; height:89px; float:right;}
+
+.more{ float:right; float: right; padding-right: 8px;}
+.more a{color: #0059b4; font-size:14px;}
+.listTitle{ height: 30px; line-height: 30px; border-bottom: 2px solid #0059b4; } 
+.listTitle h2{color: #0059b4; font-size: 16px; font-weight: bold; height: 30px; line-height:30px; padding:0px; }
+.articleList ul{ padding-top: 10px;}
+.articleList ul li{ background: url(https://iec.cnu.edu.cn/images/libg.gif) no-repeat left center;height:33px; line-height:33px; padding:0 0 0 20px; background: url(https://iec.cnu.edu.cn/images/arrow_right_03.png) no-repeat left center; list-style: none; }
+
+
+.articleList01 ul li { border-bottom: 1px solid #c7c7c7; overflow: hidden; padding:15px 0 3px 6px; }
+.articleList01 ul li .date { width: 45px; height: 30px; float: left; }
+.articleList01 ul li .date .year { width: 35px; height: 15px; display: block; text-align: center; font-family: Calibri; font-size: 14px; color: #0059b4; font-weight: bold; }
+.articleList01 ul li .date .month { width: 35px; height: 15px; display: block; text-align: center; font-family: Calibri; font-size: 14px; color: #0059b4; font-weight: bold;  }
+.articleList01 ul li a { font-size: 14px; float: left; padding:4px 0 0 23px; }
+
+
+
+.zhuanyeshezhi .zhuanyeshezhi_title { width: 32px; height: 87px; float:left; background: #5886da; margin: 1px 0 0 1px; }
+.zhuanyeshezhi .zhuanyeshezhi_title h2 { padding: 14px 0 0 9px; }
+.zhuanyeshezhi .zhuanyeshezhi_title h2 a { font-size: 14px; font-family: "微软雅黑"; color: #ffffff; font-weight: normal; line-height: 16px; }
+.zhuanyeshezhi .zhuanyeshezhi_title h2 a:hover { font-weight: bold; }
+.zhuanyeshezhi ul { float:left; overflow: hidden; width: 395px; *width:410px; height: 60px; padding:15px 0 0 35px; }
+.zhuanyeshezhi ul li { float:left; height: 31px; line-height: 31px; list-style: none; }
+.zhuanyeshezhi ul li a { height: 31px; display: block; }
+.zhuanyeshezhi ul li.zy01 { padding:0 30px 0 0; background: url(https://iec.cnu.edu.cn/images/li_bg_03.png) no-repeat right center; }
+.zhuanyeshezhi ul li.zy02 { padding:0 0 0 30px; *width:170px; }
+.zhuanyeshezhi ul li.zy03 { padding:0 20px; *padding-left:17px; *padding-right:17px; background: url(https://iec.cnu.edu.cn/images/li_bg_03.png) no-repeat left center; }
+.zhuanyeshezhi ul li.zy003 { padding:0px 20px 0 0; background: none; }
+
+
+
+.xinxihua .xinxihua_title { width: 32px; height: 87px; float:left; background: #0b84b6; margin: 1px 0 0 1px; }
+.xinxihua .xinxihua_title h2 { padding: 10px 0 0 9px; }
+.xinxihua .xinxihua_title h2 a { font-size: 14px; font-family: "微软雅黑"; color: #ffffff; font-weight: normal; line-height: 14px; }
+.xinxihua .xinxihua_title h2 a:hover { font-weight: bold; }
+.xinxihua ul { float:left; overflow: hidden; width: 395px; height: 60px; padding:15px 0 0 35px; }
+.xinxihua ul li { float:left; height: 31px; line-height: 31px; padding:0 43px 0 43px; background: url(https://iec.cnu.edu.cn/images/li_bg_03.png) no-repeat right center; list-style: none; }
+.xinxihua ul li a { height: 31px; display: block; }
+.xinxihua ul li.xx01 { padding:0 43px 0 0; background: url(https://iec.cnu.edu.cn/images/li_bg_03.png) no-repeat right center; }
+.xinxihua ul li.xx02 { padding:0 0 0 43px; background: none; }
+
+
+
+
+.subPage .articleList2 .teacher { padding:10px 0; border-bottom:1px solid #ccc; }
+.subPage .articleList2 .teacher .teacher_title { height: 30px; line-height: 30px; }
+.subPage .articleList2 .teacher .teacher_title h2 a { font-size: 17px; font-family: "微软雅黑"; color: #0395e2; font-weight: normal; }
+.subPage .articleList2 .teacher ul { overflow: hidden; }
+.subPage .articleList2 .teacher ul li { float:left; margin: 0 20px 0 0; }
+.subPage .articleList2 .teacher ul li a { padding:0px; background: none; }
+
+
+
+
+
+
+.subPage .articleList2 .teacherImg { padding:10px 0; border-bottom:1px solid #ccc; }
+.subPage .articleList2 .teacherImg .teacher_title { height: 40px; line-height: 40px; }
+.subPage .articleList2 .teacherImg .teacher_title h2 a { font-size: 17px; font-family: "微软雅黑"; color: #0395e2; font-weight: normal; }
+.subPage .articleList2 .teacherImg ul { overflow: hidden; }
+.subPage .articleList2 .teacherImg ul li { width: 150px; height: 200px; float:left; margin: 0 22px 0 0; }
+.subPage .articleList2 .teacherImg ul li a { width: 150px; height: 200px; display: block; padding:0px; background: none; }
+.subPage .articleList2 .teacherImg ul li a img { width: 130px; height: 170px; }
+.subPage .articleList2 .teacherImg ul li a p { height: 30px; line-height: 30px; text-align: center; }
+
+
+
+/*底部开始*/
+.footer{height:44px; background-color:#0059b4;color:#fff;}
+.copyRight{width:1000px; margin:0 auto;text-align:center; height:44px; line-height: 44px; font-family:"微软雅黑";}
+
+/*二级页*/
+.subPage{ width:990px; margin:0px auto 0; padding:0px 20px; background:#fff; position:relative; }
+.pageBanner{width: 1300px;margin:0px auto;}
+.pageBanner img {width: 1300px;/* height: 300px; */margin: 0 auto;}
+.Bread{ width:auto; height:40px; line-height:40px; border-bottom:3px solid #0395e2;  font-size:13px; color:#505050; margin:0px; }
+.Bread a{color:#505050;}
+.articleList2{}
+.articleList2 ul li{ background: url(https://iec.cnu.edu.cn/images/tongzhitonggao_li.png) no-repeat left center; padding:0; height:35px; line-height:35px; }
+.listTitle2{ padding-left:0px; background:none;}
+.listTitle2 h2{ padding:0px;} 
+.listTitle2 h2 a{color: #0395e2; font-size: 18px; font-weight: bold; }
+.subPage .articleList2{ margin:13px 0px 20px;}
+.subPage .articleList2 .listTitle2 { height:44px; line-height:44px; border:none; }
+.subPage .articleList2 .listTitle2 h2 { height:44px; line-height:44px; border:none; background:none; }
+.subPage .articleList2 ul { padding:0px; }
+.subPage .articleList2 ul li { background:url(https://iec.cnu.edu.cn/images/li_border_03.png) repeat-x left bottom; }
+.subPage .articleList2 ul li a { padding:0 0 0 23px; background:url(https://iec.cnu.edu.cn/images/arrow_right_03.png) no-repeat left center; }
+ 
+.page{ width:100%; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px; background:#fff8f0; }
+.page a{ padding:0 5px;}
+.page span { color:#0395e2; }
+
+.pageList{ padding-bottom: 30px; overflow: hidden;}
+.articleTitle { width: 100%;text-align: center;}
+.articleTitle h2{font-size: 18px; color:#0395e2; line-height: 20px; padding:10px 0;}
+.articleTitle h3{ font-size: 14px; color: #555; line-height: 20px; padding:10px 0; font-weight: bold;}
+.articleAuthor { height: 30px;text-align: center; line-height: 30px; margin: 10px;background: #f5f5f5; color:#777; }
+.article{ margin:20px 10px;font-size:12px; line-height:22px; }
+.article ol,ul{padding-left: 15px;}
+.Annex {padding:0px; overflow:hidden; margin-bottom:30px;}
+.Annex h3 { font-size: 16px;line-height: 30px; color:#0395e2; padding-left:5px;}
+.Annex ul li { height: 26px; line-height: 26px;background:url(https://iec.cnu.edu.cn/images/arrow_right_03.png) no-repeat 10px center; padding-left: 28px;}
+.Annex ul li a { font-size: 12px; line-height: 24px; color:#656464;}
+.Annex ul li a:hover{ color:#0395e2;}
+
+
+
+
+
+
+/*左右级页面*/
+.con{width: 1300px;overflow: hidden;margin: 0px auto 5px;padding:0px 20px;background: #fff;}
+.con .conLeft{width: 227px;  float: left; }
+.con .conLeft .title{height: 41px; line-height: 41px; text-align:left; border-bottom: 2px solid #0395e2; margin:0 0 13px 0; }
+.con .conLeft .title h2{font-size: 16px; color: #0395e2; padding:0 0 0 65px; }
+.con .conLeft ul li{font-size: 14px; text-align: center; height: 40px; line-height: 40px;  list-style: none; }
+.con .conLeft ul li a{ color: #282828; padding:0 13px 0 0px; font-size: 14px; text-align: center; border-bottom:1px solid #eaded0; display:block; }
+.con .conLeft ul li a:hover{  border-left: 3px solid #0395e2; background:url(https://iec.cnu.edu.cn/images/left_arrow.png) no-repeat 210px center; color: #282828; }
+.con .conLeft ul li.current a{ padding:0 13px 0 0px;   color:#282828; border-left: 3px solid #0395e2; background:url(https://iec.cnu.edu.cn/images/left_arrow.png) no-repeat 210px center;}
+.left_img { width:227px; height:261px; margin:25px 0 0 0; }
+.con .conRight{width: 1050px;padding: 0 5px;float: right;}
+.con .conRight .articleList2{width: auto;}
+.con .conRight .Bread{width: auto;}
+.con .conRight .page{ width:auto; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px; background:#fff8f0; }
+.con .conRight .page a{ padding:0 5px;}
+.con .conRight .page span { color:#0395e2; }
+.con .conRight .subPage{ width:auto; margin:0px auto; position:relative; }
+.pictureList2 ul{width: 850px; overflow: hidden; padding: 5px 0 0 0px;}
+.pictureList2 ul li{float: left; width: 165px; height: 150px; margin: 0 10px 0 0; text-align: center;}
+
+
+
+.subPage .pictureList2{ margin:13px 0px 20px;}
+.subPage .pictureList2 .listTitle2 { height:44px; line-height:44px; border:none; }
+.subPage .pictureList2 .listTitle2 h2 { height:44px; line-height:44px; border:none; background:none; }
+
+
+
+
+.subPage .TlpictureList2{ margin:13px 0px 20px;}
+.subPage .TlpictureList2 .listTitle2 { height:44px; line-height:44px; border:none; }
+.subPage .TlpictureList2 .listTitle2 h2 { height:44px; line-height:44px; border:none; background:none; }
+
+
+.TlpictureList2 ul{width:1050px; overflow: hidden; padding:5px 0 0 5px;}
+.TlpictureList2 ul li{float: left; width: 175px; height: 150px; margin: 0 25px 0 0; text-align: center;}
+
+
+
+
+
+/*图片展示*/
+/*图片展示开始*/
+/*图片展示开始*/
+.img_news_con{ width:100%; overflow:hidden; padding:0 0 20px 0;}
+.img_news_con h3{padding:20px 0 20px; heihgt:54px; text-align:center; color:#0395e2; font-size:16px; font-family:"微软雅黑"; font-weight:normal;}
+.imgs_scroll{position:relative; padding:0 0 0 35px;}
+.imgs_scroll .btn_l,.imgs_scroll .btn_r{ position:absolute; width:434px; height:580px; top:0; /*z-index:1000; filter:alpha(opacity:0); opacity: 0;*/ }
+.imgs_scroll .btn_l{left:62px; }
+.imgs_scroll .btn_r{right:69px;}
+.imgs_scroll .prev,.imgs_scroll .next { position:absolute; display:block; width:70px; top:40%; margin:-22px 0 0 0; text-align:center; cursor:pointer; z-index:90; display:none;}
+.imgs_scroll .prev{ left:35px;}
+.imgs_scroll .next{right:45px;}
+.imgs_news_list{width:910px;  position:relative; overflow:hidden;}
+.imgs_news_list ul{width:9999px;}
+.imgs_news_list ul li{float:left; display:inline; width:910px; /*margin-right:10px;*/  /*text-align:center;*/}
+.imgs_news_list ul li .txt2{ width:910px; float:left; line-height:20px; text-indent:2em; /*padding-top:27px;*/ text-align:left; font-family:"微软雅黑";}
+/*图片展示结束*/
+/*图片展示结束*/
+
+
+
+
+
+.newPage h2{ float:left;}
+.newPage a{ float:right;}
+.newPageArticle .art{ font-size:14px; line-height:30px; color:#4a4b4a; }
+.newPageList ul {margin:10px 0 0 0;}
+.newPage .more {}
+.newPageList01 ul li{border:none; width:auto; margin:0 40px 0 0; float:left;}

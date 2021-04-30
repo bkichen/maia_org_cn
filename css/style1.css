@@ -1,0 +1,71 @@
+
+/* CSS Document */
+
+.wrap{ margin:5% 0;}
+.content_wrap{ width:100%; height:608px; }
+.header{ max-width:1000px; margin:0 auto; overflow:hidden;}
+.header .logo{ max-width:415px; float:left;}
+.header .home{ float:right; color:#8a8a8a; height:20px; margin-top:52px; }
+.header .home a{ color:#8a8a8a; padding:0 3px;}
+
+
+/*.login_wrap{ position:absolute; z-index:999; top:20%; right:23%;}
+.login{ max-width:345px; text-align:center; background:#ffffff; border-radius:3px; box-shadow:2px 2px 2px #858585;}
+.login h2{ color:#1b7459; font-size:18px; font-weight:normal; display:block; border-bottom:#1b7459 4px solid; padding:18px 0; margin-bottom:10px;}
+.box-login{ padding:20px 15px;}
+.box-login ul li{ height:auto; overflow:hidden; margin-bottom:17px;}
+.box-login ul li span{ display:block; width:150px; float:left;}
+.box-login ul li span:nth-child(odd){ text-align:left;}
+.box-login ul li span:nth-child(even){ text-align:right;}
+.box-login ul li span input{ width:auto; height:auto;}
+.box-login ul li input{ width:80%; height:42px; line-height:42px;border:#ccc 1px solid;  padding:0 5px 0 37px; color:#777777;}
+.box-login ul li input.txt01{ background:url(../images/images1.jpg) no-repeat left 10px center;}
+.box-login ul li input.txt02{ background:url(../images/images2.jpg) no-repeat left 10px center;}
+
+.box-login ul li a.yzm{ position:absolute; right:30px;}
+
+.box-login ul li input.login-btn{ background:#1b7459; border:#cccccc 1px solid; width:92%; color:#fff; font-size:20px; font-family:'Arial'; padding:0;}
+*/
+
+.content{ max-width:1000px; margin:0 auto; position:relative;}
+
+.login{ max-width:350px; padding:4%; text-align:center; background:#ffffff; border-radius:3px; box-shadow:2px 2px 2px #858585; position:absolute; right:0; top:123px;}
+.login h1{ color:#033e8a; font-size:18px; font-weight:normal; display:block; border-bottom:#033e8a 4px solid; padding:0 0 18px 0; margin-bottom:10px;}
+.login .login-input{ margin:15px 0;}
+
+.login input,.login select{ height:35px; border:#cccccc 1px solid;}
+.email .uin{ max-width:173px; background:url(../images/images1.jpg) no-repeat left 7px center; padding-left:27px; }
+.email .select{ }
+.login .pasw{ width:91%; background:url(../images/images2.jpg) no-repeat left 7px center; padding-left:27px; }
+.login .login-help{ text-align:right; margin-bottom:40px;}
+.login .login-submit{ width:100%; background:#033e8a; color:#fff; font-size:18px; height:40px; cursor:pointer;}
+
+
+
+.footer p{ text-align:center; font-size:14px; line-height:30px; padding:15px;}
+
+
+
+
+@media screen and (max-width:1000px) {
+	      .content{ padding-top:123px;}
+          .login{ position:static; right:auto; margin:0 auto;}
+
+}
+
+	
+@media screen and (max-width:625px) {
+         .header .home{ margin-top:0; margin-bottom:5px;}
+}
+
+@media screen and (max-width:379px) {
+         .email .uin{ max-width:157px;}
+}
+
+@media screen and (max-width:360px) {
+         .email .uin{ max-width:130px;}
+}
+
+@media screen and (max-width:330px) {
+         .email .uin{ max-width:110px;}
+}

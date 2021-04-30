@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>南航金城学院教务处_南京财经大学教务处_南京艺术学院审计处</title>
+    <link href="css/base2.css" type="text/css" rel="stylesheet">
+    <link href="css/style29.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+    <div class="header">
+    	
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+
+<script>
+    function checkXnwk(url, xwssyh) {
+    var url1 = window.location + "";
+    url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+    if (xwssyh != '' && xwssyh == 'xn') {
+      var flag = checkSession();
+      if (flag == "true") {
+        window.open(url);
+      } else if (flag == "false") {
+        url1 = url1.split("").reverse().join("") ;
+        url1 = encodeURIComponent(url1) ;
+        window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+      } else {
+        window.open(url);
+      }
+    } else {
+      window.open(url);
+    }
+  }
+  function checkSession() {
+    var flag = "";
+    jQuery.ajax({
+      type : "POST",
+      url : '/cms/web/getXnwkSession.jsp',
+      async : false,
+      success : function(data) {
+        var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+        flag = newData;
+      }
+    });
+    return flag;
+  }
+</script>
+<div class="top">
+         <div class="top_nav_bg">
+            <div class="top_nav">
+                <a href="javascript:;" class="nobg">学校首页</a>
+                <a href="javascript:;">审计处首页</a>
+            </div>
+        </div>
+        <div class="logo">
+          <a href="javascript:;" class="logo_link">
+            <img src="images/logo_028.png" alt="">
+        </a>
+    </div>
+    <div class="search">
+     <form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+        <input name="siteID" value="174" type="hidden">
+        <input class="notxt" value="Search..." name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+        <input class="notxt1" name="Submit" type="submit" value="">
+    </form>
+</div>
+</div>
+<div class="nav">
+ <ul id="nav">
+     <li><a href="javascript:;">首页</a></li>
+            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">部门介绍</a>
+                                    </li>
+                            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">工作动态</a>
+                                    </li>
+                            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">审计流程</a>
+                                    </li>
+                            <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">审计法规</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">审计法律</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">学校规定</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">审计案例</a>
+                                    </li>
+                            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">下载专区</a>
+                                    </li>
+                            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">联系我们</a>
+                                    </li>
+                </ul>
+
+</div></div>
+<div class="Banner">
+    <div class="flexslider">
+        <ul class="slides">
+                        <li><a href="javascript:void(0);" title="校门" onclick="checkXnwk('sylbt/145447.htm','xw');"><img src="images/20150703092959784502.jpg">
+                      <span class="til_slides">校门</span></a></li>
+                                <li><a href="javascript:void(0);" title="草地" onclick="checkXnwk('sylbt/145446.htm','xw');"><img src="images/20141226163448375183.jpg">
+                      <span class="til_slides">草地</span></a></li>
+                                <li><a href="javascript:void(0);" title="丁香花" onclick="checkXnwk('sylbt/145445.htm','xw');"><img src="images/20150701112035405095.jpg">
+                      <span class="til_slides">丁香花</span></a></li>
+                        </ul>
+    </div>
+</div>
+<div class="content">
+    <div class="row mode01">
+        <div class="work">
+            <div class="title">
+                <h2>工作动态</h2><a href="javascript:;">更多</a>
+            </div>
+            <div class="workcon">
+                <div class="work_left">
+                                    <img src="" alt="">
+                    <div class="work_lIn">
+                        <h2><a href="javascript:void(0);" title="科研项目结题审签（盖章）须知" onclick="checkXnwk('gzdt/174800.htm','xw');">科研项目结题审签（盖章）须知</a></h2>
+                        <div class="w_con">请填写摘要！</div>
+                        <p>「2020-05-25」</p>
+                    </div>
+                                </div>
+                <div class="work_right">
+                    <ul>
+                                            <li>
+                            <div class="date">
+                                <p class="day">10</p>
+                                <p class="month">
+Jan</p>
+                            </div>
+                            <a href="javascript:void(0);" title="全国审计工作会议在京召开" onclick="checkXnwk('gzdt/171360.htm','xw');">全国审计工作会议在京召开</a>
+                        </li>
+                                            <li>
+                            <div class="date">
+                                <p class="day">19</p>
+                                <p class="month">
+Dec</p>
+                            </div>
+                            <a href="javascript:void(0);" title="党政主要领导干部和国有企事业单位主要领导人员经济责任审计规定" onclick="checkXnwk('gzdt/170525.htm','xw');">党政主要领导干部和国有企事业单位主要领导人员经济责任审计规定</a>
+                        </li>
+                                            <li>
+                            <div class="date">
+                                <p class="day">04</p>
+                                <p class="month">
+June</p>
+                            </div>
+                            <a href="javascript:void(0);" title="国务院办公厅印发《教育领域中央与地方财政事权和支出责任划分改革方案》" onclick="checkXnwk('gzdt/161090.htm','xw');">国务院办公厅印发《教育领域中央与地方财政事权和支出责任划分改革方案》</a>
+                        </li>
+                                            <li>
+                            <div class="date">
+                                <p class="day">27</p>
+                                <p class="month">
+May</p>
+                            </div>
+                            <a href="javascript:void(0);" title="市教委审计处举办“第2309号内部审计具体准则——内部审计业务外包管理”培训会" onclick="checkXnwk('gzdt/160586.htm','xw');">市教委审计处举办“第2309号内部审计具体准则——内部审计业务外包管理”培训会</a>
+                        </li>
+                                        </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mode02">
+        <div class="col lf">
+            <div class="process">
+                <div class="title">
+                    <h2>审计流程</h2><a href="javascript:;">更多</a>
+                </div>
+                <ul>
+                                    <li>
+                        <div class="date">
+                            <span class="day">25 /</span>
+                            <span class="month">2020.05</span>
+                        </div>
+                        <a href="javascript:void(0);" title="科研项目结题审签（盖章）须知" onclick="checkXnwk('sjlc/174801.htm','xw');">科研项目结题审签（盖章）须知</a>
+                    </li>
+                                        <li>
+                        <div class="date">
+                            <span class="day">04 /</span>
+                            <span class="month">2018.07</span>
+                        </div>
+                        <a href="javascript:void(0);" title="审计程序" onclick="checkXnwk('sjlc/144695.htm','xw');">审计程序</a>
+                    </li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="col rt">
+            <div class="statute">
+               <div class="title">
+                   <h2>审计法规</h2><a href="javascript:;">更多</a>
+               </div>
+               <ul>
+                                   <li>
+                        <div class="date">
+                            <span class="day">09 /</span>
+                            <span class="month">01月</span>
+                        </div>
+                        <a href="javascript:void(0);" title="《北京市内部审计规定》" onclick="checkXnwk('sjfg/sjfl/171339.htm','$article.belongUser');">《北京市内部审计规定》</a>
+                    </li>
+                                        <li>
+                        <div class="date">
+                            <span class="day">19 /</span>
+                            <span class="month">12月</span>
+                        </div>
+                        <a href="javascript:void(0);" title="党政主要领导干部和国有企事业单位主要领导人员经济责任审计规定" onclick="checkXnwk('sjfg/170523.htm','xw');">党政主要领导干部和国有企事业单位主要领导人员经济责任审计规定</a>
+                    </li>
+                                        <li>
+                        <div class="date">
+                            <span class="day">02 /</span>
+                            <span class="month">04月</span>
+                        </div>
+                        <a href="javascript:void(0);" title="《北京市审计局关于2019年内部审计工作的指导意见》京审内发〔2019〕66号" onclick="checkXnwk('sjfg/sjfl/156975.htm','$article.belongUser');">《北京市审计局关于2019年内部审计工作的指导意见》京审内发〔2019〕66号</a>
+                    </li>
+                                        <li>
+                        <div class="date">
+                            <span class="day">08 /</span>
+                            <span class="month">12月</span>
+                        </div>
+                        <a href="javascript:void(0);" title="教育部关于印发《教育部经济责任审计整改工作办法》的通知" onclick="checkXnwk('sjfg/xxgd/145575.htm','$article.belongUser');">教育部关于印发《教育部经济责任审计整改工作办法》的通知</a>
+                    </li>
+                                        <li>
+                        <div class="date">
+                            <span class="day">04 /</span>
+                            <span class="month">12月</span>
+                        </div>
+                        <a href="javascript:void(0);" title="中共北京市委教育工作委员会北京市教育委员会审计整改工作实施办法" onclick="checkXnwk('sjfg/xxgd/145577.htm','$article.belongUser');">中共北京市委教育工作委员会北京市教育委员会审计整改工作实施办法</a>
+                    </li>
+                                   </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="link">
+    <div class="linkIn">
+        <ul>
+                    <li class="first">
+               <a href="javascript:;" target="_blank">中华人民共和国审计署</a>
+            </li>
+                                     <li>
+                <a href="javascript:;" target="_blank">中华人民共和国教育部</a>
+            </li>
+                        <li>
+                <a href="javascript:;" target="_blank">中国审计学会</a>
+            </li>
+                        <li>
+                <a href="javascript:;" target="_blank">中国内部审计学会</a>
+            </li>
+                        <li>
+                <a href="javascript:;" target="_blank">北京市审计局</a>
+            </li>
+                        <li>
+                <a href="javascript:;" target="_blank">中国教育审计学会</a>
+            </li>
+                        <li>
+                <a href="javascript:;" target="_blank">北京市教委</a>
+            </li>
+                    </ul>
+    </div>
+</div>
+<div class="footer">
+    
+<div class="copyRight">
+        Copyright <script type="text/javascript">var date=new Date;document.write(date.getFullYear());</script> www.cnu.edu.cn All rights reserved <br>
+南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有地址：北京市西三环北路105号 邮编：100048  <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+    </div> </div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000,
+            animationSpeed: 400,
+            touch: true
+        });
+    });
+</script>
+
+</body></html>

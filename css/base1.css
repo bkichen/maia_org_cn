@@ -1,0 +1,64 @@
+
+/* CSS Document */
+html{background:#FFF;}
+body{font-size:14px;/*font-family:"\5FAE\8F6F\96C5\9ED1", SimSun;*/background-color:#fff;color: #323232;font-family:'微软雅黑',Calibri,Arial, Helvetica, sans-serif;}
+html,body,address,blockquote,div,dl,form,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul,dd,dl,dt,li,tbody,td,tfoot,th,thead,tr,button,del,ins,map,object,a,abbr,acronym,b,bdo,big,br,cite,code,dfn,em,i,img,kbd,q,samp,small,span,strong,sub,sup,tt,var,legend,fieldset{margin:0px;padding:0px;/*color: #323232;*/-webkit-font-smoothing: subpixel-antialiased;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+fieldset,img{border:0;}
+img,object{max-width:100%;height:auto;width:auto\9;/* for ie8 */-ms-interpolation-mode: bicubic;}
+a{outline:none;blr:expression(this.onFocus=this.blur());text-decoration:none;color: #323232;}
+a:hover{color: #e60012;text-decoration: none;}
+input[type='button']{outline:none;border:0 none;background-color:transparent;cursor:pointer;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400;}
+/*定义清除浮动样式 方法一*/
+.clearfix:after{content:'\20';display:block;height:0;clear:both; visibility:hidden;}
+.clearfix{zoom:1;}
+/*定义清除浮动样式 方法二*/
+.clear{clear:both;}
+/*font-size */
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+.f16px{font-size:16px;}
+.f18px{font-size:18px;}
+.f20px{font-size:20px;}
+.f22px{font-size: 22px;}
+.f24px{font-size:24px;}
+.f48px{font-size:48px;}
+/*float */
+.fl{float:left;}
+.fr{float:right;}
+ul,ol,li{list-style:none outside none;}
+.tc{text-align:center !important;}
+.tl{text-align:left  !important;}
+.tr{text-align:right  !important;}
+.fwn{font-weight:normal;}
+.fwb{font-weight:bold;}
+h1,h2,h3,h4,h5,h6{font-size:100%;/*font-weight:400;*/}
+q:before,q:after{content:'';content:none;}
+input,textarea,select{font-weight:inherit;font-size:100%;}
+input,select,textarea,button {vertical-align:middle}
+.pa{position:absolute;}
+.pr{position:relative;}
+.inblock{display:inline-block;*zoom:1;*display:inline;}
+.disnone{display:none;}
+.block{ display:block;}
+.hidden{ overflow:hidden !important;}
+.none{ display:none;}
+.textoverflow{ white-space:nowrap; overflow:hidden;text-overflow: ellipsis;}
+.underline:hover{text-decoration:underline;}
+.mtc{margin:0 auto;}
+.number{ font-family:Arial;}
+.fw600{font-weight: 600;}
+.hand{cursor: pointer;}
+.distable{display: table;}
+.distr{display:table-row;}
+.distd{display:table-cell;}
+.mr35px{margin-right: 35px;}
+.ml35px{margin-left: 35px;}
+.mr10px{margin-right:10px;}
+.ml10px{margin-left:10px;}
+.mt20px{margin-top:20px;}
+.mt5px{margin-top: 1.57%;}
+.mt4px{margin-top: 4px;}
+.mr5px{margin-right: 0.86%;}
+

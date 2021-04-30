@@ -1,0 +1,624 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心</title>
+<link href="css/base2.css" type="text/css" rel="stylesheet">
+<link href="css/style20170417.css" type="text/css" rel="stylesheet">
+<meta http-equiv="X-UA-Compatible" content="IE=8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8">
+<script type="text/javascript" src="js/show.js"></script>
+  <script type="text/javascript">
+      window.onload=function(){
+          //focusImg('banner');
+          function getByClass(sClass,parent){
+              var aEles = (parent||document).getElementsByTagName('*');
+              var arr = [];
+
+              for(var i=0; i<aEles.length; i++){
+
+                  var aClass = aEles[i].className.split(' ');
+
+                  for(var j=0; j<aClass.length; j++){
+
+                      if( aClass[j] == sClass ){
+
+                          arr.push( aEles[i] );
+                          break;
+
+                      }
+                  }
+              }
+              return arr;
+          }
+
+          var arr = getByClass('linkList');
+          var arr2 = getByClass('son_linkList');
+          var that = null;
+          var onoff = true;
+
+          for(var i=0;i<arr.length;i++)
+          {
+              arr[i].index = i;
+              arr[i].onclick = function(ev) {
+                  var e = ev || event;
+                  e.cancelBubble = true;
+                  for(var i=0;i<arr.length;i++)
+                  {
+                      if(i!=this.index)
+                      {
+                          arr2[this.index].style.display = 'block';
+                          arr2[i].style.display = 'none';
+                      }
+                  };
+                  if(onoff)
+                  {
+                      arr2[this.index].style.display = 'block';
+                      onoff = false;
+                  }else
+                  {
+                      arr2[this.index].style.display = 'none';
+                      onoff = true;
+                  };
+                  that = this.index;
+                  document.onclick = function() {
+                      arr2[that].style.display = 'none';
+                      onoff = true;
+                  }
+              }
+          };
+      };
+  </script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+<div class="header">
+  <div class="top">
+    <div class="logo"> <a href="javascript:;" class="logo_link"><img src="images/logo11_03.png"></a> </div>
+    <div class="search">
+      <form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+        <input name="siteID" value="131" type="hidden">
+        <input class="notxt" value="search..." name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='search...'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+        <input class="notxt1" name="Submit" type="submit" value="">
+      </form>
+    </div>
+    <div class="nav">
+      <ul id="nav">
+         <li><a href="javascript:;">首页</a></li>
+																<li><a href="javascript:;">中心概况</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">中心简介</a></dd>
+														<dd><a href="javascript:;">美育指导委员会</a></dd>
+														<dd><a href="javascript:;">专家委员会</a></dd>
+														<dd><a href="javascript:;">学术分委员会</a></dd>
+														<dd><a href="javascript:;">中心领导</a></dd>
+														<dd><a href="javascript:;">专兼职人员</a></dd>
+														<dd><a href="javascript:;">特聘研究员</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">科学研究</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">中心项目</a></dd>
+														<dd><a href="javascript:;">纵向课题</a></dd>
+														<dd><a href="javascript:;">委托研究</a></dd>
+														<dd><a href="javascript:;">学术活动</a></dd>
+														<dd><a href="javascript:;">科研奖励</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">教育教学 </a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">美育MOOC</a></dd>
+														<dd><a href="javascript:;">选课指南</a></dd>
+														<dd><a href="javascript:;">辅修专业</a></dd>
+														<dd><a href="javascript:;">教师风采</a></dd>
+														<dd><a href="javascript:;">教学成果</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">合作交流</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">学术会议</a></dd>
+														<dd><a href="javascript:;">课程联盟</a></dd>
+														<dd><a href="javascript:;">其他</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">工作简报</a></li>
+																				<li><a href="javascript:;">规章制度</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">学校文件</a></dd>
+														<dd><a href="javascript:;">发展规划</a></dd>
+														<dd><a href="javascript:;">中心制度</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">相关下载</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">政策文件</a></dd>
+														<dd><a href="javascript:;">申报表格</a></dd>
+													</dl>
+				 </div>
+				</li>
+												      </ul>
+    </div>
+  </div>
+  
+</div>
+<div class="content">
+<div class="row mode01">
+    <div class="col lf">
+          <!--<div class="pic"><a href="#"><img src="images/more_19.png" alt=""></a>
+            <span>图片报道</span>
+          </div>-->
+      
+          <div class="Banner01">
+            <div class="flexslider">
+              <ul class="slides">
+                                                    <li><a href="javascript:;" title="艺术季 | 美育大讲堂邀请欧阳奋强讲述 87版电视剧《红楼梦》台前幕后故事"><img src="">
+                                    <span class="til_slides">            艺术季 | 美育大讲堂邀请... 
+    </span></a></li>
+									                                    <li><a href="javascript:;" title="美育研究中心举行第四批科研课题中期检查报告会"><img src="images/content/2021-04/20210421095642583513.jpg">
+                                    <span class="til_slides">            美育研究中心举行第四批科研... 
+    </span></a></li>
+									                                    <li><a href="javascript:;" title="美育研究中心举行2021年度科研课题开题报告会"><img src="images/content/2021-04/20210421094845084970.jpg">
+                                    <span class="til_slides">            美育研究中心举行2021年... 
+    </span></a></li>
+									                                    <li><a href="javascript:;" title="学校召开第五届南航金城学院教务处_南京财经大学教务处_南京艺术学院艺术季筹备工作会"><img src="images/content/2021-03/20210316160839373473.jpg">
+                                    <span class="til_slides">            学校召开第五届南航金城学院教务处_南京财经大学教务处_南京艺术学院... 
+    </span></a></li>
+									                                    <li><a href="javascript:;" title="学校美育指导委员会举行第六次全体会议"><img src="images/content/2021-03/20210312172603310688.jpg">
+                                    <span class="til_slides">            学校美育指导委员会举行第六... 
+    </span></a></li>
+									              </ul>
+            </div>
+          </div>
+        
+    </div>
+    <div class="col rt">
+      <div class="pic"><a href="javascript:;"><img src="images/more_19.png" alt=""></a>
+        <span>中心新闻</span>
+      </div>
+      <ul>
+                    <li>
+		  <span class="data">03-16</span>
+          <a href="javascript:;" title="学校召开第五届南航金城学院教务处_南京财经大学教务处_南京艺术学院艺术季筹备工作会">            学校召开第五届南航金城学院教务处_南京财经大学教务处_南京艺术学院艺术季... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">03-12</span>
+          <a href="javascript:;" title="学校美育指导委员会举行第六次全体会议">            学校美育指导委员会举行第六次全体... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">01-12</span>
+          <a href="javascript:;" title="美育研究中心顺利完成北京市学校美育科研论文征集评选工作">            美育研究中心顺利完成北京市学校美... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">12-15</span>
+          <a href="javascript:;" title="美焕文心——第四届南航金城学院教务处_南京财经大学教务处_南京艺术学院艺术季圆满落幕">            美焕文心——第四届南航金城学院教务处_南京财经大学教务处_南京艺术学院艺... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">12-22</span>
+          <a href="javascript:;" title="美育研究中心举办第十七期美育大讲堂：创作是为了消灭厌倦，而不是为了生产厌倦">            美育研究中心举办第十七期美育大讲... 
+    </a>
+            
+          </li>
+		            
+      </ul>
+    </div>
+    
+  </div>
+  <div class="row mode001">
+  		
+    
+  		
+  </div>
+   <div class="row mode02">
+      <div class="col lf">
+        
+        <div class="Forum">
+          <img src="images/icon5_33.png" alt="">
+          <span>南航金城学院教务处_南京财经大学教务处_南京艺术学院艺术季</span>
+        </div>
+        <div class="more">
+        	<a href="javascript:;">more</a>
+        </div>
+        <div class="Trailer">
+          <!--<div class="trailer"><p>讲座预告</p></div>-->
+          <ul>
+		  <li class="color1">
+                              <a href="javascript:;">
+                <span class="name">第三届南航金城学院教务处_南京财经大学教务处_南京艺术学院”春晓杯“书法大会</span>
+                <span class="data2">时间：2021年4月22日（周四）19：00</span>
+                <span class="adress">地点：            南航金城学院教务处_南京财经大学教务处_南京艺术学院校本部学生活动中心三层演播... 
+    </span>
+              </a>
+			                
+            </li>
+            <li class="color2">
+                            <a href="javascript:;">
+                <span class="name">美育童心讲演活动——中国的幼儿教育振兴有我</span>
+                <span class="data2">时间：4月22日 14:00</span>
+                <span class="adress">地点：            南航金城学院教务处_南京财经大学教务处_南京艺术学院东一区128阶梯教室 
+    </span>
+              </a>
+			              </li>
+            <li class="color3">
+                            <a href="javascript:;">
+                <span class="name">意象的天空——初等教育学院美术教师创作展</span>
+                <span class="data2">时间：4月19日-4月27日</span>
+                <span class="adress">地点：            南航金城学院教务处_南京财经大学教务处_南京艺术学院校本部主楼二层展厅 
+    </span>
+              </a>
+			              </li>
+			
+          </ul>
+        </div>
+        
+        
+        
+       
+    <div class="On-line">
+          <!--<div class="on_line"><p>美育慕课</p></div>-->
+		  <div class="Forum">
+          <img src="images/icon9_33.png" alt="">
+          <span>美育慕课</span>
+        </div>
+          <div class="more">
+          	<a href="javascript:;">more</a>
+          </div>
+          <div class="shipin_con">
+		  			 <a href="javascript:;">
+          	  <img src="images/content/2020-04/20200401110550265916.jpg" class="rela">
+			  </a>
+             <img src="images/shipin.png" class="absolut">
+              <p><a href="javascript:;">美育MOOC：新诗十二名家</a></p>
+			            </div>
+          
+        </div>
+    </div>
+      <div class="col md">
+        <div class="Forum">
+          <img src="images/icon4_33.png" alt="">
+          <span>美育大讲堂</span>
+        </div>
+        <div class="more">
+        	<a href="javascript:;">more</a>
+        </div>
+        <div class="Trailer">
+          <!--<div class="trailer"><p>讲座预告</p></div>-->
+          <ul>
+             <li class="color1">
+		                <a href="javascript:;">
+                <span class="name">美育大讲堂（第18期）：致敬经典——87版电视剧《红楼梦》台前幕后故事</span>
+                <span class="data2">时间：2021年4月22日下午14:00</span>
+                <span class="adress">地点：            校本部实验楼报告厅 
+    </span>
+              </a>
+			              </li>
+            <li class="color2">
+                           <a href="javascript:;">
+                <span class="name">美育大讲堂（第17期）：创作是为了消灭厌倦，而不是为了生产厌倦</span>
+                <span class="data2">时间：10月29日 14:30</span>
+                <span class="adress">地点：            校本部实验楼报告厅（现场需持票入场 
+    </span>
+              </a>
+			              </li>
+            <li class="color3">
+                            <a href="javascript:;">
+                <span class="name">美育大讲堂（第16期）：亲民剧种——评剧</span>
+                <span class="data2">时间：10月22日 周四 14:00</span>
+                <span class="adress">地点：            校本部实验楼报告厅（现场需持票入场） 
+    </span>
+              </a>
+			  			  </li>
+          </ul>
+        </div>
+        <div class="On-line">
+          <!--<div class="on_line"><p>学术动态</p></div>-->
+		  <div class="Forum">
+          <img src="images/icon6_33.png" alt="">
+          <span>学术动态</span>
+        </div>
+          <div class="more">
+          	<a href="javascript:;">more</a>
+          </div>
+          <div class="dongtai_con">
+		   			 <a href="javascript:;">
+          	  <img src="images/content/2020-07/20200715223045002827.jpg" class="rela">
+			  </a>
+              <p><a href="javascript:;">《香山美学论集（四）》出版</a></p>
+			            </div>
+        </div>
+      </div>
+      <div class="col rt">
+      <div class="up">
+          <!--<div class="pic"><a href="sylm/gggs/index.htm"><img src="images/more_19.png" alt=""></a>
+            <span>通知公告</span>
+          </div>-->
+		  <div class="Forum">
+          <img src="images/icon8_33.png" alt="">
+          <span>通知公告</span>
+        </div>
+        <div class="more">
+          <a href="javascript:;">more</a>
+        </div>
+          <ul>
+		            <li>
+		  <span class="data">04-01</span>
+          <a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心2021年度美育研究课题立项公示">            南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心2021年... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">12-05</span>
+          <a href="javascript:;" title="美育研究中心关于组织申报2021年度美育研究课题的通知 ">            美育研究中心关于组织申报2021年... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">02-11</span>
+          <a href="javascript:;" title="美育研究中心关于2020年春季学期延期开学教学科研工作安排">            美育研究中心关于2020年春季学期... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">11-14</span>
+          <a href="javascript:;" title="“壮丽70年·阔步新时代”全国农民画创作巡展">            “壮丽70年·阔步新时代”全国农民... 
+    </a>
+            
+          </li>
+		            <li>
+		  <span class="data">10-21</span>
+          <a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心2020年度美育研究课题立项公示">            南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心2020年... 
+    </a>
+            
+          </li>
+		            </ul>
+      </div>
+	<!--  
+      <div class="up">
+          <div class="pic"><a href="sylm/gggs/index.htm"><img src="images/more_19.png" alt=""></a>
+            <span>通知公告</span>
+          </div>
+          <ul>
+		   			<li>
+			  <a href="sylm/gggs/188277.htm" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心2021年度美育研究课题立项公示" >            南航金城学院教务处_南京财经大学教务处_南京艺术学院美育研究中心2021年度美育... 
+    </a>
+			</li>
+						<li>
+			  <a href="sylm/gggs/183387.htm" title="美育研究中心关于组织申报2021年度美育研究课题的通知 " >            美育研究中心关于组织申报2021年度美育... 
+    </a>
+			</li>
+						<li>
+			  <a href="sylm/gggs/171847.htm" title="美育研究中心关于2020年春季学期延期开学教学科研工作安排" >            美育研究中心关于2020年春季学期延期开... 
+    </a>
+			</li>
+						<li>
+			  <a href="sylm/gggs/168526.htm" title="“壮丽70年·阔步新时代”全国农民画创作巡展" >            “壮丽70年·阔步新时代”全国农民画创作... 
+    </a>
+			</li>
+			            
+          </ul>
+      </div>
+      -->
+      
+      
+      
+      
+        
+        <div class="On-line">
+          <!--<div class="on_line"><p>精彩一刻</p></div>-->
+		   <div class="Forum">
+          <img src="images/icon7_33.png" alt="">
+          <span>精彩一刻</span>
+        </div>
+        
+          <div class="more">
+          	<a href="javascript:;">more</a>
+          </div>
+          <ul>
+		              <li>
+               <a href="javascript:;">
+			   		<img src="images/content/2018-07/20180703090906424083.jpg" alt="">
+<p style="text-align:center;">            青春的歌·扬帆新时代——中国武警男声合... 
+    </p></a>
+            </li>
+			           
+          </ul>
+          
+          
+        </div>
+      </div>
+  </div>
+
+   <div class="row mode03">
+      <div class="col lf">
+        <div class="Forum">
+          <div class="xf"><span>校园风采</span></div>
+		  <div class="img"><a href="javascript:;"><b>更多风采>></b></a></div>
+<!--          <div class="img"><a href="sylm/xyfc/index.htm"><img src="images/more_x_62.png" alt=""></a></div>
+-->        </div>
+        
+        <div class="Left">
+          <div class="Banner01">
+            <div class="flexslider">
+              <ul class="slides">
+			  				<li>
+				  <a href="javascript:;" title="全国大学生美术作品展——南航金城学院教务处_南京财经大学教务处_南京艺术学院学生入选作品展播"><img src="images/content/2018-01/20180111085843510244.jpg" alt="">            全国大学生美术作品展——首都师... 
+    </a>
+				</li>
+								<li>
+				  <a href="javascript:;" title="洛阳九朝刻石文字博物馆藏拓片精品展开幕"><img src="images/content/2017-04/20170412100045081405.jpg" alt="">            洛阳九朝刻石文字博物馆藏拓片精... 
+    </a>
+				</li>
+								<li>
+				  <a href="javascript:;" title="我校《墨色》文艺演出在墨西哥圆满成功"><img src="images/content/2017-04/20170405132200834363.jpg" alt="">            我校《墨色》文艺演出在墨西哥圆... 
+    </a>
+				</li>
+								<li>
+				  <a href="javascript:;" title="我校美院在“2017米兰设计周—中国高等院校设计学科师生优秀作品展”中屡创佳绩"><img src="images/content/2017-04/20170405132246371454.jpg" alt="">            我校美院在“2017米兰设计周... 
+    </a>
+				</li>
+				              </ul>
+            </div>
+          </div>
+          <ul class="List">
+           			<li>
+			  <a href="javascript:;" title="全国大学生美术作品展——南航金城学院教务处_南京财经大学教务处_南京艺术学院学生入选作品展播">            全国大学生美术作品展——首都师... 
+    </a>
+			</li>
+						<li>
+			  <a href="javascript:;" title="洛阳九朝刻石文字博物馆藏拓片精品展开幕">            洛阳九朝刻石文字博物馆藏拓片精... 
+    </a>
+			</li>
+						<li>
+			  <a href="javascript:;" title="我校《墨色》文艺演出在墨西哥圆满成功">            我校《墨色》文艺演出在墨西哥圆... 
+    </a>
+			</li>
+						<li>
+			  <a href="javascript:;" title="我校美院在“2017米兰设计周—中国高等院校设计学科师生优秀作品展”中屡创佳绩">            我校美院在“2017米兰设计周... 
+    </a>
+			</li>
+			            
+          </ul>
+        </div>
+
+      </div>
+      <div class="col rt">
+        <div class="Forum">
+          <div class="xf"><span style="
+    PADDING-LEFT: 11px;
+">美育云课堂</span></div>
+		  <div class="img"><a href="javascript:;"><b>更多课程>></b></a></div>
+
+<!--          <div class="img"><a href="sylm/myykc/index.htm"><img src="images/more_x_62.png" alt=""></a></div>
+-->
+        </div>
+        <ul class="Right">
+           			<li>
+			  <a href="javascript:;" title="美育云课堂54：致敬经典 追梦红楼——唱不完的红楼梦（第八期）">            美育云课堂54：致敬经典 追梦红楼——唱不完的红楼梦（第八期） 
+    </a>
+			</li>
+						<li>
+			  <a href="javascript:;" title="美育云课堂53：致敬经典 追梦红楼——唱不完的红楼梦（第七期）">            美育云课堂53：致敬经典 追梦红楼——唱不完的红楼梦（第七期） 
+    </a>
+			</li>
+						<li>
+			  <a href="javascript:;" title="美育云课堂52：致敬经典 追梦红楼——唱不完的红楼梦（第六期）">            美育云课堂52：致敬经典 追梦红楼——唱不完的红楼梦（第六期） 
+    </a>
+			</li>
+						<li>
+			  <a href="javascript:;" title="美育云课堂51：致敬经典 追梦红楼——唱不完的红楼梦（第五期）">            美育云课堂51：致敬经典 追梦红楼——唱不完的红楼梦（第五期） 
+    </a>
+			</li>
+			          
+          
+        </ul>
+      </div>
+    </div>
+
+
+
+
+</div>
+<div class="footer">
+   
+<div class="copyRight">
+    <div class="link">
+     
+      <div class="linkTab">
+       <div class="linkList" style="z-index:9999;">
+          <p>----------  教育部  ----------</p>
+          <div class="son_linkList">
+		               <a href="javascript:;" target="_blank">中国教育新闻网</a>
+			          </div>
+        </div>
+        <div class="linkList1" style="z-index:9999;">
+          <p>----------  中国高校  ----------</p>
+          <div class="son_linkList">
+                        <a href="javascript:;" target="_blank">北京大学</a>
+			            <a href="javascript:;" target="_blank">清华大学</a>
+			            <a href="javascript:;" target="_blank">北京师范大学</a>
+			            <a href="javascript:;" target="_blank">中国高校</a>
+			          </div>
+        </div>
+        <div class="linkList2" style="z-index:9999;">
+          <p>----------  美育网  ----------</p>
+          <div class="son_linkList">
+                      </div>
+        </div>
+      </div>
+    </div>
+    <div class="foo">
+      <div class="left1">
+        <span class="Email">Email: info@cnu.edu.cn</span>
+        <span class="Copyright">Copyright @ 南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有 <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</span>
+        <span class="address">地址：北京市西三环北路105号	<br>邮编：100048</span>
+      </div>
+      <span class="line1"><img src="images/line3_83.png" alt=""></span>
+      <div class="md1">
+        <img src="images/footer_logo_86.png" alt="">
+      </div>
+      <span class="line2"><img src="images/line3_83.png" alt=""></span>
+      <div class="rt1">
+        <!--<span class="Visit">今日访问量：<span>1255</span>  &nbsp;&nbsp;&nbsp;&nbsp; 累计访问量：<span>48779</span></span>-->
+        <ul>
+        	<li>
+            	<img src="images/timg.jpg">
+                <a href="javascript:;">微信公众号</a>
+            </li>
+<!--
+            <li>
+            	<img src="images/timg.jpg" />
+                <a href="#">微信公众号</a>
+            </li>
+-->
+        </ul>
+      </div>
+    </div>
+  </div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script> 
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script> 
+<script type="text/javascript" src="js/script9.js"></script> 
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    });
+	
+	$(function(){
+	  	$('.linkList').click(function(e) {
+            $(this).children('.son_linkList').slideToggle(500);
+        });
+		$('.linkList1').click(function(e) {
+            $(this).children('.son_linkList').slideToggle(500);
+        });
+		$('.linkList2').click(function(e) {
+            $(this).children('.son_linkList').slideToggle(500);
+        });
+	  })
+</script>
+
+</body></html>

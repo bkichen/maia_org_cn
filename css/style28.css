@@ -1,0 +1,499 @@
+body {
+	margin: 0px; padding: 0px; font-size: 13px; background-color: rgb(255, 255, 255);
+}
+a {
+	color: rgb(51, 51, 51); font-size: 12px; text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 75, 145); font-weight: bolder;
+}
+.header {
+	margin: 0px auto; width: 100%; height: 132px;
+}
+.top {
+	margin: 0px auto; width: 100%; height: 132px;
+}
+.logo {
+	margin: 0px auto; width: 100%; height: 132px; position: relative;
+}
+.logo_link {
+	margin: 0px auto; width: 1000px; height: 132px; display: block;
+}
+.logo img {
+	margin-top: 20px;
+}
+.search {
+	background: url("https://student.cnu.edu.cn/images/search.jpg") no-repeat left; top: 50px; width: 207px; height: 28px; right: 50%; margin-right: -500px; position: absolute; z-index: 1000;
+}
+.search input {
+	background: none; margin: 0px; padding: 0px; left: 0px; top: 0px; width: 166px; height: 28px; color: rgb(4, 70, 161); line-height: 28px; position: absolute;
+}
+.search input.notxt {
+	color: rgb(4, 70, 161); padding-left: 7px;
+}
+.search input.notxt1 {
+	left: 176px; width: 30px; height: 28px; position: absolute;
+}
+.nav {
+	margin: 0px auto; width: 1000px; height: 46px; line-height: 46px; font-family: "΢���ź�"; z-index: 111; box-shadow: 2px 2px 3px #555; background-color: rgb(255, 255, 255);
+}
+.nav ul {
+	margin: 0px auto; width: 1000px;
+}
+.nav ul li {
+	width: 80px; height: 46px; color: rgb(1, 109, 56); line-height: 46px; font-size: 14px; font-weight: normal; float: left; position: relative;
+}
+.nav ul li a {
+	height: 46px; color: rgb(51, 51, 51); line-height: 46px; font-family: "΢���ź�"; font-size: 14px; font-weight: normal; display: block;
+}
+.nav ul li a:hover {
+	background: rgb(255, 255, 255); color: rgb(0, 68, 131);
+}
+.nav ul li.on a {
+	color: rgb(0, 68, 131); background-color: rgb(255, 255, 255);
+}
+.nav ul li.on .subNav {
+	background: rgb(255, 255, 255); margin: 0px; padding: 0px; top: 46px; width: 154px; position: absolute;
+}
+.nav ul li.on .subNav dl {
+	margin: 0px; padding: 10px 0px;
+}
+.nav ul li.on .subNav dl dd {
+	height: auto; line-height: 20px;
+}
+.nav ul li.on .subNav dl dd a {
+	background: none; margin: 0px; padding: 0px 0px 0px 15px; width: auto; text-align: left; color: rgb(51, 51, 51); font-size: 13px;
+}
+.nav ul li.on .subNav dl dd {
+	margin: 5px 0px; padding: 0px; text-align: center;
+}
+.content {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 1000px; overflow: hidden;
+}
+.Banner {
+	margin: 0px auto;
+	/*left: 0px;top: 0px;position: absolute;  */
+	width: 1000px;
+	height: 338px;
+	z-index: -1;
+}
+.flexslider {
+	width: 1000px;
+	height: 338px;
+	overflow: hidden;
+}
+.flexslider ul.slides li img {
+	width: 1000px;
+	height: 338px;
+	display: block;
+}
+.flexslider .til_slides {
+	background: rgb(68, 68, 68); padding: 0px 50px 0px 20px; width: 253px; height: 329px; text-align: left; right: 0px; bottom: 0px; color: rgb(255, 255, 255); line-height: 24px; font-size: 14px; position: absolute;
+}
+.flexslider .til_slides a {
+	color: rgb(255, 255, 255); font-weight: normal;
+}
+.flexslider .til_slides h2 {
+	padding: 44px 0px 30px;
+}
+.flexslider .til_slides h2 a {
+	text-align: left; font-size: 18px;
+}
+.flex-control-nav {
+	display: none;
+}
+.flex-direction-nav a {
+	width: 30px; height: 30px;
+}
+.flex-direction-nav {
+	margin: 0px auto; width: 1000px; display: block;
+}
+.flex-direction-nav .flex-prev {
+	background: url("https://student.cnu.edu.cn/images/arrow.png") no-repeat left; left: 20px; top: 55%; opacity: 1;
+}
+.flexslider:hover .flex-prev {
+	left: 20px;
+}
+.flexslider:hover .flex-prev:hover {
+	left: 20px;
+}
+.flex-direction-nav .flex-next {
+	background: url("https://student.cnu.edu.cn/images/arrow.png") no-repeat right; top: 55%; right: 20px; opacity: 1;
+}
+.flexslider:hover .flex-next:hover {
+	right: 20px;
+}
+.flexslider:hover .flex-next {
+	right: 20px;
+}
+.mode01 {
+	width: 1000px; height: 268px;/* padding-top: 425px;*/
+}
+.mode02 {
+	margin: 15px auto 20px; width: 1000px; overflow: hidden;
+}
+.mode02 .lf {
+	width: 662px; height: 324px; overflow: hidden; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.mode02 .rt {
+	width: 308px; height: 324px; overflow: hidden; float: right;
+}
+.mode03 {
+	height: 324px;
+}
+.mode03 .lf {
+	width: 308px; height: 324px; overflow: hidden; margin-right: 30px; float: left;
+}
+.mode03 .md {
+	width: 308px; height: 324px; overflow: hidden; float: left;
+}
+.mode03 .rt {
+	width: 308px; height: 324px; overflow: hidden; float: right;
+}
+.mode04 {
+	height: 324px; margin-top: 15px;
+}
+.mode04 .lf {
+	width: 308px; height: 324px; overflow: hidden; margin-right: 30px; float: left;
+}
+.mode04 .md {
+	width: 308px; height: 324px; overflow: hidden; float: left;
+}
+.mode04 .rt {
+	width: 308px; height: 324px; overflow: hidden; float: right;
+}
+.mode05 {
+	height: 250px; margin-top: 15px; margin-bottom: 15px;
+}
+.mode05 .lf {
+	width: 308px; height: 250px; overflow: hidden; margin-right: 30px; float: left;
+}
+.mode05 .md {
+	width: 308px; height: 250px; overflow: hidden; float: left;
+}
+.mode05 .rt {
+	width: 308px; height: 250px; overflow: hidden; float: right;
+}
+.more1 {
+	width: 45px; height: 24px; text-align: center; line-height: 24px; float: right; display: block; background-color: rgb(22, 147, 212);
+}
+.more1 a {
+	color: rgb(255, 255, 255); font-size: 12px;
+}
+.more2 {
+	height: 24px; text-align: center; line-height: 24px; margin-top: 5px; float: right;
+}
+.more2 a {
+	color: rgb(51, 51, 51); font-size: 12px; text-decoration: underline;
+}
+.articleList_image {
+	padding-bottom: 15px; border-bottom-color: rgb(210, 210, 210); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.articleList_image_title {
+	height: 32px; line-height: 32px; overflow: hidden; margin-bottom: 10px;
+}
+.articleList_image_title h2 {
+	height: 32px; color: rgb(51, 51, 51); line-height: 32px; font-size: 18px; font-weight: bolder;
+}
+.articleList_image_title h2 .tit_en {
+	color: rgb(0, 64, 128); font-family: "΢���ź�"; font-size: 14px; font-weight: normal; margin-left: 10px;
+}
+.articleList_image ul {
+	margin: 0px 0px 0px 589px;
+}
+.articleList_image ul li {
+	background: url("https://student.cnu.edu.cn/images/icon1.jpg") no-repeat left; height: 30px; line-height: 30px; padding-left: 20px;
+}
+.articleList_image ul li span {
+	color: rgb(121, 121, 121); font-size: 12px; margin-left: 10px;
+}
+.articleList_image ul li a {
+	font-size: 12px;
+}
+.articleList_image .channelImage {
+	width: 267px; margin-top: 10px; margin-right: 29px; float: left;
+}
+.articleList_image .channelImage p {
+	margin: 10px auto 0px; height: 40px; text-align: left; color: rgb(51, 51, 51); line-height: 20px;
+}
+.articleList_image .channelImage img {
+	width: 267px; height: 134px;
+}
+.articleList {
+	
+}
+.listTitle {
+	height: 42px; line-height: 42px; overflow: hidden; margin-bottom: 20px;
+}
+.listTitle h2 {
+	padding: 0px; height: 42px; color: rgb(51, 51, 51); line-height: 42px; font-size: 18px; font-weight: bolder;
+}
+.listTitle h2 .tit_en {
+	color: rgb(0, 64, 128); font-family: "΢���ź�"; font-size: 14px; font-weight: normal; margin-left: 10px;
+}
+.articleList ul {
+	width: 341px; overflow: hidden; float: right;
+}
+.articleList ul li {
+	height: 40px; line-height: 20px; padding-bottom: 13px; padding-left: 0px;
+}
+.articleList ul li a {
+	width: 270px; height: 40px; margin-left: 17px; float: left;
+}
+.articleList ul li a:hover {
+	font-weight: normal;
+}
+.articleList ul li span {
+	width: 48px; height: 40px; text-align: left; color: rgb(15, 81, 144); line-height: 18px; font-family: Calibri,Arial; font-size: 14px; border-right-color: rgb(210, 210, 210); border-right-width: 1px; border-right-style: solid; float: left; display: block;
+}
+.articleList ul li span p {
+	height: 18px; color: rgb(15, 81, 144); font-family: Calibri,Arial; font-size: 18px;
+}
+.firstList {
+	width: 290px;
+}
+.firstList .leftDate {
+	width: 76px; height: 64px; text-align: center; color: rgb(0, 75, 145); font-size: 14px; float: left; background-color: rgb(226, 226, 226);
+}
+.firstList .leftDate p {
+	padding-top: 5px; font-size: 22px;
+}
+.firstListArticle {
+	width: 194px; margin-left: 20px; float: left;
+}
+.firstListArticle h2 {
+	margin-bottom: 14px;
+}
+.firstListArticle h2 a {
+	font-size: 14px;
+}
+.firstListArticle p {
+	color: rgb(68, 68, 68); line-height: 24px; font-size: 12px;
+}
+.articleList_image2 {
+	
+}
+.articleList_image_title2 {
+	height: 42px; line-height: 42px; overflow: hidden; margin-bottom: 10px;
+}
+.articleList_image_title2 h2 {
+	height: 32px; line-height: 32px;
+}
+.articleList_image_title2 h2 .tit_en {
+	color: rgb(0, 64, 128); font-family: "΢���ź�"; font-size: 14px; font-weight: normal; margin-left: 10px;
+}
+.articleList_image_title2 h2 a {
+	color: rgb(51, 51, 51); font-size: 18px; font-weight: bolder;
+}
+.articleList_image2 ul {
+	margin-top: 15px;
+}
+.articleList_image2 ul li {
+	background: url("https://student.cnu.edu.cn/images/icon2.jpg") no-repeat left; height: 34px; line-height: 34px; padding-left: 20px; border-bottom-color: rgb(221, 221, 221); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.articleList_image2 ul li span {
+	color: rgb(121, 121, 121); font-size: 12px; margin-left: 10px;
+}
+.articleList_image2 ul li a {
+	font-size: 12px;
+}
+.articleList_image2 .channelImage2 {
+	border: 1px solid rgb(220, 220, 220); border-image: none; width: 306px;
+}
+.articleList_image2 .channelImage2 p {
+	margin: 10px auto 0px; height: 40px; text-align: left; color: rgb(51, 51, 51); line-height: 20px;
+}
+.articleList_image2 .channelImage2 img {
+	width: 306px; height: 75px;
+}
+.friendLink {
+	margin: 0px auto;
+}
+.friendLink_title {
+	height: 48px; line-height: 48px; overflow: hidden; margin-bottom: 10px; border-bottom-color: rgb(189, 187, 188); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.friendLink_title h2 {
+	height: 32px; line-height: 32px;
+}
+.friendLink_title h2 .tit_en {
+	color: rgb(0, 64, 128); font-family: "΢���ź�"; font-size: 14px; font-weight: normal; margin-left: 10px;
+}
+.friendLink_title h2 a {
+	color: rgb(51, 51, 51); font-size: 18px; font-weight: bolder;
+}
+.friendLink .linkList ul {
+	overflow: hidden;
+}
+.friendLink .linkList ul li {
+	width: 25%; height: 30px; line-height: 30px; font-size: 12px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid; float: left;
+}
+.friendLink .linkList ul li a {
+	margin: 0px 5px;
+}
+.footer {
+	background: rgb(0, 59, 118); height: 80px; color: rgb(255, 255, 255); line-height: 24px; padding-top: 20px; margin-top: 40px;
+}
+.copyRight {
+	margin: 0px auto; width: 1000px; text-align: center; font-family: "΢���ź�"; font-size: 12px;
+}
+.ft_logo {
+	margin-right: 30px; float: left;
+}
+.copyRight p {
+	text-align: left; line-height: 24px; padding-top: 7px;
+}
+.copyRight p span {
+	display: block;
+}
+.copyRight p a {
+	color: rgb(255, 255, 255); margin-right: 3px;
+}
+.subPage {
+	margin: 0px auto; position: relative; z-index: 1;
+}
+.subPageW {
+	margin: 0px auto 0px;
+	width: 1000px;
+	overflow: hidden;
+}
+.pageBanner {
+	left: 50%; top: -44px; width: 1240px; height: 343px; overflow: hidden; margin-left: -620px; position: relative; z-index: -1;
+}
+.pageBanner img {
+	width: 1240px; height: 343px;
+}
+.bread {
+	margin: 35px auto 0px; height: 32px; color: rgb(119, 119, 119); line-height: 32px; overflow: hidden;
+}
+.bread div {
+	
+}
+.bread a {
+	padding: 0px 5px; color: rgb(143, 143, 143);
+}
+.bread a:hover {
+	color: rgb(143, 143, 143);
+}
+.page {
+	margin: 20px 0px 30px; width: 100%; height: 30px; text-align: center; line-height: 30px; clear: both; font-size: 12px; background-color: rgb(245, 245, 245);
+}
+.page a {
+	padding: 0px 5px;
+}
+.Annex {
+	padding: 0px; overflow: hidden; margin-bottom: 30px;
+}
+.Annex h3 {
+	color: rgb(23, 142, 221); line-height: 30px; padding-left: 5px; font-size: 16px;
+}
+.Annex ul li {
+	background: url("https://student.cnu.edu.cn/images/nav_sonnav_li.jpg") no-repeat 10px; height: 26px; line-height: 26px; padding-left: 28px;
+}
+.Annex ul li a {
+	color: rgb(101, 100, 100); line-height: 24px; font-size: 12px;
+}
+.Annex ul li a:hover {
+	color: rgb(23, 142, 221);
+}
+.lcon_lf {
+	width: 250px; overflow: hidden; float: left; background-color: rgb(245, 245, 245);
+}
+.lcon_lf .lcon_lf_tit {
+	height: 48px; text-align: left;
+}
+.lcon_lf .lcon_lf_tit h3 {
+	padding: 0px 10px; text-align: center; color: rgb(255, 255, 255); line-height: 48px; font-size: 18px; font-weight: normal; background-color: rgb(0, 70, 135);
+}
+.lcon_lf ul {
+	
+}
+.lcon_lf ul li a {
+	height: 40px; text-align: center; line-height: 40px; font-size: 14px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.lcon_lf ul li a:hover {
+	background: url("https://student.cnu.edu.cn/images/pg_icon1.jpg") no-repeat 210px 8px rgb(155, 155, 155); color: rgb(255, 255, 255); font-size: 14px; font-weight: normal;
+}
+.lcon_lf ul li.active a {
+	background: url("https://student.cnu.edu.cn/images/pg_icon1.jpg") no-repeat 210px 8px rgb(155, 155, 155); color: rgb(255, 255, 255); font-size: 14px; font-weight: normal;
+}
+.lcon_rt {
+	width: 720px; overflow: hidden; float: right;
+}
+.pageArticleList {
+	
+}
+.pageListTitle {
+	height: 40px; line-height: 40px;
+}
+.pageListTitle h2 {
+	text-align: right; color: rgb(0, 70, 135); font-size: 20px; font-weight: normal; border-bottom-color: rgb(226, 226, 226); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pageArticleList ul {
+	margin-top: 20px;
+}
+.pageArticleList ul li {
+	background: url("https://student.cnu.edu.cn/images/pg_icon2.jpg") no-repeat left; height: 34px; line-height: 34px; padding-left: 15px;
+}
+.pageArticleList ul li:hover {
+	background-color: rgb(245, 245, 245);
+}
+.pageArticleList ul li span {
+	color: rgb(143, 143, 143); font-size: 12px; margin-right: 3px; float: right;
+}
+.pageArticle {
+	
+}
+.pageArticle .articleTitle {
+	width: 100%; text-align: center;
+}
+.pageArticle .articleTitle h2 {
+	padding: 10px 0px; color: rgb(0, 70, 135); line-height: 20px; font-size: 18px;
+}
+.pageArticle .articleTitle h3 {
+	padding: 10px 0px; color: rgb(85, 85, 85); line-height: 20px; font-size: 14px; font-weight: bold;
+}
+.pageArticle .articleAuthor {
+	background: rgb(245, 245, 245); margin: 10px; height: 30px; text-align: center; color: rgb(119, 119, 119); line-height: 30px;
+}
+.pageArticle .article {
+	margin: 20px 10px; line-height: 22px; overflow: hidden; font-size: 12px;
+}
+.Annex {
+	padding: 15px 0px 0px; overflow: hidden; margin-bottom: 30px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: solid;
+}
+.Annex h3 {
+	height: 40px; color: rgb(0, 70, 135); line-height: 40px; padding-left: 5px; font-size: 16px;
+}
+.Annex ul li {
+	background: url("https://student.cnu.edu.cn/images/icon2.jpg") no-repeat 10px; height: 26px; line-height: 26px; padding-left: 28px;
+}
+.Annex ul li a {
+	color: rgb(40, 40, 40); line-height: 24px; font-size: 12px;
+}
+.Annex ul li a:hover {
+	color: rgb(23, 142, 221);
+}
+.pic_lrt {
+	margin: 10px 0px 0px; text-align: center; overflow: hidden;
+}
+.pic_lrtTitle {
+	height: 40px; line-height: 40px; margin-bottom: 30px;
+}
+.pic_lrtTitle h2 {
+	text-align: right; color: rgb(0, 70, 135); font-size: 20px; font-weight: normal; border-bottom-color: rgb(226, 226, 226); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.pic_lrt ul {
+	width: 800px;
+}
+.pic_lrt ul li {
+	background: none; padding: 0px 38px 35px 0px; width: 214px; height: 174px; float: left;
+}
+.pic_lrt ul li a {
+	margin: 0px; padding: 1px; border: 1px solid rgb(224, 224, 224); border-image: none; width: 210px; height: 170px; text-align: center; line-height: 30px; font-size: 14px; display: block;
+}
+.pic_lrt ul li a img {
+	width: 210px; height: 140px; display: block;
+}
+.pic_lrt ul li a:hover {
+	border: 1px solid rgb(178, 192, 206); border-image: none; color: rgb(7, 92, 191);
+}

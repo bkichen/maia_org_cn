@@ -1,0 +1,112 @@
+
+/* CSS Document */
+*{border:0 none;margin:0;padding:0}
+body{background:url(../images/bg_body.jpg) 0 0 repeat-x;font-size: 12px;color: #333;}
+a{text-decoration:none}
+a:hover{text-decoration:underline}
+ul,ol,li{list-style:none}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+em{font-style:normal;}
+.clear{clear:both;font-size:0;height:0;line-height:0;overflow:hidden;width:100%}
+.clearfix:after{content: " ";display: block;height: 0;clear: both;}
+.f_l{float:left}
+.f_r{float:right}
+.height12{font-size:0;height:12px;line-height:0;overflow:hidden;width:100%}
+/*+++++++++++++++++++++++++top+++++++++++++++++++++++++++++*/
+.wrap{background-color:#FFF;margin:0 auto;padding-bottom:20px;width:1000px}
+.top{background:url(../images/top1.jpg) 0 0 no-repeat;height:105px; position:relative}
+.top .logo{display:block; height:80px;position:absolute;top:12px;left:30px; text-indent:-9999px;width:460px}
+.top_nav{position:absolute;top:10px;right:90px;width:260px; text-align:right;color:#810402}
+.top_nav a{display:inline-block; margin:0 4px;color:#810402}
+
+.nav_bg{background:#4C769A;height:32px;color:#fff;text-align:center}
+.nav{height:32px;margin-left:68px}
+.nav li{background:url(https://art.cnu.edu.cn/images/li.gif) left center no-repeat;float:left;height:32px;position:relative; z-index:20}
+.nav .noli{background:none}
+.nav *{text-decoration:none;font-size:12px;}
+.nav * a:hover{background:url(https://art.cnu.edu.cn/images/nav_hover.jpg) bottom center no-repeat #19578A; text-decoration:none}
+.nav li a{color:#fff;width:84px;height:32px;line-height:32px;font-weight:bold;blr:expression(this.onFocus=this.close());blr:expression(this.onFocus=this.blur());display:inline-block;text-align:center; margin:0 12px;}
+.nav li a:focus{-moz-outline-style: none;}
+.nav li .sub-nav{position:absolute;top:32px;left:12px;list-style:none;display:none;z-index:99}
+.nav li .sub-nav li{text-align:center;clear:left;width:84px;border-bottom:1px solid #7DA2BF; margin-right:0;height:28px}
+.nav li .sub-nav li a{background-color:#4C769A;height:28px;line-height:28px;width:84px; margin:0}
+.nav li .sub-nav li a:hover{background:none #19578A}
+
+.slide{background:url(https://art.cnu.edu.cn/images/bg_banner.jpg) 0 0 no-repeat;padding:20px;width:960px;height:268px;overflow:hidden}
+.slide .play{float:left;height:268px;width:770px;overflow:hidden;position:relative}
+.slide .play ul{position:absolute;top:0;width:4000px}
+.slide .play li{float:left;height:268px;width:770px;overflow:hidden}
+.slide .play li img{height:268px; width:770px}
+.slide .tab{float:right;width:190px;height:250px;overflow:hidden;background-color:#12436C; padding-top:18px}
+.slide .tab li{background:url(https://art.cnu.edu.cn/images/bnr_li_a.gif) 12px 19px no-repeat;width:190px;height:45px;line-height:45px;overflow:hidden;border-bottom:1px solid #fff}
+.slide .tab li.on{background:url(https://art.cnu.edu.cn/images/bnr_on.jpg) 0 0 no-repeat; border-bottom:1px solid #12436C}
+.slide .tab li a{color:#FFF;display:inline-block;text-indent:24px}
+.slide .tab li a:hover{text-decoration:none}
+.slide .info{color:#666;height:35px;line-height:35px;font-size:14px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+/*+++++++++++++++++++++++++con+++++++++++++++++++++++++++++*/
+.content{padding:0 10px 12px}
+.sider_l{width:254px; overflow:hidden}
+.sider_l .tit{background:url(https://art.cnu.edu.cn/images/tit.jpg) 0 0 no-repeat;height:28px; line-height:28px; width:254px}
+.sider_l .tit h3{color:#fff; text-indent:18px; font-size:14px; font-weight:bold}
+.more{color:#fff; float:right; margin:-28px 12px 0 0}
+.con{border:1px solid #c6ced5; border-top:0 none;padding:10px}
+.list li{background:url(https://art.cnu.edu.cn/images/gg_li.jpg) 6px 10px no-repeat;line-height:31px}
+.list li a{color:#2f4f8d; text-indent:18px; display:inline-block}
+.list li span{color:#808ba1}
+.links{border:1px solid #7E9DB9; text-align:center; height:20px; line-height:20px; width:232px}
+/*+++++++++++++++++++++++++end sider_l+++++++++++++++++++++++++++++*/
+.main{margin-left:10px;width:476px;}
+.main .tit{border-bottom:3px solid #325396;margin-bottom:2px;height:24px;}
+.main .tit h3{background:url(https://art.cnu.edu.cn/images/main_tit.gif) 2px 5px no-repeat;font-size:14px;line-height:24px;color:#325396;font-weight:bold;text-indent:24px}
+.main .more{color:#325396;margin-top:-20px}
+.main .con{border-top:1px solid #C6CED5}
+.main .con .list li{background:url(https://art.cnu.edu.cn/images/main_li.gif) 4px 11px no-repeat;border-bottom:1px solid #E9E9E9; line-height:28px}
+.main .con .list a{text-indent:24px}
+/*+++++++++++++++++++++++++end main+++++++++++++++++++++++++++++*/
+.xshd{margin-top:8px}
+.sider_r{background:url(https://art.cnu.edu.cn/images/sider_r_t.jpg) top center no-repeat;width:233px; padding-top:8px;}
+.sider_r_b{background:url(https://art.cnu.edu.cn/images/sider_r_b.jpg) bottom center no-repeat; padding-bottom:8px}
+.sider_r_con{background:url(https://art.cnu.edu.cn/images/sider_r_c.jpg) center center repeat-y;}
+.sider_r .tit{background:url(https://art.cnu.edu.cn/images/sider_r_tit.jpg) 0 0 no-repeat;height:26px;}
+.sider_r .tit h3{line-height:26px;color:#0F3B92;text-indent:40px; font-weight:bold; font-size:14px}
+.sider_r .more{color:#325396;margin-top:-21px}
+.sider_r .con{border:0 none;}
+.stbg .con{padding-bottom:2px}
+.stbg .list li{line-height:20px}
+/*+++++++++++++++++++++++++end sider_r+++++++++++++++++++++++++++++*/
+.footer{height:30px;background-color:#19578A;}
+.footer p{line-height:30px;text-align:center; color:#FFF}
+.footer p a{color:#fff; margin:0 4px}
+
+
+/*+++++++++++++++++++++++++start sub+++++++++++++++++++++++++++++*/
+.sub_slide{height:90px;overflow:hidden}
+.sub_name{background:url(https://art.cnu.edu.cn/images/sub_name.jpg) 0 0 no-repeat;height:90px;width:237px;}
+.sub_name h3{color:#125196; font-size:26px; font-weight:bold; font-family:"黑体"; padding-top:32px; text-align:center}
+.dqwz{height:36px; line-height:36px;}
+.dqwz a{color:#2F4F8D}
+.sub_main{margin-left:0;width:710px}
+.lm_con{border:1px solid #C6CED5; padding:10px; margin-bottom:12px}
+.lm_con .list li{border-bottom:1px dashed #AFAFE9}
+
+.sub_con{padding:12px 24px; border:1px solid #C6CED5}
+.sub_h3{color: #333;font-size: 22px;margin: 20px 0 10px; font-weight:bold;text-align: center;}
+.info {border-bottom: 1px dashed #CCCCCC;color: #666666;line-height: 30px;margin: 0 auto 16px;text-align: center;}
+.sub_con_wd{margin: 0 auto 16px;}
+.sub_con_wd p{line-height:20px; margin-bottom:6px; text-indent:2em}
+.per_nex {color: #666666;font-size: 14px;line-height: 26px;}
+.per_nex a{color:#666}
+.p_list li{background: url(https://art.cnu.edu.cn/images/p_bg.jpg) no-repeat 0 0;display: inline;float: left;margin:5px 30px;width:160px;}
+.p_list li img{height: 118px;margin: 1px auto 0 1px;width: 158px;}
+.p_list li span{display: block;margin-top: 5px;text-align: center;}
+
+.pix-pagination{width:100%;height:35px;margin:0 auto;font-size:0;letter-spacing:-1px;text-align:center}
+.pix-pagination-hidden{display:none}
+.pix-pagination a:link,.pix-pagination a:visited{color:#2F4F8D}
+.pix-pagination a:hover{color:#FFF; background-color:#19578A;text-decoration:none}
+.pix-pagination .pix-navi-prev,.pix-pagination .pix-navi-next,.pix-pagination .pix-navi-current,.pix-pagination .pix-navi-page{display:inline-block;height:14px;line-height:14px;padding:8px 12px 7px;border:1px solid #ccc;background:#FAFAFA;box-shadow:0 1px 2px #cdcdcd;-moz-box-shadow:0 1px 2px #cdcdcd;-webkit-box-shadow:0 1px 2px #cdcdcd;font-size:12px;*filter:progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color=#cdcdcd);-ms-filter:"progid:DXImageTransform.Microsoft.Shadow(Strength=2, Direction=180, Color=#cdcdcd)";_zoom:1;vertical-align:top}
+.pix-pagination .pix-navi-next{border-left:0}
+.pix-pagination .pix-navi-current{background:#E6E6E6;color:#808080}
+.pix-pagination .pix-navi-current,.pix-pagination .pix-navi-page{border-left:0;font-weight:600}
+.pix-pagination .pix-navi-desc,.pix-pagination .pix-navi-ellipsis{display:inline-block;line-height:30px;height:30px;font-size:12px;padding:0 5px;border:0;background:0;color:#808080;vertical-align:top;_zoom:1}
+.pix-pagination .pix-navi-ellipsis{border-right:1px solid #ccc}

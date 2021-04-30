@@ -1,0 +1,516 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>首页 南航金城学院教务处_南京财经大学教务处_南京艺术学院资源环境与旅游学院</title>
+<link href="css/style16.css" rel="stylesheet" type="text/css">
+<!--大图滚动JS-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/lunbo.js"></script>
+<script type="text/javascript">
+	window.onload = function(){
+		lunbo();
+	}
+</script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+
+<div class="header">
+  
+      <div class="top">
+        	<div class="logo"><img src="images/logo4.jpg" width="707" height="146"></div>
+             <div class="top_rt">
+             	<div class="link_eng"><a href="javascript:;" target="_blank">旧版入口</a>|<a href="javascript:;">联系我们</a>|<a href="" onclick="this.style.behavior='url(https://cret.cnu.edu.cn/#default)';this.setHomePage('http://cret.cnu.edu.cn/');return(false);" style="behavior: url(https://cret.cnu.edu.cn/#default)">设为主页</a>|<a href="javascript:;">英文版</a></div>
+                <div class="sea_box">
+                <div class="sea_box_rt">
+                    <form name="dataForm" class="search" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                        <input name="siteID" value="65" type="hidden">
+                        <input class="notxt" value="关键字" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value==''){this.value='';this.form.keywords.style.color='#323232'}">
+                         <input class="notxt1" name="Submit" type="submit" value="">
+                    </form>
+                </div>
+                <div class="clear"></div>
+     			</div>
+             </div>
+             <div class="clear"></div>
+        </div>
+       <div class="nav">
+             <ul id="nav">
+			 
+              <li><a href="javascript:;">学院首页</a></li>
+			  												<li><a href="javascript:;" class="bt_link">学院概况</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">学院简介</a></dd>
+														<dd><a href="javascript:;">现任领导</a></dd>
+														<dd><a href="javascript:;">党委组织</a></dd>
+														<dd><a href="javascript:;">大事年表</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;" class="bt_link">师资队伍</a></li>
+																				<li><a href="javascript:;" class="bt_link">教育教学</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">本科生教育</a></dd>
+														<dd><a href="javascript:;">研究生教育</a></dd>
+														<dd><a href="javascript:;">继续教育</a></dd>
+														<dd><a href="javascript:;">双语教学</a></dd>
+														<dd><a href="javascript:;">专业改革</a></dd>
+														<dd><a href="javascript:;">下载专区</a></dd>
+														<dd><a href="javascript:;">地理科学与技术试验教学中心</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;" class="bt_link">科学研究</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">科研机构</a></dd>
+														<dd><a href="javascript:;">科研项目</a></dd>
+														<dd><a href="javascript:;">学术成果</a></dd>
+														<dd><a href="javascript:;">学术交流</a></dd>
+														<dd><a href="javascript:;">下载专区</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;" class="bt_link">招生就业</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">招生信息</a></dd>
+														<dd><a href="javascript:;">就业信息</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;" class="bt_link">国际交流</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">本科生</a></dd>
+														<dd><a href="javascript:;">研究生</a></dd>
+														<dd><a href="javascript:;">科研合作</a></dd>
+														<dd><a href="javascript:;">下载专区</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;" class="bt_link">学生工作</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">学生活动</a></dd>
+														<dd><a href="javascript:;">党团建设</a></dd>
+														<dd><a href="javascript:;">学生组织</a></dd>
+														<dd><a href="javascript:;">学生榜样</a></dd>
+														<dd><a href="javascript:;">资态院刊</a></dd>
+														<dd><a href="javascript:;">相关下载</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;" class="bt_link">校友之家</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">校友活动</a></dd>
+														<dd><a href="javascript:;">校友联络</a></dd>
+														<dd><a href="javascript:;">校友风采</a></dd>
+														<dd><a href="javascript:;">校友捐赠</a></dd>
+													</dl>
+				 </div>
+				</li>
+															
+            </ul>
+            
+    </div></div>
+<div class="content">
+    <!--<div id="banner">
+            <div class="tupian">
+                <ul>
+				                    <li><a href="sydt/165691.htm" title="资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式" target="_blank"><img src="images/content/2021-03/20210317143958031905.jpg" width="1329" height="350"/></a>
+                        <div class="pic_text">
+                           <a href="sydt/165691.htm" title="资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式" target="_blank">
+                                <h2>资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式</h2>
+                                请填写文章摘要                             </a>
+                        </div>
+                    </li>
+				                    <li><a href="sydt/169005.htm" title="学院-附中地理实践课程掠影:（五）三大类岩石的认识与地球历史" target="_blank"><img src="images/content/2019-12/20191218151153534445.jpg" width="1329" height="350"/></a>
+                        <div class="pic_text">
+                           <a href="sydt/169005.htm" title="学院-附中地理实践课程掠影:（五）三大类岩石的认识与地球历史" target="_blank">
+                                <h2>学院-附中地理实践课程掠影:（五）三大类岩石的认识与地球历史</h2>
+                                请填写文章摘要                             </a>
+                        </div>
+                    </li>
+				                    <li><a href="sydt/165747.htm" title="资环学院党委组织全院师生党员观看影片《决胜时刻》" target="_blank"><img src="images/content/2019-10/20191012185810479417.jpg" width="1329" height="350"/></a>
+                        <div class="pic_text">
+                           <a href="sydt/165747.htm" title="资环学院党委组织全院师生党员观看影片《决胜时刻》" target="_blank">
+                                <h2>资环学院党委组织全院师生党员观看影片《决胜时刻》</h2>
+                                请填写文章摘要                             </a>
+                        </div>
+                    </li>
+				                    <li><a href="sydt/165690.htm" title="我院师生参加国庆70周年阅兵式和群众游行" target="_blank"><img src="images/content/2019-10/20191011214140375173.jpg" width="1329" height="350"/></a>
+                        <div class="pic_text">
+                           <a href="sydt/165690.htm" title="我院师生参加国庆70周年阅兵式和群众游行" target="_blank">
+                                <h2>我院师生参加国庆70周年阅兵式和群众游行</h2>
+                                请填写文章摘要                             </a>
+                        </div>
+                    </li>
+				                    <li><a href="sydt/163553.htm" title="资环学院地理科学（师范）与旅游管理本科生赴美国NIU实习" target="_blank"><img src="images/content/2019-09/20190905193901168036.png" width="1329" height="350"/></a>
+                        <div class="pic_text">
+                           <a href="sydt/163553.htm" title="资环学院地理科学（师范）与旅游管理本科生赴美国NIU实习" target="_blank">
+                                <h2>资环学院地理科学（师范）与旅游管理本科生赴美国NIU实习</h2>
+                                请填写文章摘要                             </a>
+                        </div>
+                    </li>
+				                </ul>
+            </div>
+            <div class="anniu">
+                <span class="zuoanniu"></span>
+                <span class="youanniu"></span>
+            </div>
+            <ul class="xiaoyuandianul">
+																		 <li class="cur"></li>
+																				<li></li>
+																				<li></li>
+																				<li></li>
+																				<li></li>
+									            </ul>
+        </div>-->
+		
+		<div class="Banner">
+    	<div class="flexslider">
+            <ul class="slides">
+			                    <li><a href="javascript:;" title="资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式"><img src="images/content/2021-03/20210317143958031905.jpg" width="1329" height="500"></a>
+                      <span class="til_slides"><a href="javascript:;"><h2>资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式</h2></a></span>
+                    </li>
+				                    <li><a href="javascript:;" title="学院-附中地理实践课程掠影:（五）三大类岩石的认识与地球历史"><img src="images/content/2019-12/20191218151153534445.jpg" width="1329" height="500"></a>
+                      <span class="til_slides"><a href="javascript:;"><h2>学院-附中地理实践课程掠影:（五）三大类岩石的认识与地球历史</h2></a></span>
+                    </li>
+				                    <li><a href="javascript:;" title="资环学院党委组织全院师生党员观看影片《决胜时刻》"><img src="images/content/2019-10/20191012185810479417.jpg" width="1329" height="500"></a>
+                      <span class="til_slides"><a href="javascript:;"><h2>资环学院党委组织全院师生党员观看影片《决胜时刻》</h2></a></span>
+                    </li>
+				                    <li><a href="javascript:;" title="我院师生参加国庆70周年阅兵式和群众游行"><img src="images/content/2019-10/20191011214140375173.jpg" width="1329" height="500"></a>
+                      <span class="til_slides"><a href="javascript:;"><h2>我院师生参加国庆70周年阅兵式和群众游行</h2></a></span>
+                    </li>
+				                    <li><a href="javascript:;" title="资环学院地理科学（师范）与旅游管理本科生赴美国NIU实习"><img src="images/content/2019-09/20190905193901168036.png" width="1329" height="500"></a>
+                      <span class="til_slides"><a href="javascript:;"><h2>资环学院地理科学（师范）与旅游管理本科生赴美国NIU实习</h2></a></span>
+                    </li>
+				            </ul>
+       </div>
+    </div>
+        
+         <div class="con1">
+        	<div class="con1_lf ">
+            	<h2><div class="more"><a href="javascript:;">MORE</a></div>学术信息</h2>
+                <ul>
+				                    <li><span>2021-03-30</span>
+					<a href="javascript:void(0);" title="杏园沙龙讲座第004-2期" onclick="checkXnwk('sylm/xyxw/188156.htm','xw');">            杏园沙龙讲座第004-2期 
+    </a>
+					</li>
+				                    <li><span>2021-03-30</span>
+					<a href="javascript:void(0);" title="杏园沙龙讲座第005期" onclick="checkXnwk('sylm/xyxw/188141.htm','xw');">            杏园沙龙讲座第005期 
+    </a>
+					</li>
+				                    <li><span>2021-03-16</span>
+					<a href="javascript:void(0);" title="杏园沙龙讲座004期" onclick="checkXnwk('sylm/xyxw/187566.htm','xw');">            杏园沙龙讲座004期 
+    </a>
+					</li>
+				                    <li><span>2021-02-26</span>
+					<a href="javascript:void(0);" title="杏园沙龙第3期《全球变化背景下野火遥感应用》" onclick="checkXnwk('sylm/xyxw/185308.htm','xw');">            杏园沙龙第3期《全球变化背景下野火遥感应用》 
+    </a>
+					</li>
+				                    <li><span>2021-01-01</span>
+					<a href="javascript:void(0);" title="2021杏园沙龙" onclick="checkXnwk('sylm/xyxw/184570.htm','xw');">            2021杏园沙龙 
+    </a>
+					</li>
+				                    <li><span>2020-11-02</span>
+					<a href="javascript:void(0);" title="土壤和食物中重金属的生物可给性以及其对人体的健康风险 学术讲座" onclick="checkXnwk('sylm/xyxw/179972.htm','xw');">            土壤和食物中重金属的生物可给性以及其对人体的健康风险 学术讲座 
+    </a>
+					</li>
+				                    <li><span>2020-10-22</span>
+					<a href="javascript:void(0);" title="讲座通知：GIS时空分析与可持续发展目标（SDGs 1-3）" onclick="checkXnwk('sylm/xyxw/179396.htm','xw');">            讲座通知：GIS时空分析与可持续发展目标（SDGs 1-3） 
+    </a>
+					</li>
+				                    <li><span>2020-10-16</span>
+					<a href="javascript:void(0);" title="讲座通知：高效消除 InSAR 中大气相位影响以及精确获取地表垂直形变方法" onclick="checkXnwk('sylm/xyxw/179138.htm','xw');">            讲座通知：高效消除 InSAR 中大气相位影响以及精确获取地表垂直形变方法 
+    </a>
+					</li>
+				                </ul>
+            </div>
+            <div class="con1_lf con1_rt">
+            	<h2><div class="more"><a href="javascript:;">MORE</a></div>学院新闻</h2>
+                <ul>
+                                       <li><span>2021-04-30</span>
+					<a href="javascript:void(0);" title="资环学院组织学生开展“永远跟党走”党史学习教育实践活动" onclick="checkXnwk('sylm/tzgg/190084.htm','xw');">            资环学院组织学生开展“永远跟党走”党史学习教育实践活动 
+    </a>
+					</li>
+				                    <li><span>2021-04-29</span>
+					<a href="javascript:void(0);" title="资环学院组织全体党员教师开展党史学习活动" onclick="checkXnwk('sylm/tzgg/189963.htm','xw');">            资环学院组织全体党员教师开展党史学习活动 
+    </a>
+					</li>
+				                    <li><span>2021-04-09</span>
+					<a href="javascript:void(0);" title="资环学院理论中心组开展《共产党宣言》导读学习活动" onclick="checkXnwk('sylm/tzgg/188696.htm','xw');">            资环学院理论中心组开展《共产党宣言》导读学习活动 
+    </a>
+					</li>
+				                    <li><span>2021-04-02</span>
+					<a href="javascript:void(0);" title="资环学院召开党史学习教育动员暨专题辅导报告会" onclick="checkXnwk('sylm/tzgg/188390.htm','xw');">            资环学院召开党史学习教育动员暨专题辅导报告会 
+    </a>
+					</li>
+				                    <li><span>2021-03-17</span>
+					<a href="javascript:void(0);" title="资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式" onclick="checkXnwk('sylm/tzgg/187627.htm','xw');">            资环学院与北京市第八十中学温榆河分校举行实习基地授牌仪式 
+    </a>
+					</li>
+				                    <li><span>2021-03-15</span>
+					<a href="javascript:void(0);" title="资环学院召开2020年度教师党支部书记述职考核评议会" onclick="checkXnwk('sylm/tzgg/187548.htm','xw');">            资环学院召开2020年度教师党支部书记述职考核评议会 
+    </a>
+					</li>
+				                    <li><span>2021-03-12</span>
+					<a href="javascript:void(0);" title="资环学院党委召开2020年度党内先进表彰大会" onclick="checkXnwk('sylm/tzgg/187477.htm','xw');">            资环学院党委召开2020年度党内先进表彰大会 
+    </a>
+					</li>
+				                    <li><span>2021-03-05</span>
+					<a href="javascript:void(0);" title="资环学院党委组织全体教师观看脱贫攻坚专题片《摆脱贫困》" onclick="checkXnwk('sylm/tzgg/187335.htm','xw');">            资环学院党委组织全体教师观看脱贫攻坚专题片《摆脱贫困》 
+    </a>
+					</li>
+				                </ul>
+            </div>
+            <div class="clear"></div>
+            </div>
+            <div class="con2">
+        	<!--<div class="con2_lf">
+            	<h2><div class="more"><a href="sylm/tz/index.htm">MORE</a></div>通知公告</h2>
+                <ul>
+				                     <li><span>2021-04-15</span>
+					<a href="javascript:void(0);" title="资环学院2021年本科生转专业遴选工作办法" onclick="checkXnwk('sylm/tz/189102.htm','xw');">            资环学院2021年本科生转专业遴选工作办法 
+    </a>
+					</li>
+				                    <li><span>2021-03-17</span>
+					<a href="javascript:void(0);" title="关于进一步加强2021届本科毕业论文（设计）中期检查工作与盲审抽检的通知" onclick="checkXnwk('sylm/tz/187644.htm','xw');">            关于进一步加强2021届本科毕业论文（设计）中期检查工作与盲审抽检的通知 
+    </a>
+					</li>
+				                    <li><span>2020-11-23</span>
+					<a href="javascript:void(0);" title="2020届博士研究生学位论文答辩-夏誉玲" onclick="checkXnwk('sylm/tz/182687.htm','xw');">            2020届博士研究生学位论文答辩-夏誉玲 
+    </a>
+					</li>
+				                    <li><span>2020-11-23</span>
+					<a href="javascript:void(0);" title="2020届博士研究生学位论文答辩-王巧玲" onclick="checkXnwk('sylm/tz/182686.htm','xw');">            2020届博士研究生学位论文答辩-王巧玲 
+    </a>
+					</li>
+				                    <li><span>2020-11-18</span>
+					<a href="javascript:void(0);" title="2020届硕士学位论文答辩会-环境工程-刘泽颖" onclick="checkXnwk('sylm/tz/182400.htm','xw');">            2020届硕士学位论文答辩会-环境工程-刘泽颖 
+    </a>
+					</li>
+				                </ul>
+            </div>-->
+			<div class="con2_lf">
+            	<div class="tabArticleList">
+                	<div class="tabListTitle">
+                        <div class="tab_menu">
+                            <h3 class="til_tab on"><a href="javascript:;">通知&nbsp;&nbsp;|</a></h3>
+                            <h3 class="til_tab"><a href="javascript:;">公告</a></h3>
+                        </div>
+                        <div class="more">
+                            <a href="javascript:;" class="more_tab" style="display:block;">MORE</a>
+                            <a href="javascript:;" class="more_tab">MORE</a>
+                        </div>
+                    </div>
+                    <div class="tabList">
+                        <div class="tabListBox" style="display:block;">
+                        	<ul>
+                                                   <li><span>2021-04-15</span>
+					<a href="javascript:void(0);" title="资环学院2021年本科生转专业遴选工作办法" onclick="checkXnwk('sylm/tz/189102.htm','xw');">            资环学院2021年本科生转专业遴选工作办法 
+    </a>
+					</li>
+				                    <li><span>2021-03-17</span>
+					<a href="javascript:void(0);" title="关于进一步加强2021届本科毕业论文（设计）中期检查工作与盲审抽检的通知" onclick="checkXnwk('sylm/tz/187644.htm','xw');">            关于进一步加强2021届本科毕业论文（设计）中期检查工作与盲审抽检的通知 
+    </a>
+					</li>
+				                    <li><span>2020-11-23</span>
+					<a href="javascript:void(0);" title="2020届博士研究生学位论文答辩-夏誉玲" onclick="checkXnwk('sylm/tz/182687.htm','xw');">            2020届博士研究生学位论文答辩-夏誉玲 
+    </a>
+					</li>
+				                    <li><span>2020-11-23</span>
+					<a href="javascript:void(0);" title="2020届博士研究生学位论文答辩-王巧玲" onclick="checkXnwk('sylm/tz/182686.htm','xw');">            2020届博士研究生学位论文答辩-王巧玲 
+    </a>
+					</li>
+				                    <li><span>2020-11-18</span>
+					<a href="javascript:void(0);" title="2020届硕士学位论文答辩会-环境工程-刘泽颖" onclick="checkXnwk('sylm/tz/182400.htm','xw');">            2020届硕士学位论文答辩会-环境工程-刘泽颖 
+    </a>
+					</li>
+				                            </ul>
+                        </div>
+                        <div class="tabListBox">
+                        	<ul>
+                               	                    <li><span>2021-04-15</span>
+
+					<a href="javascript:void(0);" title="2021年学校五四表彰候选人公示" onclick="checkXnwk('sylm/gg/189077.htm','xw');">            2021年学校五四表彰候选人公示 
+    </a>
+					</li>
+				                    <li><span>2021-01-08</span>
+
+					<a href="javascript:void(0);" title="2021年度资环学院本科生“卓越人才培养计划”入选名单公示" onclick="checkXnwk('sylm/gg/184821.htm','xw');">            2021年度资环学院本科生“卓越人才培养计划”入选名单公示 
+    </a>
+					</li>
+				                    <li><span>2020-11-09</span>
+
+					<a href="javascript:void(0);" title="关于学校2020年度“校园励志人物”、“自强之星” 院系推荐学生名单公示" onclick="checkXnwk('sylm/gg/180866.htm','xw');">            关于学校2020年度“校园励志人物”、“自强之星” 院系推荐学生名单公示 
+    </a>
+					</li>
+				                    <li><span>2020-10-29</span>
+
+					<a href="javascript:void(0);" title="资环学院、地信国际学院关于评选第八届南航金城学院教务处_南京财经大学教务处_南京艺术学院教育基金会“何钊新生奖学金”名单的公示" onclick="checkXnwk('sylm/gg/179861.htm','xw');">            资环学院、地信国际学院关于评选第八届南航金城学院教务处_南京财经大学教务处_南京艺术学院教育基金会“何钊新生奖学金”名单... 
+    </a>
+					</li>
+				                    <li><span>2020-10-29</span>
+
+					<a href="javascript:void(0);" title="资环学院关于评选首届南航金城学院教务处_南京财经大学教务处_南京艺术学院教育基金会“师范类本科生奖学金”公示的通知" onclick="checkXnwk('sylm/gg/179862.htm','xw');">            资环学院关于评选首届南航金城学院教务处_南京财经大学教务处_南京艺术学院教育基金会“师范类本科生奖学金”公示的通知 
+    </a>
+					</li>
+				                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="con2_lf con2_rt">
+            	<h2><div class="more"><a href="javascript:;">MORE</a></div>规章制度</h2>
+                <ul>
+                                         <li><span>2020-09-10</span>
+					<a href="javascript:void(0);" title="本科生相关规章制度" onclick="checkXnwk('sylm/xsjz/77785.htm','xw');">            本科生相关规章制度 
+    </a>
+					</li>
+				                    <li><span>2020-06-12</span>
+					<a href="javascript:void(0);" title="关于资源环境与旅游学院与ITC联合培养硕士研究生管理的补充规定" onclick="checkXnwk('sylm/xsjz/175673.htm','xw');">            关于资源环境与旅游学院与ITC联合培养硕士研究生管理的补充规定 
+    </a>
+					</li>
+				                    <li><span>2016-03-14</span>
+					<a href="javascript:void(0);" title="研究生相关规章制度" onclick="checkXnwk('sylm/xsjz/77786.htm','xw');">            研究生相关规章制度 
+    </a>
+					</li>
+				                    <li><span>2016-03-14</span>
+					<a href="javascript:void(0);" title="科研相关规章制度" onclick="checkXnwk('sylm/xsjz/77784.htm','xw');">            科研相关规章制度 
+    </a>
+					</li>
+				                    <li><span>2019-03-07</span>
+					<a href="javascript:void(0);" title="人事相关规章制度" onclick="checkXnwk('sylm/xsjz/77855.htm','xw');">            人事相关规章制度 
+    </a>
+					</li>
+				                </ul>
+            </div>
+            </div>
+            
+         </div>
+        
+
+<div class="footer">
+	<!--<div class="link">
+    	<h2>友情链接</h2>
+        <div class="main_link">
+				<a href="http://www.dicea.unipd.it/en/" title="意大利帕多瓦大学土木环境建筑工程系" target="_blank">意大利帕多瓦大学土木环境建筑工程系</a>
+				<a href="https://www.itc.nl/" title="荷兰特温特大学ITC学院" target="_blank">荷兰特温特大学ITC学院</a>
+				<a href="http://www.buffalo.edu/cas/geography.html" title="美国纽约州立大学布法罗分校" target="_blank">美国纽约州立大学布法罗分校</a>
+				<a href="http://www.niu.edu/index.shtml" title="美国北伊利诺伊大学" target="_blank">美国北伊利诺伊大学</a>
+				<a href="https://uwaterloo.ca/environment/" title="加拿大滑铁卢大学环境学院" target="_blank">加拿大滑铁卢大学环境学院</a>
+		    </div>
+    </div>-->
+	<div class="link">
+    	<h2>友情链接</h2>
+        <div class="main_link">
+				<a href="javascript:;" title="意大利帕多瓦大学土木环境建筑工程系" target="_blank" class="one">意大利帕多瓦大学土木环境建筑工程系</a>
+				<a href="javascript:;" title="荷兰特温特大学ITC学院" target="_blank" class="one">荷兰特温特大学ITC学院</a>
+				<a href="javascript:;" title="美国纽约州立大学布法罗分校" target="_blank" class="one">美国纽约州立大学布法罗分校</a>
+				<a href="javascript:;" title="美国北伊利诺伊大学" target="_blank" class="one">美国北伊利诺伊大学</a>
+				<a href="javascript:;" title="加拿大滑铁卢大学环境学院" target="_blank" class="one">加拿大滑铁卢大学环境学院</a>
+						<a href="javascript:;" title="日本广岛大学" target="_blank" class="two">日本广岛大学</a>
+				<a href="javascript:;" title="俄克拉荷马州立大学酒店旅游管理学院" target="_blank" class="two">俄克拉荷马州立大学酒店旅游管理学院</a>
+				<a href="javascript:;" title="滑铁卢大学" target="_blank" class="two">滑铁卢大学</a>
+				<a href="index25.html" title="首师大地信国际学院" target="_blank" class="two">首师大地信国际学院</a>
+				<a href="javascript:;" title="北京师范大学资源学院" target="_blank" class="two">北京师范大学资源学院</a>
+		            
+            
+            </div>
+    </div>
+   <!-- <div class="cont_us"><a href="" class="cont_us_c1" >院长邮箱</a><a class="cont_us_c2" href="#">书记邮箱</a></div>-->
+    <div class="clear"></div>
+    
+<div class="address">Copyright@南航金城学院教务处_南京财经大学教务处_南京艺术学院资环学院<br>
+    地址：北京市西三环北路105号  邮编：100048 <a href="javascript:;" style="">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</div>
+<div class="erweima">
+    	<ul>
+        	<li><img src="images/erweima.jpg" width="220" height="220">
+       	    <p>学院官方微博</p></li>
+            <li><img src="images/erweima.jpg" width="220" height="220"><p>微信公众号</p></li>
+        </ul>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script4.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+			animation:"slide",
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+</script>
+<script type="text/javascript">
+var oNav = document.getElementById('nav');
+var aLi = oNav.getElementsByTagName('li');
+
+for(var i=0;i<aLi.length;i++)
+{
+	aLi[i].onmouseover = function ()
+	{
+		this.className = 'on';
+	};
+	aLi[i].onmouseout = function ()
+	{
+		this.className = '';
+	};
+};
+$(".tabArticleList").tab({ev : 'mouseover',more : false,auto : false});
+
+</script>
+
+
+</body></html>

@@ -1,0 +1,240 @@
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6,img,p,ul,li,dl,dt,dd,ol,table,tr,td,span,input,div{ margin:0px; padding:0px;}
+body{ width:100%; font-family:微软雅黑,Microsoft Yahei; font-size:12px; color:#282828;margin:0; padding:0; background:#fff;}
+img{border:none;}
+ul,li{ list-style-type:none;}	
+a{text-decoration:none; color:#282828; font-size:12px; font-family:微软雅黑,Microsoft Yahei}
+a:hover{ color:#0331a5;}
+.clear{clear:both;}
+
+.header_bg{ width:100%; background:url(https://math.cnu.edu.cn/images/hear_bg.jpg) repeat-x; height:175px;}
+.header{ width:1000px; margin:0px auto; height:175px; min-width:1000px;}
+.top{ height:135px; width:1000px}
+.logo{ padding-top:18px; width:332px; height:102px; float:left}
+.top_rt{ width:195px; float:right; height:97px; position:relative;z-index:99; margin-top:25px;}
+.sea_box{padding-top:15px;}
+.search{background:url(https://math.cnu.edu.cn/images/search.jpg) no-repeat;width:192px;height:24px;position:relative;}
+.search input{position:absolute; width:150px;height:24px;line-height:24px; color:#9d9d9d; border:none; background:none; left:0px; top:0px; padding-left:0px; }
+.search input.notxt{color:#9d9d9d; padding-left:12px; font-size:12px;}	
+.search input.notxt1 {position: absolute;width:31px;height: 24px;top: 0px;left:160px;border: none;cursor: pointer;background: none;cursor:pointer; }
+
+
+/*top_nav*/
+.top_link{ height:40px;}
+.top_link ul li{ float:left; position:relative; height:20px;z-index:999999; color:#fff; line-height:20px; width:65px; text-align:left}
+.top_link ul li a {display: inline-block; float: left; width:50px;height: 20px;font-family: 微软雅黑,Microsoft Yahei; font-size: 12px; line-height:20px; text-align:left;color:#fff; }
+.top_link ul li a:hover{ color: #fff; font-weight:bolder}
+
+.nav{margin:0 auto;height:40px}
+#nav { width:1020px; margin:0px auto;}
+#nav li{position:relative;float:left; z-index:100; background:url(https://math.cnu.edu.cn/images/nav_li.jpg) no-repeat 90% center}
+#nav li .nav_first{ background:none; width:90px;}
+#nav li a{display:inline-block;height:40px;line-height:40px;text-align:center;color:#fff;font-size:15px; font-family:"微软雅黑";text-align:center; padding:0px 17px;}
+#nav li a:hover{color:#fff;}
+#nav li .sonnav{line-height:30px; font-size:14px;display:none; position:absolute; left:0px; top:40px; text-align:left;z-index:999;border-top:none; width:140px; background-color:#fff; padding-bottom:10px;padding-top:10px;}
+#nav li.on {}
+#nav li.on a{color:#fff; font-weight:bolder;background:none;}
+#nav li.on .sonnav{ display:block;}
+#nav li.on .sonnav dl{overflow:hidden;}
+#nav li.on .sonnav dl dd{ line-height:30px;padding-left:15px;background:url(https://math.cnu.edu.cn/images/icon1.jpg) no-repeat 19px center}
+#nav li.on .sonnav dl dd a{ color:#333;  text-align:left;  font-size:14px; height:30px; line-height:30px; background-image:none;font-family:"微软雅黑";   border-top:none; font-weight:normal; height:auto;}
+#nav li.on .sonnav dl dd a:hover{color:#23aded; font-weight:bolder}
+
+
+/*首页开始*/
+
+/*图片切换*/
+.banner{ width:1235px; height:386px; margin:0 auto; margin-top:10px; position:relative;overflow:hidden; z-index:1;}
+.none{display:none;}
+.banner_show{width:1235px; margin:0 auto;text-align:center;height:515px;overflow:hidden;}
+.banner_show a img{ width: 1235px; height:386px;}
+.bannger_inbox{position:absolute;left:0;top:0;}
+
+.banner_pre_next{position:relative;z-index:1005;top:35%;width:1100px;left:0;height:30px; margin:0 auto;}
+.banner_pre_next a{width:30px;height:30px;background:url(https://math.cnu.edu.cn/images/arrows.png) no-repeat;text-indent:-999em;}
+.banner_pre_next .banner_btn_left{position:absolute;left:0%;background-position:0px 0px;}
+.banner_pre_next .banner_btn_right{position:absolute;right:0%;background-position:-30px 0px;}
+
+/*文字*/
+.banner_mag{width:100%;height:48px;overflow:hidden;position:absolute;left:0; bottom:0px;margin-left:0px;z-index:9999;font-family:"Microsoft YaHei";text-align:center;}
+.banner_mag00{ width:1000px; height:48px; margin:0 auto;}
+.banner_magbox{height:48px;position: relative; width:1000px;text-align:center;}
+.banner_magbox .focus-img{text-align: center;}
+.bg_magbox0{height:48px; background:#000;filter: progid:DXImageTransform.Microsoft.alpha(opacity=50);opacity:0.5;text-align:center;}
+.banner_magbox h4{height:48px; line-height:48px; font-size:18px;font-weight:normal;color:#fff;text-align:center; position:absolute; left:0; top:0; }
+.banner_magbox h4 a{line-height:48px; color:#fff;font-family:"Microsoft YaHei";text-align:center;font-size:18px; display:block; width:1000px}
+
+.footer{ font-size:12px; height:74px; line-height:22px; text-align:center; width:100%; margin:0px auto; color:#fff; font-family:"Microsoft YaHei"; background-color:#0330a5; padding-top:26px;}
+
+.content{ width:1000px; margin:12px auto 35px; height:667px;}
+.con1{ height:304px;}
+.con1_lf{ width:500px; float:left}
+.con1_lf ul{ border:1px solid #ccc; height:260px; padding:0px 15px;}
+.con1_lf ul li{ height:45px; overflow:hidden; margin-top:16px;}
+.con1_lf ul li .time{ width:45px; height:45px; float:left;background:url(https://math.cnu.edu.cn/images/time.jpg) no-repeat; text-align:center; font-size:16px;font-family:Georgia; font-size:14px; margin-right:20px;}
+.con1_lf ul li .time span{ color:#ffffff; display:block; height:24px; line-height:20px;}
+.con1_lf ul li a{ line-height:22px;}
+.con_tit1{ height:40px; line-height:40px; overflow:hidden;}
+.con_tit1 h2{ float:left; border-bottom:3px solid #1951a6; height:37px; margin-left:10px;}
+.con_tit1 h2 a{font-size:16px; color:#0331a5;}
+.con1_rt{ width:471px; float:right}
+.con1_rt dl{ background-color:#e9f0fa; padding:19px 13px 15px; height:230px;}
+.con1_rt dl dt{ height:71px; margin-bottom:15px;}
+.con1_rt dl dt img{ width:106px; height:71px; float:left;}
+.con1_rt dl dt .news_first{ width:320px; float:right;}
+.con1_rt dl dt .news_first h2{ font-weight:bolder; font-size:12px; height:26px; line-height:26px; margin-bottom:5px;}
+.con1_rt dl dd{ height:28px; line-height:28px; background:url(https://math.cnu.edu.cn/images/icon2.jpg) no-repeat left center; padding-left:15px;}
+.con1_rt dl dd span{ float:right}
+.more{ float:right; margin-right:2px;}
+
+.con2{ height:360px; margin-top:10px;}
+.con2_lf{ width:656px; float:left}
+.con_tit2{ height:40px; line-height:40px; overflow:hidden;}
+.con_tit2 h2{ float:left; height:37px; margin-left:10px;}
+.con_tit2 h2 a{font-size:16px; color:#0331a5;}
+
+/**tab切换1样式开始**/
+#tabs1{ width:616px; height:314px; border:1px solid #ccc; padding:5px 20px 0px;}
+.menu1box{ position:relative; overflow:hidden; height:34px; width:616px; margin-top:5px; border-bottom:1px solid #d3d3d3;}
+.menu1{ position:absolute; height:34px; top:0px; left:0px; z-index:1;width:616px;}
+.menu1 li{ float:left; width:80px; margin-right:40px; text-align:left; height:34px; line-height:34px; overflow:hidden;}
+.menu1 li:first-child{ width:60px;}
+.menu1 li h3{ display:inline-block; height:32px; text-align:center; line-height:32px; font-size:14px;font-family:"微软雅黑"; cursor:pointer; color:#e0eafb; font-weight:normal; border-bottom:2px solid #fff; color:#333; padding:0px 5px;}
+.menu1 .hover h3{ color:#333; height:32px; text-align:center; line-height:32px; font-weight:bolder; border-bottom:2px solid #1850a5;}
+
+.main1box{ clear:both; overflow:hidden; margin-top:5px;}
+.main1box ul{ display: none;}
+.main1box ul.block{ display: block;}
+.main1box ul li{ padding:0px; margin:0px; }
+.tab_list2{ padding-top:10px;+padding-top:0px; padding-left:3px;}
+.tab_list2 dl dd{ height:30px; line-height:30px; padding-left:15PX; background:url(https://math.cnu.edu.cn/images/icon3.jpg) no-repeat left center;}
+.tab_list2 dl dd span{ float:right; color:#333;font-family:"微软雅黑";}
+
+.con2_rt{ width:311px; float:right;}
+.link_lf{ height:230px; overflow:hidden;margin-top:40px;;}
+.link_lf ul{ width:370px; }
+.link_lf ul li{ width:121px; height:95px; margin-bottom:17px; float:left; padding-top:8px; background:url(https://math.cnu.edu.cn/images/link1.jpg) no-repeat; margin-right:26px; padding-left:22px;}
+.link_lf ul li a{ font-size:18px; color:#fff;}
+.link_lf ul li.link2{background:url(https://math.cnu.edu.cn/images/link2.jpg) no-repeat;}
+.link_lf ul li.link3{background:url(https://math.cnu.edu.cn/images/link3.jpg) no-repeat;}
+.link_lf ul li.link4{background:url(https://math.cnu.edu.cn/images/link4.jpg) no-repeat; margin-right:21px;}
+
+.link_rt{ background-color:#4c7cc8; width:311px; height:90px;}
+.link_rt_tit{ width:38px; background-color:#2b59b8; height:80px; padding-top:10px; text-align:center; float:left; line-height:17px;}
+.link_rt_tit a{ color:#fff;font-size:16px;}
+.link_rt ul{ float:left; width:200px; margin-top:5px;}
+.link_rt ul li{ padding-left:15px; height:19px; line-height:19px; }
+.link_rt ul li a{ color:#fff; font-size:12px;}
+
+
+/*侧栏列表页*/
+.t_con_mian{ background-color:#fff; padding-bottom:40px; margin-top:20px; background-color:#f9f6f6}
+.page{width:1000px; margin:0px auto;}
+.con_mian{ margin-top:10px; border-top:2px solid #0395e2;}
+.pg_banner{ width:1000px; height:173px; margin-bottom:0px; margin-top:8px;}
+.bread{width:100%; height:40px; line-height:40px; font-size: 12px; text-align:right; border-bottom:1px solid #cc;}
+.bread a{ padding:0 8px;}
+.bread img{ margin-right:10px;}
+.lf_list{ width:210px; float:left; overflow: hidden; }
+
+/*
+.lf_list h3{font-size: 20px; color:#fff; line-height: 46px; padding-left: 5px;  background-color:#5aa5d5}
+.lf_list ul{ overflow: hidden;}
+.lf_list ul li{ line-height: 26px; padding:20px 0 0; border-bottom: 1px solid #b8b8b8; overflow: hidden;}
+.lf_list ul li a{ display: inline-block; padding:0 5px; margin-right: 20px; font-size: 15px; border-bottom-width: 2px;border-bottom-style:solid;border-bottom-color:transparent;_border-bottom-color:#fef3e4;font-weight: bold;}
+.lf_list ul li a:hover,.lf_list ul li.focus a{color:#5aa5d5; border-bottom: 2px solid #5aa5d5;}
+*/
+
+
+.menu_tit{font-size: 20px; color:#fff; line-height: 46px; padding-left: 15px;  background-color:#0395e2}
+ul.expmenu li{  line-height: 26px; padding:20px 0 0;overflow: hidden;}
+ul.expmenu .span1{ border-bottom: 1px solid #e2e2e2; display:block; font-size:14px; font-weight:bolder}
+ul.expmenu .span1 a{font-size:15px; font-weight:bolder; padding-bottom:2px;}
+ul.expmenu li ul{ margin-top:15px;}
+ul.expmenu li ul li { margin-left:20px;  WIDTH: 160px;  HEIGHT: 26px; line-height:26px; COLOR: #666666; FONT-SIZE: 12px; padding:0px; padding-left:15px; border-bottom:1px solid #e2e2e2; background:url(https://math.cnu.edu.cn/images/icon1.jpg) left center no-repeat;}
+ul.expmenu li ul li a{font-weight: normal; text-decoration: none; font-size:12px;}
+ul.expmenu li ul li a:hover{ font-weight:bolder; color:#206ab3;}
+ul.expmenu li div.menu2:hover{}
+ul.expmenu li div.menu2:hover a{ color:#206ab3;}
+ul.expmenu li ul li a.menu_box_active{color:#fff;}
+ul.expmenu li div.header .arrow{display:block;width:16px;height:16px;}
+ul.expmenu ul{ display:none; width:200px;}
+ul.expmenu li div.active{font-size:14px; color:#166db7; cursor:pointer; }
+ul.expmenu li div.active a{ color:#166db7;}
+
+.rt_list{width:789px; float:right; overflow: hidden; min-height: 480px;padding-bottom:40px; border-left:1px solid #e2e2e2; background-color:#f9f6f6; }
+h3.til_rtlist{ font-size: 18px; font-weight: normal; line-height: 20px; color:#333; font-weight:bolder;  padding-left:34px;}
+h3.til_rtlist2{ font-size: 18px; font-weight: normal; line-height: 30px; height:30px; color:#333; font-weight:bolder;  padding-left:30px; padding-top:10px;}
+.ul_list ul{ padding:10px 0px 20px 15px; overflow: hidden;}
+.ul_list ul li{ line-height: 36px;  padding-left: 18px; border-bottom: 1px dotted #fef3e4;background: url(https://math.cnu.edu.cn/images/icon08.png) no-repeat left center;}
+.ul_list ul li span{ float:right; margin-right: 15px; font-family:Arial; color:#888; }
+
+.pages{ width:100%; margin:0 auto;height: 30px; line-height: 30px; background-color:#ededed;overflow: hidden; text-align: center; font-size: 12px;}
+.pages a{ padding:0 10px;}
+.pages span{ padding:0 5px; color:#4a76a1; font-weight: bold;}
+
+/*侧栏文章页*/
+.til_art h2{ font-size: 18px; line-height: 30px; color:#0431a6; padding:15px 10px 10px; text-align: center;}
+.til_art h4{ font-size: 15px; line-height: 30px; color:#666; text-align: center; padding:0 10px 5px;}
+.author{width:97%; margin:0 auto 0; text-align: center; font-size: 12px; line-height: 30px; border-bottom:1px solid #dbdee5;  overflow: hidden; }
+.art_list{ padding:20px 25px 40px 25px; overflow: hidden; line-height:24px;}
+.fujian{width:97%; margin:0 auto; padding-bottom: 40px; border-top:1px solid #dbdee5; overflow: hidden;}
+.fujian h4{ font-size: 16px; color:#0431a6; line-height: 40px; padding-left: 15px; padding-top: 10px;}
+.fujian ul{ padding-left: 15px;}
+.fujian ul li{background: url(https://math.cnu.edu.cn/images/icon1.jpg) no-repeat left center; padding-left: 15px; height:30px; line-height:30px; }
+
+.article_t{ width:100%; overflow: hidden;}
+
+/*侧栏图片列表页*/
+.pic_list ul{ padding-left: 18px; padding-top: 20px; width:800px;}
+.pic_list ul li{ width:216px; height: 176px; float:left; margin-right: 30px; margin-left: 10px;  padding-bottom: 25px; overflow: hidden;}
+.pic_list ul li a{ display: block; width:210px; height: 170px; line-height: 30px; text-align: center;}
+.pic_list ul li a img{ display: block; width:210px; height: 140px; border: 3px solid #fef3e4;}
+
+
+/*侧栏图片列表页*/
+.pic_list2 ul{ padding-left: 18px; padding-top: 20px; width:1000px;}
+.pic_list2 ul li{ width:216px; height: 176px; float:left; margin-right: 30px; padding-bottom: 25px; overflow: hidden;}
+.pic_list2 ul li a{ display: block; width:210px; height: 170px; line-height: 30px; text-align: center;}
+.pic_list2 ul li a img{ display: block; width:210px; height: 140px; border: 3px solid #fef3e4;}
+
+
+/*图片展示页开始*/
+.img_news_con{ width:100%; overflow:hidden;}
+.img_news_con h3{padding:20px 0 20px; heihgt:54px; text-align:center; color:#c66a37; font-size:16px; font-family:"微软雅黑"; font-weight:normal;}
+.imgs_scroll{padding:0px 45px 60px 45px;  position:relative;}
+.imgs_scroll .btn_l,.imgs_scroll .btn_r{ position:absolute; width:434px; height:580px; top:0; /*z-index:1000; filter:alpha(opacity:0); opacity: 0;*/ }
+.imgs_scroll .btn_l{left:62px; }
+.imgs_scroll .btn_r{right:69px;}
+.imgs_scroll .prev,.imgs_scroll .next { position:absolute; display:block; width:70px; top:40%; text-align:center; cursor:pointer; z-index:90; display:none;}
+.imgs_scroll .prev{ left:102px;}
+.imgs_scroll .next{right:105px;}
+.imgs_news_list{width:910px;  position:relative; overflow:hidden;}
+.imgs_news_list ul{width:9999px;}
+.imgs_news_list ul li{float:left; display:inline; width:910px; margin-right:10px;  text-align:center;}
+.imgs_news_list ul li .txt2{width:868px; float:left; line-height:20px; text-indent:2em; padding-top:27px; text-align:left; font-family:"微软雅黑";}
+/*图片展示页结束*/
+
+
+/*教师列表页*/
+.teacher{ padding:12px 20px; border-top:1px solid #ddd; overflow:hidden; clear:both; margin-top:20px;}
+.teacher h3{ font-size:14px; color:#1e77b0; height:40px; line-height:40px; clear:both; padding-left:15px; font-family:"微软雅黑"}
+.teacher ul li{ height:32px; width:90px; float: left; line-height:32px; text-align:center; background:none; padding:0;}
+
+/*教师详情页*/
+.xq_teacher{ padding-top:23px; padding:0px 20px; margin-top:30px;}
+.xq_teacher img{ display:block; width: 128px; height:198px; float: left; margin-right:20px; margin-bottom:20px;}
+.xq_teacher .wz_teacher{ width: 530px; float: left; overflow:hidden; font-size:14px; line-height:28px;}
+.teacher_lf{ width:195px; background-color:#fff; border:none; }
+
+.con_teacher{ clear:both; overflow:hidden;  border-top:2px solid #ddd; }
+.con01_t{ padding:10px 0px;  font-size:14px; line-height:28px;border-bottom:1px dashed #ddd;}
+.con01_t h3{font-size:16px; color:#0b3968; height:36px; line-height:36px; clear:both; padding-bottom:10px; font-family:"微软雅黑"}
+
+.teacher2 { padding-left:30px; margin-top:40px;}
+.teacher2 li {  float: left;   height: 148px;  padding-left: 164px;  position: relative;  width:200px; margin-bottom:20px; padding-bottom:20px;border-bottom:1px solid #ccc;}
+.teacher2 li .photo { left: 0;  position: absolute;   top: 0;}
+.photo img { height: 148px;}
+.teacher2 li h3 {font-size: 18px; font-weight: normal; margin-bottom: 15px;}
+.teacher2 li p { color: #666; line-height: 24px;}

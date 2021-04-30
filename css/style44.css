@@ -1,0 +1,472 @@
+html {
+	overflow-x: hidden;
+}
+body {
+	margin: 0px; padding: 0px; font-size: 14px; background-color: rgb(255, 255, 255);
+}
+a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+a:hover {
+	color: #2c50b4;
+}
+.header {
+	background:url(https://ttc.cnu.edu.cn/images/top_01.jpg) no-repeat top center; margin: 0px auto; width: 100%; height: 170px;
+}
+.top {
+	margin: 0px auto; width: 1200px; height: 120px; position: relative;
+}
+.top_nav_bg {
+	top: 10px; width: auto; height: 24px; right: 10px; position: absolute;
+}
+.top_nav {
+	width: auto; height: 24px; text-align: right; line-height: 24px;
+}
+.top_nav a {
+	padding: 0px 10px; color: rgb(255, 255, 255); display: inline-block;
+}
+.top_nav a img {
+	
+}
+.top_nav a.nobg {
+	background: none;
+}
+.top_nav a:hover {
+	color: rgb(216, 237, 227);
+}
+.logo {
+	width: 451px; height: 120px; position: relative;
+}
+.logo_link {
+	width: 451px; height: 120px; display: block;
+}
+.logo img {
+	width: 451px; height: 120px;
+}
+.search {
+	background: url("https://ttc.cnu.edu.cn/images/search_03.png") no-repeat left;
+	top: 54px;
+	width: 240px;
+	height: 42px;
+	right: 50%;
+	margin-right: -600px;
+	position: absolute;
+	z-index: 1000;
+	border-radius: 5px;
+}
+.search input {
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	border: currentColor;
+	left: 0px;
+	top: 0px;
+	width: 187px;
+	height: 42px;
+	color: rgb(50, 50, 50);
+	line-height: 42px;
+	position: absolute;
+}
+.search input.notxt {
+	color: rgb(255, 255, 255); padding-left: 12px; font-size: 14px;
+}
+.search input.notxt1 {
+	left: 200px;
+	width: 40px;
+	height: 42px;
+	position: absolute;
+}
+.nav {width: 100%;height: 49px;line-height: 49px;border-top-color: #0d51a0;border-top-width: 1px;border-top-style: solid;background: rgba(15, 82, 162, 0.8);}
+.nav ul {margin: 0px auto;}
+.nav ul li {background: url("https://ttc.cnu.edu.cn/images/nav_libg.jpg") no-repeat left;padding: 0px 45px;height: 49px;line-height: 49px;font-size: 16px;font-weight: normal;float: left;}
+.nav ul li:first-child {background: none;}
+.nav ul li a {color: rgb(255, 255, 255); font-size: 16px;}
+.nav ul li a:hover {
+	color: rgb(255, 255, 255);
+}
+.nav ul li.on a {
+	color: rgb(255, 255, 255);
+}
+.nav ul li .subNav a { color: #333333; }
+.nav ul li .subNav a:hover {
+	color: #3b50d6;
+}
+.nav ul li .subNav {
+	background: #ffffff; padding: 10px; top: 49px; width: 116px;
+}
+.nav ul li.on .subNav dl dd {
+	padding: 3px 10px 3px 10px; height: auto; line-height: 20px; text-align:center;
+}
+.nav ul li.on .subNav dl dd {
+	color: rgb(1, 109, 56);
+}
+.nav ul li.on .subNav dl dd a {
+	padding: 0px;
+}
+.content {
+	background: rgb(255, 255, 255);
+	margin: 0px auto 30px;
+	overflow: hidden;
+	width: 1200px;
+}
+.Banner {
+	margin: 5px auto 0px; width: 1440px; height: 515px;
+}
+.flex-control-paging li a {
+	background: url("https://ttc.cnu.edu.cn/images/a_03.png") no-repeat; width: 12px; height: 12px;
+}
+.flex-control-paging li a:hover {
+	background: url("https://ttc.cnu.edu.cn/images/a_hover_03.png") no-repeat;
+}
+.flex-control-paging li a.flex-active {
+	background: url("https://ttc.cnu.edu.cn/images/a_hover_03.png") no-repeat;
+}
+.flexslider ul.slides li img {
+	width: 1440px; height: 515px;
+}
+.flexslider .slides .til_slides {
+	background: url("https://ttc.cnu.edu.cn/images/slider_03.png") repeat-x; margin: 0px 0px 0px -600px; padding: 0px 0px 0px 30px; left: 50%; width: 1170px; height: 40px; bottom: 0px; color: rgb(255, 255, 255); line-height: 40px; font-size: 16px; position: absolute;
+}
+.flexslider .slides .til_slides .gg {
+	color: #2c50b4; font-size: 16px;
+}
+.flex-control-nav {
+	margin: 0px -600px 0px 0px; width: auto; text-align: right; right: 50%; bottom: 13px; position: absolute;
+}
+.flex-control-nav li {
+	margin: 0px 14px 0px 0px;
+}
+.flex-control-nav li a {
+	text-indent: 9999px;
+}
+.flex-direction-nav .flex-prev {
+	background: url("https://ttc.cnu.edu.cn/images/arrow_left.png") no-repeat; width: 30px; height: 30px;
+}
+.flex-direction-nav .flex-next {
+	background: url("https://ttc.cnu.edu.cn/images/arrow_right.png") no-repeat; width: 30px; height: 30px;
+}
+.flexslider:hover .flex-prev {
+	left: 100px; opacity: 0.7;
+}
+.flexslider:hover .flex-next {
+	right: 100px; opacity: 0.7;
+}
+.mode01 {
+	width: 1200px;
+	/* height: 319px; */
+	overflow: hidden;
+	clear: both;
+	margin-top: 40px;
+}
+.mode01 .lf {
+	width: 376px;
+	/* height: 436px; */
+	margin-right: 40px;
+	float: left;
+}
+.mode01 .md {
+	width: 376px;
+	/* height: 448px; */
+	float: left;
+}
+.mode01 .rt {
+	width: 367px;
+	/* height: 448px; */
+	float: right;
+}
+.mode01 .rt .nest01 {
+	background: rgb(247, 248, 255);
+	width: 367px;
+}
+.mode01 .rt .nest02 {
+	background: rgb(247, 248, 255); width: 367px; height: 199px;
+}
+.mode02 {
+	padding: 0px 0px 25px; width: 1200px; height: 100px; overflow: hidden; clear: both; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.articleList .listTitle {
+	height: 38px;
+	line-height: 38px;
+	border-bottom-color: #2c50b4;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+}
+.articleList .listTitle h2 {
+	background: #2c50b4;
+	padding: 0px 10px;
+	width: auto;
+	height: 38px;
+	color: rgb(255, 255, 255);
+	line-height: 38px;
+	font-size: 18px;
+	font-weight: normal;
+	float: left;
+}
+.articleList .listTitle .more {
+	width: auto; float: right;
+}
+.articleList .listTitle a {
+	color: rgb(153, 153, 153); font-size: 18px;
+}
+.articleList ul {
+	margin: 20px 0px 0px;
+}
+.articleList ul li {
+	margin: 0px 0px 4px;
+	padding: 0px;
+	height: auto;
+	overflow: hidden;
+}
+.articleList ul li .leftDate {
+	width: 50px; text-align: left; float: left; display: inline-block;
+}
+.articleList ul li a {
+	margin: 0px 0px 0px 10px; width: 315px; line-height: 21px; float: left;
+}
+.articleList ul li .month {
+	width: 50px;
+	height: 20px;
+	color: #2c50b4;
+	font-family: Arial;
+	font-size: 18px;
+	display: block;
+}
+.articleList ul li .year {
+	width: 50px;
+	color: #2c50b4;
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.fast_link ul {
+	overflow: hidden;
+}
+.fast_link ul li {
+	margin: 0px 10px 0px 0px; padding: 24px 0px 0px 37px; border: 1px solid rgb(229, 229, 229); width: 193px; height: 74px; float: left;
+}
+.fast_link ul li a {
+	margin: 5px 0px 0px;
+}
+.fast_link ul li.danhang a {
+	margin: 15px 0px 0px;
+}
+.fast_link ul li.last {
+	margin: 0px;
+}
+.img_font {
+	overflow: hidden;
+}
+.img_font img {
+	margin: 0px 10px 0px 0px; width: 48px; height: 49px; float: left; display: inline-block;
+}
+.img_font a {
+	width: 85px; line-height: 20px; float: left; display: inline-block;
+}
+.mode03 {
+	width: 1200px; height: 83px;
+}
+
+.subPage {
+	margin: 0px auto; width: 1200px;
+}
+.pageBanner {
+	width: 1200px;
+}
+.Bread {
+	background: url("https://ttc.cnu.edu.cn/images/cen_tbg.jpg") repeat-x; width: auto; height: 39px; color: #2c50b4; line-height: 39px; font-size: 13px; margin-top: 5px;
+}
+.Bread a {
+	color: #2c50b4;
+}
+.articleList2 {
+	
+}
+.articleList2 ul li {
+	background: url("https://ttc.cnu.edu.cn/images/circle.png") no-repeat left; margin: 0px; padding: 0px 0px 0px 20px; height: 36px; line-height: 36px;
+}
+.articleList2 ul li a {
+	margin: 0px; width: auto; height: 36px; line-height: 36px;
+}
+.listTitle2 {
+	background: none; padding-left: 0px;
+}
+.listTitle2 h2 {
+	padding: 0px; height: 40px; color: #2c50b4; line-height: 40px; font-size: 16px; font-weight: bold;
+}
+.listTitle2 a {
+	float: right;
+}
+.subPage .articleList2 {
+	margin: 10px 0px 20px;
+}
+.page {
+	margin: 20px 0px 30px; width: 100%; height: 30px; text-align: center; line-height: 30px; clear: both; font-size: 12px;
+}
+.page a {
+	padding: 0px 5px;
+}
+.pageList {
+	overflow: hidden; padding-bottom: 30px;
+}
+.articleTitle {
+	width: 100%; text-align: center;
+}
+.articleTitle h2 {
+	padding: 10px 0px; color: rgb(100, 100, 100); line-height: 26px; font-size: 18px;
+}
+.articleTitle h3 {
+	padding: 10px 0px; color: rgb(85, 85, 85); line-height: 20px; font-size: 14px; font-weight: bold;
+}
+.articleAuthor {
+	background: rgb(245, 245, 245); margin: 10px; height: 30px; text-align: center; color: rgb(119, 119, 119); line-height: 30px;
+}
+.article {
+	margin: 20px 10px; line-height: 26px; overflow: hidden; font-size: 15px;
+}
+.Annex {
+	padding: 0px; overflow: hidden; margin-bottom: 30px;
+}
+.Annex h3 {
+	color: rgb(47, 62, 158); line-height: 30px; padding-left: 5px; font-size: 16px;
+}
+.Annex ul li {
+	background: url("https://ttc.cnu.edu.cn/images/circle.png") no-repeat 10px; height: 26px; line-height: 26px; padding-left: 28px;
+}
+.Annex ul li a {
+	color: rgb(101, 100, 100); line-height: 24px; font-size: 12px;
+}
+.Annex ul li a:hover {
+	color: rgb(0, 74, 0);
+}
+.article_left_right {
+	margin: 20px 0px 0px; overflow: hidden;
+}
+.article_float {
+	margin: 0px 20px 30px 0px; width: 47%; float: left;
+}
+.article_float01 {
+	margin: 0px 0px 30px; width: 100%; float: none;
+}
+.article_float .title {
+	background: url("https://ttc.cnu.edu.cn/images/title.jpg") repeat-x; height: 30px; line-height: 30px; border-bottom-color: #2c50b4; border-bottom-width: 1px; border-bottom-style: solid;
+}
+.article_float .title h2 {
+	padding: 0px 10px; width: auto; color: rgb(21, 20, 20); font-weight: normal; float: left;
+}
+.article_float .title a {
+	width: auto; float: right;
+}
+.article_float dl {
+	margin: 10px 0px 0px;
+}
+.article_float dl dd {
+	background: url("https://ttc.cnu.edu.cn/images/circle.png") no-repeat left; padding: 0px 0px 0px 20px; height: 30px; line-height: 30px;
+}
+.article_float dl dd a {
+	float: left;
+}
+.article_float dl dd span {
+	color: rgb(102, 102, 102); font-size: 13px; float: right;
+}
+.pictureList_tl2 ul {
+	width: 1260px; overflow: hidden;
+}
+.pictureList_tl2 ul li {
+	margin: 0px 24px 0px 0px; width: 180px; height: 165px; text-align: center; float: left;
+}
+.pictureList_tl2 ul li img {
+	width: 180px; height: 140px; display: block;
+}
+.pictureList_tl2 ul li p {
+	height: 20px; line-height: 20px;
+}
+.con {
+	width: 1200px; overflow: hidden; min-height: 500px;
+}
+.con .con_left {
+	border-width: 1px 1px medium; border-style: solid solid none; border-color: rgb(227, 227, 227) rgb(227, 227, 227) currentColor; margin: 5px 0px 0px; width: 260px; float: left;
+}
+.con .con_left .left_title {
+	background: url("https://ttc.cnu.edu.cn/images/cen_tbg.jpg") repeat-x; height: 39px; line-height: 39px;
+}
+.con .con_left .left_title h2 {
+	padding: 0px 0px 0px 20px;
+}
+.con .con_left .left_title h2 a {
+	color: #2c50b4; font-family: "ÃŽÂ¢ÃˆÃ­Ã‘Ã…ÂºÃš"; font-size: 16px; font-weight: bold;
+}
+.con .con_left ul li {
+	
+}
+.con .con_left ul li a {
+	padding: 10px 20px; border-bottom-color: rgb(227, 227, 227); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+.con .con_left ul li a:hover {
+	border-bottom-color: #2c50b4; border-bottom-width: 3px; border-bottom-style: solid;
+}
+.con .con_left ul li.current a {
+	border-bottom-color: #2c50b4; border-bottom-width: 3px; border-bottom-style: solid;
+}
+.con .con_right {
+	width: 900px; height: auto; float: right;
+}
+.pictureList ul {
+	width: 1000px; overflow: hidden;
+}
+.pictureList ul li {
+	margin: 0px 30px 0px 0px; width: 200px; height: 165px; text-align: center; float: left;
+}
+.pictureList ul li img {
+	width: 200px; height: 140px; display: block;
+}
+.pictureList ul li p {
+	height: 20px; line-height: 20px;
+}
+
+
+/* 2020.03.26修改 */
+.footerLeft{width: 400px;float: left;border-right: 1px solid #fff;}
+.footerRight{width: 360px;float: right;padding-left: 40px;border-left: 1px solid #fff;}
+.footerCenter{display: block;max-width: 400px;margin: 0 auto;}
+
+.footerLeft h2{float: left;width: 24px;color: #fff;font-size: 18px;margin-right: 6px;}
+
+.xiala{overflow: hidden;}
+.xiala select {background: #fff;margin: 0px 20px 10px 0px;padding: 0px 0px 0px 10px;border: 1px solid #d9d9d9;width: 265px;height: 28px;color: #666666;}
+.xiala select.last {margin: 0px;}
+.footer {color: rgb(255, 255, 255);/* border-top-color: rgb(27, 41, 133); */padding: 32px 0;border-top-width: 4px;border-top-style: solid;background:url(https://ttc.cnu.edu.cn/images/footer_02.png) no-repeat top center;background-size: cover;}
+.footerBox{max-width: 1200px;margin: 0 auto;overflow: hidden;}
+.copyRight{margin: 0px auto;text-align: center;line-height: 27px;}
+
+.weixin ul li {width: 33.3%;text-align: center;float: left;}
+.weixin ul li .border {margin: 0px auto;/* height: 96px; */display: block;}
+.weixin ul li img {/* margin: 9px 0px 0px; */width: 68px;height: 68px;border: 8px solid #fff;}
+.weixin ul li p {/* margin: 4px auto 0; *//* width: 100px; */text-align: center;color:#fff;line-height: 20px;font-size: 14px;display: block;}
+
+.xitong h2 {
+	background: #d4e8ff;
+	padding: 0px 0px 0px 20px;
+	height: 40px;
+	line-height: 40px;
+}
+.xitong h2 a {
+	color: rgb(51, 51, 51); font-size: 18px; font-weight: normal;
+}
+.xitong ul{padding: 13px 0;}
+.xitong ul li {
+	padding: 9px 10px;
+}
+.xitong ul li a{display: block;overflow: hidden;line-height: 36px;border: 1px solid #165db3;padding: 16px 10px;border-radius: 4px;background: #ffffff;}
+.xitong ul li.li01 {
+}
+.xitong ul li img {
+	width: 41px;
+	height: 36px;
+	float: left;
+}
+.xitong ul li p {
+	color: rgb(51, 51, 51);font-size: 18px; display: block;margin: 0 0 0 60px;font-weight: bold;
+}
+.xitong ul li p:hover {
+	color: #2c50b4;
+}

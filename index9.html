@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院历史学院</title>
+<link href="css/base2.css" type="text/css" rel="stylesheet">
+<link href="css/style6.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script><script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+<p>
+	
+
+<div class="header">
+    	<div class="top">
+        	<div class="logo">
+        		<a href="javascript:;" class="logo_link"><img src="images/logo_02.png"></a>
+            </div>
+			
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="99" type="hidden">
+                    <input class="notxt" value="搜索......" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+			
+        </div>
+        
+</div>
+
+
+<div class="content">
+	
+
+<div class="nav">
+	<ul id="nav">		
+		<li><a href="javascript:;">首  页</a></li>
+	
+				
+							<li><a href="javascript:;">学院概况</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">学院介绍</a></dd>
+													<dd><a href="javascript:;">现任领导</a></dd>
+													<dd><a href="javascript:;">历任领导</a></dd>
+													<dd><a href="javascript:;">组织架构</a></dd>
+													<dd><a href="javascript:;">学院标识</a></dd>
+													<dd><a href="javascript:;">历史博物馆</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">学科建设</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">世界史</a></dd>
+													<dd><a href="javascript:;">中国史</a></dd>
+													<dd><a href="javascript:;">考古学</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">师资队伍</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">队伍建设</a></dd>
+													<dd><a href="javascript:;">教师简介</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">科学研究</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">通知公告</a></dd>
+													<dd><a href="javascript:;">学术活动</a></dd>
+													<dd><a href="javascript:;">研究机构</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">本科教学</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">通知公告</a></dd>
+													<dd><a href="javascript:;">专业介绍</a></dd>
+													<dd><a href="javascript:;">管理规章</a></dd>
+													<dd><a href="javascript:;">培养方案</a></dd>
+													<dd><a href="javascript:;">教学安排</a></dd>
+													<dd><a href="javascript:;">历史教育实践</a></dd>
+													<dd><a href="javascript:;">专业实践</a></dd>
+													<dd><a href="javascript:;">表格下载</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">研究生教学</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">通知公告</a></dd>
+													<dd><a href="javascript:;">规章制度</a></dd>
+													<dd><a href="javascript:;">培养方案</a></dd>
+													<dd><a href="javascript:;">课程安排</a></dd>
+													<dd><a href="javascript:;">博士后</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">成人教育</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">招生简章</a></dd>
+													<dd><a href="javascript:;">重要通知</a></dd>
+													<dd><a href="javascript:;">管理规章</a></dd>
+													<dd><a href="javascript:;">国培计划</a></dd>
+													<dd><a href="javascript:;">文博培训基地</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">招生信息</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">本科招生</a></dd>
+													<dd><a href="javascript:;">硕士招生</a></dd>
+													<dd><a href="javascript:;">博士招生</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">新闻中心</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">学院新闻</a></dd>
+													<dd><a href="javascript:;">院务通报</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">党建工作</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">党委活动</a></dd>
+													<dd><a href="javascript:;">学院党委</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">学生工作</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">通知公告</a></dd>
+													<dd><a href="javascript:;">本科生管理</a></dd>
+													<dd><a href="javascript:;">研究生管理</a></dd>
+													<dd><a href="javascript:;">学生会</a></dd>
+													<dd><a href="javascript:;">研究生会</a></dd>
+													<dd><a href="javascript:;">学生社团</a></dd>
+													<dd><a href="javascript:;">学生科研</a></dd>
+												</dl>
+					 </div>
+				</li>
+						
+				
+							<li><a href="javascript:;">资料中心</a>
+					 <div class="subNav">
+						<dl>
+													<dd><a href="javascript:;">中心介绍</a></dd>
+													<dd><a href="javascript:;">图书借阅</a></dd>
+												</dl>
+					 </div>
+				</li>
+							</ul>       
+	</div>
+
+	<div class="Banner">
+		
+<div class="flexslider">		
+	<ul class="slides">
+		<li><a href="javascript:;"><img src="images/content/2016-03/20160315105634906219.jpg"></a><span class="til_slides"></span></li>     
+		<li><a href="javascript:;"><img src="images/content/2016-03/20160315105155722936.jpg"></a><span class="til_slides"></span></li>     
+		</ul>
+</div>
+</div>
+	<div class="row mode01">
+		<div class="col lf">
+			<div class="articleList">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/more_03.png"></a></span>
+					<h2>
+						院务通报<span><img src="images/title_span01_03.png"></span></h2>
+				</div>
+				<ul>
+										<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/ywtb/189050.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生转专业方案与通知">            历史学院2021年本科生转专业方案与通知 
+    </a> <span class="rightDate">[2021-04-15] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/ywtb/185221.htm','xw');" onfocus="undefined" title="关于选拔本科生申请2021年日本国费奖学金的通知">            关于选拔本科生申请2021年日本国费奖学金的通知 
+    </a> <span class="rightDate">[2021-02-20] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/ywtb/180800.htm','xw');" onfocus="undefined" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院东亚区域史学术研讨会暨东亚历史研究中心成立仪式会议日程">            南航金城学院教务处_南京财经大学教务处_南京艺术学院东亚区域史学术研讨会暨东亚历史研究中心成立仪式会... 
+    </a> <span class="rightDate">[2020-11-09] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/ywtb/180560.htm','xw');" onfocus="undefined" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院东亚区域史学术研讨会入选论文公示">            南航金城学院教务处_南京财经大学教务处_南京艺术学院东亚区域史学术研讨会入选论文公示 
+    </a> <span class="rightDate">[2020-11-06] </span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col md">
+			<div class="articleList01">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/more_03.png"></a></span>
+					<h2>
+						学院新闻<span><img src="images/title_span02_03.png"></span></h2>
+				</div>
+				<ul>
+										<li>
+						<span class="leftDate">04-25</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/189678.htm','xw');" onfocus="undefined" title="历史学院开展“重走京畿红迹，再忆建党初心”主题活动">            历史学院开展“重走京畿红迹，再... 
+    </a>					<li>
+						<span class="leftDate">04-16</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/189173.htm','xw');" onfocus="undefined" title="历史学院教工与研究生支部赴房山进行现场教学与党建活动">            历史学院教工与研究生支部赴房山... 
+    </a>					<li>
+						<span class="leftDate">03-30</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/188160.htm','xw');" onfocus="undefined" title="历史学院召开退休党支部纪念建党100周年师生座谈会">            历史学院召开退休党支部纪念建党... 
+    </a>					<li>
+						<span class="leftDate">03-29</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/188014.htm','xw');" onfocus="undefined" title="文明区划研究中心被教育部评估为“高水平建设单位”">            文明区划研究中心被教育部评估为... 
+    </a>					<li>
+						<span class="leftDate">03-18</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/187671.htm','xw');" onfocus="undefined" title="历史学院袁广阔教授在《中国社会科学》发表论文">            历史学院袁广阔教授在《中国社会... 
+    </a>					<li>
+						<span class="leftDate">03-15</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/187533.htm','xw');" onfocus="undefined" title="历史学院两项北京市社科基金重大项目举行开题报告会">            历史学院两项北京市社科基金重大... 
+    </a>					<li>
+						<span class="leftDate">02-10</span> <a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/185190.htm','xw');" onfocus="undefined" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院与青海师范大学合作研究成果在世界著名考古学专业期刊Antiquity杂志上发表">            南航金城学院教务处_南京财经大学教务处_南京艺术学院与青海师范大学合作... 
+    </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col rt">
+			<div class="articleList02">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/more_03.png"></a></span>
+					<h2>
+						学术活动<span><img src="images/title_span03_03.png"></span></h2>
+				</div>
+				<ul>
+										<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('kxyj/xzhd/189498.htm','xw');" onfocus="undefined" title="4月28日：【世界史博导论坛】中世纪在什么意义上代表着“希望”——欧洲人文主义中古版本诠释">            4月28日：【世界史博导论坛】中世纪在什么意义上代表着“希望”—... 
+    </a> <span class="rightDate">[2021-04-22] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('kxyj/xzhd/188582.htm','xw');" onfocus="undefined" title="4月8日：【学术讲座】从党的百年历史中汲取智慧和力量,奋进新征程,建功新时代">            4月8日：【学术讲座】从党的百年历史中汲取智慧和力量,奋进新征程... 
+    </a> <span class="rightDate">[2021-04-07] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('kxyj/xzhd/183549.htm','xw');" onfocus="undefined" title="12月23日：【世界史国际论坛】二十一世纪西方学术界冷战史研究：学术特征、问题与前景">            12月23日：【世界史国际论坛】二十一世纪西方学术界冷战史研究：... 
+    </a> <span class="rightDate">[2020-12-09] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('kxyj/xzhd/183840.htm','xw');" onfocus="undefined" title="12月17日：【学术讲座】时间与历史研究">            12月17日：【学术讲座】时间与历史研究 
+    </a> <span class="rightDate">[2020-12-15] </span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="row mode02">
+		<div class="col md">
+			<div class="picture_list">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/teacher_more_03.png"></a></span>
+					<h2>
+						师资队伍<span><img src="images/title_span04_11.png"></span></h2>
+				</div>
+				<div class="da">
+					<div class="scrollBox" id="pic">
+						<div id="box">
+							<div id="left">
+								<ul>
+																		<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/76747.htm','$article.belongUser');" onfocus="undefined" title="郝春文"><img src="images/content/2017-12/20171213164417849998.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/76747.htm','$article.belongUser');" onfocus="undefined" title="郝春文">郝春文</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77308.htm','xw');" onfocus="undefined" title="李华瑞"><img src="images/content/2016-03/20160310100709066185.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77308.htm','xw');" onfocus="undefined" title="李华瑞">李华瑞</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77042.htm','$article.belongUser');" onfocus="undefined" title="刘新成"><img src="images/content/2016-03/20160307104021450914.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77042.htm','$article.belongUser');" onfocus="undefined" title="刘新成">刘新成</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77041.htm','xw');" onfocus="undefined" title="徐蓝"><img src="images/content/2016-03/20160307103301378485.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77041.htm','xw');" onfocus="undefined" title="徐蓝">徐蓝</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/144096.htm','$article.belongUser');" onfocus="undefined" title="刘城"><img src="images/content/2018-06/20180625150457905117.png"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/144096.htm','$article.belongUser');" onfocus="undefined" title="刘城">刘城</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/77947.htm','$article.belongUser');" onfocus="undefined" title="迟云飞"><img src="images/content/2016-03/20160315182140316282.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/77947.htm','$article.belongUser');" onfocus="undefined" title="迟云飞">迟云飞</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/77950.htm','$article.belongUser');" onfocus="undefined" title="夏继果"><img src="images/content/2016-03/20160315183144457632.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/77950.htm','$article.belongUser');" onfocus="undefined" title="夏继果">夏继果</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77040.htm','$article.belongUser');" onfocus="undefined" title="晏绍祥"><img src="images/content/2016-03/20160307103450891613.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77040.htm','$article.belongUser');" onfocus="undefined" title="晏绍祥">晏绍祥</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/77969.htm','$article.belongUser');" onfocus="undefined" title="梁景和"><img src="images/content/2016-03/20160316112103093888.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/77969.htm','$article.belongUser');" onfocus="undefined" title="梁景和">梁景和</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77972.htm','xw');" onfocus="undefined" title="王永平"><img src="images/content/2016-03/20160316112427141122.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/77972.htm','xw');" onfocus="undefined" title="王永平">王永平</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/77976.htm','$article.belongUser');" onfocus="undefined" title="袁广阔"><img src="images/content/2016-03/20160316112855778310.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/77976.htm','$article.belongUser');" onfocus="undefined" title="袁广阔">袁广阔</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/77979.htm','$article.belongUser');" onfocus="undefined" title="刘文明"><img src="images/content/2016-03/20160316113003217645.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/77979.htm','$article.belongUser');" onfocus="undefined" title="刘文明">刘文明</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/77983.htm','$article.belongUser');" onfocus="undefined" title="史桂芳"><img src="images/content/2018-07/20180703153339975054.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/77983.htm','$article.belongUser');" onfocus="undefined" title="史桂芳">史桂芳</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/77990.htm','$article.belongUser');" onfocus="undefined" title="郗志群"><img src="images/content/2016-03/20160316113304428349.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/77990.htm','$article.belongUser');" onfocus="undefined" title="郗志群">郗志群</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/77993.htm','$article.belongUser');" onfocus="undefined" title="蔡万进"><img src="images/content/2016-03/20160316113438234524.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/77993.htm','$article.belongUser');" onfocus="undefined" title="蔡万进">蔡万进</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/lsjyxjs/77996.htm','$article.belongUser');" onfocus="undefined" title="赵亚夫"><img src="images/content/2016-03/20160316113602504771.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/lsjyxjs/77996.htm','$article.belongUser');" onfocus="undefined" title="赵亚夫">赵亚夫</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78013.htm','$article.belongUser');" onfocus="undefined" title="梁占军"><img src="images/content/2016-03/20160316115431166122.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78013.htm','$article.belongUser');" onfocus="undefined" title="梁占军">梁占军</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78017.htm','$article.belongUser');" onfocus="undefined" title="方敏"><img src="images/content/2016-03/20160316115613598710.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78017.htm','$article.belongUser');" onfocus="undefined" title="方敏">方敏</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sxlljs/78479.htm','$article.belongUser');" onfocus="undefined" title="江湄"><img src="images/content/2018-07/20180702085246756136.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sxlljs/78479.htm','$article.belongUser');" onfocus="undefined" title="江湄">江湄</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78483.htm','$article.belongUser');" onfocus="undefined" title="刘屹"><img src="images/content/2016-03/20160322112854550482.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78483.htm','$article.belongUser');" onfocus="undefined" title="刘屹">刘屹</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78486.htm','$article.belongUser');" onfocus="undefined" title="金滢坤"><img src="images/content/2019-03/20190306091019932168.png"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78486.htm','$article.belongUser');" onfocus="undefined" title="金滢坤">金滢坤</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78491.htm','$article.belongUser');" onfocus="undefined" title="施诚"><img src="images/content/2016-03/20160322114153191795.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78491.htm','$article.belongUser');" onfocus="undefined" title="施诚">施诚</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sxlljs/78510.htm','$article.belongUser');" onfocus="undefined" title="邓京力"><img src="images/content/2016-03/20160322141913644496.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sxlljs/78510.htm','$article.belongUser');" onfocus="undefined" title="邓京力">邓京力</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78515.htm','$article.belongUser');" onfocus="undefined" title="陈晓华"><img src="images/content/2016-03/20160322144215952717.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78515.htm','$article.belongUser');" onfocus="undefined" title="陈晓华">陈晓华</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/91402.htm','$article.belongUser');" onfocus="undefined" title="张萍"><img src="images/content/2016-10/20161010195218692882.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/91402.htm','$article.belongUser');" onfocus="undefined" title="张萍">张萍</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78518.htm','$article.belongUser');" onfocus="undefined" title="马保春"><img src="images/content/2016-03/20160322144430023933.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78518.htm','$article.belongUser');" onfocus="undefined" title="马保春">马保春</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78521.htm','$article.belongUser');" onfocus="undefined" title="游自勇"><img src="images/content/2016-03/20160322144534227105.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78521.htm','$article.belongUser');" onfocus="undefined" title="游自勇">游自勇</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78524.htm','$article.belongUser');" onfocus="undefined" title="钱益汇"><img src="images/content/2016-03/20160322144650062378.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78524.htm','$article.belongUser');" onfocus="undefined" title="钱益汇">钱益汇</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/91399.htm','$article.belongUser');" onfocus="undefined" title="欧阳启名"><img src="images/content/2016-10/20161010192838942624.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/91399.htm','$article.belongUser');" onfocus="undefined" title="欧阳启名">欧阳启名</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/155823.htm','$article.belongUser');" onfocus="undefined" title="韩晓莉"><img src="images/content/2019-03/20190318095625187504.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/155823.htm','$article.belongUser');" onfocus="undefined" title="韩晓莉">韩晓莉</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78527.htm','$article.belongUser');" onfocus="undefined" title="孙文泱"><img src="images/content/2016-03/20160322144839478605.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78527.htm','$article.belongUser');" onfocus="undefined" title="孙文泱">孙文泱</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78530.htm','$article.belongUser');" onfocus="undefined" title="宋卫忠"><img src="images/content/2016-03/20160322145013595872.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78530.htm','$article.belongUser');" onfocus="undefined" title="宋卫忠">宋卫忠</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78533.htm','$article.belongUser');" onfocus="undefined" title="董增刚"><img src="images/content/2016-03/20160322145258061054.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78533.htm','$article.belongUser');" onfocus="undefined" title="董增刚">董增刚</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78536.htm','$article.belongUser');" onfocus="undefined" title="高永平"><img src="images/content/2016-03/20160322145610933241.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78536.htm','$article.belongUser');" onfocus="undefined" title="高永平">高永平</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78544.htm','$article.belongUser');" onfocus="undefined" title="王涛"><img src="images/content/2018-07/20180703090158815297.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78544.htm','$article.belongUser');" onfocus="undefined" title="王涛">王涛</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78547.htm','$article.belongUser');" onfocus="undefined" title="余华林"><img src="images/content/2016-03/20160322150217183995.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78547.htm','$article.belongUser');" onfocus="undefined" title="余华林">余华林</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78541.htm','$article.belongUser');" onfocus="undefined" title="后晓荣"><img src="images/content/2016-03/20160322145822897592.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78541.htm','$article.belongUser');" onfocus="undefined" title="后晓荣">后晓荣</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78550.htm','$article.belongUser');" onfocus="undefined" title="陈志坚"><img src="images/content/2016-03/20160322150543381289.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78550.htm','$article.belongUser');" onfocus="undefined" title="陈志坚">陈志坚</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78553.htm','$article.belongUser');" onfocus="undefined" title="姚百慧"><img src="images/content/2016-03/20160322150700241467.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78553.htm','$article.belongUser');" onfocus="undefined" title="姚百慧">姚百慧</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78556.htm','$article.belongUser');" onfocus="undefined" title="符静"><img src="images/content/2018-07/20180703093332714419.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78556.htm','$article.belongUser');" onfocus="undefined" title="符静">符静</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78559.htm','$article.belongUser');" onfocus="undefined" title="朱光华"><img src="images/content/2016-03/20160322151151970794.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78559.htm','$article.belongUser');" onfocus="undefined" title="朱光华">朱光华</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78562.htm','$article.belongUser');" onfocus="undefined" title="张天虹"><img src="images/content/2016-03/20160322151352188092.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78562.htm','$article.belongUser');" onfocus="undefined" title="张天虹">张天虹</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78565.htm','$article.belongUser');" onfocus="undefined" title="袁泉"><img src="images/content/2017-06/20170615090435277178.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78565.htm','$article.belongUser');" onfocus="undefined" title="袁泉">袁泉</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78568.htm','$article.belongUser');" onfocus="undefined" title="李永斌"><img src="images/content/2018-06/20180626091407856463.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78568.htm','$article.belongUser');" onfocus="undefined" title="李永斌">李永斌</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/lsjyxjs/87201.htm','$article.belongUser');" onfocus="undefined" title="张汉林"><img src="images/content/2016-06/20160612101834078378.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/lsjyxjs/87201.htm','$article.belongUser');" onfocus="undefined" title="张汉林">张汉林</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/135769.htm','$article.belongUser');" onfocus="undefined" title="曹小文"><img src="images/content/2018-04/20180423161143267026.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/135769.htm','$article.belongUser');" onfocus="undefined" title="曹小文">曹小文</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78571.htm','$article.belongUser');" onfocus="undefined" title="王燕平"><img src="images/content/2016-03/20160322152200902607.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78571.htm','$article.belongUser');" onfocus="undefined" title="王燕平">王燕平</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78574.htm','$article.belongUser');" onfocus="undefined" title="于展"><img src="images/content/2018-06/20180629142338270346.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78574.htm','$article.belongUser');" onfocus="undefined" title="于展">于展</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78577.htm','$article.belongUser');" onfocus="undefined" title="张祎"><img src="images/content/2016-03/20160322154402278780.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78577.htm','$article.belongUser');" onfocus="undefined" title="张祎">张祎</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78580.htm','$article.belongUser');" onfocus="undefined" title="杜涛"><img src="images/content/2021-04/20210430083707277288.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78580.htm','$article.belongUser');" onfocus="undefined" title="杜涛">杜涛</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78583.htm','$article.belongUser');" onfocus="undefined" title="倪玉珍"><img src="images/content/2018-07/20180705095452676749.png"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78583.htm','$article.belongUser');" onfocus="undefined" title="倪玉珍">倪玉珍</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78591.htm','$article.belongUser');" onfocus="undefined" title="秦方"><img src="images/content/2016-03/20160322153326164914.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78591.htm','$article.belongUser');" onfocus="undefined" title="秦方">秦方</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78594.htm','$article.belongUser');" onfocus="undefined" title="员雅丽"><img src="images/content/2020-10/20201014120419608834.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/78594.htm','$article.belongUser');" onfocus="undefined" title="员雅丽">员雅丽</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78601.htm','$article.belongUser');" onfocus="undefined" title="尤悦"><img src="images/content/2019-05/20190521111835612319.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/78601.htm','$article.belongUser');" onfocus="undefined" title="尤悦">尤悦</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78605.htm','$article.belongUser');" onfocus="undefined" title="刘晓满"><img src="images/content/2016-03/20160322154001761112.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78605.htm','$article.belongUser');" onfocus="undefined" title="刘晓满">刘晓满</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78608.htm','$article.belongUser');" onfocus="undefined" title="孙正军"><img src="images/content/2016-03/20160322154119925320.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78608.htm','$article.belongUser');" onfocus="undefined" title="孙正军">孙正军</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78611.htm','$article.belongUser');" onfocus="undefined" title="殷志强"><img src="images/content/2016-03/20160322154301829585.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zgjxdsjs/78611.htm','$article.belongUser');" onfocus="undefined" title="殷志强">殷志强</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78614.htm','$article.belongUser');" onfocus="undefined" title="田天"><img src="images/content/2018-06/20180622072859907230.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/zggdsjs/78614.htm','$article.belongUser');" onfocus="undefined" title="田天">田天</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78617.htm','$article.belongUser');" onfocus="undefined" title="翟韬"><img src="images/content/2016-03/20160322154651137216.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78617.htm','$article.belongUser');" onfocus="undefined" title="翟韬">翟韬</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78623.htm','$article.belongUser');" onfocus="undefined" title="乔瑜"><img src="images/content/2016-03/20160322154820225439.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/78623.htm','$article.belongUser');" onfocus="undefined" title="乔瑜">乔瑜</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/78626.htm','xw');" onfocus="undefined" title="寇志刚"><img src="images/content/2016-03/20160322155137581638.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/78626.htm','xw');" onfocus="undefined" title="寇志刚">寇志刚</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/91424.htm','$article.belongUser');" onfocus="undefined" title="陈宥成"><img src="images/content/2016-10/20161011094924800582.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/91424.htm','$article.belongUser');" onfocus="undefined" title="陈宥成">陈宥成</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/91438.htm','$article.belongUser');" onfocus="undefined" title="范佳翎"><img src="images/content/2017-09/20170917204210144845.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/91438.htm','$article.belongUser');" onfocus="undefined" title="范佳翎">范佳翎</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/104927.htm','$article.belongUser');" onfocus="undefined" title="王铭"><img src="images/content/2018-07/20180702093847838278.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/whycxjs/104927.htm','$article.belongUser');" onfocus="undefined" title="王铭">王铭</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/144598.htm','$article.belongUser');" onfocus="undefined" title="蒋家瑜"><img src="images/content/2018-07/20180703115854303436.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/144598.htm','$article.belongUser');" onfocus="undefined" title="蒋家瑜">蒋家瑜</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/161575.htm','$article.belongUser');" onfocus="undefined" title="崔金柱"><img src="images/content/2019-06/20190612112540506442.JPG"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/sjsjs/161575.htm','$article.belongUser');" onfocus="undefined" title="崔金柱">崔金柱</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/lsjyxjs/173444.htm','$article.belongUser');" onfocus="undefined" title="杨朝晖"><img src="images/content/2020-04/20200406084840921433.png"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/lsjyxjs/173444.htm','$article.belongUser');" onfocus="undefined" title="杨朝晖">杨朝晖</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/173582.htm','$article.belongUser');" onfocus="undefined" title="陈北辰"><img src="images/content/2020-04/20200408171922091302.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/173582.htm','$article.belongUser');" onfocus="undefined" title="陈北辰">陈北辰</a></p>
+																			<li>
+										<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/173585.htm','$article.belongUser');" onfocus="undefined" title="赵献超"><img src="images/content/2020-04/20200408172021860509.jpg"> </a>
+										<p>
+											<a href="javascript:void(0);" onclick="checkXnwk('szdw/jsjj/kgxybwgxjs/173585.htm','$article.belongUser');" onfocus="undefined" title="赵献超">赵献超</a></p>
+										</li>
+								</ul>
+							</div>
+							<div id="right">
+								&nbsp;</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--<div class="row mode02">
+		<div class="col md">
+			<div class="articleList03">
+				<div class="listTitle">
+					<span class="more"><a href="zxfb/index.htm" onfocus="undefined"><img src="images/more_03.png" /></a></span>
+					<h2>
+						最新发布<span><img src="images/title_span05_07.png" /></span></h2>
+				</div>
+				<ul>
+										<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189713.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a><span class="rightDate">[2021-04-25]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189708.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a><span class="rightDate">[2021-04-25]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/189678.htm','$article.belongUser');" onfocus="undefined" title="历史学院开展“重走京畿红迹，再忆建党初心”主题活动">            历史学院开展“重走京畿红迹，再忆建党初心”主题活动 
+    </a><span class="rightDate">[2021-04-25]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/glgz/189658.htm','$article.belongUser');" onfocus="undefined" title="历史学院本科生学年论文与毕业论文工作实施细则（2020年修订）">            历史学院本科生学年论文与毕业论文工作实施细则（2020年修订） 
+    </a><span class="rightDate">[2021-04-25]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('kxyj/xzhd/189498.htm','$article.belongUser');" onfocus="undefined" title="4月28日：【世界史博导论坛】中世纪在什么意义上代表着“希望”——欧洲人文主义中古版本诠释">            4月28日：【世界史博导论坛】中世纪在什么意义上代表着“希望”——欧洲人文主义中古版本诠释 
+    </a><span class="rightDate">[2021-04-22]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/189173.htm','$article.belongUser');" onfocus="undefined" title="历史学院教工与研究生支部赴房山进行现场教学与党建活动">            历史学院教工与研究生支部赴房山进行现场教学与党建活动 
+    </a><span class="rightDate">[2021-04-16]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189050.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生转专业方案与通知">            历史学院2021年本科生转专业方案与通知 
+    </a><span class="rightDate">[2021-04-15]</span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/188878.htm','$article.belongUser');" onfocus="undefined" title="关于开展 2020年度南航金城学院教务处_南京财经大学教务处_南京艺术学院 “大学生创新创业训练计划”项目结题工作的通知">            关于开展 2020年度南航金城学院教务处_南京财经大学教务处_南京艺术学院 “大学生创新创业训练计划”项目结题工作的通知 
+    </a><span class="rightDate">[2021-04-13]</span></li>
+				</ul>
+			</div>
+		</div>
+	</div>-->
+	<div class="row mode01">
+		<div class="col lf">
+			<div class="articleList">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/more_03.png"></a></span>
+					<h2>
+						本科教学<span></span></h2>
+				</div>
+				<ul>
+										<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189713.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a> <span class="rightDate">[2021-04-25] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189708.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a> <span class="rightDate">[2021-04-25] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/glgz/189658.htm','$article.belongUser');" onfocus="undefined" title="历史学院本科生学年论文与毕业论文工作实施细则（2020年修订）">            历史学院本科生学年论文与毕业论文工作实施细则（2020年修订... 
+    </a> <span class="rightDate">[2021-04-25] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189050.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生转专业方案与通知">            历史学院2021年本科生转专业方案与通知 
+    </a> <span class="rightDate">[2021-04-15] </span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col md">
+			<div class="articleList01">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/more_03.png"></a></span>
+					<h2>
+						研究生教学<span></span></h2>
+				</div>
+				<ul>
+										<li>
+						<span class="leftDate">01-14</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/184909.htm','$article.belongUser');" onfocus="undefined" title="【毕业和学位】历史学院2020—2021第二学期研究生申请答辩和学位工作安排">            【毕业和学位】历史学院2020... 
+    </a>					<li>
+						<span class="leftDate">01-04</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/184619.htm','$article.belongUser');" onfocus="undefined" title="【研究生课程】历史学院2020-2021学年第二学期研究生课程安排">            【研究生课程】历史学院2020... 
+    </a>					<li>
+						<span class="leftDate">11-30</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/183032.htm','$article.belongUser');" onfocus="undefined" title="【学位论文答辩信息公示】2020年秋季学期研究生学位论文答辩信息">            【学位论文答辩信息公示】202... 
+    </a>					<li>
+						<span class="leftDate">10-30</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/179869.htm','$article.belongUser');" onfocus="undefined" title="【开题与预答辩】2020年秋季学期博硕士论文开题和预答辩工作">            【开题与预答辩】2020年秋季... 
+    </a>					<li>
+						<span class="leftDate">09-16</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/177838.htm','$article.belongUser');" onfocus="undefined" title="[研究生推免]历史学院2021年接收校内外优秀应届本科生免试攻读硕士研究生公告">            [研究生推免]历史学院2021... 
+    </a>					<li>
+						<span class="leftDate">09-15</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/177717.htm','$article.belongUser');" onfocus="undefined" title="【研究生课程】历史学院2020年秋季学期研究生选课安排">            【研究生课程】历史学院2020... 
+    </a>					<li>
+						<span class="leftDate">09-15</span> <a href="javascript:void(0);" onclick="checkXnwk('yjsjx/pyfax/177714.htm','$article.belongUser');" onfocus="undefined" title="历史学院2020级博硕士研究生培养方案">            历史学院2020级博硕士研究生... 
+    </a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col rt">
+			<div class="articleList02">
+				<div class="listTitle">
+					<span class="more"><a href="javascript:;" onfocus="undefined"><img src="images/more_03.png"></a></span>
+					<h2>
+						最新发布<span></span></h2>
+				</div>
+				<ul>
+										<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189713.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a> <span class="rightDate">[2021-04-25] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189708.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a> <span class="rightDate">[2021-04-25] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/189678.htm','$article.belongUser');" onfocus="undefined" title="历史学院开展“重走京畿红迹，再忆建党初心”主题活动">            历史学院开展“重走京畿红迹，再忆建党初心”主题活动 
+    </a> <span class="rightDate">[2021-04-25] </span>					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/glgz/189658.htm','$article.belongUser');" onfocus="undefined" title="历史学院本科生学年论文与毕业论文工作实施细则（2020年修订）">            历史学院本科生学年论文与毕业论文工作实施细则（2020年修订） 
+    </a> <span class="rightDate">[2021-04-25] </span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--<div class="row mode03">
+        <div class="col lf">
+            <div class="articleList03">
+                <div class="listTitle">
+                   <span class="more"><a href="crjy/gpjh/index.htm"><img src="images/more_03.png"></a></span><h2>国培计划<span></span></h2>
+                </div>
+                <ul>
+                   					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('crjy/gpjh/161310.htm','xw');" onfocus="undefined" title="教育部“国培计划”（2018）——中小学一线优秀教师和教研员研修项目">            教育部“国培计划”（2018）——中小学一线优秀教师和教研员研修项目 
+    </a><span class="rightDate">[2019-06-08]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('crjy/gpjh/132084.htm','xw');" onfocus="undefined" title="教育部“国培计划（2017）”——示范性初中历史培训团队研修项目">            教育部“国培计划（2017）”——示范性初中历史培训团队研修项目 
+    </a><span class="rightDate">[2018-03-19]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('crjy/gpjh/128504.htm','xw');" onfocus="undefined" title="教育部“国培计划（2016）”——一线优秀教师培训技能提升研修项目">            教育部“国培计划（2016）”——一线优秀教师培训技能提升研修项目 
+    </a><span class="rightDate">[2017-12-28]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('crjy/gpjh/128503.htm','xw');" onfocus="undefined" title="教育部“国培计划（2016）”——示范性初中历史培训团队研修项目">            教育部“国培计划（2016）”——示范性初中历史培训团队研修项目 
+    </a><span class="rightDate">[2017-12-28]</span></li>
+						                </ul>
+            </div>
+        </div>
+         
+         <div class="col lf">
+            <div class="articleList03">
+                <div class="listTitle">
+                   <span class="more"><a href="yjsjx/index.htm"><img src="images/more_03.png"></a></span><h2>研究生教学<span></span></h2>
+                </div>
+                <ul>
+                   					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/184909.htm','$article.belongUser');" onfocus="undefined" title="【毕业和学位】历史学院2020—2021第二学期研究生申请答辩和学位工作安排">            【毕业和学位】历史学院2020—2021第二学期研究生申请答辩和学位工作安排 
+    </a><span class="rightDate">[2021-01-14]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/184619.htm','$article.belongUser');" onfocus="undefined" title="【研究生课程】历史学院2020-2021学年第二学期研究生课程安排">            【研究生课程】历史学院2020-2021学年第二学期研究生课程安排 
+    </a><span class="rightDate">[2021-01-04]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/183032.htm','$article.belongUser');" onfocus="undefined" title="【学位论文答辩信息公示】2020年秋季学期研究生学位论文答辩信息">            【学位论文答辩信息公示】2020年秋季学期研究生学位论文答辩信息 
+    </a><span class="rightDate">[2020-11-30]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('yjsjx/tzggx1/179869.htm','$article.belongUser');" onfocus="undefined" title="【开题与预答辩】2020年秋季学期博硕士论文开题和预答辩工作">            【开题与预答辩】2020年秋季学期博硕士论文开题和预答辩工作 
+    </a><span class="rightDate">[2020-10-30]</span></li>
+						                </ul>
+            </div>
+        </div>
+		
+		   <div class="col lf">
+            <div class="articleList03">
+                <div class="listTitle">
+                   <span class="more"><a href="zxfb/index.htm"><img src="images/more_03.png"></a></span><h2>最新发布<span></span></h2>
+                </div>
+                <ul>
+                   					<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189713.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a><span class="rightDate">[2021-04-25]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/tzggx/189708.htm','$article.belongUser');" onfocus="undefined" title="历史学院2021年本科生毕业论文答辩注意事项及上交材料">            历史学院2021年本科生毕业论文答辩注意事项及上交材料 
+    </a><span class="rightDate">[2021-04-25]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('xwzx/xyxw/189678.htm','$article.belongUser');" onfocus="undefined" title="历史学院开展“重走京畿红迹，再忆建党初心”主题活动">            历史学院开展“重走京畿红迹，再忆建党初心”主题活动 
+    </a><span class="rightDate">[2021-04-25]</span></li>
+											<li>
+						<a href="javascript:void(0);" onclick="checkXnwk('bkjx/glgz/189658.htm','$article.belongUser');" onfocus="undefined" title="历史学院本科生学年论文与毕业论文工作实施细则（2020年修订）">            历史学院本科生学年论文与毕业论文工作实施细则（2020年修订） 
+    </a><span class="rightDate">[2021-04-25]</span></li>
+						                </ul>
+            </div>
+        </div>
+    </div>-->
+</div>
+<p>
+	
+<div class="footer">
+	<div class="footerIn">
+		<div class="footer_left">
+			<div class="copyRight">
+				Copyright @ 南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有 &nbsp;&nbsp;&nbsp;&nbsp;<a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号<br>
+				地址：北京市西三环北路83号院文科楼4层 100089<br>
+				电话：010-68902314
+E-mail: history@cnu.edu.cn</div>
+		</div>
+		<div class="footer_right">
+			<ul>
+				<li>
+					<a href="javascript:;" onfocus="undefined"><img src="images/ewm02_03.png"> </a>
+					<p>
+						<a href="javascript:;" onfocus="undefined">官方微博</a></p>
+				</li>
+				<li>
+					<a href="javascript:;" onfocus="undefined"><img src="images/ewm03_03.png"> </a>
+					<p>
+						<a href="javascript:;" onfocus="undefined">微信公众号</a></p>
+				</li>
+				<li>
+					<a href="javascript:;" onfocus="undefined"><img src="images/ewm05_03.png"> </a>
+					<p>
+						<a href="javascript:;" onfocus="undefined">CNU微信门户</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+ <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script><script type="text/javascript" src="js/jquery.flexslider-min.js"></script><script type="text/javascript" src="js/script1.js"></script><script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+</script>
+
+</body></html>

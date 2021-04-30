@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>首页_南航金城学院教务处_南京财经大学教务处_南京艺术学院政法学院</title>
+<link href="css/style7.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/zns.js"></script>
+<script>
+window.onload=function(){
+	  	focusImg('banner');
+};
+</script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+<div class="header">
+        
+<div class="top">
+        	 <div class="logo"><img src="images/logo2.jpg" border="0" height="102" width="488"></div>
+             <div class="top_rt"><img src="images/top_rt.jpg" border="0" height="141" width="434"></div>
+        </div>
+        <div class="nav">
+            <ul id="nav">
+                <li><a href="javascript:;">首  页</a></li>
+				<li><a href="javascript:;" class="bt_link">学院简介</a>
+								<div class="sonnav2" id="sonnav">
+											 <dl>
+																							<d d=""><a href="javascript:;">学院简介</a>
+																							<d d=""><a href="javascript:;">现任领导</a>
+																						<d d=""><a href="javascript:;">各系专区</a>
+																							<d d=""><a href="javascript:;">联系我们</a>
+																							</d></d></d></d></dl>
+								</div>
+				</li>
+																								 																																<li><a href="javascript:;" class="bt_link">师资队伍</a><br>
+<div class="sonnav2" id="sonnav">
+											 <dl>
+																							<d d=""><a href="javascript:;">哲学系</a>
+																							<d d=""><a href="javascript:;">法律系</a>
+																							<d d=""><a href="javascript:;">政治学系</a>
+																							<d d=""><a href="javascript:;">社会学与社会工作系</a>
+																							<d d=""><a href="javascript:;">行政人员</a>
+																							</d></d></d></d></d></dl>
+                                                                                  </div>
+									</li>
+																											 																																<li><a href="javascript:;" class="bt_link">人才培养</a><br>
+										<div class="sonnav" id="sonnav">
+											 <dl>
+																							<dd><a href="javascript:;">本科生教育</a></dd>
+																							<dd><a href="javascript:;">研究生教育</a></dd>
+																							<dd><a href="javascript:;">继续教育</a></dd>
+																							</dl>
+                                                                                  </div>
+									</li>
+																											 																																<li><a href="javascript:;" class="bt_link">科学研究</a><br>
+										<div class="sonnav" id="sonnav">
+											 <dl>
+																							<dd><a href="javascript:;">科研项目</a></dd>
+																							<dd><a href="javascript:;">科研成果</a></dd>
+																							<dd><a href="javascript:;">科研动态</a></dd>
+																							<dd><a href="javascript:;">研究中心</a></dd>
+																							</dl>
+                                                                                  </div>
+									</li>
+																											 																																<li><a href="javascript:;" class="bt_link">学生工作</a><br>
+										<div class="sonnav" id="sonnav">
+											 <dl>
+																							<dd><a href="javascript:;">学生党建</a></dd>
+																							<dd><a href="javascript:;">团委</a></dd>
+																							<dd><a href="javascript:;">学生会</a></dd>
+																							<dd><a href="javascript:;">研究生会</a></dd>
+																							<dd><a href="javascript:;">学生社团</a></dd>
+																							<dd><a href="javascript:;">资助中心</a></dd>
+																							<dd><a href="javascript:;">图片专区</a></dd>
+																							</dl>
+                                                                                  </div>
+									</li>
+																											 																																<li><a href="javascript:;" class="bt_link"> 党建工作</a><br>
+										<div class="sonnav" id="sonnav">
+											 <dl>
+																							<dd><a href="javascript:;">党委简介</a></dd>
+																							<dd><a href="javascript:;">规章制度</a></dd>
+																							<dd><a href="javascript:;">主题活动</a></dd>
+																							<dd><a href="javascript:;">二级党校</a></dd>
+																							<dd><a href="javascript:;">“两学一做”学习教育</a></dd>
+																							</dl>
+                                                                                  </div>
+									</li>
+																											 																																<li><a href="javascript:;" class="bt_link">社会服务</a><br>
+										<div class="sonnav" id="sonnav">
+											 <dl>
+																							<dd><a href="javascript:;">哲学</a></dd>
+																							<dd><a href="javascript:;">法律</a></dd>
+																							<dd><a href="javascript:;">政治学</a></dd>
+																							<dd><a href="javascript:;">社会学与社会工作系</a></dd>
+																							</dl>
+                                                                                  </div>
+									</li>
+																											 																																<li><a href="javascript:;" class="bt_link">招生就业</a><br>
+										<div class="sonnav" id="sonnav">
+											 <dl>
+																							<dd><a href="javascript:;">招生工作</a></dd>
+																							<dd><a href="javascript:;">就业工作</a></dd>
+																							<dd><a href="javascript:;">各系专区</a></dd>
+																							</dl>
+                                                                                  </div>
+									</li>
+																											 																							<li><a href="javascript:;" class="bt_link">下载专区</a><br></li>
+																		 
+            </ul>
+   		</div></div>
+
+    <div class="content">
+          <!--轮播开始-->
+          <div id="banner" class="banner">
+            <ol id="nav_icon">
+              															 <li class="active" index="0">1</li>
+																				<li>2</li>
+																				<li>3</li>
+									            </ol>
+            <ul id="zz">
+			                    <li>
+						<a href="">
+							<img src="images/content/2019-09/20190912122933959541.jpg" alt="1" width="1003" height="323">
+						</a>
+					</li>
+                                    <li>
+						<a href="">
+							<img src="images/content/2019-06/20190625091405491787.jpg" alt="1" width="1003" height="323">
+						</a>
+					</li>
+                                    <li>
+						<a href="">
+							<img src="images/content/2019-06/20190625091422692851.jpg" alt="1" width="1003" height="323">
+						</a>
+					</li>
+                            </ul>
+          </div>
+           <!--轮播结束-->
+          <div class="con1">
+          		<div class="con1_lf">
+                	<div class="con1_lf_list">
+                        <h2 class="con1_list_tit">
+                            <span class="more"><a href="javascript:;"><img src="images/more.jpg"></a></span>学院新闻
+                        </h2>
+                        <dl>
+							                            <dd><span>【2021-04-23】</span><a href="javascript:void(0);" title="政法学院学生党支部参观“伟大征程——庆祝中国共产党成立100周年特展”" onclick="checkXnwk('xyxw/189557.htm','xw');">            政法学院学生党支部参观“伟大征程—... 
+    </a></dd>
+							                            <dd><span>【2021-04-22】</span><a href="javascript:void(0);" title="政法学院打造党史学习教育长廊、设立党史学习教育图书架" onclick="checkXnwk('xyxw/189483.htm','xw');">            政法学院打造党史学习教育长廊、设立... 
+    </a></dd>
+							                            <dd><span>【2021-04-19】</span><a href="javascript:void(0);" title="政法学院团委召开2021年“五四表彰”活动评选会" onclick="checkXnwk('xsgz/189190.htm','$article.belongUser');">            政法学院团委召开2021年“五四表... 
+    </a></dd>
+							                            <dd><span>【2021-03-05】</span><a href="javascript:void(0);" title="政法学院2个专业获批2020年度“双万计划”一流本科专业建设点" onclick="checkXnwk('xyxw/187323.htm','xw');">            政法学院2个专业获批2020年度“... 
+    </a></dd>
+							                            <dd><span>【2021-03-01】</span><a href="javascript:void(0);" title="信用协同研究新平台——北京信用学会成立" onclick="checkXnwk('xyxw/185610.htm','xw');">            信用协同研究新平台——北京信用学会... 
+    </a></dd>
+							                            <dd><span>【2020-12-08】</span><a href="javascript:void(0);" title="“政法学子山城论辩展风采——第十四届大陆赛区人道法国际模拟法庭英文辩论比赛中再夺佳绩”" onclick="checkXnwk('xyxw/183491.htm','xw');">            “政法学子山城论辩展风采——第十四... 
+    </a></dd>
+							                            <dd><span>【2020-10-26】</span><a href="javascript:void(0);" title="“纪念恩格斯诞辰200周年：《自然辩证法》与现代科学技术”学术论坛在京落幕" onclick="checkXnwk('xyxw/179579.htm','xw');">            “纪念恩格斯诞辰200周年：《自然... 
+    </a></dd>
+							                            <dd><span>【2020-10-23】</span><a href="javascript:void(0);" title="政法学院主办第二十五届中国现象学年会" onclick="checkXnwk('xyxw/179504.htm','xw');">            政法学院主办第二十五届中国现象学年... 
+    </a></dd>
+							                       </dl>
+                    </div>
+                </div>
+                <div class="con1_con">
+                	<div class="con1_con_list">
+                        <h2 class="con1_list_tit">
+                            <span class="more"><a href="javascript:;"><img src="images/more.jpg"></a></span>学术动态
+                        </h2>
+                        <ul>
+						                            <li><div class="date"><span>2020</span>11-10</div><a href="javascript:void(0);" title="燕京法学·学术讲座：“算法自动化决策治理的前沿问题”" onclick="checkXnwk('xzdt/180911.htm','xw');">            燕京法学·学术讲座：“算法自动化决策治理的前沿问题” 
+    </a></li>
+						                            <li><div class="date"><span>2020</span>11-10</div><a href="javascript:void(0);" title="燕京法学·学术讲座：“人脸识别的法律保护”" onclick="checkXnwk('xzdt/180909.htm','xw');">            燕京法学·学术讲座：“人脸识别的法律保护” 
+    </a></li>
+						                            <li><div class="date"><span>2020</span>11-10</div><a href="javascript:void(0);" title="燕京法学·学术讲座：“网络游戏知识产权保护前沿问题探讨——公司法务视角”" onclick="checkXnwk('xzdt/180908.htm','xw');">            燕京法学·学术讲座：“网络游戏知识产权保护前沿问题探讨——公司法务视... 
+    </a></li>
+						                            <li><div class="date"><span>2020</span>11-10</div><a href="javascript:void(0);" title="燕京法学·学术讲座：“网络时代数字遗产的法律问题研究”" onclick="checkXnwk('xzdt/180907.htm','xw');">            燕京法学·学术讲座：“网络时代数字遗产的法律问题研究” 
+    </a></li>
+						                            <li><div class="date"><span>2020</span>11-03</div><a href="javascript:void(0);" title="燕京法学.学术讲座“人脸识别技术的法律隐忧”" onclick="checkXnwk('xzdt/180096.htm','xw');">            燕京法学.学术讲座“人脸识别技术的法律隐忧” 
+    </a></li>
+						                        </ul>
+                    </div>
+                </div>
+                <div class="con1_rt">
+                	<div class="con1_rt_list">
+                        <h2 class="con1_list_tit">
+                            <span class="more"><a href="javascript:;"><img src="images/more.jpg"></a></span>通知公告
+                        </h2>
+                        <ul>
+						                           <li><span>2021-03-30</span>
+						 <a href="javascript:void(0);" title="关于2021年度全市政工职评专业知识培训班停止报名的通知" onclick="checkXnwk('tzgg/188148.htm','xw');">            关于2021年度全市政工职评专业知识培训... 
+    </a></li>
+							                           <li><span>2021-03-12</span>
+						 <a href="javascript:void(0);" title="关于举办2021年度全市政工职评专业知识培训班的通知" onclick="checkXnwk('tzgg/187482.htm','xw');">            关于举办2021年度全市政工职评专业知识... 
+    </a></li>
+							                           <li><span>2021-04-17</span>
+						 <a href="javascript:void(0);" title="政法学院2021年“五四表彰”评选结果公示" onclick="checkXnwk('xsgz/189186.htm','$article.belongUser');">            政法学院2021年“五四表彰”评选结果公... 
+    </a></li>
+							                           <li><span>2021-04-16</span>
+						 <a href="javascript:void(0);" title="政法学院2020-2021学年春季学期推优结果公示" onclick="checkXnwk('xsgz/189179.htm','$article.belongUser');">            政法学院2020-2021学年春季学期推... 
+    </a></li>
+							                           <li><span>2021-04-15</span>
+						 <a href="javascript:void(0);" title="政法学院2021年本科生转专业工作方案" onclick="checkXnwk('tzgg/189111.htm','xw');">            政法学院2021年本科生转专业工作方案 
+    </a></li>
+							                           <li><span>2021-01-06</span>
+						 <a href="javascript:void(0);" title="政法学院“本科生科学研究与创业行动项目”中期检查报告会圆满结束" onclick="checkXnwk('tzgg/184679.htm','xw');">            政法学院“本科生科学研究与创业行动项目”... 
+    </a></li>
+							                        </ul>
+                    </div>
+                    <div class="bot_link">
+                    	<a href="mailto:4238@cnuoa.cnu.edu.cn" class="red">书记信箱</a> <a href="mailto:3733@cnuoa.cnu.edu.cn" class="blue">院长信箱</a>
+                    </div>
+                </div>
+                
+          </div>
+         <div class="clear"></div>
+        <div class="con2">
+            	<h2>友情链接</h2><div class="main_link">
+								  <a href="index1.html" title="学校主页" target="_blank">            学校主页 
+    </a>
+				 				  </div>
+        </div>
+</div>
+<div class="footer">
+
+Copyright@南航金城学院教务处_南京财经大学教务处_南京艺术学院政法学院<br> 
+地址：北京市西三环北路83号首都师大北一区文科楼 邮编：100089<a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</div>
+<script>
+var oNav = document.getElementById('nav');
+var aLi = oNav.getElementsByTagName('li');
+
+for(var i=0;i<aLi.length;i++)
+{
+	aLi[i].onmouseover = function ()
+	{
+		this.className = 'on';
+	};
+	aLi[i].onmouseout = function ()
+	{
+		this.className = '';
+	};
+};
+</script>
+
+
+</body></html>

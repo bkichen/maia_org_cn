@@ -1,0 +1,18 @@
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6,img,p,ul,li,dl,dt,dd,ol,table,tr,td,span,input,div{ margin:0px; padding:0px; font-style:normal; border:0; font-family:"微软雅黑"; font-weight:normal; font-size:12px;}
+body{ width:100%; font-family:"微软雅黑",; font-size:12px; color:#323232;margin:0; padding:0;color:#333333;background:url(https://www.cnu.edu.cn/xbbjb/images/yd_bg.jpg) no-repeat #46a5d5;}
+img{border:none; font-size:0px;}
+ul,li{ list-style-type:none;}	
+a{text-decoration:none; color:#333333; font-size:12px; font-family:"微软雅黑"}
+a:hover{ color:#333333;}
+.clear{clear:both;}
+
+.in_main{}
+.content{ background:url(https://www.cnu.edu.cn/xbbjb/images/yd_content.png) no-repeat; position:relative; top:86px; left:50%; margin-left:-518px; width:1036px; height:610px;}
+.logo{ width:295px; height:100px; top:60px; left:70px; position:absolute}
+.link{ width:500px; height:56px; bottom:140px; right:50px; position:absolute}
+.botton1{ width:195px; height:55px; float:left; background:url(https://www.cnu.edu.cn/xbbjb/images/yd_botton.png) no-repeat; text-align:center; line-height:55px; margin-left:50px;}
+.botton1 a{ font-size:16px; color:#000;}
+
+.footer{ font-size:12px; height:67px; line-height:24px; width:1020px; margin:0px auto 0; text-align:left; color:#000; font-family:"微软雅黑"; text-align:center; padding-top:20px; position:relative;}

@@ -1,0 +1,166 @@
+
+/* CSS Document */
+body{margin:0; padding:0; font-size:13px; background-color:#fff;background: url(https://cxpt.cnu.edu.cn/images/bg.png) no-repeat center top;}
+a{text-decoration:none; color:#333;}
+a:hover{ color:#21539c;}
+
+
+
+.content{ width:100%; margin:0px auto; }
+.mode01{width: 1100px;height:414px;margin:0 auto 20px;overflow: hidden;}
+.mode01 .lf{width:728px;height:414px;float:left;overflow: hidden;}
+.mode01 .rt{width:340px;height:414px;float:right;overflow: hidden;background: #fff;}
+.Banner{width:728px; height:414px; margin:0px auto;}
+
+/*图片轮播*/
+.flexslider{width:728px; height: 414px;  overflow: hidden;}
+.flexslider ul.slides li{position: relative;}
+.flexslider ul.slides li img{ width:728px; height: 414px; display:block}
+.flex-direction-nav .flex-prev { width: 29px; height: 29px; left: 5px; background: url(https://cxpt.cnu.edu.cn/images/arrow_left.png) no-repeat ;}
+.flex-direction-nav .flex-next { width: 29px; height: 29px; right: 5px; background: url(https://cxpt.cnu.edu.cn/images/arrow_right.png) no-repeat; }
+.flexslider:hover .flex-prev { opacity: 1; left: 5px;}
+.flexslider:hover .flex-next { opacity: 1; right: 5px; }/*.flex-control-nav { display: none; }*/
+.tiSlides{position: absolute;bottom:40px; background: url(https://cxpt.cnu.edu.cn/images/banner_bg.png) repeat;color:#333;padding:5px 10px;font-size: 18px;left:5px;}
+
+
+/*中心新闻*/
+.articleList{ overflow: hidden;}
+.articleList01{background-color: #fff; background: url(https://cxpt.cnu.edu.cn/images/news_bg.png) no-repeat center top;padding:0 15px;}
+.artitleTitle{border-bottom:4px solid #ddd;padding:15px 0 10px;}
+.artitleTitle h2{font-size: 18px;color:#003070;}
+.more{float:right;margin-top:8px;}
+.newsList{}
+.newsList li{padding-bottom:8px; border-bottom: 1px solid #ddd;margin-top:18px;}
+.newsList li .leftDate{display: block;background: url(https://cxpt.cnu.edu.cn/images/new_date.png) no-repeat center left;padding-left:20px;font-size: 12px;color:#777;}
+.newsList li a{display: block;font-size: 14px;margin-top:5px;}
+
+.mode02{width: 1100px;height:314px;margin:0 auto 30px;overflow: hidden;}
+.mode02 .lf{width:362px;height:314px;float:left;overflow: hidden;background: #fff;}
+.mode02 .rt{width:699px;height:314px;float:right;overflow: hidden;background: #fff;}
+
+/*学术活动*/
+.artitleTitle02{border-bottom:2px solid #1d74e7;}
+.academicList{overflow: hidden;}
+.academicList li{margin-top:28px;*margin-top: 25px; overflow: hidden;}
+.academicList li .leftDate{text-align: center; display: block;float: left;width:56px;overflow: hidden;}
+.academicList li .leftDate strong{display: block;background: #0395e2;font-size: 26px;color: #fff;}
+.academicList li .leftDate i{display: block;margin-top:5px; font-size: 14px;font-style: normal;color:#003070;}
+.academicList li .academicCon{float: right;width: 292px;overflow: hidden;}
+.academicList li .academicCon a{display: block;}
+.academicList li .academicCon .time{background: url(https://cxpt.cnu.edu.cn/images/time.png) no-repeat center left;padding-left:17px;margin-top:2px;color:#999;font-size: 12px;}
+.academicList li .academicCon .site{background: url(https://cxpt.cnu.edu.cn/images/site.png) no-repeat center left;padding-left:17px;margin-top:2px;color:#999;font-size: 12px;}
+
+/*创新动态*/
+.innovateList{margin-top:28px;overflow: hidden;}
+.innovateList li{margin-bottom:17px;}
+.innovateList li .rightDate{float: right;color:#777;}
+.innovateList li a{background: url(https://cxpt.cnu.edu.cn/images/li_bg.png) no-repeat center left;padding-left:15px;}
+
+.mode03{width: 1100px;height:260px;margin:0 auto 30px;overflow: hidden;}
+.mode03 .lf{width:273px;height:260px;float:left;overflow: hidden;background: #fff;margin-right:38px;}
+.mode03 .md{width:518px;height:260px;float:left;overflow: hidden;background: #fff;}
+.mode03 .rt{width:235px;height:260px;float:right;overflow: hidden;background: #fff;}
+/*创建数据库*/
+.DataList{margin-top:20px;}
+.DataList li{margin-top:10px;border:1px solid #ddd;}
+.DataList li .dataDetail{padding:22px 10px;*padding:20px 10px; overflow: hidden;}
+.DataList li .dataDetail .dataLf{float: left;width: 146px;overflow: hidden;}
+.DataList li .dataDetail .dataLf h2{font-size: 16px;}
+.DataList li .dataDetail .dataLf span{display: block;font-size: 14px;color:#777;}
+.DataList li .dataDetail .dataRt{float: right;width: 105px;overflow: hidden;}
+.DataList li .dataDetail .dataRt a{display: block;background: #003070;border-radius: 10px;padding:10px;color: #fff;text-align: center;font-size: 16px;}
+.DataList li .dataDetail .dataRt a:hover{background: #0395e2;}
+
+
+
+/*专题研究*/
+.specialList{margin-top:20px;overflow: hidden;}
+.specialList .specialLf{float: left;width:246px; overflow: hidden;}
+.specialImg a img{display: block;}
+.specialImg a span{display: block;color: #fff;background: #0395e2;padding:3px 5px 5px 5px;text-align: center;}
+.specialImg a:hover span{background: #003070;}
+.specialList .specialRt{float: right;width: 254px;overflow: hidden;}
+.specialRt ul li{margin-bottom:10px;background: url(https://cxpt.cnu.edu.cn/images/li_bg.png) no-repeat left 10px;padding-left:15px;}
+.specialRt ul li a{font-size: 14px;}
+
+
+/*相关链接*/
+.friendLinks{margin-top:25px;overflow: hidden;}
+.friendLinks li{margin-bottom:14px;background: url(https://cxpt.cnu.edu.cn/images/links_li.png) no-repeat center left;padding-left:15px;}
+
+
+/*底部开始*/
+.footer{width: 100%;overflow: hidden;background: #003070;}
+.copyRight{width: 1100px;margin: 0 auto;color: #fff; text-align: center;padding:20px 0;}
+
+
+
+
+/*二级页*/
+.subPage{ width:1100px; margin:0px auto 0;}
+.pageBanner{ width:1100px; margin:0px auto 0;}
+.Bread{height:39px; line-height:39px; border-bottom:1px solid #fff;  font-size:13px; color:#fff; width: 1100px; margin: 0 auto; }
+.Bread a{color:#fff;}
+.subPage .articleList2{ margin:10px auto 20px; width: 1100px;}
+
+.page{ width:100%; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px;}
+.page a{ padding:0 5px;}
+
+.pageList{ padding-bottom: 30px; overflow: hidden;}
+.pageList .listTitle{}
+.pageList .listTitle h2{background:none;padding-bottom:10px;margin-top:10px; font-size: 18px;}
+.pageList .articleList ul{margin:10px 0;border-bottom:1px solid #ddd;}
+.pageList .articleList ul li{padding-left:15px; margin:20px 0;background: url(https://cxpt.cnu.edu.cn/images/sub_li_bg.png) no-repeat center left;}
+.pageList .articleList ul li span{float: right;color:#666;}
+
+ .pageArticle .Annex {padding:0px; overflow:hidden; margin:30px 0;}
+ .pageArticle  .Annex h3 {border-bottom:1px solid #ddd; text-align:left;font-size: 16px;line-height: 30px; color:#003070; padding-left:5px;}
+ .pageArticle  .Annex ul li { height: 26px; line-height: 26px;background:url(https://cxpt.cnu.edu.cn/images/sub_li_bg.png) no-repeat 10px center; padding-left: 28px;}
+ .pageArticle  .Annex ul li a { font-size: 12px; line-height: 24px; color:#656464;}
+ .pageArticle  .Annex ul li a:hover{ color:#efa008;}
+
+ .pageArticle h2{font-size: 24px;font-weight: normal;color:#003070;margin:20px 0;text-align:center;}
+ .pageArticle h3{text-align:center;font-size: 18px;font-weight: normal;margin-bottom:10px;}
+ .pageArticle .articleAuthor{color:#666;border-bottom:1px solid #fff;padding:10px 0;text-align: center;}
+.pageArticle .article{margin-top:30px;line-height:2;}
+/*左右级页面*/
+.con{width: 1100px; overflow: hidden; margin: 0px auto 5px;min-height:500px;}
+.con .conLeft{width: 195px;  float: left; background:#f9f9f9; border:1px solid #003070;}
+.con .conLeft .title{width:195px; height: 40px; line-height: 40px; text-align:left; }
+.con .conLeft .title h2{font-size: 16px; color: #fff; background: #2268b7;text-align:center; /*padding: 0 0 0 35px;*/}
+.con .conLeft ul li{font-size: 14px; text-align: center;  }
+.con .conLeft ul li a{font-size: 14px; padding:15px 0 15px 0; text-align: center; border-bottom:1px solid #ccc; display:block; }
+.con .conLeft ul li a:hover{font-weight: bold; border-bottom:2px solid #2268b7; background:url(https://cxpt.cnu.edu.cn/images/more_03.png) no-repeat 180px center;}
+.con .conLeft ul .current a{font-weight: bold; border-bottom:2px solid #2268b7; color:#2268b7; background:url(https://cxpt.cnu.edu.cn/images/more_03.png) no-repeat 180px center;}
+.con .conRight{ width: 860px; padding: 0 5px;  float: right;}
+.con .conRight .articleList2{width: 780px;}
+.con .conRight .Bread{width: 860px;}
+.con .conRight .page{ width:780px; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px;}
+.con .conRight .page a{ padding:0 5px;}
+.con .conRight .subPage{ width:860px; margin:0px auto;}
+.pictureList2{width: 860px; overflow: hidden;}
+.pictureList2 ul{width: 860px; overflow: hidden; padding: 10px 0 0 10px;}
+.pictureList2 ul li{float: left; width:269px; height: 223px;line-height:20px; margin: 0 16px 0 0; text-align: center;}
+.TlpictureList2{width: 1100px; overflow: hidden; margin: 0 auto;}
+.TlpictureList2 ul{width:1100px; overflow: hidden; padding:15px 0 0 5px;}
+.TlpictureList2 ul li{ float: left;  width: 246px; height: 204px; margin: 0 29px 0 0;    text-align: center;}
+
+
+
+
+
+
+
+
+
+.pageArticle01 { width: 1000px; margin: 0 auto; }
+.PictureShow { width: 1000px; margin: 0 auto; }
+.newPage h2{ float:left;}
+.newPage a{ float:right;}
+.newPageArticle .art{ font-size:14px; line-height:30px; color:#4a4b4a; }
+.newPageList ul {margin:10px 0 0 0;}
+.newPage .more {}
+.newPageList01 ul li{border:none; width:auto; margin:0 40px 0 0; float:left;}
+
+
+

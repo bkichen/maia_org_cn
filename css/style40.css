@@ -1,0 +1,1694 @@
+
+
+/* CSS Document */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	min-width: 1200px;
+	background-color: #f5f5f5;
+}
+
+.header {
+	width: 100%;
+	height: 129px;
+	background-color: #0e6db0;
+}
+
+.header_bg {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+
+.lf_login img {
+	float: left;
+	margin-top: 15px;
+}
+
+.rh_sousou {
+	width: 250px;
+	top: 49px;
+	float: right;
+	position: relative;
+}
+.rh_sousou .sousuo {
+    padding-left: 88px;
+    vertical-align: middle;
+    margin-right: -35px;
+    margin-top: -23px;
+    width: 15px;
+    height: 15px;
+    float: right;
+}
+.rh_sousou input {
+	font-size: 15px;
+	border-radius: 24px;
+	width: 232px;
+	height: 33px;
+	border: 0;
+	padding-left: 10px;
+	padding-right: 30px;
+	position: relative;
+	color: #0e6db0;
+        line-height:33px;
+}
+
+input::-webkit-input-placeholder {
+	color: #0e6db0;
+	opacity: 1;
+}
+
+
+
+
+.nav1 {
+	width: 100%;
+	height: 47px;
+	/* margin-top: 8px; */
+	/* margin-bottom: 8px; */
+}
+
+.nv-ct {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav {
+	position: relative;
+	line-height: 47px;
+	position: relative;
+	z-index: 1;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+
+.nav a {
+	color: #ffffff;
+	font-size: 16px;
+}
+
+.nav .nLi {
+	float: left;
+	position: relative;
+	display: inherit;
+}
+
+
+/* .nav .nLi1{margin-left: -15px;} */
+
+.nav .nLi1 .sub {
+	display: none;
+}
+
+.nav .nLi h3 {
+	float: left;
+}
+
+.nav .nLi h3 a {
+	display: block;
+	width: 150px;
+	text-align: center;
+	font-size: 16px;
+	color: #333;
+	font-weight: normal;
+}
+
+.nav .sub {
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 43px;
+	position: absolute;
+	background-color: rgba(87, 87, 87, 0.5);
+	/* opacity: 0.5; */
+	/* background-color: #0870C5; */
+	line-height: 50px;
+	background-position-x: 50%;
+}
+
+.nav .sub li {
+	zoom: 1;
+	line-height: 38px;
+	/* background-color: rgba(87, 87, 87, 0.7); */
+	background-color: #1970ac;
+	/* opacity: 0.7; */
+	border-bottom: 1px solid #5d98bf;
+}
+
+.nav .sub a {
+	display: block;
+	text-align: center;
+	color: #fff;
+}
+
+.nav .sub li a:hover {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+.nav .on h3 a {
+	font-size: 16px;
+	display: block;
+	background: #0e6db0;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.banner {
+	width: 100%;
+	margin: 0 auto;
+	height: 440px;
+	/* clear: both; */
+	/* margin-top: -153px; */
+	overflow: hidden;
+}
+
+.slideBox {
+	width: 100%;
+	margin: 0 auto;
+	height: 440px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideBox .hd {
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	right: 45%;
+	bottom: 10px;
+	z-index: 1;
+}
+
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+	float: left;
+}
+
+.slideBox .hd ul li {
+	float: left;
+	margin-right: 10px;
+	width: 25px;
+	height: 5px;
+	line-height: 14px;
+	text-align: center;
+	/* background: #BAC9D3; */
+	cursor: pointer;
+	border-radius: 50px;
+	border: 1px solid #fff;
+	transition: 1.5s;
+
+}
+
+.slideBox .hd ul li.on {
+	background: #fff;
+	color: #fff;
+	width: 50px;
+	transition: 1.5s;
+}
+
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+
+.slideBox .bd li {
+	zoom: 1;
+	vertical-align: middle;
+	background-color: #edf3f2;
+}
+
+.slideBox .bd img {
+	width: 100%;
+	height: 440px;
+	display: block;
+	background-size: 100% 450px;
+	transition: 1.5s;
+	margin: 0 auto;
+}
+
+.slideBox .prev,
+.slideBox .next {
+	position: absolute;
+	left: 5%;
+	top: 60%;
+	display: block;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	margin-top: -72px;
+}
+
+.slideBox .prev {
+	background: url(https://hqbzb.cnu.edu.cn/images/lb_zuo.png) no-repeat;
+	width: 36px;
+	height: 536px;
+}
+
+.slideBox .next {
+	left: auto;
+	right: 5%;
+	background-position: 8px 5px;
+	background: url(https://hqbzb.cnu.edu.cn/images/lb_you.png) no-repeat;
+	width: 36px;
+	height: 36px;
+}
+
+.slideBox .prev:hover,
+.slideBox .next:hover {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.slideBox .prevStop {
+	display: none;
+}
+
+.slideBox .nextStop {
+	display: none;
+}
+
+
+.ct_box {
+	width: 1200px;
+	height: 450px;
+	margin: 40px auto;
+}
+
+.ct_box .xwdt {
+	height: 375px;
+	float: left;
+}
+
+.xwdt-bot {
+	width: 851px;
+	height: 375px;
+}
+
+.xwdt .ct_box_zf {
+	width: 851px;
+	/* overflow: hidden; */
+	float: left;
+	position: relative;
+}
+
+.xwdt .xyxw_ct {
+	margin-top: 20px;
+}
+
+.xyxw_ct .left {
+	width: 820px;
+}
+
+.xwdt .ct_box_zf .xyxw_bt {
+	border-bottom: 1px solid #cccccc;
+}
+
+.ct_box_zf .xyxw_bt p {
+	font-weight: bold;
+	color: #0f4687;
+	font-size: 24px;
+	display: block;
+	line-height: 44px;
+	width: 96px;
+	border-bottom: 2px solid #0e6db0;
+	/* 	background: url(../images/xw.png) no-repeat left center;
+ */
+
+}
+
+.ct_box_zf .xyxw_bt a {
+	font-size: 14px;
+	color: #808080;
+	float: right;
+	margin-top: -32px;
+}
+
+.ct_box_ct_two {
+	height: 350px;
+	float: right;
+}
+
+.xwdt-bot .ct_box_ct_two .fr {
+	float: right;
+}
+
+.ct_box_ct_two .ct_box_zf_two {
+	width: 350px;
+	height: 351px;
+}
+
+.ct_box_zf_two {
+	width: 337px;
+	height: 420px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.ct_box_zf_two ul {
+	margin-top: 5px;
+}
+
+.ct_box_zf_two .zf_two {
+	height: 100%;
+	padding-top: 18px;
+	line-height: 16px;
+}
+
+.ct_box_zf_two .zf_two a {
+	font-size: 15px;
+	color: #333;
+
+}
+
+.ct_box_zf_two .zf_two i img {
+	margin-right: 10px;
+}
+
+.ct_box_zf_two .zf_two i {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background: url(https://hqbzb.cnu.edu.cn/images/xwdt_dian.png) no-repeat;
+}
+
+.ct_box_zf_two .zf_two b {
+	font-weight: normal;
+	font-size: 12px;
+	color: #999;
+	float: right;
+}
+
+.yjly {
+	width: 370px;
+	float: right;
+	margin: 0 auto;
+}
+
+.ct_box_ct {
+	padding-left: 50px;
+	float: right;
+	width: 298px;
+	height: 100%;
+}
+
+.ct_box_ct .yjly_bt {
+	border-bottom: 1px solid #cccccc;
+}
+
+
+
+
+
+.ct_box_ct .yjly_bt a {
+	font-size: 14px;
+	float: right;
+	margin-top: -32px;
+	color: #808080;
+}
+
+.ct_box_ct .yjly_bt p {
+	font-weight: bold;
+	color: #0f4687;
+	font-size: 24px;
+	display: block;
+	line-height: 44px;
+	width: 96px;
+	border-bottom: 2px solid #0e6db0;
+	/* 	background: url(../images/xw.png) no-repeat left center;
+ */
+}
+
+.ct_box_ct .tzgg {
+	width: 100%;
+	margin-top: 25px;
+	box-sizing: border-box;
+}
+
+.tzgg ul li {
+	margin-bottom: 13px;
+}
+
+.tzgg ul .zf_two .date {
+	float: left;
+	width: 60px;
+	height: 63px;
+	border: 4px solid #d8d8d8;
+	text-align: center;
+	color: #9f9f9f;
+	display: block;
+	line-height: 28px;
+	box-sizing: border-box;
+}
+
+.tzgg ul .zf_two .l-b-lk {
+	border-left: 2px solid #1970ac;
+	border-bottom: 2px solid #1970ac;
+	width: 60px;
+	height: 63px;
+}
+
+.tzgg ul .zf_two .date .day {
+	color: #333333;
+	font-size: 24px;
+	display: block;
+	margin-top: 2px;
+}
+
+.tzgg ul .zf_two .date .ny {
+	display: block;
+	font-size: 12px;
+	margin-top: -3px;
+	color: #333333;
+}
+
+.ct_box_ct .tzgg a {
+	font-size: 15px;
+	color: #333333;
+	display: block;
+	width: 75%;
+	margin-top: 10px;
+}
+
+.ct_box_ct .tzgg a span {
+	font-size: 15px;
+	color: #FFFFFF;
+	padding: 15px;
+	text-align: center;
+	display: inline-block;
+}
+
+.fwdt {
+	width: 100%;
+	height: 150px;
+}
+
+.fwdt .fw_bg {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.fwdt .fw_bg .fw_lr {
+	border: 1px solid #cccccc;
+	margin-left: 53px;
+	width: 1120px;
+	height: 151px;
+	/* float: right; */
+	padding-left: -2px;
+	padding-left: 24px;
+}
+
+
+.fw_lr .wsbx {
+	margin-right: 21px;
+	margin-top: 20px;
+	display: block;
+	width: 119px;
+	height: 112px;
+}
+
+.br1 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/wxbb_bg.png) no-repeat;
+}
+
+.br2 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/xx_bg.png) no-repeat;
+}
+
+.br3 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/gygd_bg.png) no-repeat;
+}
+
+.br4 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/gygd_bg.png) no-repeat;
+}
+
+.br5 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/jzggl_bg.png) no-repeat;
+}
+
+.br6 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/rlzy_bg.png) no-repeat;
+}
+
+.br7 {
+	float: left;
+	background: url(https://hqbzb.cnu.edu.cn/images/sp_bg.png) no-repeat;
+}
+
+.br8 {
+	float: right;
+	background: url(https://hqbzb.cnu.edu.cn/images/sssb_bg.png) no-repeat;
+}
+
+
+
+.fw_lr .wsbx .wsbx_bg {
+	top: 23px;
+	position: relative;
+	width: 39px;
+	height: 30px;
+	display: block;
+	left: 42px;
+}
+
+.bg1 {
+	background: url(https://hqbzb.cnu.edu.cn/images/wlbx.png) no-repeat;
+}
+
+.bg2 {
+	background: url(https://hqbzb.cnu.edu.cn/images/xx.png) no-repeat;
+}
+
+.bg3 {
+	background: url(https://hqbzb.cnu.edu.cn/images/gygl.png) no-repeat;
+}
+
+.bg4 {
+	background: url(https://hqbzb.cnu.edu.cn/images/gygd.png) no-repeat;
+}
+
+.bg5 {
+	background: url(https://hqbzb.cnu.edu.cn/images/jzggl.png) no-repeat;
+}
+
+.bg6 {
+	background: url(https://hqbzb.cnu.edu.cn/images/rlzy.png) no-repeat;
+}
+
+.bg7 {
+	background: url(https://hqbzb.cnu.edu.cn/images/sp.png) no-repeat;
+}
+
+.bg8 {
+	background: url(https://hqbzb.cnu.edu.cn/images/sssb.png) no-repeat;
+}
+
+.fw_lr .wsbx .wsbx_wz {
+
+	top: 37px;
+	text-align: center;
+	position: relative;
+	width: 98px;
+	height: 10px;
+	left: 10px;
+}
+
+.fw_lr .wsbx .wsbx_wz a {
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.fw_bg .fw_bt {
+	float: left;
+	width: 55px;
+}
+
+.fw_bg .fw_bt p {
+	color: #ffffff;
+	font-size: 24px;
+	margin-top: -143px;
+	width: 15px;
+	margin-left: 19px;
+	font-weight: bold;
+}
+
+.hdap {
+	width: 100%;
+	height: 445px;
+}
+
+.hdap .hdap_bg {
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.hdap_bg .hd_bg .hdap_lr_bg .hdap_bt {
+	margin: 27px auto;
+	width: 368px;
+	border-bottom: 0.0625rem solid #CCCCCC;
+}
+
+.hdap_bg .hd_bg .hdap_lr_bg .hdap_bt a {
+	color: #808080;
+	font-size: 14px;
+}
+
+.hdap_bt p {
+	font-weight: bold;
+	color: #0f4687;
+	font-size: 24px;
+	display: block;
+	line-height: 44px;
+	width: 96px;
+	border-bottom: 2px solid #0e6db0;
+}
+
+.hdap_bt a {
+	font-size: 14px;
+	color: #808080;
+	float: right;
+	margin-top: -32px;
+}
+
+.hd_bg .hdap_lr_bg {
+	margin-top: 25px;
+	width: 367px;
+	height: 389px;
+}
+
+.hdap_lr_bg .hdap_lr {
+	width: 368px;
+	height: 67px;
+	background: #FFFFFF;
+	background-color: #FFFFFF;
+	margin-bottom: 19px;
+}
+
+.hdap_lr_bg .hdap_lr .date {
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+.fl {
+	float: left;
+}
+
+.hdap_lr_bg .hdap_lr .date .yue {
+	font-size: 24px;
+	color: #4c4c4c;
+	height: 20px;
+
+}
+
+.hdap_lr_bg .hdap_lr .date .year {
+	font-size: 12px;
+	color: #808080;
+	height: 15px;
+	margin-right: 10px;
+	float: right;
+}
+
+.hdap_lr_bg .hdap_lr i {
+	float: left;
+	display: block;
+	width: 1px;
+	height: 63px;
+	margin-left: 10px;
+	background: url(https://hqbzb.cnu.edu.cn/images/hdap_sx.png) no-repeat center center;
+}
+
+.hdap_lr_bg .hdap_lr .hdap_lk {
+	margin-top: 22px;
+	font-size: 15px;
+	margin-right: 22px;
+}
+
+.fr {
+	float: right;
+}
+
+.hdap_lr_bg .hdap_lr:hover {
+	background-color: #0e6db0;
+}
+
+.hdap_lr_bg .hdap_lr:hover .date .yue {
+	font-size: 24px;
+	color: #FFFFFF;
+}
+
+.hdap_lr_bg .hdap_lr:hover .date .year {
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.hdap_lr_bg .hdap_lr:hover .hdap_lk {
+	font-size: 15px;
+	color: #FFFFFF;
+}
+
+.hdap_lr_bg .ct_box_gg {
+	width: 100%;
+	height: 123px;
+}
+
+.hdap_lr_bg .gzdt_lr {
+	width: 370px;
+	height: 100%;
+}
+
+.gzdt_lr .gzdt_lr_1 {
+	width: 370px;
+}
+
+.gzdt_lr .gzdt_lr_1 ul {
+	margin-top: -13px;
+}
+
+.gzdt_lr .gzdt_lr_1 .zf_two {
+	line-height: 43px;
+}
+
+.gzdt_lr .gzdt_lr_1 .zf_two i {
+	display: inline-block;
+	width: 11px;
+	height: 13px;
+	background: url(https://hqbzb.cnu.edu.cn/images/gzdt_dain.png) no-repeat;
+}
+
+.gzdt_lr .gzdt_lr_1 .zf_two a {
+	margin-left: 8px;
+	font-size: 15px;
+	color: #333333;
+}
+
+.gzdt_lr .gzdt_lr_1 .zf_two b {
+	float: right;
+	font-size: 13px;
+	color: #666666;
+	font-weight: normal;
+}
+
+.hdap_lr_bg ul {
+	width: 370px;
+	height: 100%;
+}
+
+.hdap_lr_bg ul li .date {
+	width: 68px;
+	height: 66px;
+	background-color: #d9d9d9;
+	text-align: center;
+}
+
+.fl {
+	float: left;
+}
+
+.hdap_lr_bg ul li .date .yue {
+	margin-top: 27px;
+	width: 28px;
+	height: 23x;
+	font-size: 24px;
+	color: #4c4c4c;
+	line-height: 50px;
+	text-align: center;
+}
+
+.hdap_lr_bg ul li .date .year {
+	line-height: 0px;
+	color: #808080;
+	font-size: 12px;
+	display: block;
+}
+
+.hdap_lr_bg ul li .gsl_wenzi {
+	font-size: 15px;
+	color: #333333;
+	margin-top: 25px;
+	margin-right: 60px;
+}
+
+.fr {
+	float: right;
+}
+
+.hdap_lr_bg ul .gsl {
+	margin-bottom: 20px;
+}
+
+.hdap_lr_bg ul .gsl:hover .date {
+	background-color: #0e6db0;
+}
+
+.hdap_lr_bg ul .gsl:hover .date .yue {
+	color: #FFFFFF;
+}
+
+.hdap_lr_bg ul .gsl:hover .date .year {
+	color: #FFFFFF;
+}
+
+.slideBox2 {
+	margin-top: 25px;
+	width: 268px;
+	height: 375px;
+	position: relative;
+}
+
+.slideBox2 .hd {
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	top: 285px;
+	right: 12px;
+	bottom: 5px;
+	z-index: 1;
+}
+
+.slideBox2 .hd ul {
+	overflow: hidden;
+	zoom: 1;
+	float: left;
+}
+
+.slideBox2 .hd ul li {
+	float: left;
+	margin-right: -1px;
+	width: 18px;
+	height: 18px;
+	line-height: 14px;
+	text-align: center;
+	background: #000000;
+	cursor: pointer;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	color: #FFFFFF;
+	font-size: 12px;
+	background: url(https://hqbzb.cnu.edu.cn/images/lb_icon.png) no-repeat;
+
+}
+
+.slideBox2 .hd ul li.on {
+	/* 	background: #d65408;
+	color: #fff; */
+	background: url(https://hqbzb.cnu.edu.cn/images/lb_icon1.png) no-repeat;
+}
+
+.slideBox2 .bd {
+	/* background-color: #FFFFFF; */
+	/* position: relative; */
+	height: 100%;
+	z-index: 0;
+	left: 0 10px;
+}
+
+.slideBox2 .bd .box-sha {
+	width: 268px;
+	height: 228px;
+	box-shadow: 0px 0px 4px 1px #ccc;
+	border: 1px solid #ccc;
+	border-top: none;
+	background-color: #FFFFFF;
+}
+
+.slideBox2 .bd .wdzi_zi {
+	padding: 30px 27px;
+	/* margin-top: 30px; */
+}
+
+.slideBox2 .bd li {
+	zoom: 1;
+	vertical-align: middle;
+}
+
+.slideBox2 .bd img {
+	display: block;
+}
+
+.slideBox2 .bd .date {
+	margin: 20px 15x;
+	background: url(https://hqbzb.cnu.edu.cn/images/date.png) no-repeat 0px;
+}
+
+.slideBox2 .bd .date p {
+	padding-left: 20px;
+	font-size: 13px;
+	/* margin: 0px 33px; */
+	width: 109px;
+	color: #666666;
+}
+
+.wdzi_zi .bt {
+	padding-top: 22px;
+	/* padding: 21px 0px; */
+	/* margin: 17px  24px; */
+	font-size: 15px;
+	color: #333333;
+}
+
+.wdzi_zi .lr {
+	padding-top: 18px;
+	line-height: 22px;
+	font-size: 13px;
+	color: #666666;
+}
+
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+
+.slideBox2 .prev,
+.slideBox2 .next {
+	position: absolute;
+	left: 3%;
+	top: 50%;
+	margin-top: -25px;
+	display: block;
+	width: 32px;
+	height: 40px;
+	background: url(https://hqbzb.cnu.edu.cn/images/slider-arrow.png) -110px 5px no-repeat;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.slideBox2 .next {
+	left: auto;
+	right: 3%;
+	background-position: 8px 5px;
+}
+
+.slideBox2 .prev:hover,
+.slideBox2 .next:hover {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.slideBox2 .prevStop {
+	display: none;
+}
+
+.slideBox2 .nextStop {
+	display: none;
+}
+
+.main-title {
+	height: 33px;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 32px;
+}
+
+.main-title .xx {
+	color: #d4d4d4;
+	margin-left: 20px;
+	margin-right: 5px;
+}
+
+.main-title .eng {
+	color: #999999;
+	font-size: 18px;
+}
+
+.main-title .fr {
+	color: #666666;
+	font-size: 14px;
+	line-height: 26px;
+}
+
+.main-title .fl>img {
+	position: relative;
+	top: 6px;
+	margin-right: 10px;
+}
+
+.main-title .fl>span {
+	display: inline-block;
+	position: relative;
+	top: 4px;
+}
+
+.main-title .fr>span {
+	display: inline-block;
+	margin-right: 20px;
+	position: relative;
+	top: 4px;
+}
+
+
+/* .ct_box_zf .xyxw_bt a {
+
+} */
+
+.footer {
+	width: 100%;
+	height: 182px;
+	background-color: #0e6db0;
+	margin-top: 60px;
+    clear: both;
+}
+
+.footer .ftr_ct {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.footer .ftr_ct .ftr_lt {
+	float: left;
+	margin-top: 46px;
+}
+
+.footer .ftr_ct .ftr_lt1 {
+	float: left;
+	margin: 43px 28px;
+}
+
+.footer .ftr_ct .ftr_lt1 p {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.ftr_ct .weixin {
+	float: right;
+	margin: 54px -74px;
+}
+
+.ftr_ct .weixin li {
+	MARGIN-LEFT: -20px;
+	margin-right: 7px;
+}
+
+.ftr_ct .weixin li a .vm {
+	position: absolute;
+	top: -190px;
+	left: -64px;
+	background-color: #fff;
+	height: 138px;
+	width: 128px;
+	padding: 20px;
+	visibility: hidden;
+	opacity: 1;
+	transition: all 0.3s linear;
+}
+
+.ftr_ct .weixin li a .vm p {
+	text-align: center;
+	color: #CCCCCC;
+}
+
+
+.ftr_ct .weixin ul li:hover .vm {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.ftr_ct .weixin span {
+	font-size: 12px;
+	top: 17px;
+	position: relative;
+	left: -52px;
+	color: #ffffff;
+}
+
+.ftr_ct .weixin li.f1 {
+	margin-right: 0;
+}
+
+.banner-con {
+	height: 250px;
+}
+
+.slideBox_con .bd {
+	background: #EDF3F2;
+}
+
+.slideBox_con .bd img {
+	width: 100%;
+	height: 250px;
+	display: block;
+	background-size: 100% 450px;
+	transition: 1.5s;
+	margin: 0 auto;
+}
+
+.slideBox_con .bd li {
+	background-color: #EDF3F2;
+}
+
+/*list*/
+.list-right-title {
+	margin-top: 48px;
+	height: 47px;
+	width: 928px;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.list-right-title .weizhi {
+	float: right;
+	margin: 18px 31px;
+	font-size: 14px;
+	color: #888888;
+}
+.list-right-title .weizhi a{
+	color: #888888;
+}
+.list_bg {
+	width: 1200px;
+	margin: 0 auto;
+	min-height: 380px;
+	position: relative;
+	clear: both;
+}
+
+.list_bg .list_left_1 {
+	margin-top: 50px;
+	width: 261px;
+	float: left;
+}
+
+.list_left_1 .smu h4 {
+	margin-left: 10px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+.list_left_1 .smu {
+	min-height: 626px;
+}
+
+.list_left_1 .img_top {
+	width: 262px;
+}
+
+.list_left_1 .img_top img {
+	width: 262px;
+}
+
+.smu .sideMenu {
+	padding-bottom: 20px;
+	width: 227px;
+	background-color: #e6e6e6;
+	font-size: 16px;
+	line-height: 18px;
+	margin-left: 16px;
+}
+
+.pageNavTop {
+	background: url(https://hqbzb.cnu.edu.cn/images/dh_h3.png) no-repeat;
+	width: 261px;
+	height: 85px;
+	margin: 0 auto;
+}
+.pageNavTop h2{
+	text-align: center;
+	padding-top: 20px;
+	font-size:24px ;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+.smu .sideMenu h3 {
+	width: 209px;
+	font-size: 16px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 8px;
+}
+
+.smu .sideMenu h3 a {
+	padding-left: 24px;
+	font-size: 18px;
+	font-weight: normal;
+	
+}
+
+.sideMenu h3.on a {
+	font-size: 1.125rem;
+	font-weight: bold;
+	color: #0e6db0;
+}
+
+.sideMenu h3.on {
+	border-left: 2px solid #0e6db0;
+	background-color: #FFFFFF;
+}
+
+.sideMenu h3 em {
+	margin-right: 10px;
+	width: 20px;
+	height: 18px;
+	/* background-color: red; */
+	display: inline-block;
+	float: right;
+	margin-top: 19px;
+	background: url(https://hqbzb.cnu.edu.cn/images/er_left.png) no-repeat;
+}
+
+.sideMenu h3.on em {
+	background: url(https://hqbzb.cnu.edu.cn/images/er_xia.png) no-repeat;
+}
+
+.sideMenu ul {
+	line-height: 30px;
+	padding-top: 16px;
+    padding-left: 32px;
+	border-bottom: 1px solid #ccc;
+}
+
+.sideMenu ul i {
+	font-size: 14px;
+	color: #000000;
+	width: 20px;
+	height: 14px;
+	display: inline-block;
+	float: left;
+	margin-top: 11px;
+	margin-left: 10px;
+	background: url(https://hqbzb.cnu.edu.cn/images/er_jt.png) no-repeat 7px 1px;
+}
+
+.sideMenu ul li a{
+	font-size: 14px;
+	color: #666666;
+	
+}
+
+
+.sideMenu ul li.on i {
+	background: url(https://hqbzb.cnu.edu.cn/images/er_jt.png) no-repeat 7px 1px;
+}
+
+.sideMenu ul li.on a {
+	color: #0f4687;
+}
+
+.smu .bei {
+	margin: 0px 15px;
+	width: 228px;
+	height: 118px;
+	background: url(https://hqbzb.cnu.edu.cn/images/cedh_bott_03.png) no-repeat;
+}
+
+.list_bg .list_right_1 {
+	width: 896px;
+	float: right;
+	overflow: hidden;
+}
+
+.list_bg .list_right_1 .list_right_lm {
+	width: 912px;
+	height: 54px;
+	/* background: url(../images/right_2.png) no-repeat 150px 10px; */
+}
+
+.list_right_lm .list-right-title p {
+	float: left;
+	font-size: 20PX;
+	font-weight: bold;
+	color: #0f4687;
+	line-height: 46px;
+	border-bottom: 2px solid #0f4687;
+}
+
+.list_content_ct1 {
+	margin-top: 30px;
+}
+
+.list_content_ct1 .content_ct h5 {
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.list_content_ct1 .content_ct h3 {
+	text-align: center;
+	font-size: 16px;
+	color: #444444;
+	font-weight: normal;
+	margin-top: 15px;
+}
+
+.list_content_ct1 .content_ct h6 {
+	font-size: 15px;
+	color: #777;
+	text-align: center;
+	line-height: 37px;
+	font-weight: normal;
+	margin-top: 7px;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+.list_content_ct1 .content_ct p {
+	font-size: 15px;
+	line-height: 30px;
+
+	margin-top: 1em;
+	color: #444;
+}
+
+.list_content_ct1 .content_ct .div_img {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.list_content_ct1 .content_ct b.b_xian {
+	background-color: #ccc;
+	height: 1px;
+	/* display: inline-block; */
+	display: block;
+	margin-bottom: 20px;
+	margin-top: 27px;
+}
+.bt_next{
+    margin: 20px 0 30px;
+    border-top: 1px solid #ccc;
+}
+ .bt_next p {
+	line-height: 1em;
+
+	margin-top: 1em;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+ .bt_next .bt_next_top {
+
+	margin-top: 35px;
+	display: block;
+}
+
+ .bt_next p:hover {
+	color: #0e6db0;
+}
+ .bt_next p:hover a{
+	color: #0e6db0;
+}
+.list_content_ct ul {
+	margin-top: 5px;
+}
+
+.list_content_ct li {
+	line-height: 60px;
+	border-bottom: 1px dashed #CCCCCC;
+	font-size: 15px;
+}
+
+.list_content_ct li a {
+	color: #333;
+	font-size: 15px;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+/* 	background-image: url(../images/ce_top_03.png); */
+}
+
+.list_content_ct li:hover a {
+	margin-left: 15px;
+	color: #0f4687;
+}
+
+.list_content_ct li .span_dian {
+	width: 5px;
+	height: 7px;
+	background: url(https://hqbzb.cnu.edu.cn/images/xwdt_dian.png) no-repeat;
+	/* background-color: #D4C59B; */
+	
+	display: inline-block;
+	margin-right: 15px;
+	/* border-radius: 50%; */
+}
+
+.list_content_ct li i {
+	float: right;
+	font-size: 14px;
+	color: #888888;
+	font-style: normal;
+}
+
+.page {
+	text-align: center;
+	margin-top: -14px;
+	/*height: 27px;*/
+	position: relative;
+}
+
+.page input {
+	width: 30px;
+	height: 22px;
+	position: relative;
+	border: 1px solid #a9a9a9;
+	top: 1.5px;
+	line-height: 20px;
+}
+
+.page span {
+	display: inline-block;
+	margin: 0 10px;
+	color: #000;
+}
+
+.page a {
+	border: 1px solid #afd5f5;
+	padding: 0px 5px;
+	color: #000;
+	height: 24px;
+	display: inline-block;
+}
+
+.page a.active {
+	color: #cccccc;
+}
+
+.page a.toPage {
+	background: #d1e6fa;
+	margin-left: 20px;
+}
+
+/**
+ * listInfo
+ */
+.list_bg .list_right_1 .list_info_ct {
+	float: right;
+	width: 928px;
+	height: 874px;
+	margin-top: 10px;
+}
+
+.list_info_ct .list_info_lr {
+	width: 100%;
+	/* float: left; */
+}
+
+.list_info_lr .lr_1 {
+	margin-top: 47px;
+	width: 100%;
+	height: 243px;
+}
+
+.list_info_lr .lr_1 .lr_lf {
+	float: left;
+}
+
+.list_info_lr .lr_1 .lr_rh {
+	margin-left: 64px;
+	float: right;
+	width: 430px;
+	height: 215px;
+	float: left;
+	border: 1px solid #cccccc;
+}
+
+.lr_rh .lr_wz {
+	width: 210px;
+	margin: -120px 210px;
+}
+
+.lr_rh img {
+	margin: -43px 30px;
+}
+
+/* .lr_rh{
+	
+}
+.lr_rh .lr_wz .lr_mz {
+	color: #FFFFFF;
+}
+.lr_rh .lr_wz .lr_xx{
+	color: #CCCCCC;
+}
+
+
+.lr_rh .lr_wz .lr_lj{
+	background-color: #FFFFFF;
+	margin-top: 35px;
+	width: 119px;
+	height: 25px;
+	font-size: 13px;
+	color: #0f4687;
+	border: 2px  solid #0f4687;
+}
+ */
+
+
+.list_info_lr .lr_1 .lr_lf {
+	width: 430px;
+	height: 215px;
+	float: left;
+	border: 1px solid #CCCCCC;
+}
+
+.lr_lf img {
+	margin: -43px 30px;
+}
+
+.lr_lf .lr_wz {
+	width: 210px;
+	margin: -120px 210px;
+}
+
+.lr_wz .lr_mz {
+	font-size: 15px;
+	color: #000000;
+}
+
+.lr_wz .lr_xx {
+	margin-top: 25px;
+	font-size: 13px;
+	color: #666666;
+}
+
+.lr_wz .lr_lj {
+	margin-top: 35px;
+	width: 119px;
+	height: 25px;
+	font-size: 13px;
+	color: #0f4687;
+	border: 1px solid #0f4687;
+}
+
+.lr_wz .lr_lj a {
+	font-size: 13px;
+	padding-left: 12px;
+	line-height: 24px;
+	color: #0f4687;
+}
+
+.lr_wz .lr_lj i {
+	display: block;
+	margin: 10px 8px;
+	width: 20px;
+	height: 20px;
+	float: right;
+	background: url(https://hqbzb.cnu.edu.cn/images/cjt.png) no-repeat;
+}
+
+.ph_list {
+	margin-top: 10px;
+	width: 895px;
+
+}
+
+.ph_list .ph_list_lr {
+	width: 100%;
+	margin: 42px auto 0;
+}
+
+.ph_list_lr .lr_1 {
+	background-color: #FFFFFF;
+	width: 270px;
+	height: 292px;
+	margin-bottom: 40px;
+	position: relative;
+float:left;
+margin-right:28px;
+}
+
+.ph_list .ph_list_lr .lr_1:hover .list-h-bg {
+	background: url(https://hqbzb.cnu.edu.cn/images/list-h-bg_03.png) no-repeat 12px 6px;
+	position: absolute;
+	width: 270px;
+	height: 292px;
+	display: none;
+	transition: 0.5s;
+	display: block;
+}
+
+.ph_list .ph_list_lr .lr_1:hover .list-more {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: #0e6db0 url(https://hqbzb.cnu.edu.cn/images/info_jt.png) no-repeat center center;
+	display: block;
+	width: 270px;
+	height: 20px;
+	transition: 0.5s;
+}
+
+.ph_list .ph_list_lr .lr_1:hover .wenzi .date {
+	position: absolute;
+	margin-left: 21px;
+	background: url(https://hqbzb.cnu.edu.cn/images/date_info.png) no-repeat left center;
+	display: block;
+	left: 0;
+	transition: 0.5s;
+}
+
+.ph_list .ph_list_lr .lr_1:hover .wenzi {
+	margin-top: 15px;
+}
+
+.ph_list .ph_list_lr .lr_1:hover .wenzi .date p {
+	margin-top: 0px;
+}
+
+.ph1 {
+	float: left;
+}
+
+.ph2 {
+	margin-left: 40px;
+	float: left;
+}
+
+.ph3 {
+	margin-right:0;
+}
+
+
+.lr_1 .wenzi {
+	margin: 26px 19px;
+	width: 230px;
+	height: 20px;
+}
+
+.lr_1 .wenzi p {}
+
+.lr_1 .wenzi a {
+	font-size: 15px;
+}
+
+.wenzi .date {
+	margin-top: 26px;
+	width: 108px;
+	height: 15px;
+	display: block;
+	background: url(https://hqbzb.cnu.edu.cn/images/date_info.png) no-repeat;
+
+}
+
+.wenzi .date p {
+	font-size: 13px;
+	color: #808080;
+	margin-left: 24px;
+}

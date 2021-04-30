@@ -1,0 +1,72 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+HTML {
+	TEXT-ALIGN: center; HEIGHT: 100%
+}
+BODY {
+	TEXT-ALIGN: center; HEIGHT: 100%
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.ad_show {
+	Z-INDEX: 0; POSITION: relative; WIDTH: 200px; HEIGHT: 133px; MARGIN-LEFT: 6px; OVERFLOW: hidden
+}
+.ad_show .cover_b {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 2px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 2px; OVERFLOW: hidden
+}
+.ad_show .cover_t_l {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 2px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 2px; OVERFLOW: hidden
+}
+.ad_show .cover_t_r {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 2px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 2px; OVERFLOW: hidden
+}
+.ad_show .cover_b_l {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 2px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 2px; OVERFLOW: hidden
+}
+.ad_show .cover_b_r {
+	Z-INDEX: 999; POSITION: absolute; WIDTH: 2px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 2px; OVERFLOW: hidden
+}
+.ad_show .cover_t_l {
+	BACKGROUND: url(https://zzb.cnu.edu.cn/images/ad_show_cover_t_l.gif); TOP: 0px; LEFT: 0px
+}
+.ad_show .cover_t_r {
+	BACKGROUND: url(https://zzb.cnu.edu.cn/images/ad_show_cover_t_r.gif); TOP: 0px; RIGHT: 0px
+}
+.ad_show .cover_b_l {
+	BOTTOM: 0px; BACKGROUND: url(https://zzb.cnu.edu.cn/images/ad_show_cover_b_l.gif); LEFT: 0px
+}
+.ad_show .cover_b_r {
+	BOTTOM: 0px; BACKGROUND: url(https://zzb.cnu.edu.cn/images/ad_show_cover_b_r.gif); RIGHT: 0px
+}
+.ad_show .cover_b {
+	WIDTH: 160px; BOTTOM: 0px; FONT: 11px Arial; BACKGROUND: url(https://zzb.cnu.edu.cn/images/ad_show_cover.gif); HEIGHT: 20px; LEFT: 55px
+}
+.ad_show .cover_b IMG {
+	MARGIN-TOP: 7px; FLOAT: left; CURSOR: hand
+}
+.ad_show .cover_b IMG#adShowPre {
+	MARGIN-LEFT: 16px
+}
+.ad_show .cover_b SPAN {
+	DISPLAY: block; FLOAT: left; PADDING-TOP: 5px
+}
+.ad_show .cover_b SPAN#adShowNow {
+	TEXT-ALIGN: left; WIDTH: 27px
+}
+.ad_show .cover_b SPAN#adShowAll {
+	TEXT-ALIGN: left; WIDTH: 27px
+}
+.ad_show .cover_b SPAN#adShowNow {
+	TEXT-ALIGN: right; COLOR: #f00
+}
+.ad_show #adShowImg {
+	POSITION: static; WIDTH: 270px; HEIGHT: 350px; OVERFLOW: hidden
+}
+.ad_show #adShowImg DIV {
+	MARGIN-TOP: 0px; WIDTH: 99999px; MARGIN-LEFT: 0px
+}
+.ad_show #adShowImg DIV IMG {
+	WIDTH: 200px; FLOAT: left; HEIGHT: 133px
+}

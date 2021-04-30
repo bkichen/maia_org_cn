@@ -1,0 +1,29 @@
+html { font-size: calc(100vw/7.5); }
+*{
+  font-family:"Helvetica, Tahoma", "Arial", "PingFang SC","Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+  color:#333;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 30px;
+}
+div{
+  word-break:break-all;
+}
+a{
+  text-decoration:none;
+}
+a:active{
+  -webkit-tap-highlight-color: transparent;
+}
+.fl{float:left;}
+.fr{float:right;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+[v-cloak]{  
+  display: none; 
+}
+.tac{
+  text-align: center;
+}

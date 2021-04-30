@@ -1,0 +1,308 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>数字校园建设中心</title>
+<link rel="stylesheet" href="css/base.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+<script type="text/javascript" src="../js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+<div class="header_wrap">
+
+<div class="header">
+     <div class="logo"></div>
+     <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="111" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+  <!--   <div class="localtime"><span id=localtime></span></div>       -->
+          
+</div>
+     <div class="nav">
+          <ul id="nav">
+          <li><a href="javascript:;">首页</a></li>
+		  												<li><a href="javascript:;">组织机构</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">中心简介</a></dd>
+														<dd><a href="javascript:;">部门设置</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">服务指南</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">办事流程</a></dd>
+														<dd><a href="javascript:;">校内应用</a></dd>
+														<dd><a href="javascript:;">相关下载</a></dd>
+														<dd><a href="javascript:;">网络知识</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">规章制度</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">法律法规</a></dd>
+														<dd><a href="javascript:;">管理规定</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">常见问题</a></li>
+																				<li><a href="javascript:;">网络安全</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">网络安全宣传</a></dd>
+														<dd><a href="javascript:;">网络安全预警</a></dd>
+													</dl>
+				 </div>
+				</li>
+												          </ul>
+     </div></div>
+
+<div class="content">
+     <div class="row mode01">
+          <div class="col lf">
+               <div class="articleList_01">
+                    <div class="listTitle_01">
+                         <span class="more"><a href="javascript:;">more</a></span>
+                         <span class="title">新闻公告</span>
+                    </div>
+                    <ul>
+					                    <li><span>2021<br>04-23</span>
+					<a href="javascript:void(0);" title="数字校园建设中心召开腾讯乐享平台应用研讨会" onclick="checkXnwk('sylm/tzgg/189514.htm','xw');">            数字校园建设中心召开腾讯乐享平台应用研讨会 
+    </a></li>
+					                    <li><span>2020<br>11-05</span>
+					<a href="javascript:void(0);" title="数字校园建设中心党支部开展党风廉政建设宣传教育党日活动" onclick="checkXnwk('sylm/tzgg/180499.htm','xw');">            数字校园建设中心党支部开展党风廉政建设宣传教育党日活... 
+    </a></li>
+					                    <li><span>2020<br>10-26</span>
+					<a href="javascript:void(0);" title="数字校园建设中心党支部召开“规范公权力 自觉守法纪”组织生活会" onclick="checkXnwk('sylm/tzgg/179596.htm','xw');">            数字校园建设中心党支部召开“规范公权力 自觉守法纪”... 
+    </a></li>
+					                    <li><span>2020<br>10-26</span>
+					<a href="javascript:void(0);" title="数字校园建设中心和图书馆召开电子资源对接CARSI认证推进会" onclick="checkXnwk('sylm/tzgg/179570.htm','xw');">            数字校园建设中心和图书馆召开电子资源对接CARSI认... 
+    </a></li>
+					                    <li><span>2020<br>10-22</span>
+					<a href="javascript:void(0);" title="数字校园建设中心举行新学期学生座谈会" onclick="checkXnwk('sylm/tzgg/179985.htm','xw');">            数字校园建设中心举行新学期学生座谈会 
+    </a></li>
+					                    </ul>
+               </div> 
+          </div>
+          <div class="col md">
+               <div class="Banner">
+    	             <div class="flexslider">
+	                    <ul class="slides">
+							                   	<li> <a href="javascript:;"><img src="images/content/2021-04/20210423083427319374.jpg" width="512" height="286"></a>
+			            <div style="position:absolute; bottom:2px; right:0; width:100%; height:35px;color:#fff;background:url(https://dc.cnu.edu.cn/dc/images/banner_bg.png) repeat;line-height:35px; text-indent:20px; z-index:9999999;">
+			                 	<h4><a href="javascript:;">数字校园建设中心召开腾讯乐享平台应用研讨会</a></h4>
+			            </div>
+	                	</li>
+                        	                   	<li> <a href="javascript:;"><img src="images/content/2020-11/20201105090526382281.jpg" width="512" height="286"></a>
+			            <div style="position:absolute; bottom:2px; right:0; width:100%; height:35px;color:#fff;background:url(https://dc.cnu.edu.cn/dc/images/banner_bg.png) repeat;line-height:35px; text-indent:20px; z-index:9999999;">
+			                 	<h4><a href="javascript:;">数字校园建设中心党支部开展党风廉政建设宣传教育党日活动</a></h4>
+			            </div>
+	                	</li>
+                        	                   	<li> <a href="javascript:;"><img src="images/content/2020-11/20201102094053704254.jpg" width="512" height="286"></a>
+			            <div style="position:absolute; bottom:2px; right:0; width:100%; height:35px;color:#fff;background:url(https://dc.cnu.edu.cn/dc/images/banner_bg.png) repeat;line-height:35px; text-indent:20px; z-index:9999999;">
+			                 	<h4><a href="javascript:;">数字校园建设中心举行新学期学生座谈会</a></h4>
+			            </div>
+	                	</li>
+                        	                   	<li> <a href="javascript:;"><img src="images/content/2020-10/20201026150322832238.jpg" width="512" height="286"></a>
+			            <div style="position:absolute; bottom:2px; right:0; width:100%; height:35px;color:#fff;background:url(https://dc.cnu.edu.cn/dc/images/banner_bg.png) repeat;line-height:35px; text-indent:20px; z-index:9999999;">
+			                 	<h4><a href="javascript:;">数字校园建设中心党支部召开“规范公权力 自觉守法纪”组织生活会</a></h4>
+			            </div>
+	                	</li>
+                        	                   	<li> <a href="javascript:;"><img src="images/content/2020-10/20201026103437735671.jpg" width="512" height="286"></a>
+			            <div style="position:absolute; bottom:2px; right:0; width:100%; height:35px;color:#fff;background:url(https://dc.cnu.edu.cn/dc/images/banner_bg.png) repeat;line-height:35px; text-indent:20px; z-index:9999999;">
+			                 	<h4><a href="javascript:;">数字校园建设中心和图书馆召开电子资源对接CARSI认证推进会</a></h4>
+			            </div>
+	                	</li>
+                        	</ul>
+	</div>
+    </div>
+          </div>
+          <div class="col rt">
+               <div class="login">
+                    <div class="login_title">
+                         <span>服务门户登录</span>
+                    </div>
+				
+				
+					
+                    <div class="from_list">
+                   
+ <form name="frm" action="http://ids1.cnu.edu.cn/amserver/UI/Login?goto=http://portal.cnu.edu.cn&gotoOnFail=http://portal.cnu.edu.cn" method="post"> 
+				    <input type="text" name="IDToken1" id="IDToken1" value="" style="background:url(images/images_17.jpg) no-repeat; border:none; width:142px; height:30px; line-height:30px; padding-left:30px;">
+					<input type="password" name="IDToken2" id="IDToken2" value="" style="background:url(images/images_20.jpg) no-repeat; border:none; width:141px; height:30px; line-height:30px; padding-left:30px;"><br>
+					<input type="image" src="images/images_24.jpg" width="125" height="33" class="butt">
+					 </form>
+
+
+<div class="explanation">
+                              <p>注：服务门户限全校师生校内使用，校外访问请通过VPN</p>
+                         </div>
+                    </div>
+                    
+
+               </div>
+          </div>
+     </div>
+     
+     <div class="row mode02">
+          <div class="col lf">
+               <div class="bsdt">
+                    <div class="listTitle_01" style="float:left;">
+                         <span class="title">办事大厅</span>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="badt_list">
+                         <ul>
+						                          <li><a href="javascript:void(0);" title="网络开户与缴费" onclick="checkXnwk('fwzn/85196.htm','xw');"><img src="images/images_46.jpg"><p>网络开户与缴费</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="校园卡补办" onclick="checkXnwk('fwzn/85197.htm','xw');"><img src="images/images_43.jpg"><p>校园卡补办</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="临时校园卡申办、延期" onclick="checkXnwk('fwzn/85198.htm','xw');"><img src="images/images_38.jpg"><p>临时校园卡申办、延期</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="校园卡挂失、解挂与重置密码" onclick="checkXnwk('fwzn/85199.htm','xw');"><img src="images/images_40.jpg"><p>校园卡挂失、解挂与重置密码</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="校园卡注销" onclick="checkXnwk('fwzn/85200.htm','xw');"><img src="images/images_35.jpg"><p>校园卡注销</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="网络学堂课程申请" onclick="checkXnwk('fwzn/85201.htm','xw');"><img src="images/images_54.jpg"><p>网络学堂课程申请</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="统一身份账户密码重置" onclick="checkXnwk('fwzn/85202.htm','xw');"><img src="images/images_56.jpg"><p>统一身份账户密码重置</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="VPN服务" onclick="checkXnwk('fwzn/85203.htm','xw');"><img src="images/images_57.jpg"><p>VPN服务</p></a></li>
+						 						                          <li><a href="javascript:void(0);" title="开通服务器对外服务申请" onclick="checkXnwk('fwzn/85204.htm','xw');"><img src="images/images_59.jpg"><p>开通服务器对外服务申请</p></a></li>
+						                          </ul>
+                    </div>
+               </div>
+          </div>
+          <div class="col rt">
+               <div class="weixin">
+                    <div class="weixin_title">
+                         <span>微信门户 &nbsp;&nbsp;&nbsp;&nbsp;扫一扫</span>
+                    </div>
+                    
+                    <div class="erweima">
+                    <img src="images/images_33.jpg" width="177" height="183">
+                    </div>
+               </div>
+          </div>
+     </div>
+     
+     <div class="row mode03">
+          <div class="col lf">
+               <div class="articleList_02">
+                    <div class="listTitle_02">
+                         <span class="more"><a href="javascript:;">more</a></span>
+                         <span class="title">常见问题</span>
+                    </div>
+                    <ul>
+					                     <li><a href="javascript:void(0);" title="关于自助补卡机的一些问题解释" onclick="checkXnwk('cjwt/85883.htm','xw');">            关于自助补卡机的一些问题解释 
+    </a><br><span>2016-05-18</span></li>
+					                      <li><a href="javascript:void(0);" title="可以访问外网，但是无法访问学校主页" onclick="checkXnwk('cjwt/85841.htm','xw');">            可以访问外网，但是无法访问学校主页 
+    </a><br><span>2016-05-18</span></li>
+					                      <li><a href="javascript:void(0);" title="上不了网，本地连接状态中的字节数异常" onclick="checkXnwk('cjwt/85839.htm','xw');">            上不了网，本地连接状态中的字节数异常 
+    </a><br><span>2016-05-18</span></li>
+					                      <li><a href="javascript:void(0);" title="帐号成功登陆后，打不开网页任何网页" onclick="checkXnwk('cjwt/85835.htm','xw');">            帐号成功登陆后，打不开网页任何网页 
+    </a><br><span>2016-05-18</span></li>
+					                      </ul>
+               </div>
+          </div>
+          <div class="col md">
+               <div class="articleList_03">
+                    <div class="listTitle_03">
+                         <span class="more"><a href="javascript:;">more</a></span>
+                         <span class="title">使用说明</span>
+                    </div>
+                    <ul>
+					                     <li><a href="javascript:void(0);" title="师星学堂教师使用手册 " onclick="checkXnwk('sylm/syym/147359.htm','xw');">            师星学堂教师使用手册  
+    </a></li>
+					                      <li><a href="javascript:void(0);" title="师星学堂移动端教师操作说明" onclick="checkXnwk('sylm/syym/147360.htm','xw');">            师星学堂移动端教师操作说明 
+    </a></li>
+					                      <li><a href="javascript:void(0);" title="Bb学堂教师使用简明指南" onclick="checkXnwk('sylm/syym/147361.htm','xw');">            Bb学堂教师使用简明指南 
+    </a></li>
+					                      <li><a href="javascript:void(0);" title="微信门户身份验证流程说明" onclick="checkXnwk('docs/20151123111359527595.pdf','$article.belongUser');">            微信门户身份验证流程说明 
+    </a></li>
+					                      <li><a href="javascript:void(0);" title="网络计费标准新调整" onclick="checkXnwk('sylm/syym/86077.htm','$article.belongUser');">            网络计费标准新调整 
+    </a></li>
+					                      <li><a href="javascript:void(0);" title="支付宝充校园卡及网费操作说明" onclick="checkXnwk('docs/20150915171859576014.pdf','$article.belongUser');">            支付宝充校园卡及网费操作说明 
+    </a></li>
+					                      </ul>
+               </div>
+          </div>
+          <div class="col rt">
+               <div class="friendLink">
+                    <div class="link_title">
+                         <span>常用链接</span>
+                    </div>
+                    <ul>
+                    <li><a href="javascript:;" target="_blank"><img src="images/images_67.jpg"><p>网络充值 </p></a></li>
+                    <li><a href="javascript:;" target="_blank"><img src="images/images_69.jpg"><p>网络自服务  </p></a></li>
+                    <li><a href="javascript:;" target="_blank"><img src="images/images_78.jpg"><p>资源点播 </p></a></li>
+                    <li><a href="javascript:;" target="_blank"><img src="images/1111111111.jpg"><p>企业微信 </p></a></li>
+                    <li><a href="javascript:;" target="_blank"><img src="images/images_85.jpg"><p>网络电视 </p></a></li>
+ <li><a href="javascript:;" target="_blank"><img src="images/trueMicrosoft.png" width="80"><p>微软正版化</p></a></li>
+                    </ul>
+               </div>
+          </div>
+     </div>
+
+</div>
+
+<div class="footer">
+
+<p>版权所有单位：首都师大数字校园建设中心 地址：北京市海淀区西三环北路105号 邮编：100048   <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</p>
+<!-- FAQRobot Button BEGIN -->    <script src='../servlet/JScript-24541_155255798714625228.js' language='JavaScript'>    </script><!-- FAQRobot Button END   -->
+</div>
+
+<script type="text/javascript" src="../js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+	
+	 $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+	
+
+</script>
+
+
+</body></html>

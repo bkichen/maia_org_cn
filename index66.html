@@ -1,0 +1,274 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京市幼教师资培训中心</title>
+<link href="css/base21.css" type="text/css" rel="stylesheet">
+<link href="css/style46.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script>
+		function checkXnwk(url, xwssyh) {
+			var url1 = window.location + "";
+			url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+			if (xwssyh != '' && xwssyh == 'xn') {
+				var flag = checkSession();
+				if (flag == "true") {
+					window.open(url);
+				} else if (flag == "false") {
+					url1 = url1.split("").reverse().join("") ;
+					url1 = encodeURIComponent(url1) ;
+					window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+				} else {
+					window.open(url);
+				}
+			} else {
+				window.open(url);
+			}
+		}
+		function checkSession() {
+			var flag = "";
+			jQuery.ajax({
+				type : "POST",
+				url : '/cms/web/getXnwkSession.jsp',
+				async : false,
+				success : function(data) { 
+					var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+					flag = newData;
+				}
+			});
+			return flag;
+		}
+</script><div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+        		<a href="javascript:;" class="logo_link"><img src="images/logo10.jpg"></a>
+            </div>
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="120" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        </div>
+        <div class="nav">
+        	<ul id="nav">
+			<li><a href="javascript:;">首页</a></li>
+ 																<li><a href="javascript:;">中心简介</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">中心简介</a></dd>
+														<dd><a href="javascript:;">机构设置</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">培训项目</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">对外培训</a></dd>
+														<dd><a href="javascript:;">国家级培训</a></dd>
+														<dd><a href="javascript:;">市级培训</a></dd>
+														<dd><a href="javascript:;">委托培训</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">继教管理</a></li>
+																				<li><a href="javascript:;">培训资源</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">课程资源</a></dd>
+														<dd><a href="javascript:;">专家团队</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">培训研究</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">刊物</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">政策法规</a></li>
+																				<li><a href="javascript:;">服务指南</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">联系我们</a></dd>
+														<dd><a href="javascript:;">中心地址</a></dd>
+													</dl>
+				 </div>
+				</li>
+												            </ul>
+       
+      </div></div>
+<div class="content">
+    <div class="Banner">
+    	<div class="Notice">
+        	<div class="notice_tit">最新公告：</div>
+            <div id="block2"> 
+              <ul id="rolltxt"> 
+			                </ul> 
+            <script type="text/javascript">  
+            function extractNodes(pNode){ 
+                if(pNode.nodeType == 3)return null; 
+                var node,nodes = new Array(); 
+                for(var i=0;node= pNode.childNodes[i];i++){ 
+                    if(node.nodeType == 1)nodes.push(node); 
+                } 
+                return nodes; 
+            } 
+            var obj=document.getElementById("rolltxt"); 
+            for(i=0;i<4;i++){ 
+                obj.appendChild(extractNodes(obj)[i].cloneNode(true)); 
+            } 
+            settime=0; 
+            var t=setInterval(rolltxt,50); 
+            function rolltxt(){ 
+                if(obj.scrollTop % (obj.clientHeight-0) ==0){ 
+                    settime+=1; 
+                    if(settime==50){ 
+                        obj.scrollTop+=1; 
+                        settime=0; 
+                    } 
+                }else{ 
+                    obj.scrollTop+=1; 
+                    if(obj.scrollTop==(obj.scrollHeight-obj.clientHeight)){ 
+                        obj.scrollTop=0; 
+                    } 
+                } 
+            } 
+            obj.onmouseover=function(){clearInterval(t)} 
+            obj.onmouseout=function(){t=setInterval(rolltxt,50)} 
+            </script> 
+            </div>        </div>
+                <div class="flexslider">
+                    <ul class="slides">
+					                         <li><a><img src="images/content/2016-09/20160926153627939836.jpg" width="1440" height="463">
+                        <span class="til_slides"></span></a></li>
+					                     </ul>
+                </div>
+            </div>
+    <div class="row mode01">
+        <div class="col lf">
+        	<div class="articleList">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;">More notice</a></span><h2>培训通知</h2>
+                </div>
+                <ul>
+										<li>
+					<a href="javascript:void(0);" title="关于2021年寒假放假安排的通知" onclick="checkXnwk('https://mp.weixin.qq.com/s/Ul_iiH9kK1fs4Rbv3u88eA','xw');">            关于2021年寒假放假安排的通知 
+    </a>
+					<span class="leftDate">2021/01/14</span>
+					</li>
+					                </ul>
+            </div>
+        </div>
+        <div class="col md">
+        	<div class="articleList">
+                <div class="listTitle2">
+                    <span class="more"><a href="javascript:;">More news</a></span><h2>培训新闻</h2>
+                </div>
+                <ul>
+                    					<li>
+					<a href="javascript:void(0);" title="北京市民办幼儿园举办者办园方向专题培训项目成功举办区域工作坊研修培训系列报道一 ?" onclick="checkXnwk('https://mp.weixin.qq.com/s/JmGok9G2t35c7Tuqa8LYww','xw');">            北京市民办幼儿园举办者办园方向专题培训项目成功举办区域工作坊研修培训系列... 
+    </a>
+					<span class="leftDate">2021/04/23</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="2020年度北京市幼儿园特级教师工作室项目 | 杨丽欣特级教师工作室 | 幼儿园大型主题活动中支持幼儿自主学习的策略研究" onclick="checkXnwk('https://mp.weixin.qq.com/s/sORk3LV9xNCJ--JR7a3U_w','xw');">            2020年度北京市幼儿园特级教师工作室项目 | 杨丽欣特级教师工作室 |... 
+    </a>
+					<span class="leftDate">2021/04/19</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="2020年度北京市幼儿园特级教师工作室项目 | 吴东慧特级教师工作室 | 新时代课程改革背景下幼儿园音乐活动教学策略的实践研究" onclick="checkXnwk('https://mp.weixin.qq.com/s/XhQMWg-CLT2cvpmuyHx2xw','xw');">            2020年度北京市幼儿园特级教师工作室项目 | 吴东慧特级教师工作室 |... 
+    </a>
+					<span class="leftDate">2021/04/19</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="2020年度北京市幼儿园特级教师工作室项目|王岚特级教师工作室 | 幼儿园美工区自发游戏的实践研究" onclick="checkXnwk('https://mp.weixin.qq.com/s/3MrZgnnJ4aVFRrcm4bLz8g','xw');">            2020年度北京市幼儿园特级教师工作室项目|王岚特级教师工作室 | 幼儿... 
+    </a>
+					<span class="leftDate">2021/04/19</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="2020年度北京市幼儿园特级教师工作室项目|晏红特级教师工作室 | 新时代课程改革背景下幼儿园美术活动教学策略的实践研究" onclick="checkXnwk('https://mp.weixin.qq.com/s/isguNkTgVsp2saf4o5VdsQ','xw');">            2020年度北京市幼儿园特级教师工作室项目|晏红特级教师工作室 | 新时... 
+    </a>
+					<span class="leftDate">2021/04/19</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="2020年度北京市幼儿园特级教师工作室项目|刘金玉特级教师工作室优秀开题报告 | 视域融合下幼儿音乐欣赏活动的设计与实施" onclick="checkXnwk('https://mp.weixin.qq.com/s/pgAAqQ9Q9weavNcb3F3dWQ','xw');">            2020年度北京市幼儿园特级教师工作室项目|刘金玉特级教师工作室优秀开题... 
+    </a>
+					<span class="leftDate">2021/04/19</span>
+					</li>
+					                </ul>
+            </div>
+        </div>
+        <div class="col md2">
+        	<div class="articleList">
+                <div class="listTitle3">
+                    <span class="more"><a href="javascript:;">More news</a></span><h2>区县动态</h2>
+                </div>
+                <ul>
+                    					<li>
+					<a href="javascript:void(0);" title="关于举办2020-2021学年北京市幼儿园集体体育教学展评活动评比结果的通知" onclick="checkXnwk('https://mp.weixin.qq.com/s/iDQv77EalPcWrPAtlWazhQ','xw');">            关于举办2020-2021学年北京市幼儿园集体体育教学展评活动评比结果的... 
+    </a>
+					<span class="leftDate">2021/04/15</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院学前教育学院领导到区教委调研" onclick="checkXnwk('sylm/qxdt/90094.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院学前教育学院领导到区教委调研 
+    </a>
+					<span class="leftDate">2016/04/21</span>
+					</li>
+										<li>
+					<a href="javascript:void(0);" title="北京市怀柔区幼儿园教师专业能力提高班培训暨结业典礼 " onclick="checkXnwk('sylm/qxdt/90089.htm','xw');">            北京市怀柔区幼儿园教师专业能力提高班培训暨结业典礼  
+    </a>
+					<span class="leftDate">2016/07/07</span>
+					</li>
+					                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+           <div class="link">
+            	<p><a class="link1" href="javascript:;">培训报名</a></p>
+                <p><a class="link2" href="javascript:;">对外培训</a></p>
+                <!--<dl>
+				                	<dd><a href="pxxm/sjpx/yzgwpx/index.htm">园长培训</a></dd>
+				                	<dd><a href="pxxm/sjpx/zqjyjsgwpx/index.htm">早期教育教师岗位培训</a></dd>
+				                	<dd><a href="pxxm/sjpx/byypx/index.htm">保育员培训</a></dd>
+				                </dl>-->
+                <p><a class="link3" href="javascript:;">国家级培训</a></p>
+                <p><a class="link4" href="javascript:;">市级培训</a></p>
+                <p><a class="link5" href="javascript:;">委托培训</a></p>
+                <p><a class="link6" href="javascript:;">证书认证</a></p>
+                <p><a class="link7" href="javascript:;">相关链接</a></p>
+           </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+
+ <div class="copyRight">
+       <img src="images/wx.jpg"><p>版权所有&copy;北京市幼教师资培训中心<br>北京市幼教师资培训中心地址：北京市海淀区阜成路北三街五号院<br>
+南航金城学院教务处_南京财经大学教务处_南京艺术学院校址：北京市西三环北路105号 100048    <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</p>
+    </div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script18.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+</script>
+
+
+</body></html>

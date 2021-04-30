@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京市语言测试中心</title>
+<link href="css/base20.css" type="text/css" rel="stylesheet">
+<link href="css/style45.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://yuce.cnu.edu.cn/styleA.css" media="screen and (min-width: 400px)">
+<script type="text/javascript">
+window.onload=function(){
+    //focusImg('banner');   
+        function getByClass(sClass,parent){
+        
+        var aEles = (parent||document).getElementsByTagName('*');
+        var arr = [];
+        
+        for(var i=0; i<aEles.length; i++){
+            
+            var aClass = aEles[i].className.split(' ');
+            
+            for(var j=0; j<aClass.length; j++){
+                
+                if( aClass[j] == sClass ){
+                
+                    arr.push( aEles[i] );
+                    break;
+                    
+                }   
+            }
+        }
+        return arr;
+    }
+    
+    var arr = getByClass('linkList');
+    var arr2 = getByClass('son_linkList');
+    var that = null;
+    var onoff = true;
+    
+    for(var i=0;i<arr.length;i++)
+    {
+        arr[i].index = i;
+        arr[i].onclick = function(ev) {
+            var e = ev || event;
+            e.cancelBubble = true;
+            for(var i=0;i<arr.length;i++)
+            {
+                if(i!=this.index)
+                {
+                    arr2[this.index].style.display = 'block';
+                    arr2[i].style.display = 'none';
+                }
+            };
+            if(onoff)
+            {
+                arr2[this.index].style.display = 'block';
+                onoff = false;
+            }else
+            {
+                arr2[this.index].style.display = 'none';
+                onoff = true;
+            };
+            that = this.index;
+            document.onclick = function() {
+                arr2[that].style.display = 'none';
+                onoff = true;
+            }
+        }
+    };
+};
+</script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+<div class="header">
+    	
+<div class="top">        	
+        	<div class="logo">
+        		<a href="javascript:;" class="logo_link">
+                    <img src="images/logo_034.png" alt="">
+                </a>
+            </div>
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="139" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        </div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首页</a></li>
+																<li><a href="javascript:;">中心概况</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">中心简介</a></dd>
+														<dd><a href="javascript:;">组织机构</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">规章制度</a></li>
+																				<li><a href="javascript:;">普通话水平测试</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">一级甲等测试</a></dd>
+														<dd><a href="javascript:;">计算机辅助测试</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">汉字应用水平测试</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">测试公告</a></dd>
+														<dd><a href="javascript:;">考生关注</a></dd>
+														<dd><a href="javascript:;">测试动态</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">其他测试</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">汉语口语水平测试</a></dd>
+														<dd><a href="javascript:;">汉语能力测试</a></dd>
+														<dd><a href="javascript:;">职业汉语能力测试</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">培训管理</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">考生培训</a></dd>
+														<dd><a href="javascript:;">测试员培训</a></dd>
+														<dd><a href="javascript:;">其他培训</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">科学研究</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">科研动态</a></dd>
+														<dd><a href="javascript:;">专题研究</a></dd>
+														<dd><a href="javascript:;">专家队伍</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">推普宣传</a></li>
+																				<li><a href="javascript:;">相关下载</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">普通话水平测试资料下载</a></dd>
+														<dd><a href="javascript:;">汉字应用水平测试资料下载</a></dd>
+														<dd><a href="javascript:;">培训资料下载</a></dd>
+														<dd><a href="javascript:;">其他资料下载</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">联系我们</a></li>
+								                
+            </ul>       
+      </div>
+      <div class="erji">
+          
+      </div></div>
+<div class="content">
+    <div class="Banner">
+    	<div class="flexslider">
+            <ul class="slides">
+			                <li><a><img src="images/content/2017-06/20170619151543586601.png"></a><span class="til_slides"></span></li>
+				            </ul>
+       </div>
+    </div>
+    <div class="row mode01">
+        <div class="col lf">
+        	<div class="articleList">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;"><img src="images/more_06.png" alt=""></a></span><h2><p>焦点新闻</p></h2>
+                </div>
+                <ul>
+					                    <li>
+                        <span class="date"><span class="day">24</span><span class="year">2020-12</span></span><div class="right_sm">
+                            <p><a href="javascript:;" title="市语测中心成功举办第十四期北京市普通话水平测试员资格培训班">            市语测中心成功举办第十四期北京市普通话... 
+    </a></p>
+                            <div class="right_con">
+                                 请填写文章摘要                             </div>
+                        </div>
+                    </li>
+					                    <li>
+                        <span class="date"><span class="day">02</span><span class="year">2020-11</span></span><div class="right_sm">
+                            <p><a href="javascript:;" title="市语测中心携手各分中心积极推进重启现场普通话水平测试工作">            市语测中心携手各分中心积极推进重启现场... 
+    </a></p>
+                            <div class="right_con">
+                                 请填写文章摘要                             </div>
+                        </div>
+                    </li>
+					                    <li>
+                        <span class="date"><span class="day">23</span><span class="year">2020-10</span></span><div class="right_sm">
+                            <p><a href="javascript:;" title="市教委领导来我中心调研语言文字工作">            市教委领导来我中心调研语言文字工作 
+    </a></p>
+                            <div class="right_con">
+                                 请填写文章摘要                             </div>
+                        </div>
+                    </li>
+					                    <li>
+                        <span class="date"><span class="day">25</span><span class="year">2020-09</span></span><div class="right_sm">
+                            <p><a href="javascript:;" title="北京开放大学率先恢复全市普通话水平测试工作">            北京开放大学率先恢复全市普通话水平测试... 
+    </a></p>
+                            <div class="right_con">
+                                 请填写文章摘要                             </div>
+                        </div>
+                    </li>
+					                    <li>
+                        <span class="date"><span class="day">16</span><span class="year">2020-09</span></span><div class="right_sm">
+                            <p><a href="javascript:;" title="市教委领导赴普通话水平测试分中心检查指导工作">            市教委领导赴普通话水平测试分中心检查指... 
+    </a></p>
+                            <div class="right_con">
+                                 请填写文章摘要                             </div>
+                        </div>
+                    </li>
+					                    
+                </ul>
+            </div>
+        </div>
+        <div class="col md">
+        	<div class="articleList01">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;"><img src="images/more_06.png" alt=""></a></span><h2><p>考生关注</p></h2>
+                </div>
+                <ul>
+					                    <li><span class="rightDate">04-28</span><a href="javascript:;" title="2021年5月北京市普通话人工测试面向社会人员测试计划（一甲测试）">            2021年5月北京市普通话人工测试面向社会人员测试计划（一甲测试） 
+    </a></li>
+					                    <li><span class="rightDate">04-21</span><a href="javascript:;" title="2021年5月1-16日北京市普通话水平测试面向社会人员测试计划表（机测）">            2021年5月1-16日北京市普通话水平测试面向社会人员测试计划表（机测） 
+    </a></li>
+					                    <li><span class="rightDate">04-07</span><a href="javascript:;" title="2021年4月19-30日北京市普通话水平测试面向社会人员测试计划表（机测）">            2021年4月19-30日北京市普通话水平测试面向社会人员测试计划表（机测） 
+    </a></li>
+					                    <li><span class="rightDate">03-26</span><a href="javascript:;" title="2021年4月5日-18日北京市普通话水平测试面向社会人员测试计划表-周六周日（机测）">            2021年4月5日-18日北京市普通话水平测试面向社会人员测试计划表-周六周日（... 
+    </a></li>
+					                    <li><span class="rightDate">03-23</span><a href="javascript:;" title="2021年4月5日-18日北京市普通话水平测试面向社会人员测试计划表-周一至周五（机测）">            2021年4月5日-18日北京市普通话水平测试面向社会人员测试计划表-周一至周五... 
+    </a></li>
+					                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+        	<div class="articleList02">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;"><img src="images/more_06.png" alt=""></a></span><h2><p>通知公告</p></h2>
+                </div>
+                <ul>
+				                     <li><span class="rightDate">04-07</span><a href="javascript:;" title="关于普通话证书邮寄问题的通知">            关于普通话证书邮寄问题的通知 
+    </a></li>
+					                     <li><span class="rightDate">03-25</span><a href="javascript:;" title="关于近期普通话水平测试报名的说明（重要）">            关于近期普通话水平测试报名的说明（重... 
+    </a></li>
+					                     <li><span class="rightDate">03-25</span><a href="javascript:;" title="关于补办普通话水平测试等级证书的通知">            关于补办普通话水平测试等级证书的通知 
+    </a></li>
+					                     <li><span class="rightDate">03-08</span><a href="javascript:;" title="关于北京市2021年普通话水平测试报名的通知">            关于北京市2021年普通话水平测试报... 
+    </a></li>
+					                </ul>
+            </div>
+            <div class="link">
+                <ul>
+                    <li><a href="javascript:;" target="_blank">普通话水平测试在线报名系统</a></li>
+                    <li><a href="javascript:;" target="_blank">国家普通话水平测试信息管理系统</a></li>
+                    <li><a href="javascript:;" target="_blank">普通话水平测试成绩查询系统</a></li>
+                    <li><a href="javascript:;" target="_blank">旧版普通话水平测试成绩查询系统</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    
+<div class="copyRight">
+        <div class="footer_left">
+            问卷调查<br>
+            总访问量： <script type="text/javascript" src="https://yuce.cnu.edu.cn/cms/web/channelVisitLog.jsp?parentID=7880"></script>人次<br>
+			
+            地址：北京海淀区西三环北路83号综合楼       邮编：100089<a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+        </div>
+		<script type="text/javascript" src="cms/web/writeLog-3576.js"></script>
+        <div class="footer_right">
+            <div class="linkList" style="z-index:9999;">友情链接
+                                <div class="son_linkList">
+								                                </div>
+                            </div>
+        </div>
+    </div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({			
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+	
+</script>
+
+</body></html>

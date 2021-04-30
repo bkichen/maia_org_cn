@@ -1,0 +1,63 @@
+a:hover{color:  #0a2a8d;}
+.nav-color,.nav {
+    background: #0a2a8d;
+}
+.toptitle .more:hover{
+	color:#0a2a8d;
+	
+}
+
+.guestslist .guestsinfo{background: #0a2a8d}
+.dynamiclist a:hover .title,.dynamiclist_right a:hover .title{
+	color: #0a2a8d;
+	
+}
+.indtopright .info a {
+    float: right;
+    color: #0a2a8d;
+}
+.nav li li a{color:#0a2a8d}
+.headtop{background:#092b98 url(http://lib.cnu.edu.cn/templates/ssd/images/headbg.jpg) no-repeat 50% 0;}
+/*.nav{background:#0a2a8d;}*/
+.btn-blue {
+    background-color: #1997d7;
+    border-color: #1997d7;
+    color: #fff;
+}
+.btn-blue:hover, .btn-blue:active:hover, .btn-blue:focus {
+    opacity: 0.8;
+    border:1px solid transparent
+}
+.hoteltraffic .wxcon{
+    background: #0a2a8d;
+}
+.noticebtn .essaybtn{    background: #294cbd;}
+.btn-blue:hover{color: #fff}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+.not_order{    color: #0a2a8d;}
+.listNav .active a {
+    color: #1474D8;
+    background: #F9F9F9;
+    position: relative;
+}
+
+.listNav .active a::before {
+   
+    background: #1474D8;
+   
+}
+
+.event_content .first_title {
+
+    border-left: 5px solid rgb(20, 117, 214);
+}
+
+.headtop{background:#092b98 url(http://lib.cnu.edu.cn/templates/ssd/images/headbg.jpg) no-repeat 50% 0;}
+
+.newsdetailcon{	border-top:3px solid #294cbd;}
+
+.newsdetailcon .title .t{color:#294cbd;}

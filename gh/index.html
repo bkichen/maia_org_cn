@@ -1,0 +1,941 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院工会</title>
+<link href="css/base.css" type="text/css" rel="stylesheet">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/fullcalendar.min.css">
+<!--IE6透明代码-->
+<!--[if IE 6]>
+<script src="js/pngAlaph.js"></script>
+<script>
+DD_belatedPNG.fix('.logo, img');
+</script>
+<![endif]-->
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body onload="initial()">
+<script type="text/javascript" src="../js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+<div class="header">
+    	
+<div class="top">
+        	<!--<div class="top_nav">
+            	<a href="#" class="nobg">首  页</a>
+                <a href="#">加入收藏</a>
+                <a href="#">联系我们</a>
+                <a href="#">English</a>
+            </div>-->
+
+<span>
+今天是<script language="JavaScript">
+var dayNames = new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+Stamp = new Date();
+document.write("" + Stamp.getYear() + "年"+(Stamp.getMonth() + 1) +"月"+Stamp.getDate()+ "日"+ " " + dayNames[Stamp.getDay()] +"");
+</script>
+</span>
+
+        	<div class="logo" style="background:url('images/content/2017-06/20170606144757414908.png') no-repeat">
+        		<h1>
+                	<a href="javascript:;"><img src="images/logo.png" width="448" height="187"></a>
+                </h1>
+           </div>
+           <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="97" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+           <!-- <div class="Notice">
+            		<h3><a href="#">最新通知</a></h3>
+                    <p><a href="#">中国书法文化研究院举办
+2015届毕业生作品展</a></p>
+            </div>-->
+
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="../index1.html" target="_blank">学校主页</a></li>
+				<li><a href="javascript:;">工会首页</a></li>
+				
+																<li><a href="javascript:;">组织机构</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">校工会</a></dd>
+														<dd><a href="javascript:;">部门工会</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">双代会</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">机构设置</a></dd>
+														<dd><a href="javascript:;">双代会文件</a></dd>
+														<dd><a href="javascript:;">双代会会议</a></dd>
+														<dd><a href="javascript:;">双代会提案</a></dd>
+														<dd><a href="javascript:;">二级教代会</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">法律文件</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">法律法规</a></dd>
+														<dd><a href="javascript:;">工会文件</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">职工之家</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">社团协会</a></dd>
+														<dd><a href="javascript:;">小家建设</a></dd>
+														<dd><a href="javascript:;">互助保障</a></dd>
+														<dd><a href="javascript:;">爱心基金</a></dd>
+														<dd><a href="javascript:;">应急救助</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">光荣榜</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">先进集体</a></dd>
+														<dd><a href="javascript:;">先进个人</a></dd>
+														<dd><a href="javascript:;">劳动模范</a></dd>
+														<dd><a href="javascript:;">师德评选</a></dd>
+														<dd><a href="javascript:;">市青教赛</a></dd>
+														<dd><a href="javascript:;">体育比赛</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">理论研究</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">论文摘编</a></dd>
+														<dd><a href="javascript:;">科研立项</a></dd>
+														<dd><a href="javascript:;">理论学习</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">工会刊物</a>
+				<div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">工会工作</a></dd>
+														<dd><a href="javascript:;">职工作品</a></dd>
+														<dd><a href="javascript:;">工会大事记</a></dd>
+														<dd><a href="javascript:;">展板精选</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">主席信箱</a></li>
+								               
+            </ul>
+        </div>
+      </div></div>
+
+<div class="content">    
+    <div class="row mode01">
+        <div class="col lf">
+   		  <div class="Banner">
+                    <div class="flexslider">
+                        <ul class="slides">
+						                            <li><a href="javascript:;" title="双代会4">
+							<img src="images/content/2021-04/20210426161319772729.jpg" width="286" height="214"><div class="til_slides">            双代会4 
+    </div></a>
+							</li>
+						                            <li><a href="javascript:;" title="双代会3">
+							<img src="images/content/2021-04/20210426161234118620.jpg" width="286" height="214"><div class="til_slides">            双代会3 
+    </div></a>
+							</li>
+						                            <li><a href="javascript:;" title="双代会2">
+							<img src="images/content/2021-04/20210426161127823582.jpg" width="286" height="214"><div class="til_slides">            双代会2 
+    </div></a>
+							</li>
+						                            <li><a href="javascript:;" title="学校召开2021年“双代会”">
+							<img src="images/content/2021-04/20210419160848320506.jpg" width="286" height="214"><div class="til_slides">            学校召开2021年“双代... 
+    </div></a>
+							</li>
+						                            <li><a href="javascript:;" title="学校成功举办“祖国颂 首师情”教职工七一合唱展演活动">
+							<img src="images/content/2019-09/20190903095528864031.jpg" width="286" height="214"><div class="til_slides">            学校成功举办“祖国颂 首... 
+    </div></a>
+							</li>
+						                        </ul>
+                   </div>
+                </div>
+                <div class="zhuanqu">
+                	<a href="javascript:;"><img src="images/zhuanqu.png" width="287" height="46"></a>
+                </div>
+        </div>
+        <div class="col md">
+        	<div class="articleList">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;">MORE</a></span><h2>新闻速递</h2>
+                </div>
+                <ul>
+				                    <li><span>2021-04-28</span>
+						<a href="javascript:void(0);" title="校工会召开校园虚拟卡建设通报会" onclick="checkXnwk('xwsd/189894.htm','xw');">            校工会召开校园虚拟卡建设通报会 
+    </a>
+					</li>
+				                    <li><span>2021-04-23</span>
+						<a href="javascript:void(0);" title="北方工业大学工会同仁来校交流工作" onclick="checkXnwk('xwsd/189561.htm','xw');">            北方工业大学工会同仁来校交流工作 
+    </a>
+					</li>
+				                    <li><span>2021-04-23</span>
+						<a href="javascript:void(0);" title="校工会面向教职工发放“五·一”慰问品" onclick="checkXnwk('xwsd/189558.htm','xw');">            校工会面向教职工发放“五·一”慰问品 
+    </a>
+					</li>
+				                    <li><span>2021-04-19</span>
+						<a href="javascript:void(0);" title="学校召开2021年“双代会”" onclick="checkXnwk('xwsd/189253.htm','xw');">            学校召开2021年“双代会” 
+    </a>
+					</li>
+				                    <li><span>2021-04-19</span>
+						<a href="javascript:void(0);" title="学校召开本届“双代会”委员会第30次会议" onclick="checkXnwk('xwsd/189252.htm','xw');">            学校召开本届“双代会”委员会第30次会... 
+    </a>
+					</li>
+				                    <li><span>2021-04-19</span>
+						<a href="javascript:void(0);" title="内蒙古赤峰学院工会同仁来我校交流工作" onclick="checkXnwk('xwsd/189251.htm','xw');">            内蒙古赤峰学院工会同仁来我校交流工作 
+    </a>
+					</li>
+				                    <li><span>2021-04-02</span>
+						<a href="javascript:void(0);" title="学校党委副书记董竹娟调研工会工作" onclick="checkXnwk('xwsd/188345.htm','xw');">            学校党委副书记董竹娟调研工会工作 
+    </a>
+					</li>
+				                    <li><span>2021-03-26</span>
+						<a href="javascript:void(0);" title="校工会举办庆祝“三八”妇女节系列活动之《民法典》讲座暨线上知识问答" onclick="checkXnwk('xwsd/187939.htm','xw');">            校工会举办庆祝“三八”妇女节系列活动之... 
+    </a>
+					</li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+        	<div class="articleList">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;">MORE</a></span><h2>信息公告</h2>
+                </div>
+                <ul>
+				                    <li><span>2021-04-25</span>
+						<a href="javascript:void(0);" title="关于做好2021年在职教职工体检工作的通知" onclick="checkXnwk('xxgg/189707.htm','xw');">            关于做好2021年在职教职工体检... 
+    </a>
+						<span class="new"><img src="images/new.png" width="26" height="9"></span>
+					</li>
+				                    <li><span>2021-04-23</span>
+						<a href="javascript:void(0);" title="关于组织召开“校园虚拟卡建设通报会”的通知" onclick="checkXnwk('xxgg/189706.htm','xw');">            关于组织召开“校园虚拟卡建设通报... 
+    </a>
+						<span class="new"><img src="images/new.png" width="26" height="9"></span>
+					</li>
+				                    <li><span>2021-04-21</span>
+						<a href="javascript:void(0);" title="关于第二批教职工接种新冠疫苗第二针的通知" onclick="checkXnwk('xxgg/189554.htm','xw');">            关于第二批教职工接种新冠疫苗第二... 
+    </a>
+						<span class="new"><img src="images/new.png" width="26" height="9"></span>
+					</li>
+				                					 <li><span>2021-04-14</span>
+						<a href="javascript:void(0);" title="关于召开第七届十三次校“双代会”委员会第30次会议的通知" onclick="checkXnwk('xxgg/189555.htm','xw');">            关于召开第七届十三次校“双代会”委员会... 
+    </a>
+					</li>
+									 <li><span>2021-04-12</span>
+						<a href="javascript:void(0);" title="关于召开第七届教职工代表大会、第十三次工会会员代表大会第五次会议主席团会议的通知" onclick="checkXnwk('xxgg/188856.htm','xw');">            关于召开第七届教职工代表大会、第十三次... 
+    </a>
+					</li>
+									 <li><span>2021-04-08</span>
+						<a href="javascript:void(0);" title="关于第一批教职工补种新冠疫苗第二针的通知" onclick="checkXnwk('xxgg/188855.htm','xw');">            关于第一批教职工补种新冠疫苗第二针的通... 
+    </a>
+					</li>
+									 <li><span>2021-04-06</span>
+						<a href="javascript:void(0);" title="关于第三批教职工接种新冠疫苗的通知" onclick="checkXnwk('xxgg/188612.htm','xw');">            关于第三批教职工接种新冠疫苗的通知 
+    </a>
+					</li>
+									 <li><span>2021-04-02</span>
+						<a href="javascript:void(0);" title="关于转发学校体育运动委员会、体研部《南航金城学院教务处_南京财经大学教务处_南京艺术学院第六十二届田径运动会竞赛规程》的通知" onclick="checkXnwk('xxgg/188317.htm','xw');">            关于转发学校体育运动委员会、体研部《首... 
+    </a>
+					</li>
+				                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row mode02">
+    		<div class="col lf">
+            
+            
+            <form name="CLD">
+ <div id='calendar'></div>
+ </form>
+<div class="dateBottom">
+	<ul>
+	    	 <li>
+						<a href="javascript:void(0);" title="教职工社团活动信息(2019)" onclick="checkXnwk('xxgg/155544.htm','$article.belongUser');">            教职工社团活动信息(2019) 
+    </a>
+					</li>
+	    </ul>
+</div> 
+            
+            </div>
+            <div class="col md">
+            
+            
+         <!--TAB切换 start-->
+      <div id="tabs4">
+        <div class="menu4box">
+          <div id="bmore4" class="bmore"> <strong class="current04"></strong><strong></strong></div>
+          <ul id="menu4" class="menu4">
+            <li class="hover" onmouseover="setTab(4,0)">
+              <h3><a href="javascript:;">部门工会活动</a></h3>
+            </li>
+            <li onmouseover="setTab(4,1)">
+              <h3><a href="javascript:;">社团活动</a></h3>
+            </li> 
+                     
+          </ul>
+          
+        </div>
+        <div class="main4box">
+          <div class="main4" id="main4">
+            <ul class="block">
+              <li>
+                <div class="tab_list4">
+                	<div class="tab04Title">
+                    	<h2><a href="javascript:;">MORE</a></h2>
+                    </div>
+                	<div class="list04_list">
+                            <dl>
+							                                <dd><span>2021-03-22</span><a href="javascript:void(0);" title="化学系2020年青年教师教学基本功竞赛成功举办" onclick="checkXnwk('bmgkhd/187788.htm','xw');">            化学系2020年青年教师教学基本功竞... 
+    </a></dd>
+							                                <dd><span>2020-10-15</span><a href="javascript:void(0);" title="物理系举办2020年青年教师教学基本功大赛" onclick="checkXnwk('bmgkhd/187787.htm','xw');">            物理系举办2020年青年教师教学基本... 
+    </a></dd>
+							                                <dd><span>2020-11-06</span><a href="javascript:void(0);" title="体育教研部青年教师基本功比赛成功举行" onclick="checkXnwk('bmgkhd/187783.htm','xw');">            体育教研部青年教师基本功比赛成功举行 
+    </a></dd>
+							                                <dd><span>2021-03-22</span><a href="javascript:void(0);" title="生科院举办2020年青年教职工教学基本功比赛" onclick="checkXnwk('bmgkhd/187782.htm','xw');">            生科院举办2020年青年教职工教学基... 
+    </a></dd>
+							                                <dd><span>2020-10-20</span><a href="javascript:void(0);" title="马克思主义学院举办2020年青年教师教学基本功竞赛" onclick="checkXnwk('bmgkhd/187779.htm','xw');">            马克思主义学院举办2020年青年教师... 
+    </a></dd>
+							                                <dd><span>2020-10-20</span><a href="javascript:void(0);" title="学前教育学院举办第四届青年教师教学基本功比赛" onclick="checkXnwk('bmgkhd/187778.htm','xw');">            学前教育学院举办第四届青年教师教学基... 
+    </a></dd>
+							                                <dd><span>2020-11-19</span><a href="javascript:void(0);" title="良乡校区基础学部工会举办岗位练兵活动" onclick="checkXnwk('bmgkhd/182484.htm','xw');">            良乡校区基础学部工会举办岗位练兵活动 
+    </a></dd>
+							                                <dd><span>2020-10-22</span><a href="javascript:void(0);" title="书法院工会组织“情满深秋 登高行远”健步走活动" onclick="checkXnwk('bmgkhd/179435.htm','xw');">            书法院工会组织“情满深秋 登高行远”... 
+    </a></dd>
+							                                <dd><span>2019-12-10</span><a href="javascript:void(0);" title="后勤举办2019年水电工岗位技能比赛" onclick="checkXnwk('bmgkhd/169984.htm','xw');">            后勤举办2019年水电工岗位技能比赛 
+    </a></dd>
+							                            </dl>
+                    </div>
+                    
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div class="tab_list4">
+                  	<div class="tab04Title">
+                      <h2><a href="javascript:;">MORE</a></h2>
+                    </div>
+                  <div class="list04_list">
+                            <dl>
+                                                               <dd><span>2019-12-10</span><a href="javascript:void(0);" title="2019年教职工乒乓球团体赛圆满落幕" onclick="checkXnwk('sthd/170039.htm','xw');">            2019年教职工乒乓球团体赛圆满落幕 
+    </a></dd>
+							                                <dd><span>2019-11-20</span><a href="javascript:void(0);" title="我校2019年教职工羽毛球赛顺利落幕" onclick="checkXnwk('sthd/168960.htm','xw');">            我校2019年教职工羽毛球赛顺利落幕 
+    </a></dd>
+							                                <dd><span>2019-04-17</span><a href="javascript:void(0);" title="教职工" onclick="checkXnwk('sthd/157917.htm','xw');">            教职工 
+    </a></dd>
+							                                <dd><span>2018-12-28</span><a href="javascript:void(0);" title="我校2018年教职工羽毛球赛顺利落幕" onclick="checkXnwk('sthd/152975.htm','xw');">            我校2018年教职工羽毛球赛顺利落幕 
+    </a></dd>
+							                                <dd><span>2018-12-28</span><a href="javascript:void(0);" title="2018年教职工乒乓球团体赛圆满落幕" onclick="checkXnwk('sthd/152966.htm','xw');">            2018年教职工乒乓球团体赛圆满落幕 
+    </a></dd>
+							                                <dd><span>2018-12-27</span><a href="javascript:void(0);" title="我校举行首届教职工气排球比赛" onclick="checkXnwk('sthd/152925.htm','xw');">            我校举行首届教职工气排球比赛 
+    </a></dd>
+							                                <dd><span>2018-12-13</span><a href="javascript:void(0);" title="2018年教职工篮球赛成功举办" onclick="checkXnwk('sthd/152164.htm','xw');">            2018年教职工篮球赛成功举办 
+    </a></dd>
+							                                <dd><span>2018-12-07</span><a href="javascript:void(0);" title="教职工钓鱼协会成功举办秋钓活动" onclick="checkXnwk('sthd/151822.htm','xw');">            教职工钓鱼协会成功举办秋钓活动 
+    </a></dd>
+							                                <dd><span>2018-10-12</span><a href="javascript:void(0);" title="2018年秋季教职工足球比赛火热进行中" onclick="checkXnwk('sthd/147758.htm','xw');">            2018年秋季教职工足球比赛火热进行... 
+    </a></dd>
+							                            </dl>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--TAB切换 end-->             
+            
+            </div>
+            <div class="col rt">
+            
+            
+            
+         <!--TAB切换 start-->
+      <div id="tabs5">
+        <div class="menu5box">
+          <div id="bmore5" class="bmore"> <strong class="current04"></strong><strong></strong></div>
+          <ul id="menu5" class="menu5">
+            <li class="hover" onmouseover="setTab(5,0)">
+              <h3><a href="javascript:;">教师风采</a></h3>
+            </li>
+            <li onmouseover="setTab(5,1)">
+              <h3><a href="javascript:;">视频荟萃</a></h3>
+            </li> 
+                     
+          </ul>
+          
+        </div>
+        <div class="main5box">
+          <div class="main5" id="main5">
+            <ul class="block">
+              <li>
+                <div class="tab_list5">
+                	<div class="tab05Title">
+                    	<h2><a href="javascript:;">MORE</a></h2>
+                    </div>
+					<div class="teacher">    	                 
+                    <!--图片展示开始-->
+                    	<div class="img_news_con">
+                        <!--imgs_scroll开始-->
+                        <div class="imgs_scroll">
+                            <span class="prev" style="display:block"><img src="images/left.png" alt="" title="上一张" width="8" height="19"></span>
+                            <span class="next" style="display:block"><img src="images/right.png" alt="" title="下一张" width="8" height="19"></span>
+                            		<!--imgs_news_list开始-->
+                                    <div class="imgs_news_list">
+                                                <dl>
+												                                                           <dd>
+                        <a href="javascript:;" title="2019年度退休教职工表彰慰问暨座谈会">   <img src="images/content/2019-11/20191120135836446689.jpg" width="279" height="209"></a>
+                        <div class="txt2"><a href="javascript:;" title="2019年度退休教职工表彰慰问暨座谈会">            2019年度退休教职工表彰慰问暨... 
+     </a>
+                                                            </div>
+                                                           </dd>
+												                                                           <dd>
+                        <a href="javascript:;" title="2019年满30年教（工）龄表彰慰问暨座谈会">   <img src="images/content/2019-11/20191120135917313797.jpg" width="279" height="209"></a>
+                        <div class="txt2"><a href="javascript:;" title="2019年满30年教（工）龄表彰慰问暨座谈会">            2019年满30年教（工）龄表彰... 
+     </a>
+                                                            </div>
+                                                           </dd>
+												                                                           <dd>
+                        <a href="javascript:;" title="教职工七一合唱展演精彩瞬间">   <img src="images/content/2019-07/20190705085624048939.JPG" width="279" height="209"></a>
+                        <div class="txt2"><a href="javascript:;" title="教职工七一合唱展演精彩瞬间">            教职工七一合唱展演精彩瞬间 
+     </a>
+                                                            </div>
+                                                           </dd>
+												                                                         
+														   
+                                                 </dl>
+                                    </div>
+                                    <!--imgs_news_list结束-->
+                       </div>
+                       <!--imgs_scroll结束-->
+                        
+       </div>
+       <!--图片展示结束-->
+</div>
+
+                    
+                </div>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <div class="tab_list5">
+                  	<div class="tab05Title">
+                      <h2><a href="javascript:;">MORE</a></h2>
+                    </div>
+                  <div class="list05_list">
+					<div class="teacher">    	                 
+                    <!--图片展示开始-->
+                    	<div class="img_news_con">
+                        <!--imgs_scroll开始-->
+                        <div class="imgs_scroll">
+                         <!--   <span class="prev" style="display:block"></span>
+                            <span class="next" style="display:block"></span>-->
+							 <span class="prev" style="display:block"><img src="images/left.png" alt="" title="上一张" width="8" height="19"></span>
+                            <span class="next" style="display:block"><img src="images/right.png" alt="" title="下一张" width="8" height="19"></span>
+							
+                           
+                            		<!--imgs_news_list开始-->
+                                    <div class="imgs_news_list">
+                                                <dl>
+                                                                                                                      <dd>
+                    <a href="javascript:;" title="2019构建和谐美好校园">  <img src="images/content/2019-12/20191223153241821697.JPG" width="279" height="209"></a>
+                        <div class="txt2"><a href="javascript:;" title="2019构建和谐美好校园">            2019构建和谐美好校园 
+     </a>
+                                                            </div>
+                                                           </dd>
+												                                                           <dd>
+                    <a href="javascript:;" title="“祖国颂 首师情”教职工七一合唱展演活动">  <img src="images/content/2019-09/20190910090230063691.jpg" width="279" height="209"></a>
+                        <div class="txt2"><a href="javascript:;" title="“祖国颂 首师情”教职工七一合唱展演活动">            “祖国颂 首师情”教职工七一合唱... 
+     </a>
+                                                            </div>
+                                                           </dd>
+												                                                           <dd>
+                    <a href="javascript:;" title="工会大讲堂——玩绘本学英语家长工作坊">  <img src="images/content/2017-11/20171123102856964630.jpg" width="279" height="209"></a>
+                        <div class="txt2"><a href="javascript:;" title="工会大讲堂——玩绘本学英语家长工作坊">            工会大讲堂——玩绘本学英语家长工... 
+     </a>
+                                                            </div>
+                                                           </dd>
+												                                                 </dl>
+                                    </div>
+                                    <!--imgs_news_list结束-->
+                       </div>
+                       <!--imgs_scroll结束-->
+                        
+       </div>
+       <!--图片展示结束-->
+</div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--TAB切换 end-->             
+            
+            
+            </div>
+    </div>
+</div>
+<div class="footer">
+  <div class="copyRight">
+			
+            	<a href="javascript:;">电子提案系统 </a>	&nbsp;｜&nbsp;
+            	<a href="javascript:;">会员管理系统  </a>	&nbsp;｜&nbsp;
+            	<a href="javascript:;">活动报名系统  </a>	&nbsp;｜&nbsp;
+            	<a href="javascript:;">下载专区  </a>&nbsp;｜&nbsp;
+            	<a href="javascript:;">友情链接 </a><br>
+版权所有：南航金城学院教务处_南京财经大学教务处_南京艺术学院（工会）&nbsp;&nbsp;地址：北京市西三环北路105号&nbsp;&nbsp;邮政编码：100048&nbsp;&nbsp;网页访问量：<span><script src="http://202.204.221.10:8080/gplog/log/channelVisitLog.jsp?parentID=5192"></script></span>
+
+
+     <script src="http://202.204.221.10:8080/gplog/log/writeLog.jsp?siteID=96&channelID=5192"></script>           
+        <br><a href="javascript:;" style="color:#000">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号    
+    </div></div>
+
+<script type="text/javascript" src="../js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="../js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    });
+	
+	
+	
+	
+	  var lunarInfo=new Array(
+  0x04bd8,0x04ae0,0x0a570,0x054d5,0x0d260,0x0d950,0x16554,0x056a0,0x09ad0,0x055d2,
+  0x04ae0,0x0a5b6,0x0a4d0,0x0d250,0x1d255,0x0b540,0x0d6a0,0x0ada2,0x095b0,0x14977,
+  0x04970,0x0a4b0,0x0b4b5,0x06a50,0x06d40,0x1ab54,0x02b60,0x09570,0x052f2,0x04970,
+  0x06566,0x0d4a0,0x0ea50,0x06e95,0x05ad0,0x02b60,0x186e3,0x092e0,0x1c8d7,0x0c950,
+  0x0d4a0,0x1d8a6,0x0b550,0x056a0,0x1a5b4,0x025d0,0x092d0,0x0d2b2,0x0a950,0x0b557,
+  0x06ca0,0x0b550,0x15355,0x04da0,0x0a5d0,0x14573,0x052d0,0x0a9a8,0x0e950,0x06aa0,
+  0x0aea6,0x0ab50,0x04b60,0x0aae4,0x0a570,0x05260,0x0f263,0x0d950,0x05b57,0x056a0,
+  0x096d0,0x04dd5,0x04ad0,0x0a4d0,0x0d4d4,0x0d250,0x0d558,0x0b540,0x0b5a0,0x195a6,
+  0x095b0,0x049b0,0x0a974,0x0a4b0,0x0b27a,0x06a50,0x06d40,0x0af46,0x0ab60,0x09570,
+  0x04af5,0x04970,0x064b0,0x074a3,0x0ea50,0x06b58,0x055c0,0x0ab60,0x096d5,0x092e0,
+  0x0c960,0x0d954,0x0d4a0,0x0da50,0x07552,0x056a0,0x0abb7,0x025d0,0x092d0,0x0cab5,
+  0x0a950,0x0b4a0,0x0baa4,0x0ad50,0x055d9,0x04ba0,0x0a5b0,0x15176,0x052b0,0x0a930,
+  0x07954,0x06aa0,0x0ad50,0x05b52,0x04b60,0x0a6e6,0x0a4e0,0x0d260,0x0ea65,0x0d530,
+  0x05aa0,0x076a3,0x096d0,0x04bd7,0x04ad0,0x0a4d0,0x1d0b6,0x0d250,0x0d520,0x0dd45,
+  0x0b5a0,0x056d0,0x055b2,0x049b0,0x0a577,0x0a4b0,0x0aa50,0x1b255,0x06d20,0x0ada0)
+   
+  var solarMonth=new Array(31,28,31,30,31,30,31,31,30,31,30,31);
+  var Animals=new Array("鼠","牛","虎","兔","龙","蛇","马","羊","猴","鸡","狗","猪");
+  var solarTerm = new Array("小寒","大寒","立春","雨水","惊蛰","春分","清明","谷雨","立夏","小满","芒种","夏至","小暑","大暑","立秋","处暑","白露","秋分","寒露","霜降","立冬","小雪","大雪","冬至");
+  var sTermInfo = new Array(0,21208,42467,63836,85337,107014,128867,150921,173149,195551,218072,240693,263343,285989,308563,331033,353350,375494,397447,419210,440795,462224,483532,504758);
+  var nStr1 = new Array('日','一','二','三','四','五','六','七','八','九','十');
+ var nStr2 = new Array('初','十','廿','卅');
+ //公历节日
+ var sFtv = new Array(
+  "0101 元旦",
+  "0214 情人节",
+ "0308 妇女节",
+ "0312 植树节",
+ "0315 消费者权益日",
+ "0401 愚人节",
+ "0501 劳动节",
+  "0504 青年节",
+ "0512 护士节",
+ "0601 儿童节",
+ "0701 建党节",
+ "0801 建军节",
+ "0910 教师节",
+ "0928 孔子诞辰",
+ "1001 国庆节",
+ "1006 老人节",
+ "1024 联合国日",
+ "1224 平安夜",
+  "1225 圣诞节")
+ //农历节日
+ var lFtv = new Array(
+ "0101 春节",
+  "0115 元宵节",
+  "0505 端午节",
+ "0707 七夕情人节",
+ "0715 中元节",
+ "0815 中秋节",
+ "0909 重阳节",
+ "1208 腊八节",
+ "1224 小年")
+  //返回农历y年的总天数
+ function lYearDays(y) {
+    var i, sum = 348;
+     for(i=0x8000; i>0x8; i>>=1)sum+=(lunarInfo[y-1900]&i)?1:0;
+     return(sum+leapDays(y));
+ }
+  //返回农历y年闰月的天数
+ function leapDays(y) {
+     if(leapMonth(y))  return((lunarInfo[y-1900] & 0x10000)? 30: 29);
+    else return(0);
+ }
+  //判断y年的农历中那个月是闰月,不是闰月返回0
+ function leapMonth(y){
+    return(lunarInfo[y-1900]&0xf);
+ }
+ //返回农历y年m月的总天数
+ function monthDays(y,m){
+    return((lunarInfo[y-1900]&(0x10000>>m))?30:29);
+  }
+ //算出当前月第一天的农历日期和当前农历日期下一个月农历的第一天日期
+ function Dianaday(objDate) {
+    var i, leap=0, temp=0;
+    var baseDate = new Date(1900,0,31);
+     var offset   = (objDate - baseDate)/86400000;
+    this.dayCyl = offset+40;
+    this.monCyl = 14;
+    for(i=1900; i<2050 && offset>0; i++) {
+       temp = lYearDays(i)
+       offset -= temp;
+        this.monCyl += 12;
+    }
+     if(offset<0) {
+        offset += temp;
+       i--;
+       this.monCyl -= 12;
+    }
+    this.year = i;
+    this.yearCyl=i-1864;
+    leap = leapMonth(i); //闰哪个月
+    this.isLeap = false;
+    for(i=1; i<13 && offset>0; i++) {
+       if(leap>0 && i==(leap+1) && this.isLeap==false){    //闰月
+           --i; this.isLeap = true; temp = leapDays(this.year);}
+       else{
+          temp = monthDays(this.year, i);}
+       if(this.isLeap==true && i==(leap+1)) this.isLeap = false;    //解除闰月
+       offset -= temp;
+       if(this.isLeap == false) this.monCyl++;
+    }
+    if(offset==0 && leap>0 && i==leap+1)
+       if(this.isLeap){ this.isLeap = false;}
+       else{this.isLeap=true;--i;--this.monCyl;}
+    if(offset<0){offset+=temp;--i;--this.monCyl;}
+    this.month=i;
+    this.day=offset+1;
+ }
+ //返回公历y年m+1月的天数
+ function solarDays(y,m){
+    if(m==1)
+       return(((y%4==0)&&(y%100!=0)||(y%400==0))?29:28);
+    else
+       return(solarMonth[m]);
+ }
+ //记录公历和农历某天的日期
+ function calElement(sYear,sMonth,sDay,week,lYear,lMonth,lDay,isLeap) {
+       this.isToday = false;
+       //公历
+       this.sYear = sYear;
+       this.sMonth = sMonth;
+       this.sDay = sDay;
+       this.week = week;
+       //农历
+       this.lYear = lYear;
+       this.lMonth = lMonth;
+       this.lDay = lDay;
+       this.isLeap = isLeap;
+       //节日记录
+       this.lunarFestival = ''; //农历节日
+       this.solarFestival = ''; //公历节日
+       this.solarTerms = ''; //节气
+ }
+ //返回某年的第n个节气为几日(从0小寒起算)
+ function sTerm(y,n) {
+    var offDate = new Date((31556925974.7*(y-1900)+sTermInfo[n]*60000)+Date.UTC(1900,0,6,2,5));
+    return(offDate.getUTCDate())
+ }
+ //保存y年m+1月的相关信息
+ var fat=mat=9;
+ var eve=0;
+ function calendar(y,m) {
+    fat=mat=0;
+    var sDObj,lDObj,lY,lM,lD=1,lL,lX=0,tmp1,tmp2;
+    var lDPOS = new Array(3);
+    var n = 0;
+    var firstLM = 0;
+    sDObj = new Date(y,m,1);    //当月第一天的日期
+    this.length = solarDays(y,m);    //公历当月天数
+    this.firstWeek = sDObj.getDay();    //公历当月1日星期几
+    if ((m+1)==5){fat=sDObj.getDay()}
+    if ((m+1)==6){mat=sDObj.getDay()}
+    for(var i=0;i<this.length;i++) {
+       if(lD>lX) {
+          sDObj = new Date(y,m,i+1);    //当月第一天的日期
+          lDObj = new Dianaday(sDObj);     //农历
+          lY = lDObj.year;           //农历年
+          lM = lDObj.month;          //农历月
+          lD = lDObj.day;            //农历日
+          lL = lDObj.isLeap;         //农历是否闰月
+         lX = lL? leapDays(lY): monthDays(lY,lM); //农历当月最後一天
+          if (lM==12){eve=lX}
+          if(n==0) firstLM = lM;
+          lDPOS[n++] = i-lD+1;
+       }
+       this[i] = new calElement(y,m+1,i+1,nStr1[(i+this.firstWeek)%7],lY,lM,lD++,lL);
+       if((i+this.firstWeek)%7==0){
+          /*this[i].color = 'red';*/  //周日颜色
+       }
+    }
+    //节气
+    tmp1=sTerm(y,m*2)-1;
+    tmp2=sTerm(y,m*2+1)-1;
+    this[tmp1].solarTerms = solarTerm[m*2];
+    this[tmp2].solarTerms = solarTerm[m*2+1];
+    if((this.firstWeek+12)%7==5)    //黑色星期五
+       this[12].solarFestival += '黑色星期五';
+    if(y==tY && m==tM) this[tD-1].isToday = true;    //今日
+ }
+ //用中文显示农历的日期
+ function cDay(d){
+    var s;
+    switch (d) {
+       case 10:
+          s = '初十'; break;
+       case 20:
+          s = '二十'; break;
+          break;
+       case 30:
+          s = '三十'; break;
+          break;
+       default :
+          s = nStr2[Math.floor(d/10)];
+          s += nStr1[d%10];
+    }
+    return(s);
+ }
+ //在表格中显示公历和农历的日期,以及相关节日 http://www.cnblogs.com/jihua/
+ var cld;
+ function drawCld(SY,SM) {
+    var TF=true;
+    var p1=p2="";
+    var i,sD,s,size;
+    cld = new calendar(SY,SM);
+    GZ.innerHTML = '&nbsp;&nbsp;&nbsp;&nbsp;['+Animals[(SY-4)%12]+']';    //生肖
+    for(i=0;i<42;i++) {
+       sObj=eval('SD'+ i);
+       lObj=eval('LD'+ i);
+       sObj.className = '';
+       sD = i - cld.firstWeek;
+       if(sD>-1 && sD<cld.length) { //日期内
+          sObj.innerHTML = sD+1;
+          if(cld[sD].isToday){ sObj.style.color = '#008bd6';} //今日颜色
+          else{sObj.style.color = '';}
+          if(cld[sD].lDay==1){ //显示农历月
+            lObj.innerHTML = '<b>'+(cld[sD].isLeap?'闰':'') + cld[sD].lMonth + '月' + (monthDays(cld[sD].lYear,cld[sD].lMonth)==29?'小':'大')+'</b>';
+          }
+          else{lObj.innerHTML = cDay(cld[sD].lDay);}    //显示农历日
+         var Slfw=Ssfw=null;
+         s=cld[sD].solarFestival;
+         for (var ipp=0;ipp<lFtv.length;ipp++){    //农历节日
+             if (parseInt(lFtv[ipp].substr(0,2))==(cld[sD].lMonth)){
+                 if (parseInt(lFtv[ipp].substr(2,4))==(cld[sD].lDay)){
+                     lObj.innerHTML=lFtv[ipp].substr(5);
+                     Slfw=lFtv[ipp].substr(5);
+                 }
+             }
+             if (12==(cld[sD].lMonth)){    //判断是否为除夕
+                 if (eve==(cld[sD].lDay)){lObj.innerHTML="除夕";Slfw="除夕";}
+             }
+         }
+         for (var ipp=0;ipp<sFtv.length;ipp++){    //公历节日
+             if (parseInt(sFtv[ipp].substr(0,2))==(SM+1)){
+                 if (parseInt(sFtv[ipp].substr(2,4))==(sD+1)){
+                     lObj.innerHTML=sFtv[ipp].substr(5);
+                     Ssfw=sFtv[ipp].substr(5);
+                 }
+             }
+         }
+         if ((SM+1)==5){    //母亲节
+             if (fat==0){
+                 if ((sD+1)==7){Ssfw="母亲节";lObj.innerHTML="母亲节"}
+             }
+             else if (fat<9){
+                 if ((sD+1)==((7-fat)+8)){Ssfw="母亲节";lObj.innerHTML="母亲节"}
+             }
+         }
+         if ((SM+1)==6){    //父亲节
+             if (mat==0){
+                 if ((sD+1)==14){Ssfw="父亲节";lObj.innerHTML="父亲节"}
+             }
+             else if (mat<9){
+                 if ((sD+1)==((7-mat)+15)){Ssfw="父亲节";lObj.innerHTML="父亲节"}
+             }
+          }
+          if (s.length<=0){    //设置节气的颜色
+             s=cld[sD].solarTerms;
+             /*if(s.length>0) s = s.fontcolor('limegreen');*/        
+          }
+          if(s.length>0) {lObj.innerHTML=s;Slfw=s;}    //节气
+          if ((Slfw!=null)&&(Ssfw!=null)){
+             lObj.innerHTML=Slfw+"/"+Ssfw;
+          }                        
+       }
+       else { //非日期
+          sObj.innerHTML = '';
+          lObj.innerHTML = '';
+       }
+    }
+ }
+ //在下拉列表中选择年月时,调用自定义函数drawCld(),显示公历和农历的相关信息
+ function changeCld() {
+    var y,m;
+    y=CLD.SY.selectedIndex+1900;
+    m=CLD.SM.selectedIndex;
+    drawCld(y,m);
+ }
+ //用自定义变量保存当前系统中的年月日
+ var Today = new Date();
+ var tY = Today.getFullYear();
+ var tM = Today.getMonth();
+ var tD = Today.getDate();
+ //打开页时,在下拉列表中显示当前年月,并调用自定义函数drawCld(),显示公历和农历的相关信息
+ function initial() {
+    CLD.SY.selectedIndex=tY-1900;
+    CLD.SM.selectedIndex=tM;
+    drawCld(tY,tM);
+ }
+ //-->
+
+		function setTab(m,n){
+		var tli=document.getElementById("menu"+m).getElementsByTagName("li");
+		 var tmo=document.getElementById("bmore"+m).getElementsByTagName("strong");
+		 var mli=document.getElementById("main"+m).getElementsByTagName("ul");
+		 for(i=0;i<tli.length;i++){
+		  tli[i].className=i==n?"hover":"";
+		  mli[i].style.display=i==n?"block":"none";
+		  tmo[i].className=i==n?"current02":"";
+ }
+}
+
+
+
+
+
+
+
+document.write ("<DIV id=img1 style='Z-INDEX: 9999; LEFT:2px; WIDTH:182px; POSITION: absolute; TOP: 43px; margin-left:50%; HEIGHT: 109px; ") 
+document.write (" visibility: visible;'> ") 
+document.write (" </span></DIV></a> ") 
+
+var xPos = 0; 
+var yPos = 0; 
+var step = 5; 
+var delay = 120; 
+var height = 0; 
+var Hoffset = 0; 
+var Woffset = 0; 
+var yon = 0; 
+var xon = 0; 
+var pause = true; 
+var interval; 
+img1.style.top = yPos; 
+function changePos() 
+{ 
+  width = document.documentElement.clientWidth/2; 
+  // height = document.documentElement.clientHeight; 
+  height = 188; 
+  Hoffset = img1.offsetHeight; 
+  Woffset = img1.offsetWidth; 
+  img1.style.left = xPos+'px'; 
+  img1.style.top = yPos+'px'; 
+  if (yon) 
+  {yPos = yPos + step;} 
+  else 
+  {yPos = yPos - step;} 
+  if (yPos < 0) 
+  {yon = 1;yPos = 0;} 
+  if (yPos >= (height - Hoffset)) 
+  {yon = 0;yPos = (height - Hoffset);} 
+  if (xon) 
+  {xPos = xPos + step;} 
+  else 
+  {xPos = xPos - step;} 
+  if (xPos < 0) 
+  {xon = 1;xPos = 0;} 
+  if (xPos >= (width - Woffset)) 
+  {xon = 0;xPos = (width - Woffset); } 
+} 
+function start() 
+
+{ 
+document.body.style.overflow = "";
+img1.visibility = "visible"; 
+interval = setInterval('changePos()', delay); 
+} 
+function pause_resume() 
+{ 
+if(pause) 
+{ 
+clearInterval(interval); 
+pause = false;} 
+else 
+{ 
+interval = setInterval('changePos()',delay); 
+pause = true; 
+} 
+} 
+ start(); 
+
+
+	
+</script>
+<script src='js/moment.min.js'></script>
+<script src='js/fullcalendar.min.js'></script>
+<script src='js/zh-cn.js'></script>
+<script src='js/jquery.artDialog.js'></script>
+<script src='js/customizeCalendar.js'></script>
+
+</body></html>

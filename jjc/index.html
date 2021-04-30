@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院基建处</title>
+<link href="css/jjc.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script type="text/javascript" src="../js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+  <div id="container">
+     <div id="header">
+	     <div class="banner">
+		 <div class="roll">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="308" height="30">
+         <param name="movie" value="images/focus2.swf">
+         <param name="quality" value="high">
+         <embed src="../news/images/2011red/logo.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="308" height="30">
+    </object>
+</div></div>
+		 
+<div class="nav">
+		    <ul>
+			  <li style="background:none;"><a href="javascript:;">首  页</a></li>
+			  			  <li><a href="javascript:;">机构简介</a></li>
+			  			  <li><a href="javascript:;">招投标信息</a></li>
+			  			  <li><a href="javascript:;">校园规划</a></li>
+			  			  <li><a href="javascript:;">政策法规</a></li>
+			  			  <li><a href="javascript:;">工程展示</a></li>
+			  			  <li><a href="javascript:;">廉政建设</a></li>
+			  			  <li><a href="javascript:;">支部生活</a></li>
+			  			  <li><a href="javascript:;">方案评选</a></li>
+			  			</ul>
+		 </div><!--<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<script>
+document.write('<div id="floatWindow" style="position:absolute"><a href="ysl/index.htm" target="_blank"><img src="images/ysl.jpg" border="0" width="270" height="80"></a></div> ')
+var x = 50,y = 60 
+var xin = true, yin = true 
+var step = 1 
+var delay = 10 
+var obj=document.getElementById("floatWindow") 
+function floatAD() { 
+var L=T=0 
+var R= document.body.clientWidth-obj.offsetWidth 
+var B = document.body.clientHeight-obj.offsetHeight 
+obj.style.left = x + document.body.scrollLeft 
+obj.style.top = y + document.body.scrollTop 
+x = x + step*(xin?1:-1) 
+if (x < L) { xin = true; x = L} 
+if (x > R){ xin = false; x = R} 
+y = y + step*(yin?1:-1) 
+if (y < T) { yin = true; y = T } 
+if (y > B) { yin = false; y = B } 
+} 
+var itl= setInterval("floatAD()", delay) 
+obj.onmouseover=function(){clearInterval(itl)} 
+obj.onmouseout=function(){itl=setInterval("floatAD()", delay)} 
+</script>-->
+	 </div>
+	 <div id="content">
+	     <div class="left">
+		    <div class="box01">
+			    <div class="title">
+				   <h3>工作动态</h3><a href="javascript:;"><img src="images/more.gif"></a>
+				</div>
+				<div class="flash_news">
+			<script type="text/javascript">
+				var imgUrl=new Array();
+				var imgLink=new Array();
+				var imgName=new Array();
+				var n=1;									
+																    					imgUrl[n]  = "images//content/2016-07/20160720130853036711.jpg";
+	    					imgLink[n] = "tpxw/88879.htm";
+	    					imgName[n] = "7.20基建处暴雨检查施工现场安全";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2016-04/20160429101512885585.jpg";
+	    					imgLink[n] = "gzdt/81904.htm";
+	    					imgName[n] = "基建处对行政楼、教学楼项目现场进行逐层检查";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2016-01/20160118093619488453.jpg";
+	    					imgLink[n] = "gzdt/75704.htm";
+	    					imgName[n] = "我校基建工作领导小组工作总结研讨会暨幼儿园建设工作领导小组协调会顺利召开";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2015-11/20151117171844947492.jpg";
+	    					imgLink[n] = "gzdt/67940.htm";
+	    					imgName[n] = "北京市教委领导对我校南校区建设项目现场视察";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2015-11/20151105130950542489.jpg";
+	    					imgLink[n] = "gzdt/67040.htm";
+	    					imgName[n] = "我校南校区行政楼、教学楼项目取得结构长城金杯奖";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2015-04/20150403111951390096.jpg";
+	    					imgLink[n] = "gzdt/51024.htm";
+	    					imgName[n] = "学校召开“校本部东校门设计方案”意见征询会";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2015-01/20150108111334171901.jpg";
+	    					imgLink[n] = "gzdt/43303.htm";
+	    					imgName[n] = "海淀供电局徐弛局长检查我校南校区总配电室项目";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2015-01/20150108111119500639.jpg";
+	    					imgLink[n] = "gzdt/43302.htm";
+	    					imgName[n] = "我校被海淀区统计局评为2014年度固定资产投资统计工作先进单位";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2015-01/20150108110836781581.jpg";
+	    					imgLink[n] = "gzdt/43301.htm";
+	    					imgName[n] = "我校文物保护建筑（通州阅览室）修缮工程通过竣工验收";
+            				 n++;
+																																															    					imgUrl[n]  = "images//content/2014-11/20141120142101625280.jpg";
+	    					imgLink[n] = "gzdt/21712.htm";
+	    					imgName[n] = "北京市教委联合市建委对我校南校区行政楼、教学楼项目进行建筑质量安全检查";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2014-11/20141105124127671401.jpg";
+	    					imgLink[n] = "gzdt/21348.htm";
+	    					imgName[n] = "基建处联合保卫处对南校区在建项目工地进行安全检查";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2014-10/20141024152301171947.jpg";
+	    					imgLink[n] = "gzdt/20507.htm";
+	    					imgName[n] = "田士合同志被聘为北京市自来水集团管网管理分公司社会监督员";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2014-09/20140916154535750566.jpg";
+	    					imgLink[n] = "tpxw/18074.htm";
+	    					imgName[n] = "我校南校区理科教学楼工程取得结构长城金杯奖";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-09/20140916154121937390.jpg";
+	    					imgLink[n] = "tpxw/18069.htm";
+	    					imgName[n] = "我校南校区行政楼、教学楼工程顺利封顶";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-09/20140909154651359622.jpg";
+	    					imgLink[n] = "tpxw/17808.htm";
+	    					imgName[n] = "学生活动中心工程通过竣工验收";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-07/20140723145613000523.jpg";
+	    					imgLink[n] = "tpxw/17648.htm";
+	    					imgName[n] = "校领导视察南校区三个建设项目";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-06/20140627170020906455.jpg";
+	    					imgLink[n] = "tpxw/17459.htm";
+	    					imgName[n] = "海淀区副区长刘长利带队到我校建设工地进行安全检查";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-06/20140613120344593187.jpg";
+	    					imgLink[n] = "tpxw/17223.htm";
+	    					imgName[n] = "我校东校区学生操场通过竣工验收并移交校体研部投入使用";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-05/20140527141254593468.jpg";
+	    					imgLink[n] = "tpxw/16791.htm";
+	    					imgName[n] = "市发改委副主任燕瑛视察首师大三年规划建设项目专项稽查工作";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2014-01/20140117164822468814.jpg";
+	    					imgLink[n] = "tpxw/13925.htm";
+	    					imgName[n] = "春节前基建处联合保卫处和片区民警对南校区三个项目工地进行安全联合检查";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-11/20131129152309859241.jpg";
+	    					imgLink[n] = "tpxw/12056.htm";
+	    					imgName[n] = "我校南校区理科教学楼顺利封顶";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-11/20131106085025218576.jpg";
+	    					imgLink[n] = "tpxw/9900.htm";
+	    					imgName[n] = "市政管委夜查建筑垃圾运输，首师大行政楼项目受表扬";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-09/20130912140712093226.jpg";
+	    					imgLink[n] = "tpxw/8725.htm";
+	    					imgName[n] = "张雪书记再次到行政楼、教学楼建设项目工作调研";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-09/20130911154927765955.jpg";
+	    					imgLink[n] = "tpxw/8686.htm";
+	    					imgName[n] = "基建处组织建设项目参建方召开专题会动员落实北京市清洁空气行动计划";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-08/20130815171742671387.jpg";
+	    					imgLink[n] = "tpxw/8472.htm";
+	    					imgName[n] = "张雪书记视察南校区三个建设项目";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-05/20130528115536546441.jpg";
+	    					imgLink[n] = "tpxw/7898.htm";
+	    					imgName[n] = "市教委领导来我校视察基本建设进度";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-05/20130528115325921349.jpg";
+	    					imgLink[n] = "tpxw/7897.htm";
+	    					imgName[n] = "市园林局尹处长勘察行政楼现场";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-05/20130520163210656197.jpg";
+	    					imgLink[n] = "tpxw/7832.htm";
+	    					imgName[n] = "南航金城学院教务处_南京财经大学教务处_南京艺术学院南校区行政楼、教学楼工程奠基仪式";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2013-01/20130110083625372251.jpg";
+	    					imgLink[n] = "tpxw/6071.htm";
+	    					imgName[n] = "南航金城学院教务处_南京财经大学教务处_南京艺术学院南校区行政楼、教学楼项目招标现场踏勘答疑会";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2012-12/20121225105218498096.jpg";
+	    					imgLink[n] = "tpxw/6003.htm";
+	    					imgName[n] = "校工会慰问基建处全体老师";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2012-10/20121024093505484316.jpg";
+	    					imgLink[n] = "tpxw/5024.htm";
+	    					imgName[n] = "市教委、市建委基建工程联合检查组到我校坚持指导工作";
+            				n++;
+																																																																			    					imgUrl[n]  = "images//content/2011-05/20110527145728223213.jpg";
+	    					imgLink[n] = "tpxw/601.htm";
+	    					imgName[n] = "东校区食堂（浴室）工程开工";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-04/20110413093128477143.jpg";
+	    					imgLink[n] = "tpxw/359.htm";
+	    					imgName[n] = "北京市属高校总体规划与基本建设工作协调会在我校召开";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-03/20110322082555171257.jpg";
+	    					imgLink[n] = "tpxw/113.htm";
+	    					imgName[n] = "规划会议";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-03/20110322082214609148.jpg";
+	    					imgLink[n] = "tpxw/112.htm";
+	    					imgName[n] = "基建处组织召开南校区图书馆及北二区教学楼抗震加固工程协调会";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-03/20110311081849723749.jpg";
+	    					imgLink[n] = "tpxw/106.htm";
+	    					imgName[n] = "法制晚报文章《活动中心咋建  学生说了算》";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-03/20110311081359176661.jpg";
+	    					imgLink[n] = "tpxw/105.htm";
+	    					imgName[n] = "全家福";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-03/20110311080623098383.jpg";
+	    					imgLink[n] = "tpxw/104.htm";
+	    					imgName[n] = "市教委何劲松副主任到我校调研总体规划与基本建设工作";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-02/20110222145952468349.jpg";
+	    					imgLink[n] = "tpxw/77.htm";
+	    					imgName[n] = "教学楼";
+            				n++;
+																											    					imgUrl[n]  = "images//content/2011-02/20110222145531843206.jpg";
+	    					imgLink[n] = "gczs/29.htm";
+	    					imgName[n] = "北二区学生宿舍(食堂和浴室)";
+            				 n++;
+																											    					imgUrl[n]  = "images//content/2011-02/20110222145227327113.jpg";
+	    					imgLink[n] = "gczs/74.htm";
+	    					imgName[n] = "北区图书馆";
+            				 n++;
+																	var texts = "";
+							var links = "";
+							var pics = "";
+							var count=1;
+							for(var h=1; h<n; h++) {
+								if (count>6)
+									break;
+								if ((imgUrl[h] !="") && (imgLink[h] !="") && (imgUrl[h].indexOf(".jpg") > 0)){
+									if (imgName[h].length > 20)
+										imgName[h] = imgName[h].substring(0, 20) + "...";
+													texts += imgName[h] + "|";
+													links += imgLink[h] + "|";
+													pics += imgUrl[h] + "|";
+													count++;
+													}
+												}
+												texts = texts.substring(0, texts.length-1);
+												links = links.substring(0, links.length-1);
+												pics = pics.substring(0, pics.length-1);
+												var focus_width=275
+												var focus_height=221
+												var text_height=0
+												var swf_height = focus_height+text_height
+												document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+												
+								document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="images/focus.swf"><param name="quality" value="high"> <param name="bgcolor" value= "#FFFFFF">');				
+												document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+												
+												document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+												
+												document.write('<embed src="images/focus.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#ffffff" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+								</script>
+								</div>												
+				<div class="news">
+				   <div class="sum">
+				      					  <h3>            良乡新校区建设项目项目建议书及可行性研究... 
+    </h3>
+					  <p>            $article.summary 
+    <a href="javascript:;">[详细]</a></p>
+					  				   </div>
+				   <ul>				     <li><span>2020-09-01</span><a href="javascript:void(0);" title="良乡新校区建设项目前期咨询管理服务中标公示" onclick="checkXnwk('ztbxx/177362.htm','$article.belongUser');">            良乡新校区建设项目前期咨询管理服务中标公示 
+     </a></li>				     <li><span>2020-08-27</span><a href="javascript:void(0);" title="良乡新校区建设项目前期咨询管理服务中标候选人公示" onclick="checkXnwk('gzdt/177311.htm','xw');">            良乡新校区建设项目前期咨询管理服务中标候选人公示 
+     </a></li>				     <li><span>2020-08-26</span><a href="javascript:void(0);" title="良乡新校区建设项目项目建议书及可行性研究报告编制服务中标候选人公示" onclick="checkXnwk('gzdt/177310.htm','xw');">            良乡新校区建设项目项目建议书及可行性研究报告编制... 
+     </a></li>				     <li><span>2018-07-06</span><a href="javascript:void(0);" title="校本部9A、9B学生公寓卫生间、水房等改造施工资格预审公告（代招标公告）" onclick="checkXnwk('gzdt/144936.htm','xw');">            校本部9A、9B学生公寓卫生间、水房等改造施工资... 
+     </a></li>				     <li><span>2018-05-18</span><a href="javascript:void(0);" title="基础设施改造定额项目1-良乡校区食堂楼顶等改造中标公告" onclick="checkXnwk('gzdt/139195.htm','xw');">            基础设施改造定额项目1-良乡校区食堂楼顶等改造中... 
+     </a></li>				     <li><span>2018-05-18</span><a href="javascript:void(0);" title="基础设施改造定额项目1-南校区理科楼空调室外机装饰工程中标公告" onclick="checkXnwk('gzdt/139194.htm','xw');">            基础设施改造定额项目1-南校区理科楼空调室外机装... 
+     </a></li>				     <li><span>2018-05-15</span><a href="javascript:void(0);" title="基础设施改造定额项目1-良乡校区食堂楼顶等改造项目中标候选人公示" onclick="checkXnwk('gzdt/137826.htm','xw');">            基础设施改造定额项目1-良乡校区食堂楼顶等改造项... 
+     </a></li>				   </ul>
+				</div>
+			</div>
+			<div class="box02">
+			   <div class="letter">
+			      <h3>基建信箱</h3>
+				  <ul>
+				     <li>联系电话：010-68902701</li>
+					 <li>传 真：010-68902701</li>
+					 <li>基建邮箱：JIJIANCHU100@126.COM</li>
+				  </ul>
+			   </div>
+			   <div class="rule">
+			       <div class="title">
+				      <h3>政策法规</h3><a href="javascript:;"><img src="images/more.gif"></a>
+				   </div>
+				   <ul>				     <li><span>2011-03-15</span><a href="javascript:void(0);" title="基本建设管理工作" onclick="checkXnwk('zcfg/107.htm','$article.belongUser');">            基本建设管理工作 
+     </a></li>				     <li><span>2010-07-20</span><a href="javascript:void(0);" title="关于《北京市工程建设项目施工招标资格预审办法》" onclick="checkXnwk('zcfg/45.htm','$article.belongUser');">            关于《北京市工程建设项目施工招标资格预审办法》 
+     </a></li>				     <li><span>2010-07-20</span><a href="javascript:void(0);" title="关于《北京市工程建设项目施工招标资格预审办法》" onclick="checkXnwk('zcfg/44.htm','$article.belongUser');">            关于《北京市工程建设项目施工招标资格预审办法》 
+     </a></li>				     <li><span>2010-07-20</span><a href="javascript:void(0);" title="关于《北京市工程建设项目施工评标办法》的实施细则" onclick="checkXnwk('zcfg/43.htm','$article.belongUser');">            关于《北京市工程建设项目施工评标办法》的实施细则 
+     </a></li>				     <li><span>2010-03-22</span><a href="javascript:void(0);" title="关于《北京市工程建设项目施工招标资格预审办法》" onclick="checkXnwk('zcfg/42.htm','$article.belongUser');">            关于《北京市工程建设项目施工招标资格预审办法》 
+     </a></li>				     <li><span>2010-03-22</span><a href="javascript:void(0);" title="关于《北京市工程建设项目施工评标办法》的实施细则" onclick="checkXnwk('zcfg/41.htm','$article.belongUser');">            关于《北京市工程建设项目施工评标办法》的实施细则 
+     </a></li>				     <li><span>2006-11-25</span><a href="javascript:void(0);" title="前期工作管理制度" onclick="checkXnwk('zcfg/40.htm','$article.belongUser');">            前期工作管理制度 
+     </a></li>					 
+				   </ul>
+			   </div>
+			</div>
+		 </div>		 
+		 <div class="right">
+		    <div class="sign">
+			   <div class="title">招投标信息</div>
+			   <div class="noti">
+			     <marquee direction="up" height="140" scrollamount="2" onmouseout="this.start()" onmouseover="this.stop()">
+			      <ul>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目项目建议书及可行性研究报告编制服务中标结果公示" onclick="checkXnwk('ztbxx/177363.htm','xw');">            良乡新校区建设项目项目建议书及可... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目前期咨询管理服务中标公示" onclick="checkXnwk('ztbxx/177362.htm','xw');">            良乡新校区建设项目前期咨询管理服... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目项目建议书及可行性研究报告编制服务中标候选人公示" onclick="checkXnwk('ztbxx/177313.htm','xw');">            良乡新校区建设项目项目建议书及可... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目前期咨询管理服务中标候选人公示" onclick="checkXnwk('ztbxx/177312.htm','xw');">            良乡新校区建设项目前期咨询管理服... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目前期咨询管理服务招标公告" onclick="checkXnwk('ztbxx/177084.htm','xw');">            良乡新校区建设项目前期咨询管理服... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目项目建议书及可行性研究报告编制服务招标公告" onclick="checkXnwk('ztbxx/177083.htm','xw');">            良乡新校区建设项目项目建议书及可... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目招标代理机构入库公示" onclick="checkXnwk('ztbxx/177082.htm','xw');">            良乡新校区建设项目招标代理机构入... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡新校区建设项目招标代理机构入库项目招标公告" onclick="checkXnwk('ztbxx/176253.htm','xw');">            良乡新校区建设项目招标代理机构入... 
+    </a></li>				     <li><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院东校区校园室外改造中标结果公示" onclick="checkXnwk('ztbxx/176011.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院东校区校园室外改造中... 
+    </a></li>				     <li><a href="javascript:void(0);" title="良乡校区食堂屋顶装饰板更换等中标结果公示" onclick="checkXnwk('ztbxx/176010.htm','xw');">            良乡校区食堂屋顶装饰板更换等中标... 
+    </a></li>				   </ul>
+				  </marquee> 
+			   </div>
+			</div>
+			<div class="plan"><a href="javascript:;"><img src="images/hua.jpg"></a></div>
+			<div class="friendlink">
+			   <select name="m1">
+			     <option selected="selected">----校内链接----</option>
+			       					<option value="http://www.cnu.edu.cn">南航金城学院教务处_南京财经大学教务处_南京艺术学院</option>
+								   </select><br>
+			   <script language="vbs">
+sub m1_onchange()
+if m1.value<>"#" then
+window.open m1.value,""
+end if
+end sub
+</script> <select name="m2">
+			     <option selected="selected">----校外链接----</option>
+			       					<option value="http://www.bjedu.gov.cn">北京市教育委员会</option>
+										<option value="http://www.bjpc.gov.cn/">北京市发展和改革委员会</option>
+										<option value="http://www.bjghw.gov.cn/">北京市规划委员会</option>
+										<option value="http://www.bjjs.gov.cn/Portal0/default.htm">北京市建设委员会</option>
+								   </select>
+			   <script language="vbs">
+sub m2_onchange()
+if m2.value<>"#" then
+window.open m2.value,""
+end if
+end sub
+</script></div>
+		 </div>
+	 </div>
+	 <div class="clear"></div>
+	 
+<div class=" footer"><a href="javascript:;">关于我们</a>| 
+<a href="javascript:;">管理进入</a>|制作:首师大基建处 <br>
+版权所有 南航金城学院教务处_南京财经大学教务处_南京艺术学院基建处  
+Copyright  2006-2008 All rights reserved <a href="javascript:;">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号 
+
+        
+</div>  </div>
+
+</body></html>

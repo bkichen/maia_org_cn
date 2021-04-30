@@ -1,0 +1,467 @@
+BODY {
+	MARGIN: 0px; FONT-SIZE: 12px
+}
+TD {
+	FONT-SIZE: 12px
+}
+TR {
+	FONT-SIZE: 12px
+}
+A:link {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.serch {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/serch.jpg); BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; WIDTH: 21px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 30px; BORDER-TOP: 1px; BORDER-RIGHT: 1px
+}
+.serch_text {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; WIDTH: 170px; HEIGHT: 16px; COLOR: #999999; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.go {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/login.jpg); BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; WIDTH: 54px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 18px; BORDER-TOP: 1px; BORDER-RIGHT: 1px
+}
+.login_text {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; WIDTH: 150px; HEIGHT: 16px; COLOR: #999999; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.rq {
+	TEXT-ALIGN: center; HEIGHT: 23px; COLOR: #999999; FONT-SIZE: 11px
+}
+.table_line {
+	BORDER-BOTTOM: #dfdfdf 1px solid; BORDER-LEFT: #dfdfdf 1px solid; BORDER-TOP: #dfdfdf 1px solid; BORDER-RIGHT: #dfdfdf 1px solid
+}
+.td_padding {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 5px
+}
+.login_bj {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/login_bj.jpg); WIDTH: 224px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 170px
+}
+FORM {
+	MARGIN: 0px
+}
+INPUT {
+	BORDER-BOTTOM: #7f96c8 1px solid; BORDER-LEFT: #7f96c8 1px solid; FONT: 12px Tahoma, Verdana; BORDER-TOP: #7f96c8 1px solid; BORDER-RIGHT: #7f96c8 1px solid
+}
+INPUT[type='checkbox'] {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+INPUT[type='radio'] {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+SELECT {
+	BORDER-BOTTOM: #879bca 1px solid; BORDER-LEFT: #879bca 1px solid; FONT: 12px Tahoma, Verdana; BORDER-TOP: #879bca 1px solid; BORDER-RIGHT: #879bca 1px solid
+}
+TEXTAREA {
+	BORDER-BOTTOM: #7f96c8 1px solid; BORDER-LEFT: #7f96c8 1px solid; PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; FONT: 12px Tahoma, Verdana; BORDER-TOP: #7f96c8 1px solid; BORDER-RIGHT: #7f96c8 1px solid; PADDING-TOP: 5px
+}
+#feedin {
+	WIDTH: 48px; FLOAT: left
+}
+.button {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/icon/button_bk.gif); BORDER-BOTTOM: #7f96c8 1px solid; BORDER-LEFT: #7f96c8 1px solid; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #7f96c8 1px solid; BORDER-RIGHT: #7f96c8 1px solid; PADDING-TOP: 2px
+}
+.button_lighten {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BACKGROUND-COLOR: #eeeeee; HEIGHT: 19px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+UL {
+	PADDING-BOTTOM: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; PADDING-TOP: 0px
+}
+DIV {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+#white {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 986px; MARGIN-LEFT: auto; OVERFLOW: auto; MARGIN-RIGHT: auto
+}
+#copyright {
+	PADDING-BOTTOM: 11px; BACKGROUND-COLOR: #6d8abf; PADDING-LEFT: 25px; WIDTH: 950px; PADDING-RIGHT: 11px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; PADDING-TOP: 11px
+}
+#copyright-1 {
+	LINE-HEIGHT: 1.8em
+}
+A:link {
+	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #003399; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #333333; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+A.l14:link {
+	COLOR: #333333; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+A.l14:hover {
+	COLOR: #003399; FONT-SIZE: 14px; TEXT-DECORATION: underline
+}
+A.l14:visited {
+	COLOR: #333333; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+A.wl:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.wl:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+A.wl:hover {
+	COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.t14 {
+	COLOR: #3a61a5; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+A.grayl:link {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A.grayl:visited {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A.grayl:hover {
+	COLOR: #003399; TEXT-DECORATION: none
+}
+A.site:link {
+	COLOR: #a3bfff; FONT-SIZE: 11px; TEXT-DECORATION: none
+}
+A.site:visited {
+	COLOR: #a3bfff; TEXT-DECORATION: none
+}
+A.site:hover {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#height_x {
+	MARGIN-TOP: 10px; WIDTH: 426px; FLOAT: left; HEIGHT: 30px
+}
+#u_menu {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/pattern_u_menu.gif); HEIGHT: 25px
+}
+#copyright_top {
+	BACKGROUND-COLOR: #ffffff; WIDTH: 986px; HEIGHT: 12px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#LanMu_name {
+	MARGIN: 0px 25px; HEIGHT: 115px; OVERFLOW: hidden
+}
+#LanMu_content {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/branch/menu_bk_eeeeee.gif); MARGIN: 0px 25px; WIDTH: 936px; OVERFLOW: hidden
+}
+#LanMu_menu {
+	BACKGROUND-COLOR: #eeeeee; WIDTH: 183px; FLOAT: left
+}
+#LanMu_rightarea {
+	PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 22px; WIDTH: 731px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; PADDING-TOP: 0px
+}
+#icon_css {
+	WIDTH: 54px; FLOAT: right
+}
+#icon_css_b {
+	FLOAT: right
+}
+#guide {
+	FLOAT: left; HEIGHT: 30px
+}
+#Curent_name {
+	BACKGROUND-COLOR: #dddddd; WIDTH: 100%; FLOAT: left; HEIGHT: 27px
+}
+#Current_title {
+	COLOR: #3a61a5; FONT-WEIGHT: bold; PADDING-TOP: 8px
+}
+#content {
+	MARGIN-TOP: 30px; WIDTH: 630px
+}
+#content_x {
+	WIDTH: 731px; FLOAT: left
+}
+#text {
+	LINE-HEIGHT: 2em; WIDTH: 458px; FLOAT: left
+}
+#text_title {
+	
+}
+#text_links {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 25px; WIDTH: 243px; PADDING-RIGHT: 5px; FLOAT: right; PADDING-TOP: 8px
+}
+#tlnks {
+	
+}
+#tlnks UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px
+}
+#tlnks LI {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/branch/arrow1.gif); BORDER-BOTTOM: #a2bcd7 1px dashed; PADDING-BOTTOM: 3px; LINE-HEIGHT: 180%; PADDING-LEFT: 14px; BACKGROUND-REPEAT: no-repeat; PADDING-TOP: 4px
+}
+.t16yh {
+	FONT-FAMILY: "Microsoft YaHei", "宋体"; COLOR: #4e79c0; FONT-SIZE: 16pt
+}
+#title {
+	BORDER-BOTTOM: #cccccc 1px groove; LINE-HEIGHT: 2.5em
+}
+.text_gray {
+	COLOR: #7f7f7f
+}
+#text_links_title {
+	BORDER-BOTTOM: #3a61a5 1px solid; BORDER-LEFT: #3a61a5 4px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; HEIGHT: 15px; COLOR: #3a61a5; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+#boot {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/pattern_end.gif); MARGIN-TOP: 10px; WIDTH: 100%; FLOAT: left; HEIGHT: 10px
+}
+.date {
+	FONT-FAMILY: Tahoma, Verdana; COLOR: #7f7f7f; FONT-SIZE: 11px
+}
+#artical_real {
+	LIST-STYLE-POSITION: inside; LINE-HEIGHT: 180%; LIST-STYLE-TYPE: decimal; MARGIN-TOP: 20px; FONT-SIZE: 14px
+}
+#artical_real A {
+	TEXT-DECORATION: underline
+}
+#artical_real UL {
+	MARGIN-LEFT: 2em
+}
+#artical_Tiny {
+	LINE-HEIGHT: 200%; DISPLAY: block
+}
+#artical_Table {
+	LINE-HEIGHT: 2em; FONT-FAMILY: "Microsoft YaHei", "宋体"
+}
+#search_at_branch {
+	WIDTH: 280px; DISPLAY: block; FLOAT: right; MARGIN-RIGHT: 7px
+}
+#artical_f {
+	MARGIN-TOP: 10px; PADDING-LEFT: 30px; BORDER-TOP: #777777 1px dashed; PADDING-TOP: 10px
+}
+#search_at_home {
+	WIDTH: 337px; FLOAT: right
+}
+#sech_icon {
+	WIDTH: 77px; FLOAT: left; PADDING-TOP: 1px
+}
+#sech_icon_b {
+	WIDTH: 77px; FLOAT: right; PADDING-TOP: 1px
+}
+sech_at_right {
+	
+}
+#sech_icon_new {
+	WIDTH: 159px; FLOAT: left; PADDING-TOP: 1px
+}
+#sech_b {
+	WIDTH: 200px; FLOAT: left
+}
+#text_tab {
+	LINE-HEIGHT: 2em; WIDTH: 731px; FLOAT: left
+}
+#text_tab_title {
+	BORDER-BOTTOM: #cccccc 1px dashed; PADDING-LEFT: 23px; WIDTH: 708px; FLOAT: left; HEIGHT: 35px; PADDING-TOP: 20px
+}
+#menu4 {
+	BORDER-BOTTOM: #3a61a5 2px solid; PADDING-BOTTOM: 0px; MARGIN-TOP: 20px; PADDING-LEFT: 20px; WIDTH: 691px; PADDING-RIGHT: 20px; FLOAT: left; HEIGHT: 30px; PADDING-TOP: 0px
+}
+#menu4 UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px
+}
+#menu4 LI {
+	DISPLAY: inline
+}
+#menu4 A {
+	BORDER-LEFT: #cccccc 1px solid; PADDING-BOTTOM: 6px; BACKGROUND-COLOR: #ffffff; MARGIN: 0px 1px; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; FLOAT: left; HEIGHT: 14px; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 9px
+}
+#menu4 A:hover {
+	BORDER-LEFT: #777777 1px solid; COLOR: #3a61a5; BORDER-TOP: #777777 1px solid; BORDER-RIGHT: #777777 1px solid; TEXT-DECORATION: none
+}
+#menu4 .cur A {
+	BORDER-BOTTOM: #ffffff 2px solid; BORDER-LEFT: #3a61a5 1px solid; COLOR: #3a61a5; BORDER-TOP: #3a61a5 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #3a61a5 1px solid
+}
+.t18yh {
+	FONT-FAMILY: "Microsoft YaHei", "宋体"; COLOR: #3a61a5; FONT-SIZE: 18pt
+}
+#logolist {
+	BORDER-BOTTOM: #dddddd 1px solid; BORDER-LEFT: #dddddd 1px solid; MARGIN-BOTTOM: 3px; FLOAT: left; BORDER-TOP: #dddddd 1px solid; MARGIN-RIGHT: 3px; BORDER-RIGHT: #dddddd 1px solid
+}
+.logo_dark {
+	BACKGROUND-COLOR: #eeeeee
+}
+.logo_light {
+	BACKGROUND-COLOR: #ffffff
+}
+.table_cnu {
+	LINE-HEIGHT: 1.5em; FONT-SIZE: 12px
+}
+#text_size {
+	WIDTH: 100px; FLOAT: right; PADDING-TOP: 14px
+}
+#text_size_left {
+	WIDTH: 600px; FLOAT: left
+}
+#changefont {
+	FLOAT: right; PADDING-TOP: 8px
+}
+#dividing_line {
+	BORDER-BOTTOM: #cccccc 1px dashed; WIDTH: 100%; MARGIN-BOTTOM: 10px; FLOAT: right; HEIGHT: 1px
+}
+#sech_keywords {
+	PADDING-BOTTOM: 10px; WIDTH: 159px; FLOAT: left; PADDING-TOP: 1px
+}
+.t12 {
+	COLOR: #3a61a5; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.p12 {
+	FONT-SIZE: 12px
+}
+#IFrame1 {
+	WIDTH: 183px; HEIGHT: 200px
+}
+#table_cnu {
+	LINE-HEIGHT: 1.5em; BACKGROUND-COLOR: #c6cdd5; FONT-SIZE: 12px
+}
+#table_cnu .t {
+	BACKGROUND-COLOR: #7c91ab; COLOR: #ffffff
+}
+#table_cnu TD {
+	PADDING-BOTTOM: 2px; BACKGROUND-COLOR: #ffffff; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 2px
+}
+#table_tel {
+	LINE-HEIGHT: 1.5em; FONT-SIZE: 12px
+}
+#table_tel .t {
+	BACKGROUND-COLOR: #7c91ab; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+#table_tel TD {
+	BORDER-BOTTOM: #c4cdd9 1px solid; PADDING-BOTTOM: 2px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 2px
+}
+#t_item {
+	MARGIN-LEFT: 10px
+}
+#t_item UL {
+	LINE-HEIGHT: 1.2em; LIST-STYLE-TYPE: none; MARGIN: 0px; DISPLAY: inline
+}
+#t_item LI {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/dot.gif); BORDER-BOTTOM: #dddddd 1px dashed; PADDING-LEFT: 10px; WIDTH: 158px; DISPLAY: block; BACKGROUND-REPEAT: no-repeat; MARGIN-BOTTOM: 2px; FLOAT: left; HEIGHT: 21px; MARGIN-LEFT: 9px
+}
+#smalltitle {
+	BORDER-BOTTOM: #3a61a5 1px solid; BORDER-LEFT: #3a61a5 4px solid; PADDING-BOTTOM: 8px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; HEIGHT: 13px; COLOR: #3a61a5; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#smalltitle2 {
+	BORDER-BOTTOM: #3a61a5 1px solid; BORDER-LEFT: #3a61a5 4px solid; PADDING-BOTTOM: 8px; MARGIN: 15px 10px 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 0px; FLOAT: none; HEIGHT: 13px; COLOR: #3a61a5; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#two {
+	
+}
+#two LI {
+	WIDTH: 45%; FLOAT: left; HEIGHT: 30px; MARGIN-LEFT: 20px
+}
+#random {
+	MARGIN: 0px
+}
+#random A {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 5px; WIDTH: 135px; PADDING-RIGHT: 5px; DISPLAY: block; FLOAT: left; HEIGHT: auto; MARGIN-LEFT: 12px; PADDING-TOP: 5px
+}
+#smalltitle_w {
+	BORDER-BOTTOM: #3a61a5 1px solid; BORDER-LEFT: #3a61a5 4px solid; PADDING-BOTTOM: 8px; MARGIN: 15px 10px 10px; PADDING-LEFT: 10px; WIDTH: 680px; PADDING-RIGHT: 0px; FLOAT: left; HEIGHT: 13px; COLOR: #3a61a5; FONT-SIZE: 12px; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+#IFrame2 {
+	WIDTH: 183px; HEIGHT: 300px
+}
+.header{ width:950px; margin:0px auto}
+
+.sea_box{ float:right;}
+.search{background:url(https://tzb.cnu.edu.cn/images/search_bg.jpg) no-repeat;width:161px;height:20px;position:relative; }
+.search input{position:absolute; width:132x;height:20px;line-height:18px; color:#323232; border:none; background:none; left:0px;  padding-left:0px; }
+.search input.notxt{color:#3f3f3c; padding-left:12px; font-size:12px}	
+.search input.notxt1 {position: absolute;width:17px;height: 23px;top: 2px;left:144px;border: none;cursor: pointer;background: none;cursor:pointer; }
+
+
+
+#nav {
+	LINE-HEIGHT: 30px; LIST-STYLE-TYPE: none; WIDTH: 200px
+}
+#nav A {
+	padding-left1: 40px;  PADDING-LEFT: 30px; 
+}
+#nav LI {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/left_tit_bj.jpg);WIDTH:200px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; PADDING-TOP: 2px;
+}
+#nav LI A:hover {
+	COLOR: #ffffff
+}
+#nav LI A:active {
+	COLOR: #ffffff
+}
+#nav A:link {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#nav A:visited {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+#nav A:hover {
+	COLOR: #ffffff
+}
+#nav A:active {
+	COLOR: #ffffff
+}
+#nav LI UL {
+	TEXT-ALIGN: left; LIST-STYLE-TYPE: none
+}
+#nav UL LI {
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/left_tit_bj1.jpg); PADDING-LEFT: 40px; WIDTH: 200px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 25px; COLOR: #444444; FONT-SIZE: 12px
+}
+#nav LI UL A {
+	WIDTH: 160px; padding-left:0px
+}
+#nav LI UL A:link {
+	COLOR: #444444; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#nav LI UL A:visited {
+	COLOR: #444444; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#nav LI UL A:hover {
+	COLOR: #444444; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#nav LI UL A:active {
+	COLOR: #444444; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+#nav LI:hover UL {
+	LEFT: auto
+}
+#nav LI.sfhover UL {
+	LEFT: auto
+}
+#content {
+	CLEAR: left
+}
+#nav UL.collapsed {
+	DISPLAY: none
+}
+#PARENT {
+	MARGIN: 0px; WIDTH: 200px
+}
+#top_formenu {
+	WIDTH: 200px; HEIGHT: 0px
+}
+
+.fenye{height:30px;line-height:30px;text-align:center;margin-bottom:10px;}
+
+
+
+
+.menu{ overflow:hidden;}
+ul.expmenu li{
+	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/left_tit_bj.jpg);WIDTH:200px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; FLOAT: left; COLOR: #ffffff; FONT-SIZE: 13px; FONT-WEIGHT: bold; PADDING-TOP: 2px;line-height:30PX;
+}
+ul.expmenu .span1{display:block; padding-left:30PX; }
+ul.expmenu .span1 a{   color: #ffffff;
+    text-decoration: none;}
+ul.expmenu li ul li {	BACKGROUND-IMAGE: url(https://tzb.cnu.edu.cn/images/left_tit_bj1.jpg); PADDING-LEFT: 40px; WIDTH: 160px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 25px; line-height:19PX; COLOR: #444444; FONT-SIZE: 12px}
+ul.expmenu li ul li a{    color: #444444;
+    font-weight: normal;
+    text-decoration: none;}
+ul.expmenu li div.menu2:hover{}
+ul.expmenu li div.menu2:hover a{ }
+ul.expmenu li ul li a.menu_box_active{color:#fff;}
+ul.expmenu li ul li a:hover{ color:#444444;}
+ul.expmenu li div.header .arrow{display:block;width:16px;height:16px;}
+ul.expmenu ul{ display:none; width:200px;}
+ul.expmenu li div.active{height:30px; line-height:30px; font-size:12px; color:#fff; cursor:pointer;}
+ul.expmenu li div.active a{ color:#fff; font-weight:bolder}

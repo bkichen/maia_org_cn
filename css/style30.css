@@ -1,0 +1,235 @@
+
+/* CSS Document */
+body{margin:0; padding:0; font-size:12px; background-color:#fff;}
+a{text-decoration:none; color:#333333;}
+a:hover{ color:#b95e21;}
+
+/*头部*/
+.header{ width:100%; height:180px; background: url(https://jwc.cnu.edu.cn/images/header_bg_02.png) repeat-x; margin:0 auto;}
+.top{width:100%; height:129px; margin:0 auto; }
+.top_nav_bg{width:auto; position: absolute; right: 50%; margin: 0 -560px 0 0; top: 23px;}
+.top_nav{width:auto;margin:0 auto;text-align:right;}
+.top_nav a{display:inline-block; padding:0 15px;  color:#fff;background:url(https://jwc.cnu.edu.cn/images/top_navbg.gif) no-repeat left}
+.top_nav a.nobg{background:none;}
+.top_nav a:hover{ color:#d8ede3;}
+.logo{ width:100%;height:129px;margin:0 auto;position:relative;}
+.logo_link{width:1120px;height:129px;margin:0 auto;display:block;}
+.logo img{}
+.search{width:210px; height:28px;position:absolute;right:50%; margin-right:-560px;top:70px;background:url(https://jwc.cnu.edu.cn/images/search_05.png) no-repeat left center; z-index:1000; }
+.search input{position:absolute; width:166px;height:28px;line-height:28px; color:#323232; border:none; background:none; left:0px; top:0px;  padding:0px; margin:0px;}
+.search input.notxt{color:#ffffff; padding-left:12px;}	
+.search input.notxt1 {position:absolute;width:31px;height:28px;left:178px;}
+
+.top_nav_bg #localtime { font-size: 12px; font-family: "微软雅黑"; color: #333333; }
+
+
+.nav{ width:100%;height:51px; line-height:51px;background:url(https://jwc.cnu.edu.cn/images/nav_bg.jpg) repeat-x;}
+.nav ul{ width:1120px; margin:0px auto;}
+.nav ul li{float:left;color:#016d38; font-size:12px; font-weight:bold;height:51px;line-height:55px; padding:0px 15px; background:url(https://jwc.cnu.edu.cn/images/nav_libg.png) no-repeat left center;}
+.nav ul li:first-child{ background: none;}
+.nav ul li a{color:#ececec; font-size: 12px; font-family: "微软雅黑"; font-weight:normal;}
+.nav ul li a:hover,.nav ul li.on a,.nav ul li .subNav a:hover{color:#ececec; font-weight: bold;}
+.nav ul li .subNav{ top:51px; padding:10px 0; background: #b95e21; width: 90px; }
+.nav ul li .subNav a{ color:#ececec;}
+.nav ul li.on .subNav dl dd{ line-height:20px; height:auto; text-align:left; margin: 0 10px 5px 20px; }
+.nav ul li.on .subNav dl dd a{ font-size:12px; padding: 0; }
+
+
+.content{ width:1120px; margin:0px auto; background:#fff; overflow:hidden;}
+.Banner{width:282px; height:442px; border: 4px solid #dee2e7; }
+.flex-control-nav { display: none; }
+
+.mode01{width:1120px; overflow:hidden; clear:both; height:450px; margin-top:12px;}
+.mode01 .lf{ width:292px; height:450px; margin-right:15px; float:left}
+.mode01 .md{ width:390px; height:450px; float:left}
+.mode01 .md .nest01 { width:390px; height:240px; }
+.mode01 .md .nest01 .md { width:390px; height:230px; }
+.mode01 .md .nest02 { width:390px; height:200px; margin:15px 0 0 0; }
+.mode01 .md .nest02 .md { width:390px; height:200px; }
+.mode01 .rt{ width:398px; height:450px; float:right}
+.mode01 .rt .nest01 { width:398px; height:232px; margin: 10px 0 0 0; }
+.mode01 .rt .nest01 .rt { width:398px; height:232px; }
+.mode01 .rt .nest02 { width:398px; height:227px; margin: 13px 0 0 0; }
+.mode01 .rt .nest02 .rt { width:398px; height:227px; }
+.mode02 { width: 1120px; height: 102px; margin: 20px auto 22px; }
+.mode02 .md { width: 1120px; height: 102px; }
+.mode03 { width: 1120px; height: 38px; margin: 0 0 30px 0; }
+.mode03 .md { width: 1120px; height: 38px; position: relative; }
+.more{ float:right; float: right; padding:15px 0 0 0;}
+.more a{color: #01713b; font-size:14px;}
+.listTitle{  background: url(https://jwc.cnu.edu.cn/images/title_bg.gif) repeat-x;} 
+.listTitle h2{color: #ffffff; background:#d33411;  font-size: 14px; font-weight: normal; width:auto; padding:0 30px; float:left; line-height:33px;}
+.articleList ul{ padding-top: 5px;}
+.articleList ul li{ height:31px; line-height:31px; padding:0px; background:url(https://jwc.cnu.edu.cn/images/tab_li_03.png) repeat-x left bottom; }
+.articleList ul li a {  height:31px; line-height:31px; display: block; padding:0 0 0 20px; background:url(https://jwc.cnu.edu.cn/images/li_arrow_03.png) no-repeat 4px center; }
+.articleList ul li span { font-family: Verdana; font-size: 12px; color: #8c8c8c; }
+
+
+.tab ol {  width: 390px;  height: 32px; position:relative; }
+.tab ol li { width: 120px; height: 32px; line-height:32px; text-align:center; background:#e8efe8; margin:0 3px 0 0; float:left; }
+.tab ol li.current { background:#d33512; }
+.tab ol li.current a { color:#fff; }
+.tab ol li h2 {  width: 120px; height: 32px;  }
+.tab ol li .more { position:absolute; right:0px; top:0px; }
+.tab ol li h2 a { width: 120px; height: 32px; display: block; font-size:14px; font-family:"微软雅黑"; color:#000000;  font-weight:normal; }
+.tab ul { margin:10px 0 0 0; }
+.tab ul li { height:33px; line-height:33px; background:url(https://jwc.cnu.edu.cn/images/tab_li_03.png) repeat-x left bottom; }
+.tab ul li a { height:33px; line-height:33px; display: block; padding:0 0 0 20px; background:url(https://jwc.cnu.edu.cn/images/li_arrow_03.png) no-repeat 4px center; }
+
+
+
+
+/*图片轮播*/
+.Banner01 { position:relative; height:232px; }
+.Banner01 .flexslider{ width:398px; height: 227px;  overflow: hidden;}
+.Banner01 .flexslider ul.slides li img{ width:398px; height:190px; display:block}
+.Banner01 .flexslider .til_slides{ width:398px; height: 24px;  line-height: 24px; display: block; background: #dcdddf; color:#333; padding-left: 15px;}
+.Banner01 .flex-control-nav{ bottom:17px; text-align: right; display: block; right:30px; width:auto; }
+.Banner01 .flex-control-paging li{ margin:0 10px 0 0;}
+.Banner01 .flex-control-paging li a{ width: 7px; height: 7px; line-height: 7px; border:1px solid #fff;  border-radius: 0; background: #d1d8c6;text-indent:999px;}
+.Banner01 .flex-control-paging li a:hover,.flex-control-paging li a.flex-active{ background: #b76c42; color:#fff;}
+.Banner01 .more {   background: #fff none repeat scroll 0 0;
+    bottom: 16px;
+    height: 10px;
+    padding: 8px;
+    position: absolute;
+    right: 0;
+    width: 10px;
+    z-index: 9999; }
+
+
+.fastLink ul li { width: 130px; height: 45px; float: left; margin: 0 0 12px 11px; }
+.fastLink ul li.no_margin { margin: 0 0 12px 0px; }
+
+
+
+
+.til_bm{ width:100%; height:38px; padding:1px 0; background:#f1f0f0; position:absolute; left:0; bottom:0;}
+.til_bm ul li{ height:38px; width:auto;  line-height:38px; text-align:center; float: left;  background-color:#ececec; text-align:center; text-align:center}
+.til_bm ul li a{display:block; height:38px; width:auto;  padding: 0 20px; color:#333333; font-size:14px;}
+.til_bm ul li.hover a{ background:#d33411; color:#fff; font-weight: bold; }
+
+.box_bm{}
+.box_bm dl{ display:none;width:721px; z-index: 9999; height:250px; position:absolute; bottom:38px; padding-top:10px; background:#d33411;opacity:0.90;filter:alpha(opacity=90);}
+.box_bm dl.on{ display:block;}
+.box_bm dl dd{width:155px; line-height:30px;padding-left:23px; float: left; height:30px; line-height:30px;}
+.box_bm dl dd a{line-height:30px; font-size:12px; color:#fff;}
+.box_bm dl dd a:hover{ text-decoration:underline;}
+
+
+
+
+
+/*底部开始*/
+.footer{height:95px; background-color:#b95e21;color:#fff;}
+.copyRight{width:1120px; margin:0 auto;text-align:center; padding-top:20px; line-height:30px; font-family:"微软雅黑";}
+
+/*二级页*/
+.subPage{ width:1120px; margin:0px auto 0;}
+.pageBanner{ width:1120px; margin:0px auto 0;}
+.Bread{ width: auto; height:39px; line-height:39px; border-bottom:1px solid #ccc;  font-size:13px; color:#b95e21;}
+.Bread a{color:#b95e21;}
+.articleList2{}
+.articleList2 ul li{ background: url(https://jwc.cnu.edu.cn/images/li_arrow_03.png) no-repeat left center; padding:0 0 0 18px; height:30px; line-height:30px; border-bottom: 1px solid #f4f4f4;}
+.articleList2 ul li a { padding: 0px; background: none; }
+.listTitle2{ padding-left:0px; background:none; height: 35px; margin: 10px 0 0 0; }
+.listTitle2 h2{ padding:0px; background: none;} 
+.listTitle2 h2 a{color: #b95e21; font-size: 16px; font-weight: bold; line-height:33px; padding:0px; margin:5px 0px;}
+.subPage .articleList2{ margin:10px 0px 20px;}
+ 
+.page{ width:100%; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px;}
+.page a{ padding:0 5px;}
+
+.pageList{ padding-bottom: 30px; overflow: hidden;}
+.articleTitle { width: 100%;text-align: center;}
+.articleTitle h2{font-size: 18px; color:#b95e21; line-height: 20px; padding:10px 0;}
+.articleTitle h3{ font-size: 14px; color: #555; line-height: 20px; padding:10px 0; font-weight: bold;}
+.articleAuthor { height: 30px;text-align: center; line-height: 30px; margin: 10px;background: #f5f5f5; color:#777; }
+.article{overflow:hidden; margin:20px 10px;font-size:12px; line-height:22px;}
+.Annex {padding:0px; overflow:hidden; margin-bottom:30px;}
+.Annex h3 { font-size: 16px;line-height: 30px; color:#b95e21; padding-left:5px;}
+.Annex ul li { height: 26px; line-height: 26px;background:url(https://jwc.cnu.edu.cn/images/li_arrow_03.png) no-repeat 10px center; padding-left: 28px;}
+.Annex ul li a { font-size: 12px; line-height: 24px; color:#656464;}
+.Annex ul li a:hover{ color:#b95e21;}
+
+
+
+
+
+
+/*左右级页面*/
+.con{width: 1120px; overflow: hidden; margin: 20px auto 5px;}
+.con .conLeft{width: 220px;  float: left; background:#fef9f6; border:1px solid #b95e21;}
+.con .conLeft .title{width:auto; height: 40px; line-height: 40px; text-align:left; }
+.con .conLeft .title h2{font-size: 16px; color: #fff; background: #b95e21; padding: 0 0 0 35px;}
+.con .conLeft ul li{font-size: 14px; text-align: center;  }
+.con .conLeft ul li a{font-size: 14px; padding:15px 20px 15px 35px; text-align: left; border-bottom:1px solid #ccc; display:block; }
+.con .conLeft ul li a:hover{font-weight: bold; border-bottom:2px solid #b95e21; background:url(https://jwc.cnu.edu.cn/images/arrow.png) no-repeat 180px center;}
+.con .conLeft ul .current a{font-weight: bold; border-bottom:2px solid #b95e21; color:#b95e21; background:url(https://jwc.cnu.edu.cn/images/arrow.png) no-repeat 180px center;}
+.con .conRight{ width: 880px;  float: right;}
+.con .conRight .articleList2{width: 880px;}
+.con .conRight .Bread{width: auto;}
+.con .conRight .page{ width:auto; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px;}
+.con .conRight .page a{ padding:0 5px;}
+.con .conRight .subPage{ width:auto; margin:0px auto;}
+.pictureList2{width: auto; overflow: hidden;}
+.pictureList2 ul{width: 950px; overflow: hidden; }
+.pictureList2 ul li{float: left; width: 210px; height: 180px; margin: 0 16px 0 0; text-align: center;}
+.pictureList2 ul li img { width: 210px; height: 140px; }
+.TlpictureList2{width: 1300px; overflow: hidden;}
+.TlpictureList2 ul{width:1300px; overflow: hidden; padding:5px 0 0 5px;}
+.TlpictureList2 ul li{float: left; width: 200px; height: 180px; margin: 0 28px 0 0; text-align: center;}
+.TlpictureList2 ul li img { width:200px; height: 134px;  }
+
+
+
+
+
+/*图片展示*/
+/*图片展示开始*/
+/*图片展示开始*/
+.img_news_con{ width:100%; overflow:hidden; padding:0 0 20px 0;}
+.img_news_con h3{padding:20px 0 20px; heihgt:54px; text-align:center; color:#b95e21; font-size:16px; font-family:"微软雅黑"; font-weight:normal;}
+.imgs_scroll{position:relative; padding:0 0 0 104px;}
+.imgs_scroll .btn_l,.imgs_scroll .btn_r{ position:absolute; width:434px; height:580px; top:0; /*z-index:1000; filter:alpha(opacity:0); opacity: 0;*/ }
+.imgs_scroll .btn_l{left:62px; }
+.imgs_scroll .btn_r{right:69px;}
+.imgs_scroll .prev,.imgs_scroll .next { position:absolute; display:block; width:70px; top:40%; margin:-22px 0 0 0; text-align:center; cursor:pointer; z-index:90; display:none;}
+.imgs_scroll .prev{ left:105px;}
+.imgs_scroll .next{right:106px;}
+.imgs_news_list{width:910px;  position:relative; overflow:hidden;}
+.imgs_news_list ul{width:9999px;}
+.imgs_news_list ul li{float:left; display:inline; width:910px; /*margin-right:10px;*/  /*text-align:center;*/}
+.imgs_news_list ul li .txt2{ width:910px; float:left; line-height:20px; text-indent:2em; /*padding-top:27px;*/ text-align:left; font-family:"微软雅黑";}
+/*图片展示结束*/
+/*图片展示结束*/
+
+
+
+
+
+.newPage h2{ float:left;}
+.newPage a{ float:right;}
+.newPageArticle .art{ font-size:14px; line-height:30px; color:#4a4b4a; }
+.newPageList ul {margin:10px 0 0 0;}
+.newPage .more {}
+.newPageList01 ul li{border:none; width:auto; margin:0 40px 0 0; float:left;}
+
+
+
+
+
+.articleList3 { width: 410px; height: 300px; float: left; overflow: hidden; margin: 0 20px 0px 10px; }
+.articleList3 ul li{ background: url(https://jwc.cnu.edu.cn/images/li_arrow_03.png) no-repeat left center; padding:0 0 0 18px; height:30px; line-height:30px; border-bottom: 1px solid #f4f4f4;}
+.articleList3 ul li a { float: left; padding: 0px; background: none; }
+.articleList3 ul li span { float: right; }
+.listTitle3{ padding-left:0px; background:none; height: 35px; margin: 10px 0 0 0; }
+.listTitle3 h2{ padding:0px; background: none;} 
+.listTitle3 h2 a{color: #b95e21; font-size: 16px; font-weight: bold; line-height:33px; padding:0px; margin:5px 0px;}
+
+
+
+
+.nest02Bk{font-size: 14px;margin:0 3px;font-weight: normal;float: left;}
+.nest02Bk a{color:#fff;display: block;width: 120px;height: 32px; background:#b95e21;text-align: center;}
+.nest02Bk a:hover{background: #aaa;}

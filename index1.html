@@ -1,0 +1,649 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=1440">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院 Capital Normal University</title>
+<link href="css/style20191008.css" rel="stylesheet" type="text/css">
+<!-----------下拉菜单 效果-------->
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/js1.js"></script>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+
+<script>
+function checkSession() {
+		var flag = "true";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else{
+                                url1 = url1.split("").reverse().join("") ;
+			        url1 = encodeURIComponent(url1) ;
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} 
+		} else {
+			window.open(url);
+		}
+	}
+	
+</script>
+<!--链接切换-->
+<script type="text/javascript" src="js/show.js"></script>
+
+<script>
+window.onload = function ()
+{
+	show ();
+};
+</script>
+<style>@media screen max-width(1025px){
+	.top { max-width:990px; }
+	}</style>
+
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+
+
+<!--头部开始-->
+<div class="header_bg">
+ 
+
+<div class="header">
+    <div class="top">
+      <div class="logo"></div>
+      <div class="top_rt">
+        <div class="top_link">
+          <div class="top_nav">
+            <div class="top_nav02" id="top_nav02">
+              <ul>
+                <li><a href="index2.html" target="_blank">电子邮件</a></li>
+                <li><a href="javascript:;" target="_blank" title="仅限校内访问">办公系统</a></li>
+                <li><a href="javascript:;" target="_blank" title="仅限校内访问">服务门户</a></li>
+              <!--  <li class="top_nav_li"><a href="#">网上应用</a>
+                  <dl  style="z-index:99999;">
+                    <dd><a href="http://uid.cnu.edu.cn/" target="_blank" title="仅限校内访问">书记信息</a></dd>
+                    <dd><a href="http://uid.cnu.edu.cn/" target="_blank" title="仅限校内访问">校长信息</a></dd>
+                    <dd><a href="http://dc.cnu.edu.cn/jwcxkw/" target="_blank">网上选课</a></dd>
+                    <dd><a href="http://sx.cnu.edu.cn" target="_blank">网上教学</a></dd>
+                  </dl>
+                </li>-->
+                <li><a href="index3.html" target="_blank">English</a></li>
+              </ul>
+            </div>
+			 <div class="top_nav03">
+           <a href="index4.html" target="_blank" title="仅限校内访问">书记信箱</a>
+                   <a href="index4.html" target="_blank" title="仅限校内访问">校长信箱</a>
+                    <a href="javascript:;" target="_blank">网上选课</a>
+                    <a href="portal.html" target="_blank">网上教学</a>
+            </div>
+          </div>
+        </div>
+        <div class="sea_box">
+          <form name="dataForm" class="search" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+            <input name="siteID" value="59" type="hidden">
+            <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value==''){this.value='';this.form.keywords.style.color='#323232'}">
+            <input class="notxt1" name="Submit" type="submit" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="nav">
+      <div class="nav02" id="nav02">
+        <ul>
+          <li><a href="">首页</a></li>
+          <li><a href="xxgk/index.html">学校概况</a>
+            <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="xxgk/xxjj/index.html" title="学校简介">学校简介</a></dd>
+			                <dd><a href="xxgk/lsyg/index.html" title="历史沿革">历史沿革</a></dd>
+			                <dd><a href="xxgk/xrld/index.html" title="现任领导">现任领导</a></dd>
+			                <dd><a href="xxgk/ljld/index.html" title="历届领导">历届领导</a></dd>
+			                <dd><a href="xxgk/jgsz/index.html" title="机构设置">机构设置</a></dd>
+						 <dd><a href="xxgk/sjsd/jbqk/index.html" title="$channel.title">数据师大</a></dd>
+			                <dd><a href="xxgk/xxbs/index.html" title="学校标识">学校标识</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+          </li>
+		   <li><a href="xxgk1/index.html">信息公开</a></li>
+          <li><a href="jyjx/index.html">教育教学</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+                <dd><a href="jyjx/bksjy/zysz/index.html" title="$channel.title">本科生教育</a></dd>
+				<dd><a href="jyjx/yjsjy/bsxwsqd/index.html" title="$channel.title">研究生教育</a></dd>
+				<dd><a href="jyjx/jxjy/jxjyjj/index.html" title="$channel.title">继&nbsp;续&nbsp;教&nbsp;育</a></dd>
+				<dd><a href="jyjx/lxsjy/index.html" title="$channel.title">留学生教育</a></dd>
+                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+          <li><a href="jsjy/index.html">教师教育</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="jsjy/zxdt/index.html" title="最新动态">最新动态</a></dd>
+			                <dd><a href="jsjy/ktyj/index.html" title="课题研究">课题研究</a></dd>
+			                <dd><a href="jsjy/zysz2/index.html" title="专业设置">专业设置</a></dd>
+						  <dd><a href="jsjy/xmhz/qyhz/index.html" title="$channel.title">项目合作</a></dd>
+			    <dd><a href="jsjy/zysj/jysx/index.html" title="$channel.title">专业实践</a></dd>
+                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+          <li><a href="kxyj/index.html">科学研究</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="kxyj/kydt/index1.html" title="科研动态">科研动态</a></dd>
+			                <dd><a href="kxyj/kyzc/index.html" title="科研政策">科研政策</a></dd>
+						<dd><a href="kxyj/kyxm/index.html" title="$channel.title">科研项目</a></dd>
+			<dd><a href="kxyj/kycg/hjqk/index.html" title="$channel.title">科研成果</a></dd>
+			                 <dd><a href="kxyj/zdxk/index.html" title="重点学科">重点学科</a></dd>
+			                <dd><a href="kxyj/yjjd/index.html" title="研究基地">研究基地</a></dd>
+			                <dd><a href="kxyj/jybcxtd/index.html" title="创新团队">创新团队</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+         <li><a href="szdw/ys/index.html">师资队伍</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="szdw/ys/index.html" title="院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;士">院&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;士</a></dd>
+			                <dd><a href="szdw/bjxz/index.html" title="北京学者">北京学者</a></dd>
+			                <dd><a href="szdw/jcrc/index.html" title="杰出人才">杰出人才</a></dd>
+			                <dd><a href="szdw/gjjqhdz/index.html" title="国家杰青">国家杰青</a></dd>
+			                <dd><a href="szdw/wjjs/index.html" title="外籍教师">外籍教师</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+          <li><a href="zsjy2/index.html">招生就业</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="zsjy2/zsgz/index.html" title="招生工作">招生工作</a></dd>
+			                <dd><a href="index5.html" title="就业工作">就业工作</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl></li>
+         <li><a href="hzjl/index.html">合作交流</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="hzjl/gjky/index.html" title="国际会议">国际会议</a></dd>
+						<dd><a href="hzjl/lhbx/bxxm/index.html" title="$channel.title">联合办学</a></dd>
+			<dd><a href="hzjl/jhpy/jhxm/index.html" title="$channel.title">交换培养</a></dd>
+			                <dd><a href="hzjl/wgzj/index.html" title="外国专家">外国专家</a></dd>
+			                <dd><a href="hzjl/gjjldx/index.html" title="国际交流大学">国际交流大学</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+          <li><a href="rczp/index.html">人才招聘</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="rczp/2015ncpyxrc/index.html" title="诚聘优秀人才">诚聘优秀人才</a></dd>
+			                <dd><a href="rczp/bsh/index.html" title="博士后">博士后</a></dd>
+			                <dd><a href="rczp/mxskgkzp/index.html" title="面向社会公开招聘">面向社会公开招聘</a></dd>
+			                <dd><a href="rczp/mxxnzp/index.html" title="面向校内招聘">面向校内招聘</a></dd>
+			                <dd><a href="rczp/gccrczp/index.html" title="高层次人才招聘">高层次人才招聘</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+         <li><a href="xywh/index.html">校园文化</a>
+		  <dl style="z-index:99999;">
+              <div class="dl_bg">
+			                  <dd><a href="xywh/tqpp/index.html" title="团旗飘飘">团旗飘飘</a></dd>
+			                <dd><a href="xywh/xsgzb/index.html" title="学生工作部">学生工作部</a></dd>
+			                <dd><a href="xywh/yjsk/index.html" title="研究生工作部">研究生工作部</a></dd>
+						
+			                  <dd><a href="xywh/glgd/index.html" title="管理规定">管理规定</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+		  </li>
+         <li><a href="index6.html" target="_blank">图书资料</a>
+		<!-- <dl class="dl_bg" style="z-index:99999;">
+              <div class="dl_bg">
+                <dd><a href="#">学校简介</a></dd>
+                <dd><a href="#">历史沿革</a></dd>
+                <dd><a href="#">现任领导</a></dd>
+                <dd><a href="#">历届领导</a></dd>
+                <div class="clear"></div>
+              </div>
+            </dl>--></li>
+          <li><a href="fwzn/index.html">服务指南</a>
+            <dl class="nav02_dl2" style="z-index:99999;">
+              <div class="dl_bg">
+                                  <dd><a href="fwzn/shfw/index.html" title="生活服务">生活服务</a></dd>
+			                <dd><a href="news/xyfg/index.html" title="校园风光">校园风光</a></dd>
+			                <dd><a href="fwzn/xydy/index.html" title="校园导游">校园导游</a></dd>
+			                <dd><a href="fwzn/xl/index.html" title="校&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历">校&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历</a></dd>
+						<dd><a href="fwzn/bgdh/jgsw/index.html" title="$channel.title">办公电话</a></dd>
+			<dd><a href="fwzn/wlfw/index.html" title="$channel.title">网络服务</a></dd>
+			<dd><a href="fwzn/sjdx/zgdx/index.html" title="$channel.title">世界大学</a></dd>
+			                <dd><a href="fwzn/cyxx/index.html" title="常用信息">常用信息</a></dd>
+			                <dd><a href="fwzn/cywz/index.html" title="常用网址">常用网址</a></dd>
+			                <div class="clear"></div>
+              </div>
+            </dl>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div></div>
+<!--头部结束--> 
+<!--头部图片切换开始-->
+<div class="banner" id="banner">
+  <div class="banner_show" id="banner_show">
+
+
+   <a href="jdxw/jdxw/189978.html" class="bannger_inbox"><img src="images/content/2021-04/20210429185000067020.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">刘新成校友夫妇向学校捐赠设立“一九七七奖学金”</span></div></a>
+   <a href="index7.html" class="bannger_inbox"><img src="images/content/2021-03/20210331153500374969.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">我校党史学习教育启动</span></div></a>
+   <a href="jdxw/jdxw/189867.html" class="bannger_inbox"><img src="images/content/2021-04/20210428091804727139.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">学校举办“红色·征程——百年党史图片展”</span></div></a>
+   <a href="jdxw/jdxw/189927.html" class="bannger_inbox"><img src="images/content/2021-04/20210428195349987162.png" width="1440" height="515"><div class="baCon"><span class="banContent">我校举办“学百年党史·做时代新人” 2021年研究生理论宣讲比赛</span></div></a>
+   <a href="jdxw/jdxw/189583.html" class="bannger_inbox"><img src="images/content/2021-04/20210423195259769337.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">我校举办“学四史·迎百年”第三届“春晓杯”书法大会</span></div></a>
+   <a href="jdxw/jdxw/188232.html" class="bannger_inbox"><img src="images/content/2021-03/20210331174231701131.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">我校举办“红色·记忆——北京革命旧址手绘展”</span></div></a>
+   <a href="jdxw/jdxw/187691.html" class="bannger_inbox"><img src="images/content/2021-03/20210318182803063529.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">我校召开党史学习教育动员部署会并举办首场专题学习辅导报告会</span></div></a>
+   <a href="jdxw/jdxw/185298.html" class="bannger_inbox"><img src="images/content/2021-02/20210226163240498237.jpg" width="1440" height="515"><div class="baCon"><span class="banContent">我校京疆学院获评“全国脱贫攻坚先进集体”</span></div></a>
+    
+ 
+
+
+ 
+    <div class="banner_pre_next"> <a href="javascript:;" class="banner_btn_left">上一个</a> <a href="javascript:;" class="banner_btn_right">下一个</a> </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="js/jquery.caroufredsel-6.0.4-packed.js"></script> 
+<script type="text/javascript" src="js/focus.js"></script> 
+<script>
+bannerNew();
+window.onresize = function ()
+{
+	bannerNew();
+};
+
+function bannerNew()
+{
+	var oShowNew = document.getElementById('banner_show');
+	var oBannerNew = document.getElementById('banner');
+	var aImgNew = oShowNew.getElementsByTagName('img');
+	var iW = document.documentElement.clientWidth;
+	
+	if(iW<1440)
+	{
+		oBannerNew.style.width = oShowNew.style.width = iW + 'px';
+		oBannerNew.style.height = oShowNew.style.height = iW * (515/1440) + 'px';
+		
+		for(var i=0;i<aImgNew.length;i++)
+		{
+			aImgNew[i].style.width = iW + 'px';
+			aImgNew[i].style.height = iW * (515/1440) + 'px';
+		};
+	};
+	
+	if(iW>=1440)
+	{
+		oBannerNew.style.width = oShowNew.style.width = 1440 + 'px';
+		oBannerNew.style.height = oShowNew.style.height = 515 + 'px';
+		
+		for(var i=0;i<aImgNew.length;i++)
+		{
+			aImgNew[i].style.width = 1440 + 'px';
+			aImgNew[i].style.height = 515 + 'px';
+		};
+	};
+};
+</script>
+<!--头部图片切换结束--> 
+
+<!--conten开始-->
+<div class="content">
+  <div class="cont_lf">
+    <div class="cont_lf_list1">
+      <div class="con_list_title">
+        <h2>焦点新闻</h2>
+        <a href="jdxw/index.html" target="_blank">更多</a> </div>
+      <div class="con_list_con">
+        <ul>
+		    <li><span>04-29</span><a href="jdxw/jdxw/189978.html" title="刘新成校友夫妇向学校捐赠设立“一九七七奖学金”" target="_blank">刘新成校友夫妇向学校捐赠设立“一九七七奖学金”</a></li>
+		     <li><span>04-29</span><a href="jdxw/jdxw/189976.html" title="首届全国小学教育专业虚拟仿真实验教学一流课程建设研讨会举办" target="_blank">首届全国小学教育专业虚拟仿真实验教学一流课程建设研讨会举办</a></li>
+		     <li><span>04-28</span><a href="jdxw/jdxw/189911.html" title="数学科学学院举办“奋斗·印记——我的大学”主题座谈会" target="_blank">数学科学学院举办“奋斗·印记——我的大学”主题座谈会</a></li>
+		     <li><span>04-28</span><a href="jdxw/jdxw/189933.html" title="教育部哲学社会科学研究重大课题攻关项目“新时代加强教师队伍师德师风建设研究”赴山东省济宁市开展调研" target="_blank">教育部哲学社会科学研究重大课题攻关项目“新时代加强教师队伍师德师风建设研究”赴山…</a></li>
+		     <li><span>04-28</span><a href="jdxw/jdxw/189927.html" title="【党史学习教育】我校举办“学百年党史·做时代新人” 2021年研究生理论宣讲比赛" target="_blank">【党史学习教育】我校举办“学百年党史·做时代新人” 2021年研究生理论宣讲比赛</a></li>
+		     <li><span>04-28</span><a href="jdxw/jdxw/189918.html" title="汪晓源大使出席学校杰出校友座谈会 为师生作讲座并受聘担任学校国际化发展战略顾问" target="_blank">汪晓源大使出席学校杰出校友座谈会 为师生作讲座并受聘担任学校国际化发展战略顾问</a></li>
+		         </ul>
+      </div>
+    </div>
+    <div class="cont_lf_list2">
+      <div class="con_list_title con_list_title2">
+        <h2>学术活动</h2>
+         <a href="xzhd/index.html" target="_blank">更多</a> </div>
+      <div class="con_list_con con_list_con2">
+        <ul>
+		          <li>
+            <div class="list_time"><b>2021</b>
+              <p>04-22</p>
+            </div>
+            <a href="xzhd/189440.html" title="“致远”讲堂“千里之行，始于足下——浅谈我对大学生科研的体会与思考”主题讲座" target="_blank">            “致远”讲堂“千里之行，始于足下——浅谈我对大学生科研的体会与思考”主题讲... 
+    </a></li>
+		          <li>
+            <div class="list_time"><b>2021</b>
+              <p>05-10</p>
+            </div>
+            <a href="xzhd/189525.html" title="大使谈外交系列讲座：中东和中东外交" target="_blank">            大使谈外交系列讲座：中东和中东外交 
+    </a></li>
+		          <li>
+            <div class="list_time"><b>2021</b>
+              <p>05-06</p>
+            </div>
+            <a href="xzhd/190081.html" title="美育大讲堂（第19期）：近年来中国影视现象级作品之观察" target="_blank">            美育大讲堂（第19期）：近年来中国影视现象级作品之观察 
+    </a></li>
+		          <li>
+            <div class="list_time"><b>2021</b>
+              <p>05-06</p>
+            </div>
+            <a href="xzhd/190097.html" title="历史学院学术讲座: 改革开放43年——历程与经验（“四史”系列讲座之五）" target="_blank">            历史学院学术讲座: 改革开放43年——历程与经验（“四史”系列讲座之五） 
+    </a></li>
+		          <li>
+            <div class="list_time"><b>2021</b>
+              <p>04-30</p>
+            </div>
+            <a href="xzhd/189640.html" title="品德发展理论之学术前沿" target="_blank">            品德发展理论之学术前沿 
+    </a></li>
+		          <li>
+            <div class="list_time"><b>2021</b>
+              <p>04-30</p>
+            </div>
+            <a href="xzhd/189877.html" title="历史学院学术讲座：世界史博导论坛——关于“学术戍边”与“学术岛链”的思考（纪念南航金城学院教务处_南京财经大学教务处_南京艺术学院世界史专业创办20周年系列活动）" target="_blank">            历史学院学术讲座：世界史博导论坛——关于“学术戍边”与“学术岛链”的思考（... 
+    </a></li>
+		        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="link"> 
+      <!--链接-->
+      <div class="bm_con">
+          <div class="til_bm">
+            <ul id="btil">
+              <li><a href="#" class="a01">教学单位</a></li>
+              <li><a href="#" class="a02">机关部处</a></li>
+              <li><a href="#" class="a03">其他单位</a></li>
+              <li style="margin-right:0;"><a href="#" class="a04">友情链接</a></li>
+            </ul>
+          </div>
+          <div class="box_bm" id="box">
+            <dl>
+			              <dd> <a href="index8.html" title="文学院 " target="_blank">            文学院  
+    </a></dd>
+			               <dd> <a href="index9.html" title="历史学院 " target="_blank">            历史学院  
+    </a></dd>
+			               <dd> <a href="index10.html" title="政法学院 " target="_blank">            政法学院  
+    </a></dd>
+			               <dd> <a href="index11.html" title="教育学院 " target="_blank">            教育学院  
+    </a></dd>
+			               <dd> <a href="index12.html" title="教师教育学院" target="_blank">            教师教育学院 
+    </a></dd>
+			               <dd> <a href="index13.html" title="心理学院" target="_blank">            心理学院 
+    </a></dd>
+			               <dd> <a href="index14.html" title="外国语学院 " target="_blank">            外国语学院  
+    </a></dd>
+			               <dd> <a href="index15.html" title="马克思主义学院 " target="_blank">            马克思主义学院  
+    </a></dd>
+			               <dd> <a href="glxy/index.html" title="管理学院 " target="_blank">            管理学院  
+    </a></dd>
+			               <dd> <a href="index16.html" title="音乐学院" target="_blank">            音乐学院 
+    </a></dd>
+			               <dd> <a href="index17.html" title="美术学院 " target="_blank">            美术学院  
+    </a></dd>
+			               <dd> <a href="index18.html" title="数学科学学院 " target="_blank">            数学科学学院  
+    </a></dd>
+			               <dd> <a href="index19.html" title="物理系 " target="_blank">            物理系  
+    </a></dd>
+			               <dd> <a href="index20.html" title="化学系 " target="_blank">            化学系  
+    </a></dd>
+			               <dd> <a href="index21.html" title="生命科学学院 " target="_blank">            生命科学学院  
+    </a></dd>
+			               <dd> <a href="index22.html" title="资源环境与旅游学院 " target="_blank">            资源环境与旅游学院  
+    </a></dd>
+			               <dd> <a href="index23.html" title="信息工程学院 " target="_blank">            信息工程学院  
+    </a></dd>
+			               <dd> <a href="index.html" title="初等教育学院 " target="_blank">            初等教育学院  
+    </a></dd>
+			               <dd> <a href="index24.html" title="学前教育学院 " target="_blank">            学前教育学院  
+    </a></dd>
+			               <dd> <a href="index25.html" title="地信国际学院" target="_blank">            地信国际学院 
+    </a></dd>
+			               <dd> <a href="index26.html" title="良乡校区基础学部 " target="_blank">            良乡校区基础学部  
+    </a></dd>
+			               <dd> <a href="index27.html" title="继续教育学院 " target="_blank">            继续教育学院  
+    </a></dd>
+			               <dd> <a href="index28.html" title="京疆学院 " target="_blank">            京疆学院  
+    </a></dd>
+			               <dd> <a href="index29.html" title="国际文化学院 " target="_blank">            国际文化学院  
+    </a></dd>
+			               <dd> <a href="index30.html" title="中国书法文化研究院" target="_blank">            中国书法文化研究院 
+    </a></dd>
+			               <dd> <a href="index31.html" title="燕都学院 " target="_blank">            燕都学院  
+    </a></dd>
+			               <dd> <a href="index32.html" title="美育研究中心" target="_blank">            美育研究中心 
+    </a></dd>
+			               <dd> <a href="index33.html" title="文化研究院 " target="_blank">            文化研究院  
+    </a></dd>
+			               <dd> <a href="index34.html" title="交叉科学研究院" target="_blank">            交叉科学研究院 
+    </a></dd>
+			               <dd> <a href="dyb/index.html" title="大学英语教研部 " target="_blank">            大学英语教研部  
+    </a></dd>
+			               <dd> <a href="index35.html" title="体育教学研究部" target="_blank">            体育教学研究部 
+    </a></dd>
+			               <dd> <a href="index6.html" title="图书馆 " target="_blank">            图书馆  
+    </a></dd>
+			             </dl>
+            <dl>
+                           <dd> <a href="index36.html" title="学校办公室" target="_blank">            学校办公室 
+    </a></dd>
+			               <dd> <a href="index37.html" title="组织部 " target="_blank">            组织部  
+    </a></dd>
+			               <dd> <a href="news/index.html" title="宣传部 " target="_blank">            宣传部  
+    </a></dd>
+			               <dd> <a href="index38.html" title="统战部 " target="_blank">            统战部  
+    </a></dd>
+			               <dd> <a href="index39.html" title="纪委、监察室 " target="_blank">            纪委、监察室  
+    </a></dd>
+			               <dd> <a href="index40.html" title="教师工作部" target="_blank">            教师工作部 
+    </a></dd>
+			               <dd> <a href="index41.html" title="学生处 " target="_blank">            学生处  
+    </a></dd>
+			               <dd> <a href="ltxgbc/index.html" title="离退休干部处 " target="_blank">            离退休干部处  
+    </a></dd>
+			               <dd> <a href="index42.html" title="审计处 " target="_blank">            审计处  
+    </a></dd>
+			               <dd> <a href="index43.html" title="教务处 " target="_blank">            教务处  
+    </a></dd>
+			               <dd> <a href="index44.html" title="招生就业处 " target="_blank">            招生就业处  
+    </a></dd>
+			               <dd> <a href="index45.html" title="国有资产管理处" target="_blank">            国有资产管理处 
+    </a></dd>
+			               <dd> <a href="index46.html" title="科技处 " target="_blank">            科技处  
+    </a></dd>
+			               <dd> <a href="index47.html" title="社科处 " target="_blank">            社科处  
+    </a></dd>
+			               <dd> <a href="index48.html" title="发展规划办公室 " target="_blank">            发展规划办公室  
+    </a></dd>
+			               <dd> <a href="index49.html" title="研究生院" target="_blank">            研究生院 
+    </a></dd>
+			               <dd> <a href="index50.html" title="研究生工作部" target="_blank">            研究生工作部 
+    </a></dd>
+			               <dd> <a href="index51.html" title="人事处 " target="_blank">            人事处  
+    </a></dd>
+			               <dd> <a href="index52.html" title="国际合作交流处（港澳台办）" target="_blank">            国际合作交流处（港澳台办） 
+    </a></dd>
+			               <dd> <a href="index53.html" title="财务处 " target="_blank">            财务处  
+    </a></dd>
+			               <dd> <a href="index54.html" title="保卫处 " target="_blank">            保卫处  
+    </a></dd>
+			               <dd> <a href="jjc/index.html" title="基建处 " target="_blank">            基建处  
+    </a></dd>
+			               <dd> <a href="index55.html" title="团委" target="_blank">            团委 
+    </a></dd>
+			               <dd> <a href="gh/index.html" title="工会 " target="_blank">            工会  
+    </a></dd>
+			               <dd> <a href="index56.html" title="校友工作办公室" target="_blank">            校友工作办公室 
+    </a></dd>
+			               <dd> <a href="jgdw/index.html" title="机关党委" target="_blank">            机关党委 
+    </a></dd>
+			               <dd> <a href="index57.html" title="综合档案馆" target="_blank">            综合档案馆 
+    </a></dd>
+			             </dl>
+            <dl>
+                            <dd> <a href="xbbjb/index.html" title=" 学报编辑部 " target="_blank">             学报编辑部  
+    </a></dd>
+			               <dd> <a href="dc/index.html" title="数字校园建设中心" target="_blank">            数字校园建设中心 
+    </a></dd>
+			               <dd> <a href="index58.html" title="公共资源服务中心" target="_blank">            公共资源服务中心 
+    </a></dd>
+			               <dd> <a href="index59.html" title="北京市高师培训中心 " target="_blank">            北京市高师培训中心  
+    </a></dd>
+			               <dd> <a href="index60.html" title="后勤保障部" target="_blank">            后勤保障部 
+    </a></dd>
+			               <dd> <a href="" title="社区居委会" target="_blank">            社区居委会 
+    </a></dd>
+			               <dd> <a href="index61.html" title="校医院" target="_blank">            校医院 
+    </a></dd>
+			               <dd> <a href="index62.html" title="人口与计划生育办公室" target="_blank">            人口与计划生育办公室 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="首都师大附中" target="_blank">            首都师大附中 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="附属育新学校" target="_blank">            附属育新学校 
+    </a></dd>
+			               <dd> <a href="index63.html" title="附属幼儿园" target="_blank">            附属幼儿园 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="科德学院" target="_blank">            科德学院 
+    </a></dd>
+			               <dd> <a href="index64.html" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院技术转移中心" target="_blank">            南航金城学院教务处_南京财经大学教务处_南京艺术学院技术转移中心 
+    </a></dd>
+			               <dd> <a href="index65.html" title="北京市语言文字测试中心" target="_blank">            北京市语言文字测试中心 
+    </a></dd>
+			               <dd> <a href="index66.html" title="北京市幼教师资培训中心" target="_blank">            北京市幼教师资培训中心 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="成像理论与技术高精尖中心" target="_blank">            成像理论与技术高精尖中心 
+    </a></dd>
+			               <dd> <a href="index67.html" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社" target="_blank">            南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社 
+    </a></dd>
+			               <dd> <a href="index68.html" title="中国语言智能研究中心" target="_blank">            中国语言智能研究中心 
+    </a></dd>
+			               <dd> <a href="index69.html" title="中国诗歌研究中心" target="_blank">            中国诗歌研究中心 
+    </a></dd>
+			               <dd> <a href="index70.html" title="北京城市创新与发展研究中心" target="_blank">            北京城市创新与发展研究中心 
+    </a></dd>
+			             </dl>
+            <dl>
+                           <dd> <a href="javascript:;" title="高教改革与发展网" target="_blank">            高教改革与发展网 
+    </a></dd>
+			               <dd> <a href="javascript:;" title=" 教育部 " target="_blank">             教育部  
+    </a></dd>
+			               <dd> <a href="javascript:;" title="中国教育计算机网" target="_blank">            中国教育计算机网 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="北京市教育委员会" target="_blank">            北京市教育委员会 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="新华网" target="_blank">            新华网 
+    </a></dd>
+			               <dd> <a href="javascript:;" title="教育装备采购网" target="_blank">            教育装备采购网 
+    </a></dd>
+			             </dl>
+          </div>
+      </div>
+      
+      <!--链接--> 
+    </div>
+  </div>
+  <div class="cont_rt">
+    <div class="con_list2 con_list3">
+      <div class="con_list_title con_list_title3">
+        <h2>校园信息</h2>
+
+        <a href="xyxx/xygg/index.html" target="_blank">更多</a> </div>
+      <div class="cont_rt_con_list2_con">
+        <ul>
+		     <li><span>04-29 </span> <a href="javascript:void(0);" title="关于做好“五一”假期疫情防控工作的通知" onclick="checkXnwk('xyxx/xygg/189964.htm','xn');">            关于做好“五一”假期疫情防控工作的通知 
+    </a></li>
+		     <li><span>04-21 </span> <a href="javascript:void(0);" title="关于2021年劳动节放假安排的通知" onclick="checkXnwk('xyxx/xygg/189340.htm','xw');">            关于2021年劳动节放假安排的通知 
+    </a></li>
+		     <li><span>04-26 </span> <a href="javascript:void(0);" title="关于做好“五一”期间学校安全稳定工作的通知" onclick="checkXnwk('xyxx/xygg/189809.htm','xw');">            关于做好“五一”期间学校安全稳定工作的通... 
+    </a></li>
+		     <li><span>04-21 </span> <a href="javascript:void(0);" title="关于做好“五一”假期实验室安全工作的通知 " onclick="checkXnwk('xyxx/xygg/189416.htm','xw');">            关于做好“五一”假期实验室安全工作的通知... 
+    </a></li>
+		     <li><span>04-26 </span> <a href="javascript:void(0);" title="关于2021年上半年北京地区成人本科学士学位英语统一考试占用教室的通知" onclick="checkXnwk('xyxx/xygg/189773.htm','xw');">            关于2021年上半年北京地区成人本科学士... 
+    </a></li>
+		     <li><span>04-29 </span> <a href="javascript:void(0);" title="关于科原大厦配电改造竞争性磋商公告" onclick="checkXnwk('xyxx/xygg/189960.htm','xw');">            关于科原大厦配电改造竞争性磋商公告 
+    </a></li>
+		          </ul>
+      </div>
+    </div>
+   <div class="cont_rt_link"> 
+	<a href="index7.html" target="_blank"><img src="images/dsxxjy.jpg"></a> 
+	<a href="bwcx/index.html" target="_blank"><img src="images/cont_rt_link_2019.jpg"></a>
+	<a href="index56.html" target="_blank"><img src="images/cont_rt_link_1.jpg"></a> 
+	<a href="javascript:;" target="_blank"><img src="images/cont_rt_link_2.jpg"></a>
+</div>
+  </div>
+</div>
+<!--conten开始-->
+
+<div class="footer_bg">
+      
+
+<div class="footer" style="position:relative;">
+    	<div class="footer_img">
+        	<img src="images/footer_bg.jpg">
+
+        </div>
+
+    	<div class="address">
+        	Copyright &copy; 南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址：北京市西三环北路105号 100048<br>     E-mail: info@cnu.edu.cn&nbsp;      <!--<a href="#">网站地图</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->         <a href="javascript:;">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号 
+
+        </div>
+        <div class="counter">
+        	访问量统计: <script src="gplog/log/channelVisitLog-3544.js"></script>次
+
+  </div>
+<div class="tu" style="position:absolute; width:75px; height:80px; right:0px; top:0px;">
+<span id="_ideConac"><a href="javascript:;" target="_blank"><img id="imgConac" vspace="0" hspace="0" border="0" src="images/blue.png" data-bd-imgshare-binded="1"></a></span>
+</div>
+
+      
+        </div>
+
+<script src="gplog/log/writeLog-59_3544.js"></script>    </div>
+
+
+
+<!--<script>
+$('#banner_show').hover(function(){
+	$('.banner_mag').stop(true,false).animate({bottom:0},400);
+},function(){
+	$('.banner_mag').stop(true,false).animate({bottom:-48},400);
+});
+show ();
+</script>-->
+
+
+</body></html>

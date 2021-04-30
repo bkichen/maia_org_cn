@@ -1,0 +1,99 @@
+
+#eol_float div,#eol_float img,#eol_float  p,#eol_float span ,#eol_float a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent; 
+}
+#eol_float img,#eol_float p{display: block;}
+#eol_float a{
+   outline: none;
+   text-decoration: none;
+}
+#eol_float a,#eol_float span{
+    display: inline;
+}
+
+#eol_float {
+    width: 80px;
+    height: auto;
+    padding: 5px;
+    border-radius: 5px;
+    background: #c24332;
+    position: fixed;
+    top: 40%;
+    z-index: 2147483647;    
+    box-sizing: content-box;
+}
+.f-left {
+    left: 0;
+}
+#eol_float .float-head {
+    width: 80px;
+    height: 67px;
+    display: block;
+    position: absolute;
+    top: -67px;
+}
+#eol_float .float-a1 {
+    width: 80px;
+    height: 60px;
+    display: block;
+    padding: 5px 0px;
+    background: #ad2f23;
+    margin: 8px auto;
+    border-radius: 5px;
+    box-sizing: content-box;
+}
+#eol_float .float-a1 img {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+#eol_float .float-a1 span {
+    width: 80px;
+    height: 20px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+}
+#eol_float .float-a2 {
+    width: 80px;
+    height: 28px;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    color: #fff;
+    text-align: center;
+    background: #ad2f23;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+#wx-postion {
+    position: relative;
+}
+#eol_float .wx-pic {
+    width: 110px;
+    height: 110px;
+    padding: 5px;
+    position: absolute;
+    top: -20px;
+    background: #b52712;
+    display: none;
+}
+#eol_float .wx-pic-left {
+    left: 98px;
+}
+#eol_float .wx-pic-right {
+    right: 98px;
+}
+#eol_float .hide {
+    display: none;
+}
+#eol_float .wx-pic img {
+    width: 100%!important;
+    height: 100%!important;
+}

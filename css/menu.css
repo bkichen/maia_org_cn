@@ -1,0 +1,148 @@
+#home_banner {
+	BACKGROUND-IMAGE: url(https://zzb.cnu.edu.cn/images/top_banner.gif); WIDTH: 986px; HEIGHT: 152px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#menu_1 {
+	BACKGROUND-IMAGE: url(https://zzb.cnu.edu.cn/images/dh_bj.JPG); MARGIN: auto; WIDTH: 790px; HEIGHT: 31px
+}
+#menu_2 {
+	BACKGROUND-COLOR: #132a55; MARGIN: auto; WIDTH: 986px; HEIGHT: 31px
+}
+#menu {
+	MARGIN: auto; WIDTH: 640px; HEIGHT: 28px
+}
+#menu UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px
+}
+#menu LI {
+	DISPLAY: inline
+}
+#menu A {
+	WIDTH: 80px; FLOAT: left; HEIGHT: 19px; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+#menu .current A {
+	WIDTH: 72px; FLOAT: left; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+#menu A:hover {
+	
+}
+#menu A:active {
+	
+}
+#menu_bk {
+	WIDTH: 500px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#menu SPAN {
+	PADDING-BOTTOM: 2px; FLOAT: left; COLOR: #ffffff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+#menu_1 UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px
+}
+#menu_1 LI {
+	DISPLAY: inline
+}
+#menu_1 A {
+	WIDTH: 80px; FLOAT: left; HEIGHT: 19px; COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+#menu_1 .current A {
+	WIDTH: 72px; FLOAT: left; COLOR: #b81f21; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+#menu_1 A:hover {
+	COLOR: #000000
+}
+#menu_1 A:active {
+	
+}
+#menu_1_bk {
+	WIDTH: 790px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#menu_1 SPAN {
+	PADDING-BOTTOM: 2px; FLOAT: left; COLOR: #ffffff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+#menu_2 UL {
+	LIST-STYLE-TYPE: none; MARGIN: 0px
+}
+#menu_2 LI {
+	DISPLAY: inline
+}
+#menu_2 A {
+	WIDTH: 80px; FLOAT: left; HEIGHT: 19px; COLOR: #ffffff; FONT-SIZE: 12px; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+#menu_2 .current A {
+	WIDTH: 72px; FLOAT: left; COLOR: #ffffff; TEXT-DECORATION: none; PADDING-TOP: 12px
+}
+#menu_2 A:hover {
+	COLOR: #ffffff
+}
+#menu_2 A:active {
+	
+}
+#menu_2_bk {
+	WIDTH: 986px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#menu_2 SPAN {
+	PADDING-BOTTOM: 2px; FLOAT: left; COLOR: #ffffff; FONT-WEIGHT: bold; PADDING-TOP: 2px
+}
+#banner {
+	BACKGROUND-IMAGE: url(https://zzb.cnu.edu.cn/images/top_banner_branch.gif); WIDTH: 986px; HEIGHT: 119px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#banner_4manage {
+	BACKGROUND-IMAGE: url(https://zzb.cnu.edu.cn/manage/images/banner.jpg); WIDTH: 986px; HEIGHT: 100px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+#banner_for_news {
+	WIDTH: 986px; HEIGHT: 119px; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+.news {
+	PADDING-BOTTOM: 10px; LIST-STYLE-TYPE: none; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 0px
+}
+.news LI {
+	BORDER-BOTTOM: #cccccc 1px dashed; PADDING-BOTTOM: 4px; LINE-HEIGHT: 15px; LIST-STYLE-TYPE: none; HEIGHT: 16px; CLEAR: both; VERTICAL-ALIGN: bottom; PADDING-TOP: 7px
+}
+.news LI.title {
+	BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #ffffff; MARGIN-BOTTOM: 6px; COLOR: #2053b3; FONT-WEIGHT: bold
+}
+.news LI.title:hover {
+	BORDER-BOTTOM: #999999 1px solid; BACKGROUND-COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.news LI IMG {
+	
+}
+.news LI A#n2 {
+	PADDING-LEFT: 22px; PADDING-RIGHT: 5px; FLOAT: right; COLOR: #999999; FONT-SIZE: 11px; font-faamily: Tahoma, Verdana
+}
+.news .title #n1 {
+	BACKGROUND-IMAGE: url(../images/arrow_for_newst.gif)
+}
+.news LI A#n1 {
+	BACKGROUND-IMAGE: url(../images/arrow_for_news.gif); PADDING-LEFT: 20px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; TEXT-DECORATION: none
+}
+.news .title #n1:hover {
+	BACKGROUND-IMAGE: url(../images/arrow_for_newst.gif); TEXT-DECORATION: none
+}
+.news .title A#n3 {
+	FONT-SIZE: 12px
+}
+.news .title A#n2 {
+	FONT-SIZE: 12px
+}
+.news LI A#n3 {
+	PADDING-LEFT: 10px; FONT-FAMILY: Tahoma, Verdana; FLOAT: right; COLOR: #999999; FONT-SIZE: 11px
+}
+.news LI A#n1:hover {
+	BACKGROUND-IMAGE: url(../images/arrow_for_news0.gif); BACKGROUND-REPEAT: no-repeat; TEXT-DECORATION: underline
+}
+.news LI A#n3:hover {
+	TEXT-DECORATION: none
+}
+.news LI A#n2:hover {
+	TEXT-DECORATION: none
+}
+.news LI:hover {
+	BORDER-BOTTOM: #5876ac 1px dashed; BACKGROUND-COLOR: #eeeeee; LIST-STYLE-TYPE: none; CLEAR: both
+}
+.news LI A#n1 .title {
+	BACKGROUND-IMAGE: url(../images/arrow_for_newst.gif); PADDING-LEFT: 20px; BACKGROUND-REPEAT: no-repeat; FLOAT: left; TEXT-DECORATION: none
+}
+.dh_bj {
+	BACKGROUND-IMAGE: url(https://zzb.cnu.edu.cn/images/index_skb_07.gif); WIDTH: 790px; BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left top; MARGIN-LEFT: auto; MARGIN-RIGHT: auto
+}
+

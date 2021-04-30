@@ -1,0 +1,333 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院学前教育学院</title>
+<link href="css/newstyle.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<!--图片切换 效果-->
+<script type="text/javascript" src="js/index1.js"></script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<p>
+	
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<script>
+		function checkXnwk(url, xwssyh) {
+			var url1 = window.location + "";
+			url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+			if (xwssyh != '' && xwssyh == 'xn') {
+				var flag = checkSession();
+				if (flag == "true") {
+					window.open(url);
+				} else if (flag == "false") {
+					url1 = url1.split("").reverse().join("") ;
+					url1 = encodeURIComponent(url1) ;
+					window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+				} else {
+					window.open(url);
+				}
+			} else {
+				window.open(url);
+			}
+		}
+		function checkSession() {
+			var flag = "";
+			jQuery.ajax({
+				type : "POST",
+				url : '/cms/web/getXnwkSession.jsp',
+				async : false,
+				success : function(data) { 
+					var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+					flag = newData;
+				}
+			});
+			return flag;
+		}
+</script></p>
+<div class="area">
+	<div class="main">
+		<div class="header">
+			
+<div class="top"><a href="javascript:;"><img src="images/logo5.jpg" width="1002" height="140"></a></div>
+  <div class="nav">
+             <ul id="nav">
+                <li><a class="active" href="javascript:;">首页</a></li>
+			  													<li><a class="active" href="javascript:;">学院概况</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">学院简介</a></dd>
+																<dd><a href="javascript:;">现任领导</a></dd>
+																<dd><a href="javascript:;">学术委员会</a></dd>
+																<dd><a href="javascript:;">教学委员会|组</a></dd>
+																<dd><a href="javascript:;">机构设置</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;">师资队伍</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">师资概况</a></dd>
+																<dd><a href="javascript:;">全体教师</a></dd>
+																<dd><a href="javascript:;">硕士生导师</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;">教育教学</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">研究生教育</a></dd>
+																<dd><a href="javascript:;">本科生教育</a></dd>
+																<dd><a href="javascript:;">高职生教育</a></dd>
+																<dd><a href="javascript:;">贯通培养教育</a></dd>
+																<dd><a href="javascript:;">继续教育</a></dd>
+																<dd><a href="javascript:;">实习见习</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;">科学研究</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">科研机构</a></dd>
+																<dd><a href="javascript:;">科研项目</a></dd>
+																<dd><a href="javascript:;">科研成果</a></dd>
+																<dd><a href="javascript:;">科研奖励</a></dd>
+																<dd><a href="javascript:;">实验室</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;">学生工作</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">部门简介</a></dd>
+																<dd><a href="javascript:;">就业信息</a></dd>
+																<dd><a href="javascript:;">学生活动</a></dd>
+																<dd><a href="javascript:;">学生党建</a></dd>
+																<dd><a href="javascript:;">团旗飘飘</a></dd>
+																<dd><a href="javascript:;">荣誉公报</a></dd>
+																<dd><a href="javascript:;">文件下载</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;"> 党建工作</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">党委设置</a></dd>
+																<dd><a href="javascript:;">党委设置</a></dd>
+																<dd><a href="javascript:;">党纪党规</a></dd>
+																<dd><a href="javascript:;">支部活动</a></dd>
+																<dd><a href="javascript:;">公示公告</a></dd>
+																<dd><a href="javascript:;">学习资料</a></dd>
+																<dd><a href="javascript:;">二级党校</a></dd>
+																<dd><a href="javascript:;">工会</a></dd>
+																<dd><a href="javascript:;">二级教代会</a></dd>
+																<dd><a href="javascript:;">两学一做</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;">继续教育</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">通知公告</a></dd>
+																<dd><a href="javascript:;">常见问题解答</a></dd>
+																<dd><a href="javascript:;">文件下載</a></dd>
+																<dd><a href="javascript:;">文件下載</a></dd>
+															</dl>
+					 </div>
+				</li>
+																								<li><a class="active" href="javascript:;">下载专区</a>
+					 <div class="sonnav">
+							<dl>
+																<dd><a href="javascript:;">常用表格</a></dd>
+																<dd><a href="javascript:;">常用文件</a></dd>
+															</dl>
+					 </div>
+				</li>
+																				<li><a href="index1.html">学校主页</a></li>
+								            </ul>
+           </div></div>
+		<div class="content">
+			<div class="pic_banner">
+				<div class="banner">
+					<div id="bannerPic">
+						<div id="banner_bg">
+							&nbsp;</div>
+						<div id="banner_info">
+							&nbsp;</div>
+						<ul>
+							  							<li class="on">
+								1  </li>
+							<li>
+								2  </li>
+							<li>
+								3  </li>
+							<li>
+								4  </li>
+							<li>
+								5 </li>
+						</ul>
+						<div id="banner_list">
+							 <a><img height="310" src="images/content/2020-07/20200720164921889564.jpg" width="976"> </a> <a><img height="310" src="images/content/2020-07/20200720164958455661.jpg" width="976"> </a> <a><img height="310" src="images/content/2020-07/20200720165027860753.jpg" width="976"> </a> <a><img height="310" src="images/content/2020-07/20200720165045404805.jpg" width="976"> </a> <a><img height="310" src="images/content/2020-07/20200720165101411946.jpg" width="976"> </a></div>
+					</div>
+				</div>
+			</div>
+			<div class="con1">
+				<div class="con1_lf">
+					<div class="con1_lf_tit">
+						<span class="more"><a href="javascript:;">更多</a></span>
+						<h2>
+							通知公告</h2>
+					</div>
+					<div class="con_con_list">
+						<ul>
+														<li>
+								<span>04-26</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/189765.htm','xw');" title="关于开展全面消防安全检查的通知">            关于开展全面消防安全检查的通知 
+    </a>							<li>
+								<span>04-15</span> <a href="javascript:void(0);" onclick="checkXnwk('docs/20210415135147954259.pdf','xw');" title="学院2021年度转专业工作方案">            学院2021年度转专业工作方案 
+    </a>							<li>
+								<span>04-14</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/188961.htm','xw');" title="关于开展国家安全教育及参加保密知识竞赛的通知">            关于开展国家安全教育及参加保密知识竞赛的通... 
+    </a>							<li>
+								<span>04-07</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/188530.htm','xn');" title="关于保证财务支出进度的通知">            关于保证财务支出进度的通知 
+    </a>							<li>
+								<span>04-02</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/188318.htm','xw');" title="通知：废旧自行车清理公告">            通知：废旧自行车清理公告 
+    </a>							<li>
+								<span>04-01</span> <a href="javascript:void(0);" onclick="checkXnwk('docs/20210401093028982344.pdf','xw');" title="关于“3+2+2”高端技术技能人才贯通培养试验项目的专升本转段工作方案">            关于“3+2+2”高端技术技能人才贯通培养... 
+    </a>							<li>
+								<span>03-29</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/188095.htm','xw');" title="公示：2020年党支部书记评优结果">            公示：2020年党支部书记评优结果 
+    </a>							<li>
+								<span>12-28</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/184257.htm','xn');" title="公示：2020年考核优秀人员">            公示：2020年考核优秀人员 
+    </a>							<li>
+								<span>12-09</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/tzgg5/183579.htm','xw');" title="学院 2020 年考核工作意见">            学院 2020 年考核工作意见 
+    </a>							<li>
+								<span>09-26</span> <a href="javascript:void(0);" onclick="checkXnwk('docs/20200926213148156797.pdf','xw');" title="公文：学院本科生保研推免办法">            公文：学院本科生保研推免办法 
+    </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="con1_con">
+					<div class="con1_con_tit">
+						<span class="more"><a href="javascript:;">更多</a></span>
+						<h2>
+							学院新闻<font size="+0">News</font></h2>
+					</div>
+					<div class="con_con_list">
+						<ul>
+														<li>
+								<span>04-26</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/189742.htm','xw');" title="学院举办“师生同上一堂课”活动 ">            学院举办“师生同上一堂课”活动  
+    </a>							<li>
+								<span>04-02</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/188329.htm','xw');" title="学院资料室焕新啦！">            学院资料室焕新啦！ 
+    </a>							<li>
+								<span>03-29</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/188022.htm','xw');" title="学院退休教师为学院捐赠图书">            学院退休教师为学院捐赠图书 
+    </a>							<li>
+								<span>03-08</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/187383.htm','xw');" title="学院召开北京市示范性托育机构评选市级评估员培训会">            学院召开北京市示范性托育机构评选市级评... 
+    </a>							<li>
+								<span>03-03</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/187176.htm','xw');" title="学院党委召开教工党支部书记述职考评会">            学院党委召开教工党支部书记述职考评会 
+    </a>							<li>
+								<span>02-08</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/185174.htm','xw');" title="学院党委春节前慰问老同志">            学院党委春节前慰问老同志 
+    </a>							<li>
+								<span>01-15</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/184930.htm','xw');" title="学院成功召开2020年度学术年会">            学院成功召开2020年度学术年会 
+    </a>							<li>
+								<span>01-15</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/184929.htm','xw');" title="学院召开“2020年度教学工作总结会 暨一流本科课程建设研讨会”">            学院召开“2020年度教学工作总结会 ... 
+    </a>							<li>
+								<span>01-11</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/184819.htm','xw');" title="学院党委组织教工支部全体委员集中培训">            学院党委组织教工支部全体委员集中培训 
+    </a>							<li>
+								<span>01-04</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xyxw/184611.htm','xw');" title="学院举办2017级本科教育实习总结交流会">            学院举办2017级本科教育实习总结交流... 
+    </a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="con1_rt">
+					<div class="con1_rt_tit">
+						<span class="more"><a href="javascript:;">更多</a></span>
+						<h2>
+							学术活动<font size="+0">Learning</font></h2>
+					</div>
+					<div class="con_con_list">
+						<ul>
+														<li>
+								<span>04-06</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/188451.htm','xw');" title="学术讲座：实现学前教育公平有质量的发展">            学术讲座：实现学前教育公平有质量的发展 
+    </a>							<li>
+								<span>12-15</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/183831.htm','xw');" title="学术讲座：新时期人才培养的导向与坐标">            学术讲座：新时期人才培养的导向与坐标 
+    </a>							<li>
+								<span>12-11</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/183679.htm','xw');" title="2020年首都教育论坛·学前教育分论坛">            2020年首都教育论坛·学前教育分论坛 
+    </a>							<li>
+								<span>12-02</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/183169.htm','xw');" title="学术讲座：经验追踪研究与家校合作理论形成的案例分析">            学术讲座：经验追踪研究与家校合作理论形... 
+    </a>							<li>
+								<span>12-20</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/170621.htm','xw');" title="学术讲座：家庭教育引论与家庭教育知识体系">            学术讲座：家庭教育引论与家庭教育知识体... 
+    </a>							<li>
+								<span>10-23</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/166640.htm','xw');" title="学术讲座：children's observation and assessment">            学术讲座：children's obs... 
+    </a>							<li>
+								<span>09-05</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/163511.htm','xw');" title="家庭教育研究中心启动仪式暨工作论坛">            家庭教育研究中心启动仪式暨工作论坛 
+    </a>							<li>
+								<span>06-10</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/161404.htm','xw');" title="0-3岁婴幼儿托育——来自芬兰的经验">            0-3岁婴幼儿托育——来自芬兰的经验 
+    </a>							<li>
+								<span>05-21</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/160268.htm','xw');" title="学术讲座：How to write and publish your paper in high impact journals & Better communication during the submission and publication process">            学术讲座：How to write a... 
+    </a>							<li>
+								<span>05-13</span> <a href="javascript:void(0);" onclick="checkXnwk('sylm/xsdt/159589.htm','xw');" title="学术讲座：幼儿基本动作的发展特点与指导">            学术讲座：幼儿基本动作的发展特点与指导 
+    </a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="con2">
+				<div class="con2_lf">
+					<a href="javascript:;" target="_blank"><img height="114" src="images/link.jpg" width="319"></a></div>
+				<div class="con2_md">
+					<div class="search">
+						<form accept-charset="utf-8" action="/cms/search/searchResults.jsp" method="post" name="dataForm" onsubmit="document.charset='utf-8';" target="_blank">
+							<input name="siteID" type="hidden" value="41"> <input class="notxt" id="keywords" name="query" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}" onfocus="if(value==defaultValue){value='';}" value="站内搜索"> <input class="notxt1" name="Submit" type="submit" value="提交查询内容">&nbsp;</form>
+					</div>
+					<dl>
+						<dd>
+							<a href="javascript:;">常用查询</a></dd>
+						<dd>
+							<a href="javascript:;">资源链接</a></dd>
+						<dd>
+							<a href="javascript:;">友情链接</a></dd>
+					</dl>
+				</div>
+				<div class="con2_rt">
+					<dl>
+						<dd>
+							<a href="javascript:;" target="_blank">办公系统</a></dd>
+						<dd>
+							<a href="javascript:;" target="_blank">服务门户</a></dd>
+						<dd>
+							<a href="javascript:;" target="_blank">VPN登录</a></dd>
+						<dd>
+							<a href="javascript:;" target="_blank">网站管理</a></dd>
+						<dd>
+							<a href="javascript:;" target="_blank">招生就业</a></dd>
+						<dd>
+							<a href="javascript:;">联系我们</a></dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	
+ Copyright &copy;南航金城学院教务处_南京财经大学教务处_南京艺术学院学前教育学院版权所有 <a href="javascript:;" style="color:#fff;">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号<br>      
+地址：北京市海淀区阜成路北三街5号 100048   E-mail: info@cnu.edu.cn </div>
+<script>
+var oNav = document.getElementById('nav');
+var aLi = oNav.getElementsByTagName('li');
+
+for(var i=0;i<aLi.length;i++)
+{
+	aLi[i].onmouseover = function ()
+	{
+		this.className = 'on';
+	};
+	aLi[i].onmouseout = function ()
+	{
+		this.className = '';
+	};
+};
+	$(".area-l").height($(document).height()-83);
+	$(".area-r").height($(document).height()-83);
+
+</script>
+</body></html>

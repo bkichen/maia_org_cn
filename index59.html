@@ -1,0 +1,518 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>北京市高等学校师资培训中心</title>
+<link rel="Stylesheet" href="css/css1.css" type="text/css">
+<script type="text/javascript" src="js/jquery-1.7.2.min1.js"></script>
+<script type="text/javascript" src="js/select01.js"></script>
+<script type="text/javascript" src="js/index4.js"></script>
+<script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
+<script src="js/jquery.caroufredsel-6.0.4-packed.js" type="text/javascript"></script>
+<script src="js/zzsc.js"></script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+
+
+<p>
+<script type="text/javascript">
+		function check(){
+			if($("#sid").val()==""){
+				alert("搜索条件不允许为空");
+				return false;
+			}else{
+				$("#form2").submit();
+			} 
+		}
+		function onbover(){
+			document.getElementById("children_01a").style.display = "none";
+		}
+		function onaover(){
+			document.getElementById("children_01a").style.display = "block";
+		}
+	</script></p>
+<div class="top">
+  <div class="top_logo"> 
+      <div class="login">
+      		<a href="javascript:;" class="color01" target="_blank">登 录</a>│<a href="javascript:;" target="_blank">注 册</a>
+      </div>
+  </div>
+  <div class="top_menu">
+    <div class="menu_left">
+      <div id="wrap-nav">
+        <ul class="menu ul">
+          <li id="m_1">
+            <h3 class="selected"> <a href="javascript:;" class="depth_1">首页</a> </h3>
+          </li>
+		  
+          <li id="m_5">
+            <h3> <a href="javascript:;" class="depth_1">中心简介</a> </h3>
+          </li>
+          <li id="m_2">
+            <h3 id="menu_02" onmouseover="onbover();"> <a class="depth_1">培训项目</a> </h3>
+            <ul id="children_01" class="children" style="height:155px;">
+              <li onmouseover="onaover();">
+                <h3 id="menu_01a"> <a href="javascript:;" class="depth_2"><span class="icon10"></span>国内培训</a> </h3>
+                <ul id="children_01a">
+								<li><a href="javascript:;" class="depth_3">> 高校教师岗前培训</a></li>
+								<li><a href="javascript:;" class="depth_3">> 教育技术(考试)培训</a></li>
+								<li><a href="javascript:;" class="depth_3">> 国内访问学者进修</a></li>
+								<li><a href="javascript:;" class="depth_3">> 硕士生导师培训</a></li>
+								<li><a href="javascript:;" class="depth_3">> 教师发展基地研修</a></li>
+								<li><a href="javascript:;" class="depth_3">> 青年教师教学能力培训</a></li>
+								<li><a href="javascript:;" class="depth_3">> 科研能力与师德培训</a></li>
+								<li><a href="javascript:;" class="depth_3">> 管理干部培训</a></li>
+								<li><a href="javascript:;" class="depth_3">> 外语培训</a></li>
+				                </ul>
+              </li>
+              <li onmouseover="onbover();">
+                <h3 id="menu_02b"> <a href="javascript:;" class="depth_2"><span class="icon10"></span>国外培训</a> </h3>
+              </li>
+              <li onmouseover="onbover();">
+                <h3 id="menu_02c"> <a href="javascript:;" class="depth_2"><span class="icon10"></span>对外培训</a> </h3>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3> <a class="depth_1">考试信息</a> </h3>
+            <ul id="children_02" class="children" style="height:70px; width: 125px;">
+									 <li>
+					<h3> <a href="javascript:;" class="depth_2"><span class="icon10"></span>岗前培训</a> </h3>
+				  </li>
+									 <li>
+					<h3> <a href="javascript:;" class="depth_2"><span class="icon10"></span>教育技术</a> </h3>
+				  </li>
+				            </ul>
+          </li>
+          <li>
+            <h3> <a class="depth_1">成绩查询</a> </h3>
+            <ul id="children_03" class="children" style="height:70px; width: 125px;">
+             					 <li>
+					<h3> <a href="javascript:;" class="depth_2"><span class="icon10"></span>岗前培训 </a> </h3>
+				  </li>
+									 <li>
+					<h3> <a href="javascript:;" class="depth_2"><span class="icon10"></span>教育技术</a> </h3>
+				  </li>
+				            </ul>
+          </li>
+          <li>
+            <h3> <a href="javascript:;" class="depth_1">培训资源</a> </h3>
+          </li>
+          <li>
+            <h3> <a href="javascript:;" class="depth_1">专家团队</a> </h3>
+          </li>
+          <li>
+            <h3> <a href="javascript:;" class="depth_1">对外培训</a> </h3>
+          </li>
+          <li>
+            <h3> <a href="javascript:;" class="depth_1">政策法规</a> </h3>
+          </li>
+          <li>
+            <h3> <a href="javascript:;" class="depth_1">下载专区</a> </h3>
+          </li>
+          <li>
+            <h3> <a href="javascript:;" class="depth_1">联系我们</a> </h3>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="menu_right">
+     <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="109" type="hidden">
+                    <input class="notxt" value="" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>    </div>
+  </div>
+</div><div class="banner">
+  <div class="banner_gg">
+    <div class="banner_ggall">
+      <div id="divgd01">
+        <p> 
+
+
+		<a href="javascript:;" title="2021-2022年度南航金城学院教务处_南京财经大学教务处_南京艺术学院国内访问学者招生简章" target="_blank">最新公告&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;            2021-2022年度南航金城学院教务处_南京财经大学教务处_南京艺术学院国内访问学者... 
+    &nbsp;&nbsp;&nbsp;[04-28]</a> <br>
+		
+		<a href="javascript:;" title="关于举办 “高等学校管理干部法治素养与行政能力提升高级研修班” 的通知" target="_blank">最新公告&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;            关于举办 “高等学校管理干部法治素养与行政能力... 
+    &nbsp;&nbsp;&nbsp;[04-28]</a> <br>
+		
+		<a href="javascript:;" title="关于80期岗前培训考试成绩及成绩复核的工作通知" target="_blank">最新公告&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;            关于80期岗前培训考试成绩及成绩复核的工作通知 
+    &nbsp;&nbsp;&nbsp;[03-17]</a> <br>
+		 </p>
+        
+      </div>
+      <script>
+							var box=document.getElementById("divgd01"),can=true;
+							box.innerHTML+=box.innerHTML;
+							box.onmouseover=function(){can=false};
+							box.onmouseout=function(){can=true};
+							new function (){
+								var stop=box.scrollTop%50==0&&!can;
+								if(!stop)box.scrollTop==parseInt(box.scrollHeight/2)?box.scrollTop=0:box.scrollTop++;
+								setTimeout(arguments.callee,box.scrollTop%50?10:1500);
+							};
+						</script> 
+    </div>
+  </div>
+  <div class="banner01">
+    <ul class="list" style="text-align: center;">
+	      <li style="display:list-item;" class="bg1"><img src="images/content/2020-04/20200417225641675074.jpg" width="1440" height="500"></li>
+		      <li style="display:none;" class="bg2"><img src="images/content/2020-04/20200417225503037967.jpg" width="1440" height="500"></li>
+	  	      <li style="display:none;" class="bg3"><img src="images/content/2018-04/20180404164027173727.jpg" width="1440" height="500"></li>
+	  	      <li style="display:none;" class="bg4"><img src="images/content/2018-04/20180404164311661958.jpg" width="1440" height="500"></li>
+	  	      <li style="display:none;" class="bg5"><img src="images/content/2018-04/20180404163942649425.jpg" width="1440" height="500"></li>
+	     </ul>
+    <ul class="btn">
+    </ul>
+  </div>
+  <script type="text/javascript" src="js/focus2.js"></script> 
+</div>
+<div class="ztnav">
+  <div class="ztnav_left">
+    <div class="ztnavblock_bt">
+      <h1>培训通知</h1>
+      <h2><a href="javascript:;" target="_blank"> More</a></h2>
+    </div>
+    <div class="ztnavblock_btpic ztnavblock_btpic01"><img src="images/banner_sen01.png" width="405" height="96"></div>
+    <div class="ztnavblock_list">
+      <ul>
+	  	  <li><h1 style="color:#0099FF">[04-28]</h1>
+           <h2><a href="javascript:;" title="2021-2022年度南航金城学院教务处_南京财经大学教务处_南京艺术学院国内访问学者招生简章" target="_blank">            2021-2022年度南航金城学院教务处_南京财经大学教务处_南京艺术学院国内访问学者招... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>04-28</h1>
+          <h2><a href="gnpxxm/gnfwxzjx/pxtz5/189929.htm"  title="2021-2022年度南航金城学院教务处_南京财经大学教务处_南京艺术学院国内访问学者招生简章" target="_blank">            2021-2022年度南航金城学院教务处_南京财经大学教务处_南京艺术学院国内访问学者招生简... 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[04-28]</h1>
+           <h2><a href="javascript:;" title="关于举办 “高等学校管理干部法治素养与行政能力提升高级研修班” 的通知" target="_blank">            关于举办 “高等学校管理干部法治素养与行政能力提... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>04-28</h1>
+          <h2><a href="gnpxxm/glgbpx2/pxtz10/189892.htm"  title="关于举办 “高等学校管理干部法治素养与行政能力提升高级研修班” 的通知" target="_blank">            关于举办 “高等学校管理干部法治素养与行政能力提升高... 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[04-14]</h1>
+           <h2><a href="javascript:;" title="关于举办高等学校“课程思政融入金课建设”高级研修班的通知" target="_blank">            关于举办高等学校“课程思政融入金课建设”高级研修... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>04-14</h1>
+          <h2><a href="gg/188950.htm"  title="关于举办高等学校“课程思政融入金课建设”高级研修班的通知" target="_blank">            关于举办高等学校“课程思政融入金课建设”高级研修班的... 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[04-14]</h1>
+           <h2><a href="javascript:;" title="北京市高等学校师资培训中心培训项目介绍" target="_blank">            北京市高等学校师资培训中心培训项目介绍 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>04-14</h1>
+          <h2><a href="gg/188948.htm"  title="北京市高等学校师资培训中心培训项目介绍" target="_blank">            北京市高等学校师资培训中心培训项目介绍 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[03-17]</h1>
+           <h2><a href="javascript:;" title="关于80期岗前培训考试成绩及成绩复核的工作通知" target="_blank">            关于80期岗前培训考试成绩及成绩复核的工作通知 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>03-17</h1>
+          <h2><a href="gnpxxm/gxjsgqpx/pxtz3/187612.htm"  title="关于80期岗前培训考试成绩及成绩复核的工作通知" target="_blank">            关于80期岗前培训考试成绩及成绩复核的工作通知 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[03-11]</h1>
+           <h2><a href="javascript:;" title="课程思政专场培训 | 推进课程思政 深化三全育人" target="_blank">            课程思政专场培训 | 推进课程思政 深化三全育人 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>03-11</h1>
+          <h2><a href="gg/187445.htm"  title="课程思政专场培训 | 推进课程思政 深化三全育人" target="_blank">            课程思政专场培训 | 推进课程思政 深化三全育人 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[12-22]</h1>
+           <h2><a href="javascript:;" title="关于第80期岗前培训考试相关事宜的通知" target="_blank">            关于第80期岗前培训考试相关事宜的通知 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>12-22</h1>
+          <h2><a href="gnpxxm/gxjsgqpx/pxtz3/184088.htm"  title="关于第80期岗前培训考试相关事宜的通知" target="_blank">            关于第80期岗前培训考试相关事宜的通知 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[12-16]</h1>
+           <h2><a href="javascript:;" title="第80期《大学教学技能》学时和提交作业名单查询" target="_blank">            第80期《大学教学技能》学时和提交作业名单查询 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>12-16</h1>
+          <h2><a href="gnpxxm/gxjsgqpx/pxtz3/183864.htm"  title="第80期《大学教学技能》学时和提交作业名单查询" target="_blank">            第80期《大学教学技能》学时和提交作业名单查询 
+    </a> </h2>
+        </li>-->
+			  <li><h1 style="color:#0099FF">[12-07]</h1>
+           <h2><a href="javascript:;" title="关于举办高等学校教师教学与科研能力提升高级研修班的通知" target="_blank">            关于举办高等学校教师教学与科研能力提升高级研修班... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>12-07</h1>
+          <h2><a href="gnpxxm/kynlysdpx2/pxtz9/183469.htm"  title="关于举办高等学校教师教学与科研能力提升高级研修班的通知" target="_blank">            关于举办高等学校教师教学与科研能力提升高级研修班的通... 
+    </a> </h2>
+        </li>-->
+		      </ul>
+    </div>
+  </div>
+  <div class="ztnav_cen">
+    <div class="ztnavblock_bt ztnavblock_bt01">
+      <h1>培训新闻</h1>
+      <h2><a href="javascript:;" target="_blank"> More</a></h2>
+    </div>
+    <div class="ztnavblock_btpic">
+      <div id="wrapper">
+        <div id="carousel">
+          <ul>
+		  
+		              <li><img src="images/content/2016-09/20160918103306819825.jpg" alt="" width="120" height="90"></li>
+		            </ul>
+          <div class="clearfix"></div>
+          <a id="prev" class="prev" href="javascript:;">&lt;</a> <a id="next" class="next" href="javascript:;">&gt;</a> </div>
+      </div>
+    </div>
+    <div class="ztnavblock_list">
+      <ul>
+                 <li><h1 style=" color:#0099FF">[12-25]</h1>
+           <h2><a href="javascript:;" title="同向同行  铸魂育人---“课程思政融入金课建设”研修班成功举办" target="_blank">            同向同行  铸魂育人---“课程思政融入金课建设”研... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>12-25</h1>
+          <h2><a href="xw/184214.htm"  title="同向同行  铸魂育人---“课程思政融入金课建设”研修班成功举办" target="_blank">            同向同行  铸魂育人---“课程思政融入金课建设”研... 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[12-24]</h1>
+           <h2><a href="javascript:;" title="强化能力建设 提升服务效能" target="_blank">            强化能力建设 提升服务效能 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>12-24</h1>
+          <h2><a href="gnpxxm/glgbpx2/pxxw10/184164.htm"  title="强化能力建设 提升服务效能" target="_blank">            强化能力建设 提升服务效能 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[12-09]</h1>
+           <h2><a href="javascript:;" title="弘扬传统文化，提升师德素养" target="_blank">            弘扬传统文化，提升师德素养 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>12-09</h1>
+          <h2><a href="gnpxxm/kynlysdpx2/pxxw9/183573.htm"  title="弘扬传统文化，提升师德素养" target="_blank">            弘扬传统文化，提升师德素养 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[11-02]</h1>
+           <h2><a href="javascript:;" title="名校名师真诚分享  新任教师收获良多" target="_blank">            名校名师真诚分享  新任教师收获良多 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>11-02</h1>
+          <h2><a href="gnpxxm/qnjsjxnlpx/pxxw8/180026.htm"  title="名校名师真诚分享  新任教师收获良多" target="_blank">            名校名师真诚分享  新任教师收获良多 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[11-25]</h1>
+           <h2><a href="javascript:;" title="守好一段渠、种好责任田——“课程思政融入金课建设”精品师资研修班在京成功举行" target="_blank">            守好一段渠、种好责任田——“课程思政融入金课建设”精... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>11-25</h1>
+          <h2><a href="xw/169257.htm"  title="守好一段渠、种好责任田——“课程思政融入金课建设”精品师资研修班在京成功举行" target="_blank">            守好一段渠、种好责任田——“课程思政融入金课建设”精... 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[10-30]</h1>
+           <h2><a href="javascript:;" title="“课程思政融入金课建设”师资培训班在京成功举办" target="_blank">            “课程思政融入金课建设”师资培训班在京成功举办 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>10-30</h1>
+          <h2><a href="xw/167274.htm"  title="“课程思政融入金课建设”师资培训班在京成功举办" target="_blank">            “课程思政融入金课建设”师资培训班在京成功举办 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[09-29]</h1>
+           <h2><a href="javascript:;" title="当代舞蹈教师“产教融合”实训基地" target="_blank">            当代舞蹈教师“产教融合”实训基地 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>09-29</h1>
+          <h2><a href="xw/165089.htm"  title="当代舞蹈教师“产教融合”实训基地" target="_blank">            当代舞蹈教师“产教融合”实训基地 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[07-13]</h1>
+           <h2><a href="javascript:;" title="高师中心成功举办“2018年北京农学院管理干部管理能力提升研修班”" target="_blank">            高师中心成功举办“2018年北京农学院管理干部管理能... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>07-13</h1>
+          <h2><a href="gnpxxm/glgbpx2/pxxw10/145443.htm"  title="高师中心成功举办“2018年北京农学院管理干部管理能力提升研修班”" target="_blank">            高师中心成功举办“2018年北京农学院管理干部管理能... 
+    </a> </h2>
+        </li>-->
+		         <li><h1 style=" color:#0099FF">[07-13]</h1>
+           <h2><a href="javascript:;" title="满怀期待而来，满载收获而归——高师中心成功举办淮安市基础教育“广教研”高级研修班" target="_blank">            满怀期待而来，满载收获而归——高师中心成功举办淮安市... 
+    </a>
+           	 <em></em></h2></li> 
+
+      <!--  <li>
+          <h1>07-13</h1>
+          <h2><a href="xw/145358.htm"  title="满怀期待而来，满载收获而归——高师中心成功举办淮安市基础教育“广教研”高级研修班" target="_blank">            满怀期待而来，满载收获而归——高师中心成功举办淮安市... 
+    </a> </h2>
+        </li>-->
+		      </ul>
+    </div>
+  </div>
+  <div class="ztnav_right">
+    <div class="ztnav_right_bt">
+    	<h2><a href="javascript:;">国内培训项目</a></h2>
+    </div>
+    <div class="ztnav_right_ul">
+      <ul>
+        <li><a href="javascript:;" target="_blank">高校教师岗前培训</a></li>
+        <li><a href="javascript:;" target="_blank">教育技术(考试)培训</a></li>
+        <li><a href="javascript:;" target="_blank">国内访问学者进修</a></li>
+        <li><a href="javascript:;" target="_blank">硕士生导师培训</a></li>
+        <li><a href="javascript:;" target="_blank">教师发展基地研修</a></li>
+        <li><a href="javascript:;" target="_blank">青年教师教学能力培训</a></li>
+        <li><a href="javascript:;" target="_blank">科研能力与师德培训</a></li>
+        <li><a href="javascript:;" target="_blank">管理干部培训</a></li>
+        <li><a href="javascript:;" target="_blank">外语培训</a></li>
+      </ul>
+    </div>
+    <div class="ztnav_right_bt02"><a href="javascript:;" target="_blank"> </a></div>
+    <div class="ztnav_right_bt04"><a href="javascript:;" target="_blank"></a></div>
+    <div class="ztnav_right_bt03"><a href="javascript:;" target="_blank"><img src="images/rgs_01.png" alt="证书认证查询" width="255" height="54"></a></div>
+    <div class="ztnav_right_bt03"><a href="javascript:;" target="_blank" title="'创想杯'多媒体课件大赛专区"> <img src="images/rgs_02.png" width="255" height="54"></a></div>
+  </div>
+  <div class="height0"></div>
+</div>
+<div class="bot" style="height: 160px;">
+  <div class="bot01">
+    <div class="bot01_kd">
+      <div class="fhtop"><a href="javascript:;" class="cd-top"><img src="images/gs_63.gif" width="41" height="13"></a></div>
+      <div class="bot01_kdleft">
+        <table width="100%">
+          <tr>
+            <td width="100" align="left" class="color_font18">友情链接 │</td>
+            <td width="240"><dl class="select01">
+                <dt>教育部、教委及各省高师中心</dt>
+                <dd>
+                  <ul>
+				                      <li><a href="javascript:;" target="_blank">            华东中心 
+    </a></li>
+				                      <li><a href="javascript:;" target="_blank">            武汉中心 
+    </a></li>
+				                      <li><a href="javascript:;" target="_blank">            东北中心 
+    </a></li>
+				                      <li><a href="javascript:;" target="_blank">            北京市教委 
+    </a></li>
+				                      <li><a href="javascript:;" target="_blank">            中华人民共和国教育部 
+    </a></li>
+				                    </ul>
+                </dd>
+              </dl></td>
+            <td width="240"><dl class="select01">
+                <dt>北京市属各高校</dt>
+                <dd>
+                  <ul>
+                    						<li><a href="javascript:;" target="_blank">            中国音乐学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            中国戏曲学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            首都医科大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            首都体育学院 
+    </a></li>
+					  						<li><a href="index1.html" target="_blank">            南航金城学院教务处_南京财经大学教务处_南京艺术学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            首都经济贸易大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京印刷学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京信息科技大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京物资学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京舞蹈学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京石油化工学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京青年政治学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京农学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京联合大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京建筑大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京工业职业技术学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京工业大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京工商大学 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北京财贸职业学院 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            北方工业大学 
+    </a></li>
+					                    </ul>
+                </dd>
+              </dl></td>
+            <td><dl class="select01">
+                <dt>国外相关组织机构</dt>
+                <dd>
+                  <ul>
+                    						<li><a href="javascript:;" target="_blank">            Stanford University 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            New York University 
+    </a></li>
+					  						<li><a href="javascript:;" target="_blank">            Harvard University 
+    </a></li>
+					                    </ul>
+                </dd>
+              </dl></td>
+          </tr>
+        </table>
+      </div>
+      <div class="bot01_kdright">
+        <div class="bot01_kdright01">010-68900570 </div>
+        <div class="bot01_kdright02">gaoshitraining@163.com</div>
+        <div class="bot01_kdright03">北京市海淀区西三环北路105号<br>
+          南航金城学院教务处_南京财经大学教务处_南京艺术学院校内 100048</div>
+      </div>
+    </div>
+  </div>
+  <div class="bot02">
+    <div class="bot02_kd">
+      <div class="bot02_kdleft">&nbsp;</div>
+      <div class="bot02_kdcen" style="line-height: 22px;"> <a href="javascript:;">旧版回顾</a>│<a href="javascript:;">管理登录</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Copyright
+        (c) 北京市高校师资培训中心版权所有  <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号<br>
+        建议使用IE9及以上版本的IE浏览器、360浏览器等常见浏览器访问本网站 </div>
+      <div class="bot02_kdright"></div>
+    </div>
+  </div>
+</div>
+
+
+
+</body></html>

@@ -1,0 +1,430 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院化学系</title>
+<link href="css/base6.css" type="text/css" rel="stylesheet">
+<link href="css/style14.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="js/jquery.min2.js"></script>
+<script type="text/javascript" src="js/jquery.yx_rotaion.js"></script>
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+
+
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+            	<h1>
+                	<a href="javascript:;">
+        				<img src="images/logo3.jpg" width="431" height="136" alt="">
+                    </a>
+                </h1>
+           </div>
+           <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="93" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首页</a></li>
+																<li><a href="javascript:;">化学系简介</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">学院概况</a></dd>
+														<dd><a href="javascript:;">历史沿革</a></dd>
+														<dd><a href="javascript:;">现任领导</a></dd>
+														<dd><a href="javascript:;">组织机构</a></dd>
+														<dd><a href="javascript:;">办公电话</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">党政工作</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">党委简介</a></dd>
+														<dd><a href="javascript:;">党委工作</a></dd>
+														<dd><a href="javascript:;">教代会工会工作</a></dd>
+														<dd><a href="javascript:;">安全稳定工作</a></dd>
+														<dd><a href="javascript:;">活动图片</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">师资队伍</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">全体在职教师</a></dd>
+														<dd><a href="javascript:;">特聘教授</a></dd>
+														<dd><a href="javascript:;">国家杰青</a></dd>
+														<dd><a href="javascript:;">硕士生导师</a></dd>
+														<dd><a href="javascript:;">博士生导师</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">科学研究</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">学术活动</a></dd>
+														<dd><a href="javascript:;">科研项目</a></dd>
+														<dd><a href="javascript:;">科研成果</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">招生就业</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">本科生招生</a></dd>
+														<dd><a href="javascript:;">研究生招生</a></dd>
+														<dd><a href="javascript:;">成人教育招生</a></dd>
+														<dd><a href="javascript:;">就业信息</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">人才培养</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">本科生培养</a></dd>
+														<dd><a href="javascript:;">研究生培养</a></dd>
+														<dd><a href="javascript:;">成人教育</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">人才招聘</a></li>
+																				<li><a href="javascript:;">学生工作</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">学生党支部</a></dd>
+														<dd><a href="javascript:;">团委</a></dd>
+														<dd><a href="javascript:;">学生会</a></dd>
+														<dd><a href="javascript:;">社团活动</a></dd>
+														<dd><a href="javascript:;">新生风采</a></dd>
+														<dd><a href="javascript:;">毕业生离校</a></dd>
+														<dd><a href="javascript:;">系友风采</a></dd>
+														<dd><a href="javascript:;">日常活动图片</a></dd>
+														<dd><a href="javascript:;">研究生会</a></dd>
+													</dl>
+				 </div>
+				</li>
+												              
+            </ul>
+        </div>
+      </div></div>
+
+<div class="content">
+           <div class="row mode01">
+                <div class="col lf">
+                		<div class="listBanner">
+                        	<div class="Banner">
+							
+								 <script type="text/javascript">
+		var imgUrl=new Array();
+		var imgLink=new Array();
+		var imgName=new Array();
+		var n=1;
+		                
+												imgUrl[n] = "images/content/2015-07/20150702135107942833.jpg";
+				imgLink[n] = "xwtp/57970.htm";
+				var vTitle='tupian2';
+				if (vTitle.length>25)
+				vTitle=vTitle.substring(0,15)+"...";
+				imgName[n] = vTitle;
+				n++;
+																imgUrl[n] = "images/content/2015-07/20150702135341274942.jpg";
+				imgLink[n] = "xwtp/57971.htm";
+				var vTitle='tupian3';
+				if (vTitle.length>25)
+				vTitle=vTitle.substring(0,15)+"...";
+				imgName[n] = vTitle;
+				n++;
+																imgUrl[n] = "images/content/2015-07/20150702133951880637.jpg";
+				imgLink[n] = "xwtp/57264.htm";
+				var vTitle='图片';
+				if (vTitle.length>25)
+				vTitle=vTitle.substring(0,15)+"...";
+				imgName[n] = vTitle;
+				n++;
+																imgUrl[n] = "images/content/2015-07/20150702132355729599.jpg";
+				imgLink[n] = "xwtp/57983.htm";
+				var vTitle='图片';
+				if (vTitle.length>25)
+				vTitle=vTitle.substring(0,15)+"...";
+				imgName[n] = vTitle;
+				n++;
+																imgUrl[n] = "images/content/2015-07/20150710182150232002.jpg";
+				imgLink[n] = "xwtp/61601.htm";
+				var vTitle='图';
+				if (vTitle.length>25)
+				vTitle=vTitle.substring(0,15)+"...";
+				imgName[n] = vTitle;
+				n++;
+																imgUrl[n] = "images/content/2015-07/20150710182112200986.jpg";
+				imgLink[n] = "xwtp/61600.htm";
+				var vTitle='图';
+				if (vTitle.length>25)
+				vTitle=vTitle.substring(0,15)+"...";
+				imgName[n] = vTitle;
+				n++;
+								
+											
+				var texts = "";
+				var links = "";
+				var pics = "";
+				var count=1;
+				for(var h=1; h<n; h++) {
+				if (count>6)
+				break;
+				if ((imgUrl[h] !="") && (imgLink[h] !="") && (imgUrl[h].indexOf(".jpg") > 0)){
+					if (imgName[h].length > 20)
+					imgName[h] = imgName[h].substring(0, 20) + "...";
+					texts += imgName[h] + "|";
+					links += imgLink[h] + "|";
+					pics += imgUrl[h] + "|";
+					count++;
+					}
+				}
+				texts = texts.substring(0, texts.length-1);
+				links = links.substring(0, links.length-1);
+				pics = pics.substring(0, pics.length-1);
+				var focus_width=370
+				var focus_height=262
+				var text_height=0
+				var swf_height = focus_height+text_height
+				document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+				
+document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="images/focus.swf"><param name="quality" value="high"> <param name="bgcolor" value= "#FFFFFF"> <param name="wmode" value="transparent"> ');				
+				document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+				
+				document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+				
+				document.write('<embed src="images/focus.swf" wmode="opaque"  FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" wmode="transparent" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />'); document.write('</object>'); 
+</script>
+
+
+    	
+                            </div>
+                        </div>
+                            <div class="listTitle">
+                            		<span class="more"><a href="javascript:;"><img src="images/arrow_right.jpg"></a></span><h2>学术活动</h2>
+                            </div>
+
+                        <div class="articleList">
+                        		<ul>
+                                	                                	<li><a href="javascript:void(0);" title="“博学笃志·求知创新”学术月博学讲堂：Pt/TiO2-x单原子催化剂中Pt与氧空位耦合作用的理论研究" onclick="checkXnwk('kxyj/xzhd/189055.htm','xw');">            “博学笃志·求知创新”学术月博学讲堂：Pt/T... 
+     </a></li>
+								                                	<li><a href="javascript:void(0);" title="“博学笃志·求知创新”学术月博学讲堂：原子尺度下的精准合成和构效关系" onclick="checkXnwk('kxyj/xzhd/188587.htm','xw');">            “博学笃志·求知创新”学术月博学讲堂：原子尺度... 
+     </a></li>
+								                                	<li><a href="javascript:void(0);" title="第十六届研究生学术月朋辈讲座：科研绘图——没有人比你更懂科研" onclick="checkXnwk('kxyj/xzhd/175186.htm','xw');">            第十六届研究生学术月朋辈讲座：科研绘图——没有... 
+     </a></li>
+								                                	<li><a href="javascript:void(0);" title="第十六届研究生学术月导师专家在线讲座（二）: 化学研究的学科特点和学术评价" onclick="checkXnwk('kxyj/xzhd/175035.htm','xw');">            第十六届研究生学术月导师专家在线讲座（二）: ... 
+     </a></li>
+								                                	<li><a href="javascript:void(0);" title="第十六届研究生学术月导师专家在线讲座（一）: 从新冠疫情看爱国情怀与学术诚信" onclick="checkXnwk('kxyj/xzhd/175034.htm','xw');">            第十六届研究生学术月导师专家在线讲座（一）: ... 
+     </a></li>
+								                                	<li><a href="javascript:void(0);" title="Stable carbenes and related species as powerful tools in organic, organometallic, and inorganic chemistry" onclick="checkXnwk('kxyj/xzhd/146432.htm','xw');">            Stable carbenes and rel... 
+     </a></li>
+								                                	<li><a href="javascript:void(0);" title="“美丽化学 研途筑梦”学术月活动 名师名家讲坛第二讲" onclick="checkXnwk('kxyj/xzhd/135762.htm','xw');">            “美丽化学 研途筑梦”学术月活动 名师名家讲坛... 
+     </a></li>
+								                                </ul>
+                        </div>
+                </div>
+            <div class="col md">
+                                <div class="articleList">
+                                    <div class="listTitle">
+                                       <span class="more"><a href="javascript:;"><img src="images/arrow_right.jpg"></a></span><h2>通知公告</h2>
+                                  </div>
+                                    <ul>
+                                                                             <li><span>[2019.10]</span><a href="javascript:void(0);" title="关于设立化学系书记信箱、主任信箱的通知" onclick="checkXnwk('tzgg/165401.htm','xw');">            关于设立化学系书记信箱、主任信箱的通知 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="化学系2021年度本科生转专业工作方案" onclick="checkXnwk('tzgg/189048.htm','xw');">            化学系2021年度本科生转专业工作方案 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="2020年度实验室开放基金项目评审结果" onclick="checkXnwk('tzgg/188496.htm','xw');">            2020年度实验室开放基金项目评审结果 
+    </a></li>
+									                                      <li><span>[2021.03]</span><a href="javascript:void(0);" title="化学系2021年“青春榜样”候选人公示" onclick="checkXnwk('tzgg/187896.htm','xw');">            化学系2021年“青春榜样”候选人公示 
+    </a></li>
+									                                      <li><span>[2021.03]</span><a href="javascript:void(0);" title="2021年第13届北京市大学生化学实验竞赛报名通知" onclick="checkXnwk('tzgg/187428.htm','xw');">            2021年第13届北京市大学生化学实验竞赛... 
+    </a></li>
+									                                      <li><span>[2021.03]</span><a href="javascript:void(0);" title="第二届全国大学生化学实验创新设计竞赛（华北赛区）报名通知" onclick="checkXnwk('tzgg/187295.htm','xw');">            第二届全国大学生化学实验创新设计竞赛（华北... 
+    </a></li>
+									                                      <li><span>[2021.03]</span><a href="javascript:void(0);" title="理科校内创新实践基地关于申报2021年实训项目的通知" onclick="checkXnwk('tzgg/187140.htm','xw');">            理科校内创新实践基地关于申报2021年实训... 
+    </a></li>
+									                                      <li><span>[2021.02]</span><a href="javascript:void(0);" title="化学系拟推荐“北京市优秀共青团员”名单公示" onclick="checkXnwk('tzgg/185279.htm','xw');">            化学系拟推荐“北京市优秀共青团员”名单公示 
+    </a></li>
+									                                    </ul>
+                                </div>
+                                <div class="articleList">
+                                    <div class="listTitle">
+                                       <span class="more"><a href="javascript:;"><img src="images/arrow_right.jpg"></a></span><h2>系内新闻</h2>
+                                  </div>
+                                    <ul>
+                                                                              <li><span>[2021.04]</span><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院化学学科快速发展" onclick="checkXnwk('xnxw/189811.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院化学学科快速发展 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="化学系召开党史学习教育动员会暨教职工集中理论学习" onclick="checkXnwk('xnxw/188446.htm','xw');">            化学系召开党史学习教育动员会暨教职工集中理... 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="化学系举行“永远跟党走”主题教育活动暨党史学习教育启动仪式" onclick="checkXnwk('xnxw/188445.htm','xw');">            化学系举行“永远跟党走”主题教育活动暨党史... 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="以高质量的党员发展工作向建党100周年献礼" onclick="checkXnwk('xnxw/188419.htm','xw');">            以高质量的党员发展工作向建党100周年献礼 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="化学系召开2020年度学生党支部书记述职评议考核会" onclick="checkXnwk('xnxw/188417.htm','xw');">            化学系召开2020年度学生党支部书记述职评... 
+    </a></li>
+									                                      <li><span>[2021.04]</span><a href="javascript:void(0);" title="化学系党委召开教师支部工作总结会暨党史学习教育工作布置会" onclick="checkXnwk('xnxw/188414.htm','xw');">            化学系党委召开教师支部工作总结会暨党史学习... 
+    </a></li>
+									                                    </ul>
+                                </div>
+
+       </div>
+        <div class="col rt">
+                    <div class="articleList tongzhi">
+                            <div class="listTitle">
+                                <span class="more"><a href="javascript:;"><img src="images/arrow_right.jpg"></a></span><h2>成果展示</h2>
+                     		 </div>
+                             <div id="demo" style=" width:320px; height:250px; margin-top:10px; overflow:hidden; position: relative;">
+                             	<div id="demo1" style="width:100%; position: absolute; top:0; left:0;">
+                             	 								 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Shi PJ, Han TY et al</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Turn-on type stimuli-responsive fluorescence of diaminomaleonitrile derivatives: Implication for information encryption-decryption">            Turn-on type stimuli-responsive fluorescence of diaminomaleonitrile derivat... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>DYES AND PIGMENTS 2019, 162: 272-280. <br>DOI: 10.1016/j.dyepig.2018.10.043</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Wang G, Liao Y et al.</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Theoretical investigation on the ferromagnetic two-dimensional scandium monochloride sheet that has a high Curie temperature">            Theoretical investigation on the ferromagnetic two-dimensional scandium mon... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>APPLIED SURFACE SCIENCE 2019, 471: 1011-1016.<br>DOI: 10.1016/j.apsusc.2018.12.109</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Cai X, Xu ZZ, Fu HB, et al. </p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="A stimuli-responsive and chemically tunable organic microcrystal laser switch">            A stimuli-responsive and chemically tunable organic microcrystal laser swit... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>CHEMICAL COMMUNICATIONS 2019, 55: 814-817.<br>DOI: 10.1039/c8cc08298g</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Liu YX, Zhou J, et al.</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Rationally designed pure-inorganic upconversion nanoprobes for ultra-highly selective hydrogen sulfide imaging and elimination in vivo">            Rationally designed pure-inorganic upconversion nanoprobes for ultra-highly... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>CHEMICAL SCIENCE 2019, 10: 1193-1200</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Mao F, Zhou J et al.</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Green synthesis of ultra-small VOx nanodots for acidic-activated HSP60 inhibition and therapeutic enhancement">            Green synthesis of ultra-small VOx nanodots for acidic-activated HSP60 inhi... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>BIOMATERIALS 2019, 194: 94-104</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Zhang DS；Li, WX；Ma ZF；Han HL</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Improved ELISA for tumor marker detection using electro-readout-mode based on label triggered degradation of methylene blue">            Improved ELISA for tumor marker detection using electro-readout-mode based ... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>BIOSENSORS & BIOELECTRONICS 2019, 126: 800-805</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Zhao, Juncai ; Shu, Di ; Ma, Zhanfang</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Target-inspired Zn2+-dependent DNAzyme for ultrasensitive impedimetric aptasensor based on polyacrylic acid nanogel as amplifier">            Target-inspired Zn2+-dependent DNAzyme for ultrasensitive impedimetric apta... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>BIOSENSORS & BIOELECTRONICS，2019：127：  161-166</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> Ma, LY; Liu, YX; Liu, LD; and Zhou, J</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Simultaneous Activation of Short-Wave Infrared (SWIR) Light and Paramagnetism by a Functionalized Shell for High Penetration and Spatial Resolution Theranostics">            Simultaneous Activation of Short-Wave Infrared (SWIR) Light and Paramagneti... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>ADVANCED FUNCTIONAL MATERIALS</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p> L Wang, C Gao, K Liu, and J Zhou</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title="Cypate-Conjugated Porous Upconversion Nanocomposites for Programmed Delivery of Heat Shock Protein 70 Small Interfering RNA for Gene Silencing and Photothermal Ablation">            Cypate-Conjugated Porous Upconversion Nanocomposites for Programmed Deliver... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>Advanced Functional Materials， 2016， 26：3480-3489</p></li>
+									</ul>     
+																	 	<ul>
+                                    <li class="authou"><span>作者: </span><p>  Chen, ZB; Tan, LL; Hu, LY</p></li>
+                                    <li><span>题目: </span><p><a href="javascript:;" title=" Real Colorimetric Thrombin Aptasensor by Masking Surfaces of Catalytically Active Gold Nanoparticles">             Real Colorimetric Thrombin Aptasensor by Masking Surfaces of Catalytically... 
+    </a></p></li>
+                                    <li><span>期刊:</span><p>ACS APPLIED MATERIALS & INTERFACES  卷: 8  期: 1  页: 102-108</p></li>
+									</ul>     
+									                                </div>
+                                
+							</div>
+          		    </div>
+                    <div class="friendLink">
+                            <div class="linkTitle">
+                                <span class="more"><a href="javascript:;"><img src="images/arrow_right.jpg"></a></span><h2>校内链接</h2>
+                     		 </div>
+                             <ul>
+                             		                              		<li><a href="javascript:void(0);" title="物品供应管理系统" onclick="checkXnwk('http://192.168.125.240/wpgy','xw');">            物品供应管... 
+    </a></li>
+							                               		<li><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院" onclick="checkXnwk('http://www.cnu.edu.cn','$article.belongUser');">            首都师范大... 
+    </a></li>
+							                               </ul>
+          		    </div>
+
+        </div>
+                    
+       </div>
+    </div>
+
+<div class="footer">
+    
+<div class="copyRight">
+	地址：北京市西三环北路105号 100048<br>
+	Copyright &copy; 南航金城学院教务处_南京财经大学教务处_南京艺术学院化学系 版权所有  <br>
+<a href="javascript:;" style="color:#000">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+
+</div>
+</div>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="js/script3.js"></script>
+<script type="text/javascript">
+    Nav();  /*导航下拉*/
+	//Banner();  /*轮播图*/
+	//DY_scroll();
+	banner_scroll();
+</script>
+
+<!--IE6透明代码-->
+<!--[if IE 6]>
+<script src="js/pngAlaph.js"></script>
+<script>
+DD_belatedPNG.fix('.search, img');
+</script>
+<![endif]-->
+
+</body></html>

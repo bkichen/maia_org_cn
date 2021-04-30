@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>人口与计划生育办公室</title>
+<link href="css/newbase.css" type="text/css" rel="stylesheet">
+<link href="css/style42.css" type="text/css" rel="stylesheet">
+<!--IE6透明代码-->
+<!--[if IE 6]>
+<script src="js/pngAlaph.js"></script>
+<script>
+DD_belatedPNG.fix('.logo, img');
+</script>
+<![endif]-->
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+        		<a href="javascript:;"><img src="images/logo10.png" width="721" height="92" alt=""></a>
+           </div>
+           <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="98" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首  页</a></li>
+				
+												<li><a href="javascript:;">新闻动态</a></li>
+																<li><a href="javascript:;">政策法规</a></li>
+																<li><a href="javascript:;">业务指南</a></li>
+																<li><a href="javascript:;">优生优育</a></li>
+																<li><a href="javascript:;">生殖健康</a></li>
+																				<li><a href="javascript:;">下载专区</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">教职工篇</a></dd>
+														<dd><a href="javascript:;">学生篇</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">问题解答</a>
+				 <div class="subNav">
+                       	<dl>
+														<dd><a href="javascript:;">教职工篇</a></dd>
+														<dd><a href="javascript:;">学生篇</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">联系我们</a></li>
+								            </ul>
+        </div>
+      </div></div>
+
+<div class="content">
+	<div class="time">
+   		<script>
+			function writeDateInfo()
+			{
+					var day="";
+					var month="";
+					var ampm="";
+					var ampmhour="";
+					var myweekday="";
+					var year="";
+					mydate=new Date();
+					myweekday=mydate.getDay();
+					mymonth=mydate.getMonth()+1;
+					myday= mydate.getDate();
+					myyear= mydate.getYear();
+					myhour = mydate.getHours();
+					myminute = mydate.getMinutes();
+					mysecond = mydate.getSeconds();
+					year=(myyear > 200) ? myyear : 1900 + myyear;
+					if(myweekday == 0)
+					weekday=" 星期日";
+					else if(myweekday == 1)
+					weekday=" 星期一";
+					else if(myweekday == 2)
+					weekday=" 星期二";
+					else if(myweekday == 3)
+					weekday=" 星期三";
+					else if(myweekday == 4)
+					weekday=" 星期四";
+					else if(myweekday == 5)
+					weekday=" 星期五";
+					else if(myweekday == 6)
+					weekday=" 星期六";
+					document.write(year+"年"+mymonth+"月"+myday+"日"+myhour+"时"+myminute+"分"+mysecond+"秒");
+				} 
+			</script>
+    	现在是：<script>writeDateInfo();</script> <span id="s1"></span>
+    </div>
+    <div class="Banner">
+        <div class="flexslider">
+            <ul class="slides">
+			                <li><a href="javascript:;"><img src="images/content/2015-11/20151120155336718564.jpg" width="1000" height="200">
+             <!--  <div class="til_slides">计生工作会</div>--></a></li>
+			                 <li><a href="javascript:;"><img src="images/content/2015-07/20150717142941833601.jpg" width="1000" height="200">
+             <!--  <div class="til_slides">      南航金城学院教务处_南京财经大学教务处_南京艺术学院人口与计划生育办公室</div>--></a></li>
+			                 <li><a href="javascript:;"><img src="images/content/2015-10/20151009094816142520.jpg" width="1000" height="200">
+             <!--  <div class="til_slides">欢度六一</div>--></a></li>
+			                 <li><a href="javascript:;"><img src="images/content/2015-07/20150717143311436705.jpg" width="1000" height="200">
+             <!--  <div class="til_slides">人口与计划生育办公室欢迎您！</div>--></a></li>
+			                 <li><a href="javascript:;"><img src="images/content/2015-10/20151009094116556404.jpg" width="1000" height="200">
+             <!--  <div class="til_slides">青春健康</div>--></a></li>
+			                
+            </ul>
+       </div>
+      </div>
+    <div class="row mode01">
+        <div class="col lf">
+        	 <div class="tabArticleList" id="tabArticleList">
+                	<div class="tabListTitle">
+                        <div class="tab_menu">
+                            <h3 class="til_tab on"><a href="javascript:;">新闻动态</a></h3>
+                            <h3 class="til_tab"><a href="javascript:;">政策法规</a></h3>
+                        </div>
+                        <div class="more">
+                            <a href="javascript:;" class="more_tab" style="display:block;">更多</a>
+                            <a href="javascript:;" class="more_tab">更多</a>
+                        </div>
+                    </div>
+                    <div class="tabList">
+                        <div class="tabListBox" style="display:block;">
+                        	<ul>
+							                                <li><span>[2021-04-20]</span><a href="javascript:void(0);" title="我校选派学生参加北京青年网络暨同伴教育主持人培训" onclick="checkXnwk('xwdt/189298.htm','xw');">            我校选派学生参加北京青年网络暨同伴教育主持人培训 
+    </a></li>
+							                                <li><span>[2020-12-01]</span><a href="javascript:void(0);" title="我校举办“世界艾滋病日”宣传活动" onclick="checkXnwk('xwdt/183105.htm','xw');">            我校举办“世界艾滋病日”宣传活动 
+    </a></li>
+							                                <li><span>[2020-12-01]</span><a href="javascript:void(0);" title="我校学生参加北京青年网络暨同伴教育主持人培训班" onclick="checkXnwk('xwdt/183085.htm','xw');">            我校学生参加北京青年网络暨同伴教育主持人培训班 
+    </a></li>
+							                                <li><span>[2020-10-27]</span><a href="javascript:void(0);" title="我校荣获2020年北京高校大学生世界避孕日知识竞赛优秀团队奖" onclick="checkXnwk('xwdt/179621.htm','xw');">            我校荣获2020年北京高校大学生世界避孕日知识竞赛优秀团队奖 
+    </a></li>
+							                                <li><span>[2020-06-01]</span><a href="javascript:void(0);" title="举办庆祝“六一儿童节”儿童跳蚤市场活动" onclick="checkXnwk('xwdt/175811.htm','xw');">            举办庆祝“六一儿童节”儿童跳蚤市场活动 
+    </a></li>
+							                                <li><span>[2019-12-12]</span><a href="javascript:void(0);" title="我校学生参加北京市计生协会2019年同伴教育主持人培训" onclick="checkXnwk('xwdt/170136.htm','xw');">            我校学生参加北京市计生协会2019年同伴教育主持人培训 
+    </a></li>
+							                                <li><span>[2019-06-10]</span><a href="javascript:void(0);" title="我校学生参加2019北京高校“健康向前冲”定向越野比赛" onclick="checkXnwk('xwdt/161419.htm','xw');">            我校学生参加2019北京高校“健康向前冲”定向越野比赛 
+    </a></li>
+							                                <li><span>[2019-06-02]</span><a href="javascript:void(0);" title="我校举办庆祝“六一儿童节”跳蚤市场活动" onclick="checkXnwk('xwdt/161418.htm','xw');">            我校举办庆祝“六一儿童节”跳蚤市场活动 
+    </a></li>
+							                            </ul>
+                        </div>
+                        <div class="tabListBox">
+                        	<ul>
+                                                            <li><span>[2001-04-28]</span><a href="javascript:void(0);" title="中华人民共和国婚姻法 " onclick="checkXnwk('zcfg/61712.htm','xw');">            中华人民共和国婚姻法  
+    </a></li>
+							                                <li><span>[1992-04-01]</span><a href="javascript:void(0);" title="中华人民共和国收养法" onclick="checkXnwk('zcfg/61710.htm','xw');">            中华人民共和国收养法 
+    </a></li>
+							                                <li><span>[2016-01-01]</span><a href="javascript:void(0);" title="中华人民共和国人口与计划生育法" onclick="checkXnwk('zcfg/61713.htm','xw');">            中华人民共和国人口与计划生育法 
+    </a></li>
+							                                <li><span>[2012-04-28]</span><a href="javascript:void(0);" title="女职工劳动保护特别规定" onclick="checkXnwk('zcfg/111684.htm','xw');">            女职工劳动保护特别规定 
+    </a></li>
+							                                <li><span>[2009-05-11]</span><a href="javascript:void(0);" title="流动人口计划生育工作条例" onclick="checkXnwk('zcfg/61699.htm','xw');">            流动人口计划生育工作条例 
+    </a></li>
+							                                <li><span>[2016-03-28]</span><a href="javascript:void(0);" title="关于坚持和完善计划生育目标管理责任制的意见" onclick="checkXnwk('zcfg/120453.htm','xw');">            关于坚持和完善计划生育目标管理责任制的意见 
+    </a></li>
+							                                <li><span>[2016-03-28]</span><a href="javascript:void(0);" title="北京市人口与计划生育条例" onclick="checkXnwk('zcfg/79026.htm','xw');">            北京市人口与计划生育条例 
+    </a></li>
+							                                <li><span>[2007-07-09]</span><a href="javascript:void(0);" title="北京市关于高等学校在校学生计划生育问题的实施意见" onclick="checkXnwk('zcfg/64204.htm','xw');">            北京市关于高等学校在校学生计划生育问题的实施意见 
+    </a></li>
+							                            </ul>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="col rt">
+        	<div class="articleList">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;">更多</a></span><h2>业务指南</h2>
+                </div>
+                <ul>
+                                          <li><a href="javascript:void(0);" title="(一) 办理结婚登记" onclick="checkXnwk('ywzn/61726.htm','xw');">            (一) 办理结婚登记 
+    </a></li>
+				                          <li><a href="javascript:void(0);" title="(二) 办理生育登记" onclick="checkXnwk('ywzn/61725.htm','xw');">            (二) 办理生育登记 
+    </a></li>
+				                          <li><a href="javascript:void(0);" title="(三) 办理实施计划生育手术的奖励" onclick="checkXnwk('ywzn/61720.htm','xw');">            (三) 办理实施计划生育手术的奖励 
+    </a></li>
+				                          <li><a href="javascript:void(0);" title="(四) 办理独生子女父母年老时的一次性奖励" onclick="checkXnwk('ywzn/61718.htm','xw');">            (四) 办理独生子女父母年老时的一次性奖... 
+    </a></li>
+				                          <li><a href="javascript:void(0);" title="（五） 在校大学生办理计划生育方面的相关事宜" onclick="checkXnwk('ywzn/61714.htm','xw');">            （五） 在校大学生办理计划生育方面的相关... 
+    </a></li>
+				                   </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row mode02">
+    	<div class="col lf">
+        	<div class="articleList2">
+                <div class="listTitle2">
+                    <span class="more"><a href="javascript:;">更多</a></span><h2>生殖健康</h2>
+                </div>
+                <div class="listBox">
+                    <div class="listPic"><a href="javascript:;"><img src="images/pic3.png" width="70" height="239"></a></div>
+                    <ul>
+                        						   <li><a href="javascript:void(0);" title="宝宝与生俱来的“胎记”与孕期的这些坏习惯有关" onclick="checkXnwk('szjk/189476.htm','xw');">            宝宝与生俱来的“胎记”与孕期的... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="孕期补充叶酸也有讲究" onclick="checkXnwk('szjk/189474.htm','xw');">            孕期补充叶酸也有讲究 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="在孕早期，为什么有的人孕吐会消失？" onclick="checkXnwk('szjk/189473.htm','xw');">            在孕早期，为什么有的人孕吐会消... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="孕期所有疫苗都不能打吗？" onclick="checkXnwk('szjk/187699.htm','xw');">            孕期所有疫苗都不能打吗？ 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="孕期睡眠不好的准妈妈，可能是饮食的问题造成的！" onclick="checkXnwk('szjk/187698.htm','xw');">            孕期睡眠不好的准妈妈，可能是饮... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="孕期吃得这么好，为何还会贫血？" onclick="checkXnwk('szjk/183479.htm','xw');">            孕期吃得这么好，为何还会贫血？ 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="关于备孕的这些误区，你中招了吗？" onclick="checkXnwk('szjk/183478.htm','xw');">            关于备孕的这些误区，你中招了吗... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="准妈妈怀孕前期注意事项与食谱" onclick="checkXnwk('szjk/179625.htm','xw');">            准妈妈怀孕前期注意事项与食谱 
+    </a></li>
+					                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col md">
+        	<div class="articleList2">
+                <div class="listTitle2">
+                    <span class="more"><a href="javascript:;">更多</a></span><h2>优生优育</h2>
+                </div>
+                <div class="listBox">
+                    <div class="listPic"><a href="javascript:;"><img src="images/pic4.png" width="70" height="239"></a></div>
+                    <ul>
+                        						   <li><a href="javascript:void(0);" title="宝宝辅食的重雷区，数数你踩了几个" onclick="checkXnwk('ysyy/189475.htm','xw');">            宝宝辅食的重雷区，数数你踩了几... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="孩子「睡眠安全」的7大注意事项" onclick="checkXnwk('ysyy/187701.htm','xw');">            孩子「睡眠安全」的7大注意事项 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="哄睡一小时醒来分分钟，“落地醒”的宝宝太磨人！教你正确应对" onclick="checkXnwk('ysyy/187700.htm','xw');">            哄睡一小时醒来分分钟，“落地醒... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="补钙为啥还缺钙？钙跟骨密度有关吗？" onclick="checkXnwk('ysyy/183481.htm','xw');">            补钙为啥还缺钙？钙跟骨密度有关... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="列清单了！宝宝各年龄段看牙重点 现在开始护齿吧！" onclick="checkXnwk('ysyy/183480.htm','xw');">            列清单了！宝宝各年龄段看牙重点... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="孩子不是不能喝饮料，但这几种拉进“黑名单”的，少喝！ " onclick="checkXnwk('ysyy/179631.htm','xw');">            孩子不是不能喝饮料，但这几种拉... 
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="宝宝想要长高 睡个好觉很重要 " onclick="checkXnwk('ysyy/179627.htm','xw');">            宝宝想要长高 睡个好觉很重要  
+    </a></li>
+					    						   <li><a href="javascript:void(0);" title="安全座椅要用对" onclick="checkXnwk('ysyy/170132.htm','xw');">            安全座椅要用对 
+    </a></li>
+					                        </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col rt">
+        	<div class="articleList3">
+                <div class="listTitle3">
+                    <span class="more"><a href="javascript:;">更多</a></span><h2>下载专区</h2>
+                </div>
+                <ul>
+              <!--      -->
+						<li><a href="javascript:;" title="教职工篇">教职工篇</a></li>
+											<li><a href="javascript:;" title="学生篇">学生篇</a></li>
+					                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+   
+ <div class="copyRight">
+      Copyright@南航金城学院教务处_南京财经大学教务处_南京艺术学院  人口与计划生育办公室<br>
+地址：北京市海淀区西三环北路105号   邮编：100048 <br> <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+    </div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script16.js"></script>
+<script type="text/javascript">
+    Nav('#nav'); 
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000,
+            animationSpeed: 400,
+            touch: true 
+        });
+    }); 
+	$(document).tab({
+		parents : '#tabArticleList',
+		ev : 'mouseover',
+		auto : false,
+		more : true
+	});
+</script>
+
+</body></html>

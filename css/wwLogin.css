@@ -1,0 +1,5 @@
+.impowerBox .qrcode {width: 200px;}
+.impowerBox .info {width: 200px;}
+.impowerBox .status {text-align: center;}
+.impowerBox .status_succ,.impowerBox .status_fail {margin-left: 0px !important;}
+.status_icon {display: none !important;}

@@ -1,0 +1,298 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院物理系</title>
+<link href="css/base5.css" type="text/css" rel="stylesheet">
+<link href="css/style13.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://physics.cnu.edu.cn/styleA.css" media="screen and (min-width: 400px)">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+        		<a href="javascript:;" class="logo_link">
+                    <img src="images/logo_02.jpg" alt="">      
+                </a>
+ <div style="width: 300px;position: absolute;right: 0;top: 7px;text-align: right;color: #b9b9b9;"><a href="index2.html" target="_blank">电子邮件</a> |  <a href="javascript:;" target="_blank">办公系统</a>  |  <a href="javascript:;" target="_blank">服务门户</a></div>
+            </div>
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="141" type="hidden">
+                    <input class="notxt" value="" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        </div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首页</a></li>
+																<li><a href="javascript:;">院系介绍</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">院系介绍</a></dd>
+														<dd><a href="javascript:;">历史沿革</a></dd>
+														<dd><a href="javascript:;">现任领导</a></dd>
+														<dd><a href="javascript:;">组织机构</a></dd>
+														<dd><a href="javascript:;">历届领导</a></dd>
+														<dd><a href="javascript:;">联系我们</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">师资队伍</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">全体教师</a></dd>
+														<dd><a href="javascript:;">杰出人才</a></dd>
+														<dd><a href="javascript:;">特聘教授</a></dd>
+														<dd><a href="javascript:;">硕士生导师</a></dd>
+														<dd><a href="javascript:;">博士生导师</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">科学研究</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">学科简介</a></dd>
+														<dd><a href="javascript:;">研究方向</a></dd>
+														<dd><a href="javascript:;">实验室和团队建设</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">本科生教育</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">招生简章</a></dd>
+														<dd><a href="javascript:;">培养方案</a></dd>
+														<dd><a href="javascript:;">联合培养</a></dd>
+														<dd><a href="javascript:;">创新教育</a></dd>
+														<dd><a href="javascript:;">教学成果</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">研究生培养</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">专业介绍</a></dd>
+														<dd><a href="javascript:;">硕士培养方案</a></dd>
+														<dd><a href="javascript:;">硕士招生方向</a></dd>
+														<dd><a href="javascript:;">博士培养方案</a></dd>
+														<dd><a href="javascript:;">博士招生方向</a></dd>
+														<dd><a href="javascript:;">银杏树硕博论坛</a></dd>
+														<dd><a href="javascript:;">培养文件下载</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">学生工作</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">学工通告</a></dd>
+														<dd><a href="javascript:;">学工新闻</a></dd>
+														<dd><a href="javascript:;">学生组织</a></dd>
+														<dd><a href="javascript:;">规章制度</a></dd>
+														<dd><a href="javascript:;">办事流程</a></dd>
+														<dd><a href="javascript:;">就业信息</a></dd>
+														<dd><a href="javascript:;">学工下载</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">党建工作</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">党委组织</a></dd>
+														<dd><a href="javascript:;">党员活动</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">人才招聘</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">博士后流动站</a></dd>
+														<dd><a href="javascript:;">优秀人才招聘</a></dd>
+														<dd><a href="javascript:;">高层次人才招聘</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">在线教学</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">大一年级课程资源</a></dd>
+														<dd><a href="javascript:;">大二年级课程资源</a></dd>
+														<dd><a href="javascript:;">大三年级课程资源</a></dd>
+														<dd><a href="javascript:;">录课软件下载</a></dd>
+														<dd><a href="javascript:;">在线教学平台</a></dd>
+														<dd><a href="javascript:;">PPT录课演示视频</a></dd>
+														<dd><a href="javascript:;">教学平台演示视频</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">下载专区</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">信息和下载</a></dd>
+													</dl>
+				 </div>
+				</li>
+												            </ul>
+       
+      </div></div>
+<div class="wrap_content">
+    <div class="content">
+        <div class="Banner">
+            <div class="flexslider">
+                <ul class="slides">
+				                    <li><a href="javascript:;">
+						<img src="images/content/2021-04/20210428222802559526.jpg" width="1240" height="460"></a>
+						<span class="til_slides">我校PIE战队荣获RoboMaster高校联盟赛山西站非甲组冠军</span></li>
+					                    <li><a href="javascript:;">
+						<img src="images/content/2020-12/20201224155801536169.jpg" width="1240" height="460"></a>
+						<span class="til_slides">物理系成功举办南航金城学院教务处_南京财经大学教务处_南京艺术学院第三届智能汽车竞赛暨第一届RoboMaster机甲大师赛系列赛</span></li>
+					                    <li><a href="javascript:;">
+						<img src="images/content/2020-11/20201124021043653513.jpg" width="1240" height="460"></a>
+						<span class="til_slides">天津大学、南航金城学院教务处_南京财经大学教务处_南京艺术学院成功联合主办2020量子物理与智能计算交叉研讨会</span></li>
+					                    <li><a href="javascript:;">
+						<img src="images/content/2020-09/20200901121453557488.jpg" width="1240" height="460"></a>
+						<span class="til_slides">物理系PIE战队荣获全国大学生机器人RoboMaster机甲大师单项赛季军</span></li>
+					                    <li><a href="javascript:;">
+						<img src="images/content/2020-08/20200820145126423711.jpg" width="1240" height="460"></a>
+						<span class="til_slides">物理系学生在第十五届全国大学生智能汽车竞赛华北赛区喜获佳绩</span></li>
+					                </ul>
+           </div>
+        </div>
+    <div class="row mode01">
+        <div class="col lf">
+            <div class="articleList">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;">more+</a></span><h2>院系新闻</h2>
+                </div>
+                <ul>
+				                    <li><span class="date"><span class="day">04/28</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="我校PIE战队荣获RoboMaster高校联盟赛山西站非甲组冠军" onclick="checkXnwk('news/189944.htm','xw');">我校PIE战队荣获RoboMaster高校联盟赛山西站非甲组冠军</a></li>
+				                    <li><span class="date"><span class="day">04/20</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系教工第一党支部赴宋庆龄同志故居开展主题党日活动" onclick="checkXnwk('party/partactivity/189311.htm','$article.belongUser');">物理系教工第一党支部赴宋庆龄同志故居开展主题党日活动</a></li>
+				                    <li><span class="date"><span class="day">04/20</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系党委理论中心组开展党史学习教育专题学习" onclick="checkXnwk('party/partactivity/189309.htm','$article.belongUser');">物理系党委理论中心组开展党史学习教育专题学习</a></li>
+				                    <li><span class="date"><span class="day">04/06</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系学生党员踊跃收看“首都百万师生同上一堂党史课”" onclick="checkXnwk('student/student_news/188485.htm','$article.belongUser');">物理系学生党员踊跃收看“首都百万师生同上一堂党史课”</a></li>
+				                    <li><span class="date"><span class="day">04/06</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系党委召开理论中心组扩大会议" onclick="checkXnwk('party/partactivity/188453.htm','$article.belongUser');">物理系党委召开理论中心组扩大会议</a></li>
+				                    
+                </ul>
+            </div>
+        </div>
+        <div class="col md">
+            <div class="articleList01">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;">more+</a></span><h2>学术活动</h2>
+                </div>
+                <ul>
+				                    <li>
+                        <a href="javascript:void(0);" title="【毕业论文答辩会】张颖" onclick="checkXnwk('academic/189943.htm','xw');">            【毕业论文答辩会】张颖 
+    </a>
+                        <p class="p1"> 2021年4月29日（星期四）上午10:30</p>
+                        <p class="p2">张颖，校本部实验楼715</p>
+                    </li>
+					                    <li>
+                        <a href="javascript:void(0);" title="【毕业论文答辩会】王伊凡" onclick="checkXnwk('academic/189942.htm','xw');">            【毕业论文答辩会】王伊凡 
+    </a>
+                        <p class="p1"> 2021年4月29日（星期四）上午10:00</p>
+                        <p class="p2">王伊凡，校本部实验楼715</p>
+                    </li>
+					                    <li>
+                        <a href="javascript:void(0);" title="【学术讲座】出土简牍对中国数学史研究的意义" onclick="checkXnwk('academic/188674.htm','xw');">            【学术讲座】出土简牍对中国数学史研究的意义 
+    </a>
+                        <p class="p1"> 2021年4月14日/21日（星期三）下午15:00</p>
+                        <p class="p2">邹大海 研究员，校本部教三楼226</p>
+                    </li>
+					                    <li>
+                        <a href="javascript:void(0);" title="【学术讲座】Tensor network based machine learning of non-Markovian quantum processes" onclick="checkXnwk('academic/183757.htm','xw');">            【学术讲座】Tensor network based machine learning of non-Markovian... 
+    </a>
+                        <p class="p1"> 2020年12月16日（星期三）下午15:00</p>
+                        <p class="p2">郭楚 博士，校本部实验楼715</p>
+                    </li>
+					                   
+                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+            <div class="articleList02">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;">more+</a></span><h2>通知公告</h2>
+                </div>
+                <ul>
+				                    <li><span class="date"><span class="day">04/21</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系2021年博士生复试录取工作方案" onclick="checkXnwk('notice/189429.htm','xw');">物理系2021年博士生复试录取工作方案</a></li>
+				                    <li><span class="date"><span class="day">04/08</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="2021年度本科生转专业工作方案-光电信息科学与工程" onclick="checkXnwk('docs/20210408193527196063.pdf','xw');">2021年度本科生转专业工作方案-光电信息科学与工程</a></li>
+				                    <li><span class="date"><span class="day">04/08</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="2021 年度本科生转专业工作方案-物理学（师范）" onclick="checkXnwk('docs/20210408193558565135.pdf','xw');">2021 年度本科生转专业工作方案-物理学（师范）</a></li>
+				                    <li><span class="date"><span class="day">03/22</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系2021年硕士生复试录取工作方案" onclick="checkXnwk('notice/187776.htm','xw');">物理系2021年硕士生复试录取工作方案</a></li>
+				                    <li><span class="date"><span class="day">03/16</span><span class="year">2021</span></span>
+					<a href="javascript:void(0);" title="物理系2021年硕士研究生招生接收调剂的公告" onclick="checkXnwk('notice/187574.htm','xw');">物理系2021年硕士研究生招生接收调剂的公告</a></li>
+				                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="footer">
+  <div class="copyRight">
+        版权所有  &copy; 南航金城学院教务处_南京财经大学教务处_南京艺术学院物理系&nbsp;&nbsp;&nbsp;    |&nbsp;&nbsp;&nbsp;     地址：西三环北路105号&nbsp;&nbsp;&nbsp;      |    &nbsp;&nbsp;&nbsp; 邮编：100048     &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;     联系电话:010-68902348    <a href="javascript:;" style="color:#000">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号<span class="liuliang">统计流量：<span class="ll"><script src="https://physics.cnu.edu.cn/gplog/log/channelVisitLog.jsp?parentID=7998%22"></script></span></span>
+<script src="https://physics.cnu.edu.cn/gplog/log/writeLog.jsp?siteID=$curSite.ID&channelID=7998"></script>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({			
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+	
+</script>
+
+</body></html>

@@ -1,0 +1,173 @@
+/* CSS Document */
+
+h1,h2,h3,h4,h5,h6,img,p,ul,li,dl,dt,dd,ol,table,tr,td,span,input,div{ margin:0px; padding:0px; font-style:normal; border:0; font-family:"微软雅黑"; font-weight:normal; font-size:12px;}
+body{ width:100%; font-family:"微软雅黑",; font-size:12px; color:#5f5f5d;margin:0; padding:0; background:url(https://xqjyxy.cnu.edu.cn/images/bg.jpg) no-repeat top center #4579b9;}
+img{border:none;}
+ul,li{ list-style-type:none;}	
+a{text-decoration:none; color:#333333; font-size:12px; font-family:"微软雅黑"}
+a:hover{ color:#333333;}
+.clear{clear:both;}
+
+.area {
+	width:1035px;
+	background:#f0f1de;
+	margin:0 auto;
+	position: relative;
+	
+}
+.main {width:1002px; overflow:hidden; margin:0px auto;}
+.header{ width:1002px; background:url(https://xqjyxy.cnu.edu.cn/images/header.jpg) repeat-x; height:210px; position:relative; z-index:11; margin:0px auto;}
+.top{ width:1002px; margin:0 auto; min-width:1002px; position:relative;  height:140px; padding-top:13px;}
+
+.nav{ width:1001px; min-width:1001px; margin:0 auto;height:47px; line-height:47px;  border-right:1px solid #d4d4d4;background-color:#fdfdfd; margin:10px 0px;}
+#nav { width:1002px; float:left; color:#333333; border:1px solid #d4d4d4; border-right:none; height:45px; line-height:45px;}
+#nav li{position:relative;float:left;  background:url(https://xqjyxy.cnu.edu.cn/images/nav_li.jpg) right 10px no-repeat;color:#333333; border-right:1px solid #ccc; }
+#nav li:last-child{ border:none;}
+#nav li a{display:inline-block;height:43px;line-height:43px; text-align:center;color:#333333;font-size:14px; font-family:"微软雅黑";text-align:center; padding:0px 23px;}
+#nav li a.active{ background:url(https://xqjyxy.cnu.edu.cn/images/nav_icon.jpg) no-repeat 86px center;}
+#nav li a:hover{color:#183c88; font-weight:bold}
+#nav li .sonnav{line-height:38px; font-size:14px;display:none; position:absolute; left:-1px; top:45px; text-align:center; z-index:9999;background-color:#4778ba; border-top:none; width:150px; color:#fff; padding:5px 0px;}
+#nav li.on {}
+#nav li.on a{color:#183c88; font-weight:bold}
+#nav li.on .sonnav{ display:block;}
+#nav li.on .sonnav dl{overflow:hidden;}
+#nav li.on .sonnav dl dd{ line-height:30px; height:30px; text-align:left; padding:2px 0px;}
+#nav li.on .sonnav dl dd a{ color:#fff; font-size:14px; line-height:20px; font-family:"微软雅黑";   border-top:none; text-align:left; font-weight:normal; height:auto;}
+#nav li.on .sonnav dl dd a:hover{color:#fff; font-weight:bolder;}
+
+.footer{ font-size:12px; height:80px; line-height:22px; width:100%; margin:0px auto 0; text-align:center; padding-top:25px; color:#fff; font-family:"微软雅黑"; width:1035px;}
+.footer font{ color:#06deeb; font-weight:bolder;}
+.content{ width:1002px; margin:0px auto; padding-bottom:28px;}
+.pic_banner{width:1002px; height:355px;  background:url(https://xqjyxy.cnu.edu.cn/images/banner_bg.jpg) no-repeat;}
+.banner{ padding-top:12px;}
+
+/*幻灯片代码*/
+#bannerPic {position:relative; width:976px; height:310px; overflow:hidden; margin:0px auto; top:13px; left:-1px;}
+#banner_bg {position:absolute; bottom:0; background-color:#000; height:50px; filter: Alpha(Opacity=70);opacity:0.7;z-index:1000;cursor:pointer; width:545px; background:none; }
+#banner_info{position:absolute; bottom:30px; left:5px;height:16px;color:#fff;z-index:1001;cursor:pointer}
+#banner_text {position:absolute;width:120px;z-index:1002; right:3px; bottom:10px;}
+#bannerPic ul {position:absolute;list-style-type:none;z-index:1002; bottom:11px;_bottom:11px; left:453px;}
+#bannerPic ul li {height:10px; width:9px; margin:0 10px 0 0;float:left; display:block; background-color:#fff;cursor:pointer;font-size:0px;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px;}
+#bannerPic ul li.on { background-color:inherit; border:1px solid #fff; height:8px; width:7px;}
+#banner_list a{position:absolute;} 
+
+.con1{ height:373px; border-bottom:1px solid #d4d4d4; border-top:1px solid #d4d4d4; margin-top:12px;}
+.con1_lf{ width:303px; float:left; border-right:1px solid #d4d4d4; padding-right:19px; height:373px;}
+.con1_lf .con1_lf_tit{ height:42px; line-height:42px; background:url(https://xqjyxy.cnu.edu.cn/images/tit1_bg1.jpg) no-repeat;  margin-top:16px;}
+.more{ float:right;}
+.more a{ color:#555555;}
+.con1_lf .con1_lf_tit h2{ margin-left:66px;font-size:18px; color:#000; font-weight:bolder}
+
+.con1_con .con1_con_tit{ height:42px; line-height:42px; background:url(https://xqjyxy.cnu.edu.cn/images/tit3_bg3.jpg) no-repeat;margin-top:16px;}
+.con1_con .con1_con_tit h2{margin-left:50px;font-size:18px; color:#000; font-weight:bolder}
+.con1_con .con1_con_tit h2 font{ color:#9a9a9a; font-size:12px; font-weight:normal; margin-left:10px;font-style:italic;}
+
+.con1_rt .con1_rt_tit{ height:42px; line-height:42px; background:url(https://xqjyxy.cnu.edu.cn/images/tit2_bg.jpg) no-repeat; margin-top:16px;}
+.con1_rt .con1_rt_tit h2{ margin-left:50px;font-size:18px; color:#000; font-weight:bolder}
+.con1_rt .con1_rt_tit h2 font{ color:#9a9a9a; font-size:12px; font-weight:normal; margin-left:10px;font-style:italic;}
+
+.con_con_list{ margin-top:5px;}
+.con_con_list ul li{background: url(https://xqjyxy.cnu.edu.cn/images/list_icon1.jpg) no-repeat 2px center; padding-left:20px; height:30px; line-height:30px;}
+.con_con_list ul li a{ color:#000;}
+.con_con_list ul li a:hover{ color:#2bb594;}
+.con_con_list ul li span{ float:right; color:#6f6f6f; font-family:Courier New, Arial, Helvetica, sans-serif; font-size:14px;}
+.con1_con{ width:314px; float:left;border-right:1px solid #d4d4d4; padding:0px 19px; height:373px;}
+.con1_rt{ width:306px; float:right; margin-left:19px; height:373px;}
+
+.con2{ height:49px; line-height:49px; margin-top:13px; border-top:3px solid #cccdbd; height:114px; border-bottom:1px solid #cccdbd;}
+.con2_lf{float:left; width:319px; float:left;}
+.con2_md{ float:left; width:334px; padding-left:20px;}
+.con2_md dl{ overflow:hidden;}
+.con2_md dd a{ display:block; float:left; width:96px; height:33px; border:1px solid #c7c7c7;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; text-align:center; background-color:#edf5ff; display:block; line-height:33px; margin-right:12px;}
+.con2_md dd a:hover{ background-color:#1298bf; color:#fff;}
+.con2_rt{ float:right; width:310px; border-left:1px solid #d4d4d4; padding-left:15px;}
+.con2_rt dl{ overflow:hidden; margin-top:20px; margin-bottom:10px;}
+.con2_rt dd a{ display:block; float:left; width:96px; height:33px; border:1px solid #c7c7c7;border-radius: 5px;-moz-border-radius: 5px;-webkit-border-radius: 5px; text-align:center; background-color:#edf5ff; display:block; line-height:33px; margin-right:5px;margin-bottom:8px;}
+.con2_rt dd a:hover{ background-color:#1298bf; color:#fff;}
+
+.search{background:url(https://xqjyxy.cnu.edu.cn/images/search.jpg) no-repeat;width:317px;height:32px;position:relative; margin:15px 0px 15px;}
+.search input{position:absolute; width:160px;height:32px;line-height:32px; color:#b6b6b6; border:none; background:none; left:102px; top:0px; padding-left:0px; font-size:12px;}
+.search input.notxt{color:#333; padding-left:10px;}	
+.search input.notxt1 {position: absolute;width:46px;height: 30px;top: 0px;left:271px;border: none;cursor: pointer;background: none;cursor:pointer; }
+
+/*二级页样式*/
+.subPage{ width:1002px; margin:0px auto; padding:0px 0PX 20px 0px; overflow:hidden; padding-top:20px;}
+.lcon{ width: 1002px; background-color:#FFF;min-height:400px; padding:0px; overflow:hidden; margin:0 auto; margin-top:5px;}
+.lcon_lf{ width:230px; float: left; overflow:hidden; background-color:#FFF; padding-bottom:10px;}
+.lcon_lf .lcon_lf_tit{ text-align:left; height:50px;}
+.lcon_lf .lcon_lf_tit h3{ font-size:18px; color:#fff; line-height:50px; text-align:left; font-weight:normal; background-color:#4071b3; padding:0px 0px 0PX 30PX;}
+.lcon_lf ul{ padding:0px 20px;}
+.lcon_lf ul li a{ display:block; line-height:20px; border-bottom:1px solid #ccc; padding-left:27px; background:url(https://xqjyxy.cnu.edu.cn/images/list_icon1.jpg) no-repeat 5px 8px; margin:15px 0px; padding-bottom:10px; text-align:left; font-size:14px;}
+.lcon_lf ul li a:hover,.lcon_lf ul li.active a{ border-bottom:1px solid #4071b3; color:#3562a6; font-weight:bolder;}
+
+.lcon_rt{ width:740px; float: right; overflow:hidden;}
+.Bread{ text-align:right; height:30px; line-height:30px;color:#333; border-bottom:1px solid #d4d4d4; margin:10px 0px 15px; width:auto; padding-left:10px; padding-bottom:5px;}
+.Bread a{ color:#333;}
+.Bread a:hover{ color:#075cbf;}
+.pagearticleList .pagelistTitle h2{ height:30px; line-height:30px; font-size:18px; color:#3562a6; font-weight:bolder; text-align:left}
+.pagearticleList ul{ padding-top:10px; padding-bottom:30px;}
+.pagearticleList ul li{ height:30px; line-height:30px;text-align:left}
+.pagearticleList ul li span{ float: right; font-family:"Ebrima", Courier, monospace; font-size:14px; color:#888;}
+.pagearticleList ul li a:hover{ color:#2a559a;}
+
+
+.page{height: 28px; font-size:12px; line-height: 28px;color:#444; padding-top:10px; border-top:1px solid #ccc;text-align:center; margin-bottom:20PX; width:auto;}
+.page a{color: #444; padding:0 5px;}
+.page a:hover{color:#444;}
+
+/*文章页*/
+.lrt_article{overflow:hidden; margin:20px; text-align:left}
+.articleTitle { width: 100%;text-align: center;}
+.articleTitle h2{font-size: 18px; color:#333; line-height: 20px; padding:10px 0;}
+.articleTitle h3{ font-size: 14px; color: #555; line-height: 20px; padding:10px 0; font-weight: bold;}
+.articleAuthor { height: 30px;text-align: center; line-height: 30px; margin: 10px;background: #fff; color:#222; }
+.article{overflow:hidden; margin:20px 10px;font-size:14px; line-height:22px; color:#555}
+.Annex {padding: 10px 0px 20px 0px; overflow:hidden; margin:0 10px; border-top:1px solid #d4d4d4;}
+.Annex h3 { font-size: 16px;line-height: 40px; color:#333; padding:0px;}
+.Annex ul li { height: 26px; line-height: 26px;background:url(https://xqjyxy.cnu.edu.cn/images/list_icon4.jpg) no-repeat 10px center; padding-left:3px;}
+.Annex ul li a { font-size: 14px; line-height: 24px; color:#666;}
+.Annex ul li a:hover{ color:#656464;}
+
+.lcon_t{ width: 960px; padding:0 20px 30px 20px; margin:0 auto; margin-top:5px; background:#fff; min-height:400px; overflow:hidden;} 
+.art_t h3{ border-bottom:1px solid #ddd; padding-left:5px;}
+.art_t .rt_tit h3,.art_t .rt_fujian h3{ border:none;}
+
+/*图片页*/
+.pic_lrt{ margin: 10px 0 0 0; overflow:hidden; text-align:center;}
+.pic_lrt ul{ width:800px;}
+.pic_lrt ul li{ float: left; height: 174px; width: 214px; padding:0; padding-right:42px; padding-bottom:35px; background:none;}
+.pic_lrt ul li a{ display:block;height: 170px; width: 210px; border:1px solid #e0e0e0; padding:1px; margin:0; line-height:30px;font-size:14px; text-align:center}
+.pic_lrt ul li a img{ display:block; height: 140px; width: 210px; }
+.pic_lrt ul li a:hover{ border:1px solid #b2c0ce; color:#075cbf;}
+
+/*图片页2*/
+.pic_lrt2{ margin: 30px 0 0 30px; overflow:hidden; text-align:center; overflow:hidden;}
+.pic_lrt2 ul{ width:1020px;}
+.pic_lrt2 ul li{ float: left; height: 174px; width: 214px; padding:0; padding-right:38px; padding-bottom:35px; background:none;}
+.pic_lrt2 ul li a{ display:block;height: 170px; width: 210px; border:1px solid #e0e0e0; padding:1px; margin:0; line-height:30px;font-size:14px;}
+.pic_lrt2 ul li a img{ display:block; height: 140px; width: 210px; }
+.pic_lrt2 ul li a:hover{ border:1px solid #b2c0ce; color:#075cbf;}
+
+
+
+/*教师列表页*/
+.teacher{ padding:12px 20px; border-top:1px solid #ddd; overflow:hidden; clear:both; margin-top:20px;}
+.teacher h3{ font-size:14px; color:#1e77b0; height:40px; line-height:40px; clear:both; padding-left:15px; font-family:"微软雅黑"}
+.teacher ul li{ height:32px; width:90px; float: left; line-height:32px; text-align:center; background:none; padding:0;}
+
+/*教师详情页*/
+.xq_teacher{ padding-top:23px;margin-top:30px;}
+.xq_teacher img{ display:block; width: 128px; height:198px; float: left; margin-right:20px; margin-bottom:20px;}
+.xq_teacher .wz_teacher{ width: 530px; float: left; overflow:hidden; font-size:14px; line-height:28px;}
+.teacher_lf{ width:195px; background-color:#fff; border:none; }
+
+.con_teacher{ clear:both; overflow:hidden;  border-top:2px solid #ddd; }
+.con01_t{ padding:10px 0px;  font-size:14px; line-height:28px;border-bottom:1px dashed #bfbfbf;}
+.con01_t h3{font-size:16px; color:#0b3968; height:36px; line-height:36px; clear:both; padding-bottom:10px; font-family:"微软雅黑"}
+
+.teacher2 {margin-top:40px;}
+.teacher2 li {  float: left;   height: 148px;  padding-left: 164px;  position: relative;  width:200px; margin-bottom:20px; padding-bottom:20px;}
+.teacher2 li .photo { left: 0;  position: absolute;   top: 0;}
+.photo img { height: 148px;}
+.teacher2 li h3 {font-size: 18px; font-weight: normal; margin-bottom: 15px;}
+.teacher2 li p { color: #666; line-height: 24px;}

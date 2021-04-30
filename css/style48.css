@@ -1,0 +1,213 @@
+
+/* CSS Document */
+body{margin:0; padding:0; font-size:12px;background-color:#fff; background: url(https://poetry.cnu.edu.cn/images/body_bg.png) no-repeat center bottom;}
+a{text-decoration:none; color:#333333;}
+a:hover{ color:#678499;}
+
+/*头部*/
+.header{ width:100%; background-color:#fff; background:url(https://poetry.cnu.edu.cn/images/top_bg.png) no-repeat center top;}
+.top{ width:1200px; height:160px; margin:0 auto; position:relative;}
+.logo{width:568px;height:68px;padding-top:47px;float:left; }
+.top_home{ float:right; margin-top:20px; font-size: 14px; color: #5e6e7a;}
+
+/*头部_搜索*/
+.search{width:160px; height:30px;position:absolute; right: 0; top:68px; background:url(https://poetry.cnu.edu.cn/images/search.png) no-repeat right center; z-index:1000; }
+.search input{position:absolute; width:118px;height:30px;line-height:30px; border:none; background:url(https://poetry.cnu.edu.cn/images/search_bg.png) repeat ; left:0px; top:0px;  padding:0px; margin:0px;}
+.search input.notxt{color:#dae1e7; font-size: 14px; padding-left:12px;}	
+.search input.notxt1 {position:absolute; width:25px;height:26px; left:118px;}
+
+/*头部_导航*/
+.nav{ width:100%;height:46px; line-height:50px; clear:both;background-color:#678499;  position:relative;}
+.nav ul{ width:1200px; margin:0px auto; }
+.nav ul li{float:left;color:#fff; height:46px;line-height:46px;}
+.nav ul li:first-child{ background: none;}
+.nav ul li>a{color:#fff; display:block; font-size:16px; padding:0 29px;}
+.nav ul li .subNav{ top:46px; left:0px; padding-bottom:20px; background:#4a5362; width:122px; }
+.nav ul li.on a{color:#fff; display:block; background-color:#4a5362;}
+.nav ul li.on .subNav {display:block;}
+.nav ul li.on .subNav dl{overflow:hidden;}
+.nav ul li .subNav dl dd{margin-bottom: 5px; }
+.nav ul li.on .subNav dl dd a{ font-size:14px; line-height:18px; padding: 15px 0; border-top:none; text-align:left; font-weight:normal; padding-left:30px;  color:#feecd4; background: none;}
+.nav ul li.on .subNav dl dd a:hover{ font-weight:bolder; color:#fff;}
+
+
+
+
+/*内容*/
+.content{ width:1200px; margin:auto; overflow:hidden; padding:20px 0 40px;}
+.row01 , .row02{overflow:hidden;}
+.row01{ margin-top: 10px; }
+.row02,.row03,.friendlink{ margin-top: 40px; }
+.content .lf,.content .md, .content .rt{width:374px; float:left; }
+.content .lf,.content .md{ margin-right: 39px; }
+
+.title01,.title02{ overflow: hidden; }
+.title01 a,.title02 a { float: right; margin:15px 10px 0 0;  color: #999;}
+.title01 h2{ width: 374px; border-bottom: 1px solid #ccc; height: 36px; padding-bottom: 6px;}
+.title02 h2{ width: 1200px; border-bottom: 1px solid #ccc; height: 36px; padding-bottom: 6px;}
+
+/*社科信息*/
+.row01 .lf .headlines_content{ overflow: hidden; margin: 24px 0 0px; padding-bottom: 20px; border-bottom: 1px dotted #ccc;}
+.row01 .lf .headlines_content .date{ width: 46px; height: 32px; float: left; color: #758a99;}
+.row01 .lf .headlines_content .text{width: 310px; float: right; }
+.row01 .lf .headlines_content .date span{ display: inline-block; float: right; font-size: 16px; }
+.row01 .lf .headlines_content .date p{ float: right;}
+.row01 .lf .headlines_content .text a { font-size: 14px; display: block; height: 20px; overflow: hidden;}
+.row01 .lf .headlines_content .text p { color:#999; padding-top: 10px; height: 40px; overflow: hidden; line-height: 20px;}
+
+.row01 .lf ul,.row01 .md ul{ margin-top: 14px; }
+.row01 .lf ul li,.row01 .md ul li  { background:url(https://poetry.cnu.edu.cn/images/list_icon.png) no-repeat left center; overflow:hidden;}
+.row01 .lf ul li a,.row01 .md ul li a {display: block; line-height: 33px; height: 33px; float: left; margin-left: 22px; width: 260px; overflow: hidden;}
+.row01 .lf ul li span ,.row01 .md ul li span {line-height: 33px; height: 33px; float: right; color: #999; }
+
+
+/*中心新闻*/
+.row01 .md .headlines_content{ overflow: hidden; margin: 24px 0 0px; }
+.row01 .md .headlines_content img{ width: 240px; height: 160px; float: left;}
+.row01 .md .headlines_content .text{ padding:20px 15px; width: 104px; float: right; background-color: #b8c4cc; height: 120px; color: #fff; font-size: 14px; }
+.row01 .md .headlines_content .text a{ display: inline-block; height: 90px; overflow: hidden; line-height: 22px; color: #fff; }
+.row01 .md .headlines_content .text span{ display: inline-block; padding-top:10px; font-style: italic;}
+
+
+/*学术活动*/
+.row01 .rt ul{ padding-top: 24px; }
+.row01 .rt ul li { width: 374px; overflow:hidden; border-bottom:dashed 1px #e5e5e5; padding-bottom: 5px; margin-bottom: 13px;}
+.row01 .rt ul li:last-child { margin-bottom: 0; }
+.row01 .rt ul li a { line-height: 30px; display: inline-block; width: 370px; height: 30px; overflow: hidden; }
+.row01 .rt ul li .date,.row01 .rt ul li .site { display: inline-block; height: 20px; line-height: 20px; font-size:12px; padding-left: 16px; color: #999;}
+.row01 .rt ul li .date { background: url(https://poetry.cnu.edu.cn/images/time_icon.png) no-repeat center left;}
+.row01 .rt ul li .site { background: url(https://poetry.cnu.edu.cn/images/site_icon.png) no-repeat center left; margin-left: 10px;}
+
+
+
+/*驻校诗人 & 资料索引*/
+.row02 .lf ul,.row02 .rt ul{ margin-top: 24px; }
+.row02 .lf ul li,.row02 .rt ul li { width: 374px; overflow:hidden; padding-bottom: 3px; margin-top:6px; border-bottom:1px dashed #e5e5e5; }
+.row02 .lf ul li span, .row02 .rt ul li span{ display: block; height: :26px; line-height: 26px; color: #999; }
+.row02 .lf ul li a,.row02 .rt ul li a{ line-height: 30px; display: inline-block; width: 374px; height: 30px; overflow: hidden;  }
+
+/*新书推介*/
+.banner{width: 374px; height: 264px; background-color: #dcdedf; margin-top: 20px; overflow:hidden;}
+.banner_wrap{ width:220px; height:264px;  margin: auto;}
+.flexslider img{ display: block; width:220px; height:264px; }
+.flex-control-nav{ display: none;}
+.flex-control-paging li a{ display: none;}
+	/*左右箭头*/
+.flex-direction-nav a { text-decoration:none; display: block; width: 40px; height:40px; position: absolute; top: 50%; z-index: 10; overflow: hidden; opacity: 0.7; cursor: pointer; color: rgba(0,0,0,0.8);   text-indent:-999em }
+.flex-direction-nav .flex-prev { background:url(https://poetry.cnu.edu.cn/images/arr_left.png) no-repeat center left; left:-50px;}
+.flex-direction-nav .flex-next { background:url(https://poetry.cnu.edu.cn/images/arr_rt.png) no-repeat center right; right:-50px;}
+.flexslider:hover .flex-prev { left:-50px;}
+.flexslider:hover .flex-next { right:-50px;}
+.flexslider:hover .flex-next:hover,.flexslider:hover .flex-prev:hover { opacity: 1; }
+
+.banner .banner_wrap .flexslider .slides a{ display: block; width: 100%; position:relative; }
+.banner .banner_wrap .flexslider .slides a div{width:100%; height: 40px; line-height: 40px; background-color: #678499; position: absolute; bottom:0px; right: 0px; overflow: hidden; }
+.banner .banner_wrap .flexslider .slides a div h2{  font-size: 14px; color: #fff; text-align: center; }
+
+/*成果推介*/
+.row03 ul{ padding-top:24px; overflow: hidden; width: 105%; }
+.row03 ul li{ background: url(https://poetry.cnu.edu.cn/images/list_icon2.png) no-repeat center left; padding-left: 10px; height: 34px;line-height: 34px; width: 364px; margin-right: 39px; float: left;}
+.row03 ul li a{ display: inline-block; width: 364px; height: 34px;  overflow: hidden; }
+
+/*友情链接*/
+.friendlink h2{ float: left; width:80px; height: 50px; line-height: 50px;background-color:#8299aa; color: #fff; font-size: 16px; padding-left: 20px; font-weight: 500;}
+.friendlink ul{ float: left; width: 1098px; height: 50px; overflow: hidden; border:1px solid #ccc; border-left: none;  background: url(https://poetry.cnu.edu.cn/images/friendlink_bg.png) no-repeat center left ; }
+.friendlink ul li{ float: left; line-height: 50px; }
+.friendlink ul li a{ padding:0 20px; }
+
+
+
+/*底部*/
+.footer{height:100px; background-color: #678499; font-size:14px; color: #fff; }
+.footer .content{ width: 1200px; margin:auto; padding:20px 0; }
+.footer .logo2,.footer .copyRight{ height: 46px; padding:8px 30px 8px 0; margin-right:  30px; border-right: 1px solid #89abc4; float: left; }
+.footer .logo2{ width: 553px; }
+.footer .copyRight{text-align:left; line-height:24px; }
+.footer .view {text-align:center; line-height:64px; float: left; }
+.footer .weixin{ float: right; }
+
+
+/*二级页*/
+.subPage_content{ background: #fff; }
+.subPage{ width:1200px;min-height:500px; margin:0px auto 0; background-color:#fff; overflow:hidden;}
+.pageBanner{ width:1200px;margin:0 auto;height:200px;}
+.pageBanner img{width:1200px;height:200px;}
+.subPage .listTitle2 h2{height:40px;margin:0;}
+.sub_left{width:180px;float:left;margin-right:10px;margin-top:15px;}
+.sub_left h2{height:40px;line-height:40px;text-align:center;font-size:16px;background-color:#678499;color:#fff;}
+.sub_left ul{border-bottom:1px solid #fff;}
+.sub_left li{border-top:1px solid #d3dbe0;height:38px;line-height:38px;text-align:center;font-size:14px;}
+.sub_left li a{color:#282828;}
+.sub_left ul li a:hover{color:#678499; font-weight:bolder;}
+.sub_left ul li .current{ color:#678499; font-weight:bolder; }
+.sub_right{width:980px;float:right;/*background-color:#fff;*/}
+.Bread{width:100%;padding:0 10px 0 10px;height:40px; line-height:40px;border-bottom:1px solid #678499;font-size:13px; color:#282828;font-size:16px;color:#005fb9;font-weight:bold;}
+.Bread span{float:left;font-size:12px;font-weight:normal;color:#858585;}
+.Bread span a{color:#999;}
+.Bread a:hover{color:#678499;}
+
+.Bread2{ padding:0 10px 0 0;height:40px; line-height:40px;border-bottom:1px solid #678499;font-size:13px; color:#282828;font-size:16px;color:#005fb9;font-weight:bold;}
+.Bread2 span{float:left;font-size:12px;font-weight:normal;color:#858585;}
+.Bread2 span a{color:#999;}
+.Bread2 a:hover{color:#678499;}
+
+.articleList5 ul{width:100%;overflow:hidden;}
+.articleList5 ul li{ height:35px; line-height:35px;}
+.listTitle5{ padding-left:0px; background:none;width:100%;height:40px;line-height:40px;} 
+.listTitle5 h2{color:#678499; background:none;float:left;font-size: 16px; font-weight: bold; line-height:33px; padding:0px; margin:5px 0px;}
+.listTitle5 span{display:block;width:70px;float:right;}
+.articleList5 ul{width:100%;overflow:hidden;}
+.subPage .articleList5{ margin:5px 0px 0;}
+.rightDate{float:right;}
+ 
+.page{ width:100%; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0 30px;background-color:#f5f5f5;}
+.page a{ padding:0 5px;}
+.cur02{width:1200px;}
+
+.page2{height:30px; line-height:30px; text-align:center;font-size:12px;clear:both; margin:20px 0 30px 0px;background-color:#f5f5f5;}
+.page2 a{ padding:0 5px;}
+
+.pageList{  overflow: hidden;}
+.articleTitle { width: 100%;text-align: center;}
+.articleTitle h2{font-size: 18px;color:#678499; line-height: 20px; padding:20px 0;}
+.articleTitle h3{ font-size: 14px; color: #555; line-height: 20px; padding:10px 0; font-weight: bold;}
+.articleAuthor { height: 30px;text-align: center; line-height: 30px; background: #f5f5f5; color:#777; margin:10px 0px; }
+.article{overflow:hidden; margin:20px 0px;font-size:15px; line-height:32px;}
+
+.articleList3 ul{padding-bottom:20px;overflow:hidden;margin-top:10px;}
+.articleList3 li{width:178px;padding:0 0px;border:1px solid #d3d3d3;margin:0 20px 20px 0;float:left;}
+.articleList3 li span{display:block;width:166px;text-align:center;height:30px;line-height:30px;}
+.listTitle3 h2{height:40px;line-height:40px;width:150px;padding-left:0;font-size:16px;color:#678499;margin:0;float:left;}
+.listTitle3 span{float:right;height:40px;line-height:40px;width:50px;text-align:center}
+.articleList3 li.no_marginR{margin-right:0}
+.listTitle3 h2 span{float:right;font-size:12px;font-weight:normal;}
+.listTitle3{height:40px;height:40px;}
+
+
+.articleList4 dl{width:725px;clear:both;margin-bottom:15px;overflow:hidden;border:1px solid #f1f1f1;}
+.articleList4 dt{width:185px;float:left;height:133px;}
+.articleList4 dd{width:480px;float:right;line-height:30px;padding-right:20px}
+.articleList4 dd span{float:right;font-weight:normal;font-size:12px;}
+.articleList4 dd h3{font-size:14px;height:40px;line-height:40px;}
+.articleList4 dd h3 a{float:left;}
+.articleList4 .bg{background-color:#f5f5f5;border:1px solid #f5f5f5;}
+.list_date{height:40px;width:810px;}
+.list_date span{display:inline-block;line-height:40px;margin-right:10px;font-size:16px;text-align:center;background:#003E78;}
+.list_date span a{color:#fff;font-weight:bold;display:inline-block;width:80px;height:40px;}
+.list_date span a:hover{color:#678499;font-weight:bold;background-color:#FFCB0B;}
+
+
+/*教师列表*/
+.flei .title{ height: 28px; line-height: 28px; border-bottom: 1px dashed #678499; width: 100%； }
+.flei .title a {  height: 28px; line-height: 28px; width: 228px; text-align: center; color: #ffffff; margin:0 auto; background: #678499; display: block; font-size: 16px; }
+.flei { margin: 46px 0 0 0;  }
+.flei ul { overflow: hidden; margin: 10px 0 30px 0;  padding: 0 10px 0 10px; }
+.flei ul li { width: 85px; height: 48px; line-height: 48px; float: left; text-align: center; }
+
+
+
+.Annex {padding:0px; overflow:hidden; margin-bottom:30px;}
+.Annex h3 { font-size: 16px;line-height: 30px;color:#678499; padding-left:0px;}
+.Annex ul li { height: 26px; line-height: 26px;background:url(https://poetry.cnu.edu.cn/images/list_lig.gif) no-repeat 10px center; padding-left: 16px;}
+.Annex ul li a { font-size: 12px; line-height: 24px; color:#656464;}
+.Annex ul li a:hover{color:#678499;}

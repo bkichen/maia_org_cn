@@ -1,0 +1,223 @@
+#calendar {
+    width: 100%;
+    height: 296px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-shadow: inherit;
+    box-sizing: border-box;
+}
+#calendar .sign table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 94%;
+    margin:auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign th, .sign td {
+    height:38px;
+    width: 38px;
+    text-align: center;
+    line-height: 38px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign td {
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.side #calendar .sign td:hover {
+    background: #f1f1f1;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign th {
+    font-size: 15px;
+    color: #000;
+    font-weight: normal;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign td {
+    color: #000;
+    vertical-align: middle;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign .on{
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign .on:hover{
+    background: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign .on:hover span{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 26px;
+} 
+#calendar .sign .on:hover span{
+    border: 2px solid #178BD9;
+    color: #fff;
+    background:#178BD9;
+}
+#calendar .sign .on span{
+    border-radius: 50%;
+    border: 2px solid transparent;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 28px;
+    border: 1px solid #178BD9;
+    color: #178BD9;
+}
+#calendar .sign .today:hover {
+    background: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign .today span {
+    border-radius: 50%;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    color: #3878AC;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign .text {
+    display: none;
+    position: absolute;
+    width: 250px;
+    max-height: 250px;
+    background: #fff;
+    /* border-radius: 5px; */
+    padding: 10px;
+    z-index: 999;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    line-height: 1.5;
+    overflow: auto;
+    margin-left: -100%;
+    border: 1px solid #ddd;
+}
+#calendar .sign .text p{
+    width:100%;
+    border-bottom: 1px dashed #ddd;
+    line-height: 28px;
+    height:28px;
+}
+#calendar .sign .text p a {
+    width:70%;
+    color: #000;
+    text-align: left;
+    font-size: 13px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    float: left;
+}
+#calendar .sign .text p i{
+    width:68px;
+    font-size: 12px;
+    float: right;
+    display: block;
+    font-style: normal;
+    color:#666;
+    text-align: right;
+}
+#calendar .sign .text a:hover {
+    color:#178BD9;
+}
+#calendar .sign .arrow {
+    display: none;
+    position: absolute;
+    top: -27px;
+    left: 16px;
+    width: 60px;
+    padding-right: 37px;
+    z-index: 1000;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .calendar_month_next, .calendar_month_prev {
+    width: 34px;
+    cursor: pointer;
+    line-height: 15px;
+    font-size: 22px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .calendar_month_next {
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .calendar_month_span {
+    line-height: 13px;
+    font-size: 25px;
+    color: #333;
+    letter-spacing: 2px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .calendar_month_prev {
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign_succ_calendar_title {
+    text-align: center;
+    width: 80%;
+    height: 25px;
+    margin: 0 auto 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#calendar .sign_main {
+    width: 100%;
+    font-family: "Microsoft YaHei", SimHei;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+    #calendar .sign .text {
+        width: 200px;
+        margin-left:-50%;
+    }
+    #calendar .sign .text p a {
+        width: 60%;
+    }
+}

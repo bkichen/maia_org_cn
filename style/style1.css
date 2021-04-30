@@ -1,0 +1,1063 @@
+body{
+	font-family: "microsoft yahei" !important;
+	position: relative;
+	background: #FFE1FD url(../images/index00_01.png) no-repeat top center;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+    background: #8F002E;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+/*头部*/
+.header{
+	width: 100%;
+	height: 135px;
+	overflow: hidden;
+}
+.logo img{
+	/* width: 100%; */
+}
+.logo{
+	width: 700px;
+	height: 64px;
+	margin-top: 33px;
+	float: left;
+}
+.shou{
+	width: 290px;
+	height: 80px;
+	margin-top: 28px;
+	position: relative;
+}
+.shous{
+	
+}
+.shou a{
+	color: white;
+	font-size: 13px;
+}
+.shou span{
+	color: white;
+	margin: 0 10px;
+}
+.search{
+	width: 183px;
+	height: 28px;
+	margin-top: 25px;
+	
+	position: relative;
+	border: 1px solid white;
+	border-radius: 25px;
+}
+.searchText{
+	box-sizing: border-box;
+	border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    background: none;
+    width: 183px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 25px;
+    padding: 0 55px 0 15px;
+}
+.searchtu{
+	position: absolute;
+	top: 7px;
+	right: 13px;
+	border: none;
+    outline: none;
+}
+.er{
+	width: 75px;
+	height: 75px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.er img{
+		width: 75px;
+	height: 75px;
+}
+/*导航*/
+	.navs{
+		width: 100%;
+		height: 50px;
+		background: url(https://music.cnu.edu.cn/images/indexnav_03.png) no-repeat center center;
+		clear: both;
+	}
+		.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;
+	}
+	.navBar {
+		position: relative;
+		z-index: 1;
+		
+		height: 50px;
+		line-height: 35px;
+		color: white;
+		width:100%;
+		float: left;
+	}
+	
+	.nav a {
+		color: white;
+		
+	}
+	
+	.nav h3 {
+		font-size: 100%;
+		font-weight: normal;
+	}
+
+	.nav .m {
+		float: left;
+		position: relative;
+		z-index: 1;
+		height: 50px;
+		width: 150px;
+	}
+	.nav span{
+		display: block;
+		float: left;
+		margin: 7px 26px;
+	}
+	.nav .s {
+		float: left;
+		width: 3px;
+		color: #D4D4D4;
+		font-size: 15px;
+	}
+
+	.nav h3 a {
+		display: block;
+		
+		text-align: center;
+		font-size: 16px;
+		line-height: 50px;
+	}
+	
+	.nav h3 a:hover {
+		color: white;
+	}
+	
+	.nav .sub {
+		display: none;
+		/*默认隐藏*/
+		position: absolute;
+		top: 51px;
+		z-index: 1;
+		width: 150px;
+		border-top: 0;
+	}
+
+	.nav .sub li {
+		text-align: center;
+		padding: 0 2px;
+		border-bottom: 1px solid #55596B;
+background: #000;
+		background: rgba(0,0,0, .7);
+		filter: alpha(opacity=70);
+		width: 150px;
+		height: 37px;
+		box-sizing: border-box;
+
+	}
+	
+	.nav .sub li a {
+		display: block;
+
+		height: 36px;
+		line-height: 36px;
+		font-size: 15px;
+		color: white;
+	}
+	
+	.nav .sub li:hover {
+		background: #8F002E;
+		text-align: center;
+	}
+	.nav .block {
+		height: 4px;
+		width: 150px;
+		background:url(https://music.cnu.edu.cn/images/content_03.png) no-repeat center;
+		position: absolute;
+		top: 46px;
+		overflow: hidden;
+	}
+
+
+
+/*轮播*/
+.banner{
+
+	width: 100%;
+}
+.focusBox {
+	position: relative;
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+	
+}
+.focusBoxlist{
+	height: 250px;
+}
+.focusBox .pic {
+	position: relative;
+	z-index: 0;
+}
+body .focusBoxlist .piclist img{
+	height: 250px;
+}
+.focusBox .pic img {
+	width: 100%;
+	height: 380px;
+	display: block;
+}
+
+
+.focusBox .prev,
+.focusBox .next {
+	width: 60px;
+	height: 90px;
+	margin: -45px 0 0;
+	display: none;
+	background: url(https://music.cnu.edu.cn/images/bannn.png) no-repeat 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	cursor: pointer;
+	text-indent: -9999px;
+	filter: alpha(opacity=80);
+	opacity: 0.8;
+}
+
+
+.focusBox .prev {
+	left: 15px;
+}
+
+.focusBox .next {
+	background-position: 0 -90px;
+	right: 15px;
+}
+
+.focusBox .prev:hover,
+.focusBox .next:hover {
+	filter: alpha(opacity=100) !important;
+	opacity: 1 !important;
+	
+}
+/* 日历 */
+.rili{
+	width: 100%;
+	height: 55px;
+}
+
+
+/* 学院新闻 */
+
+.title{
+	width: 100%;
+	height: 40px;
+	background: url(https://music.cnu.edu.cn/images/index1_18.png) no-repeat left center;
+	margin: 35px 0 15px 0;
+}
+.title h2{
+	font-size: 20px;
+	color: #333;
+	margin-left: 56px;
+    line-height: 32px;
+    display: inline-block;		
+}
+.title a img{
+    display: block;
+    width: 46px;
+    height: 16.5px;
+    float: right;
+    margin-top: 18.2px;
+}
+.xcdxw .xws{
+	height: 390px;
+	background: white;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+.xyxw {
+	width: 770px;
+	height: 390px;
+}
+/*新闻轮播*/
+.focusBox1 {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	overflow: hidden;
+	font: 12px/1.5 Verdana, Geneva, sans-serif;
+	text-align: left;
+	background: white;
+	float: left;
+}
+
+.focusBox1 .pic img {
+	width: 400px;
+	height: 300px;
+	display: block;
+}
+
+.focusBox1 .txt-bg {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	height: 36px;
+	width: 100%;
+	background: #333;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	overflow: hidden;
+}
+
+.focusBox1 .txt {
+	position: absolute;
+	bottom: 0;
+	z-index: 2;
+	height: 36px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.focusBox1 .txt li {
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	bottom: -36px;
+}
+
+.focusBox1 .txt li a {
+	display: block;
+	color: white;
+	padding: 0 0 0 10px;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+.focusBox1 .num {
+	position: absolute;
+	z-index: 3;
+	bottom: 13px;
+	right: 8px;
+}
+
+.focusBox1 .num li {
+	float: left;
+	position: relative;
+	width: 8px;
+	height: 8px;
+	line-height: 15px;
+	overflow: hidden;
+	text-align: center;
+	margin-right: 8px;
+	cursor: pointer;
+	
+}
+
+.focusBox1 .num li a,
+.focusBox .num li span {
+	position: absolute;
+	z-index: 2;
+	display: block;
+	color: white;
+	width: 8px;
+	height: 8px;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	border-radius: 50%;
+	background: white;
+}
+
+.focusBox1 .num li span {
+	z-index: 1;
+	background: black;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+
+.focusBox1 .num li.on a,
+.focusBox .num a:hover {
+	background: #EE1816;
+}
+
+
+
+.xcdxw .bd {
+	clear: both;
+	position: relative;
+}
+.xcdxw .bd .newslist{
+	width: 345px;
+	float: right;
+}
+
+.xcdxw .bd .newslist li{
+	width: 100%;
+	height: 43px;
+	border-bottom: 1px dashed #DFDFDF;
+	line-height: 43px;
+	padding-left: 25px;
+	box-sizing: border-box;
+	background: url(https://music.cnu.edu.cn/images/index1_30.png) no-repeat left center;
+}
+.xcdxw .bd .newslist li img{
+	margin: -5px 15px 0 0;
+}
+.xcdxw .bd .newslist li a{
+	color: #414141;
+	font-size: 15px;
+}
+.xcdxw .bd .newslist li:hover a{
+	color: #B2B2B2;
+}
+.xcdxw .bd .newslist li span{
+	font-size: 14px;
+	color: #999;
+}
+/* 通知公告 */
+.tzgg {
+	width: 330px;
+}
+.tzgg li{
+	width: 100%;
+	height: 65px;
+	border-bottom: 1px dashed #DFDFDF;
+	margin-top: 12px;
+}
+.tzgg li .date{
+	width: 50px;
+	height: 50px;
+	background: url(https://music.cnu.edu.cn/images/index1_34.png) no-repeat center center;
+	border: 1px solid #CECECE;
+	float: left;
+	color: #7D7D7D;
+	font-size: 14px;
+}
+.tzgg li:hover .date{
+	background: url(https://music.cnu.edu.cn/images/index1_27.png) no-repeat center center;
+	border: 1px solid #8F0030;
+	color: #8F0030;
+}
+.tzgg li .date .ri{
+	display: inline-block;
+	    margin: 7px 0 0 5px;
+}
+.tzgg li .date .yue{
+	display: inline-block;
+	    margin: 3px 0 0 26px;
+}
+.tzgg li p{
+	width: 265px;
+	float: right;
+    line-height: 22px;
+	padding: 3px 0;
+	box-sizing: border-box;
+}
+.tzgg li p a{
+	font-size: 15px;
+	color: #444;
+}
+/* 学术动态 */
+.xsdt{
+	width: 100%;
+	height: 418px;
+	background: white;
+	padding: 0 30px;
+	box-sizing: border-box;
+}
+.xsdt_l{
+	width: 670px;    
+}
+.xsdt_l li{
+	margin-top: 18px;
+}
+.xsdt_l li img{
+	float: left;
+	width: 150px;
+	height: 80px;
+	cursor: pointer;
+}
+.xsdt_l li .xslist{
+	float: right;
+	width: 500px;
+}
+.xsdt_l li .xslist h3{
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 6px;
+}
+.xsdt_l li .xslist p{
+	font-size: 12px;
+	font-weight: normal;
+	color: #777;
+	height: 39px;
+}
+.xsdt_l li .xslist p:hover{
+	color: #8F0030;
+}
+.xsdt_l li .xslist span{
+	font-size: 12px;
+	color: #777;
+
+}
+
+.xsdt_r{
+	width: 420px;
+}
+.xsdt_r .first{
+	margin-left: 0;
+}
+.xsdt_r ul{
+
+	box-sizing: border-box;
+	margin-top: -25px;
+}
+.xsdt_r li{
+	width: 125px;
+	height: 125px;
+	float: left;
+	margin-left: 22.5px;
+	margin-top: 25px;
+	position: relative;
+	border-radius: 18px;
+	overflow: hidden;
+}
+.xsdt_r li img{
+	width: 125px;
+	height: 125px;
+
+}
+
+.xsdt_r li p{
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    /* margin-top: 12px; */
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    background: rgba(0,0,0,.5);
+    bottom: 0px;
+    line-height: 32px;
+}
+
+
+
+
+
+/*底部*/
+.footer{
+	width: 100%;
+	height: 130px;
+	
+}
+.footers{
+	width: 100%;
+	height: 130px;
+	padding: 20px 0;
+	box-sizing: border-box;
+	clear: both;
+background:#8F002E;
+}
+.footers_l,.footers_c,.footers_r{
+	width: 33%;
+	display: inline-block;
+	float: left;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+.footers_l{
+	padding: 10px 30px;
+}
+
+.footers_c img{
+	width: 330px;
+	margin-top: 15px;
+}
+.footers_l a{
+	font-size: 14px;
+	color: white;
+}
+.footers_l span{
+	color: white;
+	margin: 0 3px 0 5px;
+}
+.footers_l .ban p{
+	font-size: 14px;
+	color: #FAFAFA;
+	line-height: 30px;
+	margin-top: 13px;
+}
+.footers_c{
+	text-align: center;
+	border-left: 1px dashed #A8214C;
+	border-right: 1px dashed #A8214C;
+	height: 90px;
+}
+.footers_r{
+	text-align: right;
+	color: white;
+}
+.footers_r span{
+	font-size: 24px;
+	
+}
+.footers_r .pt{
+	font-weight: normal;
+	font-size: 14px;
+	display: inline-block;
+    float: right;
+    margin-top: 6px;
+	
+}
+.footers_r .pt img{
+	margin: -5px 0 0 15px;
+}
+.footers_r p{
+	font-size: 14px;
+	margin-top: 14px;
+}
+
+
+
+
+/*列表页*/
+
+
+.zhong{
+	background: white;
+	padding: 0 30px;
+	box-sizing: border-box;
+	clear: both;
+	overflow: hidden;
+}
+.list_ban{
+	width: 100%;
+	height: 300px;
+}
+.list_ban img{
+	width: 100%;
+}
+
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.mt40 {
+	margin-top: 40px !important;
+}
+
+.con {
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/*- 左侧 */
+.banner_ne img{
+	width: 100%;
+}
+.list-left {
+	width: 235px;
+	background: #F6E7EC url(https://music.cnu.edu.cn/images/list77_03.jpg) no-repeat center bottom;
+	position: relative;
+	padding-bottom: 200px;
+	box-sizing: border-box;
+	
+}
+
+/* ---侧导航 */
+
+.lm-name{
+	width: 235px;
+	height: 55px;
+	background:url(https://music.cnu.edu.cn/images/list88_10.jpg) no-repeat center center;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.lm-name h1{
+	font-size: 20px;
+	line-height: 55px;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+}
+.list-left .layui-nav {
+	background:  #F6E7EC;
+	width: 235px;
+	min-height: 250px;
+	padding: 0 10px;
+}
+
+.list-left .layui-nav-tree .layui-nav-itemed {
+	/*margin-bottom: 10px;*/
+	width: 225px;
+	background: white !important;	
+
+}
+
+.layui-nav-tree .layui-nav-item {
+	border-bottom: 1px solid #DBDBDB;	
+	
+}
+.layui-nav-tree>.layui-nav-item {
+	border-top: 1px solid #DBDBDB;	
+    margin-top: -1px;
+}
+.list-left .layui-nav-tree .layui-nav-item a {
+	background: url(https://music.cnu.edu.cn/images/list88_15.png) no-repeat 30px 26px;
+	color: #323232 !important;
+	padding-left: 48px;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+/* 白背景 */
+.con .list-left .layui-nav-tree .layui-nav-itemed{
+	width: 225px;
+	border: none;
+	    height: 146px;
+}
+.con .list-left .layui-nav-tree .layui-nav-itemed>a{
+	background: white url(https://music.cnu.edu.cn/images/list88_15.png) no-repeat 30px 26px !important;
+	
+}
+.con .list-left .layui-nav-tree .layui-nav-itemd dd a {
+	background: white url(https://music.cnu.edu.cn/images/list_21.png) no-repeat 45px center !important;  
+}
+
+
+.con .list-left .layui-nav-tree .layui-nav-itemed>a{
+	background: url(https://music.cnu.edu.cn/images/list88_15.png) no-repeat 30px 26px;
+	color: #8F002E !important;
+}
+.list-left .layui-nav-tree .layui-nav-item a:hover {
+	background: url(https://music.cnu.edu.cn/images/list88_15.png) no-repeat 30px 26px;
+	color: #8F002E !important;
+}
+
+.layui-nav-itemed>.layui-nav-child {
+	background-color: white !important;
+}
+
+
+.list-left .layui-nav-tree .layui-nav-item dd a:hover{
+	background: url(https://music.cnu.edu.cn/images/list_24.png) no-repeat 45px center;
+}
+
+
+.list-left .layui-nav-tree .layui-nav-item dd a.on{
+	background: url(https://music.cnu.edu.cn/images/list_24.png) no-repeat 45px center;
+	color: #8F002E !important;
+}
+
+
+.list-left .layui-nav-tree .layui-nav-item dd a {
+	padding-left: 40px;
+	background: url(https://music.cnu.edu.cn/images/list_21.png) no-repeat 45px center;
+	font-size: 14px;
+	color: #666666;
+	padding-left: 70px;
+	font-weight: normal;
+	height: 30px;
+    line-height: 30px;
+    
+}
+
+.list-left .layui-nav-tree .layui-nav-child dd.layui-this,
+.layui-nav-tree .layui-nav-child dd.layui-this a,
+.layui-nav-tree .layui-this,
+.layui-nav-tree .layui-this>a,
+.layui-nav-tree .layui-this>a:hover {
+	background-color:white;
+	color: #066cb4;
+}
+.layui-nav-tree .layui-nav-item a {
+    position: relative;
+    height: 55px;
+    line-height: 55px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+/* ----------箭头 */
+
+.list-left .layui-nav .layui-nav-more {
+	width: 23px;
+		height: 20px;
+		margin: -9px 35px 0 0;
+		background:;
+		border: none;
+}
+
+.list-left .layui-nav .layui-nav-mored,
+.list-left .layui-nav-itemed>a .layui-nav-more {
+	width: 23px;
+		height: 20px;
+		margin: -9px 0 0 0;
+		background: url(https://music.cnu.edu.cn/images/list_15.png) no-repeat;
+		border: none;
+}
+
+.list-left .layui-nav-tree .layui-nav-bar {
+	background: none;
+}
+
+	
+/*右侧*/
+
+.list-right{
+	width: 860px;
+	margin-bottom: 50px;
+}
+.list-title{
+	position: relative;
+	height: 48px;
+	background: url(https://music.cnu.edu.cn/images/list88_07.png) no-repeat right center;
+	line-height: 48px;
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+}
+.list-title .dqlm{
+	display: block;
+	float: left;
+	height: 48px;
+	padding-left: 43px;
+}
+/* ---面包屑 */
+.layui-breadcrumb{
+	background: url(https://music.cnu.edu.cn/images/icon-dqwz.png) no-repeat left center;
+	padding-left: 20px;
+	height: 30px;
+	line-height: 30px;
+    margin: 20px 0 25px;
+	font-weight: normal;
+	color: #888888;
+	display: block;
+}
+.layui-breadcrumb a cite{
+	color: #888888;
+}
+.layui-breadcrumb a:hover{
+	color: #8F002E !important;
+}
+.layui-breadcrumb a{
+	font-size: 14px;
+}
+.layui-breadcrumb>* {
+    font-size: 14px;
+}
+/* ----列表 */
+.list-con{padding: 10px 0;}
+.list-con ul li{
+	height: 55px;
+	line-height: 55px;
+	background: url(https://music.cnu.edu.cn/images/index1_30.png) no-repeat left center;
+	padding-left: 25px;
+	font-size: 15px;
+	color: #454545;
+	border-bottom: 1px solid #e2e2e2;
+}
+.list-con ul li .date{
+	float: right;
+	color: #999999;
+	font-size: 12px;
+}
+.list-con ul li a{
+	transition: .3s all ease;
+}
+.list-con ul li:hover a{
+	color: #8F002E;
+	margin-left: 5px;
+}
+
+
+
+
+
+
+.list_pi li{
+    margin-top: 25px;
+    border-bottom: 1px solid #E8E8E8;
+    height: 125px;
+}
+.list_pi li img{
+	float: left;
+	width: 190px;
+	height: 100px;
+	cursor: pointer;
+}
+.list_pi li .xslist{
+	float: right;
+	width: 650px;
+}
+.list_pi li .xslist h3{
+	font-size: 15px;
+	font-weight: normal;
+	color: #333;
+	margin-bottom: 10px;
+}
+.list_pi li .xslist p{
+	font-size: 12px;
+	font-weight: normal;
+	color: #777;
+	height: 55px;
+	line-height: 20px;
+}
+.list_pi li .xslist p:hover{
+	color: #8F0030;
+}
+.list_pi li .xslist span{
+	font-size: 12px;
+	color: #777;
+
+}
+.list_sz ul{
+	margin-top: 10px;
+}
+.list_sz li{
+	width: 280px;
+	height: 240px;
+	text-align: center;
+	padding: 25px 0;
+	box-sizing: border-box;
+	float: left;
+	z-index: 9;
+	position: relative;
+cursor: pointer;
+}
+.list_sz li .yuan img{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 27px;
+    left: 55px;
+	
+}
+.list_sz li p{
+	font-size: 15px;
+	color: #333;
+	margin-top: 5px;
+}
+.list_sz li .yuan img{
+	transition: .3s all ease;
+	
+}
+.list_sz li:hover .yuan img{
+	transform: scale(.95);
+}
+/*内容*/
+.page-con{
+	padding: 20px;
+}
+.page-con .page-title{
+	border-bottom: 1px dashed #d3d3d3;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.page-con .page-title h1{
+	font-size: 22px;
+
+	color: #94002b;
+	line-height: 45px;
+}
+.page-con .page-title h2{
+	font-size: 16px;
+	color: #333333;
+	line-height: 35px;
+}
+.page-con .page-title .date{
+	font-size: 14px;
+	color: #8b8b8b;
+	line-height: 35px;
+}
+.page-con .page-title .date span{
+	padding: 0 10px;
+}
+.page-con .article{
+	padding: 20px 0;
+	line-height: 200%;
+	font-size: 15px;
+}
+.page-con .article p{text-indent: 2em;margin: 10px 0;color: #555555;}
+.page-con .article p img{ max-width: 100%;margin: 10px;}
+.page-con .article p table td{text-indent: 0;}/* 表格内容不缩进 */
+
+
+
+.dao {
+	width: 100%;
+	border-top: 1px dashed #d3d3d3;
+}
+
+.dao .daol {
+	width: 100%;
+	height: 100px;
+	float: left;
+	margin: 30px 0;
+}
+
+.dao .daol p:hover a{
+	color: #94002b;	
+}
+.daol h5 {
+	margin: 0 0 40px;
+	color: #7A7A7A;
+}
+
+.daol p {
+	color: #5C5C5C;
+	margin-top: 20px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.daol p a{
+	color: #343434;
+	margin-top: 20px;
+	font-size: 15px;
+	cursor: pointer;
+}

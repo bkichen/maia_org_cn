@@ -1,0 +1,843 @@
+BODY {
+	FONT-SIZE: 12px; HEIGHT: auto; WIDTH: auto; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 0px; PADDING-RIGHT: 0px
+}
+A {
+	TEXT-DECORATION: none; COLOR: #282828
+}
+A:hover {
+	COLOR: #1d4c90
+}
+.header {
+	HEIGHT: 192px; WIDTH: 100%; BACKGROUND: url(../images/top.jpg) no-repeat center top; MARGIN: 0px auto
+}
+.top {
+	HEIGHT: 200px; WIDTH: 100%; MARGIN: 0px auto; TOP: 22px
+}
+.top_nav {
+	WIDTH: auto; TEXT-ALIGN: right; MARGIN: 0px auto
+}
+.top_nav A.nobg {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.top_nav A:hover {
+	COLOR: #d8ede3
+}
+.logo {
+	HEIGHT: 129px; WIDTH: 100%; POSITION: relative; MARGIN: 0px auto
+}
+.logo_link {
+	HEIGHT: 129px; WIDTH: 1100px; MARGIN: 0px auto; DISPLAY: block
+}
+.logo IMG {
+	MARGIN-LEFT: 10px; MARGIN-TOP: 10px
+}
+.search {
+	HEIGHT: 25px; WIDTH: 209px; BACKGROUND: url(../images/search_06.png) no-repeat left center; RIGHT: 50%; POSITION: absolute; Z-INDEX: 1000; TOP: 110px; MARGIN-RIGHT: -550px
+}
+.search INPUT {
+	BORDER-TOP: medium none; HEIGHT: 25px; BORDER-RIGHT: medium none; WIDTH: 172px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM: medium none; POSITION: absolute; COLOR: #282828; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LEFT: 0px; MARGIN: 0px; BORDER-LEFT: medium none; LINE-HEIGHT: 25px; TOP: 0px; PADDING-RIGHT: 0px
+}
+.search INPUT.notxt {
+	COLOR: #ffffff; PADDING-LEFT: 12px
+}
+.search INPUT.notxt1 {
+	HEIGHT: 25px; WIDTH: 24px; POSITION: absolute; LEFT: 185px
+}
+.top_nav_bg #localtime {
+	FONT-SIZE: 12px; FONT-FAMILY: "微软雅黑"; COLOR: #282828
+}
+.nav {
+	BORDER-TOP: #1d4c90 3px solid; HEIGHT: 39px; WIDTH: 100%; POSITION: absolute; MARGIN-TOP: 18px; LINE-HEIGHT: 39px
+}
+.nav UL {
+	WIDTH: 1110px; MARGIN: 0px auto
+}
+.nav UL LI {
+	FONT-SIZE: 18px; HEIGHT: 39px; BACKGROUND: url(https://rcae.cnu.edu.cn/images/line_11.png) no-repeat left center; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 35px; LINE-HEIGHT: 39px; PADDING-RIGHT: 35px
+}
+.nav UL LI:first-child {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.nav UL LI A {
+	FONT-SIZE: 18px; FONT-FAMILY: "微软雅黑"; FONT-WEIGHT: normal; COLOR: #1d4c90
+}
+.nav UL LI A:hover {
+	COLOR: #75adff
+}
+.nav UL LI .subNav {
+	WIDTH: 140px; BACKGROUND: #ffffff; TOP: 39px
+}
+.nav UL LI .subNav A {
+	COLOR: #1d4c90
+}
+.nav UL LI.on .subNav DL DD {
+	HEIGHT: auto; TEXT-ALIGN: center; MARGIN: 0px 0px 5px 6px; LINE-HEIGHT: 20px
+}
+.nav UL LI.on .subNav DL DD A {
+	FONT-SIZE: 14px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.nav UL LI.on .subNav DL DD A:hover {
+	FONT-WEIGHT: bold
+}
+.mode01 {
+	HEIGHT: 302px; WIDTH: 1100px; BACKGROUND: url(../images/content_bg_05.png) no-repeat; MARGIN: 0px auto
+}
+.mode01 .lf {
+	HEIGHT: 302px; WIDTH: 750px; FLOAT: left
+}
+.mode01 .lf .pic {
+	HEIGHT: 38px; WIDTH: 306px; BORDER-BOTTOM: #1d4c90 1px solid
+}
+.mode01 .lf .pic IMG {
+	FLOAT: right; PADDING-TOP: 17px
+}
+.mode01 .lf .pic SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-TOP: 12px; PADDING-LEFT: 8px
+}
+.mode01 .lf .nest01 {
+	HEIGHT: 255px; WIDTH: 306px; MARGIN: 10px 0px 0px
+}
+.mode01 .lf .nest01 .rt {
+	HEIGHT: 255px; WIDTH: 306px
+}
+.mode01 .lf .nest02 {
+	HEIGHT: 255px; WIDTH: 306px; MARGIN: 18px 0px 0px
+}
+.mode01 .lf .nest02 .rt {
+	HEIGHT: 255px; WIDTH: 306px
+}
+.mode01 .md {
+	HEIGHT: 302px; WIDTH: 441px; FLOAT: left; MARGIN-LEFT: 24px
+}
+.mode01 .md .pic {
+	HEIGHT: 38px; WIDTH: 441px; BORDER-BOTTOM: #1d4c90 1px solid
+}
+.mode01 .md .pic IMG {
+	FLOAT: right; PADDING-TOP: 17px
+}
+.mode01 .md .pic SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-TOP: 12px; PADDING-LEFT: 8px
+}
+.mode01 .md UL {
+	MARGIN: 10px 0px 0px
+}
+.mode01 .md UL LI A {
+	FONT-SIZE: 14px; HEIGHT: 23px; WIDTH: 375px; BACKGROUND: url(https://rcae.cnu.edu.cn/images/icon_24.png) no-repeat left center; FLOAT: left; PADDING-LEFT: 12px; LINE-HEIGHT: 23px
+}
+.mode01 .md UL LI SPAN {
+	FLOAT: right; COLOR: #1d4c90
+}
+.mode01 .rt {
+	HEIGHT: 302px; WIDTH: 307px; FLOAT: right
+}
+.mode01 .rt .pic {
+	HEIGHT: 38px; WIDTH: 305px; BORDER-BOTTOM: #1d4c90 1px solid
+}
+.mode01 .rt .pic IMG {
+	FLOAT: right; PADDING-TOP: 17px
+}
+.mode01 .rt .pic SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-LEFT: 8px
+}
+.mode01 .rt UL {
+	HEIGHT: 230px; WIDTH: 307px; MARGIN: 5px 0px 0px
+}
+.mode01 .rt UL LI {
+	HEIGHT: 50px; BORDER-BOTTOM: #cccccc 1px solid; LINE-HEIGHT: 50px
+}
+.mode01 .rt UL LI A {
+	FONT-SIZE: 14px; HEIGHT: 50px; FLOAT: left; PADDING-LEFT: 12px; LINE-HEIGHT: 50px
+}
+.mode01 .rt UL LI SPAN {
+	FLOAT: left; COLOR: #1d4c90
+}
+.content {
+	OVERFLOW: hidden; WIDTH: 1100px; MARGIN: 0px auto
+}
+.mode02 {
+	overflow:hidden; /*HEIGHT: 526px;*/ WIDTH: 1100px; BACKGROUND: #ffffff; MARGIN: 10px auto 0px
+}
+.mode02 .lf {
+	/*HEIGHT: 493px; */WIDTH: 360px; POSITION: relative; FLOAT: left
+}
+.mode02 .lf .more {
+	RIGHT: 20px; POSITION: absolute; TOP: 10px
+}
+.mode02 .rt .up {
+	HEIGHT: 301px; WIDTH: 306px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 40px; PADDING-RIGHT: 0px; BACKGROUND-COLOR: #efefef
+}
+.mode02 .rt .up .pic {
+	HEIGHT: 38px; WIDTH: 305px; BORDER-BOTTOM: #1d4c90 1px solid
+}
+.mode02 .rt .up .pic IMG {
+	FLOAT: right; PADDING-TOP: 17px
+}
+.mode02 .rt .up .pic SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-TOP: 12px; PADDING-LEFT: 8px
+}
+.mode02 .rt UL {
+	HEIGHT: 210px;*HEIGHT: 228px; WIDTH: 307px; MARGIN: 5px 0px 0px
+}
+.mode02 .rt UL LI {
+	HEIGHT: 50px; BORDER-BOTTOM: #cccccc 1px solid; LINE-HEIGHT: 50px
+}
+.mode02 .rt UL LI A {
+	FONT-SIZE: 14px; HEIGHT: 50px; FLOAT: left; PADDING-LEFT: 12px; LINE-HEIGHT: 50px
+}
+.mode02 .rt UL LI SPAN {
+	FLOAT: left; COLOR: #1d4c90
+}
+.mode02 .rt .On-line UL {
+	MARGIN: 0px
+}
+.mode02 .rt .On-line UL LI A {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.mode02 .lf .down {
+	HEIGHT: 222px; WIDTH: 306px; MARGIN-TOP: 14px
+}
+.mode02 .lf .down .pic {
+	HEIGHT: 38px; WIDTH: 305px; BORDER-BOTTOM: #1d4c90 1px solid
+}
+.mode02 .lf .down .pic IMG {
+	FLOAT: right; PADDING-TOP: 17px
+}
+.mode02 .lf .down .pic SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-TOP: 12px; PADDING-LEFT: 8px
+}
+.mode02 .md {
+	/*BORDER-TOP: #e5e5e5 1px solid; */HEIGHT: 482px; WIDTH: 360px; /*BORDER-BOTTOM: #e5e5e5 1px solid;*/ POSITION: relative; FLOAT: left; MARGIN-LEFT: 30px;/* BORDER-LEFT: #e5e5e5 1px solid*/
+}
+.mode02 .md .more {
+	RIGHT: 20px; POSITION: absolute; TOP: 10px
+}
+.mode02 .md .Forum ,.mode02 .rt .Forum {
+	HEIGHT: 40px; WIDTH: 205px; BACKGROUND: url(../images/bg11_33.png) no-repeat
+}
+.mode02 .md .Forum IMG,.mode02 .rt .Forum IMG {
+	FLOAT: left; PADDING-TOP: 7px; PADDING-LEFT: 14px
+}
+.mode02 .md .Forum SPAN,.mode02 .rt .Forum SPAN  {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-TOP: 7px; PADDING-LEFT: 31px
+}
+.mode02 .md .Trailer {
+	HEIGHT: 235px;*HEIGHT: 270px; WIDTH: 374px; MARGIN-TOP: 14px
+}
+.mode02 .md .Trailer .trailer {
+	HEIGHT: 33px; BORDER-RIGHT: #88abda 2px solid; WIDTH: 80px; BORDER-BOTTOM: #88abda 2px solid;
+}
+.mode02 .md .Trailer .trailer P {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 6px; PADDING-LEFT: 10px
+}
+.mode02 .md .Trailer .color1 {
+	FONT-SIZE: 14px; HEIGHT: 60px; WIDTH: 360px; MARGIN-LEFT: 0px; MARGIN-TOP: 22px; 
+}
+.mode02 .md .Trailer .color1 SPAN {
+	MARGIN: 0px 0px 0px 12px
+}
+.mode02 .md .Trailer SPAN {
+	FLOAT: left
+}
+.mode02 .md .Trailer .data2 {
+	WIDTH: 322px
+}
+.mode02 .md .Trailer .color2 {
+	FONT-SIZE: 14px; HEIGHT: 60px; WIDTH: 360px; MARGIN-LEFT: 0px; MARGIN-TOP: 22px; 
+}
+.mode02 .md .Trailer .color2 SPAN {
+	MARGIN: 0px 0px 0px 12px
+}
+.mode02 .md .Trailer .color3 {
+	FONT-SIZE: 14px; HEIGHT: 60px; WIDTH: 360px; MARGIN-LEFT: 0px; MARGIN-TOP: 22px; 
+}
+.mode02 .md .Trailer .color3 SPAN {
+	MARGIN: 0px 0px 0px 12px
+}
+.mode02 .md .On-line {
+	HEIGHT: 164px; WIDTH: 360px; MARGIN-TOP: 10px;
+}
+.mode02 .md .On-line .on_line {
+	BORDER-TOP: #acd598 2px solid; HEIGHT: 33px; BORDER-RIGHT: #acd598 2px solid; WIDTH: 80px
+}
+.mode02 .md .On-line .on_line P {
+	FONT-SIZE: 15px; FONT-WEIGHT: bold; PADDING-TOP: 6px; PADDING-LEFT: 10px
+}
+.mode02 .md .On-line UL {
+	HEIGHT: 124px; WIDTH: 322px; MARGIN: 3px 0px 0px 15px
+}
+.mode02 .md .On-line UL LI A {
+	FONT-SIZE: 14px; BACKGROUND: url(../images/icon22_52.png) no-repeat 10px center; PADDING-LEFT: 20px
+}
+.Forum .img {
+	FLOAT: right; MARGIN: 15px 0px 0px
+}
+.Forum .img A {
+	FONT-SIZE: 12px; COLOR: #1d4c90
+}
+.On-line {
+	HEIGHT: 225px; WIDTH: 360px; POSITION: relative;/*margin:10px 0;*/
+}
+.On-line .more {
+	RIGHT: 0px; POSITION: absolute; TOP: 10px
+}
+.On-line .rela {
+	HEIGHT: 178px; WIDTH: 360px
+}
+.shipin_con {
+	HEIGHT: 180px; BACKGROUND: none transparent scroll repeat 0% 0%; POSITION: relative; padding: 14px 0px 0px;
+}
+.shipin_con P {
+	HEIGHT: 30px; WIDTH: 100%; BACKGROUND: url(../images/slider.png) repeat-x; POSITION: absolute; TEXT-ALIGN: center; LEFT: 0px; LINE-HEIGHT: 30px; BOTTOM: 9px
+}
+.shipin_con P A {
+	COLOR: #ffffff
+}
+.dongtai_con {
+	HEIGHT: 180px; WIDTH: 360px;  POSITION: relative; padding: 14px 0px 0px
+}
+.dongtai_con P {
+	HEIGHT: 30px; WIDTH: 100%; BACKGROUND: url(../images/slider.png) repeat-x; POSITION: absolute; TEXT-ALIGN: center; LEFT: 0px; LINE-HEIGHT: 30px; BOTTOM: 9px
+}
+.dongtai_con P A {
+	COLOR: #ffffff
+}
+.mode02 .md .On-line .rela {
+	HEIGHT: 178px; WIDTH: 360px
+}
+.On-line .absolut {
+	POSITION: absolute; LEFT: 165px;TOP: 81px;
+}
+.On-line .on_line {
+	BORDER-TOP: #acd598 2px solid; HEIGHT: 33px; BORDER-RIGHT: #acd598 2px solid; WIDTH: 80px
+}
+.On-line .on_line P {
+	FONT-SIZE: 15px; FONT-WEIGHT: bold; PADDING-TOP: 6px; PADDING-LEFT: 10px
+}
+.On-line UL {
+	HEIGHT: 124px; WIDTH: 374px
+}
+.On-line UL LI A {
+	FONT-SIZE: 14px
+}
+.mode02 .rt {
+	/*BORDER-TOP: #e5e5e5 1px solid;*/ HEIGHT: 506px; /*BORDER-RIGHT: #e5e5e5 1px solid; WIDTH: 346px; BORDER-BOTTOM: #e5e5e5 1px solid; */POSITION: relative; FLOAT: right; /*BORDER-LEFT: #e5e5e5 1px solid*/
+}
+.mode02 .rt .more {
+	RIGHT: 20px; POSITION: absolute; TOP: 10px
+}
+.mode02 .lf .Forum {
+	HEIGHT: 40px; WIDTH: 258px; BACKGROUND:#AF8EA3;}
+.mode02 .lf .Forum IMG {
+	FLOAT: left; PADDING-TOP: 7px; PADDING-LEFT: 14px
+}
+.mode02 .lf .Forum SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-TOP: 7px; PADDING-LEFT: 17px;
+}
+.mode02 .lf .Trailer {
+	HEIGHT: 245px;*HEIGHT: 280px; WIDTH: 374px;  MARGIN-TOP: 14px
+}
+
+.mode02 .lf .Trailer .trailer {
+	HEIGHT: 33px; BORDER-RIGHT: #84ccc9 2px solid; WIDTH: 80px; BORDER-BOTTOM: #84ccc9 2px solid
+}
+.mode02 .lf .Trailer .trailer P {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; PADDING-TOP: 6px; PADDING-LEFT: 10px
+}
+.mode02 .lf .Trailer .color1 {
+	FONT-SIZE: 14px; HEIGHT: 60px; WIDTH: 360px; MARGIN-LEFT: 0px; MARGIN-TOP: 22px;/* BACKGROUND-COLOR: #a1e1e0*/
+}
+.mode02 .lf .Trailer .color1 SPAN {
+	MARGIN: 0px 0px 0px 12px
+}
+.mode02 .lf .Trailer SPAN {
+	FLOAT: left
+}
+.mode02 .lf .Trailer .data2 {
+	WIDTH: 324px
+}
+.mode02 .lf .Trailer .color2 {
+	FONT-SIZE: 14px; HEIGHT: 60px; WIDTH: 360px; MARGIN-LEFT: 0px; MARGIN-TOP: 22px; /*BACKGROUND-COLOR: #d2e7a5*/
+}
+.mode02 .lf .Trailer .color2 SPAN {
+	MARGIN: 0px 0px 0px 12px
+}
+.mode02 .lf .Trailer .color3 {
+	FONT-SIZE: 14px; HEIGHT: 60px; WIDTH: 360px; MARGIN-LEFT: 0px; MARGIN-TOP: 22px; /*BACKGROUND-COLOR: #fbe1cc*/
+}
+.mode02 .lf .Trailer .color3 SPAN {
+	MARGIN: 0px 0px 0px 12px
+}
+.mode02 .rt .On-line {
+	HEIGHT: 222px; WIDTH: 306px; MARGIN-LEFT: 40px; MARGIN-TOP: 6px;
+}
+.mode02 .rt .On-line .on_line {
+	BORDER-TOP: #acd598 2px solid; HEIGHT: 33px; BORDER-RIGHT: #acd598 2px solid; WIDTH: 80px
+}
+.mode02 .rt .On-line .on_line P {
+	FONT-SIZE: 15px; FONT-WEIGHT: bold; PADDING-TOP: 6px; PADDING-LEFT: 10px
+}
+.mode02 .rt .On-line UL {
+	PADDING-TOP: 14px; PADDING-LEFT: 0px
+}
+.mode02 .rt .On-line UL LI {
+	LIST-STYLE-TYPE: none; HEIGHT: 178px; WIDTH: 307px; POSITION: relative; FLOAT: left; LIST-STYLE-IMAGE: none
+}
+.mode02 .rt .On-line UL LI IMG {
+	HEIGHT: 178px; WIDTH: 307px; POSITION: relative
+}
+.mode02 .rt .On-line UL LI.right {
+	FLOAT: right; DISPLAY: none
+}
+.mode02 .rt .On-line UL LI P {
+	POSITION: absolute; PADDING-BOTTOM: 5px; PADDING-TOP: 5px; PADDING-LEFT: 5px; LEFT: 0px; PADDING-RIGHT: 5px; BOTTOM: 7px
+}
+.mode02 .rt .On-line UL LI P {
+	HEIGHT: 30px; WIDTH: 100%; BACKGROUND: url(../images/slider.png); COLOR: #ffffff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; LINE-HEIGHT: 30px; PADDING-RIGHT: 0px
+}
+.mode03 {
+	HEIGHT: 195px; WIDTH: 1100px; MARGIN: 30px auto 0px
+}
+.mode03 .lf {
+	BORDER-TOP: #e5e5e5 1px solid; HEIGHT: 195px; BORDER-RIGHT: #e5e5e5 1px solid; WIDTH: 538px; BORDER-BOTTOM: #e5e5e5 1px solid; FLOAT: left; BORDER-LEFT: #e5e5e5 1px solid
+}
+.mode03 .lf .Forum {
+	HEIGHT: 40px; WIDTH: 538px
+}
+.mode03 .lf .xf {
+	HEIGHT: 40px; WIDTH: 110px; BACKGROUND: url(../images/bg33_59.png) no-repeat; FLOAT: left
+}
+.mode03 .lf .Forum SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-TOP: 7px; PADDING-LEFT: 18px
+}
+.mode03 .lf .Forum IMG {
+	FLOAT: right; margin-right: 10px;
+}
+.mode03 .lf .Left {
+	MARGIN-TOP: 11px
+}
+.mode03 .lf .Banner01 {
+	FLOAT: left
+}
+.mode03 .lf .Left .List {
+	HEIGHT: 124px; WIDTH: 304px; FLOAT: right
+}
+.mode03 .lf .Left .List LI {
+	HEIGHT: 30px; LINE-HEIGHT: 30px
+}
+.mode03 .lf .Left .List LI A {
+	FONT-SIZE: 14px; BACKGROUND: url(../images/icon3_33.png) no-repeat left center; PADDING-LEFT: 10px
+}
+.mode03 {
+	HEIGHT: 208px; WIDTH: 1100px; MARGIN: 10px auto 0px;
+}
+.mode03 .rt {
+	BORDER-TOP: #e5e5e5 1px solid; HEIGHT: 195px; BORDER-RIGHT: #e5e5e5 1px solid; WIDTH: 538px; BORDER-BOTTOM: #e5e5e5 1px solid; FLOAT: right; BORDER-LEFT: #e5e5e5 1px solid
+}
+.mode03 .rt .Forum {
+	HEIGHT: 40px; WIDTH: 538px
+}
+.mode03 .rt .xf {
+	HEIGHT: 40px; WIDTH: 110px; BACKGROUND: url(../images/bg33_59.png) no-repeat; FLOAT: left
+}
+.mode03 .rt .Forum SPAN {
+	FONT-SIZE: 18px; FLOAT: left; FONT-WEIGHT: bold; COLOR: #fff; PADDING-TOP: 7px; PADDING-LEFT: 18px
+}
+.mode03 .rt .Forum IMG {
+	FLOAT: right; margin-right: 10px;
+}
+.mode03 .rt .Right {
+	HEIGHT: 124px; WIDTH: 522px; MARGIN-LEFT: 20px; MARGIN-TOP: 11px
+}
+.mode03 .rt .Right LI {
+	HEIGHT: 30px; LINE-HEIGHT: 30px
+}
+.mode03 .rt .Right LI A {
+	FONT-SIZE: 14px; BACKGROUND: url(../images/icon3_33.png) no-repeat left center; PADDING-LEFT: 10px
+}
+.Banner01 .flexslider {
+	OVERFLOW: hidden; HEIGHT: 300px; WIDTH: 750px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.Banner01 .flexslider UL.slides LI {
+	HEIGHT: 300px
+}
+.Banner01 .flexslider UL.slides LI IMG {
+	HEIGHT: 300px; WIDTH: 750px; DISPLAY: block
+}
+.Banner01 .flexslider .til_slides {
+	FONT-SIZE: 14px; HEIGHT: 30px; WIDTH: 100%; BACKGROUND: url(../images/slider.png) repeat-x; POSITION: absolute; COLOR: #ffffff; PADDING-LEFT: 15px; LEFT: 0px; DISPLAY: block; LINE-HEIGHT: 30px; BOTTOM: 0px
+}
+.Banner01 .flex-control-nav {
+	TEXT-ALIGN: right; DISPLAY: block; BOTTOM: 11px
+}
+.Banner01 .flex-control-paging LI {
+	MARGIN: 0px 10px 0px 0px
+}
+.Banner01 .flex-control-paging LI A {
+	HEIGHT: 7px; WIDTH: 7px; BACKGROUND: #d1d8c6; LINE-HEIGHT: 7px; TEXT-INDENT: 999px; border-radius: 50%
+}
+.Banner01 .flex-control-paging LI A:hover {
+	BACKGROUND: #48679d; COLOR: #fff
+}
+.flex-control-paging LI A.flex-active {
+	BACKGROUND: #48679d; COLOR: #fff
+}
+.Down .Banner01 .flexslider {
+	OVERFLOW: hidden; HEIGHT: 255px; WIDTH: 306px; BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.Down .Banner01 .flexslider UL.slides LI {
+	HEIGHT: 255px
+}
+.Down .Banner01 .flexslider UL.slides LI IMG {
+	HEIGHT: 132px; WIDTH: 244px; MARGIN-LEFT: 30px; MARGIN-TOP: 8px; DISPLAY: block
+}
+.Down .Banner01 .flexslider .til_slides {
+	FONT-SIZE: 14px; HEIGHT: 34px; COLOR: #333; PADDING-LEFT: 30px; DISPLAY: block; LINE-HEIGHT: 34px
+}
+.Down .Banner01 .flexslider .date_1 {
+	FONT-SIZE: 12px; COLOR: #333; PADDING-LEFT: 25px; DISPLAY: block
+}
+.Down .Banner01 .flexslider .amount {
+	FONT-SIZE: 12px; COLOR: #333; PADDING-LEFT: 30px; DISPLAY: block
+}
+.Down .Banner01 .flex-direction-nav .flex-prev {
+	HEIGHT: 28px; WIDTH: 15px; BACKGROUND: url(../images/left_37.png) no-repeat; FLOAT: left; LEFT: 30px; TOP: 85px
+}
+.Down .Banner01 .flex-direction-nav .flex-next {
+	HEIGHT: 28px; WIDTH: 15px; BACKGROUND: url(https://rcae.cnu.edu.cn/images/right_37.png) no-repeat; RIGHT: 30px; FLOAT: right; TOP: 85px
+}
+.Down .Banner01 .flex-control-nav {
+	TEXT-ALIGN: right; DISPLAY: none; BOTTOM: 43px
+}
+.Down .Banner01 .flex-control-paging LI {
+	MARGIN: 0px 10px 0px 0px
+}
+.Down .Banner01 .flex-control-paging LI A {
+	HEIGHT: 7px; WIDTH: 7px; BACKGROUND: #d1d8c6; LINE-HEIGHT: 7px; TEXT-INDENT: 999px; border-radius: 50%
+}
+.Down .Banner01 .flex-control-paging LI A:hover {
+	BACKGROUND: #48679d; COLOR: #fff
+}
+.flex-control-paging LI A.flex-active {
+	BACKGROUND: #48679d; COLOR: #fff
+}
+.Left .Banner01 .flexslider {
+	HEIGHT: 131px; WIDTH: 216px
+}
+.Left .Banner01 .flexslider UL.slides LI IMG {
+	HEIGHT: 131px; WIDTH: 216px
+}
+.Left .Banner01 .flex-control-nav {
+	TEXT-ALIGN: right; DISPLAY: none; BOTTOM: 6px
+}
+.Left .Banner01 .flex-direction-nav .flex-prev {
+	HEIGHT: 28px; WIDTH: 15px; BACKGROUND: url(../images/left_37.png) no-repeat; FLOAT: left; LEFT: 0px; TOP: 75px
+}
+.Left .Banner01 .flex-direction-nav .flex-next {
+	HEIGHT: 28px; WIDTH: 15px; BACKGROUND: url(https://rcae.cnu.edu.cn/images/right_37.png) no-repeat; RIGHT: 0px; FLOAT: right; TOP: 75px
+}
+.footer {
+	HEIGHT: 228px; WIDTH: 100%; MARGIN: 0px auto 0px; BACKGROUND-COLOR: #1d4c90
+}
+.copyRight {
+	FONT-FAMILY: "微软雅黑"; WIDTH: 1100px; MARGIN: 0px auto
+}
+.link {
+	HEIGHT: 80px; WIDTH: 1100px
+}
+.link SPAN {
+	FONT-SIZE: 18px; COLOR: #fff; MARGIN-LEFT: 518px
+}
+.linkTab {
+	HEIGHT: 40px; WIDTH: 954px; PADDING-TOP: 18px; MARGIN-LEFT: 72px
+}
+.linkTab .linkList {
+	CURSOR: pointer; HEIGHT: 40px; WIDTH: 300px; BACKGROUND: url(../images/link_03.png) no-repeat; POSITION: relative; FLOAT: left; Z-INDEX: 1; LINE-HEIGHT: 40px
+}
+.linkTab .linkList P {
+	FONT-SIZE: 16px; HEIGHT: 40px; WIDTH: 230px; COLOR: #fff; MARGIN-LEFT: 15px
+}
+.son_linkList {
+	BORDER-TOP: medium none; BORDER-RIGHT: #ccc 1px solid; WIDTH: 298px; BACKGROUND: #fff; BORDER-BOTTOM: #ccc 1px solid; POSITION: absolute; TEXT-ALIGN: left; LEFT: 0px; BORDER-LEFT: #ccc 1px solid; Z-INDEX: 9999; DISPLAY: none; LINE-HEIGHT: 28px; TOP: 40px
+}
+.son_linkList A {
+	FONT-SIZE: 12px; HEIGHT: 26px; FONT-FAMILY: "微软雅黑"; COLOR: #505050; PADDING-LEFT: 10px; DISPLAY: block; LINE-HEIGHT: 26px
+}
+.son_linkList A:hover {
+	COLOR: #ca1000
+}
+.linkTab .linkList1 {
+	CURSOR: pointer; HEIGHT: 40px; WIDTH: 300px; BACKGROUND: url(../images/link_03.png) no-repeat; POSITION: relative; FLOAT: left; MARGIN-LEFT: 26px; Z-INDEX: 1; LINE-HEIGHT: 40px
+}
+.linkTab .linkList1 P {
+	FONT-SIZE: 16px; HEIGHT: 40px; WIDTH: 250px; COLOR: #fff; MARGIN-LEFT: 15px
+}
+.linkTab .linkList2 {
+	CURSOR: pointer; HEIGHT: 40px; WIDTH: 300px; BACKGROUND: url(../images/link_03.png) no-repeat; POSITION: relative; FLOAT: left; MARGIN-LEFT: 26px; Z-INDEX: 1; LINE-HEIGHT: 40px
+}
+.linkTab .linkList2 P {
+	FONT-SIZE: 16px; HEIGHT: 40px; WIDTH: 230px; COLOR: #fff; MARGIN-LEFT: 15px
+}
+.foo {
+	HEIGHT: 135px; WIDTH: 958px; MARGIN: 8px auto 0px
+}
+.foo .left1 {
+	FONT-SIZE: 12px; HEIGHT: 69px; WIDTH:262px; FLOAT: left; COLOR: #fff; MARGIN-TOP: 20px
+}
+.Copyright {
+	WIDTH: 200px; BORDER-BOTTOM: #ffffff 1px solid; DISPLAY: block
+}
+.Email {
+	WIDTH: 282px; FLOAT: left
+}
+.CopyRight {
+	WIDTH: 282px
+}
+.line1 {
+	FLOAT: left; margin-top: 11px;
+}
+.foo .md1 {
+	FLOAT: left; MARGIN-LEFT: 68px; MARGIN-TOP: 19px
+}
+.line2 {
+	FLOAT: left; MARGIN-LEFT: 65px ;margin-top: 11px;
+}
+.foo .rt1 {
+	FONT-SIZE: 12px; HEIGHT: 39px; FLOAT: right; COLOR: #fff
+}
+.rt1 UL LI {
+	HEIGHT: 140px; WIDTH: 140px; FLOAT: left; TEXT-ALIGN: center; MARGIN: 0px 10px 0px 0px
+}
+.rt1 UL LI A {
+	COLOR: #ffffff; MARGIN: 5px 0px 0px; DISPLAY: block
+}
+.rt1 UL LI IMG {
+	HEIGHT: 100px; WIDTH: 100px; MARGIN: 0px auto; DISPLAY: block
+}
+.Visit {
+	WIDTH: 260px; FLOAT: left
+}
+.address {
+	WIDTH: 260px
+}
+.subPage {
+	WIDTH: 1110px; MARGIN: 0px auto
+}
+.pageBanner {
+	WIDTH: 1110px; MARGIN: 0px auto
+}
+.Bread {
+	FONT-SIZE: 13px; HEIGHT: 39px; WIDTH: auto; BORDER-BOTTOM: #ccc 1px solid; COLOR: #1d4c90; LINE-HEIGHT: 39px
+}
+.Bread A {
+	COLOR: #1d4c90
+}
+.articleList2 {
+	
+}
+.articleList2 UL LI {
+	HEIGHT: 30px; BACKGROUND: url(../images/icon2_27.png) no-repeat left center; BORDER-BOTTOM: #f4f4f4 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 18px; LINE-HEIGHT: 30px; PADDING-RIGHT: 0px
+}
+.articleList2 UL LI A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.listTitle2 {
+	HEIGHT: 35px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-LEFT: 0px; MARGIN: 10px 0px 0px
+}
+.listTitle2 H2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.listTitle2 H2 A {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 5px 0px; LINE-HEIGHT: 33px; PADDING-RIGHT: 0px
+}
+.subPage .articleList2 {
+	MARGIN: 10px 0px 20px
+}
+.page {
+	FONT-SIZE: 12px; HEIGHT: 30px; WIDTH: 100%; TEXT-ALIGN: center; CLEAR: both; MARGIN: 20px 0px 30px; LINE-HEIGHT: 30px
+}
+.page A {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.pageList {
+	OVERFLOW: hidden; PADDING-BOTTOM: 30px
+}
+.articleTitle {
+	WIDTH: 100%; TEXT-ALIGN: center
+}
+.articleTitle H2 {
+	FONT-SIZE: 18px; COLOR: #1d4c90; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.articleTitle H3 {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; COLOR: #555; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 0px; LINE-HEIGHT: 20px; PADDING-RIGHT: 0px
+}
+.articleAuthor {
+	HEIGHT: 30px; BACKGROUND: #f5f5f5; COLOR: #777; TEXT-ALIGN: center; MARGIN: 10px; LINE-HEIGHT: 30px
+}
+.article {
+	OVERFLOW: hidden; FONT-SIZE: 15px; MARGIN: 20px 10px; LINE-HEIGHT: 30px
+}
+.Annex {
+	OVERFLOW: hidden; MARGIN-BOTTOM: 30px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.Annex H3 {
+	FONT-SIZE: 16px; COLOR: #1d4c90; PADDING-LEFT: 5px; LINE-HEIGHT: 30px
+}
+.Annex UL LI {
+	HEIGHT: 26px; BACKGROUND: url(../images/icon2_27.png) no-repeat 10px center; PADDING-LEFT: 28px; LINE-HEIGHT: 26px
+}
+.Annex UL LI A {
+	FONT-SIZE: 12px; COLOR: #656464; LINE-HEIGHT: 24px
+}
+.Annex UL LI A:hover {
+	COLOR: #1d4c90
+}
+.con {
+	OVERFLOW: hidden; WIDTH: 1110px; MARGIN: 20px auto 5px
+}
+.con .conLeft {
+	BORDER-TOP: #1d4c90 1px solid; BORDER-RIGHT: #1d4c90 1px solid; WIDTH: 220px; BACKGROUND: #fef9f6; BORDER-BOTTOM: #1d4c90 1px solid; FLOAT: left; BORDER-LEFT: #1d4c90 1px solid
+}
+.con .conLeft .title {
+	HEIGHT: 40px; WIDTH: auto; TEXT-ALIGN: left; LINE-HEIGHT: 40px
+}
+.con .conLeft .title H2 {
+	FONT-SIZE: 16px; BACKGROUND: #1d4c90; COLOR: #fff; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 35px; PADDING-RIGHT: 0px
+}
+.con .conLeft UL LI {
+	FONT-SIZE: 14px; TEXT-ALIGN: center
+}
+.con .conLeft UL LI A {
+	FONT-SIZE: 14px; BORDER-BOTTOM: #ccc 1px solid; PADDING-BOTTOM: 15px; TEXT-ALIGN: left; PADDING-TOP: 15px; PADDING-LEFT: 35px; DISPLAY: block; PADDING-RIGHT: 20px
+}
+.con .conLeft UL LI A:hover {
+	BACKGROUND: url(https://rcae.cnu.edu.cn/images/arrow.png) no-repeat 180px center; BORDER-BOTTOM: #1d4c90 2px solid; FONT-WEIGHT: bold
+}
+.con .conLeft UL .current A {
+	BACKGROUND: url(https://rcae.cnu.edu.cn/images/arrow.png) no-repeat 180px center; BORDER-BOTTOM: #1d4c90 2px solid; FONT-WEIGHT: bold; COLOR: #1d4c90
+}
+.con .conRight {
+	WIDTH: 860px; FLOAT: right
+}
+.con .conRight .articleList2 {
+	WIDTH: 860px
+}
+.con .conRight .Bread {
+	WIDTH: auto
+}
+.con .conRight .page {
+	FONT-SIZE: 12px; HEIGHT: 30px; WIDTH: auto; TEXT-ALIGN: center; CLEAR: both; MARGIN: 20px 0px 30px; LINE-HEIGHT: 30px
+}
+.con .conRight .page A {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px
+}
+.con .conRight .subPage {
+	WIDTH: auto; MARGIN: 0px auto
+}
+.pictureList2 {
+	OVERFLOW: hidden; WIDTH: auto
+}
+.pictureList2 UL {
+	OVERFLOW: hidden; WIDTH: 950px
+}
+.pictureList2 UL LI {
+	HEIGHT: 180px; WIDTH: 210px; FLOAT: left; TEXT-ALIGN: center; MARGIN: 0px 6px 0px 0px
+}
+.pictureList2 UL LI IMG {
+	HEIGHT: 140px; WIDTH: 210px
+}
+.TlpictureList2 {
+	OVERFLOW: hidden; WIDTH: 1300px
+}
+.TlpictureList2 UL {
+	OVERFLOW: hidden; WIDTH: 1300px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px
+}
+.TlpictureList2 UL LI {
+	HEIGHT: 180px; WIDTH: 200px; FLOAT: left; TEXT-ALIGN: center; MARGIN: 0px 25px 0px 0px
+}
+.TlpictureList2 UL LI IMG {
+	HEIGHT: 134px; WIDTH: 200px
+}
+.img_news_con {
+	OVERFLOW: hidden; WIDTH: 100%; PADDING-BOTTOM: 20px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.img_news_con H3 {
+	FONT-SIZE: 16px; FONT-FAMILY: "微软雅黑"; FONT-WEIGHT: normal; COLOR: #1d4c90; PADDING-BOTTOM: 20px; TEXT-ALIGN: center; PADDING-TOP: 20px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; heihgt: 54px
+}
+.imgs_scroll {
+	POSITION: relative; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 104px; PADDING-RIGHT: 0px
+}
+.imgs_scroll .btn_l {
+	HEIGHT: 580px; WIDTH: 434px; POSITION: absolute; TOP: 0px
+}
+.imgs_scroll .btn_r {
+	HEIGHT: 580px; WIDTH: 434px; POSITION: absolute; TOP: 0px
+}
+.imgs_scroll .btn_l {
+	LEFT: 62px
+}
+.imgs_scroll .btn_r {
+	RIGHT: 69px
+}
+.imgs_scroll .prev {
+	CURSOR: pointer; WIDTH: 70px; POSITION: absolute; TEXT-ALIGN: center; MARGIN: -22px 0px 0px; Z-INDEX: 90; DISPLAY: none; TOP: 40%
+}
+.imgs_scroll .next {
+	CURSOR: pointer; WIDTH: 70px; POSITION: absolute; TEXT-ALIGN: center; MARGIN: -22px 0px 0px; Z-INDEX: 90; DISPLAY: none; TOP: 40%
+}
+.imgs_scroll .prev {
+	LEFT: 105px
+}
+.imgs_scroll .next {
+	RIGHT: 106px
+}
+.imgs_news_list {
+	OVERFLOW: hidden; WIDTH: 910px; POSITION: relative
+}
+.imgs_news_list UL {
+	WIDTH: 9999px
+}
+.imgs_news_list UL LI {
+	WIDTH: 910px; FLOAT: left; DISPLAY: inline
+}
+.imgs_news_list UL LI .txt2 {
+	FONT-FAMILY: "微软雅黑"; WIDTH: 910px; FLOAT: left; TEXT-ALIGN: left; LINE-HEIGHT: 20px; TEXT-INDENT: 2em
+}
+.newPage H2 {
+	FLOAT: left
+}
+.newPage A {
+	FLOAT: right
+}
+.newPageArticle .art {
+	FONT-SIZE: 14px; COLOR: #4a4b4a; LINE-HEIGHT: 30px
+}
+.newPageList UL {
+	MARGIN: 10px 0px 0px
+}
+.newPage .more {
+	
+}
+.newPageList01 UL LI {
+	BORDER-TOP: medium none; BORDER-RIGHT: medium none; WIDTH: auto; BORDER-BOTTOM: medium none; FLOAT: left; MARGIN: 0px 40px 0px 0px; BORDER-LEFT: medium none
+}
+.articleList3 {
+	OVERFLOW: hidden; HEIGHT: 300px; WIDTH: 410px; FLOAT: left; MARGIN: 0px 20px 0px 10px
+}
+.articleList3 UL LI {
+	HEIGHT: 30px; BACKGROUND: url(https://rcae.cnu.edu.cn/images/li_arrow_03.png) no-repeat left center; BORDER-BOTTOM: #f4f4f4 1px solid; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 18px; LINE-HEIGHT: 30px; PADDING-RIGHT: 0px
+}
+.articleList3 UL LI A {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.articleList3 UL LI SPAN {
+	FLOAT: right
+}
+.listTitle3 {
+	HEIGHT: 35px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-LEFT: 0px; MARGIN: 10px 0px 0px
+}
+.listTitle3 H2 {
+	BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+.listTitle3 H2 A {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: #1d4c90; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; MARGIN: 5px 0px; LINE-HEIGHT: 33px; PADDING-RIGHT: 0px
+}

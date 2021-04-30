@@ -1,0 +1,337 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>美术学院</title>
+<link href="css/style11.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="js/jquery-1.4.4.min.js" type="text/javascript"></script>
+<script language="javascript" src="js/index2.js" type="text/javascript"></script>
+<script language="javascript">
+<!--
+function linkchge(sobj) {
+var docurl =sobj.options[sobj.selectedIndex].value;
+if (docurl != "") {
+   open(docurl,'_blank');
+   sobj.selectedIndex=0;
+   sobj.blur();
+}
+}
+//-->
+</script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+<div class="wrap">
+   
+ <div class="top">
+        <a href="javascript:;" class="logo">美术学院</a>
+        <div class="top_nav">
+            <a href="javascript:;">返回首师大主页</a>
+            |
+            <a href="javascript:;">设为首页</a>
+            |
+            <a href="javascript:;">English</a>
+        </div>
+    </div>
+	<!--+++++++++++++++++++++++++++++++++end top++++++++++++++++++++++++++++++-->
+    <div class="nav_bg">
+		<script>
+            $(function(){
+                $(".nav>li").hover(function(){
+                    $(this).children('ul').stop(true,true).show(300);
+                },function(){
+                    $(this).children('ul').stop(true,true).hide(300);
+                })
+            })
+        </script>
+        <ul class="nav">
+            <li class="noli"><a href="javascript:;">首页</a></li>
+
+																										<li><a href="javascript:;" class="bt_link">学院概况 </a><br>
+										<ul class="sub-nav">
+																							<li><a href="javascript:;">学院简介</a></li>
+																							<li><a href="javascript:;">历史沿革</a></li>
+																							<li><a href="javascript:;">学院领导</a></li>
+																					</ul>
+									</li>
+																																																			<li><a href="javascript:;" class="bt_link">学院教师</a><br>
+										<ul class="sub-nav">
+																							<li><a href="javascript:;">国画教师</a></li>
+																							<li><a href="javascript:;">油画教师</a></li>
+																							<li><a href="javascript:;">美教教师</a></li>
+																							<li><a href="javascript:;">史论教师</a></li>
+																							<li><a href="javascript:;">视传教师</a></li>
+																							<li><a href="javascript:;">环艺教师</a></li>
+																							<li><a href="javascript:;">数媒教师</a></li>
+																							<li><a href="javascript:;">实验教师</a></li>
+																							<li><a href="javascript:;">行政教师</a></li>
+																					</ul>
+									</li>
+																																										<li><a href="javascript:;" class="bt_link">人才培养</a><br></li>
+																																										<li><a href="javascript:;" class="bt_link">教学单位 </a><br>
+										<ul class="sub-nav">
+																							<li><a href="javascript:;">中国画系</a></li>
+																							<li><a href="javascript:;">油画系</a></li>
+																							<li><a href="javascript:;">美术教育系</a></li>
+																							<li><a href="javascript:;">美术史论系</a></li>
+																							<li><a href="javascript:;">视觉传达系</a></li>
+																							<li><a href="javascript:;">环境设计系</a></li>
+																							<li><a href="javascript:;">数字媒体系</a></li>
+																					</ul>
+									</li>
+																																																			<li><a href="javascript:;" class="bt_link">学术研究</a><br>
+										<ul class="sub-nav">
+																							<li><a href="javascript:;">学术机构</a></li>
+																							<li><a href="javascript:;">科研成果</a></li>
+																					</ul>
+									</li>
+																																																			<li><a href="javascript:;" class="bt_link">党建工作</a><br>
+										<ul class="sub-nav">
+																							<li><a href="javascript:;">党委简介</a></li>
+																							<li><a href="javascript:;">规章制度</a></li>
+																							<li><a href="javascript:;">支部建设</a></li>
+																					</ul>
+									</li>
+																																																			<li><a href="javascript:;" class="bt_link">学生工作</a><br>
+										<ul class="sub-nav">
+																							<li><a href="javascript:;">党团建设</a></li>
+																							<li><a href="javascript:;">学生活动</a></li>
+																							<li><a href="javascript:;">通知公告</a></li>
+																							<li><a href="javascript:;">研究生事务</a></li>
+																							<li><a href="javascript:;">本科生事务</a></li>
+																					</ul>
+									</li>
+																									        </ul>
+    </div>	<!--+++++++++++++++++++++++++++++++++end nav++++++++++++++++++++++++++++++-->
+	<div class="slide">
+        <div class="play">
+            <ul id="pnl_scroll">
+               			    <li>
+                <a href="javascript:;"><img src="images/content/2020-07/20200716154452868123.jpg" height="268" width="770"></a>
+                </li>
+               			    <li>
+                <a href="javascript:;"><img src="images/content/2020-07/20200716155040132245.jpg" height="268" width="770"></a>
+                </li>
+               			    <li>
+                <a href="javascript:;"><img src="images/content/2018-05/20180511101058444024.jpg" height="268" width="770"></a>
+                </li>
+               			    <li>
+                <a href="javascript:;"><img src="images/content/2018-04/20180423140809102108.jpg" height="268" width="770"></a>
+                </li>
+               			    <li>
+                <a href="javascript:;"><img src="images/content/2018-11/20181109095007269658.jpg" height="268" width="770"></a>
+                </li>
+                           </ul>
+        </div>
+        <div class="tab">
+            <ul id="pnl_btn">
+
+               			    <li>
+               <a href="javascript:void(0);" onclick="" class="on">            2020届毕业作品线... 
+    </a>
+                </li>
+               			    <li>
+               <a href="javascript:void(0);" onclick="" class="on">            王珂教授倾情创作 致... 
+    </a>
+                </li>
+               			    <li>
+               <a href="javascript:void(0);" onclick="" class="on">            博士生毕业作品展 
+    </a>
+                </li>
+               			    <li>
+               <a href="javascript:void(0);" onclick="" class="on">            本科设计毕业作品展 
+    </a>
+                </li>
+               			    <li>
+               <a href="javascript:void(0);" onclick="" class="on">            学院教师西山秋游 
+    </a>
+                </li>
+                           </ul>
+        </div>
+    </div>
+	<!--+++++++++++++++++++++++++++++++++end banner++++++++++++++++++++++++++++++-->
+	<div class="content clearfix">
+		<div class="sider_l f_l">
+        	<div class="tit">
+            	<h3>美院公告</h3>
+                <a href="javascript:;" class="more">更多 >></a>
+        	</div>
+        	<div class="con">
+            	<ul class="list" style="height:277px;">
+				                	<li><span class="f_r"> 04-15</span><a href="javascript:void(0);" title="美术学院关于2021年本科生转专业工作的通知" onclick="checkXnwk('myxw/mygg/189046.htm','xw');">            美术学院关于2021年本科... 
+    </a></li>
+                                	<li><span class="f_r"> 03-20</span><a href="javascript:void(0);" title="2021年硕士生导师招生名单与意向表" onclick="checkXnwk('myxw/mygg/187732.htm','xw');">            2021年硕士生导师招生名... 
+    </a></li>
+                                	<li><span class="f_r"> 05-13</span><a href="javascript:void(0);" title="美术学院研究生入学考试报考导师意向统计表" onclick="checkXnwk('myxw/mygg/174557.htm','xw');">            美术学院研究生入学考试报考... 
+    </a></li>
+                                	<li><span class="f_r"> 04-15</span><a href="javascript:void(0);" title="2020年美术学院硕士生导师招生名单" onclick="checkXnwk('myxw/mygg/173772.htm','xw');">            2020年美术学院硕士生导... 
+    </a></li>
+                                	<li><span class="f_r"> 05-09</span><a href="javascript:void(0);" title="2020年度本科生申请转专业名单公示" onclick="checkXnwk('myxw/mygg/174417.htm','xw');">            2020年度本科生申请转专... 
+    </a></li>
+                                	<li><span class="f_r"> 09-24</span><a href="javascript:void(0);" title="第二届“为学 为艺”北京高校美术学研究生论坛（2019）征稿启示" onclick="checkXnwk('myxw/mygg/164617.htm','xw');">            第二届“为学 为艺”北京高... 
+    </a></li>
+                                	<li><span class="f_r"> 05-10</span><a href="javascript:void(0);" title="2018级本科生申请转专业名单公示" onclick="checkXnwk('myxw/mygg/159523.htm','xw');">            2018级本科生申请转专业... 
+    </a></li>
+                                	<li><span class="f_r"> 04-30</span><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院美术学院2019年拟录用人员公示" onclick="checkXnwk('myxw/mygg/158986.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院美术学院201... 
+    </a></li>
+                                </ul>	   
+			   
+<script language="javascript" type="text/javascript"> 
+				function location1(s)
+                {       var d = s.options[s.selectedIndex].value;
+			window.open(d);
+			s.selectedIndex=0;       
+                }
+function location2(s)
+                {  
+						var d = s.options[s.selectedIndex].value;
+						s.selectedIndex=0;
+				        window.top.location.href = d;     
+                }
+</script>
+<!--
+ <select name="m2" onChange="location1(this)" ID="Select2"  class="links" style="margin-top:6px" >
+					    	<option selected="selected">---请选择链接网站---</option>
+												  	</select>
+						-->
+						<a href="javascript:;" target="_blank">【<font color="#FF0000" style="font-weight:bold;">美术教育实验教学中心</font>】</a>
+            </div>
+        </div>
+		<!--+++++++++++++++++++++++++++++++++end sider_l++++++++++++++++++++++++++++++-->
+		<div class="main f_l">
+        	<div class="xydt">
+                <div class="tit">
+                    <h3>学院动态</h3>
+                    <a href="javascript:;" class="more">更多 >></a>
+                </div>
+                <div class="con">
+                	<ul class="list" style="height:116px;">
+				                	<li><span class="f_r"> 04-29</span><a href="javascript:void(0);" title="美术学院党委开展党史专题学习教育" onclick="checkXnwk('myxw/xydt/189959.htm','xw');">            美术学院党委开展党史专题学习教育 
+    </a></li>
+                                	<li><span class="f_r"> 04-13</span><a href="javascript:void(0);" title="学院党委组织全体教师开展理论学习活动" onclick="checkXnwk('myxw/xydt/188867.htm','xw');">            学院党委组织全体教师开展理论学习活动 
+    </a></li>
+                                	<li><span class="f_r"> 04-13</span><a href="javascript:void(0);" title="我院设计党支部师生开展党日学习活动" onclick="checkXnwk('myxw/xydt/188865.htm','xw');">            我院设计党支部师生开展党日学习活动 
+    </a></li>
+                                	<li><span class="f_r"> 04-01</span><a href="javascript:void(0);" title="【党史学习教育】我校举办“红色·记忆——北京革命旧址手绘展”" onclick="checkXnwk('myxw/xydt/188289.htm','xw');">            【党史学习教育】我校举办“红色·记忆——北京革命... 
+    </a></li>
+                                    </ul>
+                </div>
+            </div>
+			<!--+++++++++++++++++++++++++++++++++end 学院动态++++++++++++++++++++++++++++++-->
+        	<div class="xshd">
+                <div class="tit">
+                    <h3>学术活动</h3>
+                    <a href="javascript:;" class="more">更多 >></a>
+                </div>
+                <div class="con">
+                	<ul class="list" style="height:116px;">
+				                	<li><span class="f_r"> 05-14</span><a href="javascript:void(0);" title="跨媒体艺术系列讲座之『再见传统』" onclick="checkXnwk('myxw/xzhd/159761.htm','xw');">            跨媒体艺术系列讲座之『再见传统』 
+    </a></li>
+                                	<li><span class="f_r"> 10-30</span><a href="javascript:void(0);" title="讲座《主题创作》" onclick="checkXnwk('myxw/xzhd/149256.htm','xw');">            讲座《主题创作》 
+    </a></li>
+                                	<li><span class="f_r"> 10-30</span><a href="javascript:void(0);" title="讲座《思维转换》" onclick="checkXnwk('myxw/xzhd/149255.htm','xw');">            讲座《思维转换》 
+    </a></li>
+                                	<li><span class="f_r"> 10-19</span><a href="javascript:void(0);" title="讲座《雕塑巡礼》" onclick="checkXnwk('myxw/xzhd/148524.htm','xw');">            讲座《雕塑巡礼》 
+    </a></li>
+                                    </ul>
+                </div>
+            </div>
+			<!--+++++++++++++++++++++++++++++++++end 学术活动++++++++++++++++++++++++++++++-->
+		</div>
+		<!--+++++++++++++++++++++++++++++++++end main++++++++++++++++++++++++++++++-->
+		<div class="sider_r f_r">
+        	<div class="sider_r_b">
+                <div class="sider_r_con">
+                    <div class="xsxx">
+                        <div class="tit">
+                            <h3>学科建设</h3>
+                            <a href="javascript:;" class="more">更多 >></a>
+                        </div>
+                        <div class="con">                        	
+                            <ul class="list" style="height:284px;">
+				                	<li><span class="f_r"> 10-19</span><a href="javascript:void(0);" title="“美焕文心”——第四届南航金城学院教务处_南京财经大学教务处_南京艺术学院艺术季开幕式暨美术学院教师小幅作品展开展仪式举行" onclick="checkXnwk('myxw/xzxx/179175.htm','xw');">            “美焕文心”——第四届首... 
+    </a></li>
+                                	<li><span class="f_r"> 08-02</span><a href="javascript:void(0);" title="庆祝建党100周年大型美术创作工程专家组一行来我校检查" onclick="checkXnwk('myxw/xzxx/177056.htm','xw');">            庆祝建党100周年大型美... 
+    </a></li>
+                                	<li><span class="f_r"> 05-16</span><a href="javascript:void(0);" title="美术学院数字媒体工作室获2020国际创意缪斯奖金奖" onclick="checkXnwk('myxw/xzxx/176733.htm','xw');">            美术学院数字媒体工作室获... 
+    </a></li>
+                                	<li><span class="f_r"> 01-16</span><a href="javascript:void(0);" title="形形色色—南航金城学院教务处_南京财经大学教务处_南京艺术学院美术学院表现性绘画工作室教学讨论会顺利召开" onclick="checkXnwk('myxw/xzxx/176732.htm','xw');">            形形色色—南航金城学院教务处_南京财经大学教务处_南京艺术学院美... 
+    </a></li>
+                                	<li><span class="f_r"> 12-26</span><a href="javascript:void(0);" title="“皴擦点染·首师现代水墨工作室师生作品展”在山东艺术学院美术馆开幕" onclick="checkXnwk('myxw/xzxx/176731.htm','xw');">            “皴擦点染·首师现代水墨... 
+    </a></li>
+                                	<li><span class="f_r"> 12-31</span><a href="javascript:void(0);" title="我院教师在教育部首届全国高校美术教育专业教师基本功大赛中喜获佳绩" onclick="checkXnwk('myxw/xzxx/176730.htm','xw');">            我院教师在教育部首届全国... 
+    </a></li>
+                                	<li><span class="f_r"> 12-09</span><a href="javascript:void(0);" title="我院2015级艺术市场专业本科生洪继昱获2019年北京市普通高等学校优秀本科生毕业设计（论文）" onclick="checkXnwk('myxw/xzxx/169933.htm','xw');">            我院2015级艺术市场专... 
+    </a></li>
+                                	<li><span class="f_r"> 12-06</span><a href="javascript:void(0);" title="“美术学院入选第十三届全国美展师生表彰大会”召开" onclick="checkXnwk('myxw/xzxx/169860.htm','xw');">            “美术学院入选第十三届全... 
+    </a></li>
+                                	<li><span class="f_r"> 11-26</span><a href="javascript:void(0);" title="第二届“为学·为艺”北京高校美术学研究生论坛在我校顺利召开" onclick="checkXnwk('myxw/xzxx/169297.htm','xw');">            第二届“为学·为艺”北京... 
+    </a></li>
+                                            </ul>
+                        </div>
+                    </div>
+					<!--+++++++++++++++++++++++++++++++++end 学术信息++++++++++++++++++++++++++++++-->
+                    <!--<div class="stbg">
+                        <div class="tit">
+                            <h3>艺术市场生态报告</h3>
+ <a href="zgyzscstbg/index.htm" class="more">更多 >></a>
+
+                        </div>
+                        <div class="con">                        	
+                            <ul class="list" style="height:65px;">
+				                	<li><span class="f_r"> 09-08</span><a href="javascript:void(0);" title="2015.10" onclick="checkXnwk('zgyzscstbg/62762.htm','$article.belongUser');">            2015.10 
+    </a></li>
+                                	<li><span class="f_r"> 08-07</span><a href="javascript:void(0);" title="2015.08" onclick="checkXnwk('zgyzscstbg/62708.htm','$article.belongUser');">            2015.08 
+    </a></li>
+                                	<li><span class="f_r"> 09-09</span><a href="javascript:void(0);" title="2014.01" onclick="checkXnwk('zgyzscstbg/62793.htm','$article.belongUser');">            2014.01 
+    </a></li>
+                                            </ul>
+                        </div>              	
+                    </div>
+					+++++++++++++++++++++++++++++++++end 中国艺术市场生态报告++++++++++++++++++++++++++++++-->
+            	</div>
+            </div>
+		</div>
+		<!--+++++++++++++++++++++++++++++++++end sider_l++++++++++++++++++++++++++++++-->
+	</div>
+
+</div>
+
+	<div class="footer">
+		<p>Copyright &copy;<a href="javascript:;">南航金城学院教务处_南京财经大学教务处_南京艺术学院美术学院</a> 地址：北京市西三环北路105号 　 邮编：100048 <a href="javascript:;" style="">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号</p>
+	</div></body></html>

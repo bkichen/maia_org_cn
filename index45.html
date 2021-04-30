@@ -1,0 +1,413 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院国有资产管理处</title>
+<link href="css/base2.css" type="text/css" rel="stylesheet">
+<link href="css/style32.css" type="text/css" rel="stylesheet">
+
+<script type="text/javascript">
+window.onload=function(){
+    //focusImg('banner');   
+        function getByClass(sClass,parent){
+        
+        var aEles = (parent||document).getElementsByTagName('*');
+        var arr = [];
+        
+        for(var i=0; i<aEles.length; i++){
+            
+            var aClass = aEles[i].className.split(' ');
+            
+            for(var j=0; j<aClass.length; j++){
+                
+                if( aClass[j] == sClass ){
+                
+                    arr.push( aEles[i] );
+                    break;
+                    
+                }   
+            }
+        }
+        return arr;
+    }
+    
+    var arr = getByClass('linkList');
+    var arr2 = getByClass('son_linkList');
+    var that = null;
+    var onoff = true;
+    
+    for(var i=0;i<arr.length;i++)
+    {
+        arr[i].index = i;
+        arr[i].onclick = function(ev) {
+            var e = ev || event;
+            e.cancelBubble = true;
+            for(var i=0;i<arr.length;i++)
+            {
+                if(i!=this.index)
+                {
+                    arr2[this.index].style.display = 'block';
+                    arr2[i].style.display = 'none';
+                }
+            };
+            if(onoff)
+            {
+                arr2[this.index].style.display = 'block';
+                onoff = false;
+            }else
+            {
+                arr2[this.index].style.display = 'none';
+                onoff = true;
+            };
+            that = this.index;
+            document.onclick = function() {
+                arr2[that].style.display = 'none';
+                onoff = true;
+            }
+        }
+    };
+};
+</script>
+
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="top_nav_bg">
+                <div class="top_nav">
+                    <a href="index1.html" target="_blank" class="nobg">学校首页</a>
+                </div>
+            </div>
+        	<div class="logo">
+        		<a href="javascript:;" class="logo_link">
+                    <img src="images/logo_0211.png" alt="">      
+                </a>
+            </div>
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="115" type="hidden">
+                    <input class="notxt" value="搜索全文" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        </div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首页</a></li>
+												<li><a href="javascript:;">部门概况</a></li>
+																				<li><a href="javascript:;">政策文件</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">国家级文件</a></dd>
+														<dd><a href="javascript:;">北京市文件</a></dd>
+														<dd><a href="javascript:;">学校文件</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">综合管理科</a></li>
+																				<li><a href="javascript:;">实验室管理和技术安全科</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">实验室管理</a></dd>
+														<dd><a href="javascript:;">实验教学示范中心建设</a></dd>
+														<dd><a href="javascript:;">实验室技术安全</a></dd>
+														<dd><a href="javascript:;">安全规章制度</a></dd>
+														<dd><a href="javascript:;">危险品名录</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">设备管理科</a></li>
+																<li><a href="javascript:;">公房管理科</a></li>
+																<li><a href="javascript:;">物资采购科</a></li>
+																				<li><a href="javascript:;">住房公积金与住房补贴科</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">住房公积金</a></dd>
+														<dd><a href="javascript:;">住房补贴</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">住房管理科</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">良乡教师公寓</a></dd>
+														<dd><a href="javascript:;">租房补贴</a></dd>
+														<dd><a href="javascript:;">公租房</a></dd>
+														<dd><a href="javascript:;">产权证</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;"> 公租房管理科</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">公租房表格材料下载</a></dd>
+														<dd><a href="javascript:;">公租房管理</a></dd>
+														<dd><a href="javascript:;">公租房其他问题</a></dd>
+														<dd><a href="javascript:;">公租房申请模板</a></dd>
+														<dd><a href="javascript:;">公租房腾退</a></dd>
+														<dd><a href="javascript:;">政策法规</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">联系我们</a></li>
+								            </ul>
+       
+      </div></div>
+<div class="Banner">
+        <div class="flexslider">
+            <ul class="slides">
+			                <li><a href="javascript:;">
+																 <img src="images/content/2017-01/20170106171725323278.png" width="1400" height="350">
+								 				</a>
+<!--
+<span class="til_slides">            下沉广场 
+    </span>
+-->
+</li>
+			                <li><a href="javascript:;">
+																 <img src="images/content/2017-01/20170106171248160071.jpg" width="1400" height="350">
+								 				</a>
+<!--
+<span class="til_slides">            北区体育场 
+    </span>
+-->
+</li>
+			                <li><a href="javascript:;">
+																 <img src="images/content/2017-01/20170106171154460955.jpg" width="1400" height="350">
+								 				</a>
+<!--
+<span class="til_slides">            主楼校门 
+    </span>
+-->
+</li>
+			            </ul>
+       </div>
+    </div>
+<div class="content">
+    <div class="row mode01">
+        <div class="col lf">
+        	<div class="articleList_firstImageSummary">
+                <div class="articleList_firstImageSummary_title">
+                   <span class="more"><a href="javascript:;">更多</a></span><h2>工作动态</h2>
+                </div>
+                <div class="firstArticle">
+				                    <div class="firstArticle_image">
+                        <a href="javascript:;" title="国有资产管理处党支部召开2020年组织生活会">
+														 <img src="images/content/2021-04/20210422152822711937.jpg" width="231" height="44">
+								 						</a>
+                    </div>
+                    <div class="firstArticle_content">
+                        <div class="firstArticle_title">
+                            <a href="javascript:;" title="国有资产管理处党支部召开2020年组织生活会">国有资产管理处党支部召开2020年组织生活会</a>
+                        </div>
+                        <div class="firstArticle_date">
+                            2021-03-25更新
+                        </div>
+                        <div class="firstArticle_summary">
+                                       组织生活会的顺利召开，深入查找剖析了支部和党员存在的问题，促进党员之间的充分沟通交流，进一步坚定了国资处党支部全体党员牢记使命、不忘初心，发挥党员先锋模范作用的信心与决心。 
+                            </div>
+                    </div>
+					                </div>
+                <ul>
+				                    <li><a href="javascript:;" title="国有资产管理处党支部召开2020年组织生活会">            国有资产管理处党支部召开2020年组织生活会 
+    </a><span>[2021-03-25]</span></li>
+				                    <li><a href="javascript:;" title="雷兴山副校长到公租房续租签约现场检查指导工作">            雷兴山副校长到公租房续租签约现场检查指导工作 
+    </a><span>[2021-04-15]</span></li>
+				                    <li><a href="javascript:;" title="采购中心组织我校教师 参观“第31届北京高教教育装备展”">            采购中心组织我校教师 参观“第31届北京高教教育装备展” 
+    </a><span>[2021-04-09]</span></li>
+				                    <li><a href="javascript:;" title="举一反三，以查促改——国资处牵头对学校重大风险实验室进行联合检查">            举一反三，以查促改——国资处牵头对学校重大风险实验室进行联合检查 
+    </a><span>[2021-04-08]</span></li>
+				                </ul>
+            </div>
+            <div class="link">
+                <ul>
+                    <li class="link01"><a href="javascript:;" target="_blank">政府采购和实验室管理平台</a></li>
+                    <li class="link02"><a href="javascript:;" target="_blank">资产管理系统</a></li>
+                    <li class="link03"><a href="javascript:;" target="_blank">实验室安全知识培训及考试平台</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="col rt">
+        	<div class="newest">
+                <div class="newest_title">
+                    <a href="javascript:;">最新通知</a>
+                </div> 
+                <ul>
+				                    <li><p>2021-04-08</p><a href="javascript:;" title="关于燕保大学城公租房续租通知">            关于燕保大学城公租房续租通知 
+    </a></li>
+				                    <li><p>2021-04-06</p><a href="javascript:;" title="商品房看房通知(房山区、海淀区)">            商品房看房通知(房山区、海淀区) 
+    </a></li>
+				                    <li><p>2021-04-06</p><a href="javascript:;" title="关于兴辰佳苑共有产权房申购通知">            关于兴辰佳苑共有产权房申购通知 
+    </a></li>
+				                    <li><p>2021-03-11</p><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院——华发中央公园 团购方案">            南航金城学院教务处_南京财经大学教务处_南京艺术学院——华发中央公园 团购方案 
+    </a></li>
+				                    <li><p>2021-01-06</p><a href="javascript:;" title="关于中海寰宇视界活动通知">            关于中海寰宇视界活动通知 
+    </a></li>
+				                    <li><p>2020-12-31</p><a href="javascript:;" title="关于加强学期末和寒假期间实验室安全工作的通知">            关于加强学期末和寒假期间实验室安全工作的通知 
+    </a></li>
+				                </ul>  
+            </div>
+        </div>
+    </div>
+    <div class="row mode02">
+        <div class="col lf">
+            <div class="articleList_firstImageSummary01">
+                <div class="articleList_firstImageSummary_title">
+                   <span class="more"><a href="javascript:;">更多</a></span><h2>办事指南</h2>
+                </div>
+                <!--<div class="firstArticle">
+				                    <div class="firstArticle_image">
+													 <img src="images/little_img_07.png" alt="" width="81" height="53"/>
+								                         
+                        <div class="firstArticle_title">
+                            <a href="sylm/bszn/173033.htm" title="资产处置流程图">            资产处置流程图 
+    </a>
+                        </div>
+                        <div class="firstArticle_summary">
+                             请填写文章摘要  <a href="sylm/bszn/173033.htm">【查看详情】</a>
+                        </div>
+                    </div>
+                                   </div>-->
+                <ul>
+				                    <li><a href="javascript:;" title="资产登记流程图">            资产登记流程图 
+    </a><span>03-28</span></li>
+				                    <li><a href="javascript:;" title="资产处置流程图">            资产处置流程图 
+    </a><span>03-28</span></li>
+				                    <li><a href="javascript:;" title="《资产管理信息系统》操作手册">            《资产管理信息系统》操作手册 
+    </a><span>06-19</span></li>
+				                    <li><a href="javascript:;" title="国有资产管理处办事手册">            国有资产管理处办事手册 
+    </a><span>06-14</span></li>
+				                    <li><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院组织实施设备类政府采购工作流程">            南航金城学院教务处_南京财经大学教务处_南京艺术学院组织实施设备类政府采购工作流程 
+    </a><span>12-30</span></li>
+				                    <li><a href="javascript:;" title="进口设备申报相关文件">            进口设备申报相关文件 
+    </a><span>12-01</span></li>
+				                    <li><a href="javascript:;" title="制度汇编">            制度汇编 
+    </a><span>12-01</span></li>
+				                    <li><a href="javascript:;" title="减免税办理流程">            减免税办理流程 
+    </a><span>12-01</span></li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col md">
+            <div class="articleList_firstImageSummary01">
+                <div class="articleList_firstImageSummary_title">
+                   <span class="more"><a href="javascript:;">更多</a></span><h2>下载专区</h2>
+                </div>
+                <!--<div class="firstArticle">
+                                        <div class="firstArticle_image">
+													 <img src="images/little_img_07.png" alt="" width="81" height="53"/>
+								                         
+                        <div class="firstArticle_title">
+                            <a href="sylm/xzzq/187681.htm" title="政府采购意向公开信息表">            政府采购意向公开信息表 
+    </a>
+                        </div>
+                        <div class="firstArticle_summary">
+                             请填写文章摘要  <a href="sylm/xzzq/187681.htm">【查看详情】</a>
+                        </div>
+                    </div>
+                                   </div>-->
+                <ul>
+                                       <li><a href="javascript:;" title="政府采购意向公开信息表">            政府采购意向公开信息表 
+    </a><span>03-18</span></li>
+				                    <li><a href="javascript:;" title="教学保障通用设备、家具申请表">            教学保障通用设备、家具申请表 
+    </a><span>03-18</span></li>
+				                    <li><a href="javascript:;" title="部门采购授权书（2021新版）">            部门采购授权书（2021新版） 
+    </a><span>03-18</span></li>
+				                    <li><a href="javascript:;" title="北京市2020-2022年政府采购集中采购目录及标准">            北京市2020-2022年政府采购集中采购目... 
+    </a><span>04-13</span></li>
+				                    <li><a href="javascript:;" title="政府采购项目负责人授权委托书">            政府采购项目负责人授权委托书 
+    </a><span>04-02</span></li>
+				                    <li><a href="javascript:;" title="材料费/测试化验加工费预算解冻证明">            材料费/测试化验加工费预算解冻证明 
+    </a><span>03-04</span></li>
+				                    <li><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院材料费定点采购货物清单">            南航金城学院教务处_南京财经大学教务处_南京艺术学院材料费定点采购货物清单 
+    </a><span>02-26</span></li>
+				                    <li><a href="javascript:;" title="2019年材料费定点供应商联系方式">            2019年材料费定点供应商联系方式 
+    </a><span>01-04</span></li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+            <div class="articleList_firstImageSummary01">
+                <div class="articleList_firstImageSummary_title">
+                   <span class="more"><a href="javascript:;">更多</a></span><h2>公告公示</h2>
+                </div>
+                <!--<div class="firstArticle">
+                                        <div class="firstArticle_image">
+													 <img src="images/little_img_07.png" alt="" width="81" height="53"/>
+								                         
+                        <div class="firstArticle_title">
+                            <a href="sylm/cggg/184537.htm" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院2021年度实验室开放基金学生课题立项公示 ">            南航金城学院教务处_南京财经大学教务处_南京艺术学院2021年度实验室开放... 
+    </a>
+                        </div>
+                        <div class="firstArticle_summary">
+                             请填写文章摘要  <a href="sylm/cggg/184537.htm">【查看详情】</a>
+                        </div>
+                    </div>
+                                       
+                </div>-->
+                <ul>
+                                       <li><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院2021年度实验室开放基金学生课题立项公示 ">            南航金城学院教务处_南京财经大学教务处_南京艺术学院2021年度实验室开放基金学生课... 
+    </a><span>12-23</span></li>
+				                    <li><a href="javascript:;" title="关于公布2019年实验室开放基金项目结题情况的公示">            关于公布2019年实验室开放基金项目结题情况... 
+    </a><span>12-02</span></li>
+				                    <li><a href="javascript:;" title="北一区体育馆物业服务费项目定点供应商遴选中标公告">            北一区体育馆物业服务费项目定点供应商遴选中标... 
+    </a><span>07-26</span></li>
+				                    <li><a href="javascript:;" title="国有资产管理处暑假值班表">            国有资产管理处暑假值班表 
+    </a><span>07-10</span></li>
+				                    <li><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院在线课程拍摄制作服务遴选项目遴选公告">            南航金城学院教务处_南京财经大学教务处_南京艺术学院在线课程拍摄制作服务遴选项目遴选... 
+    </a><span>06-28</span></li>
+				                    <li><a href="javascript:;" title="地理科学与技术实验教学示范中心2016年度考核报告">            地理科学与技术实验教学示范中心2016年度考... 
+    </a><span>04-28</span></li>
+				                    <li><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院仪器实验室与设备管理规章制度汇编（2012年修订版）">            南航金城学院教务处_南京财经大学教务处_南京艺术学院仪器实验室与设备管理规章制度汇编... 
+    </a><span>04-27</span></li>
+				                    <li><a href="javascript:;" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院2017年政府采购协议供应商遴选结果公示">            南航金城学院教务处_南京财经大学教务处_南京艺术学院2017年政府采购协议供应商遴选... 
+    </a><span>03-20</span></li>
+				                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="copyRight">
+        <div class="footer_left">
+            地址：北京市西三环北路105号   联系我们<br>
+            邮编：100048  E-mail：info@cnu.edu.cn 
+        </div>
+        <div class="footer_middle">
+            <a href="index1.html" target="_blank"><img src="images/footer_logo_03.png" alt=""></a>
+        </div>
+        <div class="footer_right">
+                            <div class="linkList" style="z-index:9999;">友情链接
+                                <div class="son_linkList">
+								                                  <a href="javascript:;" target="_blank">北京财政</a> 
+								                                 </div>
+                            </div> 
+                        
+        </div>
+    </div>
+</div>
+<div class="footer01">
+    copyright&copy;南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有   <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+</div><script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+    }); 
+	
+</script>
+
+</body></html>

@@ -1,0 +1,222 @@
+
+/* CSS Document */
+html{ overflow-x: hidden; }
+body{margin:0; padding:0; font-size:12px; background-color:#fff;}
+a{text-decoration:none; color:#5c5c5c;}
+a:hover{ color:#1d4c90;}
+
+/*头部*/
+.header{ width:100%; height:195px; margin:0 auto; background: #001f4c; z-index: 9999;}
+.top{width:100%; height:146px; margin:0 auto; position: relative; }
+.top_nav_bg{width:auto;height:auto; position: absolute; right: 50%; top: 45px; margin:0 -550px 0 0; z-index: 9999;}
+.top_nav{width:auto;margin:0 auto;height:auto; line-height:auto; text-align:right;}
+.top_nav a{display:inline-block;  color:#ffffff;background:url(https://gist.cnu.edu.cn/images/top_navbg.gif) no-repeat left}
+.top_nav a.nobg{background:none;}
+.top_nav a:hover{ font-weight: bold; }
+.logo{ width:1100px;height:146px;margin:0 auto;position:relative; background: url(https://gist.cnu.edu.cn/images/top_bg_02.png) no-repeat;}
+.logo_link{ width:847px;height:146px; display:block;}
+.logo img{ width:847px;height:146px; }
+.search{width:215px; height:30px;position:absolute;right:50%; margin-right:-550px;top:76px;background:url(https://gist.cnu.edu.cn/images/search_03.jpg) no-repeat left center; z-index:1000; }
+.search input{position:absolute; width:166px;height:30px;line-height:30px; color:#323232; border:none; background:none; left:0px; top:0px;  padding:0px; margin:0px;}
+.search input.notxt{color:#3f3f3c; padding-left:12px;}	
+.search input.notxt1 {position:absolute;width:36px;height:30px;left:178px;}
+
+
+
+
+
+.nav{height:47px;z-index:888; border-top: 1px solid #1a365e;}
+.nav ul { width:1100px; margin:0 auto; height: 46px; line-height: 46px;}
+.nav ul li{float:left;padding:0px 36px; position:relative;}
+.nav ul li a{text-align:center;font-size:16px; text-align:center; color: #ffffff;}
+.nav ul li a:hover{font-weight:bold}
+.nav ul li .subNav { font-size:16px;display:none; position:absolute; left:0; top:47px; text-align:center; z-index:9999;background-color:#001f4c; width:150px;}
+.nav ul li.on {}
+.nav ul li.on a{font-weight:bold}
+.nav ul li.on .subNav { display:block;}
+.nav ul li.on .subNav dl{overflow:hidden;}
+.nav ul li.on .subNav dl dd{ line-height:20px; height:auto; text-align:left; padding: 0 36px 5px;}
+.nav ul li.on .subNav dl dd a{ font-size:14px; line-height:20px; border-top:none; text-align:center; font-weight:normal; height:auto;font-family:'Microsoft YaHei'; padding-left:0px; color: #ffffff;}
+.nav ul li.on .subNav dl dd a:hover{ font-weight:bolder;}
+
+
+
+
+
+.content{ width:1000px; margin:0px auto; background:#fff; overflow:hidden;}
+.Banner{width:100%; height:auto; margin:0 auto;}
+
+/*图片轮播*/
+.flexslider{ width:100%; height: 100%;  overflow: hidden;}
+.flexslider ul.slides li img{ width:100%; height:auto; display:block}
+.flexslider .til_slides{ width:1100px; height: 51px; position: absolute;bottom:0; left:50%; margin:0 0 0 -550px; line-height: 51px; background: url(https://gist.cnu.edu.cn/images/slider_12.png) repeat-x; color:#fff; text-align: center; font-size: 16px; font-family: "微软雅黑"; }
+.flex-control-nav{ bottom:7px; text-align: right;}
+.flex-control-paging li{ margin:0 10px 0 0;}
+.flex-control-paging li a{ width: 8px; height: 8px; line-height: 8px; border-radius: 0; background: #fff;text-indent:999px;}
+.flex-control-paging li a:hover,.flex-control-paging li a.flex-active{ background: #0076cd; color:#fff;}
+.flex-control-nav { display: none; }
+.flex-direction-nav .flex-prev { width: 30px; height: 30px; background: url(https://gist.cnu.edu.cn/images/left_button_03.png) no-repeat;  }
+.flex-direction-nav .flex-next { width: 30px; height: 30px; background: url(https://gist.cnu.edu.cn/images/right_button_12.png) no-repeat;  }
+.flexslider:hover .flex-prev { opacity: 0.7; top: 50%; left: 50%; margin:-15px 0 0 -550px;}
+.flexslider:hover .flex-next { opacity: 0.7; top: 50%; right:50%; margin:-15px -550px 0 0;}
+
+
+
+.content { width: 1100px; height: auto; margin:24px auto 0; }
+.mode01 {width: 1100px;  height: 284px; }
+.mode01 .lf { width: 540px; height: 284px; float: left; }
+.mode01 .rt { width: 540px; height: 284px; float: right; }
+.mode02 {width: 1100px;  height: 284px; }
+.mode02 .lf { width: 540px; height: 284px; float: left; }
+.mode02 .rt { width: 540px; height: 284px; float: right; }
+
+.articleList .article_title { height: 36px; line-height: 36px; background: #1d4c90; }
+.articleList .article_title h2 { font-size: 18px; font-family: "微软雅黑"; color: #ffffff; width: auto; float: left; padding:0 0 0 15px; font-weight: normal; }
+.articleList .article_title h2 span { font-size: 16px; font-family: "微软雅黑"; color: #bfbfbf; }
+.articleList .article_title a { font-family: Arial; font-size: 12px; color: #ffffff; float: right; padding:0 7px 0 0; }
+.articleList ul { padding: 15px 0 0 0; }
+.articleList ul li { padding: 0 0 0 17px; background: url(https://gist.cnu.edu.cn/images/arrow_right_12.png) no-repeat 1px center; }
+.articleList ul li a { font-size: 14px; font-family: "微软雅黑"; }
+.articleList ul li span { font-size: 14px; font-family: "微软雅黑"; color: #5c5c5c; }
+
+
+
+
+
+
+
+
+
+.articleList01 .article_title { height: 36px; line-height: 36px; background: #1d4c90;  }
+.articleList01 .article_title ul li { float:left; }
+.articleList01 .article_title ul li span {  font-size: 16px; font-family: "微软雅黑"; color: #bfbfbf;  } 
+.articleList01 .article_title h2 { font-size: 18px; font-family: "微软雅黑"; color: #ffffff; width: auto; float: left; padding:0 15px 0 15px; font-weight: normal; cursor:pointer; }
+.articleList01 .article_title h2.myh2 {  font-size: 16px; font-family: "微软雅黑"; color: #bfbfbf; background:url(https://gist.cnu.edu.cn/images/tab_03.png) no-repeat left center; }
+.articleList01 .article_title a { font-family: Arial; font-size: 12px; color: #ffffff; float: right; padding:0 7px 0 0; }
+.articleList01 ul { padding: 15px 0 0 0; }
+.articleList01 ul li { height:30px; line-height:30px; padding: 0 0 0 17px; background: url(https://gist.cnu.edu.cn/images/arrow_right_12.png) no-repeat 1px center; }
+.articleList01 ul li a { font-size: 14px; font-family: "微软雅黑"; float:left; }
+.articleList01 ul li span { font-size: 14px; font-family: "微软雅黑"; color: #5c5c5c; float:right; }
+
+
+
+
+
+/*底部开始*/
+/*0626*/
+.footer{ background-color:#052758;color:#fff;}
+.friendLink { width: 1100px; height: auto; margin:0 auto; padding:15px 0; line-height: 24px; border-bottom: 1px solid #2a4771; overflow: hidden;}
+.friendLink h2 { font-size: 18px; font-family: "微软雅黑"; color: #ffffff; width: auto; float: left; padding:0 4px; height:53px;}
+.friendLink h2 a { color: #ffffff; font-weight: normal; }
+.friendLink ul { padding: 0 0 0 12px; }
+.friendLink ul li { width: 184px; float: left; padding:0 10px; }
+.friendLink ul li a { font-size: 14px; font-family: "微软雅黑"; color: #ffffff; }
+.friendLink ul li a:hover { font-weight: bold; }
+.copyRight{width:1100px; margin:0 auto;text-align:center; padding:10px 0; line-height:24px; font-family:"微软雅黑";}
+
+
+
+/*二级页*/
+.subPage{ width:1100px; margin:0px auto 0;}
+.pageBanner { width:1100px; height: 300px; margin:0px auto 0;}
+.pageBanner img { width: 1100px; height: 300px; }
+.Bread{height:39px; line-height:39px; border-bottom:1px solid #e3e3e3;  font-size:13px; color: #1d4c90; width: 1100px; margin: 0 auto; }
+.Bread a{color:#1d4c90;}
+.articleList2{}
+.articleList2 ul li { background: url(https://gist.cnu.edu.cn/images/circle.png) no-repeat 5px center; padding:0 0 0 18px; height:30px; line-height:30px; border-bottom: 1px dashed #f4f4f4;}
+.articleList2 ul li a { float: left; line-height: 30px; }
+.articleList2 ul li span { float: right; line-height: 30px; }
+.listTitle2{ padding-left:0px; background:none;}
+.listTitle2 h2{ padding:0px; background: no-repeat;} 
+.listTitle2 h2 a{color: #1d4c90; font-size: 16px; font-weight: bold; line-height:33px; padding:0px; margin:5px 0px;}
+.subPage .articleList2{ margin:10px auto 20px; width: 1100px;}
+ 
+.page{ width:100%; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px;}
+.page a{ padding:0 5px;}
+
+.pageList{ padding-bottom: 30px; overflow: hidden;}
+.articleTitle { width: 100%;text-align: center;}
+.articleTitle h2{font-size: 18px; color:#1d4c90; line-height: 20px; padding:10px 0;}
+.articleTitle h3{ font-size: 14px; color: #555; line-height: 20px; padding:10px 0; font-weight: bold;}
+.articleAuthor { height: 30px;text-align: center; line-height: 30px; margin: 10px;background: #f5f5f5; color:#777; }
+.article{overflow:hidden; margin:20px 40px;font-size:12px; line-height:38px;}
+.Annex {padding:0px; overflow:hidden; margin-bottom:30px;}
+.Annex h3 { font-size: 16px;line-height: 30px; color:#1d4c90; padding-left:5px;}
+.Annex ul li { height: 26px; line-height: 26px;background:url(https://gist.cnu.edu.cn/images/circle.png) no-repeat 10px center; padding-left: 28px;}
+.Annex ul li a { font-size: 12px; line-height: 24px; color:#656464;}
+.Annex ul li a:hover{ color:#1d4c90;}
+
+
+
+
+
+
+/*左右级页面*/
+.con{width: 1100px; overflow: hidden; margin: 20px auto 5px;}
+.con .conLeft{width: 240px;  float: left; background:#f9f9f9; border:1px solid #1d4c90;}
+.con .conLeft .title{width:240px; height: 40px; line-height: 40px; text-align:left; }
+.con .conLeft .title h2{font-size: 16px; color: #fff; background: #1d4c90; padding: 0 0 0 35px;}
+.con .conLeft ul li{font-size: 14px; text-align: center;  }
+.con .conLeft ul li a{font-size: 14px; padding:15px 20px 15px 35px; text-align: left; border-bottom:1px solid #ccc; display:block; }
+.con .conLeft ul li a:hover{font-weight: bold; border-bottom:2px solid #1d4c90; background:url(https://gist.cnu.edu.cn/images/arrow_right_12.png) no-repeat 227px center;}
+.con .conLeft ul .current a{font-weight: bold; border-bottom:2px solid #1d4c90; color:#1d4c90; background:url(https://gist.cnu.edu.cn/images/arrow_right_12.png) no-repeat 227px center;}
+.con .conRight{ width: 830px; padding: 0 5px;  float: right;}
+.con .conRight .articleList2{width: auto;}
+.con .conRight .Bread{width: auto;}
+.con .conRight .page{ width:auto; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both; margin:20px 0px 30px;}
+.con .conRight .page a{ padding:0 5px;}
+.con .conRight .subPage{ width:auto; margin:0px auto;}
+.pictureList2{width: auto; overflow: hidden; margin: 10px 0 0 0;}
+.pictureList2 ul{width: auto; overflow: hidden; padding: 15px 0 0 0px;}
+.pictureList2 ul li{float: left; width: 180px; height: 150px; margin: 0 27px 0 0; text-align: center;}
+.pictureList2 ul li img {  width: 180px; height: 121px; }
+.TlpictureList2{width: 1100px; overflow: hidden; margin: 0 auto;}
+.TlpictureList2 ul{width:1300px; overflow: hidden; padding:15px 0 0 15px;}
+.TlpictureList2 ul li{float: left; width: 190px; height: 160px; margin: 0 27px 0 0; text-align: center;}
+.TlpictureList2 ul li img { width: 190px; height: 129px; }
+
+
+
+
+/*图片展示*/
+/*图片展示开始*/
+/*图片展示开始*/
+.img_news_con{ width:100%; overflow:hidden; padding:0 0 20px 0;}
+.img_news_con h3{padding:20px 0 20px;  text-align:center; color: #1d4c90; font-size:16px; font-family:"微软雅黑"; font-weight:normal;}
+.imgs_scroll{position:relative; padding:0 0 0 85px;}
+.imgs_scroll .btn_l,.imgs_scroll .btn_r{ position:absolute; width:434px; height:580px; top:0; /*z-index:1000; filter:alpha(opacity:0); opacity: 0;*/ }
+.imgs_scroll .btn_l{left:62px; }
+.imgs_scroll .btn_r{right:69px;}
+.imgs_scroll .prev,.imgs_scroll .next { position:absolute; display:block; width:70px; top:40%; margin:-22px 0 0 0; text-align:center; cursor:pointer; z-index:90; display:none;}
+.imgs_scroll .prev{ left:130px;}
+.imgs_scroll .next{right:160px;}
+.imgs_news_list{width:910px;  position:relative; overflow:hidden;}
+.imgs_news_list ul{width:9999px;}
+.imgs_news_list ul li{float:left; display:inline; width:910px; /*margin-right:10px;*/  /*text-align:center;*/}
+.imgs_news_list ul li .txt2{ width:910px; float:left; line-height:20px; text-indent:2em; /*padding-top:27px;*/ text-align:left; font-family:"微软雅黑";}
+/*图片展示结束*/
+/*图片展示结束*/
+
+
+
+
+.pageArticle01 { width: 1100px; margin: 0 auto; }
+.PictureShow { width: 1100px; margin: 0 auto; }
+.newPage h2{ float:left;}
+.newPage a{ float:right;}
+.newPageArticle .art{ font-size:14px; line-height:30px; color:#4a4b4a; }
+.newPageList ul {margin:10px 0 0 0;}
+.newPage .more {}
+.newPageList01 ul li{border:none; width:auto; margin:0 40px 0 0; float:left;}
+
+
+
+
+
+
+.teacher .teacher_con{ padding:10px 0; border-bottom: 1px solid #cccccc; }
+.teacher .teacher_con .teacher_title { height: 36px; line-height: 36px; }
+.teacher .teacher_con .teacher_title h3 a { font-size: 15px; font-family: "微软雅黑"; color: #1d4c90; }
+.teacher .teacher_con ul { overflow: hidden; }
+/*0626*/
+.teacher .teacher_con ul li { float: left; padding-right:20px; *padding-right:25px;}

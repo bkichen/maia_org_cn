@@ -1,0 +1,421 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>首页_南航金城学院教务处_南京财经大学教务处_南京艺术学院生命科学学院</title>
+<link href="css/style15.css" rel="stylesheet" type="text/css">
+
+<style type="text/css" media="all">
+.d1{width:260px;height:auto;overflow:hidden;background-color:#000000;position:relative;}
+.loading{width:260px;background-color:#000000;color:#FFCC00;font-size:12px;height:179px;text-align:center;padding-top:30px;font-family:Verdana, Arial, Helvetica, sans-serif;font-weight:bold;}
+.d2{width:100%;height:210px;overflow:hidden;}
+.num_list{position:absolute;width:100%;left:0px;bottom:-1px;background-color:#ffffff; filter: Alpha(Opacity=30);color:#000000;font-size:12px;padding:4px 0px;height:20px;overflow:hidden;}
+.num_list span{display:inline-block;height:16px;padding-left:6px;}
+img{border:0px;}
+#fade_focus ul{display:none;}
+.button{position:absolute; z-index:1000; right:0px; top:188px; font-size:13px; font-weight:bold; font-family:Arial, Helvetica, sans-serif;}
+.b1,.b2{background-color:#f2f2f2;display:block;float:left;padding:2px 6px; margin-right:3px;color:#000000;text-decoration:none;cursor:pointer;}
+.b2{color:#ffffff;background-color:#419021;}
+</style>
+
+<script language="javascript" type="text/javascript">
+//主函数
+var s=function(){
+var interv=2000; //切换间隔时间
+var interv2=10; //切换速速
+var opac1=80; //文字背景的透明度
+var source="fade_focus" //焦点轮换图片容器的id名称
+//获取对象
+function getTag(tag,obj){if(obj==null){return document.getElementsByTagName(tag)}else{return obj.getElementsByTagName(tag)}}
+function getid(id){return document.getElementById(id)};
+var opac=0,j=0,t=63,num,scton=0,timer,timer2,timer3;var id=getid(source);id.removeChild(getTag("div",id)[0]);var li=getTag("li",id);var div=document.createElement("div");var title=document.createElement("div");var span=document.createElement("span");var button=document.createElement("div");button.className="button";for(var i=0;i<li.length;i++){var a=document.createElement("a");a.innerHTML=i+1;a.onclick=function(){clearTimeout(timer);clearTimeout(timer2);clearTimeout(timer3);j=parseInt(this.innerHTML)-1;scton=0;t=63;opac=0;fadeon();};a.className="b1";a.onmouseover=function(){this.className="b2"};a.onmouseout=function(){this.className="b1";sc(j)};button.appendChild(a);}
+//控制图层透明度
+function alpha(obj,n){if(document.all){obj.style.filter="alpha(opacity="+n+")";}else{obj.style.opacity=(n/100);}}
+//控制焦点按钮
+function sc(n){for(var i=0;i<li.length;i++){button.childNodes[i].className="b1"};button.childNodes[n].className="b2";}
+title.className="num_list";title.appendChild(span);alpha(title,opac1);id.className="d1";div.className="d2";id.appendChild(div);id.appendChild(title);id.appendChild(button);
+//渐显
+var fadeon=function(){opac+=5;div.innerHTML=li[j].innerHTML;span.innerHTML=getTag("img",li[j])[0].alt;alpha(div,opac);if(scton==0){sc(j);num=-2;scrolltxt();scton=1};if(opac<100){timer=setTimeout(fadeon,interv2)}else{timer2=setTimeout(fadeout,interv);};}
+//渐隐
+var fadeout=function(){opac-=5;div.innerHTML=li[j].innerHTML;alpha(div,opac);if(scton==0){num=2;scrolltxt();scton=1};if(opac>0){timer=setTimeout(fadeout,interv2)}else{if(j<li.length-1){j++}else{j=0};fadeon()};}
+//滚动文字
+var scrolltxt=function(){t+=num;span.style.marginTop=t+"px";if(num<0 && t>3){timer3=setTimeout(scrolltxt,interv2)}else if(num>0 && t<62){timer3=setTimeout(scrolltxt,interv2)}else{scton=0}};
+fadeon();
+}
+//初始化
+window.onload=s;
+</script>
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+<body>
+
+
+
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+<div id="wrap">
+
+
+<div class="header">
+    <div class="banner"><img src="images/banner1.jpg" width="1000" height="159" usemap="#Map">
+      <map name="Map" id="Map">
+        <area shape="rect" coords="838,8,895,28" href="http://life.cnu.edu.cn/" onclick="this.style.behavior='url(https://smkxxy.cnu.edu.cn/#default)';this.setHomePage('http://life.cnu.edu.cn/');return(false);" style="behavior: url(https://smkxxy.cnu.edu.cn/#default)">
+        <area shape="rect" coords="907,8,964,28" href="#">
+      </map>
+    </div>
+    <div id="nav">
+      <ul>
+        <li style="background:none;"><a href="javascript:;">首 页</a></li>
+		        <li>
+								<a href="javascript:;">院庆六十周年</a>
+					</li>
+                <li>
+								<a href="javascript:;">学院概况</a>
+					</li>
+                <li>
+								<a href="javascript:;">师资力量</a>
+					</li>
+                <li>
+								<a href="javascript:;">人才培养</a>
+					</li>
+                <li>
+								<a href="javascript:;">学科与实验室建设</a>
+					</li>
+                <li>
+		<a href="javascript:;">北京市实验教学示范中心</a>
+				</li>
+                <li>
+								<a href="javascript:;">科学研究</a>
+					</li>
+                <li>
+								<a href="javascript:;">学生园地</a>
+					</li>
+                <li>
+								<a href="javascript:;">党建工作</a>
+					</li>
+                <li class="time">今天是
+          <script type="text/javascript" language="javascript" src="js/today.js"></script>
+        </li>
+      </ul>
+    </div>
+  </div>  <div class="main">
+    <div class="con01_left">
+      <div class="news_flash">
+        <div id="fade_focus">
+          <div class="loading">Loading...<br>
+            <img src="images/init.gif" width="100" height="100"></div>
+          <ul>
+		               <li><a href="javascript:;" target="_blank"><img src="images/content/2018-11/20181120132904467456.jpg" width="260" height="210" alt="            诺贝尔奖获得者保罗 莫德... 
+    "></a></li>
+                        <li><a href="javascript:;" target="_blank"><img src="images/content/2018-09/20180911145637111199.jpg" width="260" height="210" alt="            生命科学学院举行2018... 
+    "></a></li>
+                        <li><a href="javascript:;" target="_blank"><img src="images/content/2018-05/20180504194917678916.jpg" width="260" height="210" alt="            生命科学学院硕士研究生陈... 
+    "></a></li>
+                        <li><a href="javascript:;" target="_blank"><img src="images/content/2018-05/20180504193819425282.jpg" width="260" height="210" alt="            校团委张琪书记考察生科院... 
+    "></a></li>
+                      </ul>
+        </div>
+      </div>
+	  
+      <div class="links">
+        <div class="l_title">
+          <h1 style="font-size:15px;">站内搜索</h1>
+        </div>
+        <div class="l_list">
+          <div class="ser">
+            <form name="dataForm" action="/cms/search/searchResults.jsp" class="search" target="_blank" method="post">
+              <input name="siteID" size="4" value="31" type="hidden">
+              <input name="query" type="text" class="notxt" value="站内检索" onblur="if(this.value=='') {this.value='站内检索';this.form.keywords.style.color='#D8D8D8'}" onclick="if(this.value=='站内检索'){this.value='';this.form.keywords.style.color='#000'}">
+              <button type="submit"></button>
+            </form>
+            <!--搜索-->
+          </div>
+        </div>
+      </div>
+      <div class="links02">
+        <div class="l_title">
+          <h1>相关链接</h1>
+        </div>
+        <div class="l02_list">
+          <ul>
+		              <li><a href="javascript:;">虚拟仿真实验教学平台</a></li>
+                      <li><a href="javascript:;">2018年生命奇趣探索系列课程报名网址</a></li>
+                      <li><a href="javascript:;">校庆六十周年生科院毕业纪念册</a></li>
+                      <li><a href="javascript:;">实验室仪器使用预约系统</a></li>
+                    </ul>
+        </div>
+      </div>
+      <div class="links02" style="height:122px;">
+        <div class="l_title">
+          <h1>友情链接</h1>
+        </div>
+        <div class="l02_list" style="height:94px;">
+          <script language="javascript" type="text/javascript"> 
+				function location1(s)
+                {   var d = s.options[s.selectedIndex].value;
+					window.open(d);
+					s.selectedIndex=0;
+                }
+				function location2(s)
+                {  
+						var d = s.options[s.selectedIndex].value;
+						s.selectedIndex=0;
+				        window.top.location.href = d;                        
+                }
+		</script>
+
+          <select name="m1" onchange="location1(this)" id="Select1">
+            <option selected="selected">校内友情链接</option>
+			          	<option value="http://ky.cnu.edu.cn/business/website/mainPageIndex.do">南航金城学院教务处_南京财经大学教务处_南京艺术学院科技处</option>
+                     	<option value="http://www.cnu.edu.cn/">南航金城学院教务处_南京财经大学教务处_南京艺术学院</option>
+                     </select>
+          <select name="m2" onchange="location1(this)" id="Select2">
+            <option selected="selected">相关生物机构</option>
+			          <option value="http://www.ibcas.ac.cn/">中国科学院植物研究所</option>
+                     <option value="http://www.im.cas.cn/">中国科学院微生物研究所</option>
+                     <option value="http://cbs.cau.edu.cn/">中国农业大学生物学院</option>
+                     </select>
+   
+        </div>
+      </div>
+    </div>
+    <div class="con01_right">
+      <div class="right_top">
+        <div class="top01">
+          <div class="news">
+            <div class="new_title">
+              <h1 style="font-size:15px;">学院新闻</h1>
+              <a href="javascript:;"><img src="images/more.gif" width="35" height="12"></a></div>
+            <div class="new_list">
+              <ul>
+			                    <li><span>2019-09-24</span><a href="javascript:void(0);" title="生科院博士生赵志鹏在顶级综合性刊物《National Science Review》上发表研究成果" onclick="checkXnwk('xyxw/164685.htm','xw');">            生科院博士生赵志鹏在顶级综合性刊物《National ... 
+    </a></li>
+                               <li><span>2019-09-24</span><a href="javascript:void(0);" title="国际著名出版社WileyBlackwell首次出版我校教师完成的英文专著" onclick="checkXnwk('xyxw/164675.htm','xw');">            国际著名出版社WileyBlackwell首次出版我校... 
+    </a></li>
+                               <li><span>2018-11-29</span><a href="javascript:void(0);" title="生命科学学院张少兵教授获批国家自然科学基金重大研究计划项目" onclick="checkXnwk('xyxw/151334.htm','xw');">            生命科学学院张少兵教授获批国家自然科学基金重大研究计划... 
+    </a></li>
+                               <li><span>2018-11-20</span><a href="javascript:void(0);" title="诺贝尔奖获得者保罗 莫德里奇教授到生科院做讲座" onclick="checkXnwk('xyxw/150722.htm','$article.belongUser');">            诺贝尔奖获得者保罗 莫德里奇教授到生科院做讲座 
+    </a></li>
+                               <li><span>2018-09-25</span><a href="javascript:void(0);" title="生命科学学院隆重召开市级生物学竞赛颁奖典礼" onclick="checkXnwk('xyxw/147140.htm','xw');">            生命科学学院隆重召开市级生物学竞赛颁奖典礼 
+    </a></li>
+                               <li><span>2018-09-11</span><a href="javascript:void(0);" title="生命科学学院举行2018级新生开学典礼" onclick="checkXnwk('xyxw/146440.htm','xw');">            生命科学学院举行2018级新生开学典礼 
+    </a></li>
+                             </ul>
+            </div>
+          </div>
+          <div class="notice">
+            <div class="n_title">
+              <h1 style="font-size:15px;">通知公告</h1>
+              <a href="javascript:;"><img src="images/more.gif" width="35" height="12"></a></div>
+            <div class="n_list">
+              <ul>
+			                    <li><a href="javascript:void(0);" title="生命科学学院诚聘优秀青年科学家和高层次学者" onclick="checkXnwk('tzgg/91041.htm','xw');">            生命科学学院诚聘优秀青年科学家和高层... 
+    </a></li>
+                             <li><a href="javascript:void(0);" title="生命科学学院2020-2021学年度“五四表彰”结果公示" onclick="checkXnwk('tzgg/189185.htm','xw');">            生命科学学院2020-2021学年度... 
+    </a></li>
+                             <li><a href="javascript:void(0);" title="生命科学学院2021年度硕士模拟复试和正式复试时间安排" onclick="checkXnwk('tzgg/187850.htm','xw');">            生命科学学院2021年度硕士模拟复试... 
+    </a></li>
+                             <li><a href="javascript:void(0);" title="关于2019级、2020级本科生转专业工作安排的通知" onclick="checkXnwk('tzgg/189054.htm','xw');">            关于2019级、2020级本科生转专... 
+    </a></li>
+                             <li><a href="javascript:void(0);" title="关于进一步做好期末及节假日学院安全稳定工作的通知" onclick="checkXnwk('tzgg/184116.htm','xn');">            关于进一步做好期末及节假日学院安全稳... 
+    </a></li>
+                             <li><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院生命科学学院2021届学生推免名单公示" onclick="checkXnwk('tzgg/178402.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院生命科学学院2021届学... 
+    </a></li>
+                           </ul>
+            </div>
+          </div>
+        </div>
+        <div class="bot01">
+          <div class="b_title">
+            <h1 style="font-size:15px;">学术活动</h1>
+            <a href="javascript:;"><img src="images/more.gif" width="35" height="12"></a></div>
+          <div class="b_list">
+            <ul>
+			                <li><span>2020-12-29</span><a href="javascript:void(0);" title="机械力感受：从分子机制到动物行为" onclick="checkXnwk('xshd/184368.htm','xw');">            机械力感受：从分子机制到动物行为 
+     </a></li>
+                          <li><span>2020-10-23</span><a href="javascript:void(0);" title="从大数据到生物信息学" onclick="checkXnwk('xshd/179481.htm','xw');">            从大数据到生物信息学 
+     </a></li>
+                          <li><span>2020-10-16</span><a href="javascript:void(0);" title="蛋白质合成调控的演化机制和规律" onclick="checkXnwk('xshd/179139.htm','xw');">            蛋白质合成调控的演化机制和规律 
+     </a></li>
+                          <li><span>2019-12-18</span><a href="javascript:void(0);" title="12月19日青年学者生物学论坛" onclick="checkXnwk('xshd/170457.htm','xw');">            12月19日青年学者生物学论坛 
+     </a></li>
+                          <li><span>2019-11-07</span><a href="javascript:void(0);" title="11月20日青年学者生物学论坛" onclick="checkXnwk('xshd/167943.htm','xw');">            11月20日青年学者生物学论坛 
+     </a></li>
+                        </ul>
+          </div>
+        </div>
+        <div class="bot01" style="float:right;">
+			  <div class="b_title">
+				<h1 style="font-size:15px;">学生工作</h1>
+				<a href="javascript:;"><img src="images/more.gif" width="35" height="12"></a></div>
+				  <div class="b_list">
+						<ul>
+						  						  <li><span>2021-03-21</span><a href="javascript:void(0);" title="生命科学学院召开“百年党史·百日追溯”启动大会" onclick="checkXnwk('xsgz/188013.htm','xw');">            生命科学学院召开“百年党史·百日追溯... 
+     </a></li>
+												  <li><span>2020-11-19</span><a href="javascript:void(0);" title="生命科学学院本科生获得全国大学生生命科学竞赛一等奖" onclick="checkXnwk('xsgz/187986.htm','xw');">            生命科学学院本科生获得全国大学生生命... 
+     </a></li>
+												  <li><span>2018-05-04</span><a href="javascript:void(0);" title="校团委张琪书记考察生科院共青团工作并参加五四团日活动" onclick="checkXnwk('xsgz/137027.htm','xw');">            校团委张琪书记考察生科院共青团工作并... 
+     </a></li>
+												  <li><span>2018-05-04</span><a href="javascript:void(0);" title="2018届优秀毕业生公示" onclick="checkXnwk('xsgz/137026.htm','xw');">            2018届优秀毕业生公示 
+     </a></li>
+												  <li><span>2018-04-02</span><a href="javascript:void(0);" title="依托第36届爱鸟周 在中山公园成立科普基地" onclick="checkXnwk('xsgz/132895.htm','$article.belongUser');">            依托第36届爱鸟周 在中山公园成立科... 
+     </a></li>
+												  <li><span>2018-03-16</span><a href="javascript:void(0);" title="聚焦保研学法 生科开启朋辈讲座 首批优学宿舍挂牌" onclick="checkXnwk('xsgz/132003.htm','xw');">            聚焦保研学法 生科开启朋辈讲座 首批... 
+     </a></li>
+												</ul>
+				  </div>
+			</div>
+      </div>
+      <div class="bottom">
+        <div class="tab_d01">
+          <script type="text/javascript">
+						function setTab01Syn ( i )
+						{
+							selectTab01Syn(i);
+						}
+						
+						function selectTab01Syn ( i )
+						{
+							switch(i){
+								case 1:
+								document.getElementById("TabTab01Con1").style.display="block";
+								document.getElementById("TabTab01Con2").style.display="none";
+								document.getElementById("TabTab01Con3").style.display="none";
+								document.getElementById("TabTab01Con4").style.display="none";
+								document.getElementById("TabTab01Con5").style.display="none";
+								document.getElementById("font1").style.color="#ffffff";
+								document.getElementById("font2").style.color="#206100";
+								document.getElementById("font3").style.color="#206100";
+								document.getElementById("font4").style.color="#206100";
+								document.getElementById("font5").style.color="#206100";
+								break;
+								case 2:
+								document.getElementById("TabTab01Con1").style.display="none";
+								document.getElementById("TabTab01Con2").style.display="block"
+								document.getElementById("TabTab01Con3").style.display="none";
+								document.getElementById("TabTab01Con4").style.display="none";
+								document.getElementById("TabTab01Con5").style.display="none";	
+								document.getElementById("font1").style.color="#206100";
+								document.getElementById("font2").style.color="#ffffff";
+								document.getElementById("font3").style.color="#206100";
+								document.getElementById("font4").style.color="#206100";
+								document.getElementById("font5").style.color="#206100";
+								break;
+								case 3:
+								document.getElementById("TabTab01Con1").style.display="none";
+								document.getElementById("TabTab01Con2").style.display="none";
+								document.getElementById("TabTab01Con3").style.display="block";
+								document.getElementById("TabTab01Con4").style.display="none";
+								document.getElementById("TabTab01Con5").style.display="none";
+								document.getElementById("font1").style.color="#206100";
+								document.getElementById("font2").style.color="#206100";
+								document.getElementById("font3").style.color="#ffffff";
+								document.getElementById("font4").style.color="#206100";
+								document.getElementById("font5").style.color="#206100";
+								
+								break;
+								
+								case 4:
+									document.getElementById("TabTab01Con1").style.display="none";
+								document.getElementById("TabTab01Con2").style.display="none";
+								document.getElementById("TabTab01Con3").style.display="none";
+								document.getElementById("TabTab01Con4").style.display="block";
+								document.getElementById("TabTab01Con5").style.display="none";
+								document.getElementById("font1").style.color="#206100";
+								document.getElementById("font2").style.color="#206100";
+								document.getElementById("font3").style.color="#206100";
+								document.getElementById("font4").style.color="#ffffff";
+								document.getElementById("font5").style.color="#206100";
+								break;
+								case 5:
+									document.getElementById("TabTab01Con1").style.display="none";
+								document.getElementById("TabTab01Con2").style.display="none";
+								document.getElementById("TabTab01Con3").style.display="none";
+								document.getElementById("TabTab01Con4").style.display="none";
+								document.getElementById("TabTab01Con5").style.display="block";
+								document.getElementById("font1").style.color="#206100";
+								document.getElementById("font2").style.color="#206100";
+								document.getElementById("font3").style.color="#206100";
+								document.getElementById("font4").style.color="#206100";
+								document.getElementById("font5").style.color="#ffffff";
+								break;
+								
+							}
+						}
+					
+					</script>
+          <div class="tab">
+     
+	 
+	        <div class="bot01" style="width:728px;height:35px;line-height:33px;background-image: url(images/z01.jpg);cursor:pointer;position:relative;">
+			  <div class="b_title" style="width:728px;">
+				<h1 style="font-size:15px;">科研论文</h1>
+				<a href="javascript:;"><img src="images/more.gif" width="35" height="12"></a></div>
+				  <div class="b_list" style="width:728px;height:262px;">
+			  <ul>				   
+							   									<li style="height:auto;">Integrated Proteome Analysis of the Wheat Embryo and Endosperm Reveals Central Metabolic Changes Involved in the Water Deficit Response during Grain Development. 
+																			<a href="javascript:;" target="_blank">【全文下载】</a>
+																											</li>                  
+									 									<li style="height:auto;">Zhu, Min, Hongchang Zhao, and Xingzhi Xu. "BCL10 is a novel DNA damage response factor whose expression inversely correlates with the clinical outcome of breast invasive ductal carcinoma." (2015): 3015-3015.CANCER RESEARCH,（IF=15.605）
+																		【全文下载】
+																		</li>                  
+									 									<li style="height:auto;">生科院近5年代表性科研论文（SCI IF>5.0）
+																			<a href="javascript:;" target="_blank">【全文下载】</a>
+																											</li>                  
+									 								  </ul>
+				  </div>
+			</div>
+      </div>
+	 
+	 
+		 
+ 
+       
+        
+          </div>
+          <!--     tab切换end   -->
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ <div class="footer">版权所有：南航金城学院教务处_南京财经大学教务处_南京艺术学院生命科学学院<br>地址：北京市西三环北路105号    邮政编码：100048 <a href="javascript:;" style="color:#000">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号 
+
+        </div>
+<script src="cms/web/writeLog-3576.js"></script>
+
+
+
+</body></html>

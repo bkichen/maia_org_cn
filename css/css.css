@@ -1,0 +1,66 @@
+BODY {
+	FONT-SIZE: 9pt
+}
+TD {
+	FONT-SIZE: 9pt
+}
+BR {
+	FONT-SIZE: 9pt
+}
+A:link {
+	COLOR: #206575; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #206575; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #206575; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #206575; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A.dh_link:link {
+	COLOR: #ffffff; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A.dh_link:hover {
+	COLOR: #ffffff; FONT-SIZE: 9pt; TEXT-DECORATION: underline
+}
+A.dh_link:active {
+	COLOR: #ffffff; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+A.dh_link:visited {
+	COLOR: #ffffff; FONT-SIZE: 9pt; TEXT-DECORATION: none
+}
+.body_bj {
+	BACKGROUND-IMAGE: url(../images/body_bj.jpg); BACKGROUND-REPEAT: repeat-x; BACKGROUND-POSITION: left top
+}
+.input_text {
+	BORDER-BOTTOM: #d2d2d2 1pt solid; BORDER-LEFT: #d2d2d2 1pt solid; WIDTH: 160px; HEIGHT: 18px; FONT-SIZE: 9pt; BORDER-TOP: #d2d2d2 1pt solid; BORDER-RIGHT: #d2d2d2 1pt solid
+}
+.input_line {
+	BORDER-BOTTOM: #d2d2d2 1pt solid; BORDER-LEFT: #d2d2d2 1pt solid; WIDTH: 115px; HEIGHT: 18px; FONT-SIZE: 9pt; BORDER-TOP: #d2d2d2 1pt solid; BORDER-RIGHT: #d2d2d2 1pt solid
+}
+.but {
+	BACKGROUND-IMAGE: url(../images/ss1.jpg); BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; WIDTH: 70px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 19px; BORDER-TOP: 1px; BORDER-RIGHT: 1px
+}
+.but1 {
+	BACKGROUND-IMAGE: url(../images/search_more.gif); BORDER-BOTTOM: 1px; BORDER-LEFT: 1px; WIDTH: 80px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 19px; BORDER-TOP: 1px; BORDER-RIGHT: 1px
+}
+.tit_1 {
+	BACKGROUND-IMAGE: url(../images/tit_bj_1.jpg); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; COLOR: #ff9900; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.tit_2 {
+	BACKGROUND-IMAGE: url(../images/tit_bj_2.jpg); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; COLOR: #ff9900; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+.tit_font {
+	TEXT-INDENT: 45px; COLOR: #b70002; FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+.left_dh_bj {
+	BACKGROUND-IMAGE: url(../images/left_dh_bj.jpg); WIDTH: 181px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left top; HEIGHT: 375px; TOP: 0px
+}
+.bottom_font {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #bf0908; COLOR: #ffffff; FONT-SIZE: 9pt
+}
+.news_font {
+	COLOR: #999999; FONT-SIZE: 8pt
+}

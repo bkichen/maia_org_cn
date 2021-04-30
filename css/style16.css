@@ -1,0 +1,410 @@
+
+html{margin:0 auto;}
+/* CSS Document */
+h1,h2,h3,h4,h5,h6,img,p,ul,li,dl,dt,dd,ol,table,tr,form,td,span,input,a,div{ margin:0px; padding:0px; font-style:normal; border:0; font-size:14px;}
+body{ font-family:"微软雅黑"; font-size:12px; margin:0 auto; background:#353c47; color:#000; padding:0px; overflow-x:hidden;margin:0 auto;min-width:1299px;}
+img{ border:0px;border:none;}
+ul,li{ list-style-type:none;}
+a{ text-decoration:none; color:#000;}
+a:hover{ color:#0c3672;}
+h2,h3,h4,h5{ font-family:"微软雅黑"; font-weight:normal;}
+.clear{ clear:both}
+
+.header{ width:100%; min-width:100%; height:194px; margin:0px auto; background-color:#001f4c;}
+.logo{ width:707; height:146px; float:left; margin-left:20px;}
+.top{min-width: 1299px;margin:0 auto;}
+.nav{ width:100%; min-width:100%; margin:0 auto;height:47px; border-top:1px solid #1a365e;}
+#nav { width:103%; float:left;min-width: 1299px;}
+#nav li{position:relative;float:left; z-index:100; }
+#nav li a{display:inline-block;height:47px;line-height:47px;text-align:center;color:#fff;font-size:16px; font-family:"微软雅黑";text-align:center;  padding:0px 42px;}
+#nav li a:hover{color:#fff;background-color:#3277ae;}
+#nav li .sonnav{line-height:40px; font-size:14px;display:none; position:absolute; left:0; top:47px; text-align:left; padding:5px 0px; z-index:999;background-color:#fff; border-top:none; width:182px;}
+#nav li.on {}
+#nav li.on a{color:#fff;background-color:#3277ae;}
+#nav li.on .sonnav{ display:block;}
+#nav li.on .sonnav dl{overflow:hidden;}
+#nav li.on .sonnav dl dd{ line-height:30px; text-align:left; border-bottom:1px solid #dedede; padding-left:30px;}
+#nav li.on .sonnav dl dd a{ color:#3277ae; font-size:14px; line-height:20px; background-image:none;font-family:"微软雅黑";   border-top:none; text-align:left; font-weight:normal; height:auto; padding:5px 0px; background:none}
+#nav li.on .sonnav dl dd a:hover{ color:#fff;}
+#nav li.on .sonnav dl dd:hover{color:#fff; background-color:#3277ae;}
+#nav li.on .sonnav dl dd:hover a{ color:#fff;}
+
+.top_rt{ width:400px; float:right; text-align:right; margin-right:30px; margin-top:25px;}
+.top_rt .link_eng{ width:400px; height:40px; line-height:40px; text-align:right; color:#fff; }
+.top_rt .link_eng a{ color:#fff; margin:0px 10px;}
+.top_rt .link_eng a:hover{ color:#e1eaf8}
+
+.sea_box{ padding-top:15px; width:400px;}
+.sea_box .sea_box_rt{float:right;}
+.search{background:url(https://cret.cnu.edu.cn/images/search_bg.jpg) no-repeat;width:215px;height:30px;position:relative; }
+.search input{position:absolute; width:170px;height:30px;line-height:30px; color:#2f78b0; border:none; background:none; left:0px; top:0px; padding-left:0px; }
+.search input.notxt{color:#2f78b0; padding-left:12px;}	
+.search input.notxt1 {position: absolute;width:40px;height: 30px;top: 0px;left:176px;border: none;cursor: pointer;background: none;cursor:pointer; }
+
+.nav2{ width:400px; height:30px; line-height:30px; margin-top:15px;}
+.nav2 ul li{ width:100px; float:left;}
+.nav2 ul li a{ color:#fff;}
+.nav2 ul li a:hover{ color:#e1eaf8;}
+
+.content{width:100%; min-width:100%; margin:0 auto;}
+#banner{
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+#banner .tupian ul{
+	list-style: none;
+	width: 10000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#banner .tupian{ width:1329px; height:500px; position:relative}
+#banner .tupian ul li{
+	float: left;
+	position:relative;
+}
+#banner .tupian ul li img { height:500px; }
+#banner .tupian  ul li .pic_text{ z-index:999; position:absolute; bottom:40px; width:900px; left:30px; line-height:35px; height:70px;}
+#banner .tupian  ul li .pic_text a h2{ font-size:20px;}
+#banner .tupian  ul li .pic_text a{ color:#fff; }
+#banner .anniu .zuoanniu{
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	background: url(https://cret.cnu.edu.cn/images/carousel-chevron-left-large.png) no-repeat;
+	width: 38px;
+	height: 69px;
+	cursor: pointer;
+}
+#banner .anniu .youanniu{
+	position: absolute;
+	top: 130px;
+	right: 20px;
+	background: url(https://cret.cnu.edu.cn/images/carousel-chevron-rt-large.png) no-repeat;
+	width: 38px;
+	height: 69px;
+	cursor: pointer;
+}
+#banner ul.xiaoyuandianul{
+	float: right;
+	width: 142px;
+	position: absolute;
+	bottom:20px;
+	right: 0px;
+	list-style: none;
+	padding-top: 14px;
+}
+#banner ul.xiaoyuandianul li{
+	float: left;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	background: url(https://cret.cnu.edu.cn/images/icon2.png) no-repeat;
+	cursor: pointer;
+}
+#banner ul.xiaoyuandianul li.cur{
+	background: url(https://cret.cnu.edu.cn/images/icon1.png) no-repeat;
+}
+		
+/*大图轮播*/
+
+.con1{ padding:0px 12px; height:334px; background-color:#e8ded4; border-bottom:1px solid #c3bdb7;}
+.more{  float:right ;font-family:Arial; width:35px; padding-top:2px; }
+.more a{ font-size:12px; color:#fff;}
+.con1_lf{ width:49%; height:300px; float:left; margin-top:20px;}
+.con1_lf h2{ font-size:20px; height:35px; line-height:33px; padding-left:10px;padding-right:10px; background:url(https://cret.cnu.edu.cn/images/list_bg.jpg) no-repeat left bottom; color:#fff; background-color:#0c3672;}
+.con1_lf ul{ height:240px; margin-top:5px;}
+.con1_lf ul li{ height:32px; line-height:32px; clear:both; background:url(https://cret.cnu.edu.cn/images/icon1.jpg) no-repeat 5px center; padding-left:20px;}
+.con1_lf ul li a{ font-family:"微软雅黑";  color:#333333; font-size:14px;}
+.con1_lf ul li a:hover{ color:#15478c;}
+.con1_lf ul li span{ float:right; display:block; font-family:Arial; font-size:12px; width:80px; text-align:center; color:#000; height:30px; font-family:Arial;}
+
+.con1_rt{ float:right}
+.con1_rt h2{ font-size:20px; height:35px; line-height:33px; padding-left:10px;padding-right:10px; background:url(https://cret.cnu.edu.cn/images/list_bg.jpg) no-repeat left bottom; color:#fff; background-color:#0c3672;}
+.con1_rt ul li a{ font-family:"微软雅黑";  color:#333333; font-size:14px;}
+
+
+
+.con2{ background-color:#e0ded9;padding:0px 12px; height:240px;}
+.con2_lf{ width:49%; height:200px; float:left; margin-top:20px;}
+.con2_lf h2{ font-size:20px; height:35px; line-height:33px; padding-left:10px;padding-right:10px; background:url(https://cret.cnu.edu.cn/images/list_bg.jpg) no-repeat left bottom; color:#fff; background-color:#0c3672;}
+.con2_lf ul{ height:180px; margin-top:10px;}
+.con2_lf ul li{ height:30px; line-height:30px; clear:both; background:url(https://cret.cnu.edu.cn/images/icon1.jpg) no-repeat 5px center; padding-left:20px;}
+.con2_lf ul li a{ font-family:"微软雅黑";  color:#333333; font-size:14px;}
+.con2_lf ul li a:hover{ color:#15478c;}
+.con2_lf ul li span{ float:right; display:block; font-family:Arial; font-size:12px; width:80px; text-align:center; color:#000; height:30px; font-family:Arial;}
+.con2_rt{ float:right}
+.con2_rt ul li{ height:30px; line-height:30px; clear:both; background:url(https://cret.cnu.edu.cn/images/icon2.jpg) no-repeat 5px center; padding-left:25px;}
+
+.footer{width:100%; min-width:100%; height:170px; background-color:#052758; margin:0px auto; position:relative; }
+.footer2{ height:50px; padding:30px 0px;}
+.address{ height:50px; line-height:24px; margin-top: 20px\9; color:#fff; font-size:12px; text-align:center; /*margin-top:20px;*/}
+.footer2 .address{ margin:0px;}
+.footer a{ color:#fff; margin-left:10px;}
+.footer a:hover{ text-decoration:underline;}
+
+.link{ height:auto; float:left; color:#fff; *margin-bottom:0px;  margin:0px auto; border-bottom:1px solid #1e3d69; margin-left:12px;}
+.link .main_link{}
+.link h2{ font-size:16px; line-height:53px; color:#fff; font-family:"微软雅黑"; width:80px; float:left; text-align:left}
+.link a{ color:#fff; width: 212px; margin:0px; display:inline-block; font-size: 12px;}
+.link a.one{margin: 20px 10px 5px 0px;}
+.link a.two{margin: 0px 10px 10px 0px;}
+.link a:hover{ color:#fff;}
+.cont_us{/*float:right;*/ display:inline; height:40px; /*line-height:40px; margin-top:14PX;*/text-align:center; margin-right:5px; padding:0px 10px; position:relative;}
+.fx { position:relative; left:0px; top:0px; width:250px; }
+.cont_us a{ color:#fff; display:inline-block; padding:0PX 15PX; margin:0PX;}
+.cont_us a.cont_us_c1{ background-color:#3b5999;}
+.cont_us a.cont_us_c2{ background-color:#187871;}
+.cont_us a.cont_us_c3{ background-color:#18345b; }
+.cont_us a.cont_us_c3{ color:#909090;}
+
+
+.page{ width:1299px; min-width:1299px; margin:0 auto; background-color:#fff; padding:0px 15px; padding-bottom:30px;}
+.page_tit{  height:50px; line-height:50px;}
+.page_tit h2{font-size:20px; color:#670a0a;}
+.menu{ width:280px; float:left; overflow:hidden; background:#f7f7f7;}
+.menu h2{ height:45px; line-height:45px; text-align:left; background-color:#062552; padding-left:30px;color:#fff; font-family: "微软雅黑"; font-size:16px;}
+.menu li{ border-top:1px solid #d9d9d9; line-height:38px; }
+.menu li a{ display:block; height:38px; line-height:38px; padding-left:30px;}
+.menu li a:hover{ background:#d3d3d3;}
+.menu_bg{ padding-top:110px;}
+.zxs_wz{ width:980px; float:right; overflow:hidden;}
+.zxs_tit,.lt_tit{ height:36px;}
+.zxs_tit h2,.lt_tit h2{ height:36px; line-height:36px; color:#062552; font-size:16px; background:url(https://cret.cnu.edu.cn/images/lt_hbg.jpg) no-repeat left center; font-weight:normal; padding-left:0px;}
+.zxs_con{ overflow:hidden; background:#fff;}
+.list_box2{ padding:6px 0; border-bottom:1px dotted #989898; overflow:hidden; margin:0 23px;}
+.list_box2 dl{ border-left:4px  solid #044eb0; overflow:hidden; padding-bottom:20px;}
+.list_box2 dl dt{ float:left; width:122px; overflow:hidden;}
+.list_box2 dl dt h2{ font-size:16px; font-weight:normal; color:#5f6561; padding-left:16px;}
+.list_box2 dl dd{ width:565px; float:left; overflow:hidden;}
+.list_box2 dl dd table{ width:100%; overflow:hidden;}
+.list_box2 dl dd td{ line-height:28px; height:28px;}
+.list_box2 dl dd td a{ width:136px; text-align:center; display:inline-block;line-height:28px; height:28px;}
+.lt_tit{ border-bottom:1px solid #d9d9d9;}
+.breadcrumb { font-family:"宋体"; font-size: 12px; line-height: 36px; color: #686868; height: 36px; padding-right:12px; text-align:right; float:right }
+.lt_tit h2{border:1px solid #d9d9d9; border-bottom:none; padding:0px 15px; position:absolute; background-color:#fff;}
+.lt_list h2{ font-family:"微软雅黑";}
+.list02 { overflow:hidden; margin:0; margin-top:10px; }
+.list2_tit{ padding-left:15px; height:30px; line-height:30px;  width:95%; margin:5px 0px; color:#265787; font-size:16px;}
+.list02 ul li { height: 32px; line-height: 32px; background:url(https://cret.cnu.edu.cn/images/pg_icon1.jpg) no-repeat 5px center; border-bottom:1px dashed #ddd; }
+.list02 ul li a { padding-left: 20px; font-family:"宋体"; font-size: 12px;  line-height:32px;} 
+.list02 ul li span {font-family:Arial; font-size: 12px;color:#333; margin-left:10px;}
+.list_sort{ width:100%; background:#f1f1f1; height:30px; line-height:30px;margin:15px 0px 0px 0px; _margin:15px 0 10px 8px;text-align:center; float:left; *float:none;font-size:12px; color:#333;} 
+.list_sort a{ font-size:12px; color:#333;}
+.rt_tit { width: 100%;text-align: center; padding: 20px 0 0;}
+.rt_tit h1{ font-family: "微软雅黑"; font-size: 16px; color: #961e20; line-height: 32px; font-weight:bold;}
+.rt_tit h2{font-family:"微软雅黑"; font-size: 14px; color: #414141; line-height: 32px; font-weight: bold;}
+.rt_zuozhe {font-family:"宋体"; font-size: 12px; color: #616060;text-align: center; line-height: 30px; padding: 10px 0; }
+.rt_zhengwen {font-family:"微软雅黑"; font-size: 14px; color: #333333; line-height: 26px; text-align: left; overflow:hidden; margin: 0 15px; padding: 15px 0;border-top: 1px dotted #005c33; }
+.rt_fujian {margin: 0 15px; padding: 20px 0 30px 0; overflow:hidden; border-top: 1px dotted #01275a;}
+.rt_fujian h3 { font-size: 16px; font-weight: bolder; font-family: "微软雅黑"; line-height: 40px; color:#961e20; padding:0 0 5px 10px;font-weight:100;}
+.rt_fujian ul li { height: 27px; line-height: 27px; background: url(https://cret.cnu.edu.cn/images/pg_icon1.jpg) no-repeat 15px center; padding-left: 38px;}
+.rt_fujian ul li a { font-family: "微软雅黑"; font-size: 14px; color: #333333; line-height: 24px;}
+.rt_fujian ul li a:hover{ text-decoration: underline;}
+.list_all{ overflow:hidden;}
+.list_all .zxs_con{ padding:0px;}
+.list_all .zxs_con h2{ font-size:16px; font-weight:normal; color:#5f6561; padding-left:16px; height:40px; line-height:40px;}
+
+/*图片页*/
+.list-pic{padding-top:30px;*zoom:1; }
+.list-pic:before,.list-pic:after{display:table;content:"";line-height:0;}
+.list-pic:after{clear:both;}
+.list-pic li{height:166px;line-height:30px;padding:2px;background:none;width:240px;float:left;display:inline;overflow:hidden; }
+.list-pic li a{ display:block; cursor:pointer}
+.list-pic li img{ padding:0; margin:0;}
+.list-pic li span{clear:both;font-size:14px;display:block;width:200px;text-align:center;}
+
+/*通栏图片页*/
+.list-pic2{padding:12px 0px;*zoom:1;margin-top:20px;}
+.list-pic2:before,.pic2:after{display:table;content:"";line-height:0;}
+.list-pic2:after{clear:both;}
+.list-pic2 li{height:166px;line-height:30px;padding:2px;background:none;width:245px;float:left;display:inline;overflow:hidden; }
+.list-pic2 li a{ display:block; cursor:pointer}
+.list-pic2 li img{ padding:0; margin:0;}
+.list-pic2 li span{clear:both;font-size:14px;display:block;width:200px;text-align:center;}
+
+
+/*图片展示页开始*/
+.img_news_con{ width:100%; overflow:hidden;}
+.img_news_con h3{padding:20px 0 20px; heihgt:54px; text-align:center; color:#c66a37; font-size:16px; font-family:"微软雅黑"; font-weight:normal;}
+.imgs_scroll{padding:0px 85px 60px 150px; height:668px; position:relative;}
+.imgs_scroll .btn_l,.imgs_scroll .btn_r{ position:absolute; width:434px; height:580px; top:0; /*z-index:1000; filter:alpha(opacity:0); opacity: 0;*/ }
+.imgs_scroll .btn_l{left:62px; }
+.imgs_scroll .btn_r{right:69px;}
+.imgs_scroll .prev,.imgs_scroll .next { position:absolute; display:block; width:70px; top:239px; text-align:center; cursor:pointer; z-index:90; display:none;}
+.imgs_scroll .prev{ left:102px;}
+.imgs_scroll .next{right:100px;}
+.imgs_news_list{width:1000px; height:668px; position:relative; overflow:hidden;}
+.imgs_news_list ul{width:9999px;}
+.imgs_news_list ul li{float:left; display:inline; width:1000px; margin-right:10px; height:668px;  text-align:center; background:none;}
+.imgs_news_list ul li .txt2{width:868px; float:left; line-height:20px; text-indent:2em; padding-top:27px; text-align:left; font-family:"宋体";}
+/*图片展示页结束*/
+
+.add{height: 45px;line-height: 45px; border-bottom:1px solid #dad9d9; font-size:12px; font-family:"宋体"; color: #323232; margin-top:5px; margin-bottom:15px;}
+.add a{color:#323232;font-family:"宋体";}
+.add a:hover{color:#01275a;}
+
+/*tab start*/
+.tabArticleList .tabListTitle{ overflow:hidden; color: #fff; font-size: 20px; height: 35px; line-height: 33px; background-color:#0c3672;}
+.tabArticleList .tab_menu{ width:100%;}
+.tabArticleList .tab_menu h3{height:30px; line-height:30px; float:left; padding:0px 15px 0px 10px;}
+.tabArticleList .tab_menu h3 a{font-size:20px; color:#bebebe; display:block; text-align:center; font-family:"微软雅黑";}
+.tabArticleList .tab_menu h3:hover,.tabArticleList .tab_menu h3.on{ background: url(https://cret.cnu.edu.cn/images/index_bg.png) no-repeat right center; height:30px; line-height:30px; float:left;}
+.tabArticleList .tab_menu h3:hover a,.tabArticleList .tab_menu h3.on a{font-size:20px; color:#fff; display:block; text-align:center; font-family:"微软雅黑";}
+.tabArticleList .more_tab{ display: none;}
+.tabArticleList .tabListTitle .more{ float:right; margin-right:10px;}
+.tabArticleList .tabListTitle .more a{font-size: 12px;}
+
+.tabArticleList .tabList{ width:100%;}
+.tabArticleList .tabListBox{ display:none;}
+.tabArticleList .tabListBox ul{ height:180px; margin-top:10px;}
+.tabArticleList .tabListBox ul li{ height:30px; line-height:30px; clear:both; background:url(https://cret.cnu.edu.cn/images/icon1.jpg) no-repeat 5px center; padding-left:20px;}
+.tabArticleList .tabListBox ul li a{ font-family:"微软雅黑";  color:#333333; font-size:14px;}
+.tabArticleList .tabListBox ul li a:hover{ color:#15478c;}
+.tabArticleList .tabListBox ul li span{ float:right; display:block; font-family:Arial; font-size:12px; width:80px; text-align:center; color:#000; height:30px; font-family:Arial;}
+
+/*tab end*/
+
+
+
+
+
+
+
+
+/*教师列表页*/
+.teacher{ padding:12px 20px; border-bottom:1px solid #ddd; overflow:hidden; clear:both;}
+.teacher h3{ font-size:16px; color:#062552; height:40px; line-height:40px; clear:both; padding-left:15px; font-family:"微软雅黑"}
+.teacher ul li{ height:32px; width:90px; float: left; line-height:32px; text-align:center; background:none; padding:0;}
+.teacher ul li a{font-size: 14px; color: #333333; font-family: "微软雅黑";}
+.teacher ul li a:hover{ color: #0c3672;}
+.articleList2 .teacher ul li{ background:none;height:30px; line-height:30px; border-bottom:none;}
+
+
+
+
+
+
+
+
+
+/*flexslider start*/
+.flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus  {outline: none;}
+.slides,.flex-control-nav,.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} 
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+.no-js .slides > li:first-child {display: block;}
+
+.flexslider {background: #fff; position: relative; zoom: 1; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-right: 5px; }
+
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a { text-decoration:none; display: block; width: 38px; height: 69px;position: absolute; margin-top: -20px; top: 50%; z-index: 10; overflow: hidden; opacity:1; cursor: pointer; color: rgba(0,0,0,0.8);  background:url(https://cret.cnu.edu.cn/images/arr.png) no-repeat; text-indent:-999em; }
+.flex-direction-nav .flex-prev { left: 20px; background:url(https://cret.cnu.edu.cn/images/carousel-chevron-left-large.png) no-repeat }
+.flex-direction-nav .flex-next { right:20px; background:url(https://cret.cnu.edu.cn/images/carousel-chevron-rt-large.png) no-repeat }
+.flexslider:hover .flex-prev { opacity: 1; left: 20px;}
+.flexslider:hover .flex-next { opacity: 1; right:20px;}
+.flexslider:hover .flex-next:hover,.flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); }
+
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; background:#ddd;}
+.flex-pauseplay a:before { font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:hover { opacity: 1; }
+.flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+.flex-control-nav {width: 100%; position: absolute; bottom: 10px; text-align: center; z-index: 1000;}
+.flex-control-nav li { display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 12px; height: 12px; display: block; background: #fff;cursor: pointer; text-indent: -9999px; border-radius: 6px; }
+.flex-control-paging li a:hover { background: #000; background: rgba(0,0,0,1); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,1); }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; }
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; }
+/*flexslider end*/
+
+
+
+
+/*图片轮播*/
+.flex-control-paging li a:hover,.flex-control-paging li a.flex-active { background: url(https://cret.cnu.edu.cn/images/icon1.png) no-repeat;}
+.flex-control-paging li a {float: left;
+	width: 14px;
+	height: 14px;
+	margin-right: 10px;
+	background: url(https://cret.cnu.edu.cn/images/icon2.png) no-repeat;
+	cursor: pointer;}
+.flex-control-nav li { display: inline-block; zoom: 1; *display: inline; width:14px; height:14px; margin:0 10px 0 0; position:relative;}
+.content .Banner .slides li{ position:relative;}
+.content .Banner .slides li .til_slides{  z-index:9999; position:absolute; bottom:40px; width:900px; left:30px; line-height:35px; height:70px;}
+.content .Banner .slides li .til_slides a{ color:#fff;}
+.content .Banner .slides li .til_slides h2{ font-size:20px;}
+.flex-control-nav {float: right;
+	width: 142px;
+	position: absolute;
+	bottom:20px;
+	right: 0px;
+	list-style: none;
+	padding-top: 14px;}
+.flexslider .slides img{ width:100%; height:500px;}
+
+
+
+
+.erweima { position:absolute; right:50%; top:76px; margin:0 -666px 0 0; }
+.erweima ul li { float:left; width:70px; height:100px; margin:0 10px 0 0;}
+.erweima ul li p { color:#ffffff; font-size:12px; letter-spacing:-1px; text-align:center; }
+.erweima img { width:70px; height:70px; }
+
+
+
+
+
+
+.img_list { overflow:hidden; padding:10px 0; border-bottom:1px dashed #cccccc; }
+.img_list .title { height:40px; line-height:40px; overflow:hidden; }
+.img_list .title h3 { width:auto; float:left; font-size:16px; color:#062552; }
+.img_list .title a { width:auto; float:right; font-size:13px; color:#333333; }
+.img_list .title a:hover { color:#062552; }
+.img_list .img{ width:250px; height:200px; float:left; }
+.img_list .img img { width:250px; height:200px; }
+.img_list .list { width:710px; float:left; margin:0 0 0 20px; }
+.img_list .list dl dd { overflow:hidden; height:30px; line-height:30px; padding:0 0 0 20px; background:url(https://cret.cnu.edu.cn/images/pg_icon1.jpg) no-repeat left center; }
+.img_list .list dl dd a { float:left; }
+.img_list .list dl dd span { float:right; color:#666666; }
+
+/*图片展示页开始*/
+.img_news_con{ width:690px; overflow:hidden; float:left;}
+.img_news_con h3{padding:20px 0 20px; heihgt:54px; text-align:center; color:#c66a37; font-size:16px; font-family:"微软雅黑"; font-weight:normal;}
+.imgs_scroll{padding:0px 45px 60px 45px;  position:relative;}
+.imgs_scroll .btn_l,.imgs_scroll .btn_r{ position:absolute; width:434px; height:580px; top:0; /*z-index:1000; filter:alpha(opacity:0); opacity: 0;*/ }
+.imgs_scroll .btn_l{left:62px; }
+.imgs_scroll .btn_r{right:69px;}
+.imgs_scroll .prev,.imgs_scroll .next { position:absolute; display:block; width:70px; top:40%; text-align:center; cursor:pointer; z-index:90; display:none;}
+.imgs_scroll .prev{ left:52px;}
+.imgs_scroll .next{right:55px;}
+.imgs_news_list{width:436px; height:700px; position:relative; overflow:hidden; margin:0 0 0 80px;}
+.imgs_news_list ul{width:9999px; }
+.imgs_news_list ul li{float:left; display:inline; width:436px; margin-right:10px;  text-align:center;}
+.imgs_news_list ul li .txt2{width:436px; float:left; line-height:20px; text-indent:2em; padding-top:15px; text-align:left; font-family:"微软雅黑";}
+
+.picShow_list{ width:470px; float:left; margin-top:54px; }
+.picShow_list ul{ padding-right:30px;}
+.picShow_list ul li{ height:30px; line-height:30px; background:url(https://cret.cnu.edu.cn/images/naav_s_li.png) no-repeat left center; padding-left:20px;}
+/*图片展示页结束*/

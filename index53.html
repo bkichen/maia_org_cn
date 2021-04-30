@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>首页 南航金城学院教务处_南京财经大学教务处_南京艺术学院财务处</title>
+<link href="css/base15.css" type="text/css" rel="stylesheet">
+<link href="css/style37.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+        		<img src="images/logo8.jpg" width="453" height="88">
+           </div>
+           <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="90" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首  页</a></li>
+												<li><a href="javascript:;">重要通知</a></li>
+																<li><a href="javascript:;">财务快讯</a></li>
+																<li><a href="javascript:;">业务指南</a></li>
+																<li><a href="javascript:;">规章制度</a></li>
+																				<li><a href="javascript:;">党工活动</a>
+				 <div class="sonnav">
+                       				 <dl>
+														<dd><a href="javascript:;">支部生活</a></dd>
+														<dd><a href="javascript:;">工会风采</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">下载专区</a></li>
+																<li><a href="javascript:;">科室设置</a></li>
+								                
+            </ul>
+        </div>
+      </div></div>
+<div class="content">
+    <div class="Banner">
+    	       <div id="bannerPic">	
+                <div id="banner_info"></div> <!--标题-->
+                	<div class="banner_NA">
+                        <ul>
+																											 <li class="on">1</li>
+																												<li>2</li>
+																												<li>3</li>
+													                        </ul>
+                     </div>
+                <div id="banner_list">
+				                   <a href="javascript:;"><img src="images/content/2018-03/20180301085059417242.jpg" width="970" height="263" alt="收费及薪酬科"></a>
+				                    <a href="javascript:;"><img src="images/content/2017-06/20170630145714166882.jpg" width="970" height="263" alt="报账大厅1"></a>
+				                    <a href="javascript:;"><img src="images/content/2017-06/20170630145903719932.jpg" width="970" height="263" alt="报账大厅"></a>
+				                </div>
+            </div>
+    </div>
+    <div class="row mode01">
+        <div class="col lf">
+			<div class="articleList">
+                <div class="listTitle">
+                   <h2><a href="javascript:;">重要通知</a></h2>
+                </div>
+                <ul>
+				                    <li><span>[2021/04/20]</span><a href="javascript:void(0);" title="关于办理2020年度个人所得税综合所得汇算清缴的通知" onclick="checkXnwk('zytz/189290.htm','xw');">            关于办理2020年度个人所得税综... 
+    </a></li>
+				                    <li><span>[2021/03/24]</span><a href="javascript:void(0);" title="关于做好2021年预算执行的通知" onclick="checkXnwk('zytz/187903.htm','xn');">            关于做好2021年预算执行的通知 
+    </a></li>
+				                    <li><span>[2021/03/22]</span><a href="javascript:void(0);" title="关于加快2021年预算执行进度的通知" onclick="checkXnwk('zytz/187752.htm','xn');">            关于加快2021年预算执行进度的... 
+    </a></li>
+				                    <li><span>[2021/03/02]</span><a href="javascript:void(0);" title="关于2021年度教委专项可以使用的通知" onclick="checkXnwk('zytz/187139.htm','xw');">            关于2021年度教委专项可以使用... 
+    </a></li>
+				                    <li><span>[2021/02/25]</span><a href="javascript:void(0);" title="关于2020年度个人所得税综合所得汇算清缴办理时间的通知" onclick="checkXnwk('zytz/185284.htm','xw');">            关于2020年度个人所得税综合所... 
+    </a></li>
+				                    <li><span>[2021/01/29]</span><a href="javascript:void(0);" title="关于以前年度部分教委专项结转资金可以继续使用的通知" onclick="checkXnwk('zytz/185283.htm','xw');">            关于以前年度部分教委专项结转资金... 
+    </a></li>
+				                    <li><span>[2021/01/05]</span><a href="javascript:void(0);" title="关于年度个人所得汇算清缴的友情提示" onclick="checkXnwk('zytz/184649.htm','xw');">            关于年度个人所得汇算清缴的友情提... 
+    </a></li>
+				                    <li><span>[2021/01/04]</span><a href="javascript:void(0);" title="财务处关于2021年寒假值班安排的通知" onclick="checkXnwk('zytz/184618.htm','xw');">            财务处关于2021年寒假值班安排... 
+    </a></li>
+				                    <li><span>[2020/12/25]</span><a href="javascript:void(0);" title="2021年分类发展定额经费后续申报工作安排" onclick="checkXnwk('zytz/184218.htm','xw');">            2021年分类发展定额经费后续申... 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col md">
+        	<div class="articleList2">
+                <div class="listTitle2">
+                   <span class="more"><a href="javascript:;">MORE</a></span><h2>财务快讯</h2>
+                </div>
+                <div class="listFirst">
+				                	<div class="firstPic">
+                    	<a href="javascript:;" title="杨志成副校长为财务处全体同志作关于学习贯彻全国及北京市教育大会会议精神微讲座"><img src="images/content/2018-11/20181102154210295907.jpg" width="143" height="82"></a>
+                    </div>
+                    <div class="firstInfo">
+                    	<h2>            杨志成副校长为财务处全体同志作关于学习... 
+    </h2>
+                        <p><a href="javascript:;" title="杨志成副校长为财务处全体同志作关于学习贯彻全国及北京市教育大会会议精神微讲座"> 请填写文章摘要 </a></p>
+                    </div>
+					                </div>
+                <ul>
+								 <li><span>[2018/10/26]</span><a href="javascript:void(0);" title="杨志成副校长为财务处全体同志作关于学习贯彻全国及北京市教育大会会议精神微讲座" onclick="checkXnwk('cwkx/149532.htm','xw');">            杨志成副校长为财务处全体同志作关... 
+    </a></li>
+								 <li><span>[2018/09/30]</span><a href="javascript:void(0);" title="学校召开2018年财务负责人培训研讨会" onclick="checkXnwk('cwkx/149533.htm','xw');">            学校召开2018年财务负责人培训... 
+    </a></li>
+								 <li><span>[2018/09/27]</span><a href="javascript:void(0);" title="学校召开内控建设工作领导小组会议" onclick="checkXnwk('cwkx/149534.htm','xw');">            学校召开内控建设工作领导小组会议 
+    </a></li>
+								 <li><span>[2018/04/27]</span><a href="javascript:void(0);" title="副校长杨志成为财务处、保卫处、纪委党支部做专题学习辅导" onclick="checkXnwk('cwkx/149535.htm','xw');">            副校长杨志成为财务处、保卫处、纪... 
+    </a></li>
+								 <li><span>[2018/01/18]</span><a href="javascript:void(0);" title="校工会领导慰问财务值班教职工" onclick="checkXnwk('cwkx/129211.htm','xw');">            校工会领导慰问财务值班教职工 
+    </a></li>
+								 <li><span>[2016/06/02]</span><a href="javascript:void(0);" title="财务处全体人员参观我校历史博物馆" onclick="checkXnwk('cwkx/56098.htm','xw');">            财务处全体人员参观我校历史博物馆 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+        	<div class="articleList3">
+                <div class="listTitle3">
+                   <h2><a href="javascript:;">业务指南</a></h2>
+                </div>
+                <ul>
+                                       <li><span>[2019/09/23]</span><a href="javascript:void(0);" title="项目招投标需要办理资信证明的流程" onclick="checkXnwk('ywzn/164570.htm','xn');">            项目招投标需要办理资... 
+    </a></li>
+				                    <li><span>[2019/01/17]</span><a href="javascript:void(0);" title="个人所得税新政热点问题解答" onclick="checkXnwk('ywzn/154287.htm','xn');">            个人所得税新政热点问... 
+    </a></li>
+				                    <li><span>[2019/01/17]</span><a href="javascript:void(0);" title="首都师大个人所得税六项专项扣除和扣缴申报操作指南" onclick="checkXnwk('ywzn/154286.htm','xn');">            首都师大个人所得税六... 
+    </a></li>
+				                    <li><span>[2018/11/26]</span><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院教育收费公示" onclick="checkXnwk('ywzn/150910.htm','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院教育收费... 
+    </a></li>
+				                    <li><span>[2018/11/02]</span><a href="javascript:void(0);" title="财务各项业务办理流程（2018修订版）" onclick="checkXnwk('ywzn/149544.htm','xn');">            财务各项业务办理流程... 
+    </a></li>
+				                    <li><span>[2018/01/08]</span><a href="javascript:void(0);" title="校外人员信息备案操作流程" onclick="checkXnwk('ywzn/128933.htm','xw');">            校外人员信息备案操作... 
+    </a></li>
+				                    <li><span>[2018/01/05]</span><a href="javascript:void(0);" title="公务卡知识问答" onclick="checkXnwk('ywzn/128788.htm','xw');">            公务卡知识问答 
+    </a></li>
+				                    <li><span>[2016/04/21]</span><a href="javascript:void(0);" title="学生网上缴费操作指南" onclick="checkXnwk('ywzn/80464.htm','xw');">            学生网上缴费操作指南 
+    </a></li>
+				                    <li><span>[2016/04/21]</span><a href="javascript:void(0);" title="开具个人所得税完税证明手续" onclick="checkXnwk('ywzn/80463.htm','xw');">            开具个人所得税完税证... 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="footer">
+    
+<div class="copyRight">
+         地址：北京市西三环北路105号 邮编：100048<br>
+    Copyright 2003-2013 版权所有：南航金城学院教务处_南京财经大学教务处_南京艺术学院财务处<br>
+<a href="javascript:;" style="color:#000">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery-1.9.0.min1.js"></script>
+<script type="text/javascript" src="js/script14.js"></script>
+<script type="text/javascript">
+    Nav();  /*导航下拉*/
+	Banner();  /*轮播图*/
+</script>
+
+
+
+</body></html>

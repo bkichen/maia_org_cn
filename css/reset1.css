@@ -1,0 +1,64 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font-family: "Microsoft Yahei";
+    vertical-align: baseline;
+}
+:focus {
+    outline: 0;
+}
+a, a:link, a:visited, a:hover, a:active{
+    text-decoration:none;
+    color: black
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+th, td {
+    text-align: left;
+    font-weight: normal;
+}
+img, iframe {
+    border: none;
+    text-decoration:none;
+}
+ol, ul {
+    list-style: none;
+}
+input, textarea, select, button {
+    font-size: 100%;
+    font-family: "Microsoft Yahei";
+}
+select {
+    margin: inherit;
+}
+.fl {
+	float: left;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	clear: both;
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+}
+
+.fr {
+	float: right;
+}
+	

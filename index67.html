@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" maximum-scale="1.0">
+<title>南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社</title>
+<link href="css/base22.css" type="text/css" rel="stylesheet">
+<link href="css/style47.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+                <a href="javascript:;" class="logo_link1"><img src="images/logo_015.png"></a>
+        		<span class="logo_link2"><img src="images/logo_0218.png"></span>
+            </div>
+            <ul class="top_right">
+                <li><a href="">设为首页</a></li>
+                <li><a href="">加入收藏</a></li>
+                <li class="Nopadding"><a href="javascript:;" target="_blank">留言反馈</a></li>
+            </ul>
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="140" type="hidden">
+                    <input class="notxt" value="搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        </div>
+        <div class="nav">
+            <ul id="nav">                                                 
+                <li><a href="javascript:;">首  页</a></li>
+				
+																<li><a href="javascript:;">新闻中心</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">本社动态</a></dd>
+														<dd><a href="javascript:;">业界资讯</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">关于我们</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">出版社简介</a></dd>
+														<dd><a href="javascript:;">社长致辞</a></dd>
+														<dd><a href="javascript:;">机构设置</a></dd>
+														<dd><a href="javascript:;">历史沿革</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">图书商城</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">新书推荐</a></dd>
+														<dd><a href="javascript:;">重点图书</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">教材教辅</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">教材</a></dd>
+														<dd><a href="javascript:;">教辅</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">资格考试与培训</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">教师资格考试</a></dd>
+														<dd><a href="javascript:;">教师招聘考试</a></dd>
+														<dd><a href="javascript:;">其他考试与培训</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">联系我们</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">欢迎投稿</a></dd>
+														<dd><a href="javascript:;">人才招聘</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;" target="_blank">互动之窗</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">作者园地</a></dd>
+														<dd><a href="javascript:;">读者反馈</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">资源下载</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">书目下载</a></dd>
+														<dd><a href="javascript:;">课件下载</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">企业文化</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">党建之窗</a></dd>
+														<dd><a href="javascript:;">职工之家</a></dd>
+														<dd><a href="javascript:;">社员风采</a></dd>
+													</dl>
+				 </div>
+				</li>
+																
+                
+            </ul>
+        </div></div>
+<div class="Banner">
+        <div class="flexslider">
+            <ul class="slides">
+				                <li><a><img src="images/content/2018-03/20180314172103273135.jpg" width="300" height="200"></a></li>
+				                <li><a><img src="images/content/2018-03/20180314172117607221.jpg" width="300" height="200"></a></li>
+				                <li><a><img src="images/content/2018-03/20180314172131317393.jpg" width="300" height="200"></a></li>
+				                <li><a><img src="images/content/2017-10/20171024203921309919.jpg" width="300" height="200"></a></li>
+				                <li><a><img src="images/content/2017-10/20171023212530303240.jpg" width="300" height="200"></a></li>
+				            </ul>
+       </div>
+    </div>
+<div class="content">
+    
+    <div class="row mode01">
+        <div class="col">
+            <ul class="tuList">
+                <li class="tuTitle"><h2>图书分类</h2></li>
+                <li class="tuCon"><a href="javascript:;"><img src="images/tu_1.png"><span>基教教材</span></a></li>
+                <li class="tuCon"><a href="javascript:;"><img src="images/tu_2.png"><span>基教教辅</span></a></li>
+                <li class="tuCon"><a href="javascript:;"><img src="images/tu_3.png"><span>教师教育</span></a></li>
+                <li class="tuCon"><a href="javascript:;"><img src="images/tu_4.png"><span>高等教育</span></a></li>
+                <li class="tuCon"><a href="javascript:;"><img src="images/tu_5.png"><span>人文社科</span></a></li>
+                <li class="tuCon"><a href="javascript:;"><img src="images/tu_6.png"><span>经管励志</span></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row mode02">
+        <div class="col">
+            <div class="articleList">
+                <div class="artitleTitle">
+                    <span class="more"><a href="javascript:;"><span>更多 >></span></a></span>
+                    <h2>新闻中心</h2>
+                </div>
+                <div class="newslist">
+                    <div class="newsLf">
+					                       
+                    </div>
+                    <ul class="newsRt">
+						                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row mode03">
+        <div class="col lf">
+            <div class="tskxList">
+                <div class="articleList">
+                    <div class="artitleTitle">
+                        <span class="more"><a href="javascript:;"><span>更多 >></span></a></span>
+                        <h2>新书快讯</h2>
+                    </div>
+                    <div class="tskxImglist">
+                        <ul>
+						                            <li><a href="javascript:void(0);" title="《童年与解放》" onclick="checkXnwk('sylm/xskx/118920.htm','xw');">
+								<img src="images/content/2017-08/20170831095422064689.jpg" style="width:156px;height:233px">
+								<span>            《童年与解放》 
+    </span></a></li>
+                                                    <li><a href="javascript:void(0);" title="不做加班族:史上最简单时间管理术" onclick="checkXnwk('sylm/xskx/118923.htm','xw');">
+								<img src="images/content/2017-08/20170831095810076267.jpg" style="width:156px;height:233px">
+								<span>            不做加班族:史上最简单时间管理术 
+    </span></a></li>
+                                                    <li><a href="javascript:void(0);" title="变革力 : 商业生态里的佼佼者的核心特质" onclick="checkXnwk('sylm/xskx/118922.htm','xw');">
+								<img src="images/content/2017-08/20170831095656911035.jpg" style="width:156px;height:233px">
+								<span>            变革力 : 商业生态里的佼佼者的核心特质 
+    </span></a></li>
+                        						                            <li class="NoMargin"><a href="javascript:void(0);" title="《好老师在这里》" onclick="checkXnwk('sylm/xskx/118921.htm','xw');">
+								<img src="images/content/2017-08/20170831095528078860.jpg" style="width:156px;height:233px">
+								<span>            《好老师在这里》 
+    </span></a></li>
+                                                   
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="zdtsList">
+                <div class="articleList">
+                    <div class="artitleTitle">
+                        <a href="javascript:;"><h2>重点图书</h2></a>
+                    </div>
+                    <div class="zdtsImglist">
+					                        <div class="lf">
+                            <div class="zdtsPic">
+								<a href="javascript:void(0);" title="国学备览" onclick="checkXnwk('tssc/zdts/118874.htm','xw');">
+									<img src="images/content/2017-08/20170830113721842146.jpg" style="width:183px;height:275px;"></a>
+							</div>
+                        </div>
+                        <div class="md">
+                            <div class="zdtsCon">
+                                <h2>            国学备览 
+    </h2>
+                                <p>            价格：2880.00元 商品简述：随着中国经济的迅速增长，中国文化在世界范围的影响与日俱增，中华文明越来越受到全世界人民的重视。弘扬优秀的传统文化，是我们这一代人无可推卸的责任。如何把学术资源、教育资源和科学技术资源结合起来，在传播优秀的中国传统文化、继承伟大的民族精神、提高国人... 
+    </p>
+                                <span class="more"><a href="javascript:;">[更多]</a></span>
+                            </div>
+                        </div>
+												<div class="rt">
+                            <div class="zdtsRt">
+                                <ul>
+								                                    <li><a href="javascript:void(0);" title="北京社科名家文库——学术殿堂 大师风范" onclick="checkXnwk('tssc/zdts/118875.htm','xw');"><img src="images/content/2017-08/20170830114123914280.jpg" style="width:143px;height:214px;"> </a></li>
+																		                                    <li class="Nomargin"><a href="javascript:void(0);" title="书林守望丛书——中国出版人的精神文化启示录" onclick="checkXnwk('tssc/zdts/118876.htm','xw');"><img src="images/content/2017-08/20170830114137002320.jpg" style="width:143px;height:214px;"></a></li>
+									                                </ul>
+                                <div class="zdtsClick"><a href="javascript:;"><img src="images/img_37.jpg"></a></div>
+                            </div>
+                        </div>
+                        <!--<div class="rt">
+                            <div class="zdtsRt">
+                                <ul>
+								
+                                    <li><a href="$cms.getUrl($article)">
+																		<img src="images/content/2017-08/20170830114123914280.jpg"  style="width:143px;height:214px;"></a>
+																		</li>
+                                    <li class="Nomargin">
+									<a href="tssc/zdts/118876.htm"><img src="images/content/2017-08/20170830114137002320.jpg" style="width:143px;height:214px;"></a>
+																		</li>
+									
+                                </ul>
+                                <div class="zdtsClick"><a href="#"><img src="images/img_37.jpg"></a></div>
+                            </div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col rt">
+            <div class="linksList" style="height:396px;">
+                <div class="linksTitle"><h2><a href="javascript:;">畅销品牌</a></h2></div>
+                <ul>
+				                    <li><a href="javascript:void(0);" title="国学备览" onclick="checkXnwk('sylm/cxpp/118878.htm','xw');">            国学备览 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="  中学西渐-西学东渐" onclick="checkXnwk('sylm/cxpp/118882.htm','xw');">              中学西渐-西学东渐 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="科技伦理经典译丛" onclick="checkXnwk('sylm/cxpp/118881.htm','xw');">            科技伦理经典译丛 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="北京社科名家文库——学术殿堂 大师风范" onclick="checkXnwk('sylm/cxpp/118879.htm','xw');">            北京社科名家文库——学术殿堂 大... 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="书林守望丛书——中国出版人的精神文化启示录" onclick="checkXnwk('sylm/cxpp/118880.htm','xw');">            书林守望丛书——中国出版人的精神... 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="青少年经典阅读书系" onclick="checkXnwk('sylm/cxpp/118877.htm','xw');">            青少年经典阅读书系 
+    </a></li>
+				                </ul>
+            </div>
+            <div class="linksList" style="height:256px;">
+                <div class="linksTitle"><h2><a href="javascript:;">友情链接</a></h2></div>
+                <ul>
+				                    <li><a href="javascript:void(0);" title="国家新闻出版广电总局" onclick="checkXnwk('http://www.sapprft.gov.cn','xw');">            国家新闻出版广电总局 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="北京市广播电视局" onclick="checkXnwk('http://gdj.beijing.gov.cn/','xw');">            北京市广播电视局 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院" onclick="checkXnwk('http://www.cnu.edu.cn/','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="北京印刷协会" onclick="checkXnwk('http://www.bjysxh.org/','xw');">            北京印刷协会 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社天猫旗舰站" onclick="checkXnwk('https://sdsfdxcbs.tmall.com/','xw');">            南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社天猫旗... 
+    </a></li>
+				                    <li><a href="javascript:void(0);" title="中国纸网" onclick="checkXnwk('http://www.paper.com.cn/','xw');">            中国纸网 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    
+<div class="footerIn">
+        <div class="footerLf">
+            <ul>
+                <li><a href="javascript:;">法律声明</a></li>
+                <li><a href="javascript:;">免权声明</a></li>
+                <li><a href="javascript:;">版权声明</a></li>
+			
+            </ul>  
+        </div>
+        <div class="footerMd">
+            <div class="copyRight" style="line-height:50px;">Copyright2011 &copy; 版权所有南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社     <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号   </div>
+        </div>
+        <div class="footerRt">
+		<ul>
+			 <li><img src="images/code1.png" alt=""><p>南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社公众号</p></li>
+                <li><img src="images/erweima3.png" alt=""><p>南航金城学院教务处_南京财经大学教务处_南京艺术学院出版社天猫旗舰站</p></li>
+				</ul>
+        </div>
+    </div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script19.js"></script>
+<script type="text/javascript" src="js/friendlink.js"></script>
+<script type="text/javascript">
+    Nav('#nav'); 
+    snavWidth();
+    $(function() {     
+        $(".flexslider").flexslider({
+
+            pauseOnHover: true,
+            slideshowSpeed: 4000,
+            animationSpeed: 400,
+            touch: true 
+        });
+    }); 
+    Nav('#keyAttent');
+</script>
+
+</body></html>

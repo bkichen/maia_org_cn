@@ -1,0 +1,109 @@
+
+/* CSS Document */
+*{ padding:0px; margin:0px;}
+body{margin:0px auto; font-family:"宋体";font-size:12px;} 
+ul,li,b,h1,h2,b,u,img,form{border:0px;margin:0px;padding:0px;font-size:12px;font-weight:normal;list-style-type: none;text-decoration: none;}
+.clear{clear:both; height:0px; line-height:0px; overflow:hidden; margin-top:-4px;} 	 
+a{text-decoration:none;}
+
+#container{ width:1000px; height:auto; margin:0px auto;}
+#header{ width:1000px; height:196px;   }
+.banner{ width:1000px; height:160px; background:url(https://dc.cnu.edu.cn/jjc/images/banner.jpg) no-repeat;}
+.nav{ width:1000px; height:36px; background:url(https://dc.cnu.edu.cn/jjc/images/nav.jpg) no-repeat; margin:0px auto;}
+.nav ul{ padding-left:72px;}
+.nav ul li{ margin:0px 20px 0px 0px; float:left;  line-height:36px; display:inline; background:url(https://dc.cnu.edu.cn/jjc/images/gang.jpg) left center no-repeat; font-size:14px; padding-left:20px;}
+.nav ul li a{ color:#fff;}
+.nav ul li a:hover{ color:#fffc00;}
+#content{ width:1000px; height:auto; margin:6px auto 0px; float:left;}
+.left{ width:720px; height:auto; float:left;}
+.box01{ width:720px; height:280px; border:1px solid #e3e2e2; background:url(https://dc.cnu.edu.cn/jjc/images/box_bg.jpg) left bottom repeat-x;}
+.box01 .title{ width:720px; height:32px; background:url(https://dc.cnu.edu.cn/jjc/images/t01.jpg) repeat-x;}
+.box01 .title h3{ width:109px; height:32px; background:url(https://dc.cnu.edu.cn/jjc/images/h301.jpg) no-repeat; text-align:center; font-size:14px; color:#fff; float:left; line-height:32px; margin-left:15px; display:inline;}
+.box01 .title a{ float:right; margin:10px 15px 0px 0px;}
+.flash_news{ width:275px; height:221px; float:left; margin:10px; display:inline;}
+.news{ width:418px; height:auto; float:left; margin-left:0px; margin-top:10px;}
+.sum{ width:418px; height:93px; background:url(https://dc.cnu.edu.cn/jjc/images/blue.jpg) no-repeat; text-align:center}
+.sum h3{ color:#d80404; line-height:40px; font-size:14px;}
+.sum p{width:376px; height:48px; text-align:left; line-height:20px; margin-left:20px; color:#878080; text-indent:14px;}
+.sum p a{ color:#be100a;}
+.sum p a:hover{ color:#FF9900;}
+.news ul{padding:0px 0px 0px 12px; height:135px; overflow:hidden;}
+.news ul li{ background:url(https://dc.cnu.edu.cn/jjc/images/li_bg.gif) left 10px no-repeat; line-height:26px; padding-left:10px;}
+.news ul li a{ color:#363636; }
+.news ul li a:hover{ color:#FF0000;}
+.news ul li span{ float:right; margin-right:15px;}
+
+.box02{ width:722px; height:189px; margin-top:6px;}
+.letter{ width:288px; height:189px; background:url(https://dc.cnu.edu.cn/jjc/images/letter.jpg) no-repeat; float:left;}
+.letter h3{ font-size:14px; color:#055db7; margin:8px 0px 0px 28px;}
+.letter ul{ padding:30px 0px 0px 20px;}
+.letter ul li{ font-size:13px; color:#313030; line-height:20px;}
+
+.rule{ width:426px; height:189px; background:url(https://dc.cnu.edu.cn/jjc/images/rule.jpg) no-repeat; float:left; margin-left:8px;}
+.rule .title{ width:426px; height:34px; }
+.rule .title h3{ color:#055db7; font-size:14px; margin:10px 0px 0px 32px; float:left; display:inline;}
+.rule .title a{ float:right; margin:10px 15px 0px 0px;}
+.rule ul{padding:15px 0px 0px 15px; height:130px; overflow:hidden;}
+.rule ul li{ background:url(https://dc.cnu.edu.cn/jjc/images/jiao.gif) left center no-repeat; padding-left:10px; line-height:26px;}
+.rule ul li a{ color:#363636; }
+.rule ul li a:hover{ color:#FF0000;}
+.rule ul li span{ float:right; margin-right:20px;}
+
+.right{ width:270px; height:476px; background:#e0f4ff; float:right;}
+.sign{ width:252px; height:198px; margin:10px auto 0px;}
+.sign .title{ width:226px; height:19px; background:url(https://dc.cnu.edu.cn/jjc/images/t02.jpg) no-repeat; font-size:14px; color:#d80404; font-weight:bold;padding:11px 0px 0px 26px;}
+.sign .noti{ width:250px; height:152px; padding-top:15px; background:url(https://dc.cnu.edu.cn/jjc/images/wen.jpg) left bottom #fff no-repeat; border:1px solid #e8e8e8; border-top:none;}
+.sign .noti ul{padding:15px 0px 0px 15px; height:130px; overflow:hidden;}
+.sign .noti ul li{ background:url(https://dc.cnu.edu.cn/jjc/images/la.jpg) left center no-repeat; padding-left:15px; line-height:26px;}
+.sign .noti ul li a{ color:#363636; }
+.sign .noti ul li a:hover{ color:#FF0000;}
+.plan{ width:251px; height:51px;  margin:0px auto; margin:10px auto;}
+.friendlink{ width:251px; height:137px; padding-top:50px; background:url(https://dc.cnu.edu.cn/jjc/images/friend.jpg) no-repeat; margin:0px auto; }
+.friendlink select{ margin:15px 0px 15px 48px; width:150px; height:20px;}
+
+.footer{ width:1000px; height:78px; padding-top:20px; background:url(https://dc.cnu.edu.cn/jjc/images/footer.jpg) repeat-x; text-align:center; float:left; line-height:24px; color:#757373; margin-top:6px;}
+.footer a{ color:#757373;}
+.footer a:hover{ color:#FF0000;}
+
+.posi{ width:962px; height:29px; line-height:29px; padding-left:38px; color:#757575; background:url(https://dc.cnu.edu.cn/jjc/images/pos.jpg) no-repeat;}
+.posi a{ color:#757575;}
+.posi a:hover{ color:#757575;}
+.leftside{ width:252px; float:left; height:auto;}
+.leftside .sign{ margin-top:0px;}
+.leftside .sign .title{ width:226px; height:22px; background:url(https://dc.cnu.edu.cn/jjc/images/t05.jpg) no-repeat; font-size:14px; color:#d80404; font-weight:bold;padding:11px 0px 0px 26px;}
+.leftside .sign .noti{ width:250px; height:150px; background:url(https://dc.cnu.edu.cn/jjc/images/wen.jpg) left bottom #fff no-repeat; border:1px solid #e8e8e8; border-top:none;} 
+.leftside .sign .noti ul{padding:0px 0px 0px 15px; height:130px; overflow:hidden;}
+
+.right_list{ width:742px; height:auto; float:left; margin-left:6px;}
+.right_list .title{ width:712px; height:35px; background:url(https://dc.cnu.edu.cn/jjc/images/t06.jpg) no-repeat; font-size:14px; color:#363636; line-height:35px; padding-left:30px;}
+.list_a01{ width:740px; height:505px; border:1px solid #e8e8e8; border-top:none; background:url(https://dc.cnu.edu.cn/jjc/images/bot_bg.jpg) left bottom repeat-x;}
+.list_a01 .con_a01 ul{ padding:20px 0px 0px 20px; width:95%; min-height:500px; overflow:hidden;}
+.list_a01 .con_a01 ul li{ line-height:30px; background:url(https://dc.cnu.edu.cn/jjc/images/l_bg2.gif) left 12px no-repeat; padding-left:10px; color:#363636; }
+.list_a01 .con_a01 ul li a{ color:#363636;}
+.list_a01 .con_a01 ul li a:hover{ color:#f00;}
+.list_a01 .con_a01 ul li span{ float:right; margin-right:5px; color:#666666;}
+
+.new02{ width:252px; height:272px; background:url(https://dc.cnu.edu.cn/jjc/images/bg03.jpg) no-repeat;}
+.new02 .title{ width:252px; height:34px; }
+.new02 .title h3{ color:#055db7; font-size:14px; margin:10px 0px 0px 27px; float:left; display:inline;}
+.new02 .title a{ float:right; margin:10px 15px 0px 0px;}
+.new02 ul{padding:15px 0px 0px 15px; height:215px; overflow:hidden;}
+.new02 ul li{ background:url(https://dc.cnu.edu.cn/jjc/images/jiao.gif) left center no-repeat; padding-left:10px; line-height:26px;}
+.new02 ul li a{ color:#363636; }
+.new02 ul li a:hover{ color:#FF0000;}
+
+.page_a2{ width:420px; height:20px; line-height:20px; margin:20px auto 0px; }
+.page_a2 ul{}
+.page_a2 ul li{ margin-right:15px; float:left; line-height:20px;}
+.page_a2 ul li a{ color:#737373;}
+.page_a2 ul li a:hover{ color:#f30;}
+.page_a2 input{ width:30px;} 
+
+.list_a09{ width:740px; min-height:505px; height:505px; border:1px solid #e8e8e8; border-top:none; background:url(https://dc.cnu.edu.cn/jjc/images/bot_bg.jpg) left bottom repeat-x;}
+div[class].list_a09{ height:auto;}
+#main3{width:100%;height:auto; background:url(https://dc.cnu.edu.cn/jjc/images/text_bg.jpg) repeat-x left top; margin:0px auto 0px; }
+#main3 h3{float:none; width:auto;height:30px; background:url(https://dc.cnu.edu.cn/jjc/images/x_line.gif) no-repeat center bottom; text-align:center; line-height:30px; color:#d5080b; font-size:16px; height:35px; padding:15px 0px 0px 0px; }
+#main3 #author{ width:700px; background:#EBF8FC; height:24px; line-height:24px; text-align:center; margin:10px auto; clear:both; color:#6d6d6d;}
+#main3 #work{width:90%; height:auto;  margin:20px auto 20px; text-align:left; line-height:24px; color:#363636; font-size:13px; }
+/* 20110222 */
+.roll{ width:308px; height:30px; margin:117px 0px 0px 80px; float:left; } 

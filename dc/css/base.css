@@ -1,0 +1,23 @@
+
+/* CSS Document */
+
+*{ margin:0 auto;}
+body{ margin:0; padding:0; font-size:13px; font-family:'Microsoft YaHei','微软雅黑'; color:#282828;}
+
+
+
+.lf{ float:left;}
+.md{ float:left;}
+.rt,.r{ float:right;}
+.clear{ clear:both;}
+
+
+a{ text-decoration:none; color:#282828;}
+.title{ float:left; font-size:16px; display:block; color:#fff; font-weight:bold; height:30px; text-align:center; line-height:30px;}
+.more{ float:right; line-height:30px;}
+.more a{ color:#fff;}
+.rightDate{ float:right;}
+img{ border:none;}
+
+ul{ padding:0;}
+ul li{ list-style:none;}

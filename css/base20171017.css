@@ -1,0 +1,197 @@
+
+/* CSS Document */
+html{background:#FFF;}
+body{font-size:14px;background-color:#f5f5f5;color: #323232;font-family:'Microsoft YaHei','微软雅黑',SimSun,'宋体','Lucida Grande', Tahoma,Arial, Helvetica, sans-serif;}
+html,body,address,blockquote,div,dl,form,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul,dd,dl,dt,li,tbody,td,tfoot,th,thead,tr,button,del,ins,map,object,a,abbr,acronym,b,bdo,big,br,cite,code,dfn,em,i,img,kbd,q,samp,small,span,strong,sub,sup,tt,var,legend,fieldset{margin:0px;padding:0px;font-size: 100%; -webkit-font-smoothing: subpixel-antialiased;}
+table{border-collapse:collapse;border-spacing:0;width:100%;}
+fieldset,img{border:0;}
+img,object{max-width:100%;height:auto;width:auto\9;/* for ie8 */-ms-interpolation-mode: bicubic;}
+a{outline:none;blr:expression(this.onFocus=this.blur());text-decoration:none;color: #323232;}
+a:hover{color: #323232;text-decoration: none;}
+input[type='button']{outline:none;border:0 none;background-color:transparent;cursor:pointer;}
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:400;}
+/*定义清除浮动样式 方法一*/
+.clearfix:after{content:'\20';display:block;height:0;clear:both; visibility:hidden;}
+.clearfix{zoom:1;}
+/*定义清除浮动样式 方法二*/
+.clear{clear:both;}
+/*font-size */
+.f12px{font-size:12px;}
+.f14px{font-size:14px;}
+.f16px{font-size:16px;}
+.f18px{font-size:18px;}
+.f20px{font-size:20px;}
+.f22px{font-size: 22px;}
+.f24px{font-size:24px;}
+.f48px{font-size:48px;}
+/*float */
+.fl{float:left;}
+.fr{float:right;}
+ul,ol,li{list-style:none outside none;}
+.tc{text-align:center !important;}
+.tl{text-align:left  !important;}
+.tr{text-align:right  !important;}
+.fwn{font-weight:normal;}
+.fwb{font-weight:bold;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+q:before,q:after{content:'';content:none;}
+input,textarea,select{font-weight:inherit;font-size:100%;}
+input,select,textarea,button {vertical-align:middle}
+.pa{position:absolute;}
+.pr{position:relative;}
+.inblock{display:inline-block;*zoom:1;*display:inline;}
+.disnone{display:none;}
+.block{ display:block;}
+.hidden{ overflow:hidden !important;}
+.none{ display:none;}
+.textoverflow{ white-space:nowrap; overflow:hidden;text-overflow: ellipsis;}
+.underline:hover{text-decoration:underline;}
+.mtc{margin:0 auto;}
+.number{ }
+.fw600{font-weight: 600;}
+.hand{cursor: pointer;}
+.distable{display: table;}
+.distr{display:table-row;}
+.distd{display:table-cell;}
+
+
+/*基础样式*/
+.header{ width:100%; height:auto; margin:0px; padding:0px; z-index:2; position:relative}
+.search{width:219px; height:29px;}
+.search input{position:absolute; width:178px;height:29px;line-height:29px; }
+.search input.notxt{color:#3f3f3c; padding-left:12px;}	
+.search input.notxt1 {position: absolute;width: 28px;height: 29px;top: 0px;left:0px;border: none;cursor: pointer;background: none;cursor:pointer; }
+.logo{}
+.nav{height:41px;z-index:888;}
+.nav ul { width:1000px; margin:0 auto;}
+.nav ul li{float:left;padding:0px; position:relative;}
+.nav ul li a{text-align:center;font-size:14px; text-align:center;}
+.nav ul li a:hover{font-weight:bold}
+.nav ul li .subNav {line-height:38px; font-size:14px;display:none; position:absolute; left:0; top:41px; text-align:center; z-index:9999;background-color:#fff;}
+.nav ul li.on {}
+.nav ul li.on a{font-weight:bold}
+.nav ul li.on .subNav { display:block;}
+.nav ul li.on .subNav dl{overflow:hidden;}
+.nav ul li.on .subNav dl dd{ line-height:30px; height:30px; text-align:left;}
+.nav ul li.on .subNav dl dd a{ font-size:14px; line-height:20px; border-top:none; text-align:center; font-weight:normal; height:auto;font-family:'Microsoft YaHei'; padding-left:28px;}
+.nav ul li.on .subNav dl dd a:hover{ font-weight:bolder;}
+.content{z-index:1; position:relative}
+.Banner{ }
+.row{}
+.menu{}
+.subMenu {}
+.mode{}
+.col{}
+.date{}
+.time{}
+.more{ float:right;}
+.scroll{}
+.tab{}
+.list{}
+.title{}
+.service{}
+.hot{}
+.news{}
+.download{}
+.regsiter{}
+.status{}
+.btn{}
+.vote{}
+.partner{}
+.friendLink {}
+.footer{position:relative}
+.copyRight{}
+
+/*二级页基础样式*/
+.Bread{width:1000px;height:39px; line-height:39px; font-size:12px; color:#333; margin-top:5px;}
+.Bread a{color:#333;}
+.page{ width:100%; height:30px; line-height:30px; text-align:center; margin:0 auto;font-size:12px;clear:both;}
+.page a{ padding:0 5px;}
+
+.fujian {padding:0px; overflow:hidden; }
+.fujian h3 { font-size: 16px;line-height: 30px; color:#004a00; padding-left:5px;}
+.fujian ul li { height: 26px; line-height: 26px; padding-left: 28px;}
+.fujian ul li a { font-size: 12px; line-height: 24px; color:#656464;}
+.fujian ul li a:hover{ color:#004a00;}
+
+/*组件*/
+
+/*articleList*/
+.articleList{}
+.listTitle{ height:33px; line-height:33px; height:33px;} 
+.listTitle h2{font-weight: bold; line-height:33px; padding-left: 14px;}
+.articleList ul li{ height:30px; line-height:30px; padding-left:10px;}
+
+
+/*articlePicture*/
+.articlePicture{}
+.articTitle{ height:33px; line-height:33px; height:33px;} 
+.articTitle h2{font-weight: bold; line-height:33px; padding-left: 14px;}
+.articlePicture .Article{line-height:28px;}
+.articlePicture .Article img{ float:left}
+
+/*flexslider start*/
+.flex-container a:active,.flexslider a:active,.flex-container a:focus,.flexslider a:focus  {outline: none;}
+.slides,.flex-control-nav,.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
+
+.flexslider {margin: 0; padding: 0;}
+.flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} 
+.flexslider .slides img {width: 100%; display: block;}
+.flex-pauseplay span {text-transform: capitalize;}
+
+.slides:after {content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
+* html .slides {height: 1%;}
+
+.no-js .slides > li:first-child {display: block;}
+
+.flexslider {background: #fff; position: relative; zoom: 1; }
+.flex-viewport { max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; -o-transition: all 1s ease; transition: all 1s ease; }
+.loading .flex-viewport { max-height: 300px; }
+.flexslider .slides { zoom: 1; }
+.carousel li { margin-right: 5px; }
+
+.flex-direction-nav {*height: 0;}
+.flex-direction-nav a { text-decoration:none; display: block; width: 28px; height: 48px;position: absolute; margin-top: -20px; top: 50%; z-index: 10; overflow: hidden; opacity: 0; cursor: pointer; color: rgba(0,0,0,0.8);  background:url(https://yyzn.cnu.edu.cn/images/arr.png) no-repeat; text-indent:-999em; }
+.flex-direction-nav .flex-prev { left: -30px; background-position:0 0; }
+.flex-direction-nav .flex-next { right: -30px; background-position:-132px 0;}
+.flexslider:hover .flex-prev { opacity: 0.7; left: 20px;}
+.flexslider:hover .flex-next { opacity: 0.7; right:20px;}
+.flexslider:hover .flex-next:hover,.flexslider:hover .flex-prev:hover { opacity: 1; }
+.flex-direction-nav .flex-disabled { opacity: 0!important; filter:alpha(opacity=0); }
+
+.flex-pauseplay a { display: block; width: 20px; height: 20px; position: absolute; bottom: 5px; left: 10px; opacity: 0.8; z-index: 10; overflow: hidden; cursor: pointer; color: #000; background:#ddd;}
+.flex-pauseplay a:before { font-size: 20px; display: inline-block; content: '\f004'; }
+.flex-pauseplay a:hover { opacity: 1; }
+.flex-pauseplay a.flex-play:before { content: '\f003'; }
+
+.flex-control-nav {width: 100%; position: absolute; bottom: 10px; text-align: center; z-index: 1000;}
+.flex-control-nav li {margin: 0 8px; display: inline-block; zoom: 1; *display: inline;}
+.flex-control-paging li a {width: 12px; height: 12px; display: block; background: #fff;cursor: pointer; text-indent: -9999px; border-radius: 6px; }
+.flex-control-paging li a:hover { background: #000; background: rgba(0,0,0,0.7); }
+.flex-control-paging li a.flex-active { background: #000; background: rgba(0,0,0,0.9); }
+
+.flex-control-thumbs {margin: 5px 0 0; position: static; overflow: hidden;}
+.flex-control-thumbs li {width: 25%; float: left; margin: 0;}
+.flex-control-thumbs img {width: 100%; display: block; opacity: .7; }
+.flex-control-thumbs img:hover {opacity: 1;}
+.flex-control-thumbs .flex-active {opacity: 1; }
+/*flexslider end*/
+
+/*tab start*/
+.tabArticleList .tabListTitle{ overflow:hidden;}
+.tabArticleList .tab_menu{ width:100%;}
+.tabArticleList .tab_menu h3{height:30px; line-height:30px; float:left;}
+.tabArticleList .tab_menu h3 a{font-size:14px; color:#202020; display:block; text-align:center; font-family:"微软雅黑";}
+.tabArticleList .tab_menu h3:hover,.tabArticleList .tab_menu h3.on{height:30px; line-height:30px; float:left;}
+.tabArticleList .tab_menu h3:hover a,.tabArticleList .tab_menu h3.on a{font-size:14px; color:#1d8600; display:block; text-align:center; font-family:"微软雅黑";}
+.tabArticleList .more_tab{ display: none;}
+.tabArticleList .tabListTitle .more{ float:right;}
+.tabArticleList .tabListTitle .more a{font-size: 12px;}
+
+.tabArticleList .tabList{ width:100%;}
+.tabArticleList .tabListBox{ display:none;}
+.tabArticleList .tabListBox ul{}
+.tabArticleList .tabListBox ul li{line-height:30px;height:30px; padding-left:0PX;}
+.tabArticleList .tabListBox ul li span{font-weight:normal; font-size:12px; color:#b1a39a; float:right;}
+.mode04{ width:1038px;margin:20px auto 30px;height:auto; }

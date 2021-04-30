@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>中国语言智能研究中心</title>
+<link href="css/base20171017.css" type="text/css" rel="stylesheet">
+<link href="css/style20171017.css" type="text/css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://yyzn.cnu.edu.cn/styleA.css" media="screen and (min-width: 400px)">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+<script>
+		function checkXnwk(url, xwssyh) {
+		var url1 = window.location + "";
+		url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+		if (xwssyh != '' && xwssyh == 'xn') {
+			var flag = checkSession();
+			if (flag == "true") {
+				window.open(url);
+			} else if (flag == "false") {
+				window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+			} else {
+				window.open(url);
+			}
+		} else {
+			window.open(url);
+		}
+	}
+	function checkSession() {
+		var flag = "";
+		jQuery.ajax({
+			type : "POST",
+			url : '/cms/web/getXnwkSession.jsp',
+			async : false,
+			success : function(data) { 
+				var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+				flag = newData;
+			}
+		});
+		return flag;
+	}
+</script>
+
+
+<div class="header">
+    	
+<div class="top">
+        	<div class="logo">
+        		<a href="javascript:;" class="logo_link">
+                    <img src="images/logo_0219.png" alt="">      
+                </a>
+            </div>
+            <div class="search">
+           		<form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+                    <input name="siteID" value="134" type="hidden">
+                    <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+                    <input class="notxt1" name="Submit" type="submit" value="">
+                </form>
+       		</div>
+        </div>
+        <div class="nav">
+        	<ul id="nav">
+            	<li><a href="javascript:;">首页</a></li>
+																<li><a href="javascript:;">机构概况</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">中心简介</a></dd>
+														<dd><a href="javascript:;">学术委员会</a></dd>
+														<dd><a href="javascript:;">学术带头人</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">研究平台</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">北京语言智能协同研究院</a></dd>
+														<dd><a href="javascript:;">中国人工智能学会语言智能专委会</a></dd>
+														<dd><a href="javascript:;">语言智能国际联合实验室</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">学术研究</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">在研项目</a></dd>
+														<dd><a href="javascript:;">学科建设</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">学术成果</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">发表论文</a></dd>
+														<dd><a href="javascript:;">软著专利</a></dd>
+														<dd><a href="javascript:;">结项项目</a></dd>
+													</dl>
+				 </div>
+				</li>
+																				<li><a href="javascript:;">智能教育</a></li>
+																				<li><a href="javascript:;">老北京话数字资源</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">特色文献</a></dd>
+														<dd><a href="javascript:;">北京话影视</a></dd>
+														<dd><a href="javascript:;">其它音频视频</a></dd>
+														<dd><a href="javascript:;">老北京词典</a></dd>
+														<dd><a href="javascript:;">老北京话研究资料</a></dd>
+														<dd><a href="javascript:;">老北京图片</a></dd>
+													</dl>
+				 </div>
+				</li>
+																								<li><a href="javascript:;">联系我们</a>
+				 <div class="subNav">
+                       				 <dl>
+														<dd><a href="javascript:;">国家语委科研基地</a></dd>
+													</dl>
+				 </div>
+				</li>
+												                  
+            </ul>
+       
+      </div></div>
+<div class="content">
+    <div class="Banner">
+    	<div class="flexslider">
+            <ul class="slides">
+				                <li><a><img src="images/content/2020-10/20201014161119497116.jpg"></a><span class="til_slides"></span></li>
+				                <li><a><img src="images/content/2020-10/20201014161419321272.jpg"></a><span class="til_slides"></span></li>
+				                <li><a><img src="images/content/2019-07/20190715132246180961.jpg"></a><span class="til_slides"></span></li>
+				                <li><a><img src="images/content/2019-07/20190715133704929090.jpg"></a><span class="til_slides"></span></li>
+				                <li><a><img src="images/content/2019-07/20190715134835328133.jpg"></a><span class="til_slides"></span></li>
+				            </ul>
+       </div>
+    </div>
+    <div class="row mode01">
+        <div class="col lf">
+        	<div class="articleList">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;">更多</a></span><h2>焦点新闻</h2>
+                </div>
+                <ul>
+				                    <li><span class="rightDate"><span class="day">02-06</span><span class="year">2021</span></span><a href="javascript:void(0);" title="中国语言智能研究中心2020年度学术活动总结" onclick="checkXnwk('jdxw/185158.htm','xw');">            中国语言智能研究中心2020年度学术活动总结 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">01-24</span><span class="year">2021</span></span><a href="javascript:void(0);" title="国家语委“十四五”信息化建设专家研讨会在京召开" onclick="checkXnwk('jdxw/185031.htm','xw');">            国家语委“十四五”信息化建设专家研讨会在京召开 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">12-28</span><span class="year">2020</span></span><a href="javascript:void(0);" title="统筹工作方案，细化研究计划——教育部-中国移动科研基金2020年度项目“区块链技术在教育领域中的应用研究”推进会在京召开" onclick="checkXnwk('jdxw/184316.htm','xw');">            统筹工作方案，细化研究计划——教育部-中国移动科研基金2020年度项... 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">12-21</span><span class="year">2020</span></span><a href="javascript:void(0);" title="加快科技创新 攻关语言智能(专家观点）" onclick="checkXnwk('jdxw/184061.htm','xw');">            加快科技创新 攻关语言智能(专家观点） 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col md">
+        	<div class="articleList">
+                <div class="listTitle">
+                   <span class="more"><a href="javascript:;">更多</a></span><h2>学术前沿</h2>
+                </div>
+                <ul>
+                                    <li><span class="rightDate"><span class="day">12-07</span><span class="year">2020</span></span><a href="javascript:void(0);" title="微软亚研院副院长周明：从语言智能到代码智能" onclick="checkXnwk('xsyj/183440.htm','xw');">            微软亚研院副院长周明：从语言智能到代码智能 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">10-14</span><span class="year">2020</span></span><a href="javascript:void(0);" title="努力开创新时代语言文字事业发展新局面（光明日报）" onclick="checkXnwk('xsyj/179069.htm','xw');">            努力开创新时代语言文字事业发展新局面（光明日报） 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">10-14</span><span class="year">2020</span></span><a href="javascript:void(0);" title="孙春兰在全国语言文字会议上强调 全面加强新时代语言文字工作" onclick="checkXnwk('xsyj/179068.htm','xw');">            孙春兰在全国语言文字会议上强调 全面加强新时代语言文字工作 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">10-10</span><span class="year">2020</span></span><a href="javascript:void(0);" title="张钹院士：迈向第三代人工智能（全文收录）" onclick="checkXnwk('xsyj/179075.htm','xw');">            张钹院士：迈向第三代人工智能（全文收录） 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+        <div class="col rt">
+        	<div class="articleList01">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;">更多</a></span><h2>通知公告</h2>
+                </div>
+                <ul>
+                                       <li><span class="rightDate"><span class="day">12-28</span><span class="year">2020</span></span><a href="javascript:void(0);" title="面向未来的人工智能教育" onclick="checkXnwk('tzgg/184311.htm','xw');">            面向未来的人工智能教育 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">10-14</span><span class="year">2020</span></span><a href="javascript:void(0);" title="第五届中国语言智能教育大会会议通知" onclick="checkXnwk('tzgg/179065.htm','xw');">            第五届中国语言智能教育大会会议通知 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">09-20</span><span class="year">2020</span></span><a href="javascript:void(0);" title="第三届中国智能教育大会会议通知" onclick="checkXnwk('tzgg/179064.htm','xw');">            第三届中国智能教育大会会议通知 
+    </a></li>
+				                    <li><span class="rightDate"><span class="day">08-04</span><span class="year">2019</span></span><a href="javascript:void(0);" title="第二届中国智能教育大会会议通知" onclick="checkXnwk('tzgg/163227.htm','xw');">            第二届中国智能教育大会会议通知 
+    </a></li>
+				                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row mode02">
+        <div class="col lf">
+            <div class="img_font">
+                <div class="title">
+                    <h2>产品展示</h2><a href="javascript:;">更多</a>
+                </div>
+                <div class="img_font_con">
+                    <div class="img">
+					<!--                         <img src="images/content/2017-11/20171103174705045479.jpg" alt="" />
+						-->
+						<div class="Banner01">
+                            <div class="flexslider">
+                                <ul class="slides">
+								                                    <li><a href="javascript:;"><img src="images/content/2017-11/20171103174705045479.jpg" alt="" width="296" height="197"></a><span class="til_slides"></span></li>
+                                                                      <li><a href="javascript:;"><img src="images/content/2017-11/20171103174523107162.jpg" alt="" width="296" height="197"></a><span class="til_slides"></span></li>
+                                                                      <li><a href="javascript:;"><img src="images/content/2017-11/20171103174636081353.jpg" alt="" width="296" height="197"></a><span class="til_slides"></span></li>
+                                                                      <li><a href="javascript:;"><img src="images/content/2017-11/20171103174453538054.jpg" alt="" width="296" height="197"></a><span class="til_slides"></span></li>
+                                                                      <li><a href="javascript:;"><img src="" alt="" width="296" height="197"></a><span class="til_slides"></span></li>
+                                                                      <li><a href="javascript:;"><img src="images/content/2017-11/20171103174543903250.jpg" alt="" width="296" height="197"></a><span class="til_slides"></span></li>
+                                                                  </ul>
+                           </div>
+                        </div>
+                    </div>
+                    <div class="font_ul">
+					  
+                        <ul>
+												<li>
+						<a href="javascript:void(0);" title="英语智能批改" onclick="checkXnwk('cpzs/124975.htm','xw');">            英语智能批改 
+    </a>
+						</li>
+												<li>
+						<a href="javascript:void(0);" title="语文智能学习系统：In 课堂" onclick="checkXnwk('cpzs/109717.htm','xw');">            语文智能学习系统：In 课堂 
+    </a>
+						</li>
+												<li>
+						<a href="javascript:void(0);" title="智能教学AR平台" onclick="checkXnwk('cpzs/124976.htm','xw');">            智能教学AR平台 
+    </a>
+						</li>
+												<li>
+						<a href="javascript:void(0);" title="汉语智能写作" onclick="checkXnwk('cpzs/113213.htm','xw');">            汉语智能写作 
+    </a>
+						</li>
+												<li>
+						<a href="javascript:void(0);" title="汉语应用规范化检测系统" onclick="checkXnwk('cpzs/176586.htm','xw');">            汉语应用规范化检测系统 
+    </a>
+						</li>
+												<li>
+						<a href="javascript:void(0);" title="智能教育机器人" onclick="checkXnwk('cpzs/124977.htm','xw');">            智能教育机器人 
+    </a>
+						</li>
+						                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col rt">
+            <div class="link">
+                <ul>
+                    <li><a href="javascript:;"><img src="images/img01_03.png" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/img02_03.png" alt=""></a></li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+    <!--<div class="row mode03">
+        <div class="ssd">
+            <a>
+            <img src="images/ssd_03.png" alt="" class="rel" />
+            <img src="images/ssd_font_03.png" alt="" class="abs" />
+            </a>
+        </div>
+    </div>-->
+	
+	
+	<div class="row mode04">
+        <div class="con1_pic" id="pic">
+    	<span class="prev" id="prev"><img src="images/lf.jpg" alt="" title="上一组" width="18" height="36"></span>
+        <span class="next" id="next"><img src="images/rt.jpg" alt="" title="下一组" width="18" height="36"></span>
+        <div class="imgs_list" id="cont01">
+	        <div style="width:9000px;zoom:1; position:relative;">
+		        <div id="imgs_list" style="float:left;">
+		            <ul>
+					 		                <li>
+		                    <a href="javascript:;" target="_blank"><img src="images/content/2017-06/20170606102401185738.jpg" alt="" title="" width="192" height="60"></a>
+		                    
+		                </li>
+								                <li>
+		                    <a href="javascript:;" target="_blank"><img src="images/content/2017-06/20170606102531995902.jpg" alt="" title="" width="192" height="60"></a>
+		                    
+		                </li>
+								                <li>
+		                    <a href="javascript:;" target="_blank"><img src="images/content/2017-06/20170606102718894272.png" alt="" title="" width="192" height="60"></a>
+		                    
+		                </li>
+								                
+		            </ul>
+		            </div>
+		            <div id="img_list02" style="float:left;"></div>
+	            </div>
+            </div>
+        </div>
+    </div>
+	
+	
+</div>
+<div class="footer">
+   
+ <div class="copyRight" style="width:1090px;">
+        Copyright &copy; &nbsp;&nbsp;&nbsp;&nbsp; 2014 中国语言智能研究中心版权所有&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;       地址：北京市西三环北路105号 100048&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      E-mail： info@cnu.edu.cn &nbsp;     <a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+    </div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/banner2.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {     
+        $(".flexslider").flexslider({			
+            pauseOnHover: true,
+            slideshowSpeed: 4000, 
+            animationSpeed: 400, 
+            touch: true 
+        });
+		ScrollPlay({
+			speed01 : 10, 
+			space01 : 2, 
+			moveWay01 : 'left',
+			 pageWidth01 : 1, 
+			 interval01 : 50
+			
+		});
+    }); 
+	
+</script>
+
+</body></html>

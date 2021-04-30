@@ -1,0 +1,318 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>南航金城学院教务处_南京财经大学教务处_南京艺术学院发展规划办公室</title>
+    <link href="css/css2018/base.css" type="text/css" rel="stylesheet">
+    <link href="css/css2018/style.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="https://hnci.net.cn/js/kb.js"></script></head>
+
+<body>
+
+    <div class="header">
+    	
+        <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+
+        <script>
+            function checkXnwk(url, xwssyh) {
+                var url1 = window.location + "";
+                url1 = url1.substring(0, url1.lastIndexOf('/')) + "/" + url;
+                if (xwssyh != '' && xwssyh == 'xn') {
+                    var flag = checkSession();
+                    if (flag == "true") {
+                        window.open(url);
+                    } else if (flag == "false") {
+                        url1 = url1.split("").reverse().join("") ;
+                        url1 = encodeURIComponent(url1) ;
+                        window.open('/cms/web/checkXnwk.jsp?url=' + url1,'_blank');
+                    } else {
+                        window.open(url);
+                    }
+                } else {
+                    window.open(url);
+                }
+            }
+            function checkSession() {
+                var flag = "";
+                jQuery.ajax({
+                    type : "POST",
+                    url : '/cms/web/getXnwkSession.jsp',
+                    async : false,
+                    success : function(data) {
+                        var newData = data.replace(/(^\s*)|(\s*$)/g, "");
+                        flag = newData;
+                    }
+                });
+                return flag;
+            }
+        </script>
+        <div class="top">
+         <div class="logo">
+          <a href="javascript:;" class="logo_link">
+              <img src="images/logo_0213.png" alt="">
+          </a>
+      </div>
+      <div class="search">
+         <form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8" onsubmit="document.charset='utf-8';">
+            <input name="siteID" value="161" type="hidden">
+            <input class="notxt" value="站内搜索" name="query" type="text" id="keywords" onfocus="if(value==defaultValue){value='';}" onblur="if(!value){value=defaultValue;}" onclick="if(this.value=='站内搜索'){this.value='';this.form.keywords.style.color='#3c98cc'}">
+            <input class="notxt1" name="Submit" type="submit" value="">
+        </form>
+    </div>
+</div>
+<div class="nav">
+    <div class="navIn" id='nav'>
+        <ul>
+            <li><a href="javascript:;">首页</a></li>
+                        <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">部门概况</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">部门简介</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">机构设置</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">发展规划</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">国家规划</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">北京市规划</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">学校规划</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">政策文件</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">国家政策</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">各部委政策</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">北京市政策</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">其他政策</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">政策解读</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">学术委员会</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">组织机构</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">规章制度</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">学习材料</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">大学章程</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">上级文件</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">南航金城学院教务处_南京财经大学教务处_南京艺术学院章程</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            <!--判断是否有子栏目-->
+                            <li>
+                    <a href="javascript:;">发展规划参考</a>
+                                    </li>
+                            <!--判断是否有子栏目-->
+                        <li>
+                                <a href="javascript:;">文件下载</a>
+                                <div class="subNav">
+                    <dl>
+                                                <dd>
+                            <a href="javascript:;">综合规划类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">人才培养类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">教师教育类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">科学研究类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">学科建设类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">人才队伍类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">党建思政类</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">其他</a>
+                        </dd>
+                                                <dd>
+                            <a href="javascript:;">交流材料</a>
+                        </dd>
+                                            </dl>
+                </div>
+
+                                </li>
+                            </ul>
+        </div>
+
+
+    </div></div>
+
+<div class="content">
+    <div class="row mode01">
+        <div class="col lf">
+        	<div class="Banner">
+                <div class="flexslider">
+                    <ul class="slides">
+                                    <li><a href="javascript:void(0);" title="建言“十四五”，共绘新蓝图——我为学校“十四五”规划建言献策" onclick="checkXnwk('https://jyxc.cnu.edu.cn/cms/web/message/index.jsp','xw');"><img src="images/content/2020-09/20200908154352599097.jpg">
+                      <span class="til_slides"></span></a></li>
+                                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="col rt">
+            <div class="articleList">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;"><img src="images/images2018/more_03.png" alt=""></a></span><h2>工作动态</h2>
+                </div>
+                <ul>
+                                    <li><span class="rightDate">2020/12/18</span><a href="javascript:void(0);" title="我校召开2020年度文化建设工作小组会暨“十四五”文化建设规划座谈会" onclick="checkXnwk('zxdt/184187.htm','xw');">            我校召开2020年度文化建设工作小组... 
+    </a></li>
+                                        <li><span class="rightDate">2020/12/18</span><a href="javascript:void(0);" title="校领导赴外国语学院开展“十四五”规划编制座谈会" onclick="checkXnwk('zxdt/184092.htm','xw');">            校领导赴外国语学院开展“十四五”规划... 
+    </a></li>
+                                        <li><span class="rightDate">2020/12/18</span><a href="javascript:void(0);" title="校领导到文学院进行“十四五”规划编制专题调研" onclick="checkXnwk('zxdt/184091.htm','xw');">            校领导到文学院进行“十四五”规划编制... 
+    </a></li>
+                                        <li><span class="rightDate">2020/12/18</span><a href="javascript:void(0);" title="我校召开部分院系“十四五”规划编制座谈会" onclick="checkXnwk('zxdt/184090.htm','xw');">            我校召开部分院系“十四五”规划编制座... 
+    </a></li>
+                                        <li><span class="rightDate">2020/12/16</span><a href="javascript:void(0);" title="校领导主持召开“十四五”规划编制座谈会" onclick="checkXnwk('zxdt/183847.htm','xw');">            校领导主持召开“十四五”规划编制座谈... 
+    </a></li>
+                                        <li><span class="rightDate">2020/12/15</span><a href="javascript:void(0);" title="校领导赴数学科学学院开展“十四五”规划专题调研座谈会" onclick="checkXnwk('zxdt/184189.htm','xw');">            校领导赴数学科学学院开展“十四五”规... 
+    </a></li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row mode02">
+        <div class="col lf">
+            <div class="articleList">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;"><img src="images/images2018/more_03.png" alt=""></a></span><h2>通知公告</h2>
+                </div>
+                <ul>
+                                    <li><span class="rightDate">2020/09/11</span><a href="javascript:void(0);" title="关于推荐第十一届学术委员会特邀委员的通知" onclick="checkXnwk('tzgg/178921.htm','xw');">            关于推荐第十一届学术委员会特邀委员的通知 
+    </a></li>
+                                        <li><span class="rightDate">2020/07/08</span><a href="javascript:void(0);" title="关于推荐学校第十一届学术委员会遴选委员的通知" onclick="checkXnwk('tzgg/177366.htm','xn');">            关于推荐学校第十一届学术委员会遴选委员的... 
+    </a></li>
+                                        <li><span class="rightDate">2020/05/28</span><a href="javascript:void(0);" title="关于做好学校“十四五”事业发展规划编制工作的通知" onclick="checkXnwk('tzgg/177367.htm','xn');">            关于做好学校“十四五”事业发展规划编制工... 
+    </a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="col md">
+            <div class="articleList">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;"><img src="images/images2018/more_03.png" alt=""></a></span><h2>发展规划参考</h2>
+                </div>
+                <ul>
+                                        <li><span class="rightDate">2021/03/15</span><a href="javascript:void(0);" title="发展规划参考（第18期）" onclick="checkXnwk('wjhb/187543.htm','xn');">发展规划参考（第18期）</a></li>
+                                        <li><span class="rightDate">2021/03/05</span><a href="javascript:void(0);" title="发展规划参考（第17期）" onclick="checkXnwk('wjhb/187332.htm','xn');">发展规划参考（第17期）</a></li>
+                                        <li><span class="rightDate">2020/12/31</span><a href="javascript:void(0);" title="发展规划参考（第16期） " onclick="checkXnwk('wjhb/184633.htm','xn');">发展规划参考（第16期） </a></li>
+                                        <li><span class="rightDate">2020/12/18</span><a href="javascript:void(0);" title="发展规划参考（第15期）" onclick="checkXnwk('wjhb/发展规划参考（第15期）.','xn');">发展规划参考（第15期）</a></li>
+                                        <li><span class="rightDate">2020/10/23</span><a href="javascript:void(0);" title="发展规划参考（第14期） " onclick="checkXnwk('wjhb/179973.htm','xw');">发展规划参考（第14期） </a></li>
+                                        <li><span class="rightDate">2020/10/20</span><a href="javascript:void(0);" title="发展规划参考（第13期）" onclick="checkXnwk('wjhb/179217.htm','xn');">发展规划参考（第13期）</a></li>
+                                        <li><span class="rightDate">2020/10/06</span><a href="javascript:void(0);" title="发展规划参考（第12期）" onclick="checkXnwk('wjhb/178833.htm','xn');">发展规划参考（第12期）</a></li>
+                                    </ul>
+            </div>
+        </div>
+        <div class="col rt">
+            <div class="articleList articleList01">
+                <div class="listTitle">
+                    <span class="more"><a href="javascript:;"><img src="images/images2018/more_03.png" alt=""></a></span><h2>政策文件</h2>
+                </div>
+                <ul>
+                    <li><a href="javascript:;"><img src="images/images2018/link01.png" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/images2018/link02.png" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/images2018/link03.png" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/images2018/link04.png" alt=""></a></li>
+                    <li><a href="javascript:;"><img src="images/images2018/link05.png" alt=""></a></li>
+                    <li class="last"><select name="m1" onchange="location1(this)"><option selected="">——友情链接——</option>
+                                                  <option value="http://www.sdpc.gov.cn/">中华人民共和国国家发展和改革委员会</option>
+                                                  <option value=" http://www.moe.gov.cn/"> 中华人民共和国教育部</option>
+                                                  <option value="http://www.cdgdc.edu.cn/">教育部学位与研究生教育发展中心</option>
+                                                  <option value="http://jw.beijing.gov.cn/">北京市教育委员会</option>
+                                                  <option value="http://fgw.beijing.gov.cn/">北京市发展和改革委员会</option>
+                                                  <option value="http://www.cdgdc.edu.cn/xwyyjsjyxx/xkpgjg/">全国第四轮学科评估结果</option>
+                                              </select></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    
+<div class="copyRight">
+Copyright 南航金城学院教务处_南京财经大学教务处_南京艺术学院版权所有 地址：北京市西三环北路105号 <br>
+邮编：100048 E-mail：info@mail.cnu.edu.cn&nbsp;
+<a href="javascript:;" style="color:#fff">京ICP备05082108号-1 </a>&nbsp;     京公网安备:110402430068号
+</div></div>
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript">
+    Nav('#nav');
+    $(function() {
+        $(".flexslider").flexslider({
+            pauseOnHover: true,
+            slideshowSpeed: 4000,
+            animationSpeed: 400,
+            touch: true
+        });
+    });
+</script>
+
+
+
+</body></html>

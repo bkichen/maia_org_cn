@@ -1,0 +1,104 @@
+
+/* CSS Document */
+*{ margin:0px; padding:0px;}
+body{ font-size:12px; font-family:"宋体";color:#000;}
+img{ border:0px;}
+ul,li{ list-style-type:none;}
+a{ text-decoration:none;}
+.clear{clear:both; height:0px; line-height:0px; overflow:hidden; margin-top:-4px;}
+
+#wrap{ width:100%; height:auto; background:url(https://dc.cnu.edu.cn/jgdw/images/bg00.jpg);}
+#container{ width:1000px; height:auto; margin:0px auto; background:#FFFFFF;}
+#header{ width:1000px; height:auto; }
+.banner{ width:1000px; height:124px; background:url(https://dc.cnu.edu.cn/jgdw/images/banner.jpg) no-repeat;}
+.nav{ width:1000px; height:37px; margin-top:1px; background:url(https://dc.cnu.edu.cn/jgdw/images/nav.jpg) no-repeat;}
+.nav ul{ padding-left:20px;}
+.nav ul li{ float:left; line-height:37px; display:inline; margin:0px 5px;font-size:14px;}
+.nav ul li a{ width:84px; height:37px; text-align:center; display:block; color:#FFFFFF;}
+.nav ul li a:hover{ background:url(https://dc.cnu.edu.cn/jgdw/images/ahover.jpg) no-repeat;}
+.ser{width:235px; height:20px; overflow:hidden; margin:0; background:url(https://dc.cnu.edu.cn/jgdw/images/ser.jpg) no-repeat; position:relative; left:80px; top:7px; float:left;}				
+.search{ position:absolute; width:235px; height:20px; top:0px; left:0px; overflow:hidden; text-align:left;}
+.search input{position:absolute; width:160px; height:20px;  line-height:20px; color:#3c98cc; border:none; background:none; left:0px; top:0px; padding-left:0px; }
+.search input.notxt{color:#3c98cc;}	
+.search button {position:absolute; width:55px; height:20px; top:0px; left:172px; border:none; cursor:pointer; background:none;} 
+
+#content{ width:1000px; height:auto; margin:4px auto 0px;}
+.box01{ width:356px; height:446px; border:1px solid #dbdbdb; float:left;}
+.flash_news{ width:345px; height:280px; padding:9px 0px 0px 9px; border:1px solid #fff; background:url(https://dc.cnu.edu.cn/jgdw/images/bg01.jpg) repeat-x;}
+.quick{ width:335px; height:142px; background:url(https://dc.cnu.edu.cn/jgdw/images/bg02.jpg) repeat-x; margin:7px auto 0px;}
+.quick h3{ font-size:14px; width:336px; height:40px; line-height:40px; background:url(https://dc.cnu.edu.cn/jgdw/images/dot_shot.jpg) center bottom no-repeat; color:#c70000; text-align:center;}
+.text01{ width:290px; height:70px; line-height:22px; text-indent:24px; color:#212121; margin:14px auto 0px;}
+.text01 a{ color:#e44b00;}
+
+.box02{ width:635px; height:auto; float:right;}
+.con_a01{ width:635px; height:auto; }
+.con_a01 .title{ width:635px; height:31px; background:url(https://dc.cnu.edu.cn/jgdw/images/a01.jpg) no-repeat;}
+.con_a01 .title h3{ line-height:31px; font-size:14px; color:#fff;  margin-left:30px; float:left; display:inline; }
+.con_a01 .title a{ float:right; margin:6px 18px 0px 0px;}
+.con_a01 .title02{ width:635px; height:31px; background:url(https://dc.cnu.edu.cn/jgdw/images/a02.jpg) no-repeat;}
+.con_a01 .title02 h3{ line-height:31px; font-size:14px; color:#fff;  margin-left:30px; float:left; display:inline;}
+.con_a01 .title02 a{ float:right; margin:6px 18px 0px 0px;}
+.list_a01{ width:633px; height:188px; border:1px solid #dbdbdb; border-top:none;}
+.tab01{ width:631px; height:185px; border:1px solid #dbdbdb; border-left:none; margin-top:0px; }
+.tab01 ul{ padding:8px 0px 0px 12px;}
+.tab01 ul li{ background:url(https://dc.cnu.edu.cn/jgdw/images/dot01.gif) 0px 8px no-repeat; padding-left:15px; line-height:28px;}
+.tab01 ul li a{ color:#212121;}
+.tab01 ul li a:hover{ color:#FF3300;}
+.tab01 ul li span{ float:right; margin-right:23px;}
+
+.box03{ width:1000px; height:46px; margin-top:8px;}
+.five{ width:732px; height:46px;  float:left;}
+.box03 h3{ float:right; width:264px; height:46px;}
+
+.footer{ width:1000px; height:92px; background:url(https://dc.cnu.edu.cn/jgdw/images/footer.jpg) repeat-x; margin-top:8px; line-height:80px; text-align:center; color:#664949;}
+
+.leftnav{ width:260px; height:auto; float:left;}
+.con_a02{ width:260px; height:auto; }
+.con_a02 .title{ width:260px; height:31px; background:url(https://dc.cnu.edu.cn/jgdw/images/a03.jpg) no-repeat;}
+.con_a02 .title h3{ line-height:31px; font-size:14px; color:#fff;  margin-left:30px; float:left; display:inline; }
+.con_a02 .title a{ float:right; margin:6px 18px 0px 0px;}
+.list_a02{ width:258px; height:270px; border:1px solid #dbdbdb; border-top:none;}
+.tab02{ width:256px; height:267px; border:1px solid #dbdbdb; border-left:none; margin-top:0px; }
+.tab02 ul{ padding:8px 0px 0px 12px; overflow:hidden;}
+.tab02 ul li{ width:217px; overflow:hidden; background:url(https://dc.cnu.edu.cn/jgdw/images/dot01.gif) 0px 8px no-repeat; padding-left:15px; line-height:28px;}
+.tab02 ul li a{ color:#212121;}
+.tab02 ul li a:hover{ color:#FF3300;}
+.tab02 ul li span{ float:right; margin-right:3px;}
+
+.right{ width:732px; height:auto; float:right;}
+.right .title02{ width:732px; height:34px; background:url(https://dc.cnu.edu.cn/jgdw/images/tit01.jpg) no-repeat; line-height:32px;}
+.right .title02 h3{  float:left; font-size:14px; margin-left:40px; color:#ac0e01; display:inline;}
+.right .title02 span{ float:right; margin-right:15px; color:#9e4a00;}
+.right .title02 span a{ color:#9e4a00;}
+.right .title02 span a:hover{ color:#CC3300;}
+
+.list_a03{ width:730px; min-height:576px; height:576px; border:1px solid #e9d6cf; border-top:none; background:url(https://dc.cnu.edu.cn/jgdw/images/qian.jpg) left bottom repeat-x;}
+div[class].list_a03{ height:auto;}
+.con_a03{ width:100%;}
+.con_a03 ul{ padding:20px 0px 0px 20px; width:95%; height:auto; overflow:hidden; clear:both;}
+.con_a03 ul li{ line-height:30px; background:url(https://dc.cnu.edu.cn/jgdw/images/b00.jpg) left 12px no-repeat; padding-left:10px; color:#363636; }
+.con_a03 ul li a{ color:#262626;}
+.con_a03 ul li a:hover{ color:#f00;}
+.con_a03 ul li span{ float:right; margin-right:10px; color:#666666;}
+.page_a2{ width:700px; height:20px; line-height:20px; margin:20px auto 0px; background:#f7e2dd; text-align:center; }
+.page_a2 ul{ padding-left:140px;}
+.page_a2 ul li{ margin-right:15px; float:left; line-height:20px;}
+.page_a2 ul li a{ color:#737373;}
+.page_a2 ul li a:hover{ color:#f30;}
+.page_a2 input{ width:30px;} 
+
+#main3{width:100%;height:auto; background:url(https://dc.cnu.edu.cn/jgdw/images/text_bg.jpg) repeat-x left top; margin:0px auto 0px; }
+#main3 h3{float:none; width:auto;height:30px; background:url(https://dc.cnu.edu.cn/jgdw/images/x_line.gif) no-repeat center bottom; text-align:center; line-height:30px; color:#d5080b; font-size:16px; height:35px; padding:15px 0px 0px 0px; }
+#main3 #author{ width:700px; background:#f9f0ef; height:24px; line-height:24px; text-align:center; margin:10px auto; clear:both; color:#6d6d6d;}
+#main3 #work{width:87%; height:auto;  margin:20px auto 20px; text-align:left; line-height:26px; color:#634343; font-size:12px; }
+
+.listly{ width:98%; height:auto; color:#606060;padding:25px 0px 0px 20px;line-height:23px; }
+.xgfj{ width:96%;height:auto; margin:auto; overflow:hidden; padding-top:5px; padding-bottom:5px;}
+.xgfj_title{ width:100%; height:30px;  border-bottom:2px solid #9e4a00; margin:auto;}
+.xgfj_title img{ margin:6px 0 0 15px; float:left;}
+.xgfj_title h5{ float:left; width:80px; height:24px; line-height:24px; color:#333; font-size:14px; text-align:left; margin:2px 0 0 10px; _margin:2px 0 0 10px;}
+.xgfj_list{ width:93%; height:auto; margin:0px auto;}
+.xgfj_list ul{ overflow:hidden;}
+.xgfj_list ul li{ width:100%; line-height:28px; background:url(https://dc.cnu.edu.cn/jgdw/images/l02.gif) left 10px no-repeat; padding-left:22px; float:left; clear:both;}
+.xgfj_list ul li a{ color:#000; float:left; }
+.xgfj_list ul li a:hover{ color:#e96101;}
